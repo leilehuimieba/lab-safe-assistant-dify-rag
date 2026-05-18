@@ -1,0 +1,79 @@
+Biosafety Manual – Stanford Environmental Health & Safety
+For medical, fire or law enforcement assistance, call 911
+For EH&S emergencies, including after hours, call (650) 725-9999
+Report an Incident (SU-17)
+Health & Safety Topics
+Standard Operating Procedures
+Biohazardous waste includes all laboratory waste that may contain any biohazardous material or were in contact with said material. Additionally, any blood or components of blood or body fluids are to be disposed of as biohazardous waste, as are human or non-human primate cell lines. All biohazardous waste must be disposed of in red bags marked with the biohazard symbol; these bags must be secondarily contained in a puncture resistant outer container and covered with a tight fitting lid. Biohazard stickers must be present on all four sides of the container and the top of the lid.
+In accordance with the California Medical Waste Management Act, Health and Safety Code, Chapter 6.1, medical waste is defined as including, but not limited to the following:
+Human or animal specimens or cultures from medical and pathological laboratories.
+Cultures and stocks of infectious agents from research and industrial laboratories.
+Wastes from the production of bacteria, viruses, or the use of spores, discarded live and attenuated vaccines, and culture dishes and devices used to transfer, inoculate, and mix cultures.
+Additionally, medical waste can include:
+Waste containing any biological specimens sent to the laboratory for analysis.
+Human specimens or tissues removed at surgery or autopsy, which are suspected by the attending physician and surgeon or dentist of being contaminated with infectious agents known to be contagious to humans.
+Animal parts, tissues, fluids, or carcasses suspected by the attending veterinarian of being contaminated with infectious agents contagious to humans.
+Waste, which at the point of transport from the generator’s site, at the point of disposal, or thereafter, contains recognizable blood, fluid blood products, containers, or equipment containing blood that is fluid, or blood from animals known to be infected with diseases which are communicable to humans.
+Waste containing discarded materials contaminated with excretion, exudate, or secretions from humans who are required to
+be isolated by the infection control staff, the attending physician and surgeon, the attending veterinarian, or local health officer, to protect others from highly communicable diseases or isolated animals known to be infected with diseases which are highly communicable to humans.
+Please note, however, that the California Medical Waste Management Act has as exceptions to the definition of medical waste:
+Waste generated in food processing or biotechnology that does not contain an infectious agent (defined as BL-3 or above).
+Waste generated in biotechnology that does not contain human blood or blood products or animal blood or blood products suspected of being contaminated with infectious agents known to be communicable to humans
+Urine, feces, saliva, sputum, nasal secretions, sweat, tears or vomitus, unless it contains fluid blood.
+Figure 1. Biohazardous and Medical Waste Disposal Guidelines. ©2009 Stanford University
+Figure 2. Biohazard Waste Bag in a Hard-Sided Leak Proof Container
+These exemptions would include tissue culture materials that are not known or suspected of being infected. The biotechnology exemption permits the above items to be disposed of as non-red bag (non-biohazardous) waste. Note that these materials should be inactivated with an appropriate disinfectant to avoid contamination elsewhere in the laboratory.
+An overview of Medical Waste Disposal for Stanford University is illustrated in Figure 1. A proper biohazardous waste container is shown in Figure 2. This chart is available in hard copy from EH&S.
+Sharps waste means any device having rigid corners, edges or protuberances capable of cutting or piercing, including, but not limited to, all of the following:
+Hypodermic needles, attachments (syringes or tubing), and blades
+Broken glass/plastic items, such as Pasteur pipettes and blood vials contaminated with medical waste
+Teeth, both intact and fragmented
+Important Information
+Do not clip, bend, shear or separate needles from syringes and do not recap needles
+These are the times that you are most likely to get injured.
+All sharps waste must be placed in an approved sharps container that is constructed of rigid, hard plastic and labeled with the universal biohazard symbol. Do not overfill the container. The lid of the sharps container must be shut and the container labeled with the room number prior to disposal. Glass pipettes that have come into contact with biohazardous waste must be discarded as sharps waste and not in broken glass containers (Figure 2).
+Figure 3. Sharps Containers
+Waste can often involve a mixture of medical and non-medical waste. Mixed waste is categorized as medical waste except for the following:
+A mixture of medical waste and hazardous chemical waste is categorized as hazardous chemical waste and is subject to the statutes and regulations applicable to hazardous chemical waste.
+A mixture of medical waste and radioactive waste is categorized as radioactive waste and is subject to the statutes and regulations applicable to radioactive waste.
+A mixture of medical waste, hazardous chemical waste, and radioactive waste is categorized as radioactive waste and is subject to the statutes and regulations applicable to radioactive waste.
+Mixed chemical and biohazardous sharps waste will be placed into a sharps container that is labeled as chemical sharps waste. Any mixed chemical and biohazardous waste must be properly identified and labeled with a Hazardous Waste Tag. Information on the Stanford University Chemical Waste programs can be found at: https://ehs.stanford.edu/services/ wastetag or call EH&S, 723.5069.
+All mixed radioactive-biohazardous waste must be properly segregated prior to disposal. Mixed radioactive and biohazardous non-sharps waste will be packed in a yellow bag labeled with the universal radiation symbol and/or radiation symbol. Mixed radioactive and medical sharps waste will be placed in a sharps container labeled with the universal radiation label. Mixed radioactive waste is picked up by Radiation Safety waste technicians and transported to the EH&S radioactive waste accumulation area for packaging and disposal. Call 725-1408 for pick up and information regarding mixed radioactive-biohazardous waste.
+After proper euthanasia of laboratory animals (Department of Laboratory Animal Medicine Euthanasia Procedures), uncontaminated/non-infectious animal carcasses shall be placed in black bags and brought to the appropriate Research Animal Facility (RAF) refrigerators. Contaminated/ infected carcasses, including those administered rDNA/SNA, shall be placed in a red biohazard bag, the bag shall be labeled with the APLAC number and biohazardous agent, put in a hard-sided leakproof container that is labeled with the biohazard symbol and brought to the RAF biohazard refrigerators (Figure 3).
+Stanford University contracts with a licensed medical waste vendor to properly handle and dispose of all medical waste. Unless otherwise stated, at Stanford University autoclaving materials prior to medical waste disposal is not necessary. Exceptions to this are users of BSL – 3 biohazardous agents.
+Any laboratory medical waste which is being autoclaved shall be placed in an autoclavable red bag. This bag shall have the Universal Biohazard Symbol on the outside. The top of the bag shall be secured with indicator tape that will change color after the attainment of sterilization. Be sure that the autoclavable red bag can withstand the autoclave cycle without melting. See autoclave
+Waste & Decontamination
+Biosafety & Biosecurity
+Emergency Management
+Environmental Protection
+Fire Marshal's Office
+Occupational Health Center
+Occupational Safety & Health
+Training & Communications
+Construction Managers
+External Contractors
+Lab Safety Coordinators
+Parents and Families
+Principal Investigators
+Supervisors/Managers
+University Safety Partners
+Animal Research Occupational Health and Safety Program
+Construction and Maintenance
+Eco/Sustainable Practices
+Emergency Preparedness
+General Workplace Safety
+Institutional Biosafety Committee (IBC)
+Lab Setup and Shutdown
+Occupational Injury and Illness
+Respiratory Illness Policies
+Shop / Makerspace Safety
+Stanford University Fire Marshal’s Office (SUFMO)
+COVID-19 Information
+Chemical Inventory System
+Find an EH&S Specialist
+Recycling and Disposal Guide
+Register for Training
+484 Oak Road, Stanford, CA 94305-8007Phone: 650-723-0448
+© Stanford University, Stanford, California 94305.
+Copyright Complaints
+Download full instructions here ->

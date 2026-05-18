@@ -1,0 +1,225 @@
+National Institutes of Health 
+Biorisk Management Program 
+
+Approval Process for Inactivation Methods for 
+Infectious Material 
+
+Page 1 of 3 
+SOP 900 
+Revision v.4 
+Approval: 
+Approval Date: 
+
+Purpose 
+
+This document describes the process by which Principal Investigators (PIs) must petition the NIH 
+Institutional Biosafety Committee (IBC) to gain approval to transfer biological materials that 
+have been approved for work in a high containment space (i.e., BSL3/ABSL3, BSL4/ABSL4) to 
+a lower biosafety level space. 
+
+Scope 
+
+This document applies to all high and maximum containment laboratories at the NIH that wish to 
+transfer biological materials to a lower biosafety level space. It describes the process to petition 
+the NIH IBC for approval of inactivation protocols. Inactivation protocols are procedures that 
+render a biological agent, toxin, or nucleic acid non-viable or non-functional. For a biological 
+agent, “non-viable” means the agent/toxin is no longer capable of growing, replicating, infecting, 
+or causing disease. For a nucleic acid, “non-viable” means that the nucleic acids are no longer 
+capable of producing infectious forms of a virus or expression of a functional toxin without 
+further genetic manipulation. For a toxin, the term “non-functional” means a toxin is no longer 
+capable of exerting its toxic effect. 
+
+Roles and Responsibilities 
+
+PIs supervising and/or conducting the work are responsible for understanding this process and 
+obtaining written NIH IBC approval before transferring biological materials from a high 
+containment space to a lower biosafety level space. 
+
+Special Practices 
+
+ Each PI is required to submit validation testing and results; please see Suggested Guidelines 
+for Validation of Inactivation Methods (Appendix 1), for each distinct inactivation method, 
+even if the method is a widely accepted standard or has been previously published in a peer-
+reviewed journal. 
+
+ PIs must have a log book or tracking method (Example: appendix 2) in the laboratory or 
+anteroom which must be used to log inactivated samples removed from the laboratory. 
+Recorded information must include the (1) date of removal, (2) full name of the person 
+removing sample, (3) number of samples being removed, (4) the agent the sample contained, 
+(5) the inactivation method utilized and (5) location to where sample was removed. 
+Procedures for recording pertinent information should be described in the laboratory 
+inactivation standard operating procedure. 
+
+ The NIH IBC will determine the appropriate personal protective equipment (PPE) by 
+
+conducting a risk assessment. All established PPE, and biosafety level requirements for 
+
+ 
+ 
+ 
+ working with the agent will remain in effect before, during and after validation testing of the 
+procedure until the protocol for transferring the agents to a lower biosafety level laboratory is 
+approved. 
+If a suspected failure of the approved method is identified or viable biological material has 
+been accidentally removed from the high containment space then the PI must notify the 
+respective NIH Biosafety Officer (BSO). 
+
+ 
+
+Procedures 
+
+ For all new sample inactivation methods, the PI or their designee must discuss with their 
+safety specialist and/or the NIH BSO their intent to inactivate biological materials for 
+removal from a high containment space to a lower biosafety level space. 
+
+ A PI may develop an original inactivation method, utilize a previously published procedure 
+
+or utilize one developed by another lab. In all cases the protocol must be validated in their 
+laboratory. 
+
+ To avoid any unforeseen delays in approval, it may be beneficial for the PI to discuss the 
+intended inactivation method and testing procedures with the NIH BSO. Following the 
+discussion, the investigator may proceed with performing validation testing on the biological 
+materials. Validation testing is required for any original inactivation method, existing 
+inactivation methods developed by other labs, or procedures. This is to demonstrate that 
+analogous results can be achieved in the PI’s laboratory. 
+
+ All proposed inactivation methods, detailed validation test procedures, and validation test 
+
+results must be submitted as an amendment to an existing rDNA registration (if applicable) or 
+PRD registration, for review by the IBC. Suggested guidelines have been provided to assist 
+PIs in the validation process (Appendix 1). 
+
+ Upon review and approval by the NIH IBC, the NIH BSO shall provide documentation to the 
+PI listing the approved inactivation method(s) for his/her laboratory and stipulations, if any, 
+for performing the procedure(s). 
+
+ The PI shall add the inactivation standard operating procedure(s) to his/her biosafety plan 
+
+(manual), noting the applicable approved pathogen(s) that can be inactivated. 
+ The PI shall document personnel training on the approved inactivation method(s). 
+ 
+
+Inactivated material may be removed from the high containment laboratory only after IBC 
+approval is obtained, the biosafety plan updated, and staff training completed. 
+ The PIs Personnel shall subsequently follow the approved inactivation method and 
+
+procedure(s) and all written stipulations to ensure complete inactivation of samples leaving 
+the laboratory. 
+
+ PIs are required to provide annual training to laboratory personnel on the inactivation 
+
+procedures to ensure that procedural drift does not occur. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Suggested Guidelines for Validation of Inactivation Methods 
+
+Listed below are topics that the IBC considers when discussing validation studies and resulting 
+data for the inactivation of agents/toxins. Providing the information below will speed up the 
+approval process by reducing the chance that the IBC will request additional data or further 
+clarification of the data provided. 
+
+1. Samples 
+
+a. Listing the agent/toxin used and why they were chosen. 
+b. Testing the highest titer of sample expected under experimental conditions. If this is not 
+
+possible, discussing how the validation data supports the use of this inactivation 
+method, and to what degree. 
+
+c. Describing the nature of the samples analyzed (e.g. tissue, cells, viral or bacterial preps, 
+
+etc.). 
+
+i. Providing validation data for every type of sample being inactivated. 
+
+2. Assays 
+
+a. Methods 
+
+i. Providing detailed experimental conditions and standard operating procedures 
+
+(SOPs) for each inactivation method. 
+
+ii. Indicating if multiple variables or individual steps in the procedure were tested. 
+iii. Clearly indicating the number of samples tested for each condition. 
+
+b. Detection assay 
+
+i. Describing why the assay is appropriate for the chosen agent/toxin, or type of 
+
+sample. 
+
+ii. Giving the upper and lower limits of detection of the assay. 
+iii. Providing a detailed experimental protocol for the assay. 
+iv. If possible/practical, using a second complementary assay to confirm results. 
+
+3. Controls 
+
+a. Clearly defining the positive control. 
+b. Clearly defining the negative control. 
+
+4. Reproducibility 
+
+a. Giving the n number for experimental and control samples for each experiment. A 
+
+minimum of n=3 for each group is recommended. 
+
+b. Repeating the experiment at least once following the exact same protocol/SOP. (This 
+
+helps the IBC assess the reproducibility of the tested conditions.) 
+
+5. Results 
+
+a. Providing a complete summary of the results. Raw data are fine if presented clearly. 
+b. Stating the reduction of infectious units and what that means within the limits of 
+
+detection of the chosen assay. 
+c. Giving statistical significance. 
+d. Stating the final conclusions of the study. 
+
+6. Final conditions 
+
+a. Based on the results, clearly detailing the final protocol and conditions to be used in the 
+
+SOP. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Inactivated Sample Removal Log 
+
+Appendix 2 
+
+Principal Investigator(s):_________________________________________________________ 
+
+Date of 
+Removal 
+
+Name of 
+person 
+removing 
+material 
+(Print) 
+
+Number of 
+samples 
+
+Infectious 
+Agent 
+
+Inactivation 
+Method 
+
+Item Moved to 
+(Location)

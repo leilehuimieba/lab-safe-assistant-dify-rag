@@ -1,0 +1,590 @@
+{
+  "generated_at": "2026-04-29T04:48:32.683053+00:00",
+  "pdf_source_count": 36,
+  "pdf_generated_rows": 758,
+  "bucket_counts": {
+    "text_ingested": 30,
+    "short_notice_pdf": 3,
+    "image_or_poster_pdf": 2,
+    "short_text_ingested": 1
+  },
+  "zero_pdf_count": 5,
+  "items": [
+    {
+      "id": "NIH-CSG",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-safety-guide.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 66,
+      "text_chars": 63887,
+      "raw_bytes": 38877910,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-CSG.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-CSG_chemical-safety-guide.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-CHP",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-hygiene-plan.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 80,
+      "text_chars": 182641,
+      "raw_bytes": 1750513,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-CHP.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-CHP_chemical-hygiene-plan.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-SEG",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-segregation-and-storage.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 17,
+      "text_chars": 12463,
+      "raw_bytes": 681833,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-SEG.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-SEG_chemical-segregation-and-storage.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-GAS-CRYO",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/compressed-gas-and-cryogen-safety-guidelines-document.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 24,
+      "text_chars": 43307,
+      "raw_bytes": 776401,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-GAS-CRYO.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-GAS-CRYO_compressed-gas-and-cryogen-safety-guidelines-document.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-PEROXIDE",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/managing-peroxide-formers-in-the-lab.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 10,
+      "text_chars": 6312,
+      "raw_bytes": 250972,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-PEROXIDE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-PEROXIDE_managing-peroxide-formers-in-the-lab.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-PYRO",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/managing-pyrophoric-and-water-reactive-chemicals-in-the-laboratories.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 18,
+      "text_chars": 22659,
+      "raw_bytes": 354828,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-PYRO.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-PYRO_managing-pyrophoric-and-water-reactive-chemicals-in-the-laboratories.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-COMPAT-STORAGE",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/fact-sheet-on-compatible-chemical-storage.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 3,
+      "text_chars": 3714,
+      "raw_bytes": 265345,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-COMPAT-STORAGE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-COMPAT-STORAGE_fact-sheet-on-compatible-chemical-storage.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-CABINET",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/fact-sheet-on-chemical-storage-cabinets.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 6,
+      "text_chars": 5052,
+      "raw_bytes": 253225,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-CABINET.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-CABINET_fact-sheet-on-chemical-storage-cabinets.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-CRYOGEN-FS",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/cryogen-fact-sheet.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 5,
+      "text_chars": 3691,
+      "raw_bytes": 6356026,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-CRYOGEN-FS.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-CRYOGEN-FS_cryogen-fact-sheet.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-PHS",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/particularly-hazardous-substances-phs.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 9,
+      "text_chars": 7731,
+      "raw_bytes": 322474,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-PHS.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-PHS_particularly-hazardous-substances-phs.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-DCM",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/working-safely-with-dichloromethane.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 7,
+      "text_chars": 6446,
+      "raw_bytes": 208763,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-DCM.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-DCM_working-safely-with-dichloromethane.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-DCM-PLAN",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/nih-dichloromethane-health-and-safety-plan.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 18,
+      "text_chars": 27890,
+      "raw_bytes": 356312,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-DCM-PLAN.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-DCM-PLAN_nih-dichloromethane-health-and-safety-plan.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-OEL",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/occupational-exposure-limits-for-chemicals.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 4,
+      "text_chars": 2162,
+      "raw_bytes": 37177,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-OEL.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-OEL_occupational-exposure-limits-for-chemicals.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-FUME-HOOD-CLEAN",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/how-to-safely-clean-cfh-web.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 8,
+      "text_chars": 5300,
+      "raw_bytes": 145046,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-FUME-HOOD-CLEAN.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-FUME-HOOD-CLEAN_how-to-safely-clean-cfh-web.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-LAB-SOP-TEMPLATE",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/lab-specific-sop-template.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 13,
+      "text_chars": 14854,
+      "raw_bytes": 363989,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-LAB-SOP-TEMPLATE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-LAB-SOP-TEMPLATE_lab-specific-sop-template.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-TOXIN",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/exempt-toxin-program-requirements.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 7,
+      "text_chars": 5622,
+      "raw_bytes": 162509,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-TOXIN.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-TOXIN_exempt-toxin-program-requirements.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-INACTIVATION",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/inactivation-method-review-process.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 7,
+      "text_chars": 8102,
+      "raw_bytes": 289223,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-INACTIVATION.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-INACTIVATION_inactivation-method-review-process.pdf.pdf"
+      ]
+    },
+    {
+      "id": "CDC-BMBL6",
+      "org": "CDC/NIH",
+      "url": "https://www.cdc.gov/labs/pdf/SF__19_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 170,
+      "text_chars": 1504692,
+      "raw_bytes": 4953083,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\CDC-BMBL6.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\CDC-BMBL6_SF__19_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-BMBL6",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/biosafety-in-microbiological-and-biomedical-laboratories.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 80,
+      "text_chars": 1504280,
+      "raw_bytes": 4559461,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-BMBL6.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-BMBL6_biosafety-in-microbiological-and-biomedical-laboratories.PDF.pdf"
+      ]
+    },
+    {
+      "id": "NIH-LASER",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/laser-safety-program.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 25,
+      "text_chars": 31879,
+      "raw_bytes": 965515,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-LASER.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-LASER_laser-safety-program.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-LABCOAT",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/laboratory-coat-selection-guidance.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 12,
+      "text_chars": 18774,
+      "raw_bytes": 162799,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-LABCOAT.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-LABCOAT_laboratory-coat-selection-guidance.pdf.pdf"
+      ]
+    },
+    {
+      "id": "NIH-ECP",
+      "org": "NIH Office of Research Services",
+      "url": "https://ors.od.nih.gov/sr/dohs/Documents/exposure-control-plan.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 50,
+      "text_chars": 52134,
+      "raw_bytes": 416109,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\NIH-ECP.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\NIH-ECP_exposure-control-plan.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-CHP",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/laboratory-chemical-hygiene-plan.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 80,
+      "text_chars": 192611,
+      "raw_bytes": 1175846,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-CHP.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-CHP_laboratory-chemical-hygiene-plan.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-LASER-SOP",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/laser-sop.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 4,
+      "text_chars": 5784,
+      "raw_bytes": 144569,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-LASER-SOP.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-LASER-SOP_laser-sop.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-HF",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/hydrofluoric-acid-exposure.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 0,
+      "text_chars": 1446,
+      "raw_bytes": 204513,
+      "bucket": "short_notice_pdf",
+      "recommended_action": "PDF 可访问但正文不足，适合作为附属证据或人工摘要，不自动计入有效条目。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-HF.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-HF_hydrofluoric-acid-exposure.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-LAB-RULES",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/lab-safety-rules.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 0,
+      "text_chars": 1690,
+      "raw_bytes": 188729,
+      "bucket": "short_notice_pdf",
+      "recommended_action": "PDF 可访问但正文不足，适合作为附属证据或人工摘要，不自动计入有效条目。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-LAB-RULES.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-LAB-RULES_lab-safety-rules.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-MIN-PPE",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/minimum-lab-ppe.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 0,
+      "text_chars": 448,
+      "raw_bytes": 1429600,
+      "bucket": "image_or_poster_pdf",
+      "recommended_action": "PDF 可访问但文本很少，疑似海报/图片型 PDF；建议 OCR 或人工摘要，不计入有效条目贡献。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-MIN-PPE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-MIN-PPE_minimum-lab-ppe.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-BSC-POSTER",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/biosafety-cabinet-poster.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 1,
+      "text_chars": 4444,
+      "raw_bytes": 2696804,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-BSC-POSTER.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-BSC-POSTER_biosafety-cabinet-poster.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-NEEDLEBOX",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/needlebox-disposal.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 0,
+      "text_chars": 364,
+      "raw_bytes": 104545,
+      "bucket": "image_or_poster_pdf",
+      "recommended_action": "PDF 可访问但文本很少，疑似海报/图片型 PDF；建议 OCR 或人工摘要，不计入有效条目贡献。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-NEEDLEBOX.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-NEEDLEBOX_needlebox-disposal.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-WASTE-PLACE",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/waste-in-place.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 2,
+      "text_chars": 2168,
+      "raw_bytes": 856073,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-WASTE-PLACE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-WASTE-PLACE_waste-in-place.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-FUME-HOOD-NOTICE",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/fume-hood-repair-notice.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 3,
+      "text_chars": 3013,
+      "raw_bytes": 28026,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-FUME-HOOD-NOTICE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-FUME-HOOD-NOTICE_fume-hood-repair-notice.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-UNATTENDED",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/unattended-operations.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 0,
+      "text_chars": 845,
+      "raw_bytes": 54376,
+      "bucket": "short_notice_pdf",
+      "recommended_action": "PDF 可访问但正文不足，适合作为附属证据或人工摘要，不自动计入有效条目。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-UNATTENDED.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-UNATTENDED_unattended-operations.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-CHEM-APPROVAL",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/chemicals-ehs-approval.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 8,
+      "text_chars": 12140,
+      "raw_bytes": 214637,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-CHEM-APPROVAL.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-CHEM-APPROVAL_chemicals-ehs-approval.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-GENE-DRIVE",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/gene-drive-modified-organisms.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 8,
+      "text_chars": 18213,
+      "raw_bytes": 113148,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-GENE-DRIVE.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-GENE-DRIVE_gene-drive-modified-organisms.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-PPE-LABS",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/ppe-procedure-labs.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 10,
+      "text_chars": 11479,
+      "raw_bytes": 396978,
+      "bucket": "text_ingested",
+      "recommended_action": "PDF 已成功抽取正文并生成结构化知识条目，可计入有效知识库。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-PPE-LABS.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-PPE-LABS_ppe-procedure-labs.pdf.pdf"
+      ]
+    },
+    {
+      "id": "YALE-STUDENT-SHOP",
+      "org": "Yale Environmental Health & Safety",
+      "url": "https://ehs.yale.edu/sites/default/files/files/student-shop-rules.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "generated_rows": 3,
+      "text_chars": 1925,
+      "raw_bytes": 144276,
+      "bucket": "short_text_ingested",
+      "recommended_action": "PDF 文本较短但已生成少量条目，可计入有效条目但建议人工复核。",
+      "text_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\extracted_text\\YALE-STUDENT-SHOP.txt",
+      "raw_paths": [
+        "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\web_ingest_public_20260429\\raw\\YALE-STUDENT-SHOP_student-shop-rules.pdf.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+National Institutes of Health 
+
+Exposure Control Program 
+
+for Non-Hospital Personnel 
+
+Chairperson, NIH Institutional Biosafety Committee (IBC) 
+Certification of Annual IBC Review and Approval 
+
+1/08/25 
+
+date 
+
+NIH Biological Safety Officer 
+Executive Secretary, NIH Institutional Biosafety Committee (IBC) 
+Certification of Annual IBC Review and Approval 
+
+date 
+
+ 01/08/25 
+
+DIVISION OF OCCUPATIONAL HEALTH AND SAFETY 
+(Reviewed December 2024)
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ National Institutes of Health 
+Exposure Control Program 
+for Non-Hospital Personnel 
+
+Introduction 
+
+National Institutes of Health (NIH) employees are at risk of infection and subsequent illness as a 
+consequence of exposure to human blood or other potentially infectious body fluids and agents 
+potentially infectious to humans. Risks also exist related to exposure to the blood, tissues, and 
+body fluids of Old World non-human primate (NHP) species. Therefore, this Exposure Control 
+Program (ECP) has been developed to minimize employee exposure to bloodborne pathogens, 
+such as Hepatitis B virus (HBV) and human immunodeficiency virus (HIV). 
+
+This ECP establishes the policy and procedures for the control of infectious diseases that may 
+be contracted by the bloodborne route. The ECP is in compliance with the Occupational Safety 
+and Health Administration (OSHA) Bloodborne Pathogens Standard (29 CFR 1910.1030; 
+https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030) and serves as 
+both the written program, for compliance purposes, and as a training document. 
+
+The ECP will be reviewed and updated by the NIH Institutional Biosafety Committee (IBC) at 
+least annually and whenever necessary to reflect new or modified tasks and procedures which 
+affect occupational exposure and to reflect new or revised employee positions with occupational 
+exposure. Review and update of the ECP will also (A) reflect any changes in technology that 
+eliminate or reduce exposure to bloodborne pathogens; and (B) document annually consideration 
+and implementation of appropriate commercially available and effective safer medical devices 
+designed to eliminate or minimize occupational exposure. 
+
+The Division of Occupational Health and Safety (DOHS) will, in concert with appropriate focus 
+groups including non-managerial employees responsible for direct patient care who are 
+potentially exposed to injuries from contaminated sharps, identify the availability of new 
+technology including commercially available safer medical devices that can eliminate or reduce 
+exposure to bloodborne pathogens in the workplace. The focus groups will aid DOHS in the 
+identification, evaluation, and selection of effective engineering and work practice controls for 
+non-hospital personnel. 
+
+The review and implementation of safer laboratory or medical devices and best practices is 
+documented with each subsequent annual review of the ECP. A copy of the ECP is made 
+available to all NIH employees, the Assistant Secretary of Labor, and the Director, National 
+Institute for Occupational Safety and Health, upon request, by contacting the Institute or Center 
+(IC) Safety Specialist (301-496-2346) or DOHS (301-496-2960). 
+
+Job Classifications in which all or some of the employees may have occupational exposure: 
+
+Exposure Determination 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • Laboratory personnel, including scientists, post-doctoral researchers, research 
+assistants, graduate students, laboratory technicians and animal care staff. 
+• Law enforcement, emergency response personnel as well as facilities personnel. 
+
+At the NIH, the principal method by which exposure determination information for laboratory 
+personnel is gathered is with the registration of experiments and procedures. All principal 
+Investigators (PIs) using either recombinant nucleic acid materials that fall under the NIH 
+Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules (NIH 
+Guidelines), or potentially hazardous biological materials must register their work. This is 
+accomplished by submitting electronic registration documents to describe the entirety of the 
+proposed work to the NIH IBC for a subsequent review, assessment and approval. The registration 
+of other biological agents of concern (not necessarily infectious to humans) may also be requested 
+(or required by law) to insure best practices in animal facilities. 
+
+All PIs working with human pathogens, other potentially pathogenic materials and materials of 
+concern; human blood, body fluids, tissues, any and all cell lines; biological toxins; and the blood, 
+tissues, cell lines or body fluids of old-world non-human primate (NHP) species, must also submit 
+a properly completed biological registration document to the NIH Biosafety Officer (BSO) for 
+review by the NIH IBC. If animals are used in the research protocol, a copy of the animal study 
+proposal (ASP) must be included. A web-based registration system exists and is accessed by 
+following the Biological and Pathogen Registrations link at our Division of Safety web-page here 
+https://ors.od.nih.gov/sr/dohs/safety/laboratory/BioSafety/Pages/bio_chem_safety.aspx. PIs must 
+use and submit electronic applications (and amendments when warranted), paper registrations are 
+not accepted. The Occupational Medical Service (OMS) is notified of newly approved registrations 
+and the personnel listed. OMS reviews the new registration document and enrolls employees in the 
+appropriate medical surveillance program. OMS will offer immunizations appropriate for the work 
+being performed. 
+
+Incidents with recombinant material must be reported to NIH Office of Science Policy (OSP) 
+within 30 days for any significant problems, violations of the NIH Guidelines, or any significant 
+research-related accidents and illnesses. Incidents involving research subject to the NIH Guidelines 
+must immediately be reported to biosafety staff (in addition to reporting to OMS), and biosafety 
+personnel will report to OSP, as required. Spills or accidents in BSL-2 laboratories resulting in an 
+overt exposure must be reported immediately. Incidents occurring in BSL-3 or BSL-4 laboratories 
+resulting in an overt or potential exposure must be immediately reported. Per the guidance, this 
+reporting is a collective responsibility of the NIH, IBC, BSO, and Principal Investigator. At NIH, 
+all incidents are reported to OSP by biosafety staff. 
+
+PIs are ultimately responsible for providing updated information to DOHS and must update their 
+electronic registration(s) whenever there is a significant change in procedure that may affect risk, 
+or any change in laboratory, personnel, or location. Annual reviews of each registration are 
+required each year after their approval, or since the last amendment made to that registration. PIs 
+are responsible for educating employees on the hazards of their research and ensuring that any 
+employee added to a registration after initial approval is offered immunization, if appropriate. 
+DOHS staff conduct laboratory surveys and walk-through visits of registered labs and spaces to 
+ensure appropriate equipment is being used and procedures are being followed. 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Law enforcement officers may risk exposure to blood during the conduct of their duties. For 
+example, at a crime scene or during the processing of suspects, law enforcement officers may 
+encounter blood-contaminated hypodermic needles, weapons, or be called upon to render 
+emergency aid. Fire and emergency response personnel provide emergency medical services and 
+may encounter exposures common to those experienced by paramedics and emergency medical 
+technicians. Job duties may be performed in laboratories during emergencies or in the pre-hospital 
+setting under uncontrolled conditions. Therefore, NIH law enforcement and fire personnel are 
+covered under the ECP for bloodborne pathogens, are offered hepatitis B immunization, and will 
+receive appropriate training. 
+
+Universal precautions or the equivalent (see below) shall be observed to prevent contact with 
+blood or other potentially infectious materials (OPIM). When differentiation between body fluid 
+types is not possible, all body fluids shall be considered potentially infectious materials. 
+
+Methods of Compliance 
+
+A. Work Practice Controls 
+
+Work practice controls must be used to eliminate or minimize worker exposure to blood or other 
+potentially infectious materials. Where the potential for exposure remains after implementation 
+of these controls, engineering controls or personal protective equipment shall also be used. 
+
+Food and drink are strictly prohibited in any laboratory or animal care setting. They may not be 
+brought into or walked through a laboratory, an animal care setting, or in any area where blood 
+materials or OPIM are stored; nor should they be consumed in a laboratory, animal care setting, 
+or area that stores blood or OPIM. As such, open food shall not be transported in any elevator that 
+is used for the transportation of biological materials or OPIM. Similarly, smoking, applying 
+cosmetics and handling contact lenses are prohibited in areas where there is the potential for 
+exposure to bloodborne pathogens. 
+
+The NIH will provide hand washing facilities that are readily accessible to all employees. When 
+provision of hand washing facilities are not feasible, NIH shall provide either an appropriate 
+antiseptic hand cleanser in conjunction with clean cloth/paper towels or antiseptic towelettes. 
+When antiseptic hand cleansers or towelettes are used, hands shall be washed with soap and 
+running water as soon as feasible. When handling blood or OPIM, hands must be washed after 
+removal of gloves or other personal protective equipment, once work with the biological material 
+or OPIM is completed, and before leaving the laboratory or animal care setting. Supervisors are 
+responsible for ensuring that employees wash their hands and other skin that may encounter 
+blood or OPIM with soap and water, and flush mucous membranes with water immediately after 
+contact with biological materials or OPIM occurs. 
+
+Transportation and Shipping of Infectious Materials 
+
+All potentially infectious materials transported between NIH Bethesda campus and outlying 
+buildings must be packaged and transported according to applicable Federal regulations (42 CFR 
+71, 72 and 49 CFR 173.386-172.388). Guidance in complying with regulations pertaining to the 
+shipment of biological materials can be obtained by contacting your IC Safety Specialist at 301- 
+496-2346. Shipping activities must be performed in accordance with NIH Policy Manual #26101-
+42-F, “Shipping Policies and Procedures”, and be performed by trained individuals only. 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ All potentially infectious materials transported between buildings on the NIH Bethesda campus 
+must be placed in labeled, sealed, leak-proof, and unbreakable primary and secondary containers. 
+Blood or OPIM must be stored in a container that will not leak. The container must also prevent 
+leakage during collection, handling, processing, transport, and shipping when applicable. An 
+amount of absorptive material adequate to contain a spill must be placed between the primary 
+and secondary containers. The following rules for transportation of biological or OPIM between 
+laboratories applies when these materials are brought outside of the laboratory and through any 
+building, elevator, and between laboratories and buildings on and off campus. Each building 
+where transportation of blood or OPIM occurs between floors, whether it is from the loading 
+dock to a laboratory or from lab to lab, there must be at least one elevator dedicated to transport 
+of hazardous materials. The elevator shall be marked in a manner so that personnel and visitors do 
+not bring open consumables into the elevator designated for hazardous uses. Emergency 
+stairwells must not be used for transportation of biological materials or OPIM. 
+
+International shipments of biological materials must be coordinated through the Quarantine 
+Permit Service Office (QPSO) (301-496-2960) so that the correct import permits and export 
+licenses can be issued (NIH Policy Manual 1340-1). 
+
+Labeling 
+
+Any container used to store blood or OPIM must have a biohazard warning label affixed. 
+Biohazard warning labels must have an orange red or fluorescent orange label, the word 
+“BIOHAZARD” and the biohazard symbol must be printed on the label in a highly contrasting 
+color such as black. The type of label may be a sticker, bag, or fixed container. Blood or OPIM 
+must be labeled with a material that cannot be easily removed or lost. Examples of containers 
+that need to be labeled include but are not limited to the following: fridges, freezers, sharps-safe 
+boxes, medical pathological waste (MPW) boxes, equipment contaminated with blood or OPIM, 
+transportation and shipping vessels. 
+
+Decontamination and Spill Clean-Up 
+
+Basic decontamination procedures need to be followed in every laboratory that handles, stores, 
+or processes blood or OPIM. Basic decontamination procedures are outlined below in this 
+section. Supervisors are responsible for ensuring that the laboratory or animal care area is 
+maintained, clean and sanitary. Supervisors and PIs must have a written cleaning schedule and a 
+written method of decontamination for every procedure that involves blood or OPIM. All 
+equipment that is used to process or store blood or OPIM must be cleaned and decontaminated 
+after contact with blood or OPIM. Absorbent bench papers must be replaced frequently and 
+when contaminated with blood or OPIM. Whenever a spill of blood or OPIM occurs, clean the 
+spill immediately and decontaminate the affected area. If you or others in the area were exposed 
+to aerosols created by the blood or OPIM, seek medical attention immediately. To choose an 
+appropriate decontaminant for your laboratory or animal care area, refer to Biosafety in 
+Microbiological and Biomedical Laboratories, 6th edition, produced by the CDC and NIH and 
+consult your assigned IC safety specialist. Information on chemical safety can be found in the 
+current edition of the NIH Chemical Hygiene Plan. 
+
+All work surfaces where blood, body fluids, infectious agents and materials are handled must be 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ disinfected after each use with an appropriate disinfectant. Additionally, work surfaces must be 
+disinfected after any spill. Work surfaces should be covered with plastic-backed absorbent 
+toweling (plastic facing down) to facilitate clean up and reduce production of aerosols that may 
+result from a spill while work is being performed. Spills within work areas are to be cleaned by 
+laboratory or research personnel. Custodial staff are not authorized to clean spills of potentially 
+infectious material. Spills of potentially infectious material are to be cleaned using the following 
+method: 
+
+• Notify persons in the immediate area that a spill has occurred. 
+• Wearing the appropriate protective equipment (e.g., gloves, lab coat, goggles, etc.), cover the spill 
+
+with absorbent disposable toweling. 
+
+• Carefully, pour a freshly prepared 1 in 10 dilution of undiluted household bleach- 5.25% sodium 
+hypochlorite (or other suitable disinfectant prepared to manufacturer’s specifications) around the 
+edges of the spill working toward the center. 
+
+• Allow disinfectant to sit for an appropriate contact time (20 minutes for 0.5% bleach). 
+• Using paper towels, wipe up the spill, working from the outside edges toward the center. Avoid 
+the potential for cuts with broken glass or other sharps by using tongs, a dust pan or other device 
+for pickup and carefully discard into an approved sharps container prior to wiping up spill. 
+
+• Repeat process with fresh disinfectant. 
+• Place all used materials into an autoclave bag for decontamination, or MPW box for 
+
+disposal. 
+
+In the event of an unusual or large spill, contact the NIH Fire Department (911) for clean-up. 
+In the event of a spill of infectious material in a public access area (e.g., hallway, elevator, etc.), 
+keep all persons away from the spill area and call 911 for clean up. 
+
+Blood or OPIM must be disposed of in containers that are closable, labeled as biohazard, and/or 
+color-coded in red or orange to indicate that they contain blood or OPIM. Refer to the NIH 
+Waste Disposal Guide, current edition, for specific NIH requirements and to comply with local 
+and federal waste disposal guidelines. 
+
+Infectious Waste Disposal 
+
+All employees shall comply with the guidance given in the NIH Waste Disposal Guide. 
+Additional copies of this document are available from NIH Division of Environmental 
+Protection/Waste Management Services (DEP). 
+
+Equipment Repair and Transfer 
+
+All equipment that may have been exposed to hazardous materials (i.e., known hazardous 
+chemical, radiological, or biological substances) must be appropriately decontaminated and 
+certified by the user as being clear of hazards, using NIH Form 2683 before transfer, service, or 
+repair is done (these forms are available at the NIH Self-Service stores and in the NIH Stock 
+Catalogue, also online). This includes all scientific/medical equipment and any office 
+furniture/equipment or supplies that have been used in clinical areas, laboratories, or other 
+potentially hazardous locations. Guidance for the decontamination of such equipment is provided 
+by Instruction and Information (I&I) Memorandum DL 91-3. 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Biosafety Levels 1, 2 and 3 
+Certification of Biosafety Level 2 and 3 laboratory facilities is performed by DOHS. 
+
+All specimens of human blood, tissue, or body fluids are to be handled utilizing BSL- 2 practices 
+and procedures comparable to the concept of Universal Precautions in the clinical setting. 
+Laboratories working with human immunodeficiency viruses (HIV), complex human 
+retroviruses, simian immunodeficiency virus (SIV), at the research scale, BSL-3 practices and 
+procedures must be utilized in a certified Biosafety Level 2 facility. 
+
+A laboratory-specific biosafety manual shall be prepared or adopted and periodically reviewed 
+and updated at least annually or more often if necessary. Laboratory personnel must sign-off on 
+review of the manual annually and be advised of potential hazards. Personnel are required to read 
+instructions on practices and procedures and are required to follow them. The NIH requires that 
+all BSL-2 and above laboratories have a laboratory-specific biosafety manual, of course having a 
+safety manual is a best practice for all laboratories, regardless of BSL level. 
+
+Macacine herpesvirus 1 (also known as B virus, Monkey B virus, or CHV-1) can represent a 
+significant hazard to those who handle the blood, tissues, or body fluids of Old World NHP 
+species. Safety standards, as defined in NIH Manual Chapter 3044-2, for working with NHP must 
+be followed and require enhanced PPE that meets or exceeds the guidance established by the NIH 
+Animal Research Advisory Committee (ARAC). This guidance is procedure-specific and a 
+summary of these requirements can be found in the appendix of Manual Chapter 3044-2. 
+Biosafety Level 2 practices and facilities are recommended for all activities involving the use or 
+manipulation of tissues, blood, or body fluids from Old World nonhuman primates. Laboratories 
+outside of an ACUC-approved NHP animal research facility using or manipulating these tissues 
+must register with DOHS using an electronic registration document (https://ers.ors.nih.gov) and 
+consult a safety specialist for obtaining a special kit (BSSE kit) to address potential exposures. 
+Enrollment in the Animal Exposure Program (AEP) is required for personnel who have direct 
+contact with a variety of animals (including NHP), their viable tissues, body fluids, wastes or 
+living quarters. Enrollment in “Working Safely with HIV and Other Bloodborne Pathogens” 
+training given through DOHS is required for personnel who handle the tissues, blood, or body 
+fluids of old-world nonhuman primates. The risks presented by handling tissues and fluids from 
+other species should be evaluated by OMS and DOHS on a case-by-case basis. 
+
+Large-scale work with HIV or the other human retroviruses must be performed in a BSL-3 
+facility using Biosafety Level 3 practices and procedures. These requirements may extend to 
+other human bloodborne pathogens. (see HIV work details on p.11) Certain laboratory procedures 
+or other factors may require that these organisms be handled at a higher biological safety level 
+than described above. The NIH IBC will conduct situational risk assessments on a case-by-case 
+basis in order to determine the appropriate biological safety practices and procedures. 
+
+These practices, procedures, and facility requirements are described in the CDC/NIH publication 
+entitled Biosafety in Microbiological and Biomedical Laboratories, 6th ed., and are to be adhered 
+to by all NIH employees working with potentially infectious material. The document is available 
+online at: https://www.ors.od.nih.gov/sr/dohs/safety/Pages/publications.aspx Fire, emergency 
+response, and law enforcement personnel are required to follow procedures specific for their job 
+categories, as outlined in Guidelines for Prevention of Transmission of Human Immunodeficiency 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Virus and Hepatitis B Virus to Health-Care and Public Safety Workers. Copies of this document 
+are available from the NIH Biosafety Officer (301-496-2960). 
+
+B. Engineering Controls 
+
+Engineering controls must be used to eliminate or minimize worker exposure to blood or other 
+potentially infectious materials. At the NIH these engineering controls include but are not limited 
+to biological safety cabinets, mechanical pipetting devices, sharps disposal containers, self- 
+sheathing needles, sharps with engineered sharps injury protections, and needleless systems. 
+
+Primary Barriers- Class II biological safety cabinets or other physical containment devices are 
+to be used when procedures with a high potential for creating potentially infectious splashes or 
+aerosols are conducted. Such procedures may include centrifuging, grinding, vortexing, 
+blending, sonic disruption, transferring liquids, homogenizing, withdrawing liquids under 
+pressure, and opening containers of infectious materials having internal pressures different from 
+ambient pressures. 
+
+Intranasal inoculations and animal necropsies at ABSL-2 or lower (excluding ABSL-3 and 
+ABSL-4 approved work) may be allowed to be performed on an open bench if it is determined by 
+the NIH Biosafety Officer that conducting the procedure in a biological safety cabinet would 
+place the employee at a significantly increased risk of percutaneous exposure to a bloodborne 
+pathogen. In these cases, strict adherence to mucous membrane protective practices is required, 
+which includes face masks and goggles or face shields with eye protection, as well as using 
+appropriate gloves and protective garments. 
+
+Annual Inspections of Primary Barrier Equipment and Local Exhaust Ventilation – Annual 
+inspection and certification of all biological safety cabinets (BSC), chemical fume hoods and 
+other local exhaust ventilation equipment is performed by DOHS. Service calls or questions 
+should be directed to the Technical Assistance Branch (301-496-3353), the IC Safety Specialist 
+(301-496-2346), or online to the Primary Barrier Program. 
+
+Mechanical Pipetting Devices - Mechanical pipetting devices are to be used for all pipetting 
+activities. Mouth pipetting is strictly prohibited. Automatic pipetting devices are readily 
+available in the NIH Self Service Stores or through the NIH stock catalog. 
+
+Needle Handling - Sharps must be disposed of immediately or as soon as possible after use in a 
+sharps-safe container approved for biohazardous materials and has a biohazard symbol affixed. 
+Dispose of sharps in a sharps-safe container that is located in the immediate area. Contaminated 
+sharps must never be bent, recapped, or removed from the area of immediate use. Shearing or 
+breaking of contaminated needles is prohibited. If it can be demonstrated that no alternative is 
+feasible, or such action is required by a specific procedure, a needle may be bent, recapped, or 
+removed through the use of a mechanical device or a one-handed technique as specified in a 
+laboratory-specific SOP. The SOP needs to include written justification for recapping or 
+removing needles and needs to be approved by DOHS before procedures begin. 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Needleless Systems - Needleless systems are devices that do not use needles for: 1) the 
+collection of bodily fluids or withdrawal of body fluids after venous or arterial access is 
+established; 2) the administration of medication or fluids; or 3) any other procedure involving the 
+potential for occupational exposure to bloodborne pathogens due to percutaneous injuries from 
+contaminated sharps. 
+
+Plasticware- Substitution of plastic materials for glass should be considered whenever possible 
+as it can help to greatly reduce sharps related injuries and exposure to blood and OPIM. 
+
+Sharps Containers - Puncture resistant sharps containers are to be used at all work sites where 
+needles and syringes, Pasteur pipettes, scalpel blades, razor blades, and other sharps are used. 
+These containers must be closable, labeled as described above in the labeling section and must be 
+leakproof on the bottom and on the sides. During use, the container must remain upright. When 
+no more than three-quarters filled, the containers are to be appropriately sealed and placed in a 
+Medical Pathological Waste (MPW) box for disposal by incineration. Puncture resistant sharps 
+containers are available from the NIH Self Service Stores and through the NIH stock catalog. 
+
+Safety Devices for Centrifuges - For low speed centrifugation of infectious materials, safety 
+centrifuge cups are recommended. If used, the cups are to be loaded and unloaded within a BSC. 
+High-speed centrifugation of infectious materials should be performed using a safety rotor that is 
+loaded and unloaded within a BSC. Use of plastic is always recommended over glass for 
+centrifugation. 
+
+Vacuum Traps and Filters- Vacuum traps and filters serve as the first barrier of protection 
+against transfer of biological materials into building vacuum systems. Whenever a bench-line 
+vacuum is in use in a laboratory a trap must be installed before the vacuum inlet that has an in- 
+line filter installed between the trap and the vacuum inlet. If the in-line filter becomes wet or 
+damaged, it must be replaced. Traps should contain appropriate disinfectant that is replaced at 
+necessary intervals. 
+
+Devices with Engineered Sharps Injury Protections – A non-needle sharp or a needle device 
+with engineered sharps injury protection may utilize non-needle technology or incorporate built- 
+in safety features or mechanisms that effectively reduce the risk of exposure incidents. These 
+devices may be used for withdrawing body fluids, accessing a vein or artery, or administering 
+medications or other fluids. Blades and cutting devices that are retractable or use extendable 
+edge covers for safety are preferred. 
+
+C. Personal Protective Equipment 
+
+A wide selection of personnel protective equipment (PPE) in a variety of sizes is available to all 
+NIH employees through the NIH Self Service Stores or through the NIH stock catalog. The items 
+stocked by the NIH for use by its employees are routinely reviewed by DOHS personnel to ensure 
+that the items stocked meet the needs of the user community. New items are added as specific 
+safety needs are identified. All personnel are encouraged to discuss their needs for PPE with the 
+Safety Specialist assigned to their IC. The Specialist may be reached by calling 301-496-2346. If 
+equipment is required that is not currently available through the NIH stores or stock catalog, 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ it is to be ordered from the appropriate source at no cost to the employee. However, personal 
+preference alone is not justification for special ordering of PPE. 
+
+PPE must prevent blood or OPIM from reaching work clothes, street clothes, undergarments, 
+skin, eyes, mouth, and mucous membranes under normal conditions of use and for the duration 
+of time which the protective equipment will be used. It is the supervisor’s responsibility to 
+ensure employees are utilizing PPE effectively and properly, and in agreement with NIH policy. 
+If the employee refuses to wear PPE to protect themselves from blood or OPIM, their supervisor 
+must ensure that they do not work with blood or OPIM. Supervisors are responsible for 
+providing the laundering, repairing, and replacing of PPE when needed. Laundry that is 
+contaminated with blood or OPIM must be labeled and handled as a biohazard. The laundering 
+facility where contaminated laundry is sent must handle laundry with universal precautions, 
+therefore, NIH ICs must ensure that contaminated laundry is handled appropriately by laundering 
+facilities. If contaminated items cannot be laundered, they must be disposed of as hazardous 
+waste. All forms of PPE must be removed before leaving the laboratory or animal facility and 
+may not be worn in any public area or outside of any building. Once PPE is removed it must be 
+placed in a designated area for storage, laundering, or disposal. Minimum PPE and attire 
+requirements have been established as policy as described in the NIH Manual Chapter 1340 
+(App. 1). Contact your IC Safety Specialist at 301-496-2346 if you have any further concerns 
+regarding laundering of PPE. 
+
+Clothing - In any laboratory or animal care setting, the first line of defense against biological 
+exposures is the clothing worn by the individual entering the area. Therefore, in order to provide 
+the best protection an individual must cover themselves as much as possible with street clothing. 
+Shorts, capris, short skirts, and any leg covering that falls above the ankle are prohibited in 
+laboratory settings. Tights and nylons do not serve as a substitute for appropriate leg covering. 
+Open toe shoes or any shoe that does not cover the top and sides of an individual’s foot are not 
+permitted in the laboratory or animal care setting. Minimum clothing requirements have been 
+established as standard laboratory safety policy as described in the NIH Manual Chapter 1340 
+(App. 1). 
+
+Gloves - Gloves are to be worn by all employees when directly handling potentially infectious 
+material or when in contact with contaminated surfaces. Based on individual need, the employee 
+may choose vinyl examination, surgical latex, or nitrile gloves. Gloves are to be changed 
+routinely and rigorous hand washing policies established in laboratory areas. Employees must 
+inspect gloves routinely and replace them whenever they are contaminated, visibly soiled, torn, 
+or punctured. Disposable, single use gloves shall not be washed or decontaminated for re-use. 
+All gloves are to be discarded into the MPW stream. Hands are to be washed when gloves are 
+changed or removed on completion of work. 
+
+Other Protective Garments - Laboratory coats, gowns, aprons, or suits, whichever is most 
+appropriate for the particular application, are to be worn by all personnel manipulating or 
+otherwise handling infectious or potentially infectious materials. Surgical caps or hoods and/or 
+shoe covers or boots shall be worn in instances when gross contamination can be reasonably be 
+anticipated: necropsies, dissections, or tissue removal within an animal facility. These garments 
+are not to be worn outside of the laboratory area. After disposable protective garments are used, 
+discard them in the MPW stream as described in the NIH Waste Disposal Guide. Cloth 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 10 
+
+ 
+ 
+ 
+ 
+ 
+ laboratory coats are not to be taken home by the employee for laundering. 
+
+Masks, Eye Protection, and Face Shields – Masks in combination with eye protection (such as 
+goggles or glasses with solid side shields) or chin length face shields, must be worn whenever 
+splashes, spray, spatter, or droplets of blood or other potentially infectious materials may be 
+generated, and eye, nose, or mouth contamination can be reasonably anticipated. 
+
+Respirators - Respirators must not be used in the laboratory without prior approval of DOHS. 
+Supervisors are not authorized to select or recommend the use of respiratory protection, 
+regardless of the type. Call your IC Safety Specialist (301-496-2346) if you feel respiratory 
+protection is required. Surgical face masks, used for mucous membrane protection, are not 
+considered respirators and are not to be used in situations where respiratory protection is 
+required. All respirator users must be enrolled in the NIH Respiratory Protection Program. Each 
+IC will supply and maintain the recommended respiratory protective device. 
+
+HIV and HBV Research Laboratories and Production Facilities 
+
+HIV and HBV Specific Procedures 
+
+Waste must be autoclaved or decontaminated before transportation. Only needle-locking 
+syringes or disposable syringes and needles may be used. All syringes and needles must be 
+placed into a sharp-safe container and autoclaved before disposal in an MPW box. 
+
+Vacuum lines must have a liquid disinfectant trap and high-efficiency particulate air (HEPA) 
+filters or filters of equivalent or superior efficiency. The laboratory in which vacuum lines are 
+used must develop a standard operating procedure and schedule for inspecting and maintaining 
+the vacuum line on a regular basis. 
+
+Engineering Controls - In HIV and HBV research production facilities, a clothes change room 
+must be included in the design. 
+
+The NIH may have laboratories engaged in the culture, concentration, experimentation and 
+manipulation of HIV and HBV. Such laboratories must follow the same pathogen registration 
+procedure described above. At NIH, a laboratory is considered a production facility when greater 
+than 10 (ten) liters of HIV are produced. Most HIV and HBV may be handled at BSL 2/3 but 
+certain high titer HIVs, SIVs, SHIVs, and HTLVs must be handled in a BSL-3 facility using 
+BSL-3 practices and containment equipment. The determination for the handling of these 
+materials may only be made by the IBC and is not up to the discretion of the PI, branch chief or 
+other individual outside of the IBC. 
+
+The IBC will conduct a risk assessment based on the organism involved and the methodology 
+used. The laboratory will be required to follow the appropriate level of biological containment 
+practices and procedures as determined by the NIH Biological Safety Officer or the NIH IBC. 
+
+Hepatitis B Vaccination and Post-Exposure Evaluation and Follow-up 
+Occupationally acquired HBV - Hepatitis B is the leading occupationally acquired illness 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ among health care workers, affecting approximately 15,000 workers annually. HBV, formerly 
+known as “serum hepatitis,” is one of several viruses that attack the liver producing swelling, 
+tenderness, and liver damage. HBV is spread primarily through contact with blood and body 
+fluids that contain blood. 
+
+Symptoms of HBV - The most frequent symptoms of HBV infection include fatigue, mild fever, 
+muscle or joint pain, nausea, vomiting, loss of appetite, and abdominal pain. Many symptoms 
+suggest a flu-like illness, and tend to last longer and jaundice may occur in up to 25% of cases. 
+However, 50% of infected individuals have no symptoms. 
+
+Risk of HBV Infection - The risk of HBV infection for NIH employees is considered to be high 
+if their jobs entail frequent contact with human blood and body fluids. NIH employees can 
+protect themselves from occupationally acquired HBV infection by practicing Biosafety Level 2 
+practices (equivalent to Universal precautions in a clinical setting) and by becoming immunized 
+against HBV. 
+
+HBV Vaccine - A recombinant HBV vaccine is available, free of charge, to all NIH employees 
+who may come in contact with blood and body fluids during the performance of their duties. To 
+receive the vaccine, call the OMS at 301-496-4411. It is strongly recommended that eligible 
+employees accept the vaccine. Any unvaccinated personnel should discuss and reach alternate 
+accommodation with their supervisor to avoid potential risks of exposure. 
+
+The recombinant HBV vaccine does not contain any human blood products; it is both safe and 
+effective. Clinical studies have shown that over 90% of healthy adults administered the vaccine- 
+developed antibody to the hepatitis B virus. The HBV vaccine may also be used prophylactically 
+in combination with hepatitis B immune globulin (HBIG) and is 90% effective in preventing 
+hepatitis B following a documented exposure. 
+
+Side effects of the vaccine are minimal. The most common complaint (20%) is a sore arm lasting 
+one or two days. A few individuals have reported headache, fatigue, weakness, or rarely, a low- 
+grade fever. Eligible employees who decline to accept the vaccination must sign the following 
+statement: 
+
+"I understand that due to my occupational exposure to blood or other potentially infectious 
+material I may be at risk of acquiring hepatitis B virus (HBV) infection. I have been given 
+the opportunity to be vaccinated with hepatitis B vaccine, at no charge to myself. However, 
+I decline hepatitis B vaccination at this time. I understand that by declining this vaccine, 
+I continue to be at risk of acquiring hepatitis B, a serious disease. If in the future I 
+continue to have occupational exposure to blood or other potentially infectious materials 
+and I want to be vaccinated with hepatitis B vaccine, I can receive the vaccination series 
+at no charge to me.” 
+
+Further information on hepatitis B and HBV vaccine can be given by OMS (301-496-4411). 
+
+Occupationally acquired HCV - HCV is a leading cause of chronic liver disease and is the 
+leading reason for liver transplant in the United States. Although the potential for HCV 
+
+Hepatitis C Virus (HCV) 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ transmission associated with percutaneous injury is low, varying between 3 and 10% depending 
+on the study, the risk of infection appears to correlate with the severity of the wound. It is 
+estimated that greater than 85% of people who acquire an HCV infection will become 
+chronically infected, and greater than 70% of HCV-infected people will have chronically 
+elevated levels of liver enzymes. About 5% to 10% of infections will not be detected unless 
+polymerase chain reaction is used to detect HCV RNA. Cirrhosis and primary hepatocellular 
+carcinoma may result from chronic HCV. 
+
+Symptoms of HCV - HCV infection has two phases. The first, experienced by 75% of infected 
+people, is a flu-like illness that includes headache, loss of appetite, nausea and vomiting, and 
+fatigue. Eventually, 20-30% of infected people will progress to the second phase of HCV 
+infection, which includes the development of overt signs and symptoms such as jaundice, clay- 
+colored stools, and dark brown urine. 
+
+Risk of HCV Infection - Employees who must routinely handle human blood and body fluids 
+are considered to be at risk for HCV infection. The risk of occupationally acquired infection may 
+be reduced through the use of Biosafety Level 2 practices and procedures (equivalent to 
+Universal Precautions in a clinical setting) and appropriate mucous membrane and eye 
+protection. 
+
+HCV Vaccine - There is currently no vaccine available to prevent infection with HCV, and 
+immune globulin is not recommended for post-exposure prophylaxis however medications may be 
+available for treatment in cases of potential exposure. It is therefore very important to use PPE, 
+and to be especially careful when handling sharps. It is also very important to report any potential 
+exposures to OMS (301-496-4411) immediately. 
+
+Exposure Reporting Responsibilities – The ultimate responsibility for reporting exposures, 
+spills, and other biological hazards rests with the Principle Investigators, supervisors, and the 
+NIH employees. Such exposures and hazards need to be reported to supervisors, principle 
+investigators, DOHS, and OMS. The following areas serve as examples: 
+
+• The ultimate responsibility for reporting exposure to a potentially infectious material rests with 
+
+the NIH employee who has been exposed. 
+
+• Notifying employees of the presence of potentially infectious materials in any workplace is the 
+
+responsibility of the Principle Investigator or supervisor in charge of the work area. 
+• Notifying emergency services, DOHS, and OMS of spills is the responsibility of all NIH 
+
+employees. 
+
+• Notification of exposures, spills, and other hazards must be done immediately upon 
+
+becoming aware of the situation. 
+
+Other Potentially Infectious Materials (OPIM) 
+
+Many pathogens at the NIH are infectious through bloodborne transmission. Refer to the BMBL, 
+6th Edition, for basic guidelines for material specific precautions to take against and minimize the 
+chance of exposure. Ensure that all potentially infectious materials are registered with the IBC. 
+Any research work with human blood and body fluids or OPIM must be registered with the NIH 
+IBC as described in the Exposure Determination section of the Exposure Control Plan. OSHA 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Describes OPIM as: 
+
+(1) The following human body fluids: semen, vaginal secretions, cerebrospinal fluid, synovial fluid, 
+pleural fluid, pericardial fluid, peritoneal fluid, amniotic fluid, saliva in dental procedures, any body fluid 
+that is visibly contaminated with blood, and all body fluids in situations where it is difficult or impossible 
+to differentiate between body fluids; (2) Any unfixed tissue or organ (other than intact skin) from a human 
+(living or dead); and (3) HIV-containing cell or tissue cultures, organ cultures, and HIV- or HBV-
+containing culture medium or other solutions; and blood, organs, or other tissues or cells from 
+experimental animals infected with HIV, HBV or other bloodbourne pathogens 
+
+Regarding cell lines, because it is not possible to test every cell line for every possible virus or 
+ever make the claim any particular cell line is pathogen free, we require all human cell lines be 
+afforded the same level of biosafety consideration as a line known to carry HIV. We require 
+registration for research work with all human cell lines, particularly any lines being used in 
+animal models. Additionally, individuals should not utilize their own cells to generate induced 
+pluripotent stem cells (iPSC) or work with such as generated from their own cells due to the risk 
+of auto-inoculation of potentially cancerous cells. If you are not sure if a material needs to be 
+registered, contact your IC Safety Specialist at 301-496-2346 for help in determining correct 
+precautions to take and to determine whether registration with the NIH IBC is required. The 
+Biosafety Officer (BSO) can also address immediate concerns. 
+
+Surveillance Programs 
+
+The objective of our Occupational Medical Service is to provide updated epidemiological and 
+safety information on avoidance of potential worksite exposures to biological materials or OPIM 
+and to instruct personnel on what to do in the event of an overt exposure. 
+
+Animal Exposure Program - The Animal Exposure Program (AEP) is a mandatory program 
+designed to monitor and support the health of personnel who have direct contact with a variety of 
+animals, their viable tissues, body fluids, wastes or living quarters. NIH employees are eligible 
+for AEP if they participate in at least one of the following activities: 1) direct care of animals or 
+housing; 2) direct contact with animals (live or dead), their tissues, body fluids, or wastes; or, 3) 
+work with a zoonotic disease agent. All employees must report bites and scratches promptly 
+to OMS. Further information on the AEP may be obtained by calling OMS (301-496-4411). 
+
+Emergency Steps to Take in the Event of a Potential Exposure - If an employee sustains a 
+potential exposure to HIV or other bloodborne pathogen, immediate first aid should be initiated 
+before leaving the worksite. Contaminated skin should be thoroughly washed for fifteen minutes 
+using soap and copious amounts of water. Contaminated eyes and mucous membranes should be 
+irrigated for 15 minutes using normal saline or water. The employee must notify their supervisor, 
+if he or she is immediately available, and report to OMS (Building 10, Room 6C306) within one 
+hour of the exposure. If emergency transport is needed, call 911 (on campus). When OMS is 
+closed, contact the Clinical Center Operator (301-496-1211) to notify an OMS physician. A 
+poster entitled 3 Emergency Steps to Take in the Event of a Potential Bloodborne Pathogen 
+Exposure (‘1-2-3 poster’) is to be placed prominently in all work areas where there is a potential 
+for exposure to human blood, body fluids, human retroviruses, or other potentially infectious 
+material. Copies of this poster may be obtained by contacting your IC Safety Specialist (301- 
+496-2346) or online (1-2-3 Poster). 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Post-Exposure Evaluation and Follow-up - Post-exposure evaluation and follow-up for NIH 
+employees is provided by OMS. Employee counseling is provided free of charge by the OMS. 
+
+Emergency Care - Emergency care will be provided to visitors and contract personnel who 
+sustain a potential exposure. These individuals will be referred to their private or company 
+physicians for follow-up. 
+
+Post-Exposure Incident Review - In the event an employee sustains a potential exposure to HIV 
+or other bloodborne pathogen, the IC Safety and Health Specialist as well as the employee’s 
+supervisor will review the incident. As part of the incident review, a sharps injury log will be 
+maintained for the recording of percutaneous injuries and mucous membrane exposures. The 
+information in the sharps injury log shall be recorded and maintained in such a manner as to 
+protect the confidentiality of the injured employee. The log contains information on the type and 
+brand of device involved in the incident; the IC and work area where the incident occurred; and 
+an explanation of how the incident occurred. The log will be maintained by DOHS and used to 
+gather information that may aid in the implementation of safer technologies. 
+
+All work-related needlestick injuries and cuts from sharp objects that are contaminated with 
+another person's blood or other potentially infectious material (as defined by 29 CFR 1910.1030) 
+will be entered in the OSHA 300 Log as an injury using the OSHA 301 Injury and Illness 
+Incident Report. All required records are kept for a minimum of five (5) years following the end 
+of the calendar year that the records cover. 
+
+Related to working with animals: Waste and Anesthetic Gas (WAG) Surveillance Program- 
+DOHS has established a Waste and Anesthetic Gas (WAG) Surveillance Program to: 
+
+1. Identify and quantify occupational exposure levels (through surveys and site assessments) to 
+the anesthetic gases used at the NIH 
+2. Provide information and recommendations for engineering controls and work practices that are 
+effective in minimizing exposures to anesthetic gases 
+
+For more information on the WAG program, contact the Technical Assistance Branch in DOHS 
+at (301) 496-3353. 
+
+Communication of Hazards to Employees 
+
+Employees must be notified of the presence of potentially infectious materials in any workspace. 
+Laboratories and other work areas handling human blood and body fluids, any human pathogens, 
+or unfixed Old World NHP blood and tissues must be posted with an NIH-approved biohazard 
+sign. Work areas are posted by DOHS personnel upon completion of a survey and certification of 
+the area at the appropriate biosafety level. Any special requirements (e.g., immunizations, 
+personnel protective equipment) required for entry to a workspace will be designated on the 
+biohazard sign affixed to the entry door. 
+
+All infectious waste transferred to incinerators is placed in a MPW box (“burn box”) imprinted 
+with the international biohazard warning symbol. For BSL-3 practices all waste must be chemically 
+deactivated, chemically decontaminated, or autoclaved before being placed in a MPW box. 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ All containers used to transport infectious materials between laboratories or buildings will be 
+labeled with stickers carrying the international biohazard-warning symbol. Any item used to 
+store human or old-world NHP tissues, blood, or OPIM such as refrigerators, freezers, and 
+incubators must have a biohazard label affixed in a highly visible area. These stickers are 
+available in the Self- Service Store. 
+
+Training and Education 
+
+Training for employees, in compliance with the OSHA Bloodborne Pathogen Standard, is 
+provided on a monthly basis for all employees. PIs and supervisors are responsible for assuring 
+that all employees under their direction who may be potentially exposed to a bloodborne 
+pathogen attend one of these sessions prior to handling infectious materials and receive refresher 
+training on an annual basis. Consult the DOHS website (https://www.safetytraining.nih.gov/) or 
+call the DOHS office (301-496-2960) for current course schedules. PIs and supervisors are 
+responsible for job-specific safety training and must document that employees selected for jobs 
+involving manipulation of infectious materials have been adequately trained to perform these 
+tasks. 
+
+Fire, emergency response personnel, and NIH law enforcement officers receive training 
+consistent with the information provided in the HHS publication entitled Guidelines for 
+Prevention of Human Immunodeficiency Virus and Hepatitis B Virus to Health-Care and Public- 
+Safety Workers. These guidelines were developed in response to P.L. 1000-607 The Health 
+Omnibus Programs Extension Act of 1988, portions of which are specific for personnel working 
+in the emergency response or law enforcement arenas. Training is provided upon employment 
+and updated annually as required. 
+
+Bloodborne Pathogen and other DOHS safety training courses available: For details contact 
+DOHS at 301-496-2960. 
+
+Working Safely with HIV and Other Bloodborne Pathogens Laboratory Safety 
+at the National Institutes of Health 
+Bloodborne Pathogen Training for NIH Fire and Emergency Response Personnel Bloodborne 
+Pathogen Training for NIH Law Enforcement Officers 
+Bloodborne Pathogen Refresher Training for Laboratory Personnel Biosafety 
+Level 3 Training Lecture 
+Biosafety Level 3 Training Hands-On Shipping 
+Biological Materials 
+
+National Institutes of Health “Exposure Control Program for Non-Hospital Personnel” 16

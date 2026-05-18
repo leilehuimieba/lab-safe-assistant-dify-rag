@@ -1,0 +1,937 @@
+An official website of the United States government
+
+The .gov means it's official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+
+The site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+Account
+
+Dashboard
+
+Publications
+
+Account settings
+
+Log out
+
+## Bookshelf
+
+Browse Titles
+
+Advanced
+
+Help
+
+Disclaimer
+
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011.
+
+## Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version.
+
+Contents
+
+Hardcopy Version at National Academies Press
+
+## 7 Working with Laboratory Equipment
+
+## 7.A. INTRODUCTION
+
+Working safely with hazardous chemicals requires proper use of laboratory equipment. Maintenance and regular inspection of laboratory equipment are essential parts of this activity. Many of the accidents that occur in the laboratory can be attributed to improper use or maintenance of laboratory equipment. This chapter discusses prudent practices for handling equipment used frequently in laboratories.
+
+The most common equipment-related hazards in laboratories come from devices powered by electricity devices for work with compressed gases, and devices for high or low pressures and temperatures. Other physical hazards include electromagnetic radiation from lasers and radio-frequency generating devices. Seemingly ordinary hazards such as floods from water-cooled equipment, accidents with rotating equipment and machines or tools for cutting and drilling, noise extremes, slips, trips, falls, lifting, and poor ergonomics account for the greatest frequency of laboratory accidents and injuries. Understandably, injuries to the hands are very common in the laboratory. Care should be taken to use appropriate gloves when handling laboratory equipment to protect against electrical, thermal, and chemical burns, cuts, and punctures.
+
+## 7.B. WORKING WITH WATER-COOLED EQUIPMENT
+
+The use of water as a coolant in laboratory condensers and other equipment is common practice. Although tap water is often used for these purposes, this practice should be discouraged. In many localities conserving water is essential and makes tap water inappropriate. In addition, the potential for a flood is greatly increased. Refrigerated recirculators can be expensive, but are preferred for cooling laboratory equipment to conserve water and to minimize the impact of floods. To prevent freezing at the refrigeration coils, using a mixture of water and ethylene glycol as the coolant is prudent. Spills of this mixture are very slippery and must be cleaned thoroughly to prevent slips and falls.
+
+Most flooding occurs when the tubing supplying the water to the condenser disconnects. Hoses can pop off when building water pressure fluctuates, causing irregular flows, or can break when the hose material has deteriorated from long-term or improper use. Floods also result when exit hoses jump out of the sink from a strong flow pulse or sink drains are blocked by an accumulation of extraneous material. Proper use of hose clamps and maintenance of the entire cooling system or alternative use of a portable cooling bath with suction feed can resolve such problems. Plastic locking disconnects can make it easy to unfasten water lines without having to unclamp and reclamp secured lines. Some quick disconnects also incorporate check valves, which do not allow flow into or out of either half of the connection when disconnected. This feature allows for disconnecting and reconnecting with minimal spillage of water. To reduce the possibility of overpressurization of fittings or glassware, consider installing a vented pressure relief device on the water supply. Interlocks are also available that shut off electrical power in the event of loss of coolant flow and are recommended for unattended operations.
+
+## 7.C. WORKING WITH ELECTRICALLY POWERED LABORATORY EQUIPMENT
+
+Electrically powered equipment is used routinely for laboratory operations requiring heating, cooling, agitation or mixing, and pumping. Electrically powered equipment found in the laboratory includes fluid and vacuum pumps, lasers, power supplies, both electrophoresis and electrochemical apparatus, x-ray equipment, stirrers, hot plates, heating mantles, microwave ovens, and ultrasonicators. Attention must be paid to both the mechanical and the electrical hazards inherent in using these devices. High-voltage and high-power requirements are increasingly prevalent; therefore prudent practices for handling these devices are increasingly necessary.
+
+Electric shock is the major electrical hazard. Although relatively low current of 10 mA poses some danger, 80 to 100 mA can be fatal. In addition, if improperly used, electrical equipment can ignite flammable or explosive vapors. Most of the risks can be minimized by regular proper maintenance and a clear understanding of the correct use of the device. Before beginning any work, all personnel should be shown and trained in the use of all electrical power sources and the location of emergency shutoff switches. Information about emergency procedures can be found in section 7.G .
+
+## 7.C.1. General Principles
+
+Particular caution must be exercised during installation, modification, and repair, as well as during use of the equipment. To ensure safe operation, all electrical equipment must be installed and maintained in accordance with the provisions of the National Electrical Code (NEC) of the National Fire Protection Association ( NFPA, 2008 ). Trained laboratory personnel should also consult state and local codes and regulations, which may contain special provisions and be more stringent than the NEC rules. All repair and calibration work on electrical equipment must be carried out by properly trained and qualified personnel. Before modification, installation, or even minor repairs of electrical equipment are carried out, the devices must be deenergized and all capacitors discharged safely. Furthermore, this deenergized and/or discharged condition must be verified before proceeding. Note that the Occupational Safety and Health Administration (OSHA) Control of Hazardous Energy Standard (29 CFR § 1910.147, Lock out/Tag out) applies.
+
+All new electrical equipment should be inspected on receipt for a certification mark. If the device bears a certification mark from UL (Underwriters Laboratories Inc.), CSA (Canadian Standards Association), ETL (originally a mark of ETL Testing Laboratories, now a mark of Intertek Testing Services), or CE (Conformance European-Communaut Europenne or Conformit Europenne), detailed testing and inspection are not required. If the device does not bear one of these certification marks, the device should be inspected by an electrician before it is put into service.
+
+Each person participating in any experiment involving the use of electrical equipment must be aware of all applicable equipment safety issues and be briefed on any potential problems. Trained laboratory personnel can significantly reduce hazards and dangerous behavior by following some basic principles and techniques: checking and rechecking outlet receptacles ( section 7.C.1.1 ), making certain that wiring complies with national standards and recommendations ( section 7.C.1.2 ), reviewing general precautions ( section 7.C.1.3 ) and personal safety techniques ( section 7.C.1.4 ), and ensuring familiarity with emergency procedures ( section 7.G ).
+
+7.C.1.1. Outlet Receptacles
+
+All 110-V outlet receptacles in laboratories should be of the standard design that accepts a three-prong plug and provides a ground connection. Replace two-prong receptacles as soon as feasible, and add a separate ground wire so that each receptacle is wired as shown in Figure 7.1 . 1 The ground wire is preferably (but not required by code) on top to prevent anything falling onto a plug with exposed prongs, and will contact the ground before contacting the hot or the neutral line.
+
+FIGURE 7.1
+
+Representative design for a three-wire grounded outlet. The design shown is for 15-A, 125-V service. The specific design will vary with amperage and voltage.
+
+It is also possible to fit a receptacle with a ground-fault circuit interrupter (GFCI), which disconnects the current if a ground fault is detected. GFCI devices are required by local electrical codes for outdoor receptacles and for selected laboratory receptacles located less than 6 ft (1.83 m) from sinks if maintenance of a good ground connection is essential for safe operation. These devices differ in operation and purpose from fuses and circuit breakers, which are designed primarily to protect equipment and prevent electrical fires due to short circuits or other abnormally high current draw situations. Certain types of GFCIs cause equipment shutdowns at unexpected and inappropriate times; hence, their selection and use need careful planning. Be aware that GFCIs are not fail-safe devices. They significantly reduce the possibility of fatal shock but do not entirely eliminate it.
+
+Locate receptacles that provide electric power for operations in laboratory chemical hoods outside the hood. This location prevents the production of electrical sparks inside the chemical hood when a device is plugged in or disconnected, and it also allows trained laboratory personnel to disconnect electrical devices from outside the hood in case of an accident. Cords should not be routed in such a way that they can accidentally be pulled out of their receptacles or tripped over.
+
+Simple inexpensive plastic retaining strips and ties can be used to route cords safely. For laboratory chemical hoods with airfoils, route the electrical cords under the bottom airfoil so that the sash can be closed completely. Most airfoils are easily removed and replaced with a screwdriver.
+
+7.C.1.2. Wiring
+
+Fit laboratory equipment plugged into a 110-V (or higher) receptacle with a standard three-conductor line cord that provides an independent ground connection to the chassis of the apparatus (see Figure 7.2 ). Ground all electrical equipment unless it is double-insulated. This type of equipment has a two-conductor line cord that meets national codes and standards. The use of two-pronged cheaters to connect equipment with three-prong grounded plugs to old-fashioned two-wire outlets is hazardous and should be prohibited.
+
+FIGURE 7.2
+
+Standard wiring convention for 110-V electric power to equipment.
+
+Limit the use of extension cords to temporary (<1 day) setups, if they are permitted at all. Use a standard three-conductor extension cord of sufficient rating for the connected equipment with an independent ground connection. In addition, good practice uses only extension cords equipped with a GFCI. Install electrical cables properly, even if only for temporary use, and keep them out of aisles and other traffic areas. Install overhead racks and floor channel covers if wires must pass over or under walking areas. Do not intermingle signal and power cables in cable trays or panels. Special care is needed when installing and placing water lines (used, for example, to cool equipment such as flash lamps for lasers) so that they do not leak or produce condensation, which can dampen power cables nearby.
+
+Equipment plugged into an electrical receptacle should include a fuse or other overload protection device to disconnect the circuit if the apparatus fails or is overloaded. This overload protection is particularly useful for equipment likely to be left on and unattended for a long time, such as variable autotransformers (e.g., Variacs and powerstats), 2 vacuum pumps, drying ovens, stirring motors, and electronic instruments. If equipment does not contain its own built-in overload protection, modify it to provide such protection or replace it with equipment that does. Overload protection does not protect the trained laboratory personnel from electrocution but does reduce the risk of fire.
+
+7.C.1.3. General Precautions for Working with Electrical Equipment
+
+Laboratory personnel should be certain that all electrical equipment is well maintained, properly located, and safely used. To do this, review the following precautions and make the necessary adjustments prior to working in the laboratory:
+
+Insulate all electrical equipment properly. Visually inspect all electrical cords monthly, especially in any laboratory where flooding can occur. Keep in mind that rubber-covered cords can be eroded by organic solvents, ozone (produced by ultraviolet lamps), and long-term air oxidation.
+
+Properly replace all frayed or damaged cords before any further use of the equipment is permitted. Qualified personnel should conduct the replacement.
+
+Ensure the complete electrical isolation of electrical equipment and power supplies. Enclose all power supplies in a manner that makes accidental contact with power circuits impossible. In every experimental setup, including temporary ones, use suitable barriers or enclosures to protect against accidental contact with electrical circuits.
+
+Many laboratory locations are classified under fire and electrical codes with a mandate for nonsparking explosion-proof motors and electrical equipment. Areas where large amounts of flammable solvents are in use also require explosion-proof lighting and electrical fixtures. The owners of such facilities are responsible for ensuring that all electrical equipment and fixtures meet these codes and regulations.
+
+Equip motor-driven electrical equipment used in a laboratory where volatile flammable materials may be present with either nonsparking induction motors that meet Class 1, Division 2, Group C-D electrical standards ( Earley, 2008 ; NFPA, 2008 ) or air motors instead of series-wound motors that use carbon brushes, such as those generally used in vacuum pumps, mechanical shakers, stirring motors, magnetic stirrers, and rotary evaporators. Do not use variable autotransformers to control the speed of an induction motor. The speed of an induction motor is determined by the AC frequency rather than the voltage. Thus, using a variable autotransformer that controls voltage and not frequency could cause the motor to overheat and presents a fire hazard.
+
+Because series-wound motors cannot be modified to make them spark-free, do not use appliances (e.g., kitchen refrigerators, mixers, and blenders) with such motors in laboratories where flammable materials may be present.
+
+When bringing ordinary electrical equipment such as vacuum cleaners and portable electric drills having series-wound motors into the laboratory for special purposes, take specific precautions to ensure that no flammable vapors are present before such equipment is used (see Chapter 6 , section 6.G ).
+
+Locate electrical equipment to minimize the possibility of spills onto the equipment or flammable vapors carried into it. If water or any chemical is spilled on electrical equipment, shut off the power immediately at a main switch or circuit breaker and unplug the apparatus using insulated rubber gloves.
+
+Minimize condensation that may enter electrical equipment if it is placed in a cold room or a large refrigerator. Cold rooms pose a particular risk in this respect because the atmosphere is frequently at a high relative humidity, and the potential for water condensation is significant.
+
+If electrical equipment must be placed in such areas, mount the equipment on a wall or vertical panel. This precaution reduces, but does not eliminate, the effects of condensation.
+
+Condensation can also cause electrical equipment to overheat, smoke, or catch fire. In such a case, shut off the power to the equipment immediately at a main switch or circuit breaker and unplug the apparatus using insulated rubber gloves.
+
+To minimize the possibility of electrical shock, carefully ground the equipment using a suitable flooring material, and install GFCIs.
+
+Always unplug equipment before undertaking any adjustments, modifications, or repairs (with the exception of certain instrument adjustments as indicated in section 7.C.7 ). When it is necessary to handle equipment that is plugged in, be certain hands are dry and, if feasible, wear nonconductive gloves and shoes with insulated soles.
+
+Ensure that all laboratory personnel know the location and operation of power shutoffs (i.e., main switches and circuit breaker boxes) for areas in which they work. Voltages in breaker boxes may present an arc or flash hazard. Only qualified personnel wearing proper personal protective equipment (PPE) are allowed to open these boxes to access the main switches and circuit breakers contained therein. Label high-voltage breaker boxes presenting an arc or flash hazard. Trained laboratory personnel should be familiar with, and have in place, alternative power shutoffs (i.e., properly installed crash buttons, ready access to equipment power cord plugs).
+
+After making modifications to an electrical system or after a piece of equipment has failed, do not use it again until it has been cleaned and properly inspected.
+
+All laboratories should have access to a qualified technician who can make routine repairs to existing equipment and modifications to new or existing equipment so that it will meet acceptable standards for electrical safety. The NFPA National Electrical Code Handbook ( NFPA, 2008 ) provides guidelines.
+
+7.C.1.4. Personal Safety Techniques for Use with Electrical Equipment
+
+When operating or servicing electrical equipment, be sure to follow basic safety precautions as summarized below.
+
+Inform each individual working with electrical equipment of basic precautionary steps to take to ensure personal safety.
+
+Avoid contact with energized electrical circuits. Let only qualified individuals service electrical equipment.
+
+Before qualified individuals service electrical equipment in any way, disconnect the power source to avoid the danger of electric shock. Ensure that any capacitors are, in fact, discharged.
+
+Before reconnecting electrical equipment to its power source after servicing, check the equipment with a suitable tester, such as a multimeter, to ensure that it is properly grounded.
+
+Do not reenergize a circuit breaker until sure that the cause of the short circuit has been corrected.
+
+Install GCFIs as required by code to protect users from electric shock, particularly if an electrical device is handheld during a laboratory operation.
+
+If a person is in contact with a live electrical conductor, disconnect the power source before removing the person from the contact and administering first aid.
+
+7.C.1.5. Additional Safety Techniques for Equipment Using High Current or High Voltage
+
+Unless laboratory personnel are specially trained to install or repair high-current or high-voltage equipment, reserve such tasks for trained electrical workers. The following reminders are included for qualified personnel:
+
+Always assume that a voltage potential exists within a device while servicing it, even if it is deenergized and disconnected from its power source. A device may contain capacitors, for example, and could retain a potentially harmful electrical charge.
+
+Work with only one hand, if it is not awkward or otherwise unsafe to do so, while keeping the other hand at your side or in a pocket away from all conducting materials. This precaution reduces the likelihood of accidents that result in current passing through the chest cavity.
+
+Avoid becoming grounded by staying at least 6 in. away from walls, water, and all metal materials including pipes.
+
+Use voltmeters and test equipment with ratings and leads sufficient to measure the highest potential voltage to be found inside the equipment being serviced.
+
+## 7.C.2. Vacuum Pumps
+
+The use of water aspirators is discouraged. Their use in filtration or solvent-removal operations involving volatile organic solvents presents a hazard that volatile chemicals will contaminate the wastewater and the sewer, even if traps are in place. Water and sewer contamination may result in violation of local, state, or federal law. These devices also consume large volumes of water, present a flooding hazard, and can compromise local conservation measures.
+
+Distillation or similar operations requiring a vacuum must use a trapping device to protect the vacuum source, personnel, and the environment. This requirement also applies to oil-free Teflon-lined diaphragm pumps. Normally the vacuum source is a cold trap cooled with dry ice or liquid nitrogen. Even with the use of a trap, the oil in a mechanical vacuum trap can become contaminated and the waste oil must be treated as a hazardous waste.
+
+Vent the output of each pump to a proper air exhaust system. This procedure is essential when the pump is being used to evacuate a system containing a volatile toxic or corrosive substance. Failure to observe this precaution results in pumping the untrapped substances into the laboratory atmosphere. Scrubbing or absorbing the gases exiting the pump is also recommended. Even with these precautions, volatile toxic or corrosive substances may accumulate in the pump oil and thus be discharged into the laboratory atmosphere during future pump use. Avoid this hazard by draining and replacing the pump oil when it becomes contaminated. Follow procedures recommended by the institution's environmental health and safety office for the safe disposal of pump oil contaminated with toxic or corrosive substances. General-purpose laboratory vacuum pumps should have a record of use to prevent cross-contamination or reactive chemical incompatibility problems.
+
+Belt-driven mechanical pumps must have protective guards. Such guards are particularly important for pumps installed on portable carts or tops of benches where laboratory personnel might accidentally entangle clothing or fingers in the moving belt or wheels. Glassware under vacuum is at risk for implosion, which could result in flying glass. (For more information about working under vacuum, see Chapter 4 , section 4.E.4 .)
+
+## 7.C.3. Refrigerators and Freezers
+
+The potential hazards posed by laboratory refrigerators include release of vapors from the contents, the possible presence of incompatible chemicals, and spillage. As general precautions, laboratory refrigerators should be placed against fire-resistant walls, should have heavy-duty power cords, and preferably should be protected by their own circuit breaker. Enclose the contents of a laboratory refrigerator in unbreakable secondary containment. Because there is almost never a satisfactory way to continuously vent the interior atmosphere of a refrigerator, any vapors escaping from vessels placed in one will accumulate in the refrigerated space and gradually be absorbed into the surrounding insulation. Thus, the atmosphere in a refrigerator could contain an explosive mixture of air and the vapor of a flammable substance or a dangerously high concentration of the vapor of a toxic substance or both. The impact of exposure to toxic substances can be aggravated when a person inserts his or her head inside a refrigerator to search for a particular sample. Placing potentially explosive (see Chapter 6 , sections 6.C and 6.G ) or highly toxic substances (see Chapter 6 , sections 6.D and 6.E ) in a laboratory refrigerator is strongly discouraged. As noted in Chapter 6 , section 6.C , laboratory refrigerators are never used to store food or beverages for human consumption. Add permanent labels warning against the storage of food and beverages to all laboratory refrigerators and freezers.
+
+Potential ignition sources, (e.g., electrical sparks) must be eliminated from the inside of laboratory refrigerators used to store flammable chemicals. Use explosion-proof refrigerators for the storage of flammable materials; they are sold for this purpose and are labeled and hardwired. Only refrigerators that have been UL- or FM (Factory Mutual)-approved for flammable storage should be used for this purpose. A labeled hardwired explosion-proof refrigerator is mandatory for a renovated or new laboratory where flammable materials need refrigeration. Because of the expense of an explosion-proof refrigerator, a modified sparkproof refrigerator is sometimes found in older laboratories and laboratories using very small amounts of flammable materials. However, a modified sparkproof refrigerator cannot meet the standards of an explosion-proof refrigerator. Where they exist, a plan to phase them out is recommended.
+
+Sparkproof refrigerators must have had the following modifications:
+
+Interior light and switch mounted on the door frame, if present, have been removed.
+
+Contacts of the thermostat controlling the fan and temperature have been moved outside the refrigerated compartment.
+
+Permanently attach a prominent sign warning against the storage of flammable substances to the door of an unmodified refrigerator. Frost-free refrigerators are not suitable for laboratory use, owing to the problems associated with attempts to modify them. Many of these refrigerators have a drain tube or hole that carries water (and any flammable material present) to an area adjacent to the compressor and thus present a spark hazard. The electric heaters used to defrost the freezing coils are also a potential spark hazard (see section 7.C.5 ). To ensure its effective functioning, defrost a freezer manually when ice builds up.
+
+Never place uncapped containers of chemicals in a refrigerator. Caps provide a vapor-tight seal to prevent a spill if the container is tipped over. Aluminum foil, corks, corks wrapped with aluminum foil, and glass stoppers do not meet this criterion, and their use is discouraged. The most satisfactory temporary seals are normally screw caps lined with either a conical polyethylene or a Teflon insert. The best containers for samples that are to be stored for longer periods of time are sealed nitrogen-filled glass ampoules. At a minimum, use catch pans for secondary containment.
+
+Careful labeling of samples placed in refrigerators and freezers with both the contents and the owner's name is essential. Do not use water-soluble ink; labels should be waterproof or covered with transparent tape. Storing samples with due consideration of chemical compatibility is important in these often small crowded spaces.
+
+## 7.C.4. Stirring and Mixing Devices
+
+The stirring and mixing devices commonly found in laboratories include stirring motors, magnetic stirrers, shakers, small pumps for fluids, and rotary evaporators for solvent removal. These devices are often used in laboratory chemical hoods, and they must be operated such that they do not provide an ignition source for flammable vapors. Consider the use of air-driven stirrers and other spark-free devices. Furthermore, it is important that, in the event of an emergency, such devices can be turned on or off from outside the laboratory chemical hood. Heating baths associated with these devices (e.g., baths for rotary evaporators) should also be spark-free and controllable from outside the hood. (See sections 7.C.1 and 7.C.5 .)
+
+Use only spark-free induction motors in power stirring and mixing devices or any other rotating equipment used for laboratory operations. In some cases these devices may be required by fire and electrical codes. Although the motors in most of the currently marketed stirring and mixing devices meet this criterion, their on/off switches and rheostat-type speed controls can produce an electrical spark any time they are adjusted, because they have exposed contacts. Many of the magnetic stirrers and rotary evaporators currently on the market have this disadvantage. An effective solution is to remove any switch located on the device and insert a switch in the cord near the plug end; because the electrical receptacle for the plug should be outside the chemical hood, this modification ensures that the switch will also be outside. Do not control the speed of an induction motor operating under a load by a variable autotransformer.
+
+Because stirring and mixing devices, especially stirring motors and magnetic stirrers, are often operated for fairly long periods without constant attention, consider the consequences of stirrer failure, electrical overload, or blockage of the motion of the stirring impeller. In good practice a stirring impeller is attached to the shaft of the stirring motor with lightweight rubber tubing. If the motion of the impeller is impeded, the rubber can twist away from the motor shaft, and the motor will not stall. Because this practice does not always prevent binding of the impeller, it is also desirable to fit unattended stirring motors with a suitable fuse or thermal protection device. (Also see section 7.C.1 .) Take care when attaching an impeller shaft to an overhead motor. If the attachment fails, the impeller shaft could fall through the bottom of a glass vessel below, risking flying glass and a spill.
+
+## 7.C.5. Heating Devices
+
+Perhaps the most common types of electrical equipment found in a laboratory are the devices used to supply the heat needed to effect a reaction or separation. These include ovens, hot plates, heating mantles and tapes, oil baths, salt baths, sand baths, air baths, hot-tube furnaces, hot-air guns, and microwave ovens. The use of steam-heated devices rather than electrically heated devices is generally preferred whenever temperatures of 100 °C or less are required. Because they do not present shock or spark risks, they can be left unattended with assurance that their temperature will never exceed 100 °C. Use steam that is generated by units that are dedicated to laboratory use. Steam generated for general facility use may contain contaminants that could interfere with laboratory work.
+
+Take a number of general precautions when working with heating devices in the laboratory. If using a variable autotransformer (variac), be sure to wire (or rewire) new or existing equipment, as illustrated in Figure 7.3 , before use. However, temperature controllers with built-in safety interlock capability are available from commercial sources and are preferred to variable autotransformers. Enclose the actual heating element in any laboratory heating device in a glass, ceramic, or insulated metal case to prevent a metallic conductor or laboratory personnel from accidentally touching the wire carrying the electric current. This type of construction minimizes the risk of electric shock and of accidentally producing an electrical spark near a flammable liquid or vapor (see Chapter 6 , section 6.G.1 ). It also diminishes the possibility that a flammable liquid or vapor will come into contact with wires at temperatures that might exceed its ignition temperature. Because many household appliances (e.g., hot plates and space heaters) do not meet this criterion, do not use them in a laboratory. Resistance devices used to heat oil baths should not contain bare wires. If any heating device becomes so worn or damaged that its heating element is exposed, either discard the device or repair it before it is used again.
+
+FIGURE 7.3
+
+Schematic diagram of a properly wired variable autotransformer.
+
+Use laboratory heating devices with a variable autotransformer to control and limit the input voltage to some fraction of the total line voltage, typically 110 V. If a variable autotransformer is not wired in this manner, the switch on it may or may not disconnect both wires of the output from the 110-V line when it is switched to the off position. Also, if this wiring scheme has not been followed, and especially if the grounded three-prong plug is not used, even when the potential difference between the two output lines is only 10 V, each output line may be at a relatively high voltage (e.g., 110 V and 100 V) with respect to an electrical ground. Because these potential hazards exist, whenever laboratory personnel use a variable autotransformer with an unknown wiring scheme, prudent practice assumes that either of the output lines carries a potential of 110 V and is capable of delivering a lethal electric shock.
+
+The external cases of all variable autotransformers have perforations for cooling and ventilation, and some sparking may occur whenever the voltage adjustment knob is turned. Therefore, locate these devices where water and other chemicals cannot be spilled onto them and where their movable contacts will not be exposed to flammable liquids or vapors. Mount variable autotransformers on walls or vertical panels and outside laboratory chemical hoods; do not simply place them on laboratory benchtops.
+
+Electrical input lines, including lines from variable transformers, to almost all laboratory heating devices have a potential of 110 V with respect to any electrical ground; always view these lines as potential shock and spark hazards. Connections from these lines to a heating device should be both mechanically and electrically secure and completely covered with insulating material. Do not use alligator clips to connect a line cord from a variable autotransformer to a heating device, especially to an oil bath or an air bath, because such connections pose a shock hazard. They also may slip off, creating an electrical spark and, perhaps, contacting other metal parts to create an additional hazard. Make all connections by using, preferably, a plug-and-receptacle combination, or wires with insulated terminals firmly secured to insulated binding posts.
+
+Whenever an electrical heating device is used, either a temperature controller or a temperature-sensing device must be used that will turn off the electric power if the temperature of the heating device exceeds some preset limit. Similar control devices are available that will turn off the electric power if the flow of cooling water through a condenser is stopped owing to the loss of water pressure or loosening of the water supply hose to a condenser. Independent temperature sensors must be used for the temperature controller and shutoff devices. Fail-safe devices, which can be either purchased or fabricated, can prevent the more serious problems of fires or explosions that may arise if the temperature of a reaction increases significantly because of a change in line voltage, the accidental loss of reaction solvent, or loss of cooling. Use fail-safe devices for stills purifying reaction solvents, because such stills are often left unattended for significant periods of time. Temperature-sensing devices absolutely must be securely clamped or firmly fixed in place, maintaining contact with the object or medium being heated at all times. If the temperature sensor for the controller is not properly located or has fallen out of place, the controller will continue to supply power until the sensor reaches the temperature setting, creating an extremely hazardous situation. (See also Vignette 7.1 .)
+
+VIGNETTE 7.1
+
+Oil bath fire as a result of a loose temperature sensor. A researcher walking past a laboratory noticed a flame burning behind the closed sashes of the chemical fume hood. He determined that the oil in an oil bath was burning. There was no other equipment (more...)
+
+Hot plates, oil baths, and heating mantles that can melt and combust plastic materials (e.g., vials, containers, tubing) can cause laboratory fires, and the area around the equipment should be cleared of those hazards prior to use. Be aware that dry and concentrated residues can ignite when overheated in stills, ovens, dryers, and other heating devices.
+
+(See section 7.C.1 for additional information.)
+
+7.C.5.1. Ovens
+
+Electrically heated ovens are commonly used in the laboratory to remove water or other solvents from chemical samples and to dry laboratory glassware. Never use laboratory ovens to prepare food for human consumption.
+
+Purchase or construct laboratory ovens with their heating elements and their temperature controls physically separated from their interior atmospheres. Small household ovens and similar heating devices usually do not meet these requirements and, consequently, should not be used in laboratories. With the exception of vacuum drying ovens, laboratory ovens rarely prevent the discharge of the substances volatilized in them into the laboratory atmosphere. The volatilized substances may also be present in sufficient concentration to form explosive mixtures with the air inside the oven (see Chapter 6 , section 6.G ). This hazard can be reduced by connecting the oven vent directly to an exhaust system. (See Vignette 7.2 .)
+
+VIGNETTE 7.2
+
+Muffle furnace fire. A laboratory specializing in the analysis of paint samples was asked to analyze pigmented polypropylene. The first step of the analytical protocol called for ashing the sample in a muffle furnace. The technician loaded the furnace (more...)
+
+Do not use ovens to dry any chemical sample that has even moderate volatility and might pose a hazard because of acute or chronic toxicity unless special precautions have been taken to ensure continuous venting of the atmosphere inside the oven. (See Vignette 7.2 .) Thus, do not dry most organic compounds in a conventional unvented laboratory oven.
+
+To avoid explosion, do not dry glassware that has been rinsed with an organic solvent in an oven until it has been rinsed again with distilled water. Potentially explosive mixtures can be formed from volatile substances and the air inside an oven.
+
+Bimetallic strip thermometers are preferred for monitoring oven temperatures. Do not mount mercury thermometers through holes in the tops of ovens with the bulb hanging into the oven. If a mercury thermometer is broken in an oven of any type, close the oven and turn it off immediately to avoid mercury exposure. Keep it closed until cool. Remove all mercury from the cold oven with the use of appropriate cleaning equipment and procedures (see Chapter 6 , section 6.C.10.8 ). After removal of all visible mercury, monitor the heated oven in a laboratory chemical hood until the mercury vapor concentration drops below the threshold limit value. (For information about reducing the use of mercury in thermometers, see Chapter 5 , section 5.B.8 .)
+
+7.C.5.2. Hot Plates
+
+Laboratory hot plates are often used when solutions are to be heated to 100 °C or higher and the inherently safer steam baths cannot be used as the source of heat. As previously noted, use only hot plates that have completely enclosed heating elements in laboratories. Although almost all laboratory hot plates currently sold meet this criterion, many older ones pose an electrical spark hazard arising from either the on/off switch located on the hot plate, the bimetallic thermostat used to regulate the temperature, or both. Normally, these two spark sources are located in the lower part of the hot plate in a region where any heavier-than-air and possibly flammable vapors evolving from a boiling liquid on the hot plate would tend to accumulate. In principle, these spark hazards are alleviated by enclosing all mechanical contacts in a sealed container or by using solid-state circuitry for switching and temperature control. However, in practice, such modifications are difficult to incorporate into many of the hot plates now in use. Warn laboratory personnel of the spark hazard associated with these hot plates. Set up any newly purchased hot plates to avoid electrical sparks. In addition to the spark hazard, old and corroded bimetallic thermostats in these devices can eventually fuse shut and deliver full continuous current to a hot plate. This risk can be avoided by wiring a fusible coupling into the line inside the hot plate. If the device does overheat, the coupling will melt and interrupt the current (see section 7.C.1 ).
+
+On many brands of combined stirrer/hot plates, the controls for the stirrer and temperature control are not easily differentiated. Care must be taken to distinguish their functions. A fire or explosion may occur if the temperature rather than the stirrer speed is increased inadvertently.
+
+7.C.5.3. Heating Mantles
+
+Heating mantles are commonly used to heat round-bottom flasks, reaction kettles, and related reaction vessels. These mantles enclose a heating element in layers of fiberglass cloth. As long as the fiberglass coating is not worn or broken and no water or other chemicals are spilled into the mantle (see section 7.C.1 ), heating mantles pose minimal shock hazard. They are normally fitted with a male plug that fits into a female receptacle on an output line from a variable autotransformer. This plug combination provides a mechanically and electrically secure connection.
+
+Always use heating mantles with a variable autotransformer to control the input voltage. Never plug them directly into a 110-V line. Trained laboratory personnel should be careful not to exceed the input voltage recommended by the mantle manufacturer. Higher voltages will cause a mantle to overheat, melting the fiberglass insulation and exposing the bare heating element.
+
+Some heating mantles are constructed by encasing the fiberglass mantle in an outer metal case that provides physical protection against damage to the fiberglass. If such metal-enclosed mantles are used, good practice is to ground the outer metal case either by using a grounded three-conductor cord from the variable autotransformer or by securely affixing one end of a heavy braided conductor to the mantle case and the other end to a known electrical ground. This practice protects the laboratory personnel against an electric shock if the heating element inside the mantle short-circuits against the metal case. Placing the heating mantle on a laboratory jack and holding the flask or container being heated by clamps attached to a separate ring stand or grid work is the recommended procedure. This allows for rapid removal of heat in the case of overheating or exothermicity.
+
+7.C.5.4. Oil, Salt, or Sand Baths
+
+When using oil, salt, or sand baths, take care not to spill water and other volatile substances into the baths. Such an accident can splatter hot material over a wide area and cause serious injuries.
+
+Electrically heated oil baths are often used to heat small or irregularly shaped vessels or to maintain a constant temperature with a stable heat source. For temperatures below 200 °C, a saturated paraffin oil is often used; for temperatures up to 300 °C, a silicone oil should be used. Care must be taken with hot oil baths not to generate smoke or have the oil burst into flames from overheating. Always monitor an oil bath by using a thermometer or other thermal sensing device to ensure that its temperature does not exceed the flash point of the oil being used. For the same reason, fit oil baths left unattended with thermal-sensing devices that turn off the electric power if the bath overheats. Heat these baths by an enclosed heating element, such as a knife heater, a tubular immersion heater such as a calrod, or its equivalent. The input connection for this heating element is a male plug that fits a female receptacle from a variable autotransformer (e.g., Variac) output line. Alternatively, a temperature controller can be used to control the temperature of the bath precisely. Temperature controllers are available that provide a variety of heating and cooling options. Thermocouples used by controlling devices must be clamped securely in place to maintain contact with the medium or object being heated at all times.
+
+Oil baths must be well mixed to ensure that there are no hot spots around the elements that take the surrounding oil to unacceptable temperatures. This problem can be minimized by placing the thermoregulator fairly close to the heater. Contain heated oil in either a metal pan or a heavy-walled porcelain dish; a Pyrex dish or beaker can break and spill hot oil if struck accidentally with a hard object. Mount the oil bath carefully on a stable horizontal support such as a laboratory jack that can be raised or lowered easily without danger of the bath tipping over. Always clamp equipment high enough above a hot plate or oil bath that if the reaction begins to overheat, the heater can be lowered immediately and replaced with a cooling bath without having to readjust the clamps holding the equipment setup. Never support a bath on an iron ring because of the greater likelihood of accidentally tipping the bath over. Provide secondary containment in the event of a spill of hot oil. Wear proper protective gloves when handling a hot bath.
+
+Molten salt baths, like hot oil baths, offer the advantages of good heat transfer, commonly have a higher operating range (e.g., 200 to 425 °C), and may have a high thermal stability (e.g., 540 °C). The reaction container used in a molten salt bath must be able to withstand a very rapid heat rise to a temperature above the melting point of the salt. Care must be taken to keep salt baths dry, because they are hygroscopic, a property that can cause hazardous popping and splattering if the absorbed water vaporizes during heating.
+
+7.C.5.5. Hot Air Baths and Tube Furnaces
+
+Hot air baths can be useful heating devices. Nitrogen is preferred for reactions in which flammable materials are used. Electrically heated air baths are frequently used to heat small or irregularly shaped vessels. Because of their inherently low heat capacity, such baths normally must be heated considerably above the desired temperature (≥100 °C) of the vessel being heated. Purchase or construct these baths so that the heating element is completely enclosed and the connection to the air bath from the variable autotransformer is both mechanically and electrically secure. These baths can be constructed from metal, ceramic, or, less desirably, glass vessels. If a glass vessel is used, wrap it thoroughly with heat-resistant tape so that if the vessel breaks accidentally, the glass will be contained and the bare heating element will not be exposed. Fluidized sand baths are usually preferred over air baths.
+
+Tube furnaces are often used for high-temperature reactions under reduced pressure. The proper choice of glassware or metal tubes and joints is required, and the procedures should conform to safe practice with electrical equipment and evacuated apparatus.
+
+(See also section 7.C.1 and Chapter 6 , section 6.G.2.5 .)
+
+7.C.5.6. Heat Guns
+
+Laboratory heat guns are constructed with a motor-driven fan that blows air over an electrically heated filament. They are frequently used to dry glassware or to heat the upper parts of a distillation apparatus during distillation of high-boiling point materials. The heating element in a heat gun typically becomes red-hot during use and, necessarily cannot be enclosed. Also, the on/off switches and fan motors are not usually spark-free. Furthermore, heat guns are designed to pull lab air into and across the red-hot heating elements, thereby increasing the ignition risk. For these reasons, heat guns almost always pose a serious spark hazard (see Chapter 6 , section 6.G.1 ). Never use them near open containers of flammable liquids, in environments where appreciable concentrations of flammable vapors may be present, or in laboratory chemical hoods used to remove flammable vapors. Household hair dryers may be substituted for laboratory heat guns only if they have three-conductor line cords or are double-insulated. Any handheld heating device of this type that will be used in a laboratory should have GFCI protection to ensure against electric shock.
+
+7.C.5.7. Microwave Ovens
+
+Use microwave ovens specifically designed for laboratory use. Domestic microwave ovens are not appropriate.
+
+Microwave heating presents several potential hazards not commonly encountered with other heating methods: extremely rapid temperature and pressure rise, liquid superheating, arcing, and microwave leakage. Microwave ovens designed for the laboratory have built-in safety features and operation procedures to mitigate or eliminate these hazards. Users of such equipment must be thoroughly knowledgeable of operation procedures and safety devices and protocols before beginning experiments, especially when there is a possibility of fire (flammable solvents), overpressurization, or arcing ( Foster and Cournoyer, 2005 ).
+
+To avoid exposure to microwaves, never operate ovens with the doors open. Do not place wires and other objects between the sealing surface and the door on the oven's front face. Keep the sealing surfaces absolutely clean. To avoid electrical hazards, the oven must be grounded. If use of an extension cord is necessary, use only a three-wire cord with a rating equal to or greater than that for the oven. To reduce the risk of fire in the oven, do not overheat samples. The oven must be closely watched when combustible materials are in it. Do not use metal containers or metal-containing objects (e.g., stir bars) in the microwave, because they can cause arcing.
+
+In general, do not heat sealed containers in a microwave oven, because of the danger of explosion. If sealed containers must be used, select their materials carefully and the containers properly designed. Commercially available microwave acid digestion bombs, for example, incorporate a Teflon sample cup, a self-sealing Teflon O-ring, and a compressible pressure-relief valve. Do not exceed the manufacturer's loading limits. For such applications, properly vent the microwave oven using an exhaust system. Placing a large item, such as a laboratory microwave or an oven, inside a chemical fume hood is not recommended.
+
+Heating a container with a loosened cap or lid poses a significant risk. Microwave ovens can heat material (e.g., solidified agar) so quickly that, even though the container lid is loosened to accommodate expansion, the lid can seat upward against the threads and the container can explode. Screw caps must be removed from containers being microwaved. If the sterility of the contents must be preserved, screw caps may be replaced with cotton or foam plugs.
+
+## 7.C.6. Distillation
+
+Distillation of flammable and combustible solvents is dangerous due to the presence of heat and flammable vapors. Distillations should be maintained under inert atmosphere. At the completion of vacuum distillations, backfill the apparatus with inert gas. Perform such distillations in a chemical hood. Stills in use should be attended at all times and should have an automatic high-temperature shutoff. Distillation can sometimes be avoided by purchasing smaller quantities and high-purity solvents.
+
+7.C.6.1. Solvent Stills
+
+Solvent stills are used to produce dry, oxygen-free, high-purity solvents. Most high-purity solvents are commercially available in specialized kegs or may be obtained from column purification systems (see section 7.C.6.2 ); thus, thermal distillation processes should be a last resort. There have been numerous fires attributed to solvent stills, some resulting in serious injuries and extensive damage to the labs. [See, e.g., Yarnell (2002) .]
+
+The process involves reflux and distillation of organic solvents (many of which are flammable liquids) over drying materials, under nitrogen or argon gas. The most commonly used drying agents involve potentially pyrophoric metals: sodium metal/benzophenone and magnesium metal/iodine. The stills must be periodically quenched to prepare the still bottoms for disposal. This usually involves adding solvent to consume the scavenging agents. The process itself poses a risk of reactive metal adhering to the bottom of the flask, with the potential for exposure to air, potentially causing a spontaneous fire. Most thermal stills rely on electric heating mantles to heat the flammable solvents upward of 82 °C (180 °F), presenting a fire risk and potential ignition source.
+
+Always set up stills in a chemical hood. Although many procedures suggest allowing the process to run overnight, it is prudent to ensure that it is not left completely unattended. Start the process at the beginning of the day and let it run as long as laboratory workers are present. Place Plexiglas shields around the still to protect workers in the event of a serious accident. Deactivate the stills under argon or nitrogen, never air. Do not add fresh solvent, drying agent, or indicator while the still is hot. Ensure that water cooling lines are in good condition. Do not allow material to accumulate at the bottom of the still; quench the still at the end of every procedure and clean thoroughly. Use caution when collecting the reactive materials as waste.
+
+7.C.6.2. Column Purification Systems or “Push Stills”
+
+Column purification systems offer a safer, more environmentally friendly process for providing dry, oxygen-free, high-purity solvents as compared with thermal distillation. The level of impurity (water, oxygen, peroxides) is comparable to thermal distillation. The system is usually composed of refillable stainless steel “kegs” that hold high-purity solvent and act as a solvent reservoir. Inert gas (nitrogen, argon) is used to maintain an inert atmosphere as well as to force solvent through the packed columns that contain activated alumina (for water scavenging) and copper catalyst (for oxygen scavenging). For those solvents that are incompatible with copper (e.g., tetrahydrofuran, methylene chloride, acetonitrile), a second column of alumnia is used along with a dry nitrogen or argon purge to facilitate oxygen removal. The solvent product is dispensed from the columns into a variety of specialized containers for use in the laboratory (glass, stainless steel, etc.).
+
+Column purification systems ( Figure 7.4 ) present much less of a fire risk compared with thermal distillation, because they do not employ heating devices or reactive metals. Because glass containers are not needed, the potential for injury or spill related to breakage is also eliminated.
+
+FIGURE 7.4
+
+Example of a column purification system.
+
+The column purification system significantly reduces utility usage compared with a thermal still. Thermal distillation uses an average of 70,000 gal of water per coolant line, per year; the column purification system uses no water. There is no need for heating mantles when solvent is present, and the intrinsically safe properties of the system allow it to be set up virtually anywhere in the laboratory, thus eliminating the need to place the apparatus in a chemical hood. As a result, there is a significant savings in electricity usage, although heating jackets may be required for installations where the water and oxygen scavengers are activated or regenerated.
+
+When using a column purification system, it is important not to draw down the column completely empty. Bubbling or splattering as the product is drawn from the column is an indication of breakthrough of argon. For the column to be functional again, a lengthy priming operation may be needed.
+
+## 7.C.7. Ultrasonicators, Centrifuges, and Other Electrical Equipment
+
+7.C.7.1. Ultrasonicators
+
+The use of high-intensity ultrasound in the chemical laboratory has grown substantially during the past decade. Human exposure to ultrasound with frequencies of between 16 and 100 kHz can be divided into three distinct categories: airborne conduction, direct contact through a liquid-coupling medium, and direct contact with a vibrating solid.
+
+Ultrasound through airborne conduction does not appear to pose a significant health hazard to humans. However, exposure to the associated high volumes of audible sound can produce a variety of effects, including fatigue, headaches, nausea, and tinnitus. When ultrasonic equipment is operated in the laboratory, the apparatus must be enclosed in a 2-cm-thick wooden box or in a box lined with acoustically absorbing foam or tiles to substantially reduce acoustic emissions (most of which are inaudible).
+
+Avoid direct contact of the body with liquids or solids subjected to high-intensity ultrasound that promotes chemical reactions. Under some chemical conditions, cavitation is created in liquids that induces high-energy chemistry in liquids and tissues. Cell death from membrane disruption can occur even at relatively low acoustic intensities. Exposure to ultrasonically vibrating solids, such as an acoustic horn, can lead to rapid frictional heating and potentially severe burns.
+
+7.C.7.2. Centrifuges
+
+High-speed centrifuges and ultracentrifuges rely on rotors designed specifically for the particular make and model. These rotors are subject to high mechanical stresses from the forces of the rotation speed. Rotors are rated for a maximum speed and a load of specific weight. Improper loading and balancing can cause the rotors to dislodge while spinning. Failure of the rotors may present a number of hazards: violent movement of the unit itself may cause injury or damage to equipment, electrical lines, gas lines, etc.; flying shrapnel may cause personal injury or facility damage; and some units are susceptible to explosions due to the configuration and materials of construction. (See Vignette 7.3 .)
+
+VIGNETTE 7.3
+
+Centrifuge explosion from use of improper rotor. Lab workers had left samples running unattended in an ultracentrifuge using a large aluminum rotor that previously had been used multiple times without incident. The rotor dislodged while spinning at 20,000 (more...)
+
+The following precautions should be taken when operating and inspecting centrifuge rotors:
+
+Balance the load each time the centrifuge is used. The disconnect switch should automatically shut off the equipment when the top is opened.
+
+Do not overfill the centrifuge tubes. Ensure that they are hung properly.
+
+Ensure that the lid is closed before starting the centrifuge.
+
+Do not overload a rotor beyond the rotor's maximum mass without reducing the rated rotor speed.
+
+Follow the manufacturer's instructions for safe operating speeds. Do not run a rotor beyond its maximum rated speed.
+
+Check O-rings and grease the seals routinely with vacuum grease.
+
+Do not use harsh detergents to clean the rotors, especially aluminum rotors. Use a mild detergent and rinse with deionized water, if possible.
+
+Be sure to follow the manufacturer's guidelines for when to retire a rotor.
+
+For flammable and/or hazardous materials, keep the centrifuge under negative pressure to a suitable exhaust system.
+
+Keep a usage and maintenance log.
+
+Always use the rotor specified by the manufacturer.
+
+Inspect the components of the centrifuge each time it is used: ◦ Look for signs of corrosion of the rotors. Metal fatigue will eventually cause any rotor to fail. ◦ Ensure that the coating on the rotor is not damaged. ◦ Check the cone area for cracks, because this area is highly stressed during rotation. ◦ Look for corrosion or cracks in the tube cavity.
+
+Look for signs of corrosion of the rotors. Metal fatigue will eventually cause any rotor to fail.
+
+Ensure that the coating on the rotor is not damaged.
+
+Check the cone area for cracks, because this area is highly stressed during rotation.
+
+Look for corrosion or cracks in the tube cavity.
+
+7.C.7.3. Electrical Instruments
+
+Most modern electronic instruments have a cord that contains a separate ground wire for the chassis and are supplied with a suitable fuse or other overload protection. Modify any existing instrument that lacks these features to incorporate them. As is true for any electrical equipment, take special precautions to avoid possibility of water or other chemical spills into these instruments.
+
+Under most circumstances, any repairs to, adjustments to, or alterations of electrical instruments should be made only by a qualified individual. Laboratory personnel should not undertake such adjustments unless they have received certification as well as specific training for the particular instrument to be serviced. If trained laboratory personnel do undertake repairs, always unplug the cord before any disassembly begins. However, certain adjustments require connection to a power source, and appropriate protective measures and due diligence are required when working on energized devices. Extra precautions are particularly important for instruments that incorporate high-voltage circuitry.
+
+Many electrical instruments, such as lasers and X-ray, electron-beam, radioactive, photochemical, and electrophoresis equipment, emit potentially harmful radiation, and, therefore, special precautions must be taken when they are used. Only trained laboratory personnel should use and service this equipment. (See section 7.C.1 and Chapter 6 , section 6.E .)
+
+## 7.C.8. Electromagnetic Radiation Hazards
+
+Laboratory equipment that can produce hazardous amounts of electromagnetic radiation include ultraviolet lamps, arc lamps, heat lamps, lasers, microwave and radio-frequency sources, and X-ray and electron-beam sources.
+
+7.C.8.1. Visible, Ultraviolet, and Infrared Laser Light Sources
+
+Seal or enclose direct or reflected ultraviolet light, arc lamps, and infrared sources to minimize overexposure whenever possible. Wear appropriately rated safety glasses, chemical splash goggles, and face shields for eye protection. Wear long-sleeved clothing and gloves to protect arms and hands from exposure. When lasers or deep UV light sources are in use, lights or highly visible signage should be posted outside the room.
+
+Control measures for the safe use of lasers have been established by the American National Standards Institute and presented in Safe Use of Lasers (ANSI Z136.1-2007; ANSI, 2007 ), which describes the different types of laser hazards and the appropriate measures to control each type. Operate Class IIIB and IV lasers only in posted laser-controlled areas. No one but the authorized operator of a laser system should ever enter a posted laser-controlled laboratory when the laser is in use. (See Chapter 4 , section 4.E.5 .)
+
+7.C.8.2. Radio-Frequency and Microwave Sources
+
+Section 7.C.5.7 provides guidelines for the safe use of microwave ovens in the laboratory. Other devices in the laboratory can also emit harmful microwave or radio-frequency emissions. Train personnel working with these types of devices in their proper operation as well as in measures to prevent exposure to harmful emissions. Position shields and protective covers properly when the equipment is operating. Post warning signs on or near these devices to protect people wearing heart pacemakers.
+
+7.C.8.3. X-Rays, Electron Beams, and Sealed Sources
+
+X-rays and electron beams (E-beams) are used in a variety of laboratory applications but most often for analytical operations. The equipment is government regulated, and usually registration and licensing are required. Train personnel operating or working in the vicinity of these types of equipment appropriately to minimize the risk of exposing themselves and others in the laboratory to harmful ionizing radiation.
+
+The beam from a low-energy X-ray diffraction machine can cause cell destruction as well as genetic damage. The user must always be alert to the on/off status of the X-ray beam, keep aware of the location of the beam, and know how to work safely around the beam when aligning it in preparation for conducting an experiment. Machine warning lights indicate when the beam shutter is open. Users are required to wear a monitoring badge to measure any accumulated exposure.
+
+7.C.8.4. Miscellaneous Physical Hazards Presented by Electrically Powered Equipment
+
+An object that moves into the attractive field of a strong magnet system, such as a nuclear magnetic resonance (NMR) system or any other instrument system requiring a superconducting magnet, can become a projectile that is pulled rapidly toward the magnet. For example, the large attractive force of an NMR requires that objects ranging from keys, scissors, knives, wrenches, other tools, oxygen cylinders, buffing machines, and wheelchairs, and other ferromagnetic objects are excluded from the immediate vicinity of the magnet to protect safety and data quality.
+
+Magnetic fields of ~10 G can adversely affect credit cards, watches, and other magnetic objects (see Table 7.1 ). Computer and television screens in neighboring areas may be affected by shifts in small, peripheral magnetic fields as magnets are brought up to field or decommissioned. Prudent practices require posting warnings, cordoning off the area at the 5-G line, and limiting access to areas with more than 10 to 20 G to knowledgeable staff. Keep people wearing heart pacemakers and other electronic or electromagnetic prosthetic devices or other potentially magnetic surgical implants, such as aneurysm clips, away from strong magnetic sources. Repairs done in the vicinity of a strong magnet should be performed with nonferromagnetic tools.
+
+TABLE 7.1
+
+Summary of Magnetic Field Effects.
+
+Magnetic fields operate in three dimensions, and when considering the impact of an instrument, field strength should be checked on the floors above and below the floor where a superconducting magnet is installed. The 5-G line should be identified in all affected rooms, and appropriate warnings should be posted.
+
+Because superconducting magnets use liquid nitrogen and liquid helium coolants, the precautions associated with the use of cryogenic liquids must be observed as well. (Also see section 7.E.2 .) If the superconducting magnet loses superconductivity because of damage, physical shock, or for any other reason, the coil will heat the cryogenic liquid that surrounds it, the magnet will quench (lose field), and the helium will boil off rapidly into the surrounding space. Low-oxygen alarms are recommended in rooms where instruments with superconducting magnets are located. In the event of a quench, all personnel should leave the area and not return until oxygen levels return to normal. If emergency personnel must enter the area before the oxygen levels have been verified, they should wear a self-contained breathing apparatus (SCBA).
+
+Rooms containing superconducting magnets should provide enough clearance for coolant fills to be performed safely.
+
+If an object becomes stuck to a superconducting magnet, do not attempt to remove it, but call the vendor of the magnet for guidance. Attempting to remove the object could result in injury to personnel and damage to the magnet. It may also cause the magnet to quench, releasing dangerous quantities of gaseous helium into the area.
+
+Injuries can result from bodily contact with rotating or moving objects, including mechanical equipment, parts, and devices. The risk of injury can be reduced through improved engineering, good housekeeping, and safe work practice and personal behavior. Trained laboratory personnel must know how to safely shut down equipment in the event of an emergency; must enclose or shield hazardous parts, such as belts, chains, gears, and pulleys, with appropriate guards; and must not wear loose-fitting clothing, jewelry, or unrestrained long hair around machinery with moving parts.
+
+Hand injuries are the most frequently encountered injuries in laboratories. Many of these injuries can be prevented by keeping all sharp and puncturing devices fully protected, avoiding the use of razor blades as cutting tools, and using utility knives that have a spring-loaded guard that covers the blade. Appropriate cutting techniques and the use of the proper or specialized tools should also be considered. Dispose of razor blades, syringe needles, suture needles, and other sharp objects or instruments carefully in designated receptacles rather than throwing them into the trash bin unprotected. (See Chapter 4 , Section 4.E.9 .)
+
+Minimize glass cuts by use of correct procedures (e.g., the procedure for inserting glass tubing into rubber stoppers and tubing, which is taught in introductory laboratories), through appropriate use of protective equipment, and by careful attention to manipulation. Protective equipment is not fail-safe and should not be relied on to prevent cutting injuries. A variety of adapters are available that render glass tubing and rubber stoppers largely obsolete. Technique is also important. In the case of a slip or a break, the resulting motion should not be in the direction of the person. For example, perform cutting operations with the cutting motion moving away from the body.
+
+Any laboratory operation that exposes trained laboratory personnel to a significant noise source of 85 decibels or greater for an 8-hour average duration should have a hearing conservation program to protect from excessive exposure. Consult an audiologist or industrial hygienist to determine the need for such a program and to provide assistance in developing one.
+
+The risks of slips, trips, falls, and collisions between persons and objects are reduced by cleaning up liquid or solid spills immediately, keeping doors and drawers closed and passageways clear of obstructions, providing step stools, ladders, and lifts to reach high areas, and walking along corridors and on stairways at a deliberate pace. Floors that are likely to be wet, for example around ice, dry ice, or liquid nitrogen dispensers, should be slip resistant or have a slip-resistant floor covering. Make paper towel dispensers available for wiping up drops or small puddles as soon as they form. Avoid clutter in the laboratory to reduce the temptation to “make space” on the bench by storing items on the floor, which can create a trip hazard.
+
+Both standing and sitting in a static posture and making repeated motions have been shown to cause a variety of musculoskeletal problems. Problems due to poor ergonomics include eyestrain, stiff and sore back, leg discomfort, and hand and arm injuries. Each situation needs to be evaluated individually. However, personnel who spend significant time working on video display terminals should use furniture appropriate for these tasks, proper posture, and perhaps special eyeglasses. Also, people who use the same tools and hand motions for extended periods of time should take breaks at appropriate intervals to help prevent injuries.
+
+Lifting injuries are one of the more common types of injuries for trained laboratory personnel. The weight of the item to be lifted is a factor, but it is only one of several. The shape and size of an object as well as the lifting posture and the frequency of lifting are also key factors in determining the risks of lifting. The National Institute for Occupational Safety and Health (NIOSH) has developed a guide that should be consulted to help determine lifting safety ( Waters et al., 1994 ). Personnel who are at risk for lifting injuries should receive periodic training.
+
+## 7.D. WORKING WITH COMPRESSED GASES
+
+## 7.D.1. Compressed Gas Cylinders
+
+Precautions are necessary for handling the various types of compressed gases, the cylinders that contain them, the regulators used to control their delivery pressure, the piping used to confine them during flow, and the vessels in which they are ultimately used. Regular inventories of cylinders and checks of their integrity with prompt disposal of those no longer in use are important. (See Chapter 5 , section 5.E.6 for information on storing gas cylinders, and Chapter 6 , section 6.H , for discussion of the chemical hazards of gases.)
+
+A compressed gas is defined as a material in a container with an absolute pressure greater than 276 kPa, or 40 psi at 21 °C or an absolute pressure greater than 717 kPa (104 psi) at 54 °C, or both, or any liquid flammable material having a Reid vapor pressure greater than 276 kPa (40 psi) at 38 °C. The U.S. Department of Transportation (DOT) has established codes that specify the materials to be used for the construction and the capacities, test procedures, and service pressures of the cylinders in which compressed gases are transported. However, regardless of the pressure rating of the cylinder, the physical state of the material within it determines the pressure of the gas. For example, liquefied gases such as propane and ammonia exert their own vapor pressure as long as liquid remains in the cylinder and the critical temperature is not exceeded.
+
+Prudent procedures for the use of compressed gas cylinders in the laboratory include attention to appropriate purchase, especially selecting the smallest cylinder compatible with the need, as well as proper transportation and storage, identification of contents, handling and use, and marking and return of the empty cylinder to the company from which it was purchased. Empty compressed gas cylinders purchased for the laboratory should be returned to the company and should never be refilled by laboratory personnel.
+
+Discourage the practice of purchasing unreturnable lecture bottles to avoid the accumulation of partially filled cylinders and cylinder disposal problems. Encourage trained laboratory personnel to lease the cylinders and, in essence, only purchase the contents.
+
+7.D.1.1. Identification of Contents
+
+Clearly label compressed gas cylinders so they are easily, quickly, and completely identified by trained laboratory personnel. Stencil or stamp identification on the cylinder itself, or provide a durable label that cannot be removed from the cylinder. Do not accept any compressed gas cylinder for use that does not identify its contents legibly by name. Color coding is not a reliable means of identification; cylinder colors vary from supplier to supplier, and labels on caps have no value because many caps are interchangeable. Care in the maintenance of cylinder labels is important because unidentified compressed gas cylinders may pose a high risk and present very high disposal costs. Good practice provides compressed gas cylinders with tags on which the names of users and dates of use can be entered. If the labeling on a cylinder becomes unclear or an attached tag is defaced and the contents cannot be identified, mark the cylinder as contents unknown and contact the manufacturer regarding appropriate procedures.
+
+Clearly label all gas lines leading from a compressed gas supply to identify the gas, the laboratory served, and relevant emergency telephone numbers. The labels, in addition to being dated, should be color-coded to distinguish hazardous gases, such as flammable, toxic, or corrosive substances that are coded with a yellow background and black letters, and inert gases that are coded with a green background and black letters. Post signs conspicuously in areas in which flammable compressed gases are stored, identifying the substances and appropriate precautions, for example,
+
+HYDROGEN—FLAMMABLE GAS
+
+NO SMOKING-NO OPEN FLAMES
+
+## 7.D.2. Equipment Used with Compressed Gases
+
+7.D.2.1. Records, Inspection, and Testing
+
+Carry out high-pressure operations only with equipment specifically designed and built for this use and only by those personnel trained especially to use this equipment. Never carry out reactions in, or apply heat to, an apparatus that is a closed system unless it has been designed and tested to withstand pressure. To ensure that the equipment has been properly designed, each pressure vessel should have stamped on it, or on an attached plate, its maximum allowable working pressure, the allowable temperature at this pressure, and the material of construction. Similarly, the relief pressure—the pressure at which the safety system (e.g., rupture disk or safety vent) will be triggered—and setting data should be stamped on a metal tag attached to installed pressure-relief devices, and the setting mechanisms should be sealed. Relief devices used on pressure regulators do not require these seals or numbers.
+
+Test or inspect all pressure equipment periodically. The frequency of tests and inspections varies, depending on the type of equipment, how often it is used, and the nature of its usage. Corrosive or otherwise hazardous service requires more frequent tests and inspections. Stamp inspection data on or attach it to the equipment. Testing the entire assembled apparatus with soap solution and air or nitrogen pressure to the maximum operating pressure of the weakest section of the assembled apparatus usually detects leaks at threaded joints, packings, and valves. Alternatively, the apparatus may be pressurized and monitored for pressure drop over time.
+
+Before any pressure equipment is altered, repaired, stored, or shipped, vent it and completely remove all toxic, flammable, or other hazardous material so it can be handled safely. Especially hazardous materials may require special cleaning techniques, which should be solicited from the distributor.
+
+(See section 7.E.1 for further information.)
+
+7.D.2.2. Assembly and Operation
+
+During the assembly of pressure equipment and piping, use only appropriate components, and take care to avoid strains and concealed fractures from the use of improper tools or excessive force. Do not support any significant weight with the tubing in place in a pressure apparatus.
+
+Do not force threads that do not fit smoothly. (See Vignette 7.4 .) Do not overtighten fittings. Thread connections must match; tapered pipe threads cannot be joined with parallel machine threads. Use Teflon tape or a suitable thread lubricant on appropriate fittings, (e.g., Teflon tape on pipe fittings only) when assembling the apparatus (see section 7.D.2.2.8 ). However, never use oil or lubricant on any equipment that will be used with oxygen. Reject parts having damaged or partly stripped threads (see also section 7.D.2.2.3 ).
+
+VIGNETTE 7.4
+
+Hydrogen leak from jammed cylinder cap. A technician tried to remove the cap from a 2,000-psig 42-L hydrogen cylinder. Unable to unscrew the cap by hand, the technician attempted to use a wrench to loosen it. While doing this, the cylinder valve opened (more...)
+
+In assembling copper-tubing installations, avoid sharp bends and allow considerable flexibility. Copper tubing hardens and cracks on repeated bending. Many metals can become brittle in hydrogen or corrosive gas service. In carbon monoxide atmospheres, some alloys containing nickel or iron can generate carbonyls [e.g., Ni(CO) 4 ] which are toxic when absorbed through the skin or inhaled. Inspect all tubing frequently and replace when necessary.
+
+Stuffing boxes and gland joints are a likely source of trouble in pressure installations. Give particular attention to the proper installation and maintenance of these parts, including the proper choice of lubricant and packing material.
+
+Shield all reactions under pressure and carry them out as remotely as possible, for example, with valve extensions and behind a heavy shield or with closed-circuit TV monitoring if needed.
+
+Do not fill autoclaves and other pressure-reaction vessels more than half full to ensure that space remains for expansion of the liquid when it is heated. Do not make leak corrections or adjustments to the apparatus while it is pressurized; rather, depressurize the system before mechanical adjustments are made.
+
+A regulator or step-down pressure valve should be used to pressurize low-pressure equipment from a high-pressure source. After pressurizing equipment with a high-pressure source, the equipment should either be disconnected or the connecting piping/tubing should be vented to atmospheric pressure. This will prevent the accidental buildup of excessive pressure in the low-pressure equipment due to leakage from the high-pressure source. For example, after completing the pressurization of an autoclave with a compressed gas cylinder, the cylinder valve should be closed, the delivery regulator backed off to 0 psig, and the lines between the cylinder and the autoclave vented.
+
+Do not use vessels or equipment made partly or entirely of silver or copper or alloys containing more than 50% copper in contact with acetylene or ammonia. Do not let those vessels or equipment made of metals susceptible to amalgamation (e.g., copper, brass, zinc, tin, silver, lead, and gold) come into contact with mercury. This warning includes equipment that has soldered and brazed joints.
+
+Place prominent warning signs in any area where a pressure reaction is in progress so that personnel entering the area will be aware of the potential risk.
+
+Protect all pressure or vacuum systems and all vessels that may be subjected to pressure or vacuum by properly designed, installed, and tested pressure-relief devices. Experiments involving highly reactive materials that might explode or undergo rapid decomposition with gas evolution (tetrafluoroethylene and hydrogen cyanide are two examples) may also require the use of special pressure-relief devices and may need to be operated at a fraction of the permissible working pressure of the system.
+
+Examples of pressure-relief devices include the rupture-disk type used with closed-system vessels and the spring-loaded safety valves used with vessels for transferring liquefied gases. The following precautions are advisable in the use of pressure-relief devices:
+
+In addition to the pressure setting, pressure-relief device and associated fittings (tubing, connectors, etc.) must be properly sized and configured to provide a sufficient rate of pressure relief while preventing overpressurization. The diameter of the relief device and fittings and the presence of bends and angles are important considerations that should be addressed by a qualified and trained person or persons.
+
+The materials of construction must be considered, taking into account the compatibility of the chemicals being handled with the relief components.
+
+The temperature rating of the relief device must be sufficient. Heat conduction via tubing and fittings can cause the relief device to reach high temperatures, depending on the apparatus design.
+
+Orient pressure-relief devices with the vent side of the device directed away from the operator or other personnel. Also vent the relief device into an appropriate trap to catch flammable solvent, reaction solids, etc., avoiding spray into the workspace in the event of a release and minimizing the potential of a fire and aiding clean up. The relief device and trap must be supported so that they are not dislodged or thrown due the thrust resulting from sudden venting.
+
+The maximum setting of a pressure-relief device is the rated maximum allowable working pressure (MAWP) established for the vessel or for the weakest member of the pressure system at the operating temperature. The operating pressure should be less than the system MAWP. In the case of a system protected by a spring-loaded relief device, the maximum operating pressure should be from 5 to 25% lower than the rated working pressure, depending on the type of safety valve and the importance of leak-free operation. In a system protected by a rupture-disk device, the maximum operating pressure should be approximately two-thirds of the rated MAWP; the exact figure is governed by the fatigue life of the disk used, the temperature, and load pulsations.
+
+Vent pressure-relief devices that may discharge toxic, corrosive, flammable, or otherwise hazardous or noxious materials in a safe and environmentally acceptable manner such as scrubbing or diluting with nonflammable streams.
+
+Do not install valves or other shutoff devices between pressure-relief devices and the equipment they are to protect. Similarly, do not install shutoff valves downstream of the relief device and take care to ensure that the relief vent is not blocked or restricted. Tubing and piping downstream of such devices must be at least the same diameter as the fitting on the vent side of the relief device.
+
+Only qualified persons should perform maintenance work on pressure-relief devices.
+
+Inspect and replace pressure-relief devices periodically.
+
+Gas manifolds, compressors, and other sources of high-pressure gas used to supply an apparatus, and which can be isolated from the apparatus by valving, should also be protected by a properly designed pressure-relief device.
+
+The proper choice and use of a pressure gauge involve several factors, including the flammability, compressibility, corrosivity, toxicity, temperature, and pressure range of the fluid with which it is to be used. Generally, select a gauge with a range that is double the working pressure of the system.
+
+A pressure gauge is normally a weak point in any pressure system because its measuring element must operate in the elastic zone of the metal involved. The resulting limited factor of safety makes careful gauge selection and use mandatory and often dictates the use of accessory protective equipment. The primary element of the most commonly used gauges is a Bourdon tube, which is usually made of brass or bronze and has soft-soldered connections. More expensive gauges are available that have Bourdon tubes made of steel, stainless steel, or other special metals and welded or silver-soldered connections. Accuracies vary from ±2% for less expensive pressure gauges to ±0.1% for higher quality gauges. Use a diaphragm gauge with corrosive gases or liquids or with viscous fluids that would destroy a steel or bronze Bourdon tube.
+
+Consider alternative methods of pressure measurement that may provide greater safety than the direct use of pressure gauges. Such methods include the use of seals or other isolating devices in pressure tap lines, indirect observation devices, and remote measurement by strain-gauge transducers with digital readouts.
+
+Mount pressure gauges so that they are easily read during operation.
+
+Pressure gauges often have built-in pressure-relief devices. Care must be taken to ensure that, in the event of failure, this relief device is oriented away from personnel.
+
+The proper selection and assembly of components in a pressure system are critical safety factors. Considerations include the materials used in manufacturing the components, compatibility with the materials to be under pressure, the tools used for assembly, and the reliability of the finished connections. Use no oil or lubricant of any kind in a tubing system with oxygen because the combination produces an explosion hazard. Use all-brass and stainless steel fittings with copper or brass and steel or stainless steel tubings, respectively. Fitting of this type must be installed correctly. Do not mix different brands of tube fittings in the same apparatus assembly because construction parts are often not interchangeable.
+
+Avoid glassware for work at high pressure whenever possible. Glass is a brittle material, subject to unexpected failures due to factors such as mechanical impact and assembly and tightening stresses. Poor annealing after glassblowing can leave severe strains. Glass equipment, such as rotameters and liquid-level gauges, incorporated in metallic pressure systems should be installed with shutoff valves at both ends to control the discharge of liquid or gaseous materials in the event of breakage. Mass flowmeters are available that can replace rotameters in desired applications.
+
+Except as noted below, avoid the use of plastic equipment for pressure or vacuum work unless no suitable substitute is available. These materials can fail under pressure or thermal stress. Only use materials that are appropriately rated or recommended for that particular service.
+
+Tygon and similar plastic tubing have quite limited applications in pressure work. These materials can be used for hydrocarbons and most aqueous solutions at room temperature and moderate pressure. Reinforced plastic tubing that can withstand higher pressures is also available. However, loose tubing under pressure can cause physical damage by its own whipping action. Details of permissible operating conditions must be obtained from the manufacturer. Because of their very large coefficients of thermal expansion, some polymers have a tendency to expand greatly on heating and to contract on cooling. This behavior can create a hazard in equipment subjected to very low temperatures or to alternating low and high temperatures. Plastic tubing may also disrupt electrical grounding and thus present a static electricity hazard. The use of plastic tubing with flammable gases or liquids is not recommended if grounding is an issue.
+
+Valves come in a wide range of materials of construction, pressure and temperature ratings, and type. The materials of construction (metal, elastomer, and plastic components) must be compatible with the gases and solvents being used. The valves must be rated for the intended pressure and temperature. Ball valves are preferred over needle valves because their status (on/ off) can be determined by quick visual inspection. Use metering or needle valves only when careful flow control is important to the operation. Micrometers can sometimes be used with needle valves to allow quick determination of the status.
+
+Electronic monitors and alarms are available to prevent hazards due to asphyxiant, flammable, and many toxic gases. Consider their use especially if large quantities or large cylinders of these gases are in use. Make sure the monitor is properly rated for the intended purpose as some detectors are subject to interference by other gases.
+
+Use teflon tape on tapered pipe thread where the seal is formed in the thread area. Tapered pipe thread is commonly found in applications where fittings are not routinely taken apart (e.g., general building piping applications).
+
+Do not use Teflon tape on straight thread (e.g., Swagelok) where the seal is formed through gaskets or by other metal-to-metal contacts that are forced together when the fitting is tightened [e.g., Compressed Gas Association (CGA) gas cylinder fittings or compression fittings]. Metal-to-metal seals are machined to tolerances that seal without the need of Teflon tape or other gasketing materials. If used where not needed, as on CGA fittings, Teflon tape only spreads and weakens the threaded connections and can plug up lines that it enters accidentally.
+
+## 7.D.3. Handling and Use of Gas Cylinders
+
+Gas cylinders must be handled carefully to prevent accidents or damage to the cylinder. Leave the valve protection cap in place until the cylinder is secured and ready for use. Do not drag, roll, slide, or allow gas cylinders to strike each other forcefully. Always transport them on approved wheeled cylinder carts with retaining straps or chains. The plastic mesh sleeves sometimes installed by vendors are intended only to protect the paint on the cylinder and do not serve as a safety device.
+
+Secure compressed gas cylinders firmly at all times. A clamp and belt or chain, holding the cylinder between waist and shoulder to a wall, are generally suitable for this purpose. In areas of seismic activity, secure gas cylinders both toward the top and toward the bottom. Individually secure cylinders; using a single restraint strap or chain around a number of cylinders is often not effective. Locate cylinders in well-ventilated areas. Although inert gases are not exposure hazards, they can produce conditions of oxygen depletion that could lead to asphyxiation. Vent pressure-relief devices protecting equipment that is attached to cylinders of flammable, toxic, or otherwise hazardous gases to a safe place. (See section 7.D.2.2.1 for details.)
+
+Standard cylinder-valve outlet connections have been devised by CGA to prevent the mixing of incompatible gases due to an interchange of connections. Outlet threads used vary in diameter; some are male and some are female, some are right-handed and some are left-handed. In general, right-handed threads are used for nonfuel and water-pumped gases, and left-handed threads are used for fuel and oil-pumped gases. Information on the standard equipment assemblies for use with specific compressed gases is available from the supplier. To minimize undesirable connections that may result in a hazard, use only CGA standard combinations of valves and fittings in compressed gas installations. Avoid the assembly of miscellaneous parts (even of standard approved types). Do not use an adapter or cross-thread a valve fitting. Examine the threads on cylinder valves, regulators, and other fittings to ensure that they correspond to one another and are undamaged.
+
+Place cylinders so that the rotary cylinder valve handle at the top is accessible at all times. Open cylinder valves slowly, and only when a proper regulator is firmly in place and the attachment has been shown to be leakproof by an appropriate test. Close the cylinder valve as soon as the necessary amount of gas has been released. Valves should be either completely open or completely closed. Install flow restrictors on gas cylinders to minimize the chance of excessive flows. Never leave the cylinder valve open when the equipment is not in use. This precaution is necessary not only for safety when the cylinder is under pressure but also to prevent the corrosion and contamination that would result from diffusion of air and moisture into the cylinder when it is emptied.
+
+Most cylinders are equipped with hand-wheel valves. Those that are not should have a spindle key on the valve spindle or stem while the cylinder is in service. Use only wrenches or other tools provided by the cylinder supplier to remove a cylinder cap or to open a valve. Never use a screwdriver to pry off a stuck cap or pliers to open a cylinder valve. If valve fittings require washers or gaskets, check the materials of construction before the regulator is fitted.
+
+If the valve on a cylinder containing an irritating or toxic gas is being opened outside, the worker should stand upwind of the cylinder with the valve pointed downwind, away from personnel, and warn those working nearby in case of a possible leak. If the work is being done inside, open the cylinder only in a laboratory chemical hood or specially designed cylinder cabinet. Install a differential pressure switch with an audible alarm in any chemical hood dedicated for use with toxic gases. In the event of chemical hood failure, the pressure switch should activate an audible alarm warning personnel.
+
+7.D.3.1. Preventing and Controlling Leaks
+
+Check cylinders, connections, and hoses regularly for leaks. Convenient ways to check for leaks include a flammable gas leak detector (for flammable gases only) or looking for bubbles after application of soapy water or a 50% glycerin-water solution. At or below freezing temperatures, use the glycerin solution instead of soapy water. Bubble-forming solutions designed for leak testing are commercially available. When the gas to be used in the procedure is a flammable, oxidizing, or highly toxic gas, check the system first for leaks with an inert gas (helium or nitrogen) before introducing the hazardous gas. Only leak-test solutions specifically designed for oxygen compatibility may be used to test for oxygen leaks; do not use soap solutions because they may contain oils that can react violently with the oxygen.
+
+The general procedures discussed in Chapter 6 , section 6.C , can be used for relatively minor leaks, when the indicated action can be taken without exposing personnel to highly toxic substances. The leaking cylinder can be moved through populated portions of the building, if necessary, by placing a plastic bag, rubber shroud, or similar device over the top and taping it (preferably with duct tape) to the cylinder to confine the leaking gas. If there is any risk of exposure, call the environmental health and safety office and evacuate the area before the tank is moved.
+
+If a leak at the cylinder valve handle cannot be remedied by tightening a valve gland or a packing nut, take emergency action and notify the supplier. Never attempt to repair a leak at the junction of the cylinder valve and the cylinder or at the safety device; consult with the supplier for instructions.
+
+When the nature of the leaking gas or the size of the leak constitutes a more serious hazard, an approved SCBA and protective apparel may be required, and personnel may need to be evacuated (see Chapter 6 , section 6.C.2 ). If toxic gas is leaking from a cylinder, donning of protective equipment and evacuation of personnel are required. Cylinder coffins are also available to encapsulate leaking cylinders. (See Chapter 6 , section 6.H for more information.)
+
+7.D.3.2. Pressure Regulators
+
+Pressure regulators are required to reduce a high-pressure supplied gas to a desirable lower pressure and to maintain a satisfactory delivery pressure and flow level for the required operating conditions. They are available to fit many operating conditions over a range of supply and delivery pressures, flow capacities, and construction materials. All regulators are typically of a diaphragm type and are spring-loaded or gas-loaded, depending on pressure requirements. They can be single-stage or two-stage. Under no circumstances should oil or grease be used on regulator valves or cylinder valves because these substances may react with some gases (e.g., oxygen).
+
+Each regulator is supplied with a specific CGA standard inlet connection to fit the outlet connection on the cylinder valve for the particular gas. Never tamper with or adapt regulators for use with gases for which they are not designed. Likewise, never substitute the fittings that are on either the cylinder side or downstream (low-pressure) side of a vendor-supplied regulator. Instead, purchase a regulator designed for use with the specific cylinder, and use adapters only on the downstream side of the regulator. Unqualified persons must never attempt to repair or modify regulators.
+
+Check regulators before use to verify they are free of foreign objects and to correct for the particular gas. Regulators for use with noncorrosive gases are usually made of brass. Special regulators made of corrosion-resistant materials are available for use with such gases as ammonia, boron trifluoride, chlorine, hydrogen chloride, hydrogen sulfide, and sulfur dioxide. Because of freeze-up and corrosion problems, regulators used with carbon dioxide gas must have special internal design features and be made of special materials. Regulators used with oxidizing agents must be cleaned specially to avoid the possibility of an explosion on contact of the gas with any reducing agent or oil left from the cleaning process.
+
+All pressure regulators should be equipped with spring-loaded pressure-relief valves (see section 7.D.2.2.1 for further information on pressure-relief devices) to protect the low-pressure side. When used on cylinders of flammable, toxic, or otherwise hazardous gases, vent the relief valve to a laboratory chemical hood or other safe location. Avoid the use of internal-bleed-type regulators. When working with hazardous gases, installing flow-limiting devices after the regulator is recommended in order to add a level of control on the system. Remove regulators from corrosive gases immediately after use and flush with dry air or nitrogen. Bubblers of any type (e.g., mercury, oil) are not suitable for use as pressure regulators and should not be used. (For information about reducing the use of mercury in laboratories, see Chapter 5 , section 5.B.8 .)
+
+7.D.3.3. Flammable Gases
+
+Keep all sources of ignition away from cylinders of flammable gases and ensure that these cylinders will not leak. Always keep connections to piping, regulators, and other appliances tight to prevent leakage, and keep the tubing or hoses used in good condition. Perform leak checks periodically. Flash arrestors are recommended for flammable gases. Do not interchange regulators, hoses, and other appliances used with cylinders of flammable gases with similar equipment intended for use with other gases. Ground cylinders properly to prevent static electricity buildup, especially in very cold or dry environments. Separate cylinders containing flammable gases from cylinders of oxidizing gases by at least 20 ft or by a 5-ft-high fire-resistant partition with a minimum 30-minute fire rating. Store all cylinders containing flammable gases in a well-ventilated place. Never store reserve stocks of such cylinders in the vicinity of cylinders containing oxidizing gases including oxygen, fluorine, and chlorine. Never store oxidizing gases near flammable liquids.
+
+## 7.E. WORKING WITH HIGH OR LOW PRESSURES AND TEMPERATURES
+
+Work with hazardous chemicals at high or low pressures and high or low temperatures requires planning and special precautions. For many experiments, extremes of both pressure and temperature, such as reactions at elevated temperatures and pressures and work with cryogenic liquids and high vacuum, must be managed simultaneously. Carry out procedures at high or low pressures with protection against explosion or implosion by appropriate equipment selection and the use of safety shields. Provide appropriate temperature control and interlocks so that heating or cooling baths cannot exceed the desired limits even if the equipment fails. Take care to select and use glass apparatuses that can safely withstand thermal expansion or contraction at the designated pressure and temperature extremes.
+
+## 7.E.1. Pressure Vessels
+
+Perform high-pressure operations only in special chambers equipped for this purpose. Trained laboratory personnel should ensure that equipment and pressure vessels are appropriately selected, properly labeled and installed, and protected by pressure-relief and necessary control devices. Vessels must be strong enough to withstand the stresses encountered at the intended operating pressures and temperatures. The vessel material must not corrode when it is in contact with its contents. The material should not react with the process being studied, and the vessel must be of the proper size and configuration. Never carry out reactions in, or apply heat to, an apparatus that is a closed system unless it has been designed and tested to withstand the generated pressure.
+
+Pressure-containing systems designed for use at elevated temperatures should have a positive-feedback temperature controller. Manual control using a simple variable autotransformer, such as a variac, is not good practice. The use of a backup temperature controller capable of both recording temperatures and shutting down an unattended system is strongly recommended.
+
+(See section 7.D.2 , above.)
+
+7.E.1.1. Records, Inspection, and Testing
+
+In some localities, adherence to national codes such as the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code ( ASME, 1992 ) is mandatory. Selection of containers, tubing, fittings, and other process equipment, along with the operational techniques and procedures, must conform to the constraints necessary for high-pressure service. The proper selection and assembly of components in a pressure system are critical safety factors. Compatibility of materials, tools used for assembly, and the reliability of connections are all key considerations.
+
+Each pressure vessel in a laboratory should have a stamped number or fixed label plate that uniquely identifies it. Information such as the maximum allowable working pressure, allowable temperature at this pressure, material of construction, and burst diagram should be readily available. Information regarding the vessel's history should include temperature extremes it has experienced, any modifications and repairs made to the original vessel, and all inspections or test actions it has undergone. Similarly, the relieving pressure and setting data should be stamped on a metal tag attached to installed pressure-relief devices. Relief devices used on pressure regulators do not require these seals or numbers.
+
+Test or inspect all pressure equipment periodically. The interval between tests or inspections is determined by the severity of the usage the equipment has received. Corrosive or otherwise hazardous service requires more frequent tests and inspections. Stamp inspection data on or attach it to the equipment. Pressure vessels may be subjected to nondestructive inspections such as visual inspection, penetrant inspection, acoustic emissions recording, and radiography. However, hydrostatic proof tests are necessary for final acceptance. They should be performed as infrequently as possible but before the vessel is placed into initial service, every 10 years thereafter, after a significant repair or modification, and if the vessel experiences overpressure or overtemperature.
+
+Testing the entire apparatus with soap solution and air or nitrogen pressure to the maximum allowable working pressure of the weakest section of the assembled apparatus usually detects leaks at threaded joints, packings, and valves.
+
+Pressure-test and leak-test final assemblies to ensure their integrity. Trained laboratory personnel are strongly advised to consult an expert on high-pressure work as they design, build, and operate a high-pressure process. Finally, exercise extreme care when disassembling pressure equipment for repair, modification, or decommissioning. (See Vignette 7.5 .) Personnel should be familiar with the safe procedures for depressurizing the system, including the order in which to open valves or fittings. Wear protective equipment in case a line or vessel that is opened contains material under pressure. Good practice is to cover the vessel or fitting being opened with a cloth or paper towel to contain any spray should the contents be unknowingly pressurized.
+
+VIGNETTE 7.5
+
+Injury while working on equipment under pressure. A laboratory person connected a fresh helium cylinder to a gas manifold. When the cylinder valve was opened to pressurize the system, a slight hissing sound was heard from a fitting that connected a flexible (more...)
+
+7.E.1.2. Pressure Reactions in Glass Equipment
+
+Run reactions under pressure in metal equipment, not glass, if at all possible. For any reaction run on a large scale (>10 g total weight of reactants) or at a maximum pressure in excess of 690 kPa (100 psi), use only procedures involving a suitable high-pressure autoclave or shaker vessel. If glass is required because of material-of-construction concerns, use a metal reactor with a glass or Teflon liner instead of a glass vessel under pressure. Glass pressure reaction vessels are available from several vendors and are designed for use in the 0- to 200-psig range. However, it is sometimes convenient to run very small scale reactions at low pressures in a small sealed glass tube or in a thick-walled pressure bottle of the type used for catalytic hydrogenation. For any such reaction, laboratory personnel should be fully prepared for the significant possibility that the sealed vessel will burst. Gases must be vented properly and adequate precautions taken for ventilation. When using glass under pressure, assume that the glass will fail. Take every precaution to prevent injury from flying glass or from corrosive or toxic reactants by using suitable shielding. Often a mesh is provided around the glassware to catch pieces should the vessel rupture. Seal centrifuge bottles with rubber stoppers clamped in place, wrapped with friction tape and shielded with a metal screen or wrapped with friction tape and surrounded by multiple layers of loose cloth toweling, and clamped behind a good safety shield. Some bottles are typically equipped with a head-containing inlet and exhaust gas valves, a pressure gauge, and a pressure-relief valve. If a pressure gauge is not used, estimate the maximum internal pressure by calculation prior to beginning the experiment to ensure that the maximum allowable pressure is not exceeded. When corrosive materials are used, use a Teflon pressure-relief valve. The preferred source of heat for such vessels is steam, because an explosion in the vicinity of an electrical heater could start a fire and an explosion in a liquid heating bath would scatter hot liquid around the area. Carry out any reaction of this type in a chemical hood, labeled with signs that indicate the contents of the reaction vessel and the explosion risk.
+
+Fill glass tubes under pressure no more than three-quarters full. Appropriate precautions using the proper shielding must be taken for condensing materials and sealing tubes. Vacuum work can be carried out on a Schlenk line, an apparatus used for work with air-sensitive compounds, as long as proper technique is used. The sealed glass tubes can be placed either inside pieces of brass or iron pipe capped at one end with a pipe cap or in an autoclave containing some of the reaction solvent (to equalize the pressure inside and outside the glass tube). The tubes can be heated with steam or in a specially constructed, electrically heated sealed-tube furnace that is controlled thermostatically and located to direct the force of an explosion into a safe area. When the required heating has been completed, allow the sealed tube or bottle to cool to room temperature. Wrap sealed bottles and tubes of flammable materials with cloth toweling, place behind a safety shield, and cool slowly, first in an ice bath and then in dry ice. After cooling, the clamps and rubber stoppers can be removed from the bottles prior to opening. Use PPE and apparel, including shields, masks, coats, and gloves, during tube-opening operations. Note that NMR tubes are often thin-walled and should only be used for pressure reactions in a special high-pressure probe or in capillary devices.
+
+Examine newly fabricated or repaired glass equipment for flaws and strains under polarized light. Never rely on corks, rubber stoppers, and rubber or plastic tubing as relief devices to protect glassware against excess pressure; use a liquid seal, Bunsen tube, or equivalent positive-relief device. With glass pipe, use only proper metal.
+
+## 7.E.2. Liquefied Gases and Cryogenic Liquids
+
+Cryogenic liquids are materials with boiling points of less than −73 °C (−100 °F). Liquid nitrogen, helium, argon, and slush mixtures of dry ice with isopropyl alcohol are the materials most commonly used in cold traps to condense volatile vapors from a gas or vapor stream. In addition, oxygen, hydrogen, and helium are often used in the liquid state.
+
+The primary hazards of cryogenic liquids are frostbite, asphyxiation, fire or explosion, pressure buildup (either slowly or due to rapid conversion of the liquid to the gaseous state), and embrittlement of structural materials. The extreme cold of cryogenic liquids requires special care in their use. The vapor that boils off from a liquid can cause the same problems as the liquid itself.
+
+The fire or explosion hazard is obvious when gases such as oxygen, hydrogen, methane, and acetylene are used. Air enriched with oxygen can greatly increase the flammability of ordinary combustible materials and may even cause some noncombustible materials to burn readily (see Chapter 6 , sections 6.G.4 and 6.G.5 ). Oxygen-saturated wood and asphalt have been known to explode when subjected to shock. Because oxygen has a higher boiling point (−183 °C) than nitrogen (−195 °C), helium (−269 °C), or hydrogen (−252.7 °C), it can be condensed out of the atmosphere during the use of these lower boiling-point cryogenic liquids. With the use of liquid hydrogen particularly, explosive conditions may develop. (See Chapter 6 , sections 6.F.3 and 6.G.2 , for further discussion.)
+
+Furnish all cylinders and equipment containing flammable or toxic liquefied gases (not vendor-owned) with a spring-loaded pressure-relief device (not a rupture disk) because of the magnitude of the potential risk that can result from activation of a nonresetting relief device. Commercial cylinders of liquefied gases are normally supplied only with a fusible-plug type of relief device, as permitted by DOT regulations. Protect pressurized containers that contain cryogenic material with multiple pressure-relief devices.
+
+Cryogenic liquids must be stored, shipped, and handled in containers that are designed for the pressures and temperatures to which they may be subjected. Materials that are pliable under normal conditions can become brittle at low temperatures. Dewar flasks, which are used for relatively small amounts of cryogenic material, should have a dust cap over the outlet to prevent atmospheric moisture from condensing and plugging the neck of the tube. Special cylinders that are insulated and vacuum-jacketed with pressure-relief valves and rupture devices to protect the cylinder from pressure buildup are available in capacities of 100 to 200 L.
+
+A special risk to personnel is skin or eye contact with the cryogenic liquid. Because these liquids are prone to splash owing to the large volume expansion ratio when the liquid warms up, wear eye protection, preferably chemical splash goggles and a face shield, when handling liquefied gases and other cryogenic fluids. Do not transfer liquefied gases from one container to another for the first time without the direct supervision and instruction of someone who is experienced in this operation. Transfer very slowly to minimize boiling and splashing.
+
+Do not allow unprotected parts of the body to come in contact with uninsulated vessels or pipes that contain cryogenic liquids because extremely cold material may bond firmly to the skin and tear flesh if separation or withdrawal is attempted. Even very brief skin contact with a cryogenic liquid can cause tissue damage similar to that of frostbite or thermal burns, and prolonged contact may result in blood clots that have potentially very serious consequences. Gloves must be insulated, impervious to the fluid being handled, and loose enough to be tossed off easily in case the cryogenic liquid becomes trapped close to the skin. Never wear tight gloves when working with cryogenic liquids. Trained laboratory personnel are also encouraged to wear long sleeves when handling cryogenic fluids. Handle objects that are in contact with cryogenic liquids with tongs or potholders. Ventilate the work area well. Virtually all liquid gases present the threat of poisoning, explosion, or, at a minimum, asphyxiation in a confined space. Major harmful consequences of the use of cryogenic inert gases, including asphyxiation, are due to boiling off of the liquid and pressure buildup, which can lead to violent rupture of the container or piping.
+
+Take special care when handling liquid hydrogen. In general, do not transfer liquid hydrogen in an air atmosphere because oxygen from the air can condense in the liquid hydrogen, presenting a possible explosion risk. Take all precautions to keep liquid oxygen from organic materials; spills on oxidizable surfaces can be hazardous.
+
+Although nitrogen is inert, its liquefied form can be hazardous because of its cryogenic properties and because displacement of air oxygen in the vicinity can lead to asphyxiation followed by death with little warning. Fit rooms that contain appreciable quantities of liquid nitrogen (N 2 ) with oxygen meters and alarms. Do not store liquid nitrogen in a closed room because the oxygen content of the room can drop to unsafe levels.
+
+Do not fill cylinders and other pressure vessels that are used for the storage and handling of liquefied gases to more than 80% capacity, to protect against possible thermal expansion of the contents and bursting of the vessel by hydrostatic pressure. If the possibility exists that the temperature outside of the cylinder may increase to greater than 30°C, a lower percentage (e.g., 60%) of capacity should be the limit.
+
+7.E.2.1. Cold Traps and Cold Baths
+
+Choose cold traps that are large enough and cold enough to collect the condensable vapors. Check cold traps frequently to make sure they do not become plugged with frozen material. After completion of an operation in which a cold trap has been used, isolate the trap from the source, remove from the coolant, and vent to atmospheric pressure in a safe and environmentally acceptable way. Otherwise, pressure could build up, creating a possible explosion or sucking pump oil into a vacuum system. Cold traps under continuous use, such as those used to protect inert atmosphere dryboxes, should be electrically cooled, and their temperature should be monitored with low-temperature probes.
+
+Use appropriate gloves and a face shield to avoid contact with the skin when using cold baths. Wear dry gloves when handling dry ice. Do not lower the head into a dry ice chest because carbon dioxide is heavier than air and asphyxiation can result. The preferred liquids for dry-ice cooling baths are isopropyl alcohol or glycols; add dry ice slowly to the liquid portion of the cooling bath to avoid foaming. Avoid the common practice of using acetone-dry ice as a coolant; the alternatives are less flammable, less prone to foaming and splattering with dry ice, and less likely to damage some trap components (O-rings, plastic). Dry ice and liquefied gases used in refrigerant baths should always be open to the atmosphere. Never use them in closed systems, where they may develop uncontrolled and dangerously high pressures.
+
+Exercise extreme caution in using liquid nitrogen as a coolant for a cold trap. If such a system is opened while the cooling bath is still in contact with the trap, oxygen may condense from the atmosphere. The oxygen could then combine with any organic material in the trap to create a highly explosive mixture. Therefore, do not open a system that is connected to a liquid nitrogen trap to the atmosphere until the liquid nitrogen Dewar flask or container has been removed. A liquid nitrogen-cooled trap must never be left under static vacuum. Also, if the system is closed after even a brief exposure to the atmosphere, some oxygen may have already condensed. Then, when the liquid nitrogen bath is removed or when it evaporates, the condensed gases will vaporize, producing a pressure buildup and the potential for explosion. The same explosion hazard can be created if liquid nitrogen is used to cool a flammable mixture that is exposed to air. Caution must be applied when using argon, for instance as an inert gas for Schlenk or vacuum lines, because it condenses as a colorless solid at liquid nitrogen temperature. A trap containing frozen argon is indistinguishable from one containing condensed solvent or other volatiles and presents an explosion hazard if allowed to warm without venting.
+
+7.E.2.2. Selection of Low-Temperature Equipment
+
+Select equipment used at low temperatures carefully because temperature can dramatically change characteristics of materials. For example, the impact strength of ordinary carbon steel is greatly reduced at low temperatures, and failure can occur at points of weakness, such as notches or abrupt changes in the material of construction. When combinations of materials are required, consider the temperature dependence of their volumes so that leaks, ruptures, and glass fractures are avoided. For example, O-rings that provide a good seal at room temperature may lose resilience and fail to function on chilled equipment.
+
+Stainless steels containing 18% chromium and 8% nickel retain their impact resistance down to approximately −240 °C; the exact value depends heavily on special design considerations. The impact resistance of aluminum, copper, nickel, and many other nonferrous metals and alloys increases with decreasing temperatures. Use special alloy steels for liquids or gases containing hydrogen at temperatures greater than 200 °C or at pressures greater than 34.5 MPa (500 psi) because of the danger of weakening carbon steel equipment by hydrogen embrittlement.
+
+7.E.2.3. Cryogenic Lines and Supercritical Fluids
+
+Design liquid cryogen transfer lines so that liquid cannot be trapped in any nonvented part of the system. Experiments in supercritical fluids include high pressure and should be carried out with appropriate protective systems.
+
+## 7.E.3. Vacuum Work and Apparatus
+
+Vacuum work can result in an implosion and the possible hazards of flying glass, spattering chemicals, and fire. Set up and operate all vacuum operations with careful consideration of the potential risks. Although a vacuum distillation apparatus may appear to provide some of its own protection in the form of heating mantles and column insulation, this is not sufficient because an implosion could scatter hot flammable liquid. Use an explosion shield and a full-face shield to protect laboratory personnel, and carry the procedure out in a laboratory chemical hood. Glassware under vacuum should be kept behind a shield or hood sash, taped, or resin (plastic) coated.
+
+Equipment at reduced pressure is especially prone to rapid pressure changes, which can create large pressure differences within the apparatus. Such conditions can push liquids into unwanted locations, sometimes with undesirable consequences.
+
+Do not allow water, solvents, and corrosive gases to be drawn into a building vacuum system. When the potential for such a problem exists, use a cold trap. Water aspirators are not recommended.
+
+Protect mechanical vacuum pumps by cold traps, and vent their exhausts to an exhaust hood or to the outside of the building. If solvents or corrosive substances are inadvertently drawn into the pump, change the oil before any further use. (Oil contaminated with solvents, mercury, and corrosive substances must be handled as hazardous waste.) It may be desirable to maintain a log of pump usage as a guide to length of use and potential contaminants in the pump oil. Cover the belts and pulleys on vacuum pumps with guards.
+
+(See section 7.C.2 for a discussion of vacuum pumps.)
+
+7.E.3.1. Glass Vessels
+
+Although glass vessels are frequently used in low-vacuum operations, evacuated glass vessels may collapse violently, either spontaneously from strain or from an accidental blow. Therefore, conduct pressure and vacuum operations in glass vessels behind adequate shielding. Check for flaws such as star cracks, scratches, and etching marks each time a vacuum apparatus is used. These flaws can often be noticed if the vessel is help up to a light. Use only round-bottom or thick-walled (e.g., Pyrex) evacuated reaction vessels specifically designed for operations at reduced pressure. Do not use glass vessels with angled or squared edges in vacuum applications unless specifically designed for the purpose (e.g., extra thick glass). Repaired glassware must be properly annealed and inspected with a cross-polarizer before vacuum or thermal stress is applied. Never evacuate thin-walled, Erlenmeyer, or round-bottom flasks larger than 1 L.
+
+7.E.3.2. Dewar Flasks
+
+Dewar flasks are under high vacuum and can collapse as a result of thermal shock or a very slight mechanical shock. Shield them, either by a layer of fiber-reinforced friction tape or by enclosure in a wooden or metal container, to reduce the risk of flying glass in case of collapse. Use metal Dewar flasks whenever there is a possibility of breakage.
+
+Styrofoam buckets with lids can be a safer form of short-term storage and conveyance of cryogenic liquids than glass vacuum Dewar flasks. Although they do not insulate as well as Dewar flasks, they eliminate the danger of implosion.
+
+7.E.3.3. Desiccators
+
+If a glass vacuum desiccator is used, it should be made of Pyrex or similar glass, completely enclosed in a shield or wrapped with friction tape in a grid pattern that leaves the contents visible and at the same time guards against flying glass if the vessel implodes. Plastic (e.g., polycarbonate) desiccators reduce the risk of implosion and may be preferable but should also be shielded while evacuated. Solid desiccants are preferred. Never carry or move an evacuated desiccator. Take care opening the valve to avoid spraying the desiccator contents from the sudden inrush of gas.
+
+7.E.3.4. Rotary Evaporators
+
+Glass components of the rotary evaporator should be made of Pyrex or similar glass. Completely enclose in a shield to guard against flying glass should the components implode. Gradually increase rotation speed and application of vacuum to the flask whose solvent is to be evaporated.
+
+7.E.3.5. Assembly of Vacuum Apparatus
+
+Assemble vacuum apparatus to avoid strain. Joints must allow various sections of the apparatus to be moved if necessary without transmitting strain to the necks of the flasks. Support heavy apparatus from below as well as by the neck. Protect vacuum and Schlenk lines from overpressurization with a bubbler. Gas regulators and metal pressure-relief devices must not be relied on to protect vacuum and Schlenk lines from overpressurization. If a slight positive pressure of gas on these lines is desired, the recommended pressure range is not in excess of 1 to 2 psi. This pressure range is easily obtained by proper bubbler design (depth of the exit tubing in the bubbler liquid).
+
+Place vacuum apparatus well back onto the bench or into the laboratory chemical hood where it will not be inadvertently hit. If the back of the vacuum setup faces the open laboratory, protect it with panels of suitably heavy transparent plastic to prevent injury to nearby personnel from flying glass in case of implosion.
+
+## 7.F. USING PERSONAL PROTECTIVE, SAFETY, AND EMERGENCY EQUIPMENT
+
+As outlined in previous chapters, trained laboratory personnel must be proactive to ensure that the laboratory is a safe working environment. This attitude begins with wearing appropriate apparel and using proper eye, face, hand, and foot protection when working with hazardous materials. The institution is responsible for providing appropriate safety and emergency equipment for laboratory personnel and emergency personnel. (See also section 6.C .)
+
+## 7.F.1. Personal Protective Equipment and Apparel
+
+7.F.1.1. Protective Clothing
+
+Clothing that leaves large areas of skin exposed is inappropriate in laboratories where hazardous chemicals are in use. Personal clothing should fully cover the body. Appropriate laboratory coats should be worn, buttoned, with the sleeves rolled down. Leave lab coats in the laboratory to minimize the possibility of spreading chemicals to public assembly, eating, or office areas, and clean them regularly. [For more information, see the OSHA Personal Protective Equipment Standard (29 CFR § 1910.132) and the OSHA Laboratory Standard (29 CFR § 1910.1450).]
+
+Always wear protective apparel if there is a possibility that personal clothing could become contaminated or damaged with chemically hazardous material. Washable or disposable clothing worn for laboratory work with especially hazardous chemicals includes special laboratory coats and aprons, jumpsuits, special boots, shoe covers, and gauntlets, as well as splash suits. Protection from heat, moisture, cold, and radiation may be required in special situations. Among the factors to be considered in choosing protective apparel, in addition to the specific application, are resistance to physical hazards, flexibility and ease of movement, chemical and thermal resistance, and ease of cleaning or disposal.
+
+(See also Chapter 6 , section 6.C.2.6.2 .)
+
+7.F.1.2. Foot Protection
+
+Not all types of footwear are appropriate in a laboratory where both chemical and mechanical hazards may exist. Wear substantial shoes in areas where hazardous chemicals are in use or mechanical work is being done. Clogs, perforated shoes, sandals, and cloth shoes do not provide protection against spilled chemicals. In many cases, safety shoes are advisable. Steel toes are recommended when working with heavy objects such as gas cylinders. Shoe covers may be required for work with especially hazardous materials. Shoes with conductive soles prevent buildup of static charge, and insulated soles can protect against electrical shock.
+
+7.F.1.3. Eye and Face Protection
+
+Appropriate eye protection is a requirement for working in a chemical laboratory. Requisite eye protection should be provided for laboratory personnel and visitors, and signs should be posted outside the laboratory indicating that eye protection is required where hazardous chemicals are in use. Ordinary prescription glasses with hardened lenses do not serve as eye protection in the laboratory. Appropriate laboratory eye and face protection includes impact goggles with splash protection (chemical splash goggles), full-face shields that also protect the throat, and specialized eye protection (i.e., protection against ultraviolet light or laser light). The following provides basic information regarding eye protection. (For more information, see Chapter 6 , section 6.C.2.2 .)
+
+Wear impact protection goggles if there is a danger of flying particles, and full-face shields with safety glasses and side shields for complete face and throat protection.
+
+Although safety glasses can provide satisfactory protection from flying particles, they do not fit tightly against the face and offer little protection against splashes or sprays of chemicals. Chemical splash goggles that conform to ANSI standard Z87.1-2003 are recommended when working in laboratories and, in particular, when working with hazardous chemicals that present a splash hazard, with vapors or particulates, and with corrosives. Chemical splash goggles have splashproof sides to fully protect the eyes.
+
+When there is a possibility of liquid splashes, wear both a face shield and chemical splash goggles; this is especially important for work with highly corrosive liquids.
+
+Use full-face shields with throat protection and safety glasses with side shields when handling explosive or highly hazardous chemicals.
+
+Wear specialized eye protection if work in the laboratory could involve exposure to lasers, ultraviolet light, infrared light, or intense visible light.
+
+7.F.1.4. Hand Protection
+
+Use gloves that are appropriate to the degree and type of hazard. At all times pay special attention to the hands and any skin that is likely to be exposed to hazardous chemicals. Wear proper protective gloves when handling hazardous chemicals, toxic materials, materials of unknown toxicity, corrosive materials, rough or sharp-edged objects, and very hot or very cold objects. (See Chapter 6 , section 6.C.2.6.1 , for more information about selecting and using gloves to prevent chemical exposure.) The following list highlights some basic information regarding protection of hands.
+
+Before using gloves, inspect them for integrity and check for discoloration, punctures, or tears.
+
+The thin latex surgical vinyl and nitrile gloves that are popular in many laboratories may not be appropriate for use with highly toxic chemicals or solvents because of their composition and thin construction.
+
+Cut-resistant gloves, such as Kevlar ® or leather gloves, are appropriate for handling broken glassware, inserting tubing into stoppers, and handling sharp-edged objects if protection from chemicals is not needed.
+
+Wear insulated gloves when working with very hot or very cold materials. With cryogenic fluids the gloves must be impervious to fluid but loose enough to be tossed off easily. Absorbent gloves could freeze on the hand and intensify any exposure to liquefied gases.
+
+Wear insulating rubber gloves when working with electrical equipment.
+
+Wear a double set of gloves when a single glove material does not provide adequate protection for all the hazards encountered in a given operation. For instance, operations involving a chemical hazard and sharp objects may require the combined use of a chemical-resistant glove and a cut-resistant glove.
+
+Replace gloves immediately if they are contaminated or torn.
+
+Replace gloves periodically, depending on the frequency of use. Regular inspection of their serviceability is important. If they cannot be cleaned, dispose of contaminated gloves according to institutional procedures.
+
+Decontaminate or wash gloves appropriately before removing them; leave gloves in the work area, and do not touch any uncontaminated objects in the laboratory or any other area.
+
+## 7.F.2. Safety and Emergency Equipment
+
+Safety equipment, including spill control kits, safety shields, fire safety equipment, respirators, safety showers and eyewash units, and emergency equipment should be available in well-marked highly visible locations in all chemical laboratories. Fire-alarm pull stations and telephones with emergency contact numbers must be readily accessible. In addition to the standard items, other safety devices may also be needed. The laboratory supervisor is responsible for ensuring proper training and providing supplementary equipment as needed.
+
+7.F.2.1. Spill Control Kits and Cleanup
+
+All personnel who work in a laboratory in which hazardous substances are used should be familiar with their institution's policy regarding spill control. For non-emergency 3 spills, spill control kits may be available. Tailor them to deal with the potential risk associated with the materials being used in the laboratory. These kits are used to confine and limit the spill if such actions can be taken without risk of injury or contamination. If a spill exceeds the on-scene personnel's ability or challenges their safety, they should leave the spill site and call the emergency telephone number for help. Emergency response spill cleanup personnel should be provided with all available information about the spill.
+
+Specific procedures for cleaning up spills vary depending on the location of the accident, the amount and physical properties of the spilled material, the degree and type of toxicity, and the training of the personnel involved. A typical cleanup kit may be a container on wheels that can be moved to the location of the spill and may include such items as instructions; absorbent pads; a spill absorbent mixture for liquid spills; a polyethylene scoop for dispensing spill absorbent, mixing it with the spill, and picking up the mixture; thick polyethylene bags for disposal of the mixture; and tags and ties for labeling the bags. Use any kit in conjunction with the appropriate PPE, and dispose of the material according to institutional requirements.
+
+(Also see Chapter 6 , section 6.C.10.5 .)
+
+7.F.2.2. Safety Shields
+
+Use safety shields for protection against possible explosions or splash hazards. Shield laboratory equipment on all sides to avoid any line-of-sight exposure of personnel. The front sashes of laboratory chemical hoods provide shielding. Use a portable shield also when manipulations are performed, particularly with chemical hoods that have vertical-rising doors rather than horizontal-sliding sashes.
+
+Use portable shields to protect against hazards of limited severity, such as small splashes, heat, and fires. A portable shield, however, provides no protection at the sides or back of the equipment, and if it is not sufficiently weighted for forward protection, the shield may topple toward personnel during a blast. A fixed shield that completely surrounds the experimental apparatus can afford protection against minor blast damage. Polymethyl methacrylate, polycarbonate, poly(vinyl chloride), and laminated safety plate glass are all satisfactory transparent shielding materials. Where combustion is possible, the shielding material should be nonflammable or slow burning; if it can withstand the working blast pressure, laminated safety plate glass may be the best material for such circumstances. When cost, transparency, high-tensile strength, resistance to bending loads, impact strength, shatter resistance, and burning rate are considered, poly(methyl methacrylate) offers an excellent overall combination of shielding characteristics.
+
+Polycarbonate is much stronger and self-extinguishing after ignition but is readily attacked by organic solvents.
+
+7.F.2.3. Fire Safety Equipment
+
+All chemical laboratories should have carbon dioxide and dry chemical fire extinguishers. Other types of extinguishers should be available if required for the work that will be performed in the laboratory. The four types of most commonly used extinguishers are listed below, classified by the type of fire for which they are suitable. Note that multipurpose class A, B, and C extinguishers are available.
+
+Water extinguishers are effective against burning paper and trash (Class A fires). Do not use them for electrical, liquid, or metal fires.
+
+Carbon dioxide extinguishers are effective against burning liquids, such as hydrocarbons or paint, and electrical fires (Class B and C fires). They are recommended for fires involving computer equipment, delicate instruments, and optical systems because they do not damage such equipment. CO 2 extinguishers are less effective against paper and trash fires and must not be used against metal hydride or metal fires. Care must be taken in using these extinguishers, because the force of the compressed gas can spread burning combustibles such as papers and can tip over containers of flammable liquids.
+
+Dry powder extinguishers, which contain ammonium phosphate or sodium bicarbonate, are effective against burning liquids and electrical fires (Class B and C fires). They are less effective against paper and trash or metal fires and are not recommended for fires involving delicate instruments or optical systems because of the cleanup problem. Computer equipment may need to be replaced if exposed to sufficient amounts of the dry powders. These extinguishers are generally used where large quantities of solvent may be present.
+
+Met-L-X extinguishers and others that have special granular formulations are effective against burning metal (Class D fires). Included in this category are fires involving magnesium, lithium, sodium, and potassium; alloys of reactive metals; and metal hydrides, metal alkyls, and other organometallics. These extinguishers are less effective against paper and trash, liquid, or electrical fires.
+
+Every extinguisher should carry a label indicating what class or classes of fires it is effective against and the date it was last inspected. A number of other more specialized types of extinguishers are available for unusual fire hazard situations. All trained laboratory personnel are responsible for knowing the location, operation, and limitations of the fire extinguishers in the work area. The laboratory supervisor is responsible for ensuring that all personnel are aware of the locations of fire extinguishers and are trained in their use. After an extinguisher is used, designated personnel promptly recharge or replace it.
+
+Heat sensors and smoke detectors may be part of the building safety equipment. If designed into the fire alarm system, they may automatically sound an alarm and call the fire department, they may trigger an automatic extinguishing system, or they may only serve as a local alarm. Because laboratory operations may generate heat or vapors, the type and location of the detectors must be carefully evaluated to avoid frequent false alarms.
+
+Fire hoses are intended for use by trained firefighters against fires too large to be handled by extinguishers and are included as safety equipment in some structures. Water has a cooling action and is effective against fires involving paper, wood, rags, and trash (Class A fires). Do not use water directly on fires that involve live electrical equipment (Class C fires) or chemicals such as alkali metals, metal hydrides, and metal alkyls that react vigorously with water (Class D fires).
+
+Do not use streams of water against fires that involve oils or other water-insoluble flammable liquids (Class B fires). Water will not readily extinguish such fires; instead, it can cause the fire to spread or float to adjacent areas. These possibilities are minimized by the use of a water fog. Water fogs are used extensively by the petroleum industry because of their fire-controlling and extinguishing properties. A fog can be used safely and effectively against fires that involve oil products, as well as those involving wood, rags, and rubbish.
+
+Because of the potential risks involved in using water around chemicals, laboratory personnel should not use fire hoses except in extreme emergencies. Reserve them for trained firefighters. Extinguish clothing fires by immediately dropping to the floor and rolling; however, if a safety shower is nearby, use it to extinguish a clothing fire (as noted in section 7.F.2.5 ).
+
+In areas where fire potential and the risk of injury or damage are high, automatic fire-extinguishing systems are often used. These may be of the water sprinkler, foam, carbon dioxide, halon, or dry chemical type. If an automatic fire-extinguishing system is in place, inform laboratory personnel of its presence and advise them of any safety precautions required in connection with its use (e.g., evacuation before a carbon dioxide total-flood system is activated, to avoid asphyxiation).
+
+7.F.2.4. Respiratory Protective Equipment
+
+The primary method for the protection of laboratory personnel from airborne contaminants is to minimize the amount of such materials entering the laboratory air. When effective engineering controls are not possible, use suitable respiratory protection after proper training. Respiratory protection may be needed in carrying out an experimental procedure, in dispensing or handling hazardous chemicals, in responding to a chemical spill or release in cleanup decontamination, or in hazardous waste handling.
+
+Under OSHA regulations, only equipment listed and approved by the Mine Safety and Health Administration and NIOSH may be used for respiratory protection. Also under the regulations, each site on which respiratory protective equipment is used must implement a respirator program (including training and medical certification) in compliance with OSHA's Respiratory Protection Standard (29 CFR § 1910.134); see also ANSI standard Z88.2-1992, Practices for Respiratory Protection.
+
+Respirators must fit snugly on the face to be effective. Conduct tests for a proper fit prior to selection of a respirator and verify before the user enters the area of contamination. Failure to achieve a good face-to-face piece seal (e.g., because of glasses or facial hair) can permit contaminated air to bypass the filter and create a dangerous situation for the user. For individuals with facial hair, do not use respirators requiring a face-to-face piece seal. In such cases, powered, air-purifying, or supplied-air respirators may be appropriate.
+
+Several types of non-emergency respirators are available for protection in atmospheres that are not immediately dangerous to life or health but that could be detrimental after prolonged or repeated exposure. Other types of respirators are available for emergency or rescue work in hazardous atmospheres from which the wearer needs protection. Additional protection may be required if the airborne contaminant could be absorbed through or irritate the skin. For example, the possibility of eye or skin irritation may require the use of a full-body suit and a full-face mask rather than a half-face mask. For some chemicals the dose from skin absorption can exceed the dose from inhalation.
+
+The choice of the appropriate respirator in a given situation depends on the type of contaminant and its estimated or measured concentration, known exposure limits, and hazardous properties. The degree of protection afforded by the respirator varies with the type. Six main types of respirators are currently available:
+
+Chemical cartridge respirators are only for protection against particular individual (or classes of) vapors or gases as specified by the respirator manufacturer and cannot be used at concentrations of contaminants above that specified on the cartridge. Also, these respirators cannot be used if the oxygen content of the air is less than 19.5%, in atmospheres immediately dangerous to life, or for rescue or emergency work. These respirators function by trapping vapors and gases in a cartridge or canister that contains a sorbent material, with activated charcoal being the most common adsorbent. Because significant breakthrough can occur at a fraction of the canister capacity, knowledge of the potential workplace exposure and length of time the respirator will be worn is important. Replacing the cartridge after each use ensures the maximum available exposure time for each new use. Difficulty in breathing or the detection of odors indicates plugged or exhausted filters or cartridges or concentrations of contaminants higher than the absorbing capacity of the cartridge, and the user should immediately leave the area of contamination. Check and clean chemical cartridge respirators on a regular basis. Do not store new and used cartridges near chemicals because they are constantly filtering the air. Store them in sealed containers to prevent chemical contamination.
+
+Organic vapor cartridges cannot be used for vapors that are not readily detectable by their odor or other irritating effects or for vapors that will generate substantial heat on reaction with the sorbent materials in the cartridge.
+
+Dust, fumes, and mist respirators are used only for protection against particular, or certain classes of, dusts, fumes, and mists as specified by the manufacturer. The useful life of the filter depends on the concentration of contaminant encountered. Such particulate-removing respirators usually trap the particles in a filter composed of fibers; they are not 100% efficient. Respirators of this type are generally disposable. Examples are surgical masks and toxic-dust and nuisance-dust masks. Some masks are NIOSH-approved for more specific purposes such as protection against simple or benign dust and fibrogenic dusts and asbestos. Particulate-removing respirators afford no protection against gases or vapors and may give the user a false sense of security. They are also subject to the limitations of fit.
+
+Supplied-air respirators deliver fresh air to the face piece of the respirator at a pressure high enough to cause a slight buildup relative to atmospheric pressure. As a result, the supplied air flows outward from the mask, and contaminated air from the work environment cannot readily enter the mask. This characteristic renders face-to-face piece fit less important than with other types of respirators. Fit testing is, however, required before selection and use.
+
+Supplied-air respirators are effective protection against a wide range of air contaminants (gases, vapors, and particulates) and are used in oxygen-deficient atmospheres. Where concentrations of air contaminants could be immediately dangerous to life, such respirators can be used provided (a) the protection factor of the respirator is not exceeded and (b) the provisions of OSHA's Respiratory Protection Standard (which indicates the need for a safety harness and an escape system in case of compressor failure) are not violated. The air supply of this type of respirator must be kept free of contaminants (e.g., by use of oil filters and carbon monoxide absorbers). Most laboratory air is not suitable for use with these units because these units usually require the user to drag lengths of hose connected to the air supply and they have a limited range.
+
+SCBA is the only type of respiratory protective equipment suitable for emergency or rescue work. Untrained personnel should not attempt to use one.
+
+Each area where respirators are used should have written information available that shows the limitations, fitting methods, and inspection and cleaning procedures for each type of respirator available. Personnel who may have occasion to use respirators in their work must be thoroughly trained before initial use and annually thereafter in the fit testing, use, limitations, and care of such equipment. Training includes demonstrations and practice in wearing, adjusting, and properly fitting the equipment. OSHA regulations require that a worker be medically certified before beginning work in an area where a respirator must be worn [OSHA Respiratory Protection Standard, 29 CFR § 1910.134(b)(10)].
+
+Respirators for routine use should be inspected before each use by the user and periodically by the laboratory supervisor. Self-contained breathing apparatus should be inspected at least once a month and cleaned after each use.
+
+7.F.2.5. Safety Showers and Eyewash Units
+
+Make safety showers available in areas where chemicals are handled; make sure they meet all installation and maintenance requirements (ANSI Z358.1 Emergency Eyewash and Shower Equipment; ANSI, 2004 ). Use them for immediate first-aid treatment of chemical splashes and for extinguishing clothing fires. All trained laboratory personnel should know where the safety showers are located in the work area and should learn how to use them. Test safety showers routinely to ensure that the valve is operable and to remove any debris in the system.
+
+The shower should drench the subject immediately and be large enough to accommodate more than one person if necessary. It should have a quick-opening valve requiring manual closing; a downward-pull delta bar is satisfactory if long enough. Chain pulls are not advisable because they can hit the user and be difficult to grasp in an emergency. Install drains under safety showers to reduce the slip and fall risks and facility damage that is associated with flooding in a laboratory.
+
+Eyewash units are required in research or instructional laboratories if substances used there present an eye hazard or if unknown hazards may be encountered. An eyewash unit provides a soft stream or spray of aerated water for an extended period (15 minutes). Locate these units close to the safety showers so that, if necessary, the eyes can be washed while the body is showered.
+
+AED owners should provide or arrange for training and refresher training. Staff that may be on-site during normal working hours and available to operate AED equipment should be selected for this training. The training should be an American Heart Association cardiopulmonary resuscitation (CPR)/AED course or a nationally acceptable equivalent. Competency is determined by the certified course instructor. Training records, including a description of the training program and refresher training schedule, should be documented. AED owners should be familiar with local laws concerning training and use of these devices.
+
+7.F.2.6. Storage and Inspection of Emergency Equipment
+
+Establish a central location for storage of emergency equipment. Include the following:
+
+SCBA (for use by trained personnel only),
+
+blankets for covering the injured,
+
+stretchers (generally best to wait for qualified medical help to move a seriously injured person),
+
+first-aid equipment (for unusual situations such as exposure to hydrofluoric acid or cyanide, where immediate first aid is required), and
+
+chemical spill cleanup kits and spill control equipment (e.g., spill pillows, booms, shoe covers, and a 55-gal drum in which to collect sorbed material). (Also consult Chapter 6 , sections 6.C.10.5 and 6.C.10.6 .)
+
+Inspect safety equipment regularly (e.g., every 3 to 6 months) to ensure that it will function properly when needed. The laboratory supervisor or safety coordinator is responsible for establishing a routine inspection system and verifying that inspection records are appropriately maintained and archived as required by law.
+
+Perform inspections of emergency equipment as follows:
+
+Inspect fire extinguishers for broken seals, damage, and low gauge pressure (depending on type of extinguisher). Check for proper mounting of the extinguisher and that it is readily accessible. Some types of extinguishers must be weighed annually, and periodic hydrostatic testing may be required.
+
+Check SCBA at least once a month and after each use to determine whether proper air pressure is being maintained. Look for signs of deterioration or wear of rubber parts, harness, and hardware and make certain that the apparatus is clean and free of visible contamination. Periodically perform fit tests to ensure that the mask forms a good seal to an individual's face. Masks come in different sizes and cannot be considered universal or one-size-fits-all. Facial hair, especially beards, interferes with the mask seal and is not to permitted for SCBA users.
+
+Examine safety showers and eyewash units visually and test their mechanical function. Purge them as necessary to remove particulate matter from the water line.
+
+Inspect an AED periodically following the manufacturer's recommendations and procedures as well as after use and before returning to its storage location.
+
+## 7.G. EMERGENCY PROCEDURES
+
+The following general emergency procedures are recommended in the event of a fire, explosion, spill, or medical or other laboratory accident. These procedures are intended to limit injuries and minimize damage if an accident should occur. Post numbers to call in emergencies clearly at all telephones in hazard areas. Because emergency response (personnel, contact information, procedures) varies greatly from institution to institution, all laboratory personnel should be properly trained and informed of the protocols for their particular institution.
+
+Have someone call for emergency help, for instance, 911 or other number as designated by the institution. State clearly where the accident has occurred and its nature.
+
+Ascertain the safety of the situation. Do not enter or reenter an unsafe area.
+
+Without endangering yourself, render assistance to the personnel involved and remove them from exposure to further injury.
+
+Warn personnel in adjacent areas of any potential risks to their safety.
+
+Render immediate first aid; appropriate measures include washing under a safety shower, administration of CPR by trained personnel if heartbeat or breathing or both have stopped, and special first-aid measures.
+
+Put out small fires by using a portable extinguisher. Turn off nearby equipment and remove combustible materials from the area. For larger fires, contact the appropriate fire department promptly. Be aware that many organizations limit fire extinguisher use to designated trained personnel only.
+
+Provide emergency personnel with as much information as possible about the nature of the hazard, including a copy of the material safety data sheet (MSDS).
+
+In a medical emergency, laboratory personnel should remain calm and do only what is necessary to protect life.
+
+Summon medical help immediately.
+
+Do not move an injured person unless he or she is in danger of further harm.
+
+Keep the injured person warm. If feasible, designate one person to remain with the injured person. The injured person should be within sight, sound, or physical contact of that person at all times.
+
+If clothing is on fire and a safety shower is immediately available, douse the person with water; otherwise, roll the person on the floor to smother the flames.
+
+If harmful chemicals have been spilled on the body, remove the chemicals, usually by flooding the exposed area with the safety shower, and immediately remove any contaminated clothing.
+
+If a chemical has splashed into the eye, immediately wash the eyeball and the inner surface of the eyelid with water for 15 minutes. An eyewash unit should be used if available. Forcibly hold the eye open to wash thoroughly behind the eyelid.
+
+If possible, determine the identity of the chemical and inform the emergency medical personnel attending the injured person. Provide an MSDS for each chemical that is involved in the incident to the attending physician or emergency responders.
+
+## Footnotes
+
+The outlet is always “female”; the plug is always “male.”
+
+Commonly known as “variacs,” variable autotransformers are devices that provide a voltage-adjustable output of AC electricity using a constant voltage input (e.g., the wall outlet).
+
+A non-emergency response is appropriate in the case of an incidental release of hazardous substances where the substance can be absorbed, neutralized, or otherwise controlled at the time of release by personnel in the immediate area or by maintenance personnel.
+
+## Views
+
+PubReader
+
+Print View
+
+Cite this Page National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011. 7, Working with Laboratory Equipment.
+
+PDF version of this title (9.0M)
+
+## In this Page
+
+INTRODUCTION
+
+WORKING WITH WATER-COOLED EQUIPMENT
+
+WORKING WITH ELECTRICALLY POWERED LABORATORY EQUIPMENT
+
+WORKING WITH COMPRESSED GASES
+
+WORKING WITH HIGH OR LOW PRESSURES AND TEMPERATURES
+
+USING PERSONAL PROTECTIVE, SAFETY, AND EMERGENCY EQUIPMENT
+
+EMERGENCY PROCEDURES
+
+## Other titles in this collection
+
+The National Academies Collection: Reports funded by National Institutes of Health
+
+## Recent Activity
+
+Working with Laboratory Equipment - Prudent Practices in the Laboratory Working with Laboratory Equipment - Prudent Practices in the Laboratory
+
+Your browsing activity is empty.
+
+Activity recording is turned off.
+
+Turn recording back on
+
+Connect with NLM
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894
+
+Web Policies FOIA HHS Vulnerability Disclosure
+
+Help Accessibility Careers
+
+NLM
+
+NIH
+
+HHS
+
+USA.gov

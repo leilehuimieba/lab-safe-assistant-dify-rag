@@ -1,0 +1,625 @@
+National Institutes of Health 
+
+NIH Methylene Chloride Health and Safety Plan 
+
+2025 
+
+Authorized by the Division of Safety (DS)/ Industrial Hygiene and Campus Safety 
+Branch (IHCSB) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NIH Methylene Chloride Health and Safety Plan 
+
+Introduction ................................................................................................................. 3 
+
+Health Hazards ............................................................................................................. 3 
+
+Purpose ........................................................................................................................ 3 
+
+Workplace Chemical Protection Program (WCPP) ......................................................... 3 
+
+Exposure Limits ........................................................................................................................ 4 
+
+Identification of the DCM Use/Storage Areas ........................................................... 4 
+
+Initial Assessment .................................................................................................. 4 
+
+Monitoring ................................................................................................................................. 5 
+
+Initial Monitoring .................................................................................................. 5 
+
+Periodic Monitoring ............................................................................................... 5 
+
+Additional Monitoring ............................................................................................ 6 
+
+Initial Sampling Requirements ................................................................................ 6 
+
+Sampling Method ................................................................................................... 7 
+
+Establishment of Regulated Areas ........................................................................................... 7 
+
+Notification of Monitoring Results .......................................................................................... 7 
+
+Development and Communication of an Exposure Control Plan ........................................ 7 
+
+Elimination and Substitution .................................................................................. 7 
+
+Engineering Controls ............................................................................................. 8 
+
+Administrative Controls ......................................................................................... 8 
+
+Personal Protective Equipment ............................................................................... 8 
+
+Respiratory Protection .................................................................................................. 8 
+
+Recordkeeping and Notification ..................................................................................... 9 
+
+Training ....................................................................................................................... 9 
+
+Definitions .................................................................................................................... 9 
+
+Reference ................................................................................................................... 10 
+
+Appendix A ................................................................................................................................... 11 
+
+ 
+ 
+ 
+ Introduction 
+
+Methylene chloride (CAS # 75-09-2), also known as dichloromethane or DCM, is a highly volatile 
+organic solvent with a sweet odor, and is a particularly hazardous substance (carcinogen, reproductive 
+toxin, and/or acute toxin) under OSHA Laboratory Standard. 
+
+Health Hazards 
+
+Hazards 
+
+Definition 
+
+Carcinogen: Methylene chloride is a Class 1B carcinogen. 
+
+It causes skin irritation, serious eye irritation, may cause drowsiness, 
+dizziness, or damage to organs through prolonged or repeated 
+exposure. 
+
+Acute Toxicity: Neurotoxicity effects (central nervous system) are the 
+most serious adverse effects of acute inhalation and dermal exposures 
+of DCM. High-level exposure to DCM can cause dizziness that can 
+result in sudden loss of consciousness or death. 
+
+Purpose 
+
+The purpose of the NIH Division of Safety (DS) Methylene Chloride Health and Safety Plan is to control 
+worker exposure to methylene chloride and ensure compliance with regulations including those from 
+OSHA (29 CFR 1910.1052) and the EPA Methylene Chloride Rule (issued under the Toxic Substances 
+Control Act (TSCA), in 40 CFR Part 751). 
+
+This plan includes an outline of initial and periodic exposure monitoring, development of exposure 
+control plan, recordkeeping and worker training on safe work practices. 
+
+Workplace Chemical Protection Program (WCPP) 
+
+To address the health risks associated with DCM the EPA has issued the 2024 Methylene Chloride 
+Regulation under the Toxic Substances Control Act (TSCA). Under the new EPA regulation most of the 
+commercial and industrial uses of DCM including the use of any products/mixtures containing 
+above the de minims threshold of 0.1% DCM are banned. All non-laboratory units currently using 
+products containing DCM must discontinue its use and identify appropriate substitutes or alternate 
+workplans. DS is available for consultation. 
+
+The new EPA rule permits the use of DCM for research with certain restrictions, including the 
+establishment of a workplace chemical protection program (WCPP). 
+
+WCPP is required to have the following components to ensure the safety of potentially exposed 
+employees: 
+
+• Exposure limits set forth in the new ruling 
+• 
+Initial and periodic exposure monitoring 
+• Establishment of a regulated area 
+• Development and communication of an exposure control plan 
+• Respirator selection criteria 
+• Recordkeeping and notification to potentially exposed people 
+• Training 
+
+ 
+ 
+ 
+ 
+ Exposure Limits 
+
+The NIH compares employee exposures to DCM to regulatory standards such as the Permissible 
+Exposure Limits (PELs) established by OSHA, the Threshold Limit Value (TLV) developed by the 
+American Conference of Governmental Industrial Hygienist (ACGIH), and the Environmental Protection 
+Agency (EPA) limit. These limits are the maximum concentrations, determined as an 8-hour time-
+weighted average (TWA), to which employees may be exposed over the course of the work shift, and 
+limits for 15-minute periods, considered Short Term Exposure Limits (STELs). The exposure criteria, 
+including PELs and TLVs for methylene chloride are listed as follows, in parts per million (ppm): 
+
+Table 1. Methylene Chloride Exposure Limits 
+
+Chemical 
+
+8-Hour Limit TWA, 
+ppm) 
+
+8-Hour Action 
+Level 
+
+Methylene 
+Chloride 
+
+25 ppm OSHA PEL 
+50 ppm ACGIH 
+TLV 
+2 ppm EPA ECEL 
+
+1 ppm EPA AL 
+
+STEL 
+
+(15-minute TWA, 
+ppm) 
+
+16 ppm EPA STEL 
+125 ppm OSHA 
+STEL 
+
+Ceiling Value – 
+(ppm) 
+
+Not Established 
+
+NIH will be enforcing the new EPA inhalation exposure limit (Existing Chemical Exposure Limits 
+(ECEL)) 2 ppm as an 8-hr Time Weighted Average (TWA) and 16 ppm as a 15- min TWA. 
+
+Identification of the DCM Use/Storage Areas 
+
+DCM use locations will be identified and reviewed based on the following sources 
+
+1) Existing DS exposure monitoring records 
+2) DCM waste pickup records 
+3) DCM use locations reported by NIH staff / researchers 
+4) Review of DCM purchase records 
+
+Initial Assessment 
+
+An initial qualitative exposure assessment will be conducted by contacting the laboratories where 
+methylene chloride has been stored or used. The following information will be requested during the initial 
+assessment: 
+
+a) Do you store DCM in your area(s)? 
+b) Do you use DCM? 
+c) How many lab members work with or use DCM? 
+d) What are the locations you work with DCM in? 
+e) In which process do you use DCM? 
+f) How often do you use DCM? 
+g) What volume do you use per process? 
+h) What volume do you use per day? 
+i) Where do you use DCM? (Hood, benchtop, instrument) 
+j) Does your process consume all DCM? 
+k) If there is waste, how do you dispose the DCM waste? 
+l) What PPE do you wear when using DCM? 
+
+ 
+ Results of this initial data collection will be reviewed, and industrial hygiene monitoring (initial 
+quantitative assessment) will be prioritized and scheduled based on the potential for exposure. 
+
+Monitoring 
+
+The WCPP requires employers to ensure that the inhalation exposure levels are below the ECEL and EPA 
+STEL threshold values. This includes initial and periodic monitoring to ensure continued compliance. 
+EPA has established conditions for pausing or discontinuing monitoring activities based on exposure data 
+or non-use of DCM between periodic monitoring and restarting with certain changes in work conditions 
+(change in volume, procedure/process etc.). All monitoring activities and results must be documented and 
+communicated to potentially exposed employees. 
+
+Initial Monitoring 
+
+Initial monitoring will be performed at all locations where DCM is used. Data collected from the initial 
+monitoring will be used to: 
+
+• Establish a baseline of occupational exposure for potentially exposed employees (highest likely 
+
+full shift exposures and 15-minute inhalation exposures) 
+
+• Establish the criteria for enhancement, or additional exposure controls (based on hierarchy of 
+
+controls) 
+Inform the employees about the development of the exposure control plan 
+
+• 
+• Determine the frequency of additional periodic monitoring 
+
+Periodic Monitoring 
+
+Depending on the data collected from the initial monitoring, periodic monitoring requirements can range 
+from once every 5 years to once every 3 months. Table 2 summarizes the frequency for periodic 
+monitoring following the initial monitoring, and Table 3 summarizes the Periodic Monitoring based on 
+changes in conditions. 
+
+Table 2: EPA Periodic Monitoring Requirements Based on Initial Exposure Monitoring Results 
+
+The initial exposure monitoring concentration is below 
+the ECEL action level and at or below the EPA STEL. 
+(concentration < 1 ppm, 8-hr TWA; and concentration 
+≤ 16 ppm, 15-min TWA) 
+
+ECEL and EPA STEL periodic monitoring at least once 
+every 5 years. 
+
+The initial exposure monitoring concentration is below 
+the ECEL action level and above the EPA STEL. 
+(concentration < 1 ppm, 8-hr TWA; and concentration 
+> 16 ppm, 15-min TWA) 
+
+ECEL periodic monitoring at least once every 5 years 
+AND EPA STEL periodic monitoring is required every 
+3 months. 
+
+The initial exposure monitoring concentration is at or 
+above the ECEL action level and at or below the 
+ECEL, and at or below the EPA STEL. (1 ppm, 8-hr 
+TWA ≤ concentration ≤ 2 ppm, 8-hr TWA; and 
+concentration ≤ 16 ppm, 15-min TWA) 
+
+The initial exposure monitoring concentration is at or 
+above the ECEL action level and at or below the 
+ECEL; and above the EPA STEL. (1 ppm, 8-hr TWA ≤ 
+concentration ≤ 2 ppm, 8-hr TWA; and concentration > 
+16 ppm, 15-min TWA) 
+
+ECEL monitoring every 6 months. 
+
+ECEL periodic monitoring every 6 months AND EPA 
+STEL periodic monitoring every 3 months. 
+
+ The initial exposure monitoring concentration is above 
+the ECEL and below, at, or above the EPA STEL. 
+(concentration > 2 ppm, 8-hr TWA, regardless of 
+monitored concentration relative to 16 ppm, 15-min 
+TWA) 
+
+ECEL periodic monitoring every 3 months AND EPA 
+STEL periodic monitoring every 3 months 
+
+* Initial ECEL and EPA STEL monitoring must be repeated at least every 5 years to reestablish current 
+exposure conditions and a new baseline to determine monitoring frequency. 
+
+Table 3: Periodic Monitoring Requirements Based on Changes in Conditions 
+
+Changes in Conditions 
+
+Changes to Periodic Monitoring Requirement 
+
+If 2 consecutive monitoring events have taken place 
+at least 7 days apart that indicate that potential 
+exposure has decreased from above the ECEL to at or 
+below the ECEL, but at or above the ECEL action 
+level. 
+
+Transition from ECEL periodic monitoring 
+frequency from every 3 months to every 6 months. 
+
+If 2 consecutive monitoring events have taken place 
+at least 7 days apart that indicates that potential 
+exposure has decreased to below the ECEL action 
+level and at or below the EPA STEL. 
+
+Transition from periodic monitoring every 6 months 
+to once every 5 years. The second consecutive 
+monitoring date will be the new date from which the 
+next 5-year periodic exposure monitoring must occur. 
+
+User stops the activities that require ECEL 
+monitoring in a 3-month interval for the entirety of 
+the 3-month interval. 
+
+User stops the activities that require ECEL monitoring 
+in a 6-month interval for the entirety of the 6-month 
+interval. 
+
+Can forgo the upcoming periodic monitoring event. 
+Documentation of cessation of the use/disposal of 
+DCM must be maintained. An initial monitoring is 
+required when the user resumes any of the conditions 
+which require periodic motioning. 
+
+Can forgo the upcoming periodic monitoring event. 
+Documentation of cessation of the use/disposal of 
+DCM must be maintained. An initial monitoring is 
+required when the user resumes any of the conditions 
+which require periodic motioning. 
+
+Additional Monitoring 
+
+Potential for any increase in exposure to DCM or introduction of additional sources of DCM exposure 
+may require additional monitoring. Examples include changes in procedure/process, quantity of DCM 
+used, work practices/engineering controls, equipment failure/spills etc. Additional monitoring required 
+may affect the frequency of periodic monitoring and should not interfere with the implementation of 
+necessary cleanup/remedial actions to reduce the exposures. DCM users are required to notify their 
+Safety Specialist about any changes in conditions like the ones described above to assess the need for 
+additional monitoring. Additionally, the Laboratory Safety Survey team will verify the information 
+during the annual survey with an added question to the Cority Lab Inspection checklist. 
+
+Initial Sampling Requirements 
+
+Below are the EPA specified requirements for all the sampling activities related to WCPP: 
+
+• Samples must be taken for every potentially exposed person in the facility or monitoring must be 
+
+ 
+ 
+ 
+ conducted in such a way that the personal breathing zone (PBZ) samples are representative of all 
+potentially exposed in the facility. 
+
+• Location and the time of sample collection must be representative of each potentially exposed 
+
+person’s full-shift exposures. 
+
+• Potentially exposed individuals must be given the opportunity to observe the exposure 
+
+monitoring process. 
+
+• 
+
+ Exposure must be measured without taking respiratory protection into account. 
+
+Sampling Method 
+
+DCM samples are collected using recognized sampling methods, with analysis by accredited laboratories. 
+Sampling documentation must include information on the environmental factors like temperatures, 
+humidity, ventilation rates etc. along with information on monitoring equipment type, calibration dates, 
+maintenance, limits of detection etc. 
+
+Establishment of Regulated Areas 
+
+A Regulated area is defined as any area where airborne concentrations of methylene chloride exceed 
+either the 8-hour Time Weighted Average (TWA) permissible exposure limit (PEL) or the Short-Term 
+Exposure Limit (STEL). Within 3 months of receiving the initial monitoring data, areas where airborne 
+concentrations of DCM exceed, or anticipated to exceed the inhalation exposure limits must be marked 
+and isolated as regulated areas. Appropriate signage should mark the area to warn potentially exposed 
+employees about the exposure zone and keep unauthorized individuals entering the regulated area. The 
+sign must have wordings “Danger: Regulated Area. Methylene chloride, authorized personnel only. 
+Respiratory protection and PPE required”. Access to the regulated areas must be limited to only the 
+individuals with proper training and PPE. 
+
+Notification of Monitoring Results 
+
+ The results of the monitoring must be communicated to the potentially exposed employees in writing 
+within 15 working days of receiving the data. A template for the communication letter is available in 
+Appendix A The written communication should include information on EPA DCM exposure threshold, 
+explanation of the monitoring results, actions taken to reduce exposure including respiratory protection if 
+they are above the ECL/EPA accepted threshold values, identified releases of DCM if any and details of 
+the monitoring process including time, location and the way the data was collected. 
+
+Development and Communication of an Exposure Control Plan 
+
+The exposure control plan details the mitigation strategies implemented at the workplace by following the 
+hierarchy of controls to reduce DCM exposure levels to potentially exposed employees. The hierarchy of 
+controls includes elimination, substitution, engineering controls, administrative controls and personal 
+protective equipment (PPE). PPE is the final level of control and must only be used in combination with 
+additional controls at the administrative, engineering, or substitution level. The NIH Chemical Hygiene 
+Plan has detailed description of how these controls are implemented at laboratories throughout NIH. 
+PIs/supervisors are required to perform a hazard analysis by following NIH CHP Appendix I for areas 
+handling and using DCM. Hazard analysis must be repeated if any change that may reasonably be expected 
+to introduce additional sources of exposure or otherwise result in increased exposure to DCM, such as the 
+addition of a new process using DCM or increased volume usage DS Safety Specialists are available for 
+assistance. The exposure control plan will be reviewed and updated as necessary, and at least every 5 years 
+to ensure the effectiveness of the controls in reducing the exposure to potentially exposed individuals. 
+
+Elimination and Substitution 
+
+Elimination and substitution are the most preferred method of exposure control. If possible, eliminate the 
+use of methylene chloride or substitute it with a less hazardous chemical. 
+
+ Alternate Solvents to consider for laboratories 
+
+Less hazardous substitutes for DCM chromatography include ethyl acetate, heptanes and methyl ter-butyl 
+ether (MTBE). For extractions/purifications, DCM may be substituted with ethyl acetate, MTBE or 
+toluene. ACS DCM Alternatives and Sigma-Aldrich’s Greener solvent alternatives is a good resource for 
+identifying safer alternatives for various DCM based reactions and applications. 
+
+Engineering Controls 
+
+Engineering controls are the next best option to reduce exposure. If methylene chloride must be used, all 
+use should be performed in a certified chemical fume hood. NIH Primary Barrier Program ensures the 
+effectiveness of the chemical fume hoods in controlling exposures at NIH by following all required 
+regulations. DS fact sheet on chemical fume hoods has information on how to safely work and maintain 
+your chemical fume hood. 
+
+Administrative Controls 
+
+ General administrative controls used at NIH laboratories include developing standard operating procedures 
+(SOPs), managing chemicals by following prudent chemical handling practices, ensuring personnel are 
+properly trained and disposing hazardous waste by following NIH hazardous waste guidelines. The DS fact 
+sheet on DCM has information on developing SOP using DS provided template, proper management of 
+DCM in the laboratory and other safety precautions required to reduce exposure. 
+
+Personal Protective Equipment 
+
+Minimum required PPE for working with DCM includes safety glasses with side shields or safety goggles, 
+appropriate hand protection, and a clean buttoned lab coat. Additional PPE like face shield, aprons and 
+respirators may be required in certain situations. PIs/supervisors must perform a risk assessment to identify 
+appropriate PPE required for the planned procedure. Skin contact with methylene chloride should be 
+minimized by using methylene chloride resistant gloves. Halogenated solvents are known to penetrate 
+nitrile gloves and methylene chloride (DCM) readily penetrates nitrile gloves in less than 10 minutes. When 
+working with small quantities of DCM at a minimum, double glove with nitrile or nitrile and neoprene 
+combination gloves such as Ansell 93-260. Gloves made of polyethylene vinyl alcohol and ethylene vinyl 
+alcohol (PVA/EVA) are also resistant to methylene chloride. Immediately remove the gloves if they become 
+contaminated. PIs/lab supervisors are responsible for training employees on appropriate glove selection 
+(type, material), expected duration of glove effectiveness, actions to take when glove integrity is 
+compromised, storage requirements and proper glove removal techniques. 
+
+Respiratory Protection 
+
+Respiratory protection may be required if other controls are not effective in keeping the exposure within 
+the EPA established limits based on the PBZ monitoring data. Potentially exposed individuals required to 
+wear respiratory protection must be fit tested and enrolled in NIH respiratory protection program. 
+
+Respiratory Protection Conditions and Requirements 
+
+Concentration Condition 
+
+Minimum Required Respirator Protection: Respirators Must Be NIOSH 
+Approved® 
+
+At or below the ECEL and EPA STEL 
+
+No respirator required 
+
+Above ECEL (2 ppm) and less 
+than or equal to 50 ppm (25 times 
+the ECEL) 
+
+Any Supplied-Air Respirator (SAR) or airline respirator in a continuous-flow 
+mode equipped with a loose-fitting facepiece or helmet/hood (assigned protection 
+factor (APF) 25) 
+
+ 
+ Above 50 ppm and less than or 
+equal to 100 ppm (50 times the 
+ECEL) 
+
+Either any SAR or airline respirator in a demand mode equipped with a full facepiece 
+(APF 50); or any Self-Contained Breathing Apparatus (SCBA) in demand- mode 
+equipped with a full facepiece or helmet/hood (APF 50). 
+
+Unknown concentration or at any 
+value above 100 ppm and up to 
+2,000 ppm (1,000 times the 
+ECEL) 
+
+Any SAR or Airline Respirator in a continuous-flow mode equipped with a full 
+facepiece or certified helmet/hood (APF 1,000); or 
+
+Any SAR or Airline Respirator in pressure-demand or other positive-pressure 
+mode equipped with a full facepiece (APF 1,000); or 
+
+Any SCBA in a pressure-demand or other positive-pressure mode equipped with a 
+full facepiece or certified helmet/hood (APF 10,000). 
+
+Recordkeeping and Notification 
+
+ All potentially exposed individuals will be notified within 30 days of the development of an exposure 
+control plan and any subsequent updates to the plan. They will also be notified of any exposure 
+monitoring, implementation of respiratory protection and dermal protection programs. All documentation 
+related to exposure monitoring will be maintained by DS. The results of any monitoring must be 
+communicated to the employees in writing within 15 working days of receiving the data. Upon request all 
+potentially exposed individuals can obtain any monitoring data and other associated records within 15 
+days. If unable to provide the requested records, potentially exposed individuals must receive a written 
+notification explaining the delay in providing the records and the earliest date when the record(s) can be 
+made available. 
+
+All records must be retained for 5 years and must be available upon request for inspection by authorities 
+(EPA). Records can be maintained electronically or as paper format. 
+
+Training 
+
+All individuals working with DCM must be trained on lab specific SOP prior to starting work and 
+reviewed at least annually or whenever there is a significant change in processes or procedures. They 
+must also be trained on the SDS, must remain current on Lab Safety training and review of the Chemical 
+Hygiene Plan (CHP) annually. 
+
+The training also should include information on the availability of this DCM Health and Safety Plan, EPA 
+TSCA Final Rule on DCM, methods and observations to detect the presence of DCM, locations and 
+processes where DCM may be present, how to reduce exposure to DCM (proper use of engineering 
+controls, various administrative controls used in the lab, PPE (selection, proper use, maintenance and 
+disposal)). All training must be documented and maintained by the PI or their designee. 
+
+All potentially exposed individuals must receive DS provided initial training in exposure management 
+and additional training if exposure levels are above the threshold level, including respiratory protection. 
+
+Definitions 
+
+• 
+
+Initial Monitoring: initial monitoring performed by DS to assess employee exposures. 
+
+• Periodic Monitoring 
+
+• 
+
+If initial monitoring shows exposures are above the action level or STEL, periodic 
+monitoring is required, and DS will perform the required periodic monitoring. 
+
+ 
+ • Monitoring frequency varies based on exposure levels: 
+
+• Every six months if exposures are above the action level but at or below the 
+
+permissible exposure limit (PEL) and STEL. 
+
+• Every three months if exposures are above PEL or STEL. 
+
+• Monitoring may be discontinued if two consecutive measurements show 
+
+exposures below both the action level and STEL. 
+
+• Action Level and STEL: 
+
+• The action level for methylene chloride is 25 ppm (parts per million) as an 8-hour time-
+
+weighted average (TWA). 
+
+• The STEL is 125 ppm as a 15-minute TWA. 
+
+• Exposure Control Plan: 
+
+A written plan developed and implemented by DS to control exposures, based on the hierarchy 
+of controls. 
+
+• Personal Protective Equipment (PPE): 
+
+Appropriate PPE, like gloves, lab coat, and safety goggles used in conjunction with engineering 
+and administrative controls to control exposures. 
+
+• Notification of Monitoring Results: 
+
+Employees must be notified of the monitoring results within 15 business days of receipt. 
+
+• Workplace Chemical Protection Program (WCPP): 
+
+The WCPP is a requirement under EPA and includes exposure monitoring and control 
+measures to protect laboratory personnel. 
+
+Reference 
+
+A GUIDE TO COMPLYING WITH THE 2024 METHYLENE CHLORIDE REGULATION UNDER THE TOXIC 
+SUBSTANCES CONTROL ACT (TSCA) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Appendix A 
+
+ DATE: Date TO: Monitored Worker Name, Job Title NIH, Institute or Center FROM: Industrial Hygienist Name, DS {Contractor as appropriate} Industrial Hygiene and Campus Safety Branch, DS, ORS, OD THROUGH: John Veitch, Chief, Industrial Hygiene and Campus Safety Branch SUBJECT: Results of Methylene Chloride Exposure Monitoring in the Institute or Center Lab Name Introduction This memorandum provides the results of the xylene air monitoring conducted on Date. During this time, insert process name and location. Monitoring was conducted by Industrial Hygienist Name as part of the Methylene Chloride Exposure Monitoring Program administered by the Division of Safety (DS). Methylene chloride is also known as dichloromethane (DCM). Results The monitoring results indicated that your exposure was xx parts per million (ppm) during the monitored period (start time to end time). This is above or below all NIH-adopted exposure limits, including the most stringent exposure limits, the US EPA Existing Chemical Exposure Limit (ECEL) of 2 ppm over an 8-hour workday, and the Short-Term Exposure Limit (STEL) of 16 ppm over a 15-minute period. Recommendations The following changes are recommended or no changes in work procedures are indicated or required based on these results. Continue to keep all chemical containers capped or otherwise closed when not in use. Notify the DS if there are any changes to the process, such as workplace controls, volume of methylene chloride used, or the frequency and duration of the process. If you have any further questions or need further assistance, please feel free to contact me at 301/496-3457. Sincerely, Digital signature Cc: Industrial Hygienist Name Worker Supervisor PI or Lab Manager

@@ -1,0 +1,1364 @@
+Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+TABLE OF CONTENTS 
+
+Introduction .........................................................................................................................................1 
+I. 
+II. 
+Purpose ................................................................................................................................................1 
+III. Scope ...................................................................................................................................................1 
+IV. Applicable Regulatory, Policy and Industry Standards .......................................................................2 
+V. Responsibilities ....................................................................................................................................3 
+VI. Ordering and Receiving .......................................................................................................................4 
+VII. General Guidelines for Managing Compressed Gases and Cryogens .................................................4 
+A. Managing Cryogens ...................................................................................................................4 
+
+B. Managing Compressed Gases ....................................................................................................5 
+
+C. General Storage Guidelines for Compressed Gases and Cryogens ...........................................5 
+
+D. Labeling and Signage .................................................................................................................6 
+
+E. Storage and Handling of Specialty Gases ..................................................................................6 
+
+1. Facility Requirements ...................................................................................................6 
+
+2. Maximum Internal Cylinder Volume per laboratory ....................................................6 
+
+3. Flammable Gases .........................................................................................................6 
+
+4. Oxidizer Gases ..............................................................................................................7 
+
+5. Highly Toxic Gases.......................................................................................................7 
+
+6. Corrosive Gases ............................................................................................................8 
+
+7. Lecture bottles ..............................................................................................................8 
+
+F. Transportation ............................................................................................................................8 
+
+G. Oxygen Monitoring and other Monitoring Devices ...................................................................8 
+
+VIII. Compressed Gas / Cryogen Related Emergencies ...............................................................................9 
+IX. Training .............................................................................................................................................10 
+X. Disposal .............................................................................................................................................10 
+XI. References .........................................................................................................................................10 
+APPENDIX A Signage ..............................................................................................................................12 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+0 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+ I. 
+
+Introduction 
+
+A cryogen, or cryogenic liquid, is any liquid with a boiling point below 93K (-180°C or -240°F) at 1 atmosphere of 
+pressure. The most common cryogens used in research laboratories are Liquid nitrogen (LN2), liquid helium (LHe), 
+and occasionally liquid oxygen (LO2). Cryogenic liquids rapidly freeze human tissue, and they cause many 
+common materials to crack or fracture under stress. All cryogenic liquids vaporize, generating large amounts of 
+gases and may create an oxygen-deficient atmosphere. Toxicity is another hazard for cryogenic liquids like carbon 
+monoxide, which can release large quantities of highly toxic carbon monoxide gas into the air. Cryogenic liquids 
+with a boiling point below liquid oxygen can condense oxygen from the atmosphere. Violent reactions, e.g., rapid 
+combustion or explosion, may occur if combustible materials encounter oxygen. Extreme care must be exercised 
+when using liquid nitrogen as a cold trap coolant to avoid condensing liquid oxygen. 
+
+Compressed gases are defined as follows: 
+
+• A gas or mixture of gases enclosed in a container having an absolute pressure exceeding 40 psi at 70 
+
+deg. F (21.1 deg. C); or 
+
+• A gas or mixture of gases enclosed in a container having an absolute pressure exceeding 104 psi at 
+
+130 deg. F (54.4 deg. C) irrespective of the pressure at 70 deg. F (21.1 deg. C); or 
+
+• A liquid having a vapor pressure above 40 psi at 100 deg. F (37.8 deg. C) was estimated using the ASTM 
+
+D-323-72 standard. 
+
+Compressed gas management is hazardous due to its unusual characteristics, such as pressure storage, flammability, 
+and toxicity. Improper handling, storage, and use could lead to catastrophic events such as oxygen-depleted 
+atmospheres, fires, or adverse health effects. A leaking compressed gas cylinder can penetrate through walls like a 
+torpedo and cause structural damage, severe injury, and even death. 
+
+This document contains guidelines for proper storage, handling, use, and disposal of compressed gases and cryogens. 
+This program has been established at the National Institutes of Health (NIH) to: 
+
+ II. Purpose 
+
+• Guide management of compressed gases and cryogens in laboratory settings. 
+• 
+• Guide monitoring (oxygen and other specialty gas monitoring) devices and management. 
+
+Identify all hazards associated with compressed gases and cryogens. 
+
+ III. Scope 
+
+The policy of NIH is that special precautions are taken to ensure the safe use and storage of compressed gases and 
+cryogens to minimize the risk of injury from falling cylinders and exposure to toxic chemicals. This policy applies 
+to all NIH intramural research program personnel and contract staff supporting intramural research at NIH campuses 
+in Maryland, Montana, and Arizona. Personnel at the NIEHS Research Triangle Park campus should refer to the 
+policies established for their location. This policy does not supersede existing federal, state, or local applicable 
+codes. Still, it is a supplement to clarify specific NIH requirements for the safe handling and storage of compressed 
+gases and cryogens. Some hazardous materials may require additional precautions. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+ IV. Applicable Regulatory, Policy and Industry Standards 
+
+• Compressed Gases (General Requirements) are governed by OSHA 29 CFR 1910.101. There are additional 
+requirements for specific compressed gases, such as acetylene, hydrogen, oxygen, and nitrous oxide under 
+OSHA 29 CFR 1910.102. In addition, the US DOT Hazardous Materials Regulations (HMR) regulate the 
+safe and secure transportation of hazardous materials in commerce (49 CFR 171-177). 
+
+• Occupational Safety and Health Administration (OSHA) Occupational Exposure to Hazardous Chemicals in 
+Laboratories 29 CFR 1910.1450: contains requirements on laboratory use and scale for workers using 
+hazardous chemicals in a laboratory setting. 
+
+• Occupational Safety and Health Administration (OSHA) Confined Space Standard 29 CFR 1910.146 
+
+o “Hazardous atmosphere” means an atmosphere that may expose employees to the risk of death, 
+incapacitation, impairment of the ability to self-rescue (that is, escape unaided from a permit space), 
+injury, or acute illness from one or more of the following causes: 
+
+▪ (1) Flammable gas, vapor, or mist more than 10 percent of its lower flammable limit (LFL). 
+▪ (2) Atmospheric oxygen concentration below 19.5 percent or above 23.5 percent. 
+
+o Before an employee enters the space, the internal atmosphere shall be tested, with a calibrated direct-
+reading instrument, for oxygen content, flammable gases and vapors, and potential toxic air 
+contaminants, in that order. 
+
+• Occupational Safety and Health Administration (OSHA) Respiratory Protection Standard 29 CFR 1910.134: 
+o “Oxygen deficient atmosphere” means an atmosphere with an oxygen content below 19.5% by volume. 
+o All oxygen-deficient atmospheres shall be considered immediately dangerous to life and health (IDLH). 
+
+• **College of American Pathologists (CAP) Accreditation Program Requirements: 
+
+o GEN.77550 Liquid Nitrogen and Dry Ice: Adequate policies, procedures, and practices are in place for 
+
+liquid nitrogen and dry ice use. 
+
+o GEN.84800 Environment Maintenance: There are oxygen sensors or sufficient airflow to prevent 
+
+asphyxiation in areas where liquid nitrogen is used. 
+
+• National Institutes of Health Design Requirements Manual 13.10.7: Liquid Nitrogen (LN2): 
+
+o “Oxygen monitoring shall be provided in freezer rooms and other rooms where cryogenic fluids are 
+
+supplied to warn of oxygen depletion…” 
+
+• NFPA 45 Standard on Fire Protection for Laboratories Using Chemicals, 2015 Edition 
+
+• NFPA 55 Standard for the Storage, Use, and Handling of Compressed Gases and Cryogenic Fluids in Portable 
+
+and Stationary Containers, Cylinders, and Tanks, 2015 Edition 
+
+• DOT 49 CFR 173 Hazardous Materials Transportation 
+
+(https://www.fmcsa.dot.gov/regulations/hazardous-materials) 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+ V. Responsibilities 
+
+Institute/Center (IC) 
+
+• Contact the Division of Safety (DS) to request a risk assessment for locations that use compressed gases 
+
+and cryogenic liquids. 
+
+o Notify the DS if significant changes in the volume of gas, work practices, or ventilation conditions 
+
+occur in areas previously surveyed. 
+
+• As applicable, ensure proper oversight and maintenance of bulk storage tanks and delivery systems for 
+
+compressed gases and cryogenic liquids. 
+
+• Ensure oxygen monitoring and any other required gas-specific monitoring devices are installed, maintained, 
+
+and calibrated per the guidance in this protocol. 
+
+o A service contract may be established with the manufacturer to meet these obligations. 
+o The IC shall keep written or electronic records for all actions related to installation, calibration, 
+
+maintenance, etc. 
+
+• Display all mandatory (Oxygen Monitoring Devices Signs) ) signages (APPENDIX A) as applicable. 
+
+Signage shall be displayed at easily viewable locations. 
+
+o Conduct bulk tank inspections as detailed in Section VII “Bulk Tank Inspection Schedule”. 
+
+A service contract may be established with the manufacturer to meet these obligations. 
+
+o The IC shall keep written or electronic records for all actions related to inspections, defects, 
+
+maintenance, etc. 
+
+DS Industrial Hygiene and Campus Safety Branch (IHB) 
+
+• Develop guidelines and provide consultation on hazards associated with cryogens/ compressed gases and 
+
+exposure control strategies. 
+
+• Develop criteria for the potential need for monitoring device(s) for oxygen deficient atmosphere or any 
+
+chemical-specific monitoring requirements. 
+
+• Establish an inventory program for the locations and types of compressed gases/cryogens used in each 
+
+location. 
+
+o Conduct building surveys on a 3-year cycle to validate the inventory of oxygen monitoring devices 
+
+and identify new locations where compressed gases or cryogenic liquids are used. 
+
+o Provide guidance and oversight for DS technicians who provide program support in monitoring 
+
+surveys. 
+
+• Perform risk assessments for locations to ensure proper storage, use, and management. 
+• Periodic review of the installed monitoring devices to ensure they are effective. 
+• Assist locations in preparation for accreditation inspections where compressed gas or cryogenic liquids 
+
+storage and handling are part of the inspection. 
+
+• Provide support to NIH Office of Research Facilities (ORF) locations where oxygen-deficient or enriched 
+
+areas may be present. 
+
+• Coordinate with NIH campus vendors to ensure the delivery locations are appropriate for the gas delivered. 
+• Provide consultation regarding the technical aspects of installation, maintenance, and calibration of 
+
+monitoring devices. 
+
+• Annual review and update of this guideline. 
+
+Division of Safety (DS) Research Safety (RS) Personnel 
+
+• Provide consultation/guidance on hazards associated with cryogens/compressed gases and exposure control 
+
+strategies. 
+
+• Assist in hazard recognition to determine the potential need for monitoring device(s), oxygen-deficient 
+
+atmosphere, or chemical-specific monitoring requirements. 
+
+• Refer oxygen or other gas monitoring issues/inquiries to the DS Cryogen/Compressed gas Safety/Oxygen 
+
+Monitoring Program Manager. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+• 
+
+Inspect laboratory locations that store/use compressed gases/cryogenic liquids to ensure implementation of 
+regulatory guidelines and NIH policies. 
+
+ VI. Ordering and Receiving 
+
+Before Ordering Compressed Gases and Cryogens: 
+
+• Review the Safety Data Sheet and other reference materials available to understand the physical and health 
+
+hazards. 
+
+• Ensure that the planned storage/use locations have appropriate ventilation and meet other safety 
+
+requirements to prevent injuries/exposures. 
+
+If the gas is toxic, corrosive, flammable, etc., contact DS for a risk assessment. 
+
+• Ensure compatible piping, regulator, etc., are available. 
+• 
+• Train the laboratory staff on the hazards, pressure systems, regulators, etc. 
+• For the first time purchase compressed gases or cryogen, or store them in a new location, contact DS to 
+
+perform a risk assessment of the area. 
+
+Before Receiving: 
+
+• 
+
+Inspect all cylinders to ensure they are not damaged/dented and properly labeled. The color of the cylinder 
+is not a reliable method for identifying the gas. Different suppliers may use different colors for cylinders of 
+the same gas. 
+
+• Look for visible signs of leaks. Odor, visible fumes, or hissing sound can be signs of a leak. 
+• Make sure the hydrostatic pressure test stamped on the cylinder is within the required time (usually five 
+
+years). 
+
+• Do not accept cylinders that are rusted, unlabeled, mislabeled, or damaged. They must be returned to the 
+
+vendor right away. 
+
+• Once accepted, mark the cylinder as “Full” with the date received on it. 
+• All compressed gases received must be fabricated and labeled according to the specifications of the 
+Department of Transportation (DOT) and the Occupational Safety and Health Agency (OSHA) 
+regulations. 
+
+ VII. General Guidelines for Managing Compressed Gases and Cryogens 
+
+A. Managing Cryogens 
+
+• Always store and use cryogens in well-ventilated areas. Only use manufacturer-rated containers that are 
+specifically designed to hold cryogenic liquids. These containers should be insulated and impact-
+resistant, have handles (or secondary trays), and have a loose-fitting lid. Cryogen containers should have 
+a relief valve to release pressure when the cryogen boils and releases gas over time. A damp cloth should 
+be used to remove any ice or frost buildup on a pressure relief valve. When performing this task, 
+appropriate PPE must be worn. Do not chip away ice that has built up on the pressure relief valve or 
+piping. Do not plug, cap, seal, or remove any relief or venting device on cryogenic liquid storage 
+containers. 
+
+• Never store cryogens in cold rooms. 
+• When using cryogen, wear appropriate personal protective equipment (PPE), such as safety goggles, 
+cryogloves, and safety shoes, with proper lab attire. In addition to the PPE listed above, a face shield is 
+required when dispensing cryogenic liquids into an open container. Never leave the area unattended 
+during the manual filling of cryogenic liquid in dewars. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+• Containers of cryogens must be transported, stored, and used at an upright position and firmly secured 
+
+to prevent falling. Avoid excessive movement of the containers of cryogens, as this may cause 
+pressure buildup and explosion. For details Refer to the fact sheet at 
+https://ors.od.nih.gov/sr/dohs/Documents/cryogen-fact-sheet.pdf 
+
+B. Managing Compressed Gases 
+
+• All cylinders must be marked with a label or a tag specifying their contents. 
+• Safety Data Sheets (SDS) must be obtained and maintained for all compressed gases. SDSs can be 
+
+obtained online or from the vendor. 
+
+• Only trained employees wearing appropriate PPE are allowed to handle compressed gas cylinders. 
+Required PPE depends on the type of gas you are handling. Consult with DS for guidance. Compressed 
+gas cylinders must be transported, stored, and used at an upright position and firmly secured to prevent 
+falling. 
+
+• Never use a leaking, corroded, or damaged gas cylinder. Contact the supplier for immediate return. 
+• Never transfer gases from one vessel to another except for cryogenic liquids. 
+• Never use a gas cylinder without a regulator that is specifically designed for the gas inside the cylinder. 
+• Do not have full and empty cylinders connected to the same manifold or stored together. 
+• Keep the cylinder cap on when the cylinder is not in use (empty or full). A container that has held compressed 
+
+gas is empty when the pressure in the container approaches atmospheric 40 CFR 261.7 (b)(2) . 
+
+• Do not purposely vent a cylinder. 
+
+C. General Storage Guidelines for Compressed Gases and Cryogens 
+
+• All compressed gases and cryogens including inert gases can displace oxygen to produce a localized 
+oxygen-deficient atmosphere, therefore should not be stored/used in enclosed or confined spaces without 
+proper ventilation. 
+
+• Signage should be posted near cryogenic storage freezers, compressed gas storage areas, and cryogenic 
+
+liquid dispensing stations to remind users of appropriate PPE and safe work practices. Refer to 
+APPENDIX A to select appropriate signage. 
+
+• Gas cylinders must always be secured in racks, holders, or clamping devices. Since gas cylinders come in 
+different sizes, it is important to ensure the mounting brackets are placed at an appropriate height to safely 
+secure the cylinder. Measure 2/3 up the straight side (distance below cylinder shoulder) of the cylinders to 
+mark the height on the mounting wall for the mounting bracket. Fasten cylinders individually or up to a 
+maximum of two cylinders of the same size within one chain/strap in a well-ventilated area. 
+
+• Cylinders secured near benchtops should be bolted at the benchtop or placed in a cylinder holder that is 
+
+bolted to the floor. 
+
+• Close valves, and release pressure on the regulators when cylinders are not used. 
+• Minimize the number of gas cylinders present in the laboratory. 
+• Avoid storing cylinders near elevators, gangways, exits, or egress routes. 
+• Never store cylinders at extreme temperatures or near combustible materials. Keep heat sources, sparks, 
+
+flames, and electrical circuits away from gas cylinders. 
+
+• Never store empty and full cylinders together and return cylinders without use for more than a year. 
+• Cylinders “not in use” shall not be stored in a laboratory unit. If necessary, one reserve cylinder may be 
+maintained next to the cylinder that is in use. A cylinder shall be “in use” if it follows the following. 
+
+o Connected through a regulator to deliver gas to a lab operation. 
+o Connected to a manifold used to deliver gas to a lab operation. 
+o A single cylinder is secured alongside the cylinder described above as the reserve. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+D. Labeling and Signage 
+
+• Empty cylinders must be marked EMPTY and never stored along with full cylinders. 
+• Rooms or cabinets containing compressed gases must be conspicuously labeled 
+
+COMPRESSED GAS. 
+
+• Areas of flammable and toxic gases must be posted with the hazard class, and emergency contact 
+
+information (see signs E and F on page 16). 
+
+• Refer to APPENDIX A for details on required signage. 
+
+E. Storage and Handling of Specialty Gases 
+
+1. Facility Requirements 
+
+A continuously mechanically ventilated hood or other continuously mechanically ventilated enclosure 
+is required for the storage and use of lecture bottles (typically 12-18 inches long and 1-3 inches in 
+diameter) of the following types of gases: 
+
+• Gases that have health hazard ratings of 3 or 4. 
+• Gases that have a health hazard rating of 2 without physiological warning properties. 
+• Pyrophoric gases. 
+
+At a minimum, a continuously mechanically ventilated gas cabinet is required for the above gases in 
+cylinders that exceed a lecture bottle size. 
+
+2. Maximum Internal Cylinder Volume per laboratory 
+
+Maximum allowed usage and storage of compressed gases are set for laboratory work areas by 
+Fire Codes, and standards such as NFPA 45 and 55. 
+
+Class 
+Liquefied flammable gas 
+Flammable gas 
+Oxidizing gas 
+Toxic gas 
+Corrosive gas 
+
+Labs less than 500sq.ft 
+1.2 sft3 
+6.0 sft3 
+6.0 sft3 
+0.3 sft3 
+0.3 sft3 
+
+Labs greater than 500sq.ft 
+0.0018 ft3 per sq.ft of lab space 
+0.012 ft3 per sq.ft of lab space 
+0.012 ft3 per sq.ft of lab space 
+0.0006 ft3 per sq.ft of lab space 
+0.0006 ft3 per sq. ft of lab space 
+
+A maximum of 25 lecture bottles of all gases combined is specified for any laboratory area. 
+
+3. Flammable Gases 
+
+Follow the below guidelines while working with flammable gases. Acetylene, hydrogen, methane, etc. 
+are some examples of flammables. 
+
+• PI must develop SOPs when using flammable gases in their research areas. These SOPs shall 
+include emergency response and training for all involved employees. Only trained employees 
+wearing appropriate PPE are allowed to work with Flammable gases. 
+
+• Flammable gases must be stored in well-ventilated areas away from flammable liquids, 
+combustible materials, oxidizers, open flames, sparks, and other sources of heat or ignition. 20 
+feet or a noncombustible barrier having a fire rating of at least 1⁄2 hour is the minimum 
+separation requirement for oxidizer gases. 
+
+• All piping and equipment associated with flammable gas systems must be grounded and bonded. 
+• Use spark-proof tools when working with, or on, a flammable gas cylinder or system. 
+• Post a warning sign (APPENDIX A) on access doors to areas where flammable gases are stored 
+
+and used. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+• Manifold systems must be designed and constructed by trained personnel. Consultation with 
+
+the gas supplier and DS before installing manifolds is required. 
+
+4. Oxidizer Gases 
+
+Oxidizers are gases that can support and accelerate the combustion of other materials in the presence 
+of an ignition source and fuel. Examples include oxygen and nitrous oxide. 
+
+Follow the below guidelines to work safely with oxidizer gases: 
+
+• Oxidizer gases shall be stored separately from flammable or combustible materials. 20 feet or 
+a noncombustible barrier at least 5 feet high having a fire rating of at least 1⁄2 hour is the 
+minimum separation requirement. 
+
+• Do not use oil or other hydrocarbon products to clean equipment containing oxidizer gases. 
+
+o Gauges and regulators for oxygen use should be labeled with a warning statement - 
+
+"Oxygen - Use No Oil." 
+
+5. Highly Toxic Gases 
+
+Toxic gases have a health hazard (HH) rating of 3 or 4, as defined by NFPA 704. Toxic effects of a 
+substance can be either acute or chronic. Examples include arsine, phosphine, hydrogen sulfide, 
+phosgene, and nitrous oxide. 
+
+DS must be notified before obtaining HH3 and HH4 gases (regardless of quantity). DS program 
+manager can be notified at 301-496-3353. 
+
+Guidelines for working with toxic gases. 
+
+The PI is responsible for developing SOPs in consultation with DS. They are also responsible for 
+training the employees on the use and management of toxic gases. These SOPs shall include 
+emergency response and training for all involved employees. Only trained employees are allowed to 
+work with highly toxic gases. 
+
+• Store all toxic gases with a health hazard rating of 3 or 4 in continuously, mechanically ventilated 
+gas cabinets, or other exhausted enclosures. Exhausts must be vented directly to the outside. 
+Lecture bottles of toxic gases must be kept in fume hoods. Container Storage Areas must be posted 
+with the hazard signs (APPENDIX A) 
+
+• Work with toxic gases must be performed only under a certified fume hood connected to 
+
+emergency power. 
+
+• Appropriate PPE must be always used while working with toxic gases. Consult with DS to identify 
+
+appropriate PPE. 
+
+• A gas detection system with visible and audible alarms to detect the presence of leaks, etc. must 
+be installed for all toxic gases with hazard rating 3 or 4 (in compliance with NFPA 55 Guidelines). 
+Signage for monitoring systems must be posted outside the door (APPENDIX A). Contact DS to 
+identify appropriate gas detection and monitoring systems. 
+
+• Emergency power must be provided to the gas cabinet exhaust, system shut-offs, monitoring, 
+
+alarms, and associated components. 
+
+• Follow the manufacturer’s guidelines for servicing and maintaining the gas detection and alarm 
+
+system. 
+
+• All work involving toxic gases must be performed inside a certified chemical fume hood. The 
+
+fume hood must be connected to emergency power. 
+
+• As per CGA 3.6.1, personnel handling and using poison gases should have immediate access to 
+use gas masks or self-contained breathing apparatus approved by U. S. Bureau of Mines for the 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+service desired. Such equipment should be kept close by but kept out of the area of work to avoid 
+contamination. 
+
+6. Corrosive Gases 
+
+Examples of corrosive gases include hydrogen bromide, hydrogen chloride, and ammonia. Cylinders of 
+corrosive or unstable gases should be returned to the vendor when the maximum retention period expiration 
+date has been reached. In the absence of this date, a 36-month interval should be used. In the case of hydrogen 
+chloride and Hydrogen fluoride, the cylinder should be returned to the vendor after 2 years. 
+
+Special precautions for the use of corrosive gases: 
+
+• It is the responsibility of the PI to develop SOPs in consultation with DS and train the employees on 
+the use and management of corrosive gases. These SOPs shall include emergency response, PPE, 
+and training for all involved employees. Only trained employees are allowed to work with corrosive 
+gases. 
+
+• Work only under a certified fume hood and always use the required PPE. 
+• An emergency shower and eyewash must be installed within 50 feet o f where corrosive 
+
+gases are used and the path to the fixture must not be hindered by obstructions. 
+• Post warning signs (Appendix A) on the door to alert everyone about the hazards. 
+
+7. Lecture bottles 
+
+Lecture bottles, just like regular cylinders, contain pressurized gases that pose hazards with the 
+chemical composition of the gases, stored energy of compression, and the possibility of release. 
+Lecture bottles present a potential hazard even for inert gases. All work with lecture bottles must 
+follow the guidelines specified for cylinders of regular sizes. A maximum of 25 lecture bottles of all 
+gases combined is specified for any laboratory area. 
+
+F. Transportation 
+
+When cylinders and tanks are being moved from a storage area into the laboratory or from one lab to another: 
+
+• Transport using a suitable hand truck specifically designed to transport gas cylinders with a chain and 
+
+belt to secure the cylinder. Use hand trucks even for short distances. 
+
+• Never move without the cylinder cap in place and the cylinder is chained or otherwise secured to the cart. 
+• Do not lift cylinders by the cap. 
+• Avoid dragging or sliding cylinders. 
+• Once the cylinder reaches its destination, it must be secured to a wall, or other firm support. 
+• Use freight elevators to transport cylinders. When moving cylinders in an elevator, place the cylinder 
+chained securely to the cart in the middle of the elevator with the cart handgrip. Do not use a passenger 
+elevator to transport gas cylinders or cryogen tanks. It is a confined space that would be impossible to 
+escape from if there were an accidental release of gases. 
+
+G. Oxygen Monitoring and other Monitoring Devices 
+
+Compressed gases and cryogens are simple asphyxiants, meaning they displace oxygen from the air when 
+present in high concentrations. Displacing oxygen creates the potential for an oxygen-deficient atmosphere or 
+hazardous atmosphere. OSHA specifies a hazardous atmosphere may include one where the oxygen 
+concentration is below 19.5% or above 23.5%. In situations where oxygen levels exceed 23.5%, oxygen 
+enrichment and other flammability hazards may be present. Areas where compressed gases and cryogens are 
+handled may require oxygen monitoring. Using toxic gases might require additional chemical-specific 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+monitoring. Contact the Division of Safety (DS) Oxygen Monitoring Program Manager for concerns related to 
+hazardous atmosphere. 
+
+Bulk Tank Inspection Schedule 
+
+Item 
+Valves and fittings for leaks and other malfunctions 
+Indicating gauges for malfunction 
+Relief valves and rupture discs to verify proper settings 
+Foundation anchors 
+
+Inspection Interval 
+Annually 
+Annually 
+2 years 
+5 years 
+
+ VIII. Compressed Gas / Cryogen Related Emergencies 
+
+Reference: Safety Checks for Vacuum Insulated Cryogenic Tanks, British Compressed Gas Association (2014). 
+
+Emergency Response 
+
+All leaking gas cylinders are an emergency. Leaks, which occur away from the cylinder in gas lines, tubing, or 
+apparatus: can generally be stopped by closing the main cylinder valve. 
+
+1. Compressed Gas Leak-Flammable, Toxic or Corrosive 
+
+If there is a leak of a flammable, toxic, or corrosive gas outside of a ventilated enclosure that will contain 
+the gas or a large spill or rupture of a cryogenic container, immediately activate the building fire alarm 
+system and evacuate the building. Call the Fire Department Immediately. 
+
+o Bethesda: call the NIH Fire Department at 301-496-2372 (301-496-9911 from a cell phone). 
+o All other locations: call 911. 
+
+• Evacuate the laboratory but have someone remain nearby at a safe distance to prevent the entry of others 
+
+until an emergency response arrives. 
+
+• Cold burns should be immediately flushed with tepid water or placed in a lukewarm water bath. Do not 
+
+rub the skin to try to warm it. 
+
+• Seek immediate medical attention – call 911 or report to your local OMS, depending on severity. When 
+
+safe to do so, notify the supervisor and OMS (if the initial call was to 911) 
+
+2. Compressed Gas Leak – Inert gas 
+
+If closing the cylinder valve cannot stop the leak and it is an inert gas (e.g., nitrogen, argon, etc.), clear the 
+affected area. 
+• Call the fire department for Bethesda Campus or 911 for satellite locations. 
+• Restrict access to the area. 
+• Contact your supplier and return all problem cylinders. 
+
+3. Oxygen Monitor Alarm Troubleshoot 
+
+• Evacuate the lab. 
+• Remain nearby to prevent others from entering. 
+• Call the NIH Fire Department 
+
+o 301-496-2372 (301-496-9911 with a cell phone) or 911 for off-campus sites 
+o 
+
+If levels stay above 18.5%, alarm will turn off. If oxygen levels are deemed safe by the fire 
+department, first responders can manually turn the alarm off at or below 18.5%. 
+
+• 
+
+• 
+
+If the sensor is bad or the monitor has a maintenance issue: 
+o Call your third-party vendor to address ASAP. 
+
+If you believe it is a false alarm: 
+
+o DS can review procedures/change settings/modify work processes. 
+o DS contact: (301) 451-5993. 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+4. Emergency Plan 
+
+If your area is using compressed gas/cryogen, plans should be developed to address both minor and major 
+leaks before using the gas. This plan should consider the nature of the gases being handled, which are 
+their chemical and physical properties. 
+At a minimum, the plan should specify the following: 
+• Alarm System (if needed) & Evacuation Procedure. 
+• Response Personnel. 
+• Emergency Equipment. 
+• Containment or disposal methods. 
+
+Before use, consult DS for additional safety procedures and recommended methods for responding to leaks 
+and emergencies. Emergency plans for toxic and flammable gases must have approval from DS. 
+
+ IX. Training 
+
+Individuals using compressed gases and cryogens must be trained by the PI/Supervisor on safe use of compressed 
+gases and pressurized systems. SOPs and SDS must be part of the training. Primary responsibility for specific 
+operations training is with the employee's supervisor. DS may be consulted as necessary. 
+
+ X. Disposal 
+
+Close the valve and place the safety cap and contact the vendor for returns. 
+
+ XI. References 
+
+Standard Gas Cylinder Chart (for reference) 
+
+1. Compressed Gas Association: (http://cganet.com) 
+
+CGA P-1, 2000. Safe Handling of Compressed Gases in Containers 
+
+2. NFPA 45 Standard on Fire Protection for Laboratories Using Chemicals, 2015 Edition 
+3. NFPA 55 Standard for the Storage, Use, and Handling of Compressed Gases and Cryogenic Fluids in 
+
+Portable and Stationary Containers, Cylinders, and Tanks, 2015 Edition 
+
+4. OSHA 29 CFR 1910.101 Compressed Gases – General Requirements (http://www.osha.gov) 
+5. DOT 49 CFR 173 Hazardous Materials Transportation (http://hazmat.dot.gov/) 
+
+College of American Pathologists (CAP). GEN.77550: Liquid Nitrogen and Dry Ice. 
+
+https://www.cap.org/laboratory-improvement/accreditation/accreditation-checklists. (8 Dec 2023) 
+
+College of American Pathologists (CAP). GEN.84800: Environment Maintenance 
+
+https://www.cap.org/laboratory-improvement/accreditation/accreditation-checklists. (8 Dec 2023) 
+
+Compressed Gas Association (CGA) P-12-2017 Safe Handling of Cryogenic Liquids. 
+
+https://portal.cganet.com/Publication/Details.aspx?id=P-12 (8 Dec 2023) 
+
+Lawrence Berkeley National Lab Safety Manual. Chapter 29 Safe Handling of Cryogenic Liquids – Safety Manual. 
+
+https://commons.lbl.gov/display/rpm2/Cryogenic+Liquid+Hazards+and+Controls (8 Dec 2023) 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Mine Safety Appliance Company (MSA). Monitoring for Oxygen Deficiency: MRI Units – Data Sheet. (March 
+2016) http://s7d9.scene7.com/is/content/minesafetyappliances/Toxgard%20II%20MRI%20bulletin%20-
+%20EN . 
+
+Mine Safety Appliance Company (MSA). Toxgard® II Monitor – Instruction Manual, Rev. 9. 
+
+http://s7d9.scene7.com/is/content/minesafetyappliances/Toxgard%20II%20Instruction%20Manual%20-%20EN 
+(8 Dec 2023) 
+
+Mine Safety Appliance Company (MSA). TG5000 Gas Monitor – Instruction Manual, Rev. 0. 
+https://us.msasafety.com/Fixed-Gas-%26-Flame-Detection/Gas-Detectors/TG5000-Gas-
+Monitor/p/000070001800001374 (8 Dec 2023) 
+
+National Fire Protection Association (NFPA). Standard 45-2019. Standard on Fire Protection for Laboratories 
+
+Using Chemicals. 
+https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=45 
+(8 Dec 2023) 
+
+National Fire Protection Association (NFPA). Standard 55-2020. Compressed Gases and Cryogenic Fluids Code. 
+
+https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=55 
+(8 Dec 2023) 
+
+NIH Design Requirements Manual (DRM). Section 13.10.7 Liquid Nitrogen (2016) Rev 1.5 
+
+https://orf.od.nih.gov/TechnicalResources/Documents/DRM/DRM1.503262020.pdf (8 Dec 2023) 
+
+NIH ORF Occupational Health & Safety Manual, Section 3-3 – Confined Space. 
+
+https://orf.od.nih.gov/TechnicalResources/Documents/DRM/DRM1.503262020.pdf (8 Dec 2023) 
+
+Occupational Safety & Health Administration (OSHA). Permit Required Confined Spaces – 1910.146. 
+
+https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146 (8 Dec 2023) 
+
+Occupational Safety & Health Administration (OSHA). Respiratory Protection Standard – 1910.134. 
+https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134 (8 Dec 2023) 
+
+Occupational Safety and Health Administration (OSHA) Occupational Exposure to Hazardous Chemicals in 
+Laboratories 1910-1450. https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1450. 
+(8 Dec 2023) 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+ APPENDIX A Signage 
+
+Instruction: 
+
+Additional signage is recommended in areas where compressed gases and cryogenic liquids are stored in publicly 
+accessible locations, where cryogenic liquids are dispensed, and to increase awareness of safe handling and storage 
+practices. 
+
+Sign A issues a caution about potential cold hazards in areas where cryogenic liquids are stored in public areas (e.g. 
+hallways, freight elevator lobbies). Sign A should be posted near cryogenic liquid vessels in a position that allows 
+for clear visibility to passersby. Sign A has a fillable component to insert at least two local emergency contacts (e.g. 
+lab manager and PI). 
+
+Sign B provides information on appropriate Personal Protective Equipment (PPE) when handling cryogenic liquids 
+(e.g. dispensing cryogenic liquids, storing or removing samples from cryo storage tanks). Sign C should be posted 
+near cryogenic liquid vessels in a position that allows for clear visibility to users. 
+
+Sign C provides instruction on the safe handling and storage of compressed gases. Sign B should be posted near 
+compressed gas storage areas in a position that allows for clear visibility to occupants. 
+
+Sign D provides information on safe dispensing of cryogenic liquids (e.g. filling liquid nitrogen dewars). Sign D 
+should be posted at cryogenic liquid dispensing sites in a position that allows for clear visibility to users. 
+
+Sign E is the signage for the areas storing and using toxic gases. Additional signage for chemical-specific 
+monitoring may be required for certain gases. 
+
+Sign F is the recommended signage for areas with flammable gases. 
+
+Sign G instructs room occupants to evacuate immediately if the alarm sounds. Sign G shall be posted as close as 
+possible to each oxygen monitoring device in a position that allows clear visibility to the room occupants. 
+
+Sign H prevents additional personnel from entering a room with an alarm sounding and shall be posted on or 
+adjacent to the outside of each entry door to a room with an oxygen monitoring device at approximately eye level. 
+Sign H has a fillable component to insert at least two local emergency contacts (e.g. lab manager and PI). 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Sign A 
+
+Sign B 
+
+Sign C Sign D 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Safety Guidelines on Cryogens and Compressed Gases 
+
+National Institutes of Health • Office of Research Services (ORS) • Division of Safety (DS) 
+
+ Sign E 
+
+ Sign F 
+
+Sign G 
+
+Sign H 
+
+National Institutes of Health • Office of Research Services 
+Division of Safety 
+Building 13, Room 3K04 • (301) 496-3457 
+
+Revised 03/2025 
+
+14

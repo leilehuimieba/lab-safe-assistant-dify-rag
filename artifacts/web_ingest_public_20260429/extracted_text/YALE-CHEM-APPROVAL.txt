@@ -1,0 +1,814 @@
+The following list* of chemicals requires approval from EHS prior to purchase. A 
+registration which provides detailed information on the research protocol, including 
+proposed handling, storage and disposal information, must be submitted in EHS 
+Integrator for those chemicals which are explosive, pyrophoric/water reactive and 
+acutely toxic. Once submitted, the registration is routed to EHS for review. 
+
+Chemical name 
+1,3-bis(2-chloroethylthio)-n-propane 
+1,4-bis(2-chloroethylthio)-n-butane 
+1,5-bis(2-chloroethylthio)-n-pentane 
+
+1h-tetrazole 
+2, 4-dinitrophenylhydrazine 
+2-butanol 
+2-chloroethyl ethylsulfide 
+2-chloroethylchloro-methylsulfide 
+2-cyanoethyl diisopropylchlorophosphoramidite 
+2-ethoxyethanol 
+2-ethoxyethylacetate 
+2-methoxyethanol 
+2-methoxyethylacetate 
+3-(triethoxysilyl)propyl isocyanate 
+5-nitrobenzotriazol 
+9-borabicyclo [3.3.1]nonane 
+Acetal 
+Acetaldehyde 
+Acetone cyanohydrin, stabilized 
+Acrolein 
+Acrylamide 
+Acrylic acid 
+Acrylonitrile 
+Allylamine 
+Allylmagnesium bromide 
+Allylmagnesium chloride 
+Aluminum (powder) 
+Aluminum borohydride 
+Aluminum phosphide 
+Ammonia 
+Ammonium bifluoride 
+Ammonium nitrate 
+Ammonium perchlorate 
+Ammonium picrate 
+Arsenic 
+
+Cas # 
+63905-10-2 
+142868-93-7 
+142868-94-8 
+
+288-94-8 
+119-26-6 
+78-92-2 
+693-07-2 
+2625-76-5 
+89992-70-1 
+110-80-5 
+111-15-9 
+109-86-4 
+110-49-6 
+24801-88-5 
+2338-12-7 
+280-64-8 
+105-57-7 
+
+75-07-0 
+75-86-5 
+107-02-8 
+79-06-1 
+79-10-7 
+107-13-1 
+107-11-9 
+
+1730-25-2 
+2622-05-1 
+7429-90-5 
+16962-07-5 
+20859-73-8 
+7664-41-7 
+1341-49-7 
+6484-52-2 
+7790-98-9 
+131-74-8 
+7440-38-2 
+
+*This list is not exhaustive and there may be additional chemicals which require EHS approval or 
+registration in EHS Integrator prior to purchase. Contact your Safety Advisor if there is a question about 
+a specific chemical not on this list. 
+REV: August 2024 
+
+ 
+ 
+ Chemical name 
+
+Arsenic trichloride 
+Arsenic trioxide 
+Arsine 
+Barium azide 
+Benzoyl peroxide 
+Benzyl alcohol 
+Beryllium 
+Beryllium chloride 
+Beryllium oxide 
+Bis(2-chloroethylthio)methane 
+Bis(2-chloroethylthiomethyl)ether 
+Bis(cyclopentadienyl)magnesium 
+Bis(ethylcyclopentadienyl)manganese(ii) 
+Borane tetrahydrofuran complex 
+Boron tribromide 
+Boron trichloride 
+Boron trifluoride 
+Bromine 
+Bromine chloride 
+Bromine pentafluoride 
+Bromine trifluoride 
+Butadiene (liquid) 
+Butyl peroxydicarbonate 
+Butylmagnesium chloride 
+Cadmium 
+Calcium hydride 
+Calcium phosphide 
+Carbon monoxide 
+Carbonyl fluoride 
+Carbonyl sulfide 
+Chlorine 
+Chlorine dioxide 
+Chlorine pentafluoride 
+Chlorine trifluoride 
+Chloroacetyl chloride 
+Chlorobutadiene 
+Chloroprene 
+Chlorosarin 
+Chlorosoman 
+Chlorosulfonic acid 
+
+REV: August 2024 
+
+Cas # 
+7784-34-1 
+1327-53-3 
+7784-42-1 
+18810-58-7 
+94-36-0 
+100-51-6 
+7440-41-7 
+77-47-5 
+1304-56-9 
+63869-13-6 
+63918-90-1 
+1284-72-6 
+101923-26-6 
+14044-65-6 
+10294-33-4 
+10294-34-5 
+ 7637-07-2 
+7726-95-6 
+13863-41-7 
+7789-30-2 
+7787-71-5 
+106-99-0 
+16215-4-9 
+693-04-9 
+7440-43-9 
+7789-78-8 
+1305-99-3 
+630-08-0 
+353-50-4 
+463-58-1 
+7782-50-5 
+10049-04-4 
+13637-63-3 
+7790-91-2 
+79-04-9 
+184963-09-5 
+126-99-8 
+1445-76-7 
+7040-57-5 
+7790-94-5 
+
+ 
+ 
+ Chemical name 
+
+Chlorotrifluoroethylene (gas) 
+Chromium (vi) 
+Cumene 
+Cyanogen 
+Cyanogen bromide 
+Cyanogen chloride 
+Cycloheptylmagnesium bromide 
+Cyclohexanone peroxide 
+Cyclohexene 
+Cycloheximide 
+Cyclooctene 
+Cyclopentene 
+Df 
+Diazodinitophenol 
+Diborane 
+Dichloroborane 
+Dichloroisopropylphosphine, 97% 
+Dichlorosilane 
+Dicyclopentadiene 
+Diethyl ether 
+Diethyl methylphosphonite 
+Diethyl zinc 
+Diethylene glycol dimethyl ether (diglyme) 
+Diethylene glycol dimethyl ether (diglyme) 
+Diethyleneglycol dinitrate 
+Diisobutylaluminum chloride 
+Diisobutylaluminum hydride 
+Dimethyl sulfate 
+Dimethyl zinc 
+Dimethylmercury 
+Dingu 
+Dinitrogen tetroxide 
+Dinitrophenol 
+Dinitroresorcinol 
+Dioxane (p-dioxane) 
+Diphenylphosphine 
+Dipicryl sulfide 
+Dipicrylamine (or hexanitrodiphenylamine) 
+Disodium tetracarbonyl ferrate dioxane complex 
+Di-t-butylmethylphosphine 
+
+REV: August 2024 
+
+Cas # 
+79-38-9 
+7440-47-3 
+98-82-8 
+460-19-5 
+506-68-3 
+506-77-4 
+78378-12-8 
+78-18-2 
+110-83-8 
+66-81-9 
+ 931-88-4 
+142-29-0 
+676-99-3 
+87-31-0 
+19287-45-7 
+13701-67-2 
+25235-15-8 
+4109-96-0 
+77-73-6 
+60-29-7 
+15715-41-0 
+557-20-0 
+111-96-6 
+111-96-6 
+693-21-0 
+1779-25-5 
+1191-15-7 
+77-78-1 
+544-97-8 
+593-74-8 
+55510-04-8 
+10544-72-6 
+25550-58-7 
+519-44-8 
+123-91-1 
+829-85-6 
+2217-06-3 
+131-73-7 
+59733-73-2 
+6002-40-0 
+
+ 
+ 
+ Chemical name 
+
+Di-tert-butylphosphine 
+Divinyl acetylene 
+Divinyl ether 
+Epinephrine 
+Ethyl acrylate 
+Ethyl phosphonyl difluoride 
+Ethyldiethanolamine (≥80%) 
+Ethylene dibromide 
+Ethylene glycol dimethyl ether (glyme) 
+Ethylene oxide 
+Ethyleneimine 
+Ethyllithium 
+Ethylmagnesium bromide 
+Ethylphosphonothioic dichloride 
+Fluorine 
+Furan 
+Germane 
+Germanium tetrafluoride 
+Hexaethyl tetraphosphate 
+Hexafluoroacetone 
+Hexamethylditin 
+Hexanitrostilbene 
+Hexolite 
+Hexyllithium 
+Hmx 
+Hn1 (nitrogen mustard-1) 
+Hn2 (nitrogen mustard-2) 
+Hn3 (nitrogen mustard-3) 
+Hydrogen 
+Hydrogen bromide 
+Hydrogen chloride 
+Hydrogen cyanide 
+Hydrogen fluoride/hydrofluoric acid 
+Hydrogen iodide 
+Hydrogen selenide 
+Hydrogen sulfide 
+Iodomethane 
+Iron pentacarbonyl 
+Isobutylmagnesium bromide 
+Isobutylmagnesium chloride 
+
+REV: August 2024 
+
+Cas # 
+819-19-2 
+689-97-4 
+109-93-3 
+51-43-4 
+140-88-5 
+753-98-0 
+139-87-7 
+106-93-4 
+110-80-5 
+75-21-8 
+151-56-4 
+811-49-9 
+925-90-6 
+993-43-1 
+7782-41-4 
+110-00-9 
+7782-65-2 
+7783-58-6 
+757-58-4 
+684-16-2 
+661-69-8 
+20062-22-0 
+121-82-4 
+21369-64-2 
+2691-41-0 
+538-07-8 
+51-75-2 
+555-77-1 
+1333-74-0 
+10035-10-6 
+7647-01-0 
+74-90-8 
+7664-39-3 
+10034-85-2 
+ 7783-07-5 
+ 7783-06-4 
+74-88-4 
+13463-40-6 
+926-62-5 
+5674-02-2 
+
+ 
+ 
+ Chemical name 
+
+Isopropyl ether 
+Isopropylmagnesium chloride 
+Isopropylphosphonothioic dichloride 
+Isopropylphosphonyl difluoride 
+Lead azide 
+Lead nitrate 
+Lead styphnate 
+Lewisite 1 
+Lewisite 2 
+Lewisite 3 
+Lithium 
+Lithium aluminum hydride 
+Lithium amide 
+Lithium borohydride 
+Lithium diisopropylamide 
+Lithium diisopropylamide 
+Lithium dimethylamide 
+Lithium hydride 
+Lithium nitride 
+Lithium tert-butoxide 
+Magnesium (powder) 
+Magnesium phosphide 
+MDEA (≥80%) 
+Mercury - metallic 
+Mercury fulminate 
+Mercury(ii) oxide red 
+Methyl acetylene 
+Methyl chloromethyl ether 
+Methyl cyclopentane 
+Methyl ethyl ketone peroxide 
+Methyl isobutyl ketone 
+Methyl isobutyl ketone peroxide 
+Methyl mercaptan 
+Methyl methacrylate 
+Methylchlorosilane 
+Methyldichlorosilane 
+Methylhydrazine 
+Methyllithium 
+Methylmagnesium bromide 
+Methylmagnesium chloride 
+
+REV: August 2024 
+
+Cas # 
+108-20-3 
+1068-55-9 
+1498-60-8 
+677-42-9 
+13424-46-9 
+10099-74-8 
+15245-44-0 
+541-25-3 
+40334-69-8 
+40334-70-1 
+7439-93-2 
+16853-85-3 
+7782-89-0 
+16949-15-8 
+4111-54-0 
+4111-54-0 
+3585-33-9 
+7580-67-8 
+26134-62-3 
+1907-33-1 
+7439-95-4 
+12057-74-8 
+105-59-9 
+7439-97-6 
+628-86-4 
+21908-53-2 
+74-99-7 
+107-30-2 
+96-37-7 
+1338-23-4 
+108-10-1 
+37206-20-5 
+74-93-1 
+80-62-6 
+993-00-0 
+75-54-7 
+60-34-4 
+917-54-4 
+75-16-1 
+676-58-4 
+
+ 
+ 
+ Chemical name 
+
+Methylmagnesium iodide 
+Methylphosphonothioic dichloride 
+Molybdenum carbonyl 
+MPTP 
+N,n-(2-diethylamino)ethanethiol 
+N,N-(2-diisopropylamino)ethanethiol 
+N,N-(2-dimethylamino)ethanethiol 
+N,N-(2-dipropylamino)ethanethiol 
+N,N-diethyl phosphoramidic dichloride 
+N,N-diisopropyl phosphoramidic dichloride 
+N,N-dimethyl phosphoramidic dichloride 
+N,N-dipropyl phosphoramidic dichloride 
+N-butyl vinyl ether 
+N-butyllithium 
+Nickel carbonyl 
+Nicotine 
+Nitric oxide 
+Nitrobenzene 
+Nitrocellulose 
+Nitrogen dioxide 
+Nitrogen mustard hydrochloride 
+Nitrogen trioxide 
+Nitroglycerine 
+Nitromannite 
+Nitromethane 
+Nitrostarch 
+Nitrosyl chloride 
+Nitrotriazolone 
+O,O-diethyl s-[2-(diethylamino)ethyl] 
+phosphorothiolate 
+Octolite 
+Octonal 
+O-mustard (t) 
+Osmium tetroxide 
+Ouabain octahydrate 
+Oxygen difluoride 
+Pentaborane 
+Pentolite 
+Perchloryl fluoride 
+Petn 
+Phenyllithium 
+
+REV: August 2024 
+
+Cas # 
+917-64-6 
+676-98-2 
+13939-06-5 
+28289-54-5 
+100-38-9 
+5842-07-9 
+108-02-1 
+5842-06-8 
+1498-54-0 
+23306-80-1 
+677-43-0 
+40881-98-9 
+111-34-2 
+109-72-8 
+13463-39-3 
+54-11-5 
+10102-43-9 
+98-95-3 
+9004-70-0 
+10102-44-0 
+55-86-7 
+10544-73-7 
+55-63-0 
+15825-70-4 
+75-52-5 
+9056-38-6 
+2696-92-6 
+932-64-9 
+
+78-53-5 
+57607-37-1 
+78413-87-3 
+63918-89-8 
+20816-12-0 
+11018-89-6 
+7783-41-7 
+19624-22-7 
+8066-33-9 
+7616-94-6 
+78-11-5 
+591-51-5 
+
+ 
+ 
+ Chemical name 
+
+Phenylthiourea 
+Phosgene 
+Phosphine 
+Phosphorus (red) 
+Phosphorus oxychloride 
+Phosphorus pentasulfide 
+Phosphorus trichloride 
+Picric acid 
+Picrite 
+Polyboranes 
+Potassium 
+Potassium (metal) 
+Potassium amide 
+Potassium chlorate 
+Potassium cyanide 
+Potassium ethoxide 
+Potassium hydride 
+Potassium methoxide 
+Potassium nitrate 
+Potassium perchlorate 
+Potassium permanganate 
+Potassium phosphide 
+Potassium tert-butoxide 
+Propargyl alcohol 
+Propylene oxide 
+Propyllithium 
+Propylphosphonothioic dichloride 
+Propylphosphonyl difluoride 
+Ql 
+RDX 
+Sarin 
+S-butyllithium 
+Scopolamine hydrobromide trihydrate 
+Sec-butylmagnesium chloride 
+Selenium hexafluoride 
+Sesquimustard 
+Silane 
+Silicon tetrafluoride 
+Sodium 
+Sodium amide (sodamide) 
+
+REV: August 2024 
+
+Cas # 
+103-85-5 
+75-44-5 
+7803-51-2 
+7723-14-0 
+10025-87-3 
+1314-80-3 
+ 7719-12-2 
+88-89-1 
+556-88-7 
+
+7440-03-7 
+7440-09-7 
+17242-52-3 
+ 3811-04-9 
+151-50-8 
+917-58-8 
+7693-26-7 
+865-33-8 
+7757-79-1 
+7778-74-7 
+7722-64-7 
+20770-41-6 
+865-47-4 
+107-19-7 
+75-56-9 
+1888-75-1 
+2524-01-8 
+690-14-2 
+57856-11-8 
+121-82-4 
+107-44-8 
+598-30-1 
+6533-68-2 
+15366-08-2 
+7783-79-1 
+3563-36-8 
+7803-62-5 
+ 7783-61-1 
+7440-23-5 
+7782-92-5 
+
+ 
+ 
+ 
+ Chemical name 
+
+Sodium azide 
+Sodium borodeuteride 
+Sodium borohydride 
+Sodium chlorate 
+Sodium cyanide 
+Sodium cyclopentadienide 
+Sodium hydride 
+Sodium methoxide 
+Sodium nitrate 
+Sodium phosphide 
+Sodium tert-butoxide 
+Soman 
+Stibine 
+Strontium phosphide 
+Styrene 
+Sulfur dioxide 
+Sulfur mustard 
+Sulfur tetrafluoride 
+Super-hydride (lithium triethylborohydride) 
+Tabun 
+T-butyllithium 
+Tellurium hexafluoride 
+Tetraethyl lead 
+Tetrafluoroethylene 
+Tetrahydrofuran 
+Tetrahydronaphthalene 
+Tetramethyl ammonium hydroxide 
+Tetramethyl lead 
+Tetranitroaniline 
+Tetrazene 
+Thiodiglycol 
+Thiophenol 
+Titanium (ii) chloride 
+Titanium tetrachloride 
+TNT 
+Torpex 
+Tributylaluminum 
+Tributylborane 
+Tributylphosphine 
+Trichlorosilane 
+
+REV: August 2024 
+
+Cas # 
+26628-22-8 
+15681-89-7 
+16940-66-2 
+ 7775-09-9 
+143-33-9 
+4984-82-1 
+7646-69-7 
+124-41-4 
+7631-99-4 
+12058-85-4 
+865-48-5 
+96-64-0 
+7803-52-3 
+12504-16-4 
+100-42-5 
+ 7446-09-5 
+505-60-2 
+ 7783-60-0 
+22560-16-3 
+77-81-6 
+594-19-4 
+ 7783-80-4 
+78-00-2 
+116-14-3 
+109-99-9 
+119-64-2 
+75-59-2 
+75-74-1 
+53014-37-2 
+109-27-3 
+111-48-8 
+108-98-5 
+10049-06-6 
+ 7550-45-0 
+118-96-7 
+67713-16-0 
+1116-70-7 
+122-56-5 
+998-40-3 
+10025-78-2 
+
+ 
+ 
+ Chemical name 
+
+Trichlorosilane 
+Triethanolamine (≥80%) 
+Triethanolamine hydrochloride (≥80%) 
+Triethyl phosphite (≥80%) 
+Triethyl phosphone 
+Triethylaluminum 
+Triethylborane 
+Trifluoroacetyl chloride 
+Trifluorochloroethylene 
+Trimethyl phosphite (≥80%) 
+Trimethylaluminum 
+Trimethylgallium 
+Trimethylindium 
+Trimethylsilyl cyanide 
+Trimethylsilyl diazomethane 
+Trimethyltin chloride 
+Trimethyltin hydroxide 
+Tri-n-butylphosphine 
+Trinitroaniline 
+Trinitroanisole 
+Trinitrobenzene 
+Trinitrobenzenesulfonic acid 
+Trinitrobenzoic acid 
+Trinitrochlorbenzene 
+Trinitrofluorenone 
+Trinitro-meta-cresol 
+Trinitronaphthalene 
+Trinitrophenetole 
+Trinitrophenol 
+Trinitroresorcinol 
+Tri-tert-butylphosphine 
+Tritonal 
+Tungsten hexafluoride 
+Vinyl acetate 
+Vinyl acetylene (gas) 
+Vinyl chloride 
+Vinyl pyridine 
+Vinylidene chloride (liquid) 
+Vinylmagnesium bromide 
+VX 
+
+REV: August 2024 
+
+Cas # 
+10025-78-2 
+102-71-6 
+637-39-8 
+122-52-1 
+554-70-1 
+97-93-8 
+97-94-9 
+354-32-5 
+79-38-9 
+121-45-9 
+75-24-1 
+1445-79-0 
+3385-78-2 
+7677-24-9 
+18107-18-1 
+1066-45-1 
+56-24-6 
+998-40-3 
+26952-42-1 
+606-35-9 
+99-35-4 
+2508-19-2 
+129-66-8 
+88-88-0 
+129-79-3 
+602-99-3 
+55810-17-8 
+4732-14-3 
+88-89-1 
+82-71-3 
+13716-12-6 
+54413-15-9 
+ 7783-82-6 
+108-05-4 
+689-97-4 
+75-01-4 
+100-43-6 
+75-35-4 
+1826-67-1 
+50782-69-9 
+
+ 
+ 
+ Chemical name 
+
+White phosphorus (phosphorus tetramer) 
+
+Cas # 
+12185-10-3 
+
+REV: August 2024

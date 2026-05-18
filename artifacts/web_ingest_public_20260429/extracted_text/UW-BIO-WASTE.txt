@@ -1,0 +1,108 @@
+Biohazardous Waste | UW Environmental Health & Safety
+GENERAL HEALTH & SAFETY
+Assembly and fire permits
+Capital safety projects
+Regulated building materials
+Emergency procedures
+Surveys and inspections
+Air operating permit
+Pollution prevention
+Soil and groundwater
+Report wildlife sighting
+Biosafety for research
+Bloodborne pathogens
+Caution and warning signs
+Biological materials
+Defibrillators (AEDs)
+Radiation producing devices
+Respiratory protection
+Hazardous energy (LOTO)
+Shops and maker spaces
+Safety plan templates
+EH&S provides information and resources to laboratory personnel and principal investigators to identify, package and properly decontaminate biohazardous waste.
+Last Updated: March 24, 2025
+Biohazardous Waste Flow Charts
+Biological Research Safety
+Biological Research Approval
+Biological Safety Cabinets
+Bloodborne Pathogens
+Select Agent Program
+Sharps and Lab Glass Waste
+Viral Vectors for Gene Transfer
+Packaging Sharps and Lab Glass Waste poster
+Biohazardous Waste Management Plan
+Exposure Response Poster
+Spill Response Poster
+Shipping Regulated Medical Waste (RMW) SOP template
+Laboratory Services at Magnuson Health Sciences Center
+Laboratory Services at South Lake Union
+University of Washington Medical Center: Environmental Services
+Harborview Medical Center: Environmental Services
+Laboratory personnel and principal investigators (PIs) are responsible for identifying, packaging and properly decontaminating biohazardous waste, including all recombinant or synthetic DNA/RNA (rDNA) waste, before disposal. Procedures to identify, package, transport and decontaminate biohazardous waste are detailed below. For site-specific information, refer to Biohazardous Waste Flow Charts.
+What is biohazardous waste?
+The following materials are defined as biohazardous or biomedical waste:
+Human and nonhuman primate blood, tissue, body fluids and cell lines
+Cultures or stocks of pathogenic agents, including bacteria, rickettsia, fungi, viruses, protozoa, parasites, prions and select agents
+Recombinant or synthetic nucleic acids (rDNA), including waste products from procedures involving plasmids, viral vectors, E.coli, yeasts and naked nucleic acids
+Laboratory waste items (i.e., used PPE, culture dishes, tubes) that have come into contact with a biohazard
+Animal waste, carcasses and body parts that have been exposed to recDNA or any biohazard
+Human pathological waste
+Plant waste, including all transgenic plants, seeds, spores, plant debris and soil materials, and any plants exposed to plant pathogens
+Download the Packaging Sharps and Lab Glass Poster for guidance.
+Package Biohazardous Waste
+Learn how to appropriately and safely package the most common types of biohazardous waste.
+Collect in plastic autoclavable waste bags with a biohazard symbol. Double bag for petri dishes.
+Contain the bag inside a rigid, leak-proof container with a biohazard symbol.
+Loosely tie bags before autoclaving to allow steam to penetrate.
+Lab glass and plastic
+Collect in a puncture-proof container such as a pipette box/keeper or a sturdy cardboard box.
+If using a cardboard box, line with a biohazard bag and label with the biohazard symbol and "laboratory glass."
+Refer to Sharps and Laboratory Glass for details.
+Collect in red plastic sharps containers with a biohazard symbol and tight-fitting lid.
+Do not fill more than two-third full, and do not mix with any other type of waste.
+Refer to Sharps and Laboratory Glass page for details.
+Decontaminate Biohazardous Waste
+Learn about the three options to decontaminate biohazardous waste so that it is safe for disposal.
+Steam sterilization with an autoclave effectively inactivates most infectious agents. Local regulations apply to autoclaves used to treat biohazardous waste. All autoclave operators must be trained on safety information and site-specific procedures.
+Visit the Autoclave Safety page to learn the requirements and utilize the autoclave tools developed by EH&S to keep you safe and compliant.
+Depending on location, you may be able to utilize an autoclave cost center. Autoclave cost centers charge a fee to autoclave and dispose of waste. Contact the centers for their specific rules and procedures. Autoclave cost center include:
+Laboratory Services at South Lake Union (UW NetID log-in required)
+Ship as regulated medical waste
+Waste can be shipped as "regulated medical waste" via a contractor for off-site treatment and disposal.
+EH&S Shipping Regulated Medical Waste Training and site-specific procedures are required. Contact EH&S Biosafety for questions about practices and safe handling.
+Set up an account. Accounts are managed by Laboratory Services in Health Sciences Services.
+Liquid biohazardous waste must be treated before disposal via sanitary sewer. Use the following protocol to treat any free-flowing liquid biohazardous waste:
+Collect in leak-proof rigid containers labeled with a biohazard symbol.
+Add chlorine bleach to equal a final concentration of 10 percent bleach.
+Let the solution sit for at least 30 minutes before disposing via the sewer.
+Incineration or cremation is required for human and non-human primate pathological waste. The Willed Body Program can provide guidance on interment or cremation.
+Human pathological waste including extracted teeth are shipped off-site as regulated medical waste for incineration.
+Extracted human teeth containing amalgam can be collected as chemical waste by EH&S.
+For non-human primate waste, contact the Washington National Biomedical Research Center (WaNBRC) at 206-543-8686.
+Review the Chemotherapy and Hazardous Drugs page for detailed information on how to identify and package trace chemo waste.
+Trace chemo waste is shipped as regulated medical waste for off-site incineration.
+Do not autoclave yellow trace chemo sharps containers. Use the Sharps Waste Poster for guidance.
+Follow the Biohazard Transport Policy to safely transport biohazards including biohazardous waste.
+If you plan to generate mixed waste (i.e., biohazardous and radioactive), please contact EH&S first.
+Site-Specific Information
+Refer to the Biohazardous Waste Flow Charts for site-specific information including how to dispose of waste decontaminated on-site.
+Emergency Response and Reporting
+UW personnel are required to submit an incident report to Environmental Health & Safety for any work-related event that results in an injury, illness, exposure to hazardous materials, property damage, or fire, regardless of the work location. UW personnel are highly encouraged to submit work-related near-miss events. Visit the Incident Reporting page for more information.
+Notify EH&S immediately (after first aid/medical care/emergency services) if the incident involves recombinant or synthetic nucleic acids or genetically modified organisms.
+During EH&S business hours: (8:00 a.m. to 5:00 p.m., Monday to Friday) call (206) 221-7770.
+Outside of EH&S business hours: call the UW Police Department at (206) 685-8973 to reach EH&S on-call staff.
+Frequently asked questions
+Do I need to autoclave micropipet tips that were used for PCR?
+Yes. Because recombinant or synthetic DNA/RNA is considered a biohazard, those tips do need to be autoclaved. Also, if your lab does any biohazardous work, it is easier to treat all pipets and tips as biohazardous so that you do not have to make a decision for each tip; instead, they all go as biohazardous waste.
+Can EH&S pick up my sharps container or biohazardous waste?
+EH&S does not collect or treat sharps or other biohazardous waste. EH&S provides consultation and training for on-site or off-site treatment of sharps and biohazardous waste prior to disposal. Check with your department to see if a sharps disposal waste stream already exists.
+How do I dispose of extracted human teeth?
+If the extracted teeth are not intended for interment or cremation, treat and dispose of them as human pathological waste. Human pathological waste is shipped for off-site incineration via a contracted carrier. Refer to “Off-Site Sterilization” in the Decontaminate Biohazardous Waste section above. If the extracted teeth contain amalgam, contact EH&S Chemical Waste for pick-up and disposal.
+Shipping Regulated Medical Waste
+Regulation and policy
+Seattle Municipal Code, Section 21.43
+King County Board of Health, 10.07.060
+Washington State Definition of Biomedical Waste, RCW 70.95K
+Department of Transportation Title 49 applies to all untreated biohazardous waste that is shipped off-site for treatment and disposal by a UW waste contractor.
+University of Washington
+© 2025 UW Environmental Health & Safety | Seattle, WA | 206.543.7262 | ehsdept@uw.edu

@@ -1,0 +1,196 @@
+DS Fact Sheet on Managing Peroxide Formers in the Lab 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+What are Peroxide Formers? 
+
+Peroxide forming chemicals are a group of chemicals that can, under certain conditions, form explosive peroxides which can be 
+detonated by shock, friction, or heat. Typical molecular structure of the chemical for peroxide forming functional groups and the 
+chemical families of peroxide formers are listed below: 
+
+Organic 
+
+• Aldehydes
+• Ethers, acetals
+• Dienes, vinyl acetylenes
+• Ureas, amides, lactams
+• Olefins with allylic hydrogens chloro- and
+
+fluoro-olefins & terpenes
+
+Inorganic 
+• Alkali metals, particularly potassium
+• Alkali metal alkoxides and amides
+• Organometallics
+
+Tetrahydrofuran, dioxane, diethyl ether, 2-propanol, and isopropyl ether are the most used peroxide formers at NIH. 
+
+Table 1 - List of Commonly Found Peroxide Formers* 
+
+Class A: These chemicals can form explosive levels of peroxides during storage without concentration. Test open bottles for 
+peroxide formation before using or discard after 3 months. Dispose of after 12 months even if unopened. 
+
+Isopropyl ether 
+Butadiene 
+Chlorobutadiene (Chloroprene) 
+
+Potassium amide 
+Potassium metal 
+
+Sodium amide 
+Tetrafluoroethylene 
+
+Divinyl acetylene 
+Vinylidene chloride 
+
+Class B: Test every 6 months for peroxide formation following the date of opening. These chemicals are a peroxide hazard during 
+storage and on concentration (distillation/evaporation). Dispose of after 12 months unless testing indicates no peroxides present. 
+Test for peroxides immediately before evaporation or distillation. 
+
+Acetal 
+Acetaldehyde 
+Benzyl alcohol 
+Benzaldehyde 
+2-butanol 
+Cumene Cyclohexanol 
+2-Cychlohexen-1-ol 
+Cyclohexene 
+Cyclopentene Diacetylene 
+
+Dicyclopentadiene 
+Diethylene glycol 
+Dimethyl ether 
+Diethyl ether 
+Dioxane 
+Ethylene glycol Furan 
+Methyl acetylene 
+Methyl cyclopentane 
+Methyl-isobutyl ketone 
+2-pentanol 
+4-pentene-1-ol
+
+1- phenyl ethanol
+2- propanol *(test prior to concentration 
+or distillation only)
+Tetrahydrofuran
+Tetrahydronaphthalene
+Vinyl ethers
+
+Class C: Test every 6 months following the date of opening. Unsaturated monomers may autopolymerize because of peroxide 
+accumulation. Open bottles without inhibitors must be discarded within 24 hours. Open bottles with inhibitors must be disposed of 
+after 12 months unless testing indicates no peroxides present. 
+
+Acrylic acid 
+Butadiene 
+Chlorotrifluoroethylene 
+
+Ethyl acrylate 
+Methyl Methacrylate Styrene 
+
+Vinyl acetate 
+Vinyl chloride 
+Vinyl pyridine 
+
+* The list in Table 1 is illustrative, not comprehensive. Check the SDS of your chemical to determine if it forms peroxides.
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+ Revised 03/2025
+
+1 
+
+ DS Fact Sheet on Managing Peroxide Formers in the Lab 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Managing Peroxide Formers in the Lab 
+
+Keep the inventory of peroxide formers to the minimum amount needed. When possible, obtain them with an inhibitor or stabilizer. 
+Never distill peroxide forming chemicals to dryness. Always leave a minimum of 20% of the chemicals in the still.
+
+Labeling
+
+Storage 
+
+Label containers of peroxide forming chemicals with the 
+date of receipt, the date of opening, and date of 
+expiration using a DOHS approved label. 
+Periodic testing to detect peroxides should be performed 
+and the date of testing/findings must be documented.
+
+• Follow manufacturer’s storage guidelines.
+• Store in airtight bottles, away from light and heat. Avoid
+
+using glass ground stoppers.
+
+• Store under inert gas, if possible. Although storage under
+inert gas or with a stabilizer may prolong shelf-life, test
+the container for peroxides before use or before any
+possible distillation procedure.
+
+Inspection 
+
+Peroxide formers must be inspected before each use. Crystallization (around the cap or in solution), discoloration, and 
+stratification (oily layer or second liquid phase) are signs of peroxide former may have become shock sensitive.
+Do not move or touch the container. Call the Chemical Waste Services, your IC Safety Specialist and PI/supervisor. 
+Chemical Waste Services will determine if the fire department should be called. Contact numbers: 
+Bethesda: (301) 496-4710 • Baltimore: (667) 312-5762 • Phoenix: (602) 200-5308 • Frederick: (240) 236-9575 • RML: (406) 363-9212 
+
+Testing 
+
+Table 2 
+
+Test open bottles of Class A for peroxide formation before every use. 
+Test Class B and C every six months and prior to distillation or 
+evaporation using the commercially available test strips (available 
+from many chemical vendors). Commercial test strips have a test 
+range of approximately 0.5 to 100 ppm. When testing for peroxide, 
+use the guidelines in Table 2 to interpret results and determine action 
+to take. High Hazard peroxide formers such as pyrophoric, 
+water-reactive, acutely toxic chemicals, solid chemicals like 
+potassium metal, potassium amide, and sodium amide should 
+not be tested for peroxide formation. Only use visual signs for 
+peroxide formation for those chemicals. 
+
+Disposal 
+
+< 25 ppm 
+
+Considered safe for general use 
+
+25-100 ppm 
+
+Not recommended for distilling 
+or concentrating 
+
+>100 ppm
+
+Avoid handling and contact 
+Chemical Waste Services for 
+safe disposal immediately. 
+
+Follow the above guidelines for the disposal of each Class. If you notice any discoloration or decomposition during routine 
+inspection, dispose of immediately even if it is before the expiration date. Follow NIH Waste Disposal Guide for details. 
+
+References 
+
+• Sigma Aldrich – Peroxide Forming Solvents Information Page
+
+https://ehs.yale.edu/sites/default/files/files/peroxide-formation-sigma.pdf
+
+• NRC Prudent Practices in the Laboratory: Organic Peroxides and Peroxidizable Compounds
+
+https://www.nap.edu/read/12654/chapter/7#133
+
+• Clark, D.E., Peroxides and Peroxide - Forming Compounds, Chemical Health
+• and Safety, 2001, 8 (5), 12-21.
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+2 
+
+Table 1 - List of Commonly Found Peroxide Formers*

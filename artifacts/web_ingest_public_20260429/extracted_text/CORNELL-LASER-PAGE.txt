@@ -1,0 +1,67 @@
+About Us
+
+Environmental Compliance
+
+Fire Protection & Emergency Services
+
+Occupational Health & Safety
+
+Research Safety Biosafety & Biosecurity Chemical Safety Controlled Substances General Laboratory Safety Radiation Safety Laser Safety Magnet/UV/RF Radioactive Materials Radiation Monitoring X-Ray Equipment Waste Anesthetic Gases (WAG)
+
+Biosafety & Biosecurity
+
+Chemical Safety
+
+Controlled Substances
+
+General Laboratory Safety
+
+Radiation Safety Laser Safety Magnet/UV/RF Radioactive Materials Radiation Monitoring X-Ray Equipment
+
+Laser Safety
+
+Magnet/UV/RF
+
+Radioactive Materials
+
+Radiation Monitoring
+
+X-Ray Equipment
+
+Waste Anesthetic Gases (WAG)
+
+## Contact Info
+
+Research Safety
+
+Radiation Safety
+
+Laser Safety
+
+## Laser Safety
+
+This program manages the safety and regulatory compliance of all lasers on campus. Cornell’s Laser Safety Program follows the safety guidelines specified by the ANSI standards for the safe use of lasers. Class 3B and 4 lasers have some special requirements:
+
+They need to be registered with EHS. Please submit a registration form for each laser source to askEHS@cornell.edu .
+
+The lab needs to be set up to address laser hazards and prevent beams from entering public spaces like halls or outside windows. EHS can help determine requirements and suggest solutions.
+
+Written procedures are required. Contact askEHS@cornell.edu for a template.
+
+Laser operators and others working in areas where laser hazards are present need to complete the laser safety training course at Workday Learning .
+
+Laser operators need to be trained by the PI (or the PI’s delegate) to operate the laser system. There is a training certificate in the SOP template that labs use to keep track of who has been authorized to operate the system.
+
+If laser safety glasses are required, they must be inspected before each use, and every six months an inspection needs to be recorded on the log sheet in the SOP.
+
+Class 4 operating conditions may require an illuminated warning sign outside the lab. If unattended operation is required, a shutoff button would be required for responders to render the area safe in case of an emergency. We can recommend a low-cost commercial solution.
+
+If you are commissioning or renovating a Class 3B or Class 4 laser facility, please contact askEHS@cornell.edu . The Radiation Safety group can provide assistance with hazard evaluation, hazard mitigation strategies, and suggestions for developing written operating procedures.
+
+## Written Program/Manuals
+
+## Forms
+
+## Training Resources
+
+## Guidelines

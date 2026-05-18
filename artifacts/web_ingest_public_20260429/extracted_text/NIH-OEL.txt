@@ -1,0 +1,40 @@
+DATE: 
+
+November 25, 2009 
+
+SUBJECT: Occupational Exposure Limits for Chemicals 
+
+FROM: 
+
+Technical Assistance Branch, DOHS 
+
+The Division of Occupational Health and Safety (DOHS) identifies, evaluates and recommends 
+controls of environmental factors arising in or from the National Institutes of Health (NIH) 
+workplace in order to prevent occupational injuries and illnesses. 
+
+In identifying and determining occupational exposure limits for chemicals, the DOHS references 
+the limits and values established by both the Occupational Safety and Health Administration 
+(OSHA) and the American Conference of Governmental Industrial Hygienists (ACGIH). OSHA 
+establishes permissible exposure limits (PELs), which are enforceable, regulatory limits. The 
+ACHIH establishes threshold limit values (TLVs), which are values that are health based. 
+OSHA and ACGIH may also establish short term exposure limits (STELs) and other limits, as 
+appropriate. 
+
+An exposure level is a maximum airborne concentration and is not intended to represent a fine 
+line between safe and harmful conditions. In determining an exposure limit, it is not possible to 
+take into account all factors that could influence the effect that exposure to a substance may have 
+on an individual employee. Because of the wide variation in individual susceptibility, however, 
+a small percentage of employees may experience discomfort from some substances at 
+concentrations at or below the exposure limit; a smaller percentage may be affected more 
+seriously. Therefore, the DOHS references the lowest limit or value established by OSHA or 
+ACGIH in determining the NIH occupational exposure limit to a particular chemical. 
+
+An ACGIH value, if referenced as an NIH occupational exposure limit for a chemical, does not 
+have an inclusive affect on the OSHA regulations that are incorporated into DOHS written 
+programs. 
+
+Additional levels and limits, such as the recommended exposure limits (RELs) that are 
+established by the National Institutes for Occupational Safety and Health (NIOSH), may also be 
+reviewed and considered in determining occupational exposures to chemicals. 
+
+Revised: 12/10

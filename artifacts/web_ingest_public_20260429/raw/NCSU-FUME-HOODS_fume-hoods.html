@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://ehs.ncsu.edu/xmlrpc.php">
+
+	<!-- Prefetch all Roboto font weights -->
+	<link rel="preload" href="https://fonts.gstatic.com/s/robotoslab/v16/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="https://fonts.gstatic.com/s/robotocondensed/v19/ieVg2ZhZI2eCN5jzbjEETS9weq8-19eDpCEobdNZUSdy4Q.woff2" as="font" type="font/woff2" crossorigin />
+
+	<link rel="icon" type="image/x-ico" href="https://ehs.ncsu.edu/wp-content/themes/hillsborough/dist/img/favicon.ico" />
+
+<title>Fume Hoods and Lab Exhaust &#8211; Environmental Health and Safety</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdn.ncsu.edu' />
+<link rel="alternate" type="application/rss+xml" title="Environmental Health and Safety &raquo; Feed" href="https://ehs.ncsu.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Environmental Health and Safety &raquo; Comments Feed" href="https://ehs.ncsu.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Environmental Health and Safety &raquo; iCal Feed" href="https://ehs.ncsu.edu/events/?ical=1" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ehs.ncsu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fehs.ncsu.edu%2Flaboratory%2Ffume-hoods%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ehs.ncsu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fehs.ncsu.edu%2Flaboratory%2Ffume-hoods%2F&#038;format=xml" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-WBYCT1GY7T"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '10.1.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/ehs.ncsu.edu\/laboratory\/fume-hoods\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-WBYCT1GY7T',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-WBYCT1GY7T', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='component-shortcodes-css' href='https://ehs.ncsu.edu/wp-content/plugins/component-shortcodes/assets/css/style.css?ver=6.9.4' type='text/css' media='' />
+<link rel='stylesheet' id='pt-cv-public-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.3' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' type='text/css' media='all' />
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/components/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/block-editor/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ncsu-blocks-style-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/ncsu-blocks/dist/blocks.style.build.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/patterns/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://ehs.ncsu.edu/wp-includes/css/dist/editor/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='on_campus-cgb-style-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/oit-on-off-campus/dist/blocks.style.build.css?ver=6.9.4' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--wolfpack-red: #cc0000;--wp--preset--color--gray-10: #f2f2f2;--wp--preset--color--gray-25: #cccccc;--wp--preset--color--gray-60: #666666;--wp--preset--color--gray-90: #333333;--wp--preset--color--reynolds-red: #990000;--wp--preset--color--pyroman-flame: #D14905;--wp--preset--color--hunt-yellow: #FAC800;--wp--preset--color--genomic-green: #6F7D1C;--wp--preset--color--carmichael-aqua: #008473;--wp--preset--color--innovation-blue: #427E93;--wp--preset--color--bio-indigo: #4156A1;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--very-small: 12px;--wp--preset--font-size--slightly-smaller: 15px;--wp--preset--font-size--normal: 17px;--wp--preset--font-size--slightly-larger: 25px;--wp--preset--font-size--very-large: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='legacy-styles-css' href='https://ehs.ncsu.edu/wp-content/plugins/ncsu-shortcodes/old/shortcode-styles.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css' href='https://ehs.ncsu.edu/wp-content/plugins/social-media-widget/social_widget.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ub-extension-style-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/ultimate-blocks/src/extensions/style.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite//assets/css/owl.carousel.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-theme-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite//assets/css/owl.theme.default.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite//assets/css/animate.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='scrollbar-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite//assets/css/jquery.scrollbar.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flashcard-style-css' href='https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite//assets/css/flashcard.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pic-grid-font-css' href='https://ehs.ncsu.edu/wp-content/plugins/post-grid-free/public/css/font-awesome.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pic-grid-public-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/post-grid-free/public/css/post-grid-free-public.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://ehs.ncsu.edu/wp-content/plugins/wonderplugin-tabs/font-awesome/css/font-awesome.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wonderplugin-tabs-engine-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/wonderplugin-tabs/engine/wonderplugin-tabs-engine.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ncsu_bootstrap_css-css' href='https://cdn.ncsu.edu/brand-assets/bootstrap/css/bootstrap.css?ver=3.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hlb-styles-css' href='https://ehs.ncsu.edu/wp-content/themes/hillsborough/dist/style.css?ver=0.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes_styles-css' href='https://ehs.ncsu.edu/wp-content/plugins/ncsu-shortcodes/assets/css/main.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-team-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/tlp-team/assets/css/tlpteam.css?ver=5.0.15' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-team-sc-css' href='https://ehs.ncsu.edu/wp-content/uploads/sites/13/tlp-team/team-sc.css?ver=1771255332' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://ehs.ncsu.edu/wp-content/uploads/sites/13/tablepress-combined.min.css?ver=60' type='text/css' media='all' />
+<link rel='stylesheet' id='GSWPTS-table-responsive-css' href='https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/styles/frontend.min.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='GSWPTS-frontend-css-css' href='https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync/assets/public/styles/frontend.min.css?ver=1777600023' type='text/css' media='all' />
+<link rel='stylesheet' id='gswptsProTable_style-1-css' href='https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/styles/style-1.min.css?ver=1777600023' type='text/css' media='all' />
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=10.1.2" id="monsterinsights-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/ehs.ncsu.edu","hash_tracking":"false","v4_id":"G-WBYCT1GY7T"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/oit-on-off-campus/src/on-off-campus/public.js?ver=6.9.4" id="oit-on-off-campus-js"></script>
+<script type="text/javascript" id="email-posts-to-subscribers-js-extra">
+/* <![CDATA[ */
+var elp_data = {"messages":{"elp_name_required":"Please enter name.","elp_email_required":"Please enter email address.","elp_invalid_name":"Name seems invalid.","elp_invalid_email":"Email address seems invalid.","elp_unexpected_error":"Oops.. Unexpected error occurred.","elp_invalid_captcha":"Robot verification failed, please try again.","elp_invalid_key":"Robot verification failed, invalid key.","elp_successfull_single":"You have successfully subscribed.","elp_successfull_double":"You have successfully subscribed. You will receive a confirmation email in few minutes. Please follow the link in it to confirm your subscription. If the email takes more than 15 minutes to appear in your mailbox, please check your spam folder.","elp_email_exist":"Email already exist.","elp_email_squeeze":"You are trying to submit too fast. try again in 1 minute."},"elp_ajax_url":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php"};
+//# sourceURL=email-posts-to-subscribers-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/email-posts-to-subscribers//inc/email-posts-to-subscribers.js?ver=2.2" id="email-posts-to-subscribers-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/post-grid-free/public/js/post-grid-free-public.js?ver=1.0.0" id="pic-postgrid-public-js-js"></script>
+<script type="text/javascript" id="wonderplugin-tabs-engine-script-js-extra">
+/* <![CDATA[ */
+var wonderplugintabs_ajaxobject = {"ajaxurl":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php","nonce":"ebea27d771"};
+//# sourceURL=wonderplugin-tabs-engine-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/wonderplugin-tabs/engine/wonderplugin-tabs-engine.js?ver=6.4C" id="wonderplugin-tabs-engine-script-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/ncsu-shortcodes/assets/js/build/main.js?ver=6.9.4" id="shortcodes_scripts-js"></script>
+<script type="text/javascript" id="ai-js-js-extra">
+/* <![CDATA[ */
+var MyAjax = {"ajaxurl":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php","security":"84079187b6"};
+//# sourceURL=ai-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/advanced-iframe/js/ai.min.js?ver=253523" id="ai-js-js"></script>
+<link rel="https://api.w.org/" href="https://ehs.ncsu.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://ehs.ncsu.edu/wp-json/wp/v2/pages/736" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ehs.ncsu.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel="canonical" href="https://ehs.ncsu.edu/laboratory/fume-hoods/" />
+<link rel='shortlink' href='https://ehs.ncsu.edu/?p=736' />
+<style type="text/css">
+.feedzy-rss-link-icon:after {
+	content: url("https://ehs.ncsu.edu/wp-content/plugins/feedzy-rss-feeds/img/external-link.png");
+	margin-left: 3px;
+}
+</style>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TEWTNEH7E1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TEWTNEH7E1');
+</script><meta name="generator" content="Redux 4.5.11" /><style>.elp_form_message.success { color: #008000;font-weight: bold; } .elp_form_message.error { color: #ff0000; } .elp_form_message.boterror { color: #ff0000; } </style><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://ehs.ncsu.edu"><link rel="alternate" href="https://ehs.ncsu.edu/wp-json/tribe/events/v1/" /><style type="text/css">.blue-message {
+background: none repeat scroll 0 0 #3399ff;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}.green-message {
+background: none repeat scroll 0 0 #8cc14c;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}.orange-message {
+background: none repeat scroll 0 0 #faa732;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}.red-message {
+background: none repeat scroll 0 0 #da4d31;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}.grey-message {
+background: none repeat scroll 0 0 #53555c;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}.left-block {
+background: none repeat scroll 0 0px, radial-gradient(ellipse at center center, #ffffff 0%, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #8b8e97;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}.right-block {
+background: none repeat scroll 0 0px, radial-gradient(ellipse at center center, #ffffff 0%, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #8b8e97;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}.blockquotes {
+background: none;
+    border-left: 5px solid #f1f1f1;
+    color: #8B8E97;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+    padding-left: 15px;
+    padding: 10px;
+    width: 60%;
+    float: left;
+}</style><link rel="icon" href="https://ehs.ncsu.edu/wp-content/uploads/sites/13/2016/11/cropped-MH13477-e1471446343159-1-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://ehs.ncsu.edu/wp-content/uploads/sites/13/2016/11/cropped-MH13477-e1471446343159-1-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ehs.ncsu.edu/wp-content/uploads/sites/13/2016/11/cropped-MH13477-e1471446343159-1-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://ehs.ncsu.edu/wp-content/uploads/sites/13/2016/11/cropped-MH13477-e1471446343159-1-1-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			#EHSA 	{
+	Text-color: red; 
+}
+
+
+		</style>
+		<style id="sccss">a, .entry-content a:link, .entry-content a:active, .entry-content a:visited, #secondary a:hover, #secondary-2 a:hover, .tooltip-shortcode, #jtwt .jtwt_tweet a:hover, .contact_info a:hover, .widget .wooslider h2.slide-title a, .widget .wooslider h2.slide-title a:hover {
+  color: #cc0000;
+}
+
+a:hover, a:focus, a:active {
+color: #990000
+}
+
+.sticky-header .nav {
+    margin-left: 0;
+    font-size: 0.9em;
+}
+
+.su-tabs-nav .entry-content a {
+     color: #666666 !important;
+}
+
+.input-color {
+    position: relative;
+}
+.input-color input {
+    padding-left: 20px;
+}
+.input-color .color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.example {
+  background-color: #cccccc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+
+/*
+
+  .entry-content a:active, .entry-content a:visited,
+.content a {
+
+
+.content.a:visited {
+	color: #C000;
+	text-decoration: underline;
+}
+.content.a:hover, a:active, a:focus 
+	color: #0000ffff;
+	text-decoration: underline;
+	
+}
+.staff {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 10px;
+}
+
+</style>	<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
+	<style>
+			</style>
+	<!-- Fonts Plugin CSS -->
+	
+</head>
+
+<body class="wp-singular page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-736 page-child parent-pageid-646 wp-embed-responsive wp-theme-hillsborough tribe-no-js metaslider-plugin">
+
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="ncstate-utility-bar"></div>
+
+	<header id="masthead" class="site-header container-fluid" role="banner">
+
+		<div class="container">
+			<div class="row">
+				<div class="site-branding modern "><a href="https://ehs.ncsu.edu/" rel="home"><span class="site-title">Environmental Health and Safety</span></a></div><!-- .site-branding -->											</div><!-- .row -->
+		</div><!-- .container -->
+
+		<div class="container-fluid">
+			<div class="row">
+				
+<nav id="site-navigation" class="main-navigation navbar navbar-default gray10 modern " role="navigation">
+
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div><!-- .navbar-header -->
+
+	<div class="container">
+		<div class="row">
+			<div class="collapse navbar-collapse" id="navbar-collapse-main">
+				<ul id="menu-current-homepage-menu" class="nav navbar-nav"><li class="menu-ehsa-login"><a  href="https://go.ncsu.edu/ehsa"><b>EHSA Login</b></a></li>
+<li class="dropdown menu-about"><a  href="https://ehs.ncsu.edu/about-ehs/" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">About <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-about-us"><a  href="https://ehs.ncsu.edu/about-ehs/">About Us</a></li>
+	<li class="menu-our-team"><a  href="https://ehs.ncsu.edu/ehs-staff/">Our Team</a></li>
+	<li class="menu-a-z-search"><a  href="https://ehs.ncsu.edu/search/">A-Z Search</a></li>
+	<li class="menu-find-a-subject-matter-expert"><a  href="https://ehs.ncsu.edu/ehs-staff/ehs-subject-matter-expert-list/">Find a Subject Matter Expert</a></li>
+</ul>
+</li>
+<li class="dropdown menu-teams"><a  href="https://ehs.ncsu.edu/?page_id=7343&amp;preview=true&amp;aiEnableCheckShortcode=true" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">Teams <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-biological-safety"><a  href="https://ehs.ncsu.edu/home-page-info/biological/">Biological Safety</a></li>
+	<li class="menu-environmental-affairs"><a  href="https://ehs.ncsu.edu/home-page-info/environmental-affairs/">Environmental Affairs</a></li>
+	<li class="menu-research-and-lab-safety"><a  href="https://ehs.ncsu.edu/laboratory-safety/">Research and Lab Safety</a></li>
+	<li class="menu-occupational-health"><a  href="https://ehs.ncsu.edu/occupational-health/">Occupational Health</a></li>
+	<li class="menu-occupational-safety"><a  href="https://ehs.ncsu.edu/occupational-safety/">Occupational Safety</a></li>
+	<li class="menu-radiation-safety"><a  href="https://ehs.ncsu.edu/home-page-info/radiation/">Radiation Safety</a></li>
+</ul>
+</li>
+<li class="dropdown menu-tools-and-resources"><a  href="https://ehs.ncsu.edu/safety-manuals/" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">Tools and Resources <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-forms"><a  href="https://ehs.ncsu.edu/home-page-info/forms/">Forms</a></li>
+	<li class="menu-find-training-courses"><a  href="https://ehs.ncsu.edu/training/">Find Training Courses</a></li>
+	<li class="menu-job-hazard-analysis"><a  href="https://ehs.ncsu.edu/occupational-safety/job-hazard-analysis-jha/">Job Hazard Analysis</a></li>
+	<li class="menu-personal-protective-equipment-ppe"><a  href="https://ehs.ncsu.edu/personal-protective-equipment-ppe/">Personal Protective Equipment &#8211; PPE</a></li>
+	<li class="menu-principal-investigator-resources"><a  href="https://ehs.ncsu.edu/principal-investigators/">Principal Investigator Resources</a></li>
+	<li class="menu-safety-orientation-checklist"><a  href="https://ehs.ncsu.edu/training/managers-checklist/">Safety Orientation Checklist</a></li>
+	<li class="menu-manuals-plans"><a  href="https://ehs.ncsu.edu/safety-manuals/">Manuals &#038; Plans</a></li>
+</ul>
+</li>
+<li class="dropdown menu-quick-links"><a  href="https://ehs.ncsu.edu/quick-links/" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">Quick Links <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-safety-plan"><a  href="https://ehs.ncsu.edu/safety-plan/">Safety Plan</a></li>
+	<li class="menu-reporter"><a  href="https://reporter.ncsu.edu/">REPORTER</a></li>
+	<li class="menu-ehsa"><a  href="http://Go.ncsu.edu/ehsa">EHSA</a></li>
+	<li class="menu-safety-data-sheets"><a  href="https://ehs.ncsu.edu/laboratory-safety/safety-data-sheets/">Safety Data Sheets</a></li>
+	<li class="menu-unwanted-materials"><a  href="https://ehs.ncsu.edu/unwanted-materials/">Unwanted Materials</a></li>
+</ul>
+</li>
+<li class="dropdown menu-partner-with-us"><a  href="https://ehs.ncsu.edu/partner-with-us/" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">Partner With Us <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-emergency-management-mission-continuity"><a  href="https://emmc.ehps.ncsu.edu/">Emergency Management &#038; Mission Continuity</a></li>
+</ul>
+</li>
+<li class="dropdown menu-need-assistance"><a  href="https://ehs.ncsu.edu/report-a-hazard-safety-hotline/" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" data-target="#">Need Assistance? <span class="nav-down-bracket" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M15.688 22.438l-10.5-10.5 1.375-1.313 9.125 9.125 9.75-9.75 1.375 1.313z"></path>
+</svg></span></a>
+<ul class="dropdown-menu">
+	<li class="menu-accident-report-forms"><a  href="https://ehs.ncsu.edu/occupational-safety/accident-reporting/">Accident Report Forms</a></li>
+	<li class="menu-ask-a-question"><a  href="https://ehs.ncsu.edu/ask-ehs/">Ask a Question</a></li>
+	<li class="menu-ethicspoint-hotline"><a  href="https://compliance.ncsu.edu/reporting/ethicspoint-hotline/">EthicsPoint Hotline</a></li>
+	<li class="menu-report-an-incident"><a  href="https://ehs.ncsu.edu/report-a-hazard-safety-hotline/">Report an Incident</a></li>
+	<li class="menu-wolfalerts"><a  href="https://emergency.ncsu.edu/">WolfAlerts</a></li>
+</ul>
+</li>
+</ul>
+				<div class="navbar-right">
+				<div class="pull-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="sr-only">Search</span><span class="header-search" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M27.875 25l-7.125-7.188c0.938-1.438 1.438-3.125 1.438-4.875 0-2.375-0.938-4.688-2.688-6.375-1.688-1.688-3.938-2.625-6.375-2.625s-4.688 0.938-6.375 2.625c-1.75 1.688-2.688 4-2.688 6.375 0 2.438 0.938 4.688 2.688 6.438 1.688 1.688 3.938 2.625 6.375 2.625 1.75 0 3.438-0.5 4.875-1.438l7.125 7.125zM8.875 17.188c-1.125-1.125-1.75-2.625-1.75-4.25 0-1.563 0.625-3.063 1.75-4.188 1.125-1.188 2.625-1.75 4.25-1.75s3.125 0.563 4.25 1.75c1.125 1.125 1.75 2.625 1.75 4.188 0 1.625-0.625 3.125-1.75 4.25s-2.625 1.75-4.25 1.75-3.125-0.625-4.25-1.75z"></path>
+</svg></span></a><div class="nav-search dropdown-menu pull-right"><form role="search" method="get" class="search-form" action="https://ehs.ncsu.edu/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field"
+			placeholder="Search..."
+			value="" name="s"
+			title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit btn"><span class="search-icon" aria-hidden="true"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M27.875 25l-7.125-7.188c0.938-1.438 1.438-3.125 1.438-4.875 0-2.375-0.938-4.688-2.688-6.375-1.688-1.688-3.938-2.625-6.375-2.625s-4.688 0.938-6.375 2.625c-1.75 1.688-2.688 4-2.688 6.375 0 2.438 0.938 4.688 2.688 6.438 1.688 1.688 3.938 2.625 6.375 2.625 1.75 0 3.438-0.5 4.875-1.438l7.125 7.125zM8.875 17.188c-1.125-1.125-1.75-2.625-1.75-4.25 0-1.563 0.625-3.063 1.75-4.188 1.125-1.188 2.625-1.75 4.25-1.75s3.125 0.563 4.25 1.75c1.125 1.125 1.75 2.625 1.75 4.188 0 1.625-0.625 3.125-1.75 4.25s-2.625 1.75-4.25 1.75-3.125-0.625-4.25-1.75z"></path>
+</svg></span><span class="screen-reader-text">Search</span></button>
+</form>
+</div></div><ul class="social-channels list-unstyled" aria-label="Social Media channels"></ul><!-- .social-channels -->				</div><!-- .navbar-right -->
+			</div><!-- /.navbar-collapse -->
+		</div><!-- .row -->
+	</div>
+
+</nav><!-- #site-navigation -->
+			</div><!-- .row -->
+		</div><!-- .container-fluid -->
+
+	</header><!-- #masthead -->
+
+
+
+<div id="content" class="site-content">
+
+	<div class="container-fluid">
+		<div class="row">
+
+							
+					
+<main id="post-736" role="main" class="post-736 page type-page status-publish has-post-thumbnail hentry">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<header class="entry-header">
+					<h1 class="entry-title">Fume Hoods and Lab Exhaust</h1>
+				</header>
+
+				<p>Fume hoods are the most important engineering controls for preventing exposure to hazardous materials in laboratories. Users need to understand the proper use and limitations of the fume hood.</p>
+<p>Each fume hood should be equipped with a flow monitor/ alarm.  When the alarm sounds, stop work immediately, close the sash, and report the event to facilities liaison.</p>
+<p>Local exhaust devices other than fume hoods including snorkels and enclosures are also utilized in laboratories for limited applications. Using or modifying these devices for exposure control or exhausting equipment requires EH&amp;S evaluation, review, and approval.</p>
+<p>EH&amp;S performs annual fume hood inspections and issues work orders on the behalf of the PI when deficiencies are found. When a fume hood fails the face velocity test, it will be taken out of service and posted with a ‘<strong>Do Not Use</strong>’ or ‘<strong>Warning</strong>’ sign. Contact your facilities liaison for any questions regarding the status of the repair of your fume hood.</p>
+<p>Keeping the fume hood sash close at all times provides both a physical barrier between you and experiment as well as energy cost reduction.</p>
+<p style="padding-left: 30px"><a href="https://ehs.ncsu.edu/fume-hood-information-for-new-projects/">Fume Hood Information for New Projects</a><br />
+<a href="https://drive.google.com/open?id=0B36FhbUXVzebRnZBRHVQMEkwNk0" target="_blank" rel="noopener">Building Liaison/Safety Contact Chemical Hood Reference Information (pdf)</a><br />
+<a href="https://drive.google.com/open?id=0B36FhbUXVzebQXBTUlFDWmJma2c" target="_blank" rel="noopener">Chemical Fume Hood Owner Reference Information (pdf)</a><br />
+<a href="https://drive.google.com/open?id=0B36FhbUXVzebNkNvTDJFWDd3bUk" target="_blank" rel="noopener">Recommended Chemical Hood Use Procedures (pdf)</a><br />
+<a href="https://reporter.ncsu.edu/link/instanceview?courseID=EHPS-LS500&amp;deptName=EHPS&amp;instanceID=000003" target="_blank" rel="noopener">Fume Hood training</a></p>
+<p style="padding-left: 30px">Common Corrections Actions for Fume Hoods (<a href="https://drive.google.com/open?id=0B36FhbUXVzebMlRIU1VOTkp6UjA" target="_blank" rel="noopener">Letter Size (pdf)</a> and <a href="https://drive.google.com/open?id=0B36FhbUXVzebbTQ3TEtaOWd0bXc" target="_blank" rel="noopener">Legal Size (pdf)</a>)</p>
+<p><a href="https://ehs.ncsu.edu/ventilation-systems/">Ventilation Systems</a><strong> &#8211; </strong>Proper laboratory ventilation is needed to minimize exposure to hazardous materials while conducting research associated activities.</p>
+<p>&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</main>
+
+					
+				
+		</div><!-- .row -->
+	</div><!-- .container-fluid -->
+
+</div><!-- .site-content -->
+
+		<footer role="contentinfo">
+
+			<div id="colophon" class="container-fluid">
+
+				<div class="container">
+
+				
+					<div class="row footer-widgets">
+						<div class='col-lg-3 col-md-6 col-xs-12 col-sm-12'>
+							<section id="custom_html-21" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"></div></section>						</div>
+						<div class='col-lg-3 col-md-6 col-xs-12 col-sm-12'>
+							<section id="custom_html-15" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p><font size="4">
+	
+<ul>
+	
+	<li><a href="https://ehs.ncsu.edu/ehs-staff/" target="_blank" rel="noopener noreferrer">Staff</a></li>
+	
+	<p></p>
+	
+	<li><a href="https://ehs.ncsu.edu/ask-ehs/" target="_blank">Contact Us</a></li>
+	
+<p>
+	
+
+
+	
+	
+		<li> <a href="https://drive.google.com/file/d/16RiVz8GwK06f-zpDDS7bP7VbVMvVCooP/view?usp=sharing target=_blank">OSHA 300A-2025</a></li>
+	
+	</p>	
+	<p>
+		
+			<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFakcrG1DEmC7Y-0lQaFrAAljzYjRg0rQE2CVhRSGth9zZ7A/viewform">Accessibility</a></li>
+		
+	</p>
+		<li><a href="https://ehs.ncsu.edu/search/">A-Z search of Website</a></li><p>
+	
+
+	
+	</p>
+	<li><a href="https://ehs.ncsu.edu/wp-content/uploads/sites/13/2026/03/Environmental-Health-and-Safety-Org-Chart-Updated-April-1-2026.pdf" target="_blank" rel="noopener noreferrer">Environmental Health &amp; Safety Organizational Chart</a></li><p>
+	
+	
+		<li><a href="https://ehs.ncsu.edu/ehs-staff/ehs-subject-matter-expert-list/" target="_blank" rel="noopener noreferrer">Subject Matter Expert List</a></li>	
+	</p>
+	
+	
+	</ul>	
+
+</font></p></div></section>						</div>
+						<div class='col-lg-3 col-md-6 col-xs-12 col-sm-12'>
+													</div>
+						<div class='col-lg-3 col-md-6 col-xs-12 col-sm-12'>
+							<section id="custom_html-18" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p>
+	
+<ul><font size="4">
+	
+	<li><a href="https://drive.google.com/file/d/14ic6ywhHkGjeeF0NBjTLTZznNkkeQRG6/view?usp=sharing target=" rel="noopener noreferrer">2024-2025 Campus Safety Award Recipients</a></li>
+	</font></ul>
+</p></div></section>						</div>
+					</div>
+
+					<div class="row">
+						<div class="site-info col-lg-12 col-md-12 col-xs-12 col-sm-12">
+							<ul class="social-channels list-unstyled" aria-label="Social Media channels"></ul><!-- .social-channels -->							Environmental Health and Safety<br />
+
+							<ul>
+								<li>Copyright &copy; 2026</li>
+								<li><span aria-hidden="true">&#183;</span> <a href="https://www.ncsu.edu/" target="NC State University">NC State University</a></li>
+								<li><span aria-hidden="true">&#183;</span> <a href="http://accessibility.ncsu.edu/" target="Accessibility">Accessibility</a></li>
+								<li><span aria-hidden="true">&#183;</span> <a href="http://www.ncsu.edu/privacy/" target="Privacy">Privacy</a></li>
+								<li><span aria-hidden="true">&#183;</span> <a href="http://policies.ncsu.edu/" target="Policies">University Policies</a></li>
+								<li><span aria-hidden="true">&#183;</span> <a href="https://ehs.ncsu.edu/wp-login.php">Log in</a></li>
+							</ul>
+						</div><!-- .site-info -->
+					</div>
+
+				</div>
+
+			</div><!-- #colophon -->
+
+			
+				<div class="sub-footer">
+					<div class="container">
+						<a href="https://www.ncsu.edu/" class="ncstate"><strong>NC State</strong> University</a>
+						<address>
+							<span><strong>North Carolina State University</strong></span>
+							<span>Raleigh, NC 27695</span>
+							<span>919.515.2011</span>
+						</address>
+					</div><!-- .container -->
+				</div><!-- .sub-footer -->
+
+			
+		</footer>
+
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/sites/13/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hillsborough/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/component-shortcodes/assets/js/main.min.js?ver=6.9.4" id="component-shortcodes-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df" id="tec-user-agent-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1" id="react-jsx-runtime-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/autop.min.js?ver=9fb50649848277dd318d" id="wp-autop-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/blob.min.js?ver=9113eed771d446f4a556" id="wp-blob-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=14d44daebf663d05d330" id="wp-block-serialization-default-parser-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/deprecated.min.js?ver=e1f84915c5e8ae38964c" id="wp-deprecated-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/dom.min.js?ver=26edef3be6483da3de2e" id="wp-dom-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/element.min.js?ver=6a582b0c827fa25df3dd" id="wp-element-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/is-shallow-equal.min.js?ver=e0f9f1d78d83f5196979" id="wp-is-shallow-equal-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/keycodes.min.js?ver=34c8fb5e7a594a1c8037" id="wp-keycodes-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/priority-queue.min.js?ver=2d59d091223ee9a33838" id="wp-priority-queue-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/compose.min.js?ver=7a9b375d8c19cf9d3d9b" id="wp-compose-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/private-apis.min.js?ver=4f465748bda624774139" id="wp-private-apis-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/redux-routine.min.js?ver=8bb92d45458b29590f53" id="wp-redux-routine-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318" id="wp-data-js"></script>
+<script type="text/javascript" id="wp-data-js-after">
+/* <![CDATA[ */
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/html-entities.min.js?ver=e8b78b18a162491d5e5f" id="wp-html-entities-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645" id="wp-rich-text-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/shortcode.min.js?ver=0b3174183b858f2df320" id="wp-shortcode-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/warning.min.js?ver=d69bc18c456d01c11d5a" id="wp-warning-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88" id="wp-blocks-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/ncsu-blocks/dist/public.build.js?ver=1.3.0" id="ncsu-blocks-public-js-js"></script>
+<script type="text/javascript" id="pt-cv-content-views-script-js-extra">
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"c347d5a557","is_admin":"","is_mobile":"","ajaxurl":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php","lang":"","loading_image_src":"data:image/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM/DJKZNLND/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+//# sourceURL=pt-cv-content-views-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=4.3" id="pt-cv-content-views-script-js"></script>
+<script type="text/javascript" src="https://cdn.ncsu.edu/brand-assets/utility-bar/ub.php?googleCustomSearchCode=006702123781493490836%3Aark3o3buxei&amp;placeholder=search+EHS&amp;color=black&amp;ver=6.9.4" id="ncstate-utility-bar-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite/assets/js/owl.carousel.min.js?ver=6.9.4" id="owl-carousel-script-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite/assets/js/jquery.flip.min.js?ver=6.9.4" id="flip-script-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite/assets/js/jquery.scrollbar.min.js?ver=6.9.4" id="scrollbar-script-js"></script>
+<script type="text/javascript" id="flashcard-script-js-extra">
+/* <![CDATA[ */
+var obj = {"ajax_url":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php"};
+//# sourceURL=flashcard-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/wp-flashcard-lite/assets/js/flashcard.js?ver=6.9.4" id="flashcard-script-js"></script>
+<script type="text/javascript" src="https://cdn.ncsu.edu/brand-assets/utility-bar/ub.php?color=gray&amp;showBrick=1&amp;ver=v3.3.5" id="ncsu_brand_bar-js"></script>
+<script type="text/javascript" src="https://cdn.ncsu.edu/brand-assets/bootstrap/js/bootstrap.min.js?ver=v3.3.5" id="ncsu_bootstrap_js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/themes/hillsborough/inc/js/main.js?ver=v3.3.5" id="main-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.0" id="page-links-to-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
+<script type="text/javascript" id="moment-js-after">
+/* <![CDATA[ */
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+//# sourceURL=moment-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync/assets/public/common/datatables/tables/js/jquery.datatables.min.js?ver=1777600023" id="GSWPTS-frontend-table-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync/assets/public/common/datatables/tables/js/datatables.semanticui.min.js?ver=1777600023" id="GSWPTS-frontend-semantic-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync/assets/public/scripts/moment/datetime-moment.js?ver=1777600023" id="datetime-moment-js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/common/DataTables/buttons.min.js?ver=1.10.22" id="buttons.min.js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/common/DataTables/jszip.min.js?ver=3.1.3" id="jszip.min.js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/common/DataTables/vfs_fonts.js?ver=3.1.3" id="vfs_fonts.js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/common/DataTables/buttons.html5.min.js?ver=1.3.3" id="buttons.html5.min.js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/common/DataTables/buttons.print.min.js?ver=1.3.3" id="buttons.print.min.js-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" id="GSWPTS-frontend-js-js-extra">
+/* <![CDATA[ */
+var front_end_data = {"admin_ajax":"https://ehs.ncsu.edu/wp-admin/admin-ajax.php","asynchronous_loading":"on","isProActive":"1","strings":{"db-title":"Create beautiful tables from Google Sheets","new-tables":"Create new table","tables-created":"Your Tables","loading":"Loading...","no-tables-have-been-created-yet":"\ud83d\udc4b Welcome!","no-tables-video-click":"Click the button below to create your first table!","need-help-watch-a":"Need help? Watch a","create-new-table":"Create new table","need-help":"Need help?","help-text":"Help","help-text-tooltip":"Help?","watch-now":"Watch Now","search-tb":"Search tables","search-items":"Search items","search-btn":"Search","clear-btn":"Clear","get_help_creation":"Get Help with Creating Tab Groups","tabs-description":"Tabs let you group multiple tables into tabbed views and embed in your pages or posts","quick-tutorial":"Quick Tutorial","get-started-tab-groups":"Get started with Tab Groups","search-tabs":"Search tabs","tooltip-0":"This title will be shown on the top of your table","tooltip-1":"Copy the URL of your Google Sheet from your browser and paste it in the box below. Make sure your sheet is public.","tooltip-2":"Copy the Google Sheet URL from your browser and paste it here to create table. Changing this URL will change your table.","tooltip-3":"If this is enabled, the box showing number of entries will be hidden for the viewers","tooltip-4":"If enabled, the search box will be hidden for viewers","tooltip-5":"Enable this option to hide the table title for the viewers","tooltip-5.1":"Enable this option to show the table title for the viewers","tooltip-5.2":"Enable this option to show table description for the viewers","tooltip-6":"If checked, the sorting option will be enabled for viewers when they view the table","tooltip-7":"If enabled the entry info showing number of current entries out of all the entries will be hidden","tooltip-8":"Enable this to hide the pagination for viewers","tooltip-9":"Display multiple tables using tabs. Just like your google sheets","tooltip-10":"Title of the tab group","tooltip-11":"Enter the title for this tab","tooltip-12":"Select the table which will be shown in this tab from the dropdown below","tooltip-13":"Enable this to hide the selected columns on mobile","tooltip-14":"Enable this to hide the selected column on desktop","tooltip-15":"This is the list of the hidden columns. Removing a column from this list will make them visible again","tooltip-16":"This is the list of the hidden rows. Removing a row from this list will make them visible again","tooltip-17":"This is the list of the hidden cells. Removing a cell from this list will make them visible again","tooltip-18":"Use direct google sheet embed link with text content, More flexiable and easy to use","tooltip-19":"Use old way [  ] pair to generate link","tooltip-20":"Copy the URL of your Google Sheet from your browser and paste it in the box below. Make sure your sheet is public..","tooltip-21":"Copy the URL of your Google Sheet and paste it here.","tooltip-22":"Allows the users to download the table in the format that you select below","tooltip-23":"For the links on the table you can decide what will happen when a link is clicked","tooltip-24":"The link opens in the same tab where the table is","tooltip-25":"The link will be opened on a new tab","tooltip-26":"Allow 'Smart links' to load multiple embeed links with text from Google Sheet. To use this makesure 'Smart link' support selected from 'link support mechanism' in 'Settings' menu. However, if there is no embeed links in the Sheet or your'e using pretty link format, then there is no need to use it, which will reduces loading time and makes the table load faster.","tooltip-27":"Allow images to be loaded from sheets. You can use it to import images if you have them in Google Sheets. However, if there is no image in the Sheet, there is no need to use it, which will reduces loading time and makes the table load faster.","tooltip-28":"If enabled the table will load faster for the viewers","tooltip-29":"Choose how the table cell will look","tooltip-30":"Cell will expand according to the content","tooltip-31":"Cell will be wrapped according to the content","tooltip-32":"Choose how the table will look on devices with small screens","tooltip-33":"Let the browser decide the behavior of the responsiveness","tooltip-34":"The table rows will be collapse on  each other in one column","tooltip-35":"A horizontal scrollbar will appear for the users to scroll the table left and right","tooltip-36":"Enable this feature to showcase your Sheet's merged cells seamlessly on the WordPress frontend table.","tooltip-37":"Select the number of rows to show per page","tooltip-38":"Select the table height. If the table height is lower there will be a vertical scrollbar to scroll through the rows","tooltip-39":"Quickly change your table's look and feel using themes","tooltip-40":"Enable this feature to import colors and text styles directly from a Google Sheet, instead of using the predefined theme above","tooltip-41":"If this is checked, the tab group title will not be visible in the front end","tooltip-42":"Choose where you want to show the tab","tooltip-43":"The tabs will be shown first and the table will be shown after it","tooltip-44":"The table will be shown first and the tab will be shown after it","tooltip-45":"Set the cursor behavior on your table","tooltip-46":"You can easily highlight text for copy-paste","tooltip-47":"You can effortlessly move the table horizontally (left-right).","tooltip-48":"Allow checkbox to be loaded from sheets. You can use it to import checkox if you have them in Google Sheets.","tooltip-50":"Enable row and column coloring","tooltip-51":"Choose the column or row to add colors","tooltip-52":"Add color on column","tooltip-53":"Add color on row","tooltip-54":"Select which column to sort on load, or keep the format from Google Sheets.","tooltip-55":"Choose the order of sorting for the selected column.","tooltip-56":"Specify the maximum time (in seconds) the plugin will wait for a response from the Google server. A higher timeout allows more time to receive a complete response, but may delay table loading; a lower timeout can speed up loading but may result in missing data if the response isn\u2019t fully received. A setting between 10 and 15 seconds is generally recommended for balanced performance.","tooltip-57":"Choose how you want to sort your table on load. Select a specific column to sort by (either ascending or descending), or keep the same format as in Google Sheets.","tooltip-58":"Select this to make the custom theme available for all tables. If unchecked, the theme will only be used for this table.","tooltip-59":"If selected, any changes made to your theme will be automatically applied to all other tables with the same theme, ensuring consistency across them. If the theme does not exist in other tables, it will be cloned with update style.","tooltip-60":"Adjust the header\u2019s offset to prevent overlap with sticky menus or other elements at the top of the page.","tooltip-61":"Set how many columns from the left side of the table should remain fixed while scrolling.","tooltip-62":"Set how many columns from the right side of the table should remain fixed while scrolling.","tooltip-63":"When this option is enabled, the cache won't trigger any API request to update data from sheets. This helps improve performance and reduce server load. Important: If this is enabled before turning on features like merged cells, links, images, or importing table styles from Google Sheets, those features might not appear until the cache expires. To avoid this, enable all necessary features first, then active the cache feaure and then turn on this option. You can also change the cache expiry time in Settings.","tooltip-64":"Set how many days the cache should be stored in transients. Once the transient expires, the data will automatically refresh from the connected Google Sheets with updated data.","tooltip-65":"Allow visitors to ask questions about the table. AI scans the data and returns accurate, easy to understand answers in real time.","add-new-table":"Add new table","please-activate-your-license":"Please activate your license","activate":"Activate","db-headway":"What\u2019s new?","save-changes":"Save changes","managing-tabs":"1. Tab Creation","tab-settings":"2. Tab settings","table-settings":"Table Settings","managing-tabs-title":"Create tab view with tables","tab-settings-title":"Adjust tab appearance and behavior","save-and-move":"Save & go to Manage Tab","save-and-move-dashboard":"Go to Dashboard","copy-mail":"COPY EMAL","id-table":"ID: TB_","tab-short-copy":"Copied!","wiz-back":"Back","wiz-next":"Next","tab-1":"Tab title","mng-tab":"Tab Groups","mng-tab-content":"Organize multiple tables into tabs, just like Google Sheets!","mng-tab-modal-title":"Get started with tab groups","no-tab":"No tab group found!","no-tab-match":"No tab group matches to your search term","select-table-for-tab":"Select table for this tab","sel-pagination":"Select Pagination","customize-theme-hint":"Customize your theme according to your needs","sort-by-name":"Name","sort-by-id":"ID","sort-by-date":"Date","ascending":"Ascending","descending":"Descending","above":"above","below":"below","no-table-found":"No tables found!","no-table-match":"No tables matches to your search term","shortcode":"Shortcode","manage-tab":"1. Managing tabs","create-table":"Create table","create-table-from-url":"Create table from URL","change-theme-table-style":"Change theme and table style","change-table-theme":"You can change table theme below. You will find more customization in the dashboard.","get-pro":"Get Pro","pro":"PRO","to-create-table-from-any-tab":"to create table from any tab of your Google SpreadSheet.","google-sheet-url":"Add your Google Sheet URL to create a table","copy-the-url":"Paste the browser URL of your Google Sheet below, and the table will be created for you to customize","creating-new-table":"Creating new table","create-wooCommerce-product":"Create WooCommerce product table easily!","install-stock-sync-for-wooCommerce":"Install Stock Sync for WooCommerce","and sync your store products":"and sync your store products to Google Sheets. Use the synced Google Sheet to create table. It\u2019s easy!","install-now":"Install now","table-title":"Table title","please-reduce-title-to-save":"Please reduce title to save.","gsu":"Google Sheet URL","show-table-title":"Show Table title","table-top-elements":"Table top elements","hide-ent":"Show entries","hide-search-box":"Show search box","swap":"Swap","hide-title":"Hide title","allow-sorting":"Allow Table Sorting","sorting-control":"Hide sorting controls from table","auto-sorting":"Set Default Table Sorting on Load","col-sorting":"Sort By Column","order-sorting":"Sort By Order","sort-by":"Sort By","enb-fixed-clmn":"Freeze Table Columns","left-clmn-header":"Left Columns Numbers","right-clmn-header":"Right Columns Numbers","fixed-header":"Freeze Table Header","header-offset":"Header Offset","table-bottom-ele":"Table bottom elements","hide-entry-info":"Show entry info","hide-pagi":"Show pagination","swap-pos":"Swap position","swapped-pos":"Swapped position","theme-alert":"Themes cannot be used when the \"Import colors and text styles from sheet\" feature is enabled","doc-1":"How does this plugin work?","doc-1-ans":"Watch how to \u003Ca target='_blank' href='https://www.youtube.com/playlist?list=PLd6WEu38CQSyY-1rzShSfsHn4ZVmiGNLP'\u003Eget started with FlexTable\u003C/a\u003E.","doc-10":"Where can I find tutorials about this plugin?","doc-10-ans":"Please visit our \u003Ca target='_blank' href='https://www.youtube.com/playlist?list=PLd6WEu38CQSyY-1rzShSfsHn4ZVmiGNLP'\u003EYoutube playlist\u003C/a\u003E, where we post tutorials on how you can use different features of the plugin.","doc-2":"What date format can I use?","doc-2-ans":"When working with date formats in your table, you have various options to choose from. Avoid using a \u003Cspan class='date-format'\u003E\u003Ccode\u003Ecomma separator\u003C/code\u003E\u003C/span\u003E, but consider formats such as \u003Cbr\u003E e.g. \u003Cspan class='date-format'\u003E\u003Ccode\u003E2005-06-07\u003C/code\u003E | \u003Ccode\u003E2005/06/07\u003C/code\u003E | \u003Ccode\u003E2005 06 07\u003C/code\u003E | \u003Ccode\u003EJune 7- 2005\u003C/code\u003E | \u003Ccode\u003EJune 7 2005\u003C/code\u003E | \u003Ccode\u003E7th June 2005\u003C/code\u003E\u003C/span\u003E","doc-3":"Which one is better for link support?","doc-3-ans":"For enhanced link functionality, it's advisable to utilize \u003Cspan class='date-format'\u003E\u003Ccode\u003ESmart Link\u003C/code\u003E\u003C/span\u003E over the \u003Cspan class='date-format'\u003E\u003Ccode\u003EPretty Link\u003C/code\u003E\u003C/span\u003E. Smart Link is known for its robust and user-friendly features.","doc-5":"Why my table taking too long to load?","doc-5-ans":"If your table is taking too long to load, it may be due to the presence of a substantial amount of data in Google Sheets, along with images and links. If your sheet doesn't contain images or links, consider disabling \u003Cspan class='date-format'\u003E\u003Ccode\u003Elinks and Image support\u003C/code\u003E\u003C/span\u003E within the \u003Cspan class='date-format'\u003E\u003Ccode\u003EUtility\u003C/code\u003E\u003C/span\u003E settings of Table Customization to expedite table loading. Utilizing the cache feature can also improve loading times.","doc-6":"How long table data can take to update if Cache is activated?","doc-6-ans":"When the cache feature is active, updates to your table data are not reliant on your browser's cache. Changes made in your sheet may take approximately 15-40 seconds to reflect. To view the latest updates, simply refresh the page after this timeframe.","doc-7":"How do I find tutorials about using the plugin?","doc-7-ans":"Please visit our \u003Ca target='_blank' href='https://www.youtube.com/playlist?list=PLd6WEu38CQSyY-1rzShSfsHn4ZVmiGNLP'\u003EYouTube playlist\u003C/a\u003E, where we post tutorials on how you can use different features of the plugin.","doc-9":"How can I create a table from an imported XLSX file in google spreadsheets?","doc-9-ans":"Make sure to import the XLSX file into Google Spreadsheets in the following ways. Create a new blank spreadsheet, then navigate to `\u003Cspan class='date-format'\u003E\u003Ccode\u003E File \u003E Import \u003E Upload\u003C/code\u003E\u003C/span\u003E` Drag the XLSX files to import. Then share the spreadsheets from 'General Access'. Please visit our \u003Ca target='_blank' href='https://www.youtube.com/playlist?list=PLd6WEu38CQSyY-1rzShSfsHn4ZVmiGNLP'\u003EYouTube playlist\u003C/a\u003E, where we post tutorials on how you can use XLSX file imported in google spreadsheets.","get-started":"Get Started","get-started-content":"Let\u2019s get you set up so you can start creating awesome tables","documentation":"Documentation","vt":"Video Tutorial","prof-need-help":"Get professional help via our ticketing system","faq":"Frequently Asked Question","get-plugin":"Get the most out of the plugin. Go Pro!","unlock-all":"Unlock all features","link-supp":"Link Support to import links from sheet","pre-built-sheet-style":"Pre-built amazing table styles where Each styles is different from one another","hide-row-based-on":"Hide your google sheet table rows based on your custom row selection","unlimited-fetch-from-gs":"Unlimited Row Sync and fetch unlimited rows from Google spreadsheet","export-json":"Export as JSON","export-csv":"Export as CSV","export-pdf":"Export as PDF","export-excel":"Export as Excel","print":"Print Table","copy":"Copy to Clipboard","live-sync-is-limited":"Live sync is limited to 30 rows.","table-10-limited":"In your free plan, you are limited to creating 10 tables. Upgrade to create more.","upgrade-pro":"Upgrade to Pro","for-showing-full":"for showing full google sheet.","data-source":"1. Data source","table-theme":"2. Table theme","tc":"3. Table customization","hide-row-col":"4. Hide Rows/Column","conditional-view":"5. Conditional Table View","ai-integration":"6. AI Integration","table-desc":"Table description","show-table-desc":"Show Table description","data-source-title":"Connect your Google Sheet","table-theme-title":"Choose how your table appears","tc-title":"Style and personalize your table\u2019s look","hide-row-col-title":"Show or hide specific rows and columns","conditional-view-title":"Choose how you want to Display the table","ai-integration-title":"Auto-summarize data or let visitors ask questions using AI","save":"Save","lp":"Loading Preview...","dashboard":"All Tables","get-unlimited-access":"Upgrade","CTF":"Create tables first to manage tabs","manage-tab-is-not-available":"Manage tab is not available because you don\u2019t have any tables yet. Please create tables first","display-multiple":"Display multiple tables using tabs.","manage-new-tabs":"Create New Tab Group","tabs-created":"Your Tab Groups","no-tabs-found":"No tabs found with the key","tab-title":"Tab Title","add-tab":"Add tab","tab-group-title":"Tab group name","lts-data":"Let\u2019s bring meaning to your data","create-beautifully-designed-tables":"Create beautifully designed tables from Google sheets and customize as you need.","other-prodct":"Our Other Products","remarkable-product":"Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs. Think you know WordPress products? Think Deeper!","hidden-cell":"Hidden Cells on Desktop","hidden-cell-mob":"Hidden Cells on Mobile","hide-cell":"Hide Cells","hidden-row":"Hidden Rows on Desktop","hidden-row-mob":"Hidden Rows on Mobile","hide-row":"Hide Rows","same-desktop":"Same as desktop","hidden-column":"Hidden Columns on Desktop","hidden-column-mob":"Hidden Columns on Mobile","hide-column-desktop":"Hide columns on desktop","hide-column-mobile":"Hide columns on mobile","hide-column":"Hide Columns","hide-desktop":"Hide on Desktop","hide-mobile":"Hide on Mobile","desktop":"Desktop","mobile":"Mobile","click-on-the-cells":"Click on the cells on the table below that you want to hide","click-on-the-rows":"Click on the rows on the table below that you want to hide","click-on-the-col":"Click on the column on the table below that you want to hide","new":"New","save-settings":"Save settings","custom-css":"Custom CSS","recommended":"Recommended","with-pretty-link":"With Pretty link","with-smart-link":"With Smart link","asynchronous-loading":"Asynchronous loading","async-content":"Enable this feature to load the table faster. The table will load in the frontend after loading all content with a pre-loader. If this feature is disabled then the table will load with the reloading of browser every time.","choose-link-support":"Choose your link support mechanism in WP Tables","write-own-css":"Write your own custom CSS to design the table or the page itself. Activate the Pro extension to enable custom CSS option","performance":"Performance","script-content":"Choose how you want to load your table scripts","global-loading":"Global loading","global-loading-details":"Load the scripts on all the pages and posts in your website.","optimized-loading":"Optimized loading","optimized-loading-details":"Load scripts only on the relevant pages/posts in your website where the table is added.","WPPOOL":"WPPOOL","powered-by":"Powered by","default-mail":"Default Email App","open-default-mail":"Open your default email app","copy-content":"Copy email address to your clipboard","yahoo":"Yahoo","yahoo-content":"Open Yahoo in browser","outlook":"Outlook","outlook-content":"Open Outlook in browser","gmail":"Gmail","gmail-content":"Open Gmail in browser","support-modal-title":"Select the convenient option to connect with us","Delete":"Delete","tab-group-delete":"This Tab Group will be deleted. It will not appear on your website anymore, if you used it somewhere","Cancel":"Cancel","confirmation-delete":"Are you sure to delete this Tab Group?","Utility":"Utility","Style":"Styling","Layout":"Layout","table_customization_layout":"Layout","let-export":"Let user export table","Excel":"Excel","JSON":"JSON","Copy":"Copy","CSV":"CSV","PDF":"PDF","Print":"Print","link-behave":"Link redirection behaviour","open-ct-window":"Opens in current window","open-new-window":"Opens in a new window","cursor-behavior":"Cursor behavior inside the table","highlight-and-copy":"Text selection mode","left-to-right":"Table navigation mode (left-right)","import-links":"Import links from sheet","import-checkbox":"Import checkbox from sheet","specific-column":"Enable sorting by specific columns in","sorting-ascending":"Ascending","sorting-descending":"Descending","sorting-checkbox-content":"within the table","import-image":"Import images from sheet","cache-table":"Cache table for faster loading time","frequent-cache":"Prevent frequent cache updates for faster table loading","freq-content":"New changes from Google Sheets will appear only after the cache expires. Features like links, images, and merged cells may not show until the cache refreshes. Cache expiry time can be adjusted in Settings \u2014\u003E Performance.","cell-formatting":"Cell formatting style","expanded":"Expanded","wrapped":"Wrapped","responsive-style":"Responsive style","default":"Default","collapsible-style":"Collapsible Style","scrollable-style":"Scrollable Style","row-per-page":"Rows to show per page","All":"All","100":"100","50":"50","30":"30","15":"15","10":"10","5":"5","1":"1","-1":"-1","limited-to-msg":"The table is limited to 100 rows.","limited-to-msg-2":"to show the full Google Sheet with awesome customizations.","upgrade-now":"Upgrade Now \u2192","table-height":"Table height","default-height":"Default height","400px":"400px","500px":"500px","600px":"600px","700px":"700px","800px":"800px","900px":"900px","1000px":"1000px","select-theme":"Select theme","import-color-from-sheet":"Import colors and text styles from sheet","unlock":"Unlock","Default-Style":"Default Style","Simple":"Simple","Dark-Table-wiz":"Dark Table","Dark-Table":"Simple on dark","Stripped-Table":"Stripped Table","minimal-Table":"Minimal on dark","hover-style":"Hover Style","minimal-elegant-style":"Minimal elegant","Taliwind-Style":"Taliwind Style","Uppercase-heading":"Uppercase heading","create-success":"Table creation successfull","colored-column":"Colored Column","vertical-style":"Vertical style","minimal-simple-style":"Minimal","dark-style-theme":"Dark knight","uppercase-elegant-theme":"Uppercase elegant","merge-cells":"Merge cells","beta":"Beta","merge-cells-notice":"Sorting feature is disabled. Your sheet contains vertically merged cells, so you can't use the sorting feature and merge cell feature altogether.","are-you-sure-to-disable":"Are you sure to disable?","imported-style-desc":"Colors and text styles from your Google Sheet won\u2019t be imported anymore. A default theme will be selected for you if you haven\u2019t selected one already","yes-disable":"Yes, Disable","yes-enable":"Enable for Faster Loading","are-you-sure-to-enable-frequent-mode":"Prevent Live Sync?","frequent-cache-note":"Table data will only refresh when the cache expires. This improves performance but may delay content updates. You can adjust the cache expiry time in Settings \u2192 Performance.","frequent-mode-desc":"Enabling this feature will skip live sync until your cache expires. Make sure your Google Sheet up to date and you've enabled all necessary features (images, links, merged cells, etc.) from the settings first.","Dashboard":"All Tables","Dashboard-title":"Manage, create and track all your tables tables in one place","manage-tab-submenu":"Tab Groups","global-settings":"Global Settings","global-settings-content":"Configure default settings for all your tables","Skip":"Skip","add-sheets":"Add Google Sheet URL","recommended-plugins":"Recommended Plugins","filtering_show":"Show","filtering_entries":"entries","search":"Search:","dataTables_info_showing":"Showing","dataTables_info_to":"to","dataTables_info_of":"of","first":"First","previous":"Previous","next":"Next","previous2":"PREV","next2":"NEXT","last":"last","data-empty-notice":"No matching records found","copy-shortcode":"Copy shortcode","copy-shortcode-to-use-in-page":"Copy the shortcode to use in in any page or post. Gutenberg and Elementor blocks are also supported","are-you-sure-to-delete":"Are you sure to delete the table? ","confirmation-about-to-delete":"You are about to delete the table. This will permanently delete the table(s)","merge-alert":"Vertical merge found!","merge-info":"Please make sure to keep the sorting feature disabled. Google sheet doesn't filter over a range containing vertical merges.","merge-confirm":"OK","active-merge-condition-alert":"Your sheet contains vertically merged cells, so you can not use the sorting feature. Sorting may break the table design and format. Please ensure that you have enabled either the vertical merge cell feature or the sorting feature, or confirm that your sheet has no vertical merges. If your table design still breaks even with sorting disabled, consider reloading the sheet or clicking save again to reflect the necessary fixes. To get the sorting feature visit Display settings \u003E Disable sorting","select-column":"Select a column (optional)","After-the-table":"After the table","Before-the-table":"Before the table","Tab-position":"Tab position in embedded view","hide-grp-title":"Hide tab group title","do-not-have-table":"Manage tab is not available because you don\u2019t have any tables yet. Please create tables first","create-table-to-manage":"Create tables first to manage tabs","no-tab-grp-created":"\ud83d\udc4b Let's create your first tab groups","tab-groups-will-appear-here":"Click the button below to create tab groups","tab-grp-title":"Show tab group name in embedded view","header-color-title":"HEADER COLORS","text-color-title":"TEXT COLORS","body-title":"BODY COLORS","table-text-title":"TABLE TEXTS","table-hover-title":"TABLE HOVER","row-title":"ROW COLORS","column-title":"COLUMN COLORS","border-title":"BORDER COLORS","customize-theme-options-title":"Customize Theme Options","border-style-title":"Border Style","theme-reset":"Reset","bg-color":"Background color","txt-color":"Text color","first-cl-txt-color":"First column text color","rest-txt-color":"Rest body text color","remaning-txt-color":"Remaining column text color","hover-color":"Hover background color","hover-text-color":"Hover text color","table-bg-color":"Table background color","table-hover-color":"Table hover color","table-border-color":"Table border color","table-text-color":"Table text color","border-color":"Border Color","out-border-color":"Outside body border","inside-border-color":"Inside border","even-row-color":"Even row color","odd-row-color":"Odd row color","even-column-color":"Even column color","odd-column-color":"Odd column color","outside-border-type":"Outside border type","outside-border":"Outside border","solid-border":"Solid border","rounded-border":"Rounded border","border-radius":"Border radius","update-changes":"Update Theme","theme-name":"Theme name","theme-colors":"Theme colors","active-column-colors":"Column color","active-row-colors":"Row color","edit-theme":"Edit","yes-delete":"Yes, Delete","yes-reset":"Yes, Reset","add-theme":"Create Theme","theme-alert-delete":"Can\u2019t delete active theme!","theme-delete-notice":"The theme is active and currently in use. Please select another theme for your table before deleting this one","confirmation-theme-delete":"Are you sure to delete theme?","confirmation-theme-delete-notice":"This theme wil be deleted and it can not be recovered. Are you sure to delete it?","confirmation-theme-reset":"Are you sure to reset?","confirmation-theme-reset-notice":"All of your changes & customization will be lost","enable-row-column-ordering":"Enable row and column coloring","none":"None","row-wise":"Row wise","col-wise":"Column wise","select-coloring":"Select coloring","hover-mode":"Hover mode","+new-theme":"+ New Theme","apply-theme-globally":"Apply this custom theme to all tables","style-theme-globally":"Apply this same style for the other table","df-pagination":"Default pagination","md-pagination":"Modern pagination","minimal-pagination":"Minimal pagination","tailwind-pagination":"Tailwind pagination","outline-pagination":"Outlined pagination","color-picker":"Color Picker","pagination-color-will":"Pagination color will change based on your selected color","pg-style":"Pagination Style","pagination":"Pagination","active-pagination-color":"Active pagination color","keep-pagination-in-middle":"Keep pagination in middle","confirm":"Confirm","basic-display":"Basic Display","column-specific":"Enable Column-Specific Search","table-will-show-by-default":"Table will show by default and work accordingly. Nothing special here","a-search-field":"Turn your table into a powerful search-engine! Visitors will initially see a search box instead of the table. Based on their input, they will receive filtered data in a streamlined table view. Ideal for searching both broad and specific ranges of information from your Google Sheets (e.g., student records, employee info, etc.).","search-only-display":"Search Only Display","user-specific-display":"User-Specific Display","Upcoming":"Upcoming","displayed-only-to-logged-in-users":"Enhance personalization with this mode. It allows the table to be displayed only to the logged-in users based on their credentials or unique data (e.g., username or email) stored in the Google Sheets. There will be no search box, preventing anyone from searching other users' data.","password-pin-protected":"This mode adds an extra layer of security to your data. The table is protected by a password or PIN, ensuring that only authorized users can unlock and see the table information.","protected-view":"Protected View","loading-header":"Loading headers...","want-to-display-your-search":"Choose Search-Result Trigger Option","show-search-result-once-Typing":"Show search result once Typing","show-search-result-after-pressing":"Show search result after pressing Search button","column-for-table-search":"Select a column to search within its data. Results will only show matches from the selected column. If no column is selected, the search will apply to all data in the Google Sheet.","unable-to-access":"Unable to access the Sheet! Please follow the instructions below:","on-your-google":"On your Google Sheet, click on the","button-located-at":"button located at the top-right corner. Then on the popup, choose the","anyone-with-the-link":"Anyone with the link","option-under-general":"option under General access","click-on-the":"Click on the","icon-on-the-popup":"icon on the popup and ensure that the option","viewers-and-Commenters":"Viewers and commenters can see the option to download, print, and copy","is-selected":"is selected","share":"Share","save-the-changes":"Save the changes by clicking on the","done":"Done","button":"button","General":"General","seconds":"seconds","make-your-first-table":"Let\u2019s make your first table","help-on-your-first-table":"Let us help you with your first table creation. You are just a step away from creating beautiful tables from your Google Sheets","days":"Day ","timeout-label":"Response Timeout: ","timestamp-label":"Timestamp: ","timeout-content":"Choose the maximum response timeout the table need to wait","cache-timestamp":"Choose the maximum day to store the cache","the-table":"the table","edit-table":"Edit table","duplicate-table":"Duplicate table","delete-table":"Delete table","name-used":"Name already used, please use another name for theme","name-need":"Name field can not be empty","ai-summary-configuration":"AI Table Summary Configuration","ai-configuration-desc":"Configure OpenAI integration for intelligent table summaries","choose-ai-provider":"Engine (AI Provider)","choose-ai-provider-title":"Select the AI engine that will generate summaries and answer user queries.","tooltip-ai-provider":"Select your preferred AI provider for generating table summaries","tooltip-openai":"OpenAI GPT models - industry leading AI with excellent performance","tooltip-gemini":"Google Gemini models - fast and efficient AI by Google","checking":"Checking...","top-p":"Top P","tooltip-top-p":"Controls diversity via nucleus sampling. Lower values make output more focused.","top-k":"Top K","tooltip-top-k":"Limits token selection to top K candidates. Lower values are more focused.","precise":"Precise","diverse":"Diverse","broad":"Broad","openai-api-key":"OpenAI API Key","tooltip-api-key":"Your OpenAI API key. Get one from https://platform.openai.com/api-keys","test-api":"Test API","ai-model":"AI Model","tooltip-ai-model":"Choose the OpenAI model for generating summaries. gpt-4o-mini is fast and cost-effective, gpt-4 is more accurate.","gpt-4o-mini":"GPT-4o Mini","gpt-3-5-turbo":"GPT-3.5 Turbo","gpt-4":"GPT-4","gpt-4-turbo":"GPT-4 Turbo","max-tokens":"Max Tokens","tooltip-max-tokens":"Maximum number of tokens for AI response. Higher values allow longer summaries but cost more.","short-summary":"100 (Short)","long-summary":"2000 (Long)","creativity":"Creativity","tooltip-temperature":"Controls randomness in AI responses. Lower values (0.1-0.3) are more focused, higher values (0.7-1.0) are more creative.","focused":"0 (Focused)","creative":"1 (Creative)","frequency-penalty":"Frequency Penalty","tooltip-frequency-penalty":"Reduces repetition in AI responses. Higher values (0.3-1.0) discourage repetitive text.","allow-repetition":"0 (Allow Repetition)","avoid-repetition":"1 (Avoid Repetition)","cache-duration-title":"Cache Duration","cache-duration-label":"Duration:","tooltip-cache-duration":"How long to cache AI responses before making new API calls.","30-minutes":"30 minutes","1-hour":"1 hour","2-hours":"2 hours","6-hours":"6 hours","12-hours":"12 hours","24-hours":"24 hours","advanced-settings":"Advanced Settings","advanced-settings-desc":"Configure advanced AI model parameters for fine-tuned control over response generation.","ai-model-desc":"Choose the AI model that best fits your needs. Different models have varying capabilities and costs.","enable-summary":"Enable AI Table Summary","preview":"Preview","summary-position":"Summary Position","summary-position-above":"Above Table","summary-position-below":"Below Table","tooltip-summary-position":"Choose whether to display the summary above or below the table","summary-position-desc":"Select the position where the AI Table Summary should be displayed relative to the table.","text-min":"min","cachetime":"Cache time:","cache-to-load-faster":"Cache summary for faster loading","decide-where-the":"Decide where the AI Table Summary will be displayed in relation to your table.","instant-summary":"Instant Summary","prompt-for-summary":"Prompt for Summary","you-will-generate-and":"You will generate and save the summary in advance. Visitors will see it instantly with no delay.","enable-to-reuse-the-same-summary":"Enable to reuse the same summary to reduce load time. Turn off to generate a fresh summary each time.","write-the-prompt":"Write the prompt that AI will follow to generate the summary. Visitors trigger this when they click the summary button.","show-regenerate-button":"Show regenerate button in summary modal","allow-visitors-to-regenerate-summary":"Allow visitors to regenerate the AI Table Summary with fresh data by clicking the regenerate button.","summary-display-always-show":"Always Show","summary-display-collapsed":"Collapsed (click to expand)","tooltip-summary-display":"Choose how the summary appears to visitors - always visible or collapsed with click to expand","summary-display-desc":"Select how the AI Table Summary should be displayed to your visitors on the frontend.","ask-ai-placeholder":"Ask AI Placeholder Text","ask-ai-button-label":"Ask AI Button Label","tooltip-ask-ai-placeholder":"Customize the placeholder text shown in the AI prompt input field","tooltip-ask-ai-button-label":"Customize the text displayed on the AI prompt submit button","summary-display-title":"Summary Display","summary-display-description":"Decide if visitors see the summary right away or only when they expand it.","always-show":"Always show","collapsed-click-to-expand":"Collapsed (click to expand)","ai-summary-preview":"AI Table Summary Preview","ai-summary-preview-description":"Review the generated summary. This what your visitors will see. Edit and save to finalize.","ready-to-create-first-summary":"Ready to create your first summary?","add-prompt-and-generate":"Add a prompt and click Generate to create one.","placeholder-text-title":"Placeholder text","placeholder-text-description":"What visitors see before typing","button-label-title":"Button label","button-label-description":"Text on your Ask AI button","preview-title":"Preview","turn-data-into-smart-summarize":"Turn on AI to create summaries of your table data.","deceide-where-ai-summary-display":"Decide where the AI Table Summary will be displayed in relation to your table.","customize-the-text-and-colors":"Customize the text and colors of the summary button to match your site style.","summary-button":"Summary Button","reset-prompt":"Reset prompt","Youtube-title":"Tutorial","summary-source":"Summary Source","summary-content":"Visitors will see a button to summarize the table. When they click, AI will create the summary live using your prompt.","generate-onclick":"Generate on Click","btntext":"Button text","Upcomming":"Upcomming","lets-visitors":"Allow visitors to ask their own questions about this table.","enable-ask-ai":"Enable Ask AI","analyzing-table":"AI is analyzing your table...","save-summary":"Save Summary","update-summary":"Update Summary","edit-summary":"Edit","current-backend-summary":"Current Stored Summary","summary-preview-note":"This is exactly how the summary will appear on your frontend table. Click 'Edit Summary' above to modify it.","summary-content-label":"Summary Content","summary-content-placeholder":"Generated AI Table Summary will appear here...","no-summary-stored":"No summary has been generated yet. Click \"Generate Summary\" to create one.","summary-last-updated":"Last updated","save-backend-summary":"Keep it","delete-backend-summary":"Delete","confirm-delete-summary":"Are you sure you want to delete this summary?","backend-summary-modal-edit-desc":"Edit and modify the AI-generated summary content before saving it to the database.","backend-summary-content-label":"Summary Content","backend-summary-placeholder":"Enter or edit the summary content here...","regenerate-summary":"Regenerate Summary","regenerating-summary":"Regenerating...","regenerate-summary-desc":"Generate a new AI Table Summary and replace the current content.","ai-config-tab":"AI Configuration","ai-config-warning":"AI provider not configured. Please add your API key in settings.","configure-ai-settings":"Configure AI Settings","are-you-sure-to-delete-summary":"Are you sure to delete the summary? ","confirmation-about-to-delete-summary":"You are about to delete the summary. This action cannot be undone.","ai-summary-feature":"AI Summary Preview","ai-summary-editor":"AI Summary Editor","list-no-1":"\u2022 List","list-no-2":"1. List","sec-head":"Section Heading","customize-main-head":"Customize the main heading text for the Ask AI section","ask-ai-interface":"Ask AI Interface","ask-ai-interface-hint":"Enter your question and get AI-powered insights about the table data","suma-title":"Summary Title","quick-video":"quick video","open-ai-gpt-title":"OpenAI (GPT)","gemini-ai-title":"Google Gemini","ai-api-key":"API Key","get-ai-api-key":"Get API Key","get-ai-api-key-hint":"Get your API key from your provider dashboard","get-ai-api-key-hint-2":"and paste it here. Your key is stored securely and never shared.","chat-gpt":"ChatGPT","gemini-ai-studio":"Google AI Studio","model-version":"Model Version","update-filter":"Update Filter","add-filter":"Add Filter","add-filter-hint":"Advanced column filtering with search, select, and multi-select options","filter-wise-display":"Filter Wise Display","global-filter-settings":"Global Filter Settings","enable-table-filters":"Enable Table Filters","select-primary-filter-type":"Select Primary Filter Type","text-search":"Text Search","single-select":"Single Select","multi-select":"Multi Select","mixed-filters":"Mixed Filters (All Types)","filter-position":"Filter Position","filter-position-header":"Header","filter-position-footer":"Footer","strict-mode":"Strict Mode","hide-filter-ui":"Hide Filter UI","auto-enable-all-columns":"Auto-Enable Filters for All Columns","load-default-filters":"Load Default Filter Values","column-filter-config":"Column-Specific Filter Configuration","auto-enable-mode":"Auto-Enable Mode","auto-enable-mode-description":"All columns automatically have filters using the global settings above.  Add specific columns below to customize their individual settings, or disable 'Auto-Enable Filters for All Columns' to only show filters for manually added columns.","manual-mode":"Manual Mode","manual-mode-description":"Only columns added below will have filters. Enable 'Auto-Enable Filters for All Columns' above to automatically show filters for all columns.","add-column-filter":"Add Column Filter","edit-column-filter-title":"Edit Column Filter","add-column-filter-desc":"Add columns here to override their global settings","no-column-filters":"No column filters configured. Click \"Add Column Filter\" to get started.","filter-type":"Filter Type","target-column":"Target Column","column":"Column","default-value":"Default Value","filter-active":"Filter Active","filter-active-desc":"Whether this filter is applied to the table - if unchecked, filter is completely disabled","user-can-modify":"User Can Modify","user-can-modify-desc":"Allow users to change filter values - if unchecked, filter becomes readonly","hide-this-filter-ui":"Hide This Filter UI","hide-this-filter-ui-desc":"Hide this specific filter UI but keep it working in background","strict-mode-override":"Strict Mode Override","use-global-sett":"Use Global Setting","enable-global-sett":"Enable for this filter","disable-global-sett":"Disable for this filter","global-sett-msg":"Global: Follow the \"Strict Mode\" setting above. Enable/Disable: Override for this specific filter.","user-specific-display-settings":"User-specific Display Settings","enable-user-specific-display":"Enable User-specific Display","user-strict-mode":"Strict Mode (Exact Matching)","hide-user-filter-ui":"Hide All User Filter UI","user-filter-configuration":"User-Specific Filter Configuration","user-base-filtering":"User-Based Filtering:","user-base-filtering-desc":"Configure which columns should be filtered based on logged-in user data. Each filter will automatically use the user's information (email, username, roles, etc.) to show relevant rows.","add-user-filter":"Add User Filter","configure-column-filter":"Configure columns to filter based on user data","user-fields":"User Fields","user-fields-enabled":"Enabled","user-can-change":"User Can Change","no-user-filters":"No user filters configured. Click \"Add User Filter\" to get started.","user-fields-to-match":"User Fields to Match (Multi-select)","hold-ctrl-cmd-to-select-multiple-fields":"Hold Ctrl/Cmd to select multiple fields. The filter will match if ANY of the selected fields match.","whether-this-user-filter-is-applied":"Whether this user-based filter is applied - if unchecked, filter is completely disabled","user-can-override":"User Can Override","cta-notice-title":"Get Help with Table Creation","cta-notice-description":"Create awesome tables from your Google Sheets. Just paste the link and see the magic","cta-notice-quick-tutorial":"Quick Tutorial","cta-notice-get-started":"Get started with table creation","quick video tutorial":"Quick Video Tutorial","cta-notice-read-docs":"Read Documentation","cta-notice-close-button-label":"Close","cta-notice-dismissing":"Closing...","ai-table-summary":"\ud83e\udd16 AI Table Summary","ai-table-summary-description":"Turn your data into quick and smart summary","ai-ask-ai":"\ud83d\udcac Ask AI","ai-ask-ai-description":"Lets visitors chat with your table data","ai-connect-to-unlock-features":"Connect AI to Unlock Features","ai-connect-to-unlock-features-description":"Set up your preferred provider (like Gemini or OpenAI) to use these AI tools.","ai-setup-provider":"Setup AI Provider","ai-help":"Help?","ai-not-ready":"\ud83d\udca1 Not ready? No worries - you can enable AI anytime later.","table-description-tooltip":"Table description holder. Enter your table description here.","enter-table-description":"Enter your table description","enter-custom-css-placeholder":"# # Insert custom CSS code here to modify looks and feel","get-started-title":"Get started with your first table","get-started-description":"Let's create your first table from Google Sheets \u2013 it's as easy as pie!","get-started-watch-tutorial":"Watch a quick tutorial","get-started-explore-resources":"Explore helpful resources","get-started-pro-version":"\ud83c\udf81 Get the pro version and unlock endless possibilities","help-doc-1-title":"Documentation","help-doc-1-description":"Find comprehensive guides and step-by-step instructions to get the most out of FlexTable","help-doc-1-cta":"Open Docs","help-doc-2-title":"Video Tutorials","help-doc-2-description":"Watch detailed video tutorials to learn FlexTable features and best practices","help-doc-2-cta":"Watch Videos","help-doc-3-title":"Get Support","help-doc-3-description":"Need help? Our support team is ready to assist you with any questions or issues","help-doc-3-cta":"Contact Support","help-doc-4-title":"Community Forum","help-doc-4-description":"Join our community to share ideas, get tips, and connect with other FlexTable users","help-doc-4-cta":"Join Forum","":""},"iconsURL":{"curlyBrackets":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/brackets-curly-update.svg","copySolid":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/copy-solid-update.svg","fileCSV":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/file-csv-solid-update.svg","fileExcel":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/file-excel-solid-update.svg","filePdf":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/file-pdf-solid-update.svg","printIcon":"https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync-pro/assets/public/icons/print-solid-update.svg"},"nonce":"304b3fac9f","user_auth":{"logged_in":false,"user_id":0,"username":"","email":"","nickname":"","display_name":"","first_name":"","last_name":"","roles":[]}};
+//# sourceURL=GSWPTS-frontend-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ehs.ncsu.edu/wp-content/plugins/sheets-to-wp-table-live-sync/assets/public/scripts/frontend/frontend.min.js?ver=1777600023" id="GSWPTS-frontend-js-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://ehs.ncsu.edu/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://ehs.ncsu.edu/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+
+<!-- Shortcodes Ultimate custom CSS - start -->
+<style type="text/css">
+.su-tabs-nav span:hover {
+  background: #CCCCCC;
+}
+</style>
+<!-- Shortcodes Ultimate custom CSS - end -->
+
+	</body>
+</html>
+
+<!-- Dynamic page generated in 1.677 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-04-30 21:47:03 -->
+
+<!-- super cache -->

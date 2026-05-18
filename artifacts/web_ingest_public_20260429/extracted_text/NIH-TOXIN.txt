@@ -1,0 +1,124 @@
+Requirements for Possession, Use, and Transfer of Exempt 
+Quantities of CDC Select Toxins at all NIH Campuses 
+
+I. 
+
+PURPOSE 
+
+This document outlines the National Institutes of Health’s (NIH) institutional program 
+requirements for possession, use, and transfer of exempt quantities of CDC Select Toxins 
+
+These requirements have been established to ensure safe laboratory handling, use, and storage 
+procedures, effective inventory tracking, security measures, and compliance with federal 
+regulations at all NIH campuses (Bethesda, RML, NCI-Frederick including Frederick National 
+Laboratory locations, and NIEHS-NC) and locations. 
+
+Federal regulations (42 CFR 73) allow each Principal Investigator (PI) to possess up to a specified 
+amount of toxin and remain exempt from registration with the CDC Federal Select Agent 
+Program. The following is a list of the Select Toxins and maximum permissible quantities: 
+
+TOXIN 
+Abrin 
+Botulinum neurotoxins 
+Short, paralytic alpha conotoxins 
+Diacetoxyscirpenol (DAS) 
+Ricin 
+Saxitoxin 
+Staphylococcal Enterotoxins (Subtypes A, B, C, D, E) 
+T-2 toxin 
+Tetrodotoxin 
+
+Max Permissible Quantity/ PI 
+1000 mg 
+1 mg 
+100 mg 
+10,000 mg 
+1000 mg 
+500 mg 
+100 mg 
+10,000 mg 
+500 mg 
+
+To remain exempt from registration with the CDC, the PI must ensure the total amount of toxin 
+possessed does not ever exceed the permissible limit. Due to the severe penalties associated 
+with non-compliance with the Select Agent Regulations, it is required that each laboratory 
+maintains an accurate inventory of stock, and detailed usage records for these toxins. 
+
+II. 
+
+PROCEDURES 
+
+All PIs using select toxins must ensure the following requirements are met: 
+
+• Select toxin possession and use is registered with an NIH Institutional Biosafety Committee 
+(IBC)- in Bethesda, RML, NCI-Frederick, or NIEHS-NC, PRIOR to obtaining any select toxin. 
+
+• All associated researchers in the laboratory using or having access to the toxin must be 
+
+added to the applicable biological registration at your specific location and must adhere to 
+any other specific requirements associated with the registration. 
+
+ 
+ • The PI will complete and sign the Toxin Exclusion Form (TEF), or site equivalent, which may 
+also be used for researcher attestation. The registration may be periodically amended to 
+update the TEF. 
+
+• Develop SOPs for toxin procedures and include these in the Laboratory Biosafety Manual. 
+• All listed researchers attend initial Laboratory Safety Training (and annual retraining) and 
+be provided lab specific training by the PI for exempt toxin work. At a minimum, training 
+should include toxin-associated hazards, PPE for handling toxin, safe handling procedures, 
+appropriate inactivation and disposal methods, inventory and recordkeeping procedures 
+for usage, and security controls including reporting parameters. 
+Inventory Controls: 
+
+• 
+
+o Storage of all Select Toxins must be kept in a locked location accessible ONLY to 
+associated researchers listed on the PRD. Toxins and/or aliquots must be 
+secured, with a minimum of two layers of security, with either a key or 
+combination lock that prevents any unauthorized personnel access to the 
+material (e.g., keyed lockbox physically attached to inside of freezer, or within a 
+locked freezer with a unique key or combination lock). 
+
+o Acquire and implement an approved inventory template, such as the Division of 
+Occupational Health and Safety (DOHS) Inventory Template, or a site- specific 
+equivalent, which is a tool that can track usage, who accesses material, and total 
+quantities. (Electronic inventories are acceptable) 
+
+o A toxin usage logbook / electronic record must be maintained to track total 
+
+o 
+
+inventory and usage in real-time, and it must also be kept in a secure location 
+where only authorized associated researchers will access the logbook. Access to 
+electronic logbooks must be restricted to authorized users. 
+Inventory recordkeeping must track all purchases/acquisitions of toxin, all usage 
+and disposal of toxins as they occur. For all allocations, this may be done in 
+terms of the number of aliquots, noting the concentration of each aliquot to 
+track the total quantity in mg total amounts. 
+
+• All transfers of toxin require a due diligence letter to be written by the transferring 
+
+(source) PI. The letter must be approved by the site-specific Biosafety Officer (BSO) prior 
+to the transfer of any amount of select toxin. At a minimum, the letter must include the 
+name, address, contact information (address, email, and phone) of the recipient scientist, 
+and the intended use which details the legitimate scientific need. 
+
+• Registered users will report suspicious behavior (unauthorized attempts to access toxin 
+
+storage locations, unusual prying activities, questions about toxin storage or security, etc.) 
+
+• Each registered laboratory possessing exempt quantities of select agent toxins will be 
+
+inspected at least annually. At a minimum, inspections will include: 
+
+o Review of associated researchers to verify only authorized access to toxins. 
+o Verification of appropriate labeling, storage, containment, and security measures 
+o Review of physical inventory with what is accounted for in the inventory logbook. 
+o Verification that quantities remain below the maximum permissible limits. 
+
+Any suspicious activity regarding select toxin storage, access, or use must be 
+reported immediately to your site-specific safety office representative at: 
+
+ Bethesda (including IRF): (301) 496-2960; RML: (406) 375-9642; NCI-Frederick 
+(301) 846-1740; and NIEHS-NC (984) 287-3393.

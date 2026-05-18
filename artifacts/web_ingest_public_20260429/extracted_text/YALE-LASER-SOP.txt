@@ -1,0 +1,224 @@
+LASER SAFETY STANDARD OPERATING PROCEDURE
+
+Principle Investigator:
+
+Class 4 Laser(s) 
+Manufacturer & 
+Model No. : 
+
+LASER SAFETY CONTACTS
+
+Laser Safety Officer (lab):
+
+Maintenance/Repair:
+
+Location:
+
+Phone:
+
+Phone:
+
+Yale Health Acute Care: 203-432-0123 
+
+EHS Emergency: 203-785-3555
+
+1. LASER LAYOUT
+
+Attach a diagram of area layout as well as a digital photograph of all Class 4 lasers in the lab.
+
+2. LASER SAFETY PROGRAM
+
+Responsibilities of the laser operator(s): 
+
+Operator will ensure the safety of any personnel that might enter the room and will advise same of the 
+status of the lasers and optics. this includes ensuring use of protective eyewear where required. 
+The laser user is responsible for the safe of the laser(s) at all times. 
+Incidents/accidents will be reported promptly to EHS. 
+
+Laser Training Requirements: Part 1 of the training involves revision the Power Point presentation at http://
+ehs.yale.edu/training/laser-safety-training. The Principal Investigator is responsible for providing instruction in the 
+safe and appropriate use of the laser related to the specific research project, which constitutes Part 2 of the training. 
+
+Laser Registration Requirements: EHS must be notified of the intent to purchase any class 3B or 4 lasers. Supply the 
+manufacturer, model number, wavelengths, maximum power levels, beam profile, beam diameter and beam 
+divergence. 
+
+Personnel Protective Equipment Requirements: EHS will review the laser application/SOP. Typically protective 
+eyewear will be required. Other protective equipment may be needed. This will be evaluated on a case by case basis. 
+Users are responsible for purchasing and using prescribed protective equipment. 
+
+Disposal Requirements: EHS requires proper disposal of all class 3B and 4 lasers. The laser may contain toxic or 
+hazardous materials which require proper disposal. The laser must be “deactivated” prior to disposal. This may be 
+performed by EHS, the user with EHS verification or a vendor.
+
+ 
+ 
+ 
+ 
+ 3. OPERATING PROCEDURES (add additional information based on your application)
+
+Remove jewelry that might reflect beams.
+
+Obtain appropriate eyewear. Be certain it is of appropriate OD for the wavelength(s) in use.
+Turn on outside warning light.
+
+Inspect optical setup for recent changes/and or foreign objects.
+
+Verify that all personnel in lab are wearing approved eyewear.
+Issue verbal warning prior to starting laser.
+
+Insert key into laser controller.
+Proceed as per User Manual to obtain laser output.
+
+Comments
+
+4. ALIGNMENT PROCEDURES
+
+Special alignment procedures: 
+
+Use low power alignment laser, when possible. 
+Use lowest possible energy setting. 
+Survey area (with UV/IR viewer, if necessary) for reflections and confine such reflections to the optics table. 
+
+Only after completing these procedures should the laser be increased to desired power and repetition rate. If more 
+than one person is present, announce increase in power so that all present are aware of the change. 
+
+Other tips: 
+
+Allow only trained personnel to be present during alignment. Minimize the number of personnel present during 
+the alignment. All present must wear appropriate eyewear. 
+
+If possible, avoid using beam paths that are at sitting or standing eye level. 
+
+Where feasible, use low power (class 2 or 3A) visible lasers to simulate the path of high power or invisible lasers. 
+
+Where feasible, terminate laser beams and specular reflections on diffuse reflecting beam blocks. 
+
+Use phosphor cards, IR viewers, video cameras or other display devices to locate invisible beams. 
+
+Locate any specular reflections of the beam and block them as close to the source as possible. 
+
+Whenever possible, reduce all high power laser beams to the minimum possible power. 
+
+Use beam shutters to block high power beams any time they are not actually needed. 
+
+Note: It is sometimes necessary to align, clean or otherwise maintain the internal components of a laser. If this is so 
+for this laser, please attach a procedure for this process as an addendum. Describe how you will perform this work in 
+a safe manner. If this is performed by a vendor, please indicate so.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5. CONTROL MEASURES
+
+LASER/LASER SYSTEM CONTROLS
+
+Click if 
+valid
+
+CONTROL
+
+Entryway (door) Interlocks or controls
+
+COMMENTS
+
+Laser enclosure interlocks
+
+Laser housing interlocks
+
+Emergency STOP/Panic button
+
+Master switch (operated by key or code)
+
+Laser secured to base
+
+Beam stops/ beam attenuators
+
+Protective barriers
+
+Warning signs
+
+Reference to equipment manual
+
+Extra eyewear available
+
+Comments
+
+Click if 
+valid
+
+HAZARD
+
+CONTROL MEASURES IMPLEMENTED
+
+HAZARDS AND CONTROLS CHECKLIST
+
+Unenclosed beam/ access to direct or scattered light
+
+Laser at eye level of person sitting or standing
+
+Ultraviolet radiation/Blue light exposure
+
+Reflective material in beam path
+
+Hazardous materials/waste (dyes, solvents, other)
+
+Fumes/Vapors
+
+Electrical
+
+Capacitors
+
+Compressed gasses
+
+Fire
+
+Trip Hazard
+
+Comments
+
+ 6. PERSONNEL PROTECTIVE EQUIPMENT
+
+A. 
+
+Eyewear - Please see the Laser Authorization from for Laser Protective Eyewear
+
+EHS Comments: Review your application and be certain you have selected eyewear of appropriate OD (optical density) for 
+the wavelength and power levels. Users are responsible for selection, purchase and appropriate use of eyewear.
+
+B. 
+
+Other protective equipment required within the Nominal Hazard Zone
+
+ITEM
+
+LOCATION
+
+USAGE CONDITION
+
+ OPERATOR REVIEW:
+I have read and understood this procedure, its content, the EHS review below and attached addendum. I 
+agree to follow this procedure each time I use the laser/laser system. Please be certain to read any 
+addendums to this SOP prior to signing!
+
+Name
+
+Signature
+
+Date
+
+EHS review: 
+Reviewed by (EHS)
+
+Name:
+
+Date:
+
+Title:

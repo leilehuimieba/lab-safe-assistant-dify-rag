@@ -1,0 +1,112 @@
+DS Fact Sheet on Safe Cleaning of Chemical Fume Hoods 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS)
+
+Your Chemical Fume Hood (CFH) is an important component of laboratory safety, as it protects users from 
+exposure to harmful chemical vapors, fumes, and particulates. If not properly maintained, these hoods can 
+become contaminated with chemicals, dusts, and other substances, which may compromise their effectiveness. 
+Regular cleaning after use is essential to maintaining a safe work environment. 
+
+Steps involved in the regular cleaning of a CFH 
+
+Step 1: Identifying appropriate cleaning supplies 
+
+The type of cleaning product that can be used depends on the type of chemicals 
+used within the CFH. Fume hoods used for perchloric acid and highly 
+hazardous chemicals like PHS (particularly hazardous substances) require 
+specialized cleaning. Most other fume hoods should be wiped down regularly 
+with mild soap and water. Regular glass cleaner can be used for cleaning 
+the sash. Use of strong chemical cleaners, chlorine-based solutions or bleach 
+must be avoided. 
+
+Step 2: Donning appropriate Personal Protective Equipment (PPE) 
+Minimum PPE requirement include nitrile gloves, safety goggles, and a buttoned lab coat. Additional PPE 
+like a N95 respirator may be required depending upon the condition of the fume hood. Use of N95 
+requires approval from Respiratory Protection Program. Never try to clean CFH that was used 
+for work involving perchloric acid. Contact DS at (301) 496-3457 for consultations.
+
+Step 3: Getting the CFH ready for cleaning 
+
+Safely remove all equipment and chemicals from the fume hood and secure them by following the 
+NIH chemical segregation guidelines. If the fume hood contains chemical waste, dispose of it by contacting 
+DEP at (301) 496-4710. Using your CFH for the storage of chemicals and chemical waste is not an approved 
+practice. 
+
+Step 4: Cleaning procedure 
+• Wipe down inside surfaces starting from the top going down with mild soap solution. Make sure all work
+surfaces, including baffles and light fixtures, are cleaned. Use a soft cloth or sponge to avoid scratching.
+
+• Wipe down the exterior surface of the fume hood with a wet cloth to remove any accumulated dust. Then
+
+wipe it down with mild soap solution.
+
+• Sash can be cleaned with any regular glass cleaner.
+
+• Finally, wipe all areas with water to remove any residue of soap or glass cleaner.
+
+• Dispose of all cleaning supplies (cloths, wipes, etc.) and any contaminated items as chemical waste.
+
+You may find additional information by viewing the NIH Waste Disposal Guidelines or by calling:
+(301) 496-4710.
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+ DS Fact Sheet on Safe Cleaning of Chemical Fume Hoods 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS)
+
+Additional Safety Information 
+
+• Address any spills inside the fume hood immediately by following your lab-specific spill response plan
+and the NIH Chemical Hygiene Plan (CHP). Fume hoods are capable of exhausting airborne
+contaminants, chemical fumes/vapors, but not liquid/powder spills. Spills must be cleaned up
+immediately.
+
+• Routine maintenance and annual inspection of your fume hood is very important to ensure performance.
+
+Schedule annual fume hood certifications using the following Service Request link.
+
+• All lab personnel using the fume hood must be trained on its proper use, cleaning, and maintenance.
+It is the responsibility of the PI/Supervisor to train everyone in their lab. DS can help in developing
+appropriate training.
+
+Working Safely in a CFH 
+
+Before starting the work: 
+
+• Make sure the CFH is drawing air inward. If your fume hood is equipped with airflow indicator, check, and
+ensure that it is drawing air. If an airflow monitor is not installed, test the hood airflow with a piece of light
+material, such as tissue held to the bottom of the sash (DO NOT RELEASE THE TISSUE INTO THE
+HOOD).
+
+• Use appropriate PPE such as splash goggles, gloves, and lab coat.
+
+• Check the baffles for obstructions. Place a shallow shelf at the back of the hood to hold or raise supplies.
+This will help to ensure proper airflow. When using large apparatus inside the hood, place the equipment
+on blocks, when safe and practical, to allow air flow beneath it.
+
+While working in a CFH 
+
+• Keep your face outside the plane of the fume hood. Work at least 6 inches back from the face of the CFH.
+
+A stripe on the bench surface is a good reminder.
+
+• Do not make quick motions into or out of the fume hood, use fans, or walk quickly by the fume hood
+
+opening. These will cause airflow disturbances which reduces the effectiveness of the CFH.
+
+• Keep the sash at the right height as indicated on the green DS certification sticker.
+
+• If CFH performance is disrupted, or an airflow alarm is triggered (if installed), terminate its usage and close
+
+the sash completely.
+
+Note: Unducted Biological Safety Cabinets are not suitable for work involving hazardous chemicals. 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025

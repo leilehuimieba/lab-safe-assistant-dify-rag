@@ -1,0 +1,12 @@
+﻿{
+    "started_at":  "2026-05-16T23:59:57",
+    "demo_port":  8091,
+    "pid":  48744,
+    "url":  "http://127.0.0.1:8091",
+    "env_file":  "D:\\newwork\\lab-safe-assistant-dify-rag\\.env.dify_rag",
+    "launch_file":  "D:\\newwork\\lab-safe-assistant-dify-rag\\artifacts\\local-dify-rag\\launch_dify_rag.py",
+    "python_exe":  "D:\\Grammar\\python\\python.exe",
+    "log_file":  "D:\\newwork\\lab-safe-assistant-dify-rag\\logs\\dify_rag.log",
+    "err_file":  "D:\\newwork\\lab-safe-assistant-dify-rag\\logs\\dify_rag.err.log",
+    "dify_configured":  true
+}

@@ -1,0 +1,155 @@
+Chemical Waste | UW Environmental Health & Safety
+GENERAL HEALTH & SAFETY
+Assembly and fire permits
+Capital safety projects
+Regulated building materials
+Emergency procedures
+Surveys and inspections
+Air operating permit
+Pollution prevention
+Soil and groundwater
+Report wildlife sighting
+Biosafety for research
+Bloodborne pathogens
+Caution and warning signs
+Biological materials
+Defibrillators (AEDs)
+Radiation producing devices
+Respiratory protection
+Hazardous energy (LOTO)
+Shops and maker spaces
+Safety plan templates
+Environmental Health & Safety is responsible for the collection of hazardous chemical waste for the University, including all campuses and off-site locations.
+Environmental Programs Contact
+Last Updated: April 08, 2026
+Compressed Gases and Cryogens
+Hazard Communication
+Safety Data Sheets (SDSs)
+Shipping Hazardous Materials
+Treatment and Recycling
+Chemical Waste Management Practices
+Chemical Waste Guide for UW Facilities
+Hazardous Waste Checklist
+How to Label Chemical Waste Containers
+Request New Chemical Waste Routine
+Sample Request New Chemical Waste Routine
+Universal Waste Labels: Four different
+Universal Waste Labels: Four identical
+UW Hazardous Waste Labels: Four different labels
+UW Hazardous Waste Labels: Four identical labels
+UW Hazardous Waste-Pharmaceuticals Labels
+Waste Evaluation Request
+Chemical Waste Collection Request
+Common hazardous waste mistakes to avoid
+Prepare for a hazardous waste inspection
+Hazardous Waste Disposal and Recycling
+Environmental Health & Safety (EH&S) is responsible for the collection of hazardous chemical waste for the University, including all campuses and off-site locations. There is no charge for hazardous chemical waste collection, except for unknown chemicals and unstable peroxide forming chemicals.
+Chemical waste generators are required to choose appropriate containers; store and manage containers safely; place a UW hazardous waste label on each container; and request a chemical waste collection from EH&S.
+Follow the instructions to correctly label containers prior to pickup.
+Complete an online form, or request a pickup through MyChem.
+3. Manage waste safely
+Follow the guidance to ensure chemicals are stored and maintained safely.
+Chemical waste labels
+There are three ways to get UW Hazardous Waste Labels:
+Download labels (links below): or
+Contact EH&S to request printed labels to be sent your campus mailbox; or
+Get them from Biochemistry Stores or Chemistry Research Stockroom.
+Does each container have the same contents? Use the four identical labels template.
+Does each container have different contents? Use the four different labels template.
+Follow the instructions for completing the label. The instructions also include steps to follow if you are unsure of the contents or the hazard.
+Pharmaceutical waste labels
+If you have pharmaceutical waste, download and use the Hazardous Waste-Pharmaceuticals Labels.
+Visit the Chemotherapy & Hazardous Drugs page for information on collecting and disposing of trace and non-trace antineoplastics, antiviral drugs, hormones, and other drugs classified as hazardous.
+Labels for batteries, lamps and mercury-containing equipment
+Use a Universal Waste Label for batteries, lamps, or mercury-containing thermometers or equipment.
+Download four identical Universal Waste labels.
+Download four different Universal Waste labels.
+Refer to the Chemical Treatment and Recycling page for more information on recycling and disposing of batteries, lamps and mercury-containing equipment.
+Request a chemical waste collection
+There are three ways to send a request to Environmental Health & Safety:
+Use the Chemical Waste Collection Request form; or
+Submit a request in MyChem; or
+If you already have a routine waste number, use the Routine Chemical Waste Collection Request form to request pickup of your waste.
+Set up a routine chemical waste collection
+If you generate waste on a regular basis, consider requesting a routine (recurring) waste collection.
+Complete a Request New Chemical Waste Routine form.
+Your chemical waste will be assigned a routine number that will be linked to the waste composition and the pickup location.
+If you have questions about whether a waste qualifies for routine collection, contact the EH&S Environmental Programs office.
+Manage chemical waste safely
+University personnel who generate hazardous chemical waste at the University (including all campuses and off-site locations) are required to follow chemical waste management practices. Refer to the UW Laboratory Safety Manual for additional information.
+EH&S recommends hazardous chemical waste generators use the Hazardous Waste Checklist as a self-audit tool to verify compliance with waste accumulation rules and prepare for periodic hazardous waste inspections by the Washington State Department of Ecology.
+Chemical waste basics
+What is “hazardous chemical waste”?
+Hazardous chemical waste is defined as any liquid, gaseous, or solid chemical that is ignitable, corrosive, reactive, toxic, or persistent, and is no longer useful or wanted.
+Some additional chemicals are managed as hazardous waste at UW because they are known, probable or suspected carcinogens, teratogens, irritants and/or sensitizers (refer to a chemical’s safety data sheet to determine if the chemical is any of these.)
+Mixtures of chemicals may not be hazardous waste, depending on their concentration and toxicity. Refer to Section 3 of the Laboratory Safety Manual for information on how to calculate whether a mixture of chemicals is hazardous waste.
+If you are unsure or unable to determine if your chemical or chemical mixture is hazardous, fill out and send a Waste Evaluation Request and EH&S will send you the answer.
+For more information:
+Refer to Section 3 of the Laboratory Safety Manual;
+Take the Managing Laboratory Chemicals online training; or
+Contact the EH&S Environmental Programs office.
+Can I treat my own chemical waste?
+By law, EH&S is required to report all hazardous waste treatment at the University. If treating your hazardous chemical waste, you are required to:
+Have an approved procedure;
+Document training; and
+Keep an updated Chemical Treatment Log.
+Refer to local sewer discharge limits for some common laboratory chemicals that can be treated by the generator and discharged to the sewer.
+EH&S provides additional guidance for treating commonly used chemicals on the Chemical Treatment and Recycling page.
+If some of the items on your collection request are non-regulated and can be legally disposed into the trash or sanitary sewer, you will be notified by the EH&S staff member that collects your chemical waste.
+Spill response and reporting
+Call 9-1-1 in an emergency. Follow the EH&S exposure response procedures if potentially exposed to hazardous materials.
+Visit the Hazardous Material Spills page for information on responding to a spill or release of hazardous materials.
+UW personnel are required to submit an incident report to Environmental Health & Safety for any work-related event that results in an injury, illness, exposure to hazardous materials, or fire, regardless of the work location.
+UW personnel are highly encouraged to submit reports of work-related near-miss events. Visit the Incident Reporting page for more information
+Frequently asked questions
+Why do I need to submit a Chemical Waste Collection Request before EH&S picks up my chemical waste?
+EH&S needs the information you provide in the Chemical Waste Collection Request for safety, legal, and logistical reasons.
+Safety: Knowing the potential hazards associated with each container allows EH&S staff to prepare for safely evaluating, handling, transporting, and storing chemicals prior to disposal.
+Legal: The U.S. Environmental Protection Agency, U.S. Department of Transportation, and Washington State Department of Ecology regulations require us to accurately designate the contents of each container so it can be transported legally and disposed of properly by applying the correct hazardous waste codes and treatment standards.
+Logistical: We need to know in advance what’s inside the containers to be sure we don’t pick up anything that can’t be transported or disposed of. We also need to know how many containers there are, and the type(s) and size(s) of containers to ensure we have the correct number of transport tubs and space in the vehicle.
+Can I use MyChem to submit a chemical waste collection request?
+Inventory owners and area contacts can generate chemical waste disposal requests in MyChem. You can:
+Select chemicals from your inventory
+Add chemicals to the waste list that were not in your inventory
+Add process waste or a mixture of chemicals in a carboy or drum
+Add spill debris or other mixtures of debris and chemical
+1. From the inventory page, select the Waste Collection button. You'll see your inventory appear.
+2. If the items for disposal are in your chemical inventory, select them using the checkboxes and then Save List. The next page is a list of the chemicals you want collected. Edit the list as needed. You can remove or add additional chemical waste before submitting the final list to EH&S via the Submit Report to EH&S button.
+3. If the items are not in your inventory or not yet on your waste list, use the Add New Waste Chemical button to make additions to the list of waste. You will go through the process of searching for each chemical in the container, indicating a percentage of each. When all chemicals in the container add up to 100%, you will be asked for container information including type and volume/weight information. Save to get the new waste container added to your list. The next page displays the list of waste that you want collected. Edit and add to the list before submitting the report to EH&S.
+3. The Add Comment button allows you to add a note about the specific location of the waste or access to the area. Do this step before submitting the report to EH&S.
+4. Once a report has been submitted, use the View Past Reports button to view it. If the waste is consistently generated, consider naming the report, so you easily reuse it for future waste collection requests. Use the Recreate List button to call-up a previously submitted waste list for edits and re-submission.
+How do I label my hazardous waste containers?
+You must place a UW Hazardous Waste Label on the container, unless the material is still in its original manufactured container and the container is four liters or smaller in size.
+Please read and follow the instructions in How to Label Chemical Waste Containers.
+Where can I get hazardous waste labels?
+UW Hazardous Waste Labels are available at no charge at the following locations on campus. These labels come in a booklets of 20 and are self-adhesive.
+J014 Health Sciences Building
+8:15-12:00, 1:00-4:45
+Last day of the month
+8:15-12:00, 1:00-3:30
+Chemistry Department Research Stockroom
+8:30-12:00, 1:00-4:30
+Closed on UW employee holidays
+Contact Environmental Programs if you would like us to send you some of these labels via campus mail. You may also print out your own UW Hazardous Waste Labels on this page.
+Refer to the instructions How to Label Chemical Waste Containers for more information about labeling hazardous waste containers.
+When should I get rid of unused chemicals?
+Get rid of unused chemicals before they become “waste-like.” Waste-like chemicals are items with faded labels, deteriorating containers, leaks and/or other obvious signs that the chemicals are not being used. Waste-like chemicals are not likely to be used in the future You can request collection of waste-like chemicals as hazardous waste. Inherently waste like chemicals, if found during a regulatory waste inspection, can result in a fine to the lab or department. These chemicals also present an unreasonable risk of spills and exposures.
+How can I get rid of chemicals that aren’t mine but are a legacy from a previous occupant?
+Legacy chemicals are unwanted chemicals left behind by a previous occupant of your laboratory space. Occupants moving out of a space have the responsibility of cleaning out the space, but unfortunately this doesn't always happen. Although a previous occupant did not remove all their chemicals they are the responsibility of the current occupant. We will work with you to help manage these for waste collection. You request collection of legacy chemicals in the same manner as hazardous waste.
+There is no charge for waste collection except for unknowns and unstable peroxide formers. Refer to the EH&S Guidelines for Peroxide Forming Chemicals for more information.
+What if I don’t know what the chemical is?
+If contents of the chemical container you want to get rid of are unknown to you, you can still request its disposal using our online system. Just list it as an “unknown.” We charge $75 per container to cover some of the cost of handling and disposing of these chemicals. Please include a budget name and number in the notes section of the collection request form.
+If we can get enough knowledge about the generator, we may not have to charge for this waste. With that in mind, we will contact you requesting as much information as possible. We may ask you such things as what you think it might be, where the container was found, what kind of work the lab did; we may also ask you to take a picture and send it to us.
+What if I have “hundreds” of chemicals to get rid of? Do I have to list them all on the collection request form?
+If you are relocating or cleaning out your workplace and have a large volume of chemical waste, follow these guidelines.
+If you will have more than 100 containers of different wastes, call 206.616.5835 to arrange for a cleanout appointment at least one to two months in advance of your move.
+Select the unwanted chemicals in your MyChem inventory and click on "Waste Collection" for easy disposal.
+Any waste not in its original container must have a completed UW Hazardous Waste label.
+Finally, remember to update your chemical inventory with MyChem.
+What if I work in a UW Facilities shop?
+Refer to the Chemical Waste Guide for UW Facilities.
+How should I dispose of non-chemical hazardous waste?
+Refer to the Hazardous Waste Disposal and Recycling page for guidance on disposing, recycling, surplusing, and treating hazardous waste.
+Managing Laboratory Chemicals
+University of Washington
+© 2025 UW Environmental Health & Safety | Seattle, WA | 206.543.7262 | ehsdept@uw.edu

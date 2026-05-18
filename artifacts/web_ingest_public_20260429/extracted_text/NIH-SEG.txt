@@ -1,0 +1,219 @@
+Chemical Segregation and Storage 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Most laboratory chemical storage related emergencies can be prevented by adopting and reinforcing proper storage 
+practices. When chemicals remain on the shelf for extended periods, vapors may migrate, chemicals can become 
+exposed to light, air or contaminants, containers may deteriorate and incompatibles sitting together can react to form 
+unstable or dangerous byproducts. 
+Proper storage of chemicals depends on three fundamental concepts: 
+1. Having an inventory of all the chemicals present in the lab 
+2. Identifying the hazards associated with each chemical and 
+3. Understanding the chemical compatibility principle to learn what chemicals can be stored together. 
+
+Having a Chemical Inventory of all the Chemicals Present in the Lab 
+
+An up-to-date chemical inventory is the first step towards chemical hazard identification and the implementation of 
+proper storage practices. Inventory will provide an exact list of all the chemicals present in the laboratory to group 
+them into hazard classes (i.e., corrosives, flammables, oxidizers etc.). Once they are grouped together, the laboratory 
+can start planning how and where they should be stored. 
+If your laboratory doesn’t have a chemical inventory, LabArchives, the electronic notebook used by many at NIH, has 
+an inventory module included. Follow the DS guidance document to learn how to use it. 
+
+Identifying Hazards Associated with Each Chemical 
+
+OSHA compliant chemical labels with Pictograms and the Safety Data Sheets (SDS) are the best sources of 
+information to understand the hazards associated with the chemicals and storage 
+requirements. There are 9 GHS pictograms used to universally communicate 
+chemical hazards (Image 1). All hazardous chemicals will have at least one 
+pictogram on the label. When a chemical has more than one type of hazard, 
+multiple pictograms are used to illustrate each hazard (Image 2). In addition to 
+pictograms, chemical labels also include hazard statement(s), precautionary 
+statements and signal word (“Danger” indicates more severe hazard and 
+“Warning” is for less severe) to help users to take necessary precautions for safe 
+handling, storage and disposal. Hazard statements printed on chemical containers 
+provide additional information to the specific hazards of a chemical. 
+Each SDS has 16 sections and can provide detailed information on hazard 
+identification (Section 2), incompatibility, handling, and storage (Section 7), 
+exposure control/Personal Protection (Section 8), and stability and reactivity 
+
+(Section 10) etc. Refer to the 
+manufacturer SDS, Chemical 
+Segregation and Storage 
+Table and the NIH CHP for 
+
+additional information. 
+Labels on chemical containers procured before 2015 may not 
+have pictograms. Relabel all old containers in the laboratory by 
+following NIH CHP Section V. The SDS for each chemical need 
+to be consulted to confirm associated hazards. 
+
+Image 1 
+
+Image 2 
+
+Understanding the Chemical Compatibility Principle 
+Once you have correctly and completely identified all the chemicals and associated hazards, the next step is to 
+identify which locations are appropriate for storage and which hazard classes can be stored together. Chemical storage 
+areas and practices must meet the following requirements: 
+
+• Storage areas must be labeled based on hazards of the chemicals stored within. 
+• Aisles, hallways, doorways, exits, and entryways must be kept clear. 
+
+Reviewed – 2025 
+NIH Division of Safety 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chemical Segregation and Storage 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+• Storage areas must be appropriately ventilated, and should be maintained at a consistent, cool temperature. 
+• Location must be away from ignition sources such as open flames, heat sources, or direct sunlight. 
+• Emergency equipment such as fire extinguishers, spill kit, eyewash/safety shower must be available and kept 
+
+in good working order. 
+
+• Keep containers closed and address spills and drips immediately. 
+• Containers must be stored in an upright position with secondary containment. 
+• Storage areas should have appropriate contact information included. For shared storage areas contact 
+
+information for each laboratory must be included. 
+
+Use shelving with anti-roll lips to prevent bottles rolling/sliding off. Storage of chemicals on the floor, inside 
+fume hood interior work area, cold rooms, under the sink or on benchtops should not occur. 
+
+Chemical Hazard Classes 
+
+Flammables (including flammable liquids and solids) are substances that can ignite and burn readily (e.g. ethanol, 
+diethyl ether, 2-propanol etc.). Always keep flammables stored inside an approved flammable cabinet and 
+away from oxidizers, corrosives, heat or ignition sources (e.g., radiators, electric power panels, etc.). The 
+maximum allowed quantity of flammable and combustible liquids stored in a laboratory at NIH is 50 
+gallons (Class I, II and III combined). No more than 10 gallons (38 L) of Class I flammable liquids 
+(diethyl ether, pentane etc.) can be stored in a laboratory. Limit flammables and combustibles outside of flammable 
+cabinets to what is actively in use. No more than 10 gallons (38L) of flammable liquids of any class are allowed 
+outside of flammable cabinets. 
+When using flammable cabinets, never exceed the capacity of the flammable storage cabinet and never store more 
+than 60 gallons (227 L) of flammables inside a single flammable storage cabinet. Refer to NIH Division of Technical 
+Resources Bulletin and DS fact sheet on purchase, installation and use of flammable cabinets. 
+Refer to the NIH CHP Appendix D for information on types of containers and sizes that are allowed to be used in the 
+laboratories for the storage of flammable liquids. 
+Refrigerators/freezers used for flammable storage must be explosion proof or designed specifically for flammable 
+storage. Standard refrigerators are not intrinsically safe, and storage of flammables can cause buildup of flammable 
+vapors to cause fires/explosions when the refrigerator’s compressor or light turns on. 
+
+Pyrophoric and water reactive chemicals must be managed by following special guidelines developed by DS. The 
+guidance can be found here. 
+
+Oxidizers are chemicals that promote or initiate combustion of other materials by releasing oxygen or other gases 
+(hydrogen peroxide, nitric acid, halogens, ammonium perchlorate etc.). Store them in cool, dry, and well-ventilated 
+
+areas, away from incompatible materials like organic materials, metals, flammables, and reducing agents. 
+Avoid using metal spatula/objects when stirring or removing oxidizers/organic peroxides from chemical 
+containers. Plastic or ceramic should be used instead. Avoid friction, grinding, and impact with solid 
+oxidizers and organic peroxides. Use plastic/polyethylene lined bottles and caps instead of glass stoppers 
+
+and screw cap lids for storage. 
+
+Peroxide formers are a group of chemicals that can, under certain conditions, form explosive peroxides. These can be 
+detonated by shock, friction, or heat (e.g., THF, diethyl ether, isopropyl alcohol etc.). Refer to DS fact sheet on 
+peroxide formers for guidance on storage and handling. 
+
+Poisons/Toxic chemicals are substances that can cause harm to living organisms. 
+Segregate these chemicals from flammables, corrosives and oxidizers. Some of the toxic 
+chemicals can be acutely toxic(fatal/cause serious harm with single exposure) and OSHA 
+classifies those acute toxins as Particularly Hazardous Substances (PHS). Others cause 
+harm through carcinogenic properties and/or impact reproductive health (harm through 
+continued exposure) and are similarly classified. Laboratories working with PHS must 
+develop Standard Operating Procedures (SOPs) by using DS provided SOP templates. 
+
+Toxin 
+
+Carcinogen/ 
+reproductive 
+toxins 
+
+Reviewed – 2025 
+NIH Division of Safety 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chemical Segregation and Storage 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Corrosives are extremely reactive chemicals that can damage or destroy living tissue or other materials. Common 
+incompatible chemicals include flammables, oxidizers and toxins. Corrosives can be classified as either acids or 
+bases, depending on the pH of the chemical. 
+
+• Acids: Corrosive substances with a low pH (below 7). Acids can be further classified as 
+
+inorganic acids (hydrochloric acid, sulfuric acid etc.) and organic acids (acetic acid, formic 
+acid etc.). 
+
+• Bases: Corrosive substances with a higher pH (above 7). Just like acids, there are inorganic 
+(sodium hydroxide, ammonia, etc.) and organic bases (triethylamine, imidazole etc.). 
+
+Organic and inorganic acids and organic and inorganic bases must be segregated from one another. 
+Store corrosives inside vented corrosive cabinets. Refer to DS fact sheet for additional information. 
+
+Chemicals with multiple hazards (multiple pictograms on the label) Some chemicals have multiple pictograms on 
+their labels, as they can have more than one type of hazard (Image 2). For chemicals with multiple hazards the 
+segregation is based on a hazard priority ranking by prioritizing the most severe hazard. The most severe hazards are 
+generally pyrophoric/water-reactive followed by flammables, oxidizers, toxins and corrosives. For example, if a 
+chemical is both flammable and corrosive, it should be stored in a cabinet designed for flammables with secondary 
+containment on separate shelves (e.g. acetic acid). 
+
+Storage of Incompatibles Together 
+If your laboratory works with small quantities of chemicals and space does not allow for separate hazard groups, some 
+of these hazard groups can be stored together with secondary containment by following DS fact sheet on compatible 
+storage. Your IC Safety Specialist can assist you to conduct a risk assessment before finalizing the storage plan. 
+Secondary containment will provide a physical barrier to prevent the accidental mixing of incompatible chemicals in 
+the event of a leak or spill. Secondary containment must be made of compatible materials and at a minimum, 
+should be able to hold 10% of the total volume of all primary containers or 110% of the volume of the largest 
+container. One example of incompatible storage commonly found in laboratories is acids and bases stored together in 
+the same corrosive cabinet. If acids and bases are stored together in the same cabinet, they must be stored on separate 
+shelves with secondary containment by following DS fact sheet on corrosive cabinets. Extra care must be taken to 
+provide stable, uncrowded, and carefully monitored storage conditions. 
+
+Safety Tips for Avoiding Chemical Related Incidents in the Lab 
+
+Hazardous chemicals that are stored in an inappropriate state, condition or place can cause fires, explosions and 
+violent reactions. Regular inspections of the storage area by the laboratory staff can reduce the chances of 
+fires/explosions and unwanted reactions. 
+
+Storage Area Inspection should cover the following items: 
+Container Integrity: Inspect for cracks, leaks and other damage including the label. 
+Appearance of rust, caps that are cracked, build up around the cap/container, etc. are signs of 
+degradation of the container. Illegible labels must be replaced with a manufacturer equivalent 
+label. 
+Condition of the chemical: Assess the physical state of the chemical by visual inspection for 
+signs of degradation, contamination and decomposition. Formation of crystals/turbidity, 
+clumping, stratification and discoloration are indication of degradation or contamination. If you 
+observe any of the above on chemical containers, do not touch, move, open, or try to clean 
+the container. Clear the area and restrict access. Control ignition sources and vibrations. Call 
+301-496-5685 or contact your Local IC Safety Specialist and ECC immediately. 
+Improper storage: Storing chemicals improperly, such as leaving containers open or improperly sealed can increase 
+the risk of explosions/fires and releases of hazardous vapor/gasses. 
+
+Refer to DS fact sheet for safety tips and useful information to prevent fires and emergencies. For additional resources 
+visit NIH Chemical Safety webpage. 
+
+Reviewed – 2025 
+NIH Division of Safety

@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-04-28T17:50:13+08:00",
+  "csv_path": "D:\\newwork\\lab-safe-assistant-dify-rag\\release_exports\\v9_original_claim_3000\\knowledge_base_import_ready_3000.csv",
+  "base_url": "http://127.0.0.1:8081",
+  "dataset_id": "36245854-c974-4fd8-847e-71eaea06070a",
+  "created": 3164,
+  "skipped_existing": 0,
+  "failed": 0,
+  "batches_count": 3164,
+  "wait_pending": {}
+}

@@ -1,0 +1,219 @@
+About Us
+
+Environmental Compliance
+
+Fire Protection & Emergency Services
+
+Occupational Health & Safety
+
+Research Safety Biosafety & Biosecurity Chemical Safety Chemical Hygiene Plan Chemical Inventory Pesticides Safety Data Sheets (Chemwatch) Specific Chemical Hazards Controlled Substances General Laboratory Safety Radiation Safety Waste Anesthetic Gases (WAG)
+
+Biosafety & Biosecurity
+
+Chemical Safety Chemical Hygiene Plan Chemical Inventory Pesticides Safety Data Sheets (Chemwatch) Specific Chemical Hazards
+
+Chemical Hygiene Plan
+
+Chemical Inventory
+
+Pesticides
+
+Safety Data Sheets (Chemwatch)
+
+Specific Chemical Hazards
+
+Controlled Substances
+
+General Laboratory Safety
+
+Radiation Safety
+
+Waste Anesthetic Gases (WAG)
+
+Research Safety
+
+Chemical Safety
+
+Chemical Hygiene Plan
+
+## Chemical Hygiene Plan
+
+The Occupational Safety and Health Administration (OSHA) regulation 29 CFR 1910.1450, Occupational Exposure to Hazardous Chemicals in Laboratories , requires employers to develop and implement a Chemical Hygiene Plan (CHP) that protects laboratory personnel from chemical health and safety hazards and ensures exposures remain below applicable OSHA Permissible Exposure Limits (PELs).
+
+This document constitutes the official Cornell University Chemical Hygiene Plan. Environment, Health and Safety (EHS) maintains the institutional CHP and provides program oversight, technical guidance, and supporting resources. The CHP establishes the minimum safety requirements for the use, handling, and management of hazardous chemicals in all Cornell research and teaching laboratories.
+
+Laboratories and departments may develop additional manuals, procedures, and standard operating procedures (SOPs) to address local hazards or specialized operations. These documents must supplement—and cannot replace or reduce—the requirements of the Cornell University Chemical Hygiene Plan.
+
+As required under the OSHA Laboratory Standard, the CHP includes the following elements:
+
+## Standard Operating Procedures
+
+Laboratories using hazardous chemicals must maintain written standard operating procedures (SOPs) that describe the safe handling, storage, and disposal practices for the work performed. SOPs must be readily accessible to laboratory personnel and incorporated into laboratory-specific training.
+
+Many departments maintain laboratory safety manuals or procedure sets; these documents supplement—but do not replace— the requirement for SOPs specific to the chemicals, equipment, and processes used within each laboratory.
+
+EHS provides guidance, templates, and technical support to assist laboratories in developing both general and chemical- or process-specific SOPs. Principal Investigators and laboratory supervisors are responsible for ensuring that:
+
+SOPs exist for all operations involving hazardous chemicals, including work with particularly hazardous substances (PHS), such as select carcinogens, reproductive toxins, acute toxins, and highly reactive or unstable materials.
+
+Engineering controls, administrative controls, and personal protective equipment identified in SOPs are appropriate for the hazards and implemented in daily practice.
+
+SOPs are reviewed and updated when procedures, hazards, equipment, or personnel change, and as part of routine laboratory safety reviews.
+
+SOPs must evolve with research activities and reflect current hazards, control measures, and best practices. For assistance with SOP development or review, contact askEHS@cornell.edu .
+
+## Control Measures
+
+Laboratories must implement engineering controls, administrative controls, safe work practices, and personal protective equipment (PPE) to minimize exposures to hazardous chemicals, in accordance with the OSHA Laboratory Standard and the Cornell University Chemical Hygiene Plan (CHP). These requirements complement the laboratory safety practices outlined in the Cornell Laboratory Safety Manual and, when applicable, the Biosafety Written Program and Radiation Safety Manual.
+
+## Engineering Controls
+
+Engineering controls are the primary means of minimizing exposure to hazardous chemicals. Examples include chemical fume hoods, local exhaust ventilation systems, ventilated chemical storage, snorkel hoods, biosafety cabinets (when appropriate for chemical compatibility), and other systems designed to reduce airborne exposures.
+
+Chemical fume hoods must be used whenever feasible, particularly for volatile, flammable, corrosive, toxic, reactive, or unknown chemicals.
+
+Hood sashes must remain at or below the indicated safe operating height.
+
+Work may not be conducted in a hood that is out of service, undergoing repair, or displaying a failed certification tag.
+
+Ventilation alarms and airflow monitors must not be overridden or ignored.
+
+## General Laboratory Practices
+
+EHS provides guidance on general laboratory work practices based on Prudent Practices in the Laboratory and the Cornell Laboratory Safety Manual. These practices include safe chemical handling, housekeeping, spill prevention, segregation of incompatible materials, proper use of ventilation systems, and minimizing the scale of hazardous operations.
+
+Where chemical hazards intersect with biological or radiological materials, applicable procedures in the Biosafety Written Program and Radiation Safety Manual must also be followed.
+
+## Specific Laboratory Practices
+
+Laboratories must develop written procedures when unique hazards or processes require more detailed controls. Operations involving particularly hazardous substances (PHS)—including select carcinogens, reproductive toxins, acute toxins, pyrophorics, and highly reactive materials—must incorporate designated areas, enhanced engineering controls, and clearly defined SOPs consistent with the CHP.
+
+EHS can assist with hazard evaluations and the development or review of SOPs for high-hazard operations. Contact askEHS@cornell.edu .
+
+## Laboratory Attire
+
+Laboratory-appropriate attire is required at all times in spaces where hazardous chemicals are used or stored. At a minimum, clothing must fully cover the torso, legs, and ankles, and shoes must be closed-toe and closed-heel. Clothing should be made of materials that provide suitable protection against incidental chemical contact.
+
+## Personal Protective Equipment (PPE)
+
+When hazardous chemicals are present, the minimum required personal protective equipment consists of:
+
+safety glasses with side protection (or goggles when splash hazards are present),
+
+a laboratory coat appropriate for the work performed, and
+
+protective gloves worn whenever handling hazardous chemicals or contaminated materials.
+
+Additional PPE—such as chemical-splash goggles, face shields, chemical-resistant aprons, flame-resistant lab coats, aprons, or respiratory protection—may be required depending on the hazards and procedures involved. Respirator use must comply with Cornell’s Respiratory Protection Program, including medical clearance, fit testing, and training. For assistance with PPE selection, contact askEHS@cornell.edu .
+
+## Other Controls
+
+Additional control measures may include exposure monitoring (when warranted), inspection and verification of emergency equipment, selection of compatible and appropriately rated chemical containers, and substitution of less hazardous chemicals or processes whenever feasible.
+
+## Fume Hoods and Other Protective Equipment
+
+Chemical fume hoods are tested annually by Facilities and Campus Services (FCS) to verify airflow performance and safe operation. Emergency eyewash units and emergency showers are tested annually by Environment, Health and Safety (EHS) to ensure proper function and compliance with applicable safety standards.
+
+Laboratories are responsible for performing weekly activation of plumbed emergency eyewashes to ensure clear flow and readiness for use. If any fume hood, eyewash, or emergency shower is found to be nonfunctional, obstructed, or otherwise unable to provide adequate protection, laboratory personnel must cease work that depends on the equipment and report the issue immediately.
+
+Additional protective systems—including fire extinguishers, mechanical ventilation systems, biosafety cabinets, radiation shielding, and spill response equipment—are maintained by FCS, EHS, or other designated service groups. Detailed requirements for specialized containment devices are described in the Cornell Laboratory Safety Manual, Biosafety Written Program, and Radiation Safety Manual.
+
+For non-emergency questions or to report equipment concerns, contact askEHS@cornell.edu or call EHS at 607-255-8200.
+
+## Information and Training
+
+All laboratory personnel must receive information and training as required under OSHA regulations and Cornell University Policy. Required training includes Laboratory Safety and Chemical Waste Disposal, with additional training assigned based on laboratory-specific hazards, processes, or regulatory program requirements. Training is delivered through EHS and documented in the University’s learning management system.
+
+Principal Investigators and laboratory supervisors are responsible for ensuring that laboratory personnel:
+
+complete all required EHS training prior to performing independent laboratory work,
+
+receive laboratory-specific training covering the hazards present in their work area, applicable SOPs, emergency procedures, and required protective measures,
+
+receive process- or task-specific training when working with high-hazard chemicals, specialized equipment, or operations requiring enhanced controls,
+
+are provided training that aligns with other applicable Cornell safety programs, including the Laboratory Safety Manual, Biosafety Written Program, Radiation Safety Manual, and Laser Safety Program, when these hazards intersect with chemical use,
+
+have ready access to Safety Data Sheets (SDSs), laboratory SOPs, and other relevant hazard information.
+
+SDSs must be readily accessible to all laboratory personnel at all times. EHS maintains resources for SDS access and provides assistance upon request at askEHS@cornell.edu .
+
+For non-emergency questions or training assistance, contact EHS at 607-255-8200 or email askEHS@cornell.edu . For emergencies, dial 911 from a Cornell landline or 607-255-1111 from a mobile phone.
+
+## Prior Approval for High-Hazard Work
+
+Certain laboratory operations involve elevated risks due to the chemical, physical, or procedural hazards involved. Examples include work with pyrophoric or water-reactive materials, hydrofluoric acid, acutely toxic gases, highly reactive chemicals, peroxide-forming compounds, or processes involving significant heat, pressure, or scale-up. These activities may require additional review before work begins to ensure appropriate controls are in place.
+
+Because research practices vary widely across the University, a single institution-wide prior approval process is not feasible. Instead, Principal Investigators and laboratory supervisors are responsible for identifying high-hazard operations in their laboratories and ensuring that appropriate review and control measures are documented in laboratory SOPs or other internal procedures.
+
+EHS is available to assist in identifying high-hazard conditions, reviewing associated controls, and providing guidance on work involving particularly hazardous substances (PHS), such as select carcinogens, reproductive toxins, and acute toxins. Additional resources, including SDSs and reference materials such as Prudent Practices in the Laboratory and Safety in Academic Chemistry Laboratories , may also inform laboratory-specific review processes.
+
+When high-hazard chemical work intersects with biological or radiological hazards or specialized containment systems, the requirements of the Laboratory Safety Manual, Biosafety Written Program, and Radiation Safety Manual also apply.
+
+## Medical Consultations and Medical Examinations
+
+Medical consultations and medical examinations will be made available to laboratory personnel as required under OSHA regulations. These evaluations are provided at no cost to the employee, at a reasonable time and place, and are performed by or under the supervision of a licensed physician through Cornell University Occupational Medicine.
+
+Laboratory personnel must be provided the opportunity for a medical consultation whenever there is a concern that exposure to a hazardous chemical may have occurred. Medical evaluations will be provided when:
+
+an employee develops signs or symptoms associated with exposure to a hazardous chemical used in the laboratory,
+
+exposure monitoring indicates an exposure level above an OSHA action level or Permissible Exposure Limit (PEL), or
+
+a spill, leak, explosion, or similar incident may have resulted in a potential exposure.
+
+Medical records associated with consultations, examinations, and physician opinions are maintained by Cornell University Occupational Medicine in accordance with 29 CFR 1910.1020 . Exposure monitoring records are maintained by EHS.
+
+For exposure-related concerns, incident follow-up, or guidance on next steps, contact EHS at 607-255-8200 or email askEHS@cornell.edu .
+
+## Personnel Responsible for the Chemical Hygiene Plan
+
+Environment, Health and Safety (EHS) maintains the institutional Chemical Hygiene Plan (CHP) and provides program oversight, technical guidance, training, and support for chemical safety across Cornell University laboratories. As required under OSHA’s Laboratory Standard (29 CFR 1910.1450), Cornell designates a Chemical Hygiene Officer (CHO) within EHS to develop, implement, and maintain the CHP and to advise departments and laboratories on compliance and best practices.
+
+## Chemical Hygiene Officer (CHO)
+
+As required under OSHA’s Laboratory Standard (29 CFR 1910.1450), Cornell University designates a Chemical Hygiene Officer (CHO) within Environment, Health and Safety (EHS). The CHO is responsible for developing, implementing, and maintaining the Chemical Hygiene Plan and for providing technical guidance in the implementation of the CHP across all Cornell research and teaching laboratories.
+
+The CHO’s responsibilities include:
+
+maintaining and updating the Chemical Hygiene Plan;
+
+providing expert guidance on chemical hazard evaluation, control measures, and laboratory practices;
+
+advising Principal Investigators and laboratory supervisors on compliance with the OSHA Laboratory Standard and Cornell policies;
+
+coordinating with Facilities and Campus Services, departmental safety representatives, and other EHS programs to ensure alignment of chemical safety practices;
+
+assisting in the development of SOPs and laboratory hazard assessments when requested;
+
+reviewing trends in laboratory incidents, inspections, and near-misses to support continuous improvement in chemical safety.
+
+While the CHO provides technical expertise and institutional oversight, responsibility for implementing the CHP within individual laboratories rests with Principal Investigators and laboratory supervisors, as required by Cornell University Policy 8.6.
+
+Principal Investigators, laboratory supervisors, departments, and colleges are responsible for ensuring that work conducted in their laboratories complies with the requirements of the CHP and that appropriate engineering controls, administrative controls, PPE, and laboratory-specific procedures are in place. Local procedures or supplemental laboratory or departmental chemical hygiene plans may be developed, provided they meet or exceed the requirements of the OSHA Laboratory Standard and the Cornell University CHP.
+
+The CHO and EHS staff are available to assist with hazard evaluations, SOP development, laboratory practices, training, and interpretation of regulatory requirements. For assistance, contact EHS at 607-255-8200 or email askEHS@cornell.edu .
+
+## Provisions for Additional Protection When Working with Particularly Hazardous Substances
+
+The OSHA Laboratory Standard requires additional protective measures for work involving particularly hazardous substances (PHS), including select carcinogens, reproductive toxins, and acutely toxic chemicals. Similar elevated controls are also required for other high-hazard materials such as pyrophoric, water-reactive, or highly reactive chemicals, and for procedures that present an increased risk of fire, explosion, or uncontrolled release.
+
+Principal Investigators and laboratory supervisors are responsible for identifying PHS and other high-hazard operations in their laboratories and ensuring that appropriate controls are implemented and documented in laboratory SOPs and training. EHS is available to assist in evaluating hazards and recommending additional safeguards to protect laboratory personnel.
+
+Additional protective measures may include:
+
+establishing designated areas for PHS or high-hazard chemical use,
+
+using containment devices such as fume hoods, gloveboxes, or other appropriate engineering controls,
+
+implementing procedures for the safe handling, storage, and removal of contaminated materials and waste,
+
+enhanced decontamination procedures for work surfaces and equipment, and
+
+incorporating these requirements into laboratory-specific SOPs, hazard assessments, and training.
+
+When PHS or high-hazard chemical use intersects with biological or radiological hazards or involves specialized containment systems, the requirements of the Laboratory Safety Manual, Biosafety Written Program, and Radiation Safety Manual also apply.
+
+For assistance with evaluating PHS or developing required controls, contact EHS at 607-255-8200 or email askEHS@cornell.edu .
+
+This Chemical Hygiene Plan is reviewed annually. Last Date Reviewed: 11/2025.

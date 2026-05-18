@@ -1,0 +1,1433 @@
+## Hazardous Waste Manual
+
+Chapter 1.0 - Introduction
+
+Chapter 2.0 - Responsibilities
+
+2.1 Liability
+
+2.2 Penalties
+
+2.3 Waste Generator Responsibilities
+
+2.4 Principal Investigators / Functional Supervisors Responsibilities
+
+2.5 Students / Employees Responsibilities
+
+2.6 EHS Responsibilities 2.6.1 EHS Personnel
+
+2.6.1 EHS Personnel
+
+2.7 Departments That Choose To Collect and Consolidate Waste
+
+Chapter 3.0 - Managing Laboratory Hazards
+
+3.1 Maintain a Current Inventory
+
+3.1 Maintain a Current Inventory
+
+3.2 Use Recycled Chemicals
+
+3.3 Purchasing Chemicals
+
+3.4 Nonhazardous Substitutes
+
+3.5 Appropriate Storage Practices
+
+3.6 Cylinder and Lecture Bottles
+
+3.7 Microscale Activities
+
+3.8 Disposal of Nonhazardous Laboratory Waste Chemicals
+
+Chapter 4.0 - Hazardous Waste Generator Requirements
+
+4.1 Hazardous Waste Generation, Management, and Disposal
+
+4.1 Hazardous Waste Generation, Management, and Disposal
+
+4.2 Hazardous Waste Transportation
+
+4.3 Generator Status 4.3.1 Conditionally Exempt Small Quantity Generator 4.3.2 Small Quantity Generator 4.3.3 Large Quantity Generator
+
+4.3.1 Conditionally Exempt Small Quantity Generator
+
+4.3.2 Small Quantity Generator
+
+4.3.3 Large Quantity Generator
+
+Chapter 5.0 - Managing Hazardous Waste
+
+5.1 Listed Hazardous Wastes (F, K, U, and P lists) 5.1.1 F-Listed Waste 5.1.2 K-Listed Waste 5.1.3 U and P Listed Waste 5.1.4 Polychlorinated Biphenyls (PCBs)
+
+5.1.1 F-Listed Waste
+
+5.1.2 K-Listed Waste
+
+5.1.3 U and P Listed Waste
+
+5.1.4 Polychlorinated Biphenyls (PCBs)
+
+5.2 Characteristic Waste 5.2.1 Ignitability 5.2.2 Corrosivity 5.2.3 Reactivity 5.2.4 Toxicity
+
+5.2.1 Ignitability
+
+5.2.2 Corrosivity
+
+5.2.3 Reactivity
+
+5.2.4 Toxicity
+
+5.3 The Mixture Rule
+
+5.4 The Derived From Rule
+
+Chapter 6.0 - Where Hazardous Waste is Generated (Satellite Accumulation Areas)
+
+Chapter 7.0 - Management Procedures For Specific Waste Types
+
+7.1 Concentrated Solutions of Acids and Bases 7.1.1 General Neutralization Procedures 7.1.2 Acid Neutralization 7.1.3 Base Neutralization 7.1.4 Chromic Acid 7.1.5 Hydrofluoric Acid 7.1.6 Perchloric Acid
+
+7.1.1 General Neutralization Procedures
+
+7.1.2 Acid Neutralization
+
+7.1.3 Base Neutralization
+
+7.1.4 Chromic Acid
+
+7.1.5 Hydrofluoric Acid
+
+7.1.6 Perchloric Acid
+
+7.2 Organic Solvents
+
+7.3 Aqueous Solutions of Toxic Chemicals
+
+7.4 Used Oil
+
+7.5 Asbestos
+
+7.6 Silica Gel
+
+7.7 Chemically Contaminated / Empty Containers
+
+7.8 Mercury
+
+7.9 Fluorescent Tubes (Universal Waste Lamps)
+
+7.10 Batteries (Universal Waste Batteries)
+
+7.11 Computers and Other Electronic Equipment
+
+7.12 Aerosol Cans and Propane Cylinders
+
+7.13 Paint, Paint Thinner, Adhesives, and Printshop Chemicals
+
+7.14 Photographic Chemicals
+
+7.15 Reactive and Potentially Explosive Chemicals
+
+7.16 Peroxide Forming Chemicals
+
+7.17 Unknowns
+
+7.18 Household Hazardous Waste
+
+7.19 Ethidium Bromide 7.19.1 Dry Ethidium Bromide Wastes, Including Gloves and Papers 7.19.2 Deactivation Procedures
+
+7.19.1 Dry Ethidium Bromide Wastes, Including Gloves and Papers
+
+7.19.2 Deactivation Procedures
+
+Chapter 8.0 - Hazardous Waste Disposal Procedures
+
+Chapter 9.0 - What Happens to the Hazardous Waste Generated
+
+9.1 Lab Pack Drums
+
+9.1 Lab Pack Drums
+
+9.2 Bulk Drums 9.2.1 Solvent Recycling
+
+9.2.1 Solvent Recycling
+
+9.3 Recycling / Reclamation
+
+9.4 Ultimate Disposal
+
+Appendix A - Disposal of Nonhazardous Laboratory Waste as Regular Trash
+
+Appendix B - Disposal of Nonhazardous Laboratory Waste Down the Sanitary Sewer
+
+Appendix C - Disposal of Unknown Chemical Waste Containers
+
+## TABLE OF CONTENTS
+
+Chapter 1.0 - Introduction
+
+Chapter 2.0 - Responsibilities
+
+2.1 Liability
+
+2.2 Penalties
+
+2.3 Waste Generator Responsibilities
+
+2.4 Principal Investigators / Functional Supervisors Responsibilities
+
+2.5 Students / Employees Responsibilities
+
+2.6 EHS Responsibilities 2.6.1 EHS Personnel
+
+2.6.1 EHS Personnel
+
+2.7 Departments That Choose To Collect and Consolidate Waste
+
+Chapter 3.0 - Managing Laboratory Hazards
+
+3.1 Maintain a Current Inventory
+
+3.1 Maintain a Current Inventory
+
+3.2 Use Recycled Chemicals
+
+3.3 Purchasing Chemicals
+
+3.4 Nonhazardous Substitutes
+
+3.5 Appropriate Storage Practices
+
+3.6 Cylinder and Lecture Bottles
+
+3.7 Microscale Activities
+
+3.8 Disposal of Nonhazardous Laboratory Waste Chemicals
+
+Chapter 4.0 - Hazardous Waste Generator Requirements
+
+4.1 Hazardous Waste Generation, Management, and Disposal
+
+4.1 Hazardous Waste Generation, Management, and Disposal
+
+4.2 Hazardous Waste Transportation
+
+4.3 Generator Status 4.3.1 Conditionally Exempt Small Quantity Generator 4.3.2 Small Quantity Generator 4.3.3 Large Quantity Generator
+
+4.3.1 Conditionally Exempt Small Quantity Generator
+
+4.3.2 Small Quantity Generator
+
+4.3.3 Large Quantity Generator
+
+Chapter 5.0 - Managing Hazardous Waste
+
+5.1 Listed Hazardous Wastes (F, K, U, and P lists) 5.1.1 F-Listed Waste 5.1.2 K-Listed Waste 5.1.3 U and P Listed Waste 5.1.4 Polychlorinated Biphenyls (PCBs)
+
+5.1.1 F-Listed Waste
+
+5.1.2 K-Listed Waste
+
+5.1.3 U and P Listed Waste
+
+5.1.4 Polychlorinated Biphenyls (PCBs)
+
+5.2 Characteristic Waste 5.2.1 Ignitability 5.2.2 Corrosivity 5.2.3 Reactivity 5.2.4 Toxicity
+
+5.2.1 Ignitability
+
+5.2.2 Corrosivity
+
+5.2.3 Reactivity
+
+5.2.4 Toxicity
+
+5.3 The Mixture Rule
+
+5.4 The Derived From Rule
+
+Chapter 6.0 - Where Hazardous Waste is Generated (Satellite Accumulation Areas)
+
+Chapter 7.0 - Management Procedures For Specific Waste Types
+
+7.1 Concentrated Solutions of Acids and Bases 7.1.1 General Neutralization Procedures 7.1.2 Acid Neutralization 7.1.3 Base Neutralization 7.1.4 Chromic Acid 7.1.5 Hydrofluoric Acid 7.1.6 Perchloric Acid
+
+7.1.1 General Neutralization Procedures
+
+7.1.2 Acid Neutralization
+
+7.1.3 Base Neutralization
+
+7.1.4 Chromic Acid
+
+7.1.5 Hydrofluoric Acid
+
+7.1.6 Perchloric Acid
+
+7.2 Organic Solvents
+
+7.3 Aqueous Solutions of Toxic Chemicals
+
+7.4 Used Oil
+
+7.5 Asbestos
+
+7.6 Silica Gel
+
+7.7 Chemically Contaminated / Empty Containers
+
+7.8 Mercury
+
+7.9 Fluorescent Tubes (Universal Waste Lamps)
+
+7.10 Batteries (Universal Waste Batteries)
+
+7.11 Computers and Other Electronic Equipment
+
+7.12 Aerosol Cans and Propane Cylinders
+
+7.13 Paint, Paint Thinner, Adhesives, and Printshop Chemicals
+
+7.14 Photographic Chemicals
+
+7.15 Reactive and Potentially Explosive Chemicals
+
+7.16 Peroxide Forming Chemicals
+
+7.17 Unknowns
+
+7.18 Household Hazardous Waste
+
+7.19 Ethidium Bromide 7.19.1 Dry Ethidium Bromide Wastes, Including Gloves and Papers 7.19.2 Deactivation Procedures
+
+7.19.1 Dry Ethidium Bromide Wastes, Including Gloves and Papers
+
+7.19.2 Deactivation Procedures
+
+Chapter 8.0 - Hazardous Waste Disposal Procedures
+
+Chapter 9.0 - What Happens to the Hazardous Waste Generated
+
+9.1 Lab Pack Drums
+
+9.1 Lab Pack Drums
+
+9.2 Bulk Drums 9.2.1 Solvent Recycling
+
+9.2.1 Solvent Recycling
+
+9.3 Recycling / Reclamation
+
+9.4 Ultimate Disposal
+
+Appendix A - Disposal of Nonhazardous Laboratory Waste as Regular Trash
+
+Appendix B - Disposal of Nonhazardous Laboratory Waste Down the Sanitary Sewer
+
+Appendix C - Disposal of Unknown Chemical Waste Containers
+
+## Chapter 1 - Introduction
+
+The guidance and policies in this manual have been established to protect the health and safety of all personnel on campus and to meet hazardous waste management regulatory requirements.
+
+The U.S. Environmental Protection Agency (EPA), and New York State’s Department of Environmental Conservation (DEC), regulate the generation, storage, and disposal of hazardous waste chemicals. These regulations apply to all hazardous waste generated by Cornell University and impose specific requirements on all waste generators.
+
+The Department of Environment, Health and Safety (EHS) provides the hazardous waste chemical management and disposal services for all Cornell University operations, with the exception of Weill Medical College and some outlying facilities. Staff at outlying facilities must comply with the local procedure and should contact EHS at askEHS for questions about managing hazardous waste at their facilities.
+
+In order for all campus personnel to properly dispose of hazardous wastes generated in their respective work areas, they must make accurate waste characterizations and disposal determinations. Guidance for making these characterizations, determinations, and their required waste management activities is provided in this document.
+
+## Chapter 2 - Responsibilities
+
+All chemical users have a legal and moral responsibility to ensure the proper disposal of any hazardous waste generated. There are various state and federal regulations that govern the disposal of chemical wastes. There are also criminal and civil penalties that can result from improper disposal of these wastes. In addition to potential citations, fines, and imprisonment, improper waste disposal can also result in national media attention and damage to the University’s reputation.
+
+You also have a moral responsibility to properly dispose of chemicals that can pose a present or potential hazard to human health or the environment.
+
+The Cornell University management procedure for the policy on environmental health and safety can be found in the Environment, Health and Safety Policy 8.6 . The following outlines the liability issues, potential penalties, and specific responsibilities for the management of hazardous wastes.
+
+## 2.1 Liability
+
+Cornell University faculty, staff, and students who follow all published EHS hazardous waste disposal requirements are covered under the University’s Indemnification Policy 4.9 .
+
+Work groups or units that fail to comply with the regulations or EHS hazardous waste disposal requirements will be responsible for paying any fines associated with their non-compliance.
+
+## 2.2 Penalties
+
+EPA regulators are authorized to fine non-compliances at a rate up to $37,500 per violation per day of occurrence. In general, EPA fines are much larger than any other federal agency.
+
+For academic waste generators, the Provost’s Office has stated in a letter to campus that individual units will be responsible for paying fines associated with non-compliances in their areas.
+
+## 2.3 Waste Generator Responsibilities
+
+Individual investigators, supervisors, workers, students, laboratory staff, visitors, etc. are considered the actual originators (generators) of these regulated materials. Therefore, it is the responsibility of each generator to identify any and all hazardous wastes that he or she might be producing, and to assure the waste is handled in a manner consistent with the EHS requirements listed in this document.
+
+Where EHS requirements identify solvents that must be collected separately for distillation and reuse, the waste generator must make every effort to segregate those solvents from their regular hazardous waste collection containers.
+
+## 2.4 Principal Investigators / Functional Supervisors Responsibilities
+
+For laboratories, the principal investigator (PI) or his/her designee, and for other campus work areas, the functional supervisor, have the responsibility to ensure the personnel working under their direction follow all policies and procedures established in this manual. General responsibilities include:
+
+Attending Chemical Waste Disposal Training - either live or online .
+
+Proper identification and labeling of chemicals.
+
+Collecting all chemical wastes in accordance with established guidelines.
+
+Cleaning up incidental spills (with the proper training and spill equipment).
+
+Maintaining good housekeeping in waste generation areas.
+
+## 2.5 Students / Employees Responsibilities
+
+Cornell students and other university personnel working with hazardous chemicals must follow the requirements and guidelines presented in this manual. These responsibilities include:
+
+Attending Chemical Waste Disposal Training - either live or online .
+
+Proper identification and labeling of chemicals.
+
+Collecting all chemical wastes in accordance with established guidelines.
+
+Identifying all spent or surplus materials using the technical knowledge within the department.
+
+Packaging, labeling, and storing all chemical wastes in accordance with established guidelines.
+
+Consulting with supervisors and/or EHS regarding the safe handling and proper disposal of hazardous waste chemicals when they are unsure or have questions.
+
+## 2.6 EHS Responsibilities
+
+Cornell University EHS is registered with the EPA as the generator of hazardous waste. The Environment, Health and Safety Policy 8.6 establishes EHS as having the primary responsibility for administering Cornell’s chemical waste management program and establishing policies and procedures for proper chemical waste management. Elements of the chemical waste management program include:
+
+Developing a written Hazardous Waste Disposal Manual and an online program detailing university policies related to hazardous waste and material management.
+
+Developing and maintaining a RCRA Contingency Plan for all Cornell University 90 Day Accumulation Areas .
+
+Providing both live and online waste management training to all required campus personnel. Training will be tailored to meet both federal and state requirements. The level of training required for trainees is a direct function of the work related to waste management.
+
+Acting as an information resource for campus personnel with hazardous waste related questions .
+
+Providing pickup and transport of chemical hazardous waste from campus Satellite Accumulation Areas to the campus main 90 Day Accumulation Area.
+
+Providing periodic inspections of campus 90 Day Accumulation Areas .
+
+Acting as point of contact with all regulatory agencies related to waste management issues.
+
+Preparing and maintaining records, reports and manifests as required by regulation.
+
+Acting as Stewards for university hazardous waste contracts, providing quality control and payment approval for waste related invoices.
+
+Initiating programs and guidance to minimize the generation of hazardous wastes.
+
+Keeping up-to-date with current regulations and best practices.
+
+## 2.6.1 EHS Personnel
+
+EHS personnel are available to assist campus personnel in the identification and handling of chemical wastes. These staff members manage the collection and proper disposal of the chemical waste generated at Cornell.
+
+## 2.7 Departments That Choose To Collect and Consolidate Waste​
+
+Departments that choose to collect hazardous wastes in a central location must ensure that the central location meets the 90 day area requirements and that staff who collect the waste have annual 90 day area worker training. EHS discourages the creation of 90 day areas on campus due to the additional responsibilities required to maintain a 90 day area. However, if you think you generate enough waste to justify having a 90 day area, then please contact EHS at askEHS for more information.
+
+## Chapter 3 - Minimizing Hazardous Waste Generation
+
+Disposal of hazardous waste is regulated by the U.S. Environmental Protection Agency (EPA) and the New York State Department of Environmental Conservation (DEC) under the Resource Conservation and Recovery Act (RCRA). This Act makes it illegal to mismanage hazardous wastes. RCRA’s emphasis is on waste reduction and recycling. You can help reduce the expenditure of University funds (and ultimately your department’s funds) on waste disposal and material procurement by practicing waste minimization.
+
+## 3.1 Maintain a Current Inventory
+
+The first step to effectively minimizing the amount of hazardous waste generated is to maintain a current inventory of all chemicals being used and stored in labs and work areas. Check chemical inventories first before ordering any new chemicals. It may also be possible to borrow small amounts of chemicals from other labs. Please take the time to check with your colleagues.
+
+## 3.2 Use Recycled Chemicals
+
+At this time there is no program available for surplus chemicals. As a good waste management practice, chemicals should not be discarded without first making an effort to find a potential user of the product.
+
+## 3.3 Purchasing Chemicals
+
+When ordering new chemicals , only order the amount of chemicals needed for the experiment being conducted. Do not order a larger size container for an experiment that will only last a semester or for an experiment that may occur in the future. Although chemicals usually cost less per unit when purchased in larger containers, when the actual usage, storage, and disposal are factored in, the cost savings diminishes significantly and may result in higher costs overall.
+
+In addition, chemicals in large containers that are not used frequently can be rendered useless over time by contamination or degradation. In general, only order the minimum quantity of a chemical needed for the experiment, or one year’s worth of stock at the absolute most.
+
+## 3.4 Nonhazardous Substitutes
+
+There are many nonhazardous substitutes for hazardous chemicals used in laboratories. Hazardous chemicals should be substituted with nonhazardous alternatives whenever possible, in particular those chemicals that are highly toxic, reactive, contain heavy metals, and are known or suspected carcinogens, mutagens, or teratogens.
+
+Examples of nonhazardous chemical substitutes can be found in reference materials such as Prudent Practices in the Laboratory.
+
+## 3.5 Appropriate Storage Practices
+
+Storing chemicals properly promotes safer and healthier working conditions and extends the usefulness of chemicals. Improperly stored chemicals can result in:
+
+Degraded containers that allow chemicals to become contaminated.
+
+Degraded containers that can release hazardous vapors that are detrimental to the health of lab workers.
+
+Degraded containers that can release vapors that can affect the integrity of nearby containers.
+
+Degraded labels that can result in the generation of unknowns.
+
+Chemicals becoming unstable and/or potentially explosive.
+
+Purchasing a chemical that is already in the lab or work area.
+
+More information on chemical storage classes and chemical storage guidelines can be found in the Laboratory Safety Manual and Chemical Hygiene Plan .
+
+## 3.6 Cylinders and Lecture Bottles
+
+Disposal of cylinders and lecture bottles is expensive, especially if the contents are unknown. Make sure that all cylinders and lecture bottles are labeled and included in chemical inventories. Before placing an order for a cylinder or lecture bottle, determine if the manufacturer will take back the cylinder or lecture bottle when it becomes empty. If at all possible, only order from manufacturers who will accept cylinders and lecture bottles for return. Airgas Incorporated is an eShop supplier of compressed gases for Cornell University.
+
+## 3.7 Microscale Activities
+
+## If possible, consider switching to microscale experiments. Benefits might include:
+
+Reduced costs in chemical purchases and hazardous waste disposal.
+
+Shorter analysis times.
+
+Possibly less glassware breakage.
+
+Less hazardous chemical exposure to employees and students.
+
+Minimized potential for fires and explosions.
+
+Less space required for chemical and hazardous waste storage.
+
+For more information and training on microscale activities, check out the webpage for the National Microscale Chemistry Center located at Merrimack College.
+
+## 3.8 Disposal of Nonhazardous Laboratory Waste Chemicals
+
+Some chemicals can be safely and legally disposed of via the regular trash or down the drain to the sanitary sewer.
+
+For more information on disposing of nonhazardous laboratory waste chemicals in the regular trash, see Appendix A . Outlying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS@cornell.edu for consultation.
+
+For more information on disposing of nonhazardous laboratory waste chemicals down the sanitary sewer, see Appendix B . Outlying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS@cornell.edu for consultation.
+
+## Chapter 4 - Hazardous Waste Generator Requirements
+
+The following describe the various requirements for managing hazardous waste for each of the different types of generators. Generator status is mainly dependent on the quantity of hazardous waste generated in a calendar month. Satellite Accumulation Area (SAA) is the name given to the location (the lab or work area) where hazardous wastes are generated and stored before being moved to a central storage area.
+
+## 4.1 Hazardous Waste Generation, Management, and Disposal
+
+RCRA established a nationwide hazardous waste management law. The EPA promulgates federal regulations governing hazardous waste generation, management and disposal. Federal regulations for hazardous waste are found in 40 CFR 260-279 .
+
+DEC is authorized by the EPA to govern hazardous waste in New York State. The DEC’s regulations are slightly more stringent than the federal standards. When the university is inspected by the EPA under the RCRA regulations, the DEC’s regulations are what our compliance is measured against. New York State regulations for hazardous waste are found in 6 NYCRR 360-376 .
+
+## 4.2 Hazardous Waste Transportation
+
+The US Department of Transportation (DOT) regulations govern the labeling, packaging and transportation of all hazardous materials in commerce. EHS provides campus access to the current DOT hazardous materials shipping regulations through a subscription to Label Master – you may access these regulations here:
+
+DOT Haz Mat Regulation Link
+
+Federal regulations governing the transport of hazardous materials are found in 49 CFR 171-173 & 177.
+
+## 4.3 Generator Status
+
+Facilities that create hazardous waste are regulated by their “generator status.” This status is divided into three possible categories. Each category is regulated by standards which relate to the total volume of hazardous waste generated at the facility each calendar month, as well as the total amount of hazardous waste in storage. Requirements for management of hazardous waste can vary greatly depending on the facility’s generator status, which can legally change on a month-by-month basis for some facilities.
+
+The EPA and DEC regulate facilities generating hazardous waste in one of the three following categories of generator status: Conditionally Exempt Small Quantity Generator, Small Quantity Generator, and Large Quantity Generator.
+
+## 4.3.1 Conditionally Exempt Small Quantity Generator
+
+By regulation, facilities are categorized as Conditionally Exempt Small Quantity Generators (CESQG) if:
+
+They generate less than 100 kilograms (220 pounds) of hazardous waste in any given calendar month.
+
+No more than 2,200 pounds of hazardous waste (or 2.2 pounds of acutely hazardous waste, P-listed) may be on site at any one time.
+
+CESQG hazardous waste is exempt from most RCRA regulations. However, these facilities:
+
+Must identify all hazardous wastes they generate.
+
+Must identify all hazardous wastes they generate.
+
+May send wastes to a facility that: Beneficially uses or reuses, or legitimately recycles or reclaims, waste. Is permitted by EPA or the state to treat waste prior to beneficial use or reuse, or legitimate recycling or reclamation. programs.
+
+Beneficially uses or reuses, or legitimately recycles or reclaims, waste.
+
+Is permitted by EPA or the state to treat waste prior to beneficial use or reuse, or legitimate recycling or reclamation. programs.
+
+## 4.3.2 Small Quantity Generator
+
+By regulation, facilities are categorized as Small Quantity Generators (SQG) if:
+
+Facility generates ≤ 100 kilograms and no more than 1000 kilograms (2200 pounds) of hazardous waste in any calendar month.
+
+Onsite accumulation time does not exceed 180 days.
+
+No more than 1 kilogram (2.2 pounds) per month of acute waste is generated.
+
+Total onsite accumulation cannot exceed more than 6,000 kilograms (13,200 pounds).
+
+## SQG Container Management
+
+Containers of hazardous waste generated in any accumulation area at Cornell should comply with the following requirements:
+
+Use of the original chemical product container for hazardous waste storage is a good management practice. Cornell University does not allow hazardous waste to be stored in containers that previously held household products such as bleach, detergents, or any food products.
+
+It is not permitted to put the following types of solid materials into containers of liquid hazardous waste: pipettes, magnetic stirrers, vials, test tubes, filters, pH paper.
+
+Personnel generating hazardous waste must make a conscious effort to prevent chemical contamination of exterior surfaces of waste containers.
+
+Additionally, the following are state and federal regulatory requirements for the management of hazardous waste containers:
+
+Containers must be compatible with the waste in them.
+
+Containers must be compatible with the waste in them.
+
+Containers must be kept closed except when waste is actually being added.
+
+Containers must not be leaking, bulging, rusting, damaged, or dented.
+
+Go to Section 7.7 for information on management of empty containers.
+
+## 180-Day Container Storage
+
+Containers of hazardous waste must be marked with the date accumulation began, the words HAZARDOUS WASTE, and with other words that identify the contents of the containers. NOTE : The start date is when the first waste is poured / placed into the waste container at the 180-day accumulation point OR the date when the filled container is moved from the satellite accumulation point to the 180-day central storage area. If more than 55 gallons of waste is generated at a satellite area, the excess of 55 gallons must be dated and moved to the 180-day central storage within 72 hours.
+
+Containers of hazardous waste must be marked with the date accumulation began, the words HAZARDOUS WASTE, and with other words that identify the contents of the containers. NOTE : The start date is when the first waste is poured / placed into the waste container at the 180-day accumulation point OR the date when the filled container is moved from the satellite accumulation point to the 180-day central storage area. If more than 55 gallons of waste is generated at a satellite area, the excess of 55 gallons must be dated and moved to the 180-day central storage within 72 hours.
+
+Weekly inspections must be conducted at 180-day storage area.
+
+There must be sufficient aisle space to allow unobstructed movement of personnel, fire protection equipment, spill control equipment, and decontamination equipment to any area of the operation.
+
+Required equipment is easily accessible and in working condition and is tested to ensure it is in working condition.
+
+There is internal communications or alarm system capable of providing immediate emergency instruction to personnel.
+
+There is a telephone or hand-held two-way radio capable of contacting local and emergency responders.
+
+There are portable fire extinguishers and fire control equipment, including special extinguishing equipment (foam, inert gas, or dry chemicals).
+
+There is spill control equipment.
+
+There is decontamination equipment.
+
+There are fire hydrants or other source of water (reservoir, storage tank, etc.) with adequate volume and pressure, foam producing equipment, automatic sprinklers, or water spray systems.
+
+When waste leaves the 180-day storage area, it either is going for disposal, treatment, or recycling.
+
+No Smoking signs must be conspicuously placed wherever there is a hazard from ignitable or reactive waste.
+
+## Training
+
+Personnel must be thoroughly familiar with waste handling and emergency procedures relevant to their responsibilities during normal facility operation and emergencies.
+
+## Documentation
+
+SQGs must have an EPA identification number.
+
+SQGs must have an EPA identification number.
+
+SQGs must use Uniform Hazardous Waste Manifests when sending waste offsite for disposal or recycling.
+
+SQGs must maintain a copy of each signed manifest for 3 years or until the SQG receives a signed copy from the designated facility which received the waste. The returned signed copy is retained as a record for at least 3 years from the date the waste was accepted by the initial transporter.
+
+SQGs are required to keep records of waste analyses, tests, and waste determinations for 3 years.
+
+Emergency information must be posted by the phone.
+
+If the waste being disposed of is restricted from land disposal, the manifest files should contain a copy of the Land Disposal Restrictions (LDR) notice.
+
+Documentation of weekly inspections of the 180 storage area.
+
+## 4.3.3 Large Quantity Generator
+
+By regulation, facilities are categorized as Large Quantity Generators (LQG) if the facility generates 1000 kilograms ( 2,200 pounds) or more hazardous waste in a given calendar month. These facilities must:
+
+## Meet all Small Quantity Generator (SQG) requirements, in addition to the following requirements:
+
+Place all volatile organic wastes in containers less than 26 gallons in size or in an applicable DOT container.
+
+Inspect all hazardous waste containers for condition and leaks at least weekly.
+
+Ship all hazardous waste off site within 90 days of the date the waste was first placed into the RCRA 90 Day Storage Area.
+
+Develop a facility contingency plan for hazardous waste emergencies and ensure the presence of certain emergency equipment.
+
+Conduct employee training to ensure RCRA compliance and maintain training records.
+
+Maintain a 50-foot buffer zone from the facility boundary for container storage of ignitable or reactive wastes.
+
+## Chapter 5 - Managing Hazardous Waste
+
+Materials are classified as hazardous waste based on the manner in which they are disposed and the hazards their disposal will present to human health and safety, as well as potential environmental damage. For a chemical to become a hazardous waste, it must first meet the regulatory definition of "Solid Waste".
+
+The Environmental Protection Agency (EPA) defines a Solid Waste as any “garbage, refuse, sludge and other discarded material ” including:
+
+Solids
+
+Liquids
+
+Semisolids
+
+Contained gaseous materials
+
+resulting from industrial, commercial, mining, and agricultural operations.
+
+The definition of Solid Waste has more to do with the disposition of the material, rather than the physical state of the material.
+
+## 5.1 Listed Hazardous Wastes (F, K, U, and P lists)
+
+The EPA has 4 lists of hazardous wastes. DEC has the same listing as the EPA, with one additional list for Polychlorinated Biphenyl (PCB) wastes. Any waste with a contaminant meeting the definition of any of these lists is considered hazardous waste regardless of the hazardous characteristics. The Lists are found in 40 CFR 261 Subpart D and 6 NYCRR 371.4.
+
+## 5.1.1 F-Listed Waste
+
+These wastes are known as “ Non-Specific Source Wastes .” They are mostly spent solvents and wastewaters. Many of Cornell’s laboratories generate these spent solvent wastes.
+
+## 5.1.2 K-Listed Waste
+
+These wastes are " Specific Source Wastes ". Most are from industrial process wastes and are very specific to a particular industrial process. For example; K050… Heat exchanger bundle cleaning sludge from the petroleum refining industry . Cornell does not generate any K-Listed Waste.
+
+## 5.1.3 U and P Listed Waste
+
+U and P listed wastes are discarded commercial chemical products, off-specification species, container residues, and spill residues thereof. In general, they are unused materials containing only one active ingredient. Cornell generates many of these wastes during lab cleanouts or disposal of outdated chemicals.
+
+The main differences between U-Listed and P-Listed waste is that the P-Listed wastes are acutely toxic and the empty containers which held their material must be triple rinsed, and the rinsate collected and shipped as hazardous waste. Alternatively, using a CU Hazardous Waste label, manage the empty bottle as P-listed hazardous waste ensuring the listed chemical is identified on the label. The storage time requirements for generators are more stringent when storing P-Listed wastes.
+
+## 5.1.4 Polychlorinated Biphenyls (PCBs)
+
+The DEC list for PCB wastes includes various PCB’s, PCB transformers, articles, and other PCB wastes. They are not EPA listed hazardous waste but are regulated by New York State as hazardous waste in 6 NYCRR 371.4 .
+
+## 5.2 Characteristic Waste
+
+In brief, the following are the characteristics which will cause a solid waste to be regulated as “hazardous waste”:
+
+## 5.2.1 Ignitability
+
+A liquid other than an aqueous solution containing less than 24 % alcohol by volume, having a flashpoint of less than 140°F.
+
+A non-liquid capable under standard temperature and pressure of causing fire through friction, spontaneous combustion, and when ignited, burns so vigorously and persistently that it creates a hazard.
+
+It is an ignitable compressed gas.
+
+It is an oxidizer.
+
+## 5.2.2 Corrosivity
+
+It is aqueous and has a pH of less than or equal to 2 or greater than or equal to 12.5.
+
+It is a liquid and corrodes steel at a rate greater than 0.250 inch per year.
+
+## 5.2.3 Reactivity
+
+It is normally unstable and readily undergoes violent change without detonating.
+
+It reacts violently or forms potentially explosive mixtures with water.
+
+When mixed with water, it generates toxic gases, vapors or fumes that present a danger to human health or the environment.
+
+It is a cyanide or sulfide bearing waste that can generate toxic gases vapors or fumes that present a danger to human health or the environment when exposed to pH conditions between 2 and 12.5.
+
+It can detonate or explode if subjected to a strong initiating source or if heated under confinement.
+
+It is readily capable of detonation or explosive decomposition or reaction at standard temperature and pressure.
+
+It is a forbidden explosive as defined in 49 CFR 173 .
+
+## 5.2.4 Toxicity
+
+A solid waste exhibits the characteristic of toxicity if, using the EPA’s Toxicity Characteristic Leaching Procedure (TCLP) test method, the extract from a representative sample of the waste contains any of the contaminants listed in Table 1 of 40 CFR 261.24 at the concentration equal to or greater than the respective value given in the table. There are 40 contaminants listed in Table 1 . Most of these are heavy metals, organic solvents, and pesticides.
+
+## 5.3 The Mixture Rule
+
+If you have a characteristic hazardous waste and it is inadvertently mixed with a nonhazardous waste, the mixture will be considered hazardous waste only if it retains the hazardous characteristic.
+
+If you have a nonhazardous waste, e.g. used oil, and you contaminate it with a listed hazardous waste , e.g. F005 spent solvent; the entire waste will be classified as F005 listed hazardous waste.
+
+A few wastes are listed only because they are ignitable or reactive. In these cases, if the resulting mixture is no longer ignitable or reactive, then the mixture is not considered a listed waste.
+
+## 5.4 The Derived From Rule
+
+Waste generated (derived) from the treatment, storage, or disposal of a listed hazardous waste, including sludge, spill residue, ash, emission control dust, or leachate, is considered a listed hazardous waste.
+
+## Chapter 6 - Where Hazardous Waste Is Generated (Satellite Accumulation Areas)
+
+Satellite Accumulation Area (SAA) is the name given to the location where hazardous wastes are generated and stored before being moved to a campus 90-day central storage area. This includes such facilities as laboratories, shops, and photographic studios.
+
+Requirements for Satellite Accumulation of Hazardous Waste:
+
+All generators must attend Chemical Waste Disposal Training – either live or online .
+
+Hazardous waste must be stored at or near the point where the waste is generated, i.e., in the same room. By law, you cannot move hazardous waste containers from one room to another unless you are moving the container to a 180 day or 90 day storage area. Preferably, there is only one SAA per room.
+
+A “ Hazardous Waste Satellite Accumulation Area ” sign should be posted at the area where the waste is generated and stored.
+
+Waste containers must be under the control of the operator of the process that generates the waste. This can be a Principal Investigator, supervisor, or the person generating the waste.
+
+Waste containers must be in good condition, no dents, cracks etc., and lids intact and functional.
+
+Wastes must be chemically compatible with the container.
+
+Containers must be closed except when adding or removing waste. Do not leave a funnel in the bottle.
+
+Mark containers with the words "hazardous waste" and other words that identify the contents. When more than one chemical waste is stored in a container, the amount or approximate percentage of each constituent must be identified on the label. (The words “Hazardous Waste are preprinted on the EHS green & white two-part labels ). Outlying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS for questions about managing hazardous waste at their facilities.
+
+Store hazardous waste chemicals in secondary containment whenever possible. Plastic bins offer the best protection against spills.
+
+Deface original container labels on reused bottles, except when the waste matches the label.
+
+Chemical containers that held P-Listed wastes are acutely toxic and must be triple rinsed, and the rinsate collected and shipped as hazardous waste.
+
+Segregate the waste by chemical hazards .
+
+No more than 55 gallons of hazardous waste, or one quart of acutely hazardous waste ( P-listed ), may be accumulated in a Satellite Accumulation Area. Containers of excess waste must be dated at the time 55 gallons is exceeded and moved to a 90 Day Accumulation Area within 72 hours.
+
+Place the completed top copy of hazardous waste labels in the UN rated DOT approved transport box(es) with the waste, and submit an online “ Request For Chemical Waste Removal Form .” EHS personnel normally pickup the waste on Wednesdays and Fridays but this may vary depending on workloads, holidays, and a customer's special needs . Outlying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS for pick-up schedule.
+
+Clean up small spills of hazardous waste if you have the proper training, the proper personal protective equipment (PPE), and feel comfortable doing so. Spill cleanup material of some hazardous waste, specifically P-listed wastes, must also be disposed of as hazardous waste. If you are unsure, then please contact EHS at " askEHS ". You can find more information on cleaning up small/incidental spills in the Laboratory Safety Manual and Chemical Hygiene Plan.
+
+## Chapter 7 - Management Procedures For Specific Waste Types
+
+The following management procedures are for specific types of hazardous wastes. If you generate large quantities of specific types of chemical wastes not listed here, then please contact EHS at " askEHS " for assistance.
+
+The procedures listed below are for Ithaca Campus only. Outllying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS@cornell.edu for questions about managing hazardous waste at their facilities.
+
+## 7.1 Concentrated Solutions of Acids and Bases
+
+Corrosive acids and bases are common wastes generated in laboratories on campus. Corrosivity is the only hazardous waste characteristic that may be treated by a generator onsite without an EPA permit.
+
+Generators of corrosive wastes which have no other hazardous characteristics should neutralize the wastes to a stabilized pH between 5.5 and 9.5. The neutralized non-hazardous waste may then be drain disposed followed with a water flush (20 parts of water).
+
+Procedures for neutralizing acids and bases are described in the following three sections. Note: Neutralization is recommended only for very small volumes of corrosive acids and bases. You should only perform neutralization of corrosives if you have been trained, you feel confident that you understand the process, you have the proper personal protective equipment, and are comfortable doing it.
+
+## 7.1.1 General Neutralization Procedures
+
+Do neutralizations in a fume hood behind a safety shield, as vapors and heat may be generated. Wear lab coat or apron, gloves and goggles. A face shield in combination with safety goggles is recommended. Please note, a face shield alone is not sufficient, safety goggles must be worn when using a face shield.
+
+Keep containers cool during process, such as placing a beaker in a bucket with slushy ice.
+
+Work slowly.
+
+After neutralization is complete, dispose of down the drain followed by 20 parts water to the neutralized solution.
+
+Follow the specific neutralization procedures below for the acid or base you are trying to neutralize.
+
+## 7.1.2 Acid Neutralization
+
+While stirring, add acids to large amounts of an ice water solution (1:10) of base such as sodium carbonate, calcium hydroxide, or sodium hydroxide for concentrated acids.
+
+When a pH of at least 5.5 to 9.0 is achieved, dispose of the solution down the drain followed by 20 parts water to the neutralized solution.
+
+When a pH of at least 5.5 to 9.0 is achieved, dispose of the solution down the drain followed by 20 parts water to the neutralized solution.
+
+## 7.1.3 Base Neutralization
+
+Add the base to a large vessel containing water (1:10). Slowly add a 1M solution of Hydrochloric acid.
+
+When a pH of 5.5 to 9.0 is achieved, dispose of solution down the drain followed by 20 parts water to the neutralized solution.
+
+## 7.1.4 Chromic Acid
+
+Chromic acid is a powerful oxidizing agent that is both toxic and corrosive and can explode on contact with organic materials. Chromium (VI), or hexavalent chromium, is also classified as a carcinogen. Accidents involving chromic acid cleaning solutions can result in burns to both skin and clothing.
+
+Chromic acid cleaning solutions leave a residue of chromium (VI) on the glass surface, which is difficult to remove. This residue has been known to interfere with certain research procedures since the material can leach into solution. EHS highly recommends that you consider using chromic acid alternatives such as “NOCHROMIX”, “Alconox”, or similar type products which can be ordered through one of Cornell’s eShop preferred suppliers such as VWR Inc. Due to the reactive and toxic nature, do not attempt to neutralize chromic acid - dispose of chromic acid waste through the hazardous waste management program .
+
+## 7.1.5 Hydrofluoric Acid
+
+Hydrofluoric acid is a strong corrosive and highly toxic chemical that causes severe burns from dilute solutions and can be fatal upon exposure of concentrated solutions. Bench top use of hydrofluoric acid is not permitted; it must only be used in a fume hood.
+
+Anyone using Hydrofluoric acid must contact the Gannett Health Center and purchase a tube of Calcium gluconate gel, which is used as an initial response to skin exposure of Hydrofluoric acid. The quantities of Hydrofluoric acid that are used and stored should be kept to an absolute minimum. All users of hydrofluoric acid must attend hydrofluoric acid training. More information on hydrofluoric acid can be found in the Laboratory Safety Manual and Chemical Hygiene Plan.
+
+Due to the toxic nature, do not attempt to neutralize hydrofluoric acid - dispose of hydrofluoric acid waste through the hazardous waste management program . Because of hydrofluoric acid’s ability to etch glass, the chemical and waste must be stored in plastic containers. As a safety precaution, EHS recommends that calcium hydroxide be added to any mixtures or dilute solutions of Hydrofluoric acid waste to help bind the fluoride ions.
+
+## 7.1.6 Perchloric Acid
+
+Perchloric acid is a strong oxidizer and corrosive acid. Perchloric acid can react with metal to form shock sensitive metal perchlorates. This can occur when perchloric acid is used in a regular (non-perchloric acid) fume hood. More information on Perchloric acid can be found in the Laboratory Safety Manual and Chemical Hygiene Plan. Due to the reactive nature, do not attempt to neutralize perchloric acid - dispose of perchloric acid waste through the hazardous waste management program .
+
+## 7.2 Organic Solvents
+
+Most spent organic solvents will be classified as an F-Listed or Characteristic hazardous waste. Laboratories or other areas generating more than 5 gallons of hazardous waste (spent solvents) per month should accumulate the waste in safety cans. EHS will provide 5 gallon safety cans to generators of solvent hazardous waste on a case-by-case basis. Users of safety cans must make sure that the words "Hazardous Waste" and other wording describing the solvents in the waste are clearly marked on the safety can as soon as waste begins to be accumulated. Except when waste is being added to or removed from a safety can containing hazardous waste, its lid needs to be closed at all times.
+
+Do not dispose of organic solvents down the drain. Generators of organic solvents should keep non-halogenated waste solvents separated from halogenated waste solvents to the fullest extent possible. EHS bulks organic solvents into 55 gallon metal drums for fuels blending. It costs approximately twice as much to dispose of a drum of halogenated waste solvents versus a drum of nonhalogenated waste solvents.
+
+Safety cans should only be used for the storage of waste organic solvents. Other wastes are inappropriate for fuels blending, can have a detrimental effect on the integrity of the metal 55 gallons drums used, and represent a serious health and safety issue to EHS staff.
+
+Please do your part to help keep waste disposal costs down by:
+
+Keeping corrosive wastes separated from organic solvents whenever possible.
+
+Keeping nonhalogenated organic solvents separated from halogenated organic solvents whenever possible.
+
+Examples of nonhalogenated organic solvents that are acceptable to be collected in safety disposal cans include:
+
+Acetone
+
+Acetonitrile
+
+Ethanol
+
+Formaldehyde
+
+Ether
+
+Ethyl acetate
+
+Hexane
+
+Toluene
+
+Xylenes
+
+Examples of halogenated organic solvents that are acceptable to be collected in safety disposal cans include:
+
+Methylene chloride
+
+Chloroform
+
+Carbon tetrachloride
+
+Bromoform
+
+Mixtures containing both halogenated and nonhalogenated organic solvents
+
+The following wastes must NOT be collected in safety disposal cans:
+
+Strong acid or base solutions (a pH between 5.5 and 9.5 is acceptable)
+
+Aqueous solutions of toxic organic chemicals
+
+Heavy metals (Lead, Mercury, Silver, Chromium, Barium, etc.)
+
+Vacuum pump used oil
+
+Sulfides or inorganic cyanides
+
+Strong oxidizers or reducers
+
+Water reactive substances
+
+PCB waste
+
+Unknowns
+
+Please be sure to include approximate percentages of all waste solvents placed in safety cans. Do not rely on your memory to label solvents, keep a running list of solvents that you add to the safety disposal can.
+
+Hazardous Waste Labels from EHS should be used when collecting hazardous chemical waste in safety cans. When requesting removal using the online form , it is important to note the size of the container(s) to be removed. For more information on safety disposal cans, please contact EHS at " askEHS ".
+
+## 7.3 Aqueous Solutions of Toxic Chemicals
+
+Aqueous solutions containing heavy metals and/or other RCRA regulated toxic chemicals must be disposed of through the hazardous waste management program. Do not dispose of this type of waste down the drain, dispose of these chemicals through the hazardous waste management program .
+
+## 7.4 Used Oil
+
+Uncontaminated used oil is not considered hazardous and should be collected and recycled. Do not mix other chemical wastes with used oil. If a hazardous waste, such as flammable solvents or heavy metals, is added to used oil, then the resulting mixture cannot be recycled and must be handled as hazardous waste. Be sure to note any contaminants on the Hazardous Waste Label when disposing of contaminated used oil.
+
+Uncontaminated used oil to be recycled must be labeled with the identifying words " Used Oil ”. Cornell’s R5 Group manages the Used Oil Recycling Program .
+
+## 7.5 Asbestos
+
+Asbestos is a fibrous material that was once widely used in a number of products that can still be found in laboratories and throughout other buildings. Products that can contain asbestos include: electrical equipment insulation (ovens, heating mantles, heating pads, and wires), older vinyl floor tiles and mastic, pipe fittings, pipe insulation, caulking compounds, fireproofing, and transite (cement-like) panels such as those found in and under fume hoods.
+
+Asbestos is a known human carcinogen and must be disposed of properly. The hazard of asbestos is greatest when the asbestos product becomes “friable” – able to be pulverized from finger pressure – and when the asbestos becomes airborne. For older vinyl asbestos tile (VAT), an additional slipping hazard occurs when these tiles “pop” out of the floor.
+
+If you find any of the above items deteriorating and suspect they may contain asbestos, or you are considering disposing of old electrical equipment with insulation, or if vinyl tiles have “popped” out of the floor, then please contact the asbestos coordinator at 607-254-5439 for more information.
+
+## 7.6 Silica Gel
+
+Silica gel contaminated with solvents, heavy metals, or other toxic chemicals should be accumulated in leak proof containers such as one gallon plastic wide mouth containers or a five gallon bucket. Contact EHS waste management personnel at 607-255-4642 for these supplies.
+
+When labeling Silica gel waste, be sure to list all of the contaminants, including solvents, and the approximate percentages on the Hazardous Waste Label.
+
+## 7.7 Chemically Contaminated Items / Empty Containers
+
+In general, Chemically Contaminated Items (CCIs) can only be put into the normal trash if they are non-hazardous, non-ignitable, non-reactive, non-carcinogenic, non-mutagenic, non-infectious, non-radioactive, and the contaminant is not highly toxic. Examples include disposable items such as gloves, benchtop coverings, pipets, test tubes, etc.
+
+If you feel that the normal trash is not an appropriate disposal route for your CCIs, then package them in a leak-proof container or plastic bag and label with a Hazardous Waste Label as “Chemically Contaminated Items” and the name and approximate percentage of chemical contaminants.
+
+Chemical containers which have been emptied by all practicable means, i.e., pouring, pumping scraping etc., and there is less than one inch of residue, or no more than 3% of the total weight of the container if it was less than 119 gallons, and the container didn’t previously hold a chemical that would be an acutely toxic waste (P-Listed), the container is considered trash. This is the definition of a RCRA empty container.
+
+EHS recommends rinsing RCRA empty containers before putting them into the lab trash cans because of potential odor issues. Labels on containers should be defaced or removed before disposal in a trash can or dumpster.
+
+If the empty container didn’t hold a waste solvent or a P-Listed liquid and is truly “RCRA Empty”, as described in the 3rd paragraph of this section, then letting it air out under a hood would be permissible. It’s not permitted to allow a hazardous waste to evaporate in lieu of disposal.
+
+You may use soap and water to rinse containers which once held solvents, whether they were non-miscible or not. Do not use a solvent to rinse an empty container because it generates more waste. If an empty container requiring disposal is stinky, non-miscible (and not P-Listed) the easiest solution is putting it into a plastic bag and placing it in the dumpster. Please be aware that some campus facilities, custodial personnel may not be permitted to dispose of questionable chemical containers in the trash. This may require you to personally bag or box your waste containers and dispose of them in the facility dumpster.
+
+If you have any questions concerning management of chemically contaminated items or containers, please contact EHS at " askEHS ".
+
+## 7.8 Mercury
+
+Metallic mercury is collected and recycled. It should be packaged in a tightly sealed and leak free container such as a bottle or vial with a screw top lid. Place broken mercury thermometers in a leak proof container or a secured plastic bag. When collecting metallic mercury, DO NOT mix with other chemicals or waste if at all possible.
+
+Do not use the past practice of adding sulfur, nitric acid, or water in an attempt to contain vapors. This only results in more hazardous waste being generated and rendering the metallic mercury as non-recyclable. However, the use of commercial ‘Hg Absorb’ powder found in mercury spill kits is acceptable. Commercial mercury spill kits can be found through Cornell’s eShop preferred suppliers .
+
+Mercury is a highly toxic chemical and any mercury spills, including broken thermometers, must be cleaned up and the spill debris disposed through the hazardous waste management program. If you have a spill of mercury outside of the fume hood, leave the room and call 911 to report the spill information.
+
+Never use a regular vacuum cleaner to clean up a mercury spill , this will only cause the mercury to vaporize and disperse into the air. EHS has a special mercury vacuum designed for cleaning up mercury spills and a mercury detection meter to determine if all mercury has been cleaned up from a spill.
+
+For more information on mercury and management of mercury at Cornell, go to the Mercury Thermometer Exchange Program .
+
+## 7.9 Fluorescent Tubes (Universal Waste Lamps)
+
+Fluorescent bulbs and other hazardous lamps such as mercury vapor, high pressure sodium lamps, high intensity discharge (HID), neon, and metal halide lamps are regulated as Universal Waste Lamps and must be disposed of properly. These items (including "green tip" bulbs) cannot be placed in the normal trash. Broken fluorescent tubes must be handled as hazardous waste. Every attempt should be made to keep these items intact and to prevent breakage.
+
+At Cornell University, the R5 Group manages the pickup and disposal of all Universal Waste Lamps and Batteries. R5 Group is also responsible for managing other recyclable materials such as Used Oil, Scrap Metal, Batteries, Refrigerated Appliances, old Computers, and Electronic Equipment. Contact the R5 Group at 607-254-1666 if you have questions about the disposal requirements and procedures for any of these items.
+
+## 7.10 Batteries (Universal Waste Batteries)
+
+There is a program in place to recycle batteries (Alkaline, Ni-Cad, Lithium, Lead-acid, Mercury, and button batteries). There are a number of battery collection containers around campus for Universal Waste Batteries . Contact the Recycling Coordinator at 607-255-1082 If you would like to request a battery collection container for your building/work area, or if a battery collection container is full.
+
+## 7.11 Computers and Other Electronic Equipment
+
+There is a program in place to recycle computers and other electronic equipment . There are heavy and precious metals in many components of computers. Old computer equipment cannot be disposed of in the normal trash. If you are planning on disposing of these items, then please contact the Recycling Coordinator at 607-254-1666.
+
+## 7.12 Aerosol Cans and Propane Cylinders
+
+Aerosol cans and small Propane cylinders can contain flammable, corrosive, and toxic chemicals and propellants. These items can be collected, emptied of their contents, depressurized, and recycled for scrap metal. Aerosol cans and small Propane cylinders are collected during regular hazardous waste pickups .
+
+If you have a large (2 or 4 foot) high-pressure gas cylinder and would like to have it removed, then please contact AIRGAS or EHS at " askEHS " for assistance.
+
+## 7.13 Paint, Paint Thinner, Adhesives, and Printshop Chemicals
+
+Paint (oil-based), Paint thinner, Adhesives, and many Printshop chemicals are flammable and regulated as hazardous waste. These items cannot be poured down the drain or left out to evaporate. They must be disposed of through the hazardous waste management program. Latex paint that has solidified completely can be placed in the normal trash. You can speed up the solidification of latex paint by adding sawdust or vermiculite and leaving it out to evaporate.
+
+## 7.14 Photographic Chemicals
+
+Some photographic chemicals contain heavy metals such as Silver, Chromium, and Selenium that may be above regulatory levels and must be handled as hazardous waste.
+
+Used photographic fixer contains Silver above regulatory levels and cannot be poured down the drain; however, some photographic developers and other chemicals may be disposed of down the drain depending on the chemical constituents.
+
+Cornell University has Silver Reclamation Units at a number of locations on campus to recover silver while minimizing hazardous waste. Negatives from x-ray units, old or expired photographic paper and film, and other photography are collected and shipped offsite for silver recovery. More information on these units can be found on the Silver Reclamation Tipsheet .
+
+## 7.15 Reactive and Potentially Explosive Chemicals
+
+Reactive chemicals such as strong oxidizers and reducers, and air/water reactive chemicals must be disposed of through the hazardous waste management program. Because of their reactive nature, it is important to minimize the quantity of reactive chemicals in storage. If the integrity of the container appears to be compromised, then dispose of the chemicals as hazardous waste promptly. Never dispose of reactive chemicals, such as Sodium metal, regardless of the quantity, down the drain or in the normal trash. Such practices can result in fires, toxic vapors and gases being released, and injury to people. When disposing of these compounds, please note any special hazards on the Hazardous Waste Label .
+
+Some of these compounds can become unstable and potentially explosive over time due to contamination with air, water, other material, or when the chemical dries out. If you come across any chemical that you suspect could be potentially explosive, do not attempt to move the container as some of these compounds are shock, heat, and friction sensitive. Be sure to let others in the lab or work area know the chemical exists and the potential explosion hazard. Submit a question using " askEHS ". If you feel that there is an immediate potential hazard, please contact EHS at 607-255-8200 for more assistance.
+
+## Explosive Compounds
+
+## ​Examples of potentially explosive chemicals include:
+
+Benzoyl peroxide (dry)​
+
+​Diazo compounds
+
+2,4-Dinitrophenyl hydrazine (dry)​
+
+Nitrocellulose
+
+Peroxide forming compounds
+
+Picric acid (dry)
+
+​Sodium amide
+
+Trinitro-compounds
+
+## 7.16 Peroxide Forming Chemicals
+
+Many commonly used chemicals, organic solvents in particular, can form shock, heat, and friction sensitive peroxides upon exposure to oxygen through concentration, evaporation, and distillation.
+
+Compounds that are suspected of having very high peroxide levels because of age, unusual viscosity, discoloration, or crystal formation should be considered extremely dangerous. If you discover a container that meets this description, DO NOT attempt to open or move the container. Make other people working in your area aware of the potential explosion hazard and contact EHS immediately at " askEHS ".
+
+You will find extensive information related to peroxide forming chemicals , including a list of peroxide formers , and how to test for peroxides in the Laboratory Safety Manual and Chemical Hygiene Plan .
+
+## 7.17 Unknowns
+
+You must make every effort to provide an accurate description of all chemicals that you dispose of through the hazardous waste management program. Without an accurate description, the chemical cannot be handled or disposed of safely. Waste disposal companies will not accept unknown chemical waste without the generator providing a sample analysis which can be very expensive.
+
+Many unknown chemicals are generated due to a lack of good housekeeping and good laboratory safety practices. ALL containers used to store chemicals must be labeled. Containers in which the labels are degrading or falling off should be given a new label. There are numerous reference materials with methods and procedures that can be used in identifying unknown chemicals.
+
+It is the responsibility of the generator of the waste to field test the material before it is sent in to be analyzed so that the testing lab has as much information on the unknown material as possible. For example, if you know the pH, or the water and solvent solubility of the material, or the history and use of the material is known.
+
+If you need to dispose of an unknown material you must first complete and submit a copy of the Unknown Chemical Waste Characterization Form found in Appendix C of this manual. A completed form must be submitted for each unknown chemical container. Please be sure to include the Cornell Hazardous Waste Label number on each completed form.
+
+## 7.18 Household Hazardous Waste
+
+Cornell University cannot accept household hazardous waste for disposal. However, most local communities and/or counties have programs for collection of household hazardous waste. Typical wastes accepted (not all are listed here) include:
+
+Adhesives, coatings, and sealers
+
+Auto fluids and oil filters
+
+Cleaners and aerosols
+
+Concrete and driveway sealants
+
+Fluorescent bulbs
+
+Household batteries
+
+Paints and solvents
+
+Pesticides and fertilizers
+
+Photographic, pool, and lab chemicals
+
+Various electronics, computers, phones, etc.
+
+Varnishes, shellacs, and stains
+
+Many of these programs are free of charge but residency for that locality or county is normally required. Please check the following online sites to see if and when a Household Hazardous Waste Program is available for your area.
+
+NYSDEC
+
+Cortland County
+
+Tompkins County
+
+## 7.19 Ethidium Bromide
+
+Mutagenic chemicals, such as ethidium bromide (EtBr), pose a significant hazard due to their ability to interact with and alter genetic material. Because of this risk, all EtBr waste must be managed as hazardous chemical waste under Cornell University’s Environmental Health & Safety (EHS) procedures and New York State Department of Environmental Conservation (NYSDEC) regulations.
+
+Active ethidium bromide waste—including gels, contaminated solids, wipes, and labware—may not be disposed of via the sanitary sewer or municipal trash without decontamination. The absence of fluorescence under UV light does not guarantee that EtBr is absent or inactive, and therefore does not make such waste suitable for regular disposal. Check with EHS if in doubt!
+
+## 7.19.1 Dry Ethidium Bromide Wastes, Including Gloves and Papers
+
+All materials contaminated with ethidium bromide (EtBr)—including wipes, paper towels, gloves, and bench pads—must be managed as hazardous chemical waste , regardless of whether they fluoresce under UV light.
+
+Submit through askEHS for Chemical Waste Collection. Clearly identify the contents as “Ethidium Bromide Contaminated Waste.”
+
+Ethidium Bromide Gels
+
+EtBr-containing gels (agarose or polyacrylamide) must be collected in a sealed container or bag and labeled as hazardous waste.
+
+Do not place gels in the regular trash, even if they do not fluoresce under UV light. New York State DEC hazardous waste regulations require that all mutagenic dye waste be handled through EHS.
+
+Submit via askEHS using the blue Contaminated Waste Label.
+
+Liquids (Aqueous, Non-Flammable)
+
+Aqueous EtBr solutions must not be poured down the drain. Drain disposal is prohibited under NYSDEC regulations unless explicitly authorized by Cornell EHS.
+
+Dilute solutions can be treated with activated carbon adsorption (e.g., carbon “tea bags” or BondEX Detoxification Cartridges). The treated filtrate may only be drain-disposed if no fluorescence is observed under UV light.
+
+All used carbon filters, tea bags, or cartridges must be collected and submitted as hazardous waste through askEHS with a Contaminated Waste Label.
+
+Liquids (Containing Flammable Solvents)
+
+Any EtBr waste mixed with flammable solvents (e.g., butanol, ethanol, isopropanol) is considered hazardous waste and must be submitted to EHS for pickup. Drain disposal is prohibited.
+
+Concentrated Mutagenic Dyes
+
+Concentrated EtBr powders, stock solutions, and any unusable dye preparations are regulated as hazardous chemical waste in New York State.
+
+Dyes absorbed onto filter media for concentration or cleanup must also be submitted through askEHS as hazardous waste with the Contaminated Waste Label.
+
+## 7.19.2 Deactivation Procedures
+
+Safe management of ethidium bromide (EtBr) involves both prevention of exposure and proper handling of waste. Because EtBr is a potent mutagen, waste solutions, gels, and contaminated surfaces must be treated as hazardous chemical waste. Modern best practice focuses on adsorption and controlled collection rather than bleach oxidation, which is no longer recommended due to incomplete destruction and formation of chlorinated byproducts.
+
+## Activated Charcoal Adsorption
+
+Aqueous EtBr solutions can be treated using activated charcoal filters, columns, or commercial "tea bag" kits . These methods remove EtBr by adsorption. After treatment, the filtrate may be checked under UV light to confirm the absence of orange fluorescence. If no fluorescence is observed, and if permitted by institutional policy, the filtrate may be disposed of via the sanitary drain. The spent charcoal, filters, or bags must be collected and disposed of as hazardous waste.
+
+## Resin-Based Removal
+
+For dilute EtBr solutions (≤100 µg/mL), Amberlite XAD-16 resin or equivalent adsorption media can be used. The resin captures EtBr and is then disposed of as hazardous chemical waste. This method is sometimes used with filtration cartridges designed for nucleic acid dyes.
+
+## Surface Decontamination
+
+For benchtops or equipment contaminated with EtBr, the preferred method is detergent cleaning and waste capture . Wipe the area thoroughly with a laboratory detergent solution (e.g., Alconox) or activated-charcoal wipes. After cleaning, inspect the surface with a handheld UV lamp (302–312 nm) to confirm no orange fluorescence remains.
+
+All wipes, paper towels, gloves, and other cleaning materials used during decontamination must be collected in a labeled container and disposed of as hazardous waste.
+
+## Gels and Solid Waste
+
+EtBr-containing gels (agarose or polyacrylamide) and contaminated solids must be collected as solid hazardous waste. Do not attempt to neutralize gels with bleach or dispose of them in the regular trash.
+
+## Liquids from Cleaning
+
+Any rinse water or liquid generated during surface cleaning should be collected in a sealed, labeled container (e.g., “Aqueous Ethidium Bromide Waste”) and submitted our hazardous waste program. Even if fluorescence is absent, these liquids should not be poured down the drain without explicit approval from EHS.
+
+## Preferred Alternatives
+
+Where possible, substitute EtBr with less hazardous nucleic acid stains such as SYBR Safe , GelRed , or GelGreen . These dyes have significantly lower mutagenic potential and can reduce the regulatory burden of disposal.
+
+## Chapter 8 - Hazardous Waste Disposal Procedures
+
+The following procedures describe the proper labeling, packaging, and other requirements for disposing of hazardous wastes generated at Cornell University. Outlying facilities, please contact your Department Safety Representative for local procedures or contact EHS at askEHS for questions about managing hazardous waste at their facilities.
+
+Contact EHS at askEHS to request Hazardous Waste disposal labels (numbered two-part stick-on 4" x 6"). Cornell University uses its own label for identifying containers of hazardous waste and their contents. When properly filled out and attached to a hazardous waste container, this label meets all regulatory labeling requirements for EPA and DEC.
+
+Complete the two-part stick-on label with all of the spaces filled in (i.e., building and room number, name of requester, telephone number, chemical type, chemical name and weight or volume of all ingredients in each container). Please do not use trade names, abbreviations, or chemical formulas. Some ingredients may take more room than can be written on the numbered label. If this is the case, please tape one (1) additional copy of the ingredients on a small piece of paper to the container label. Submit an online Waste Pickup Request Form . The top copy of the label should be placed in the UN box with the hazardous waste containers.
+
+The following information must be included on each Hazardous Waste Disposal Label (example below text) :
+
+Building & Room : Indicates the area where the hazardous waste is generated and stored.
+
+Name and Telephone Number : Identifies the individual faculty, staff, or student generating the hazardous waste and assuming responsibility for its description. This information is important if subsequent questions arise related to the waste.
+
+Date : At Satellite Accumulation Areas place date on label when waste begins accumulating in the container. Submit an online Waste Pickup Request Form within 6- months of the start date. The top copy of the label should be placed in the UN box with the waste . For 90 Day Accumulation Areas , the date the hazardous waste is first placed in the container must be written in this section.
+
+Type : Identifies the general characteristics of the hazardous waste chemicals and indicates which classes of waste should not be mixed or packaged together to facilitate disposal procedures. A checkmark must be placed in each applicable box of this section.
+
+Chemical Name : Precisely identify the exact composition of the hazardous waste in each container. You must use words describing the waste e.g., “methanol” or “acetic acid”, etc. New York State Department of Environmental Conservation regulations do not allow the use of codes, chemical abbreviations, chemical formulas and symbols to describe the waste. Hazardous waste consisting of multiple elements or compounds requires the identification of each constituent, and the approximate percentage by weight or volume it occupies in the container, if known. Note: The weight (in grams) or volume (in milliliters) of all ingredients in each container is helpful to be listed in this section, along with the chemical name and percent composition.
+
+Tear-off Strip : the two-part stick-on label has a tear-off strip along the bottom edge of the self-adhesive portion (second page) of the label . This tear- off strip is designed to facilitate the management of waste containers by making it easier to enter information on the waste label. The small tear-off strip has the same red inventory control number as is on the main label, along with Cornell's EPA registration number, the words "Hazardous Waste", and a line on which the name of the waste or the class of the waste can be written e.g. ("phenol/chloroform 50:50 mixture"). The small tear-off strip can be removed from the main label and placed on the waste bottle. The label itself can then be placed on a clipboard near the waste bottle or on the side of the fume hood using a magnet or other attachment. The label is then filled out with initial information (name, address, etc.). As the waste container is filled, specific waste chemical information is added (names, amounts, etc.). The completed label is then attached to the waste bottle and the additional steps for boxing and requesting removal are completed. While you should use a fume hood while adding hazardous waste to a container, please remember to store your hazardous waste containers in the fume hood base cabinet or another secure storage area with secondary containment such as a plastic tray.
+
+EHS has scheduled waste pickups on Wednesdays and Fridays. Other pickups can be arranged for special situations.
+
+Used oils containing PCBs must indicate the parts per million (ppm) of PCBs. If this is unknown, the material can be tested by contacting EHS at askEHS to request a computerized sample number and sampling bottle to analyze the oil. Used oil containing more than 50ppm PCBs is considered Hazardous Waste in New York State.
+
+Use only screw top chemical glassware or plasticware that is compatible with the hazardous waste. Soda pop, glass or plastic milk bottles, Clorox bleach bottles or rubber/glass stoppered containers will not be allowed for waste disposal. Any waste bottle/container that emits a noxious smell or is cracked or damaged in any way must be placed in an overpack container, such as a wide mouth container or bucket, or transferred to a new bottle/container. If an overpack container is used, then a Hazardous Waste label must be on both the inner and outer container.
+
+Place all containers in a Department of Transportation (DOT) UN rated box which has markings located on one side of the box (i.e., UN/4G/X,Y or Z/S/DATE OF MANUFACTURE/USA, etc.). The UN rated boxes have a styrofoam insert for four 4-liter bottles, or a corrugated cardboard separation. If the waste containers/bottles are smaller than the 4 liter space, please place as many smaller containers/ bottles in the space as you can. Cardboard pieces must be placed between the smaller bottles to prevent breakage during transportation to the chemical waste facility. These boxes are not supplied by EHS, however, if you have difficulty locating boxes we will assist in getting some to you (See Steps for Chemical Hazardous Waste Removal for listing of DOT box storage areas on campus).
+
+## Chapter 9 - What Happens To The Hazardous Waste Generated
+
+After a chemical waste has been generated, determined to be hazardous, and sent through the hazardous waste management program, there are 4 primary ways in which the waste is handled: bulk drums, lab pack drums, recycling/reclamation, and drain/trash disposal.
+
+## 9.1 Lab Pack Drums
+
+Chemicals that cannot be bulked are lab packed. Lab packing first involves segregating chemicals according to hazard class . Chemicals in the same hazard class are placed into various size drums (55-gallon is the most common), then a packing material, such as vermiculite, is added to prevent the containers from breaking during transportation.
+
+## 9.2 Bulk Drums
+
+Certain categories of liquid chemicals can be bulked and combined into drums. Examples include flammable solvents, acids, bases, and some types of aqueous waste. Bulking waste (as opposed to lab packing) can result in significant cost savings for the University and ultimately your department. Bulking first involves segregating chemicals according to hazard class . Then a small amount of chemical from each container is mixed in a 1-gallon size container to determine if a reaction occurs. If no reactions occur, then the rest of the chemical is poured into a 30- or 55-gallon drum. Accurately labeling chemicals helps to avoid potential reactions, fires, or explosions when chemicals are bulked.
+
+The cost for disposal of labpacks is based on the number of drums of waste, whether the drum is completely filled with solvents or contains (as in most cases) partially filled bottles packed according to DOT regulations. Thus, the cost of the disposal of a partially filled bottle is the same as the cost of one which is full . Given this situation, partially filled bottles become very expensive for the amount of material being shipped. In part, this explains the high disposal cost per gallon of material. In order to reduce this empty but costly space, compatible solvents (not including the above recyclables) may be combined in a single container. As with all hazardous waste containers with multiple constituents, when solvents are thus combined, the approximate volume percent of each solvent should be noted on the Cornell two-part Hazardous Waste label. However, halogenated solvents should not be combined with solvents which do not contain halogens, because of differences in handling and ultimate disposal techniques. Solutions of halogenated and non-halogenated solvents will be considered as halogenated solvents and disposed of accordingly .
+
+The preferred method of managing spent solvents is recycling for reuse. Current regulations prohibit the disposal of hazardous waste chemicals and most liquid wastes in municipal landfills. Solvents that cannot be recycled will be shipped as hazardous waste for incineration or treatment.
+
+## 9.2.1 Solvent Recycling
+
+Cornell EHS and Animal Health Diagnostic Center Department of Biomedical Sciences have jointly purchased a solvent recycling unit. Reduction of non-halogenated solvent hazardous waste generated in the Histology Department is estimated to be approximately 3 tons annually. The reduced cost of waste disposal annually is approximately $1500.00, while the reduction in annual purchase of new xylene and ethanol is estimated to be just over $8,000.00. The return of investment for this unit should be just over 2 years.
+
+The recycling accomplished by Histology is not feasible in all laboratories because of an inability to segregate halogens from non-halogenated solvents. Therefore, the afore-mentioned procedure in section 9.2 is an effective way to reduce costs for solvent disposal.
+
+The following solvents should be segregated from other waste chemicals and stored in their own labeled container whenever possible:
+
+Acetone
+
+Ethanol
+
+Formalin
+
+Methanol
+
+Xylene (can have Propar mixed)
+
+## 9.3 Recycling / Reclamation
+
+Chemicals such as used oil, free-flowing mercury, and silver from photographic fixer are sent for recycling/reclamation. Photographic fixer is collected and run through a filtration media to collect the silver. Items containing mercury, such as thermometers and manometers are collected and the mercury is removed. It is important to minimize the amount of other material that is mixed in with these items. The addition of chemicals or other solid waste to these items can result in the material being unable to be reclaimed and having to be disposed as hazardous waste instead.
+
+## 9.4 Ultimate Disposal
+
+There are a variety of treatment/destruction methods that environmental companies use after they receive the waste generated on campus. Some wastes (bulk flammable liquid drums) are used as a secondary fuel source at cement kilns. Wastes such as acids/bases and oxidizers/reducers can be treated at a facility to render the waste nonhazardous. Most waste will be sent to a hazardous waste incinerator. Any resulting ash from the incineration process is stabilized and then placed into a hazardous waste landfill. While there are other methods that can be utilized, the hazardous waste generated at Cornell University will generally be handled using the above technologies.
+
+## Appendix A - Disposal of Nonhazardous Laboratory Waste As Regular Trash for Ithaca Campus
+
+The following table, adapted from Prudent Practices, lists solid chemicals which are not considered hazardous and are therefore suitable for disposal with regular trash. However, neither custodians nor trash collectors can readily distinguish between hazardous and nonhazardous wastes. Therefore, the packaging of such waste for disposal must be secure, and carried to the dumpster by laboratory personnel.
+
+Organic Chemicals Enzymes Sugars and sugar alcohols Starch Naturally occurring amino acids and salts Citric acid and its Na, K, Mg, Ca, NH4 salts Lactic acid and its Na, K, Mg, Ca, NH4 salts
+
+Enzymes
+
+Sugars and sugar alcohols
+
+Starch
+
+Naturally occurring amino acids and salts
+
+Citric acid and its Na, K, Mg, Ca, NH4 salts
+
+Lactic acid and its Na, K, Mg, Ca, NH4 salts
+
+Inorganic Chemicals Silica Sulfates: Na, K, Mg, Ca, Sr, NH4 Phosphates: Na, K, Mg, Ca, Sr, NH4 Carbonates: Na, K, Mg, Ca, Sr, NH4 Oxides: B, Mg, Ca, Sr, Al, Si, Ti, Mn, Fe, Co, Cu Chlorides: Ca, Na, K, Mg, NH4 Borates: Na, K, Mg, Ca
+
+Silica
+
+Sulfates: Na, K, Mg, Ca, Sr, NH4
+
+Phosphates: Na, K, Mg, Ca, Sr, NH4
+
+Carbonates: Na, K, Mg, Ca, Sr, NH4
+
+Oxides: B, Mg, Ca, Sr, Al, Si, Ti, Mn, Fe, Co, Cu
+
+Chlorides: Ca, Na, K, Mg, NH4
+
+Borates: Na, K, Mg, Ca
+
+Laboratory Materials Not Contaminated with Hazardous Chemicals Chromatographic adsorbent Glassware Filter papers Filter aids Rubber and plastic protective clothing
+
+Chromatographic adsorbent
+
+Glassware
+
+Filter papers
+
+Filter aids
+
+Rubber and plastic protective clothing
+
+Other examples of nonhazardous biochemicals include polysaccharides, nucleic acids and naturally occurring precursors, and dry biological media.
+
+Instructions for Packaging:
+
+Package securely for the dumpster by using at least two layers of packaging so that material cannot spill during collection.
+
+Leave label on the innermost container.
+
+Label the outer container with the words "Non-hazardous".
+
+Place containers in the dumpster yourself since custodians do not handle chemicals, including nonhazardous laboratory chemicals.
+
+## Appendix B - Disposal of Nonhazardous Laboratory Waste Down The Sanitary Sewer for Ithaca Campus
+
+## Chemical Drain Disposal
+
+Research and other operations at Cornell University generate chemical waste requiring disposal. Some of these chemicals can be recycled in the chemical surplus program to be reused by other members of the Cornell community, while other chemicals are classified as hazardous waste and specific rules must be followed, prior to disposal, to be in compliance with federal, state and local regulations.
+
+This appendix provides information for compliance with the Ithaca Area Waste Water Treatment Facility (IAWWTF) established requirements and limitations regarding disposal of chemicals into campus laboratory drain systems. Drainage from disposal systems on the core Ithaca campus terminate at the IAWWTF. Limitations may differ for locations that are not connected to the Ithaca area sanitary sewer system (such as laboratories in Geneva, New York City, or other locations) and additional prohibitions will apply to any drain that terminates at a local on-site system (leach field or similar). Do not dispose of any chemicals into a storm sewer or similar untreated disposal options. Contact your local EHS representative for guidance in areas outside of the core Ithaca campus.
+
+Any questions regarding the disposal of chemicals generated in university operations (labs, shops, maintenance, campus life, building care, etc) should be directed to Environmental Health & Safety at "askEHS". Any questions regarding the disposal of chemicals or wastewater from construction activities or utilities should be directed to Environmental Health & Safety at " askEHS ". The following information should be included in the "askEHS" question to expedite this process:
+
+Constituents of the waste solution to be drain disposed
+
+Volume of the waste chemical to be disposed, e.g. one liter, 50 ml etc.
+
+Concentrations of each constituent in the waste
+
+Process from which the waste was generated
+
+Frequency of discharges
+
+SDS or MSDS of constituents, or product name and manufacturer
+
+## Responsibilities
+
+Within individual work areas and laboratories, authorization for specific operations, delineation of appropriate safety procedures and instruction about these procedures is the responsibility of the Principal Investigators and/or supervisors. This includes appropriate chemical waste disposal practices and accidental discharges .
+
+It is the responsibility of each Cornell employee to ensure that chemical waste generated from their activities is disposed of properly. Some materials may be safely disposed of into the sanitary sewer while most cannot due to potential damage to human health, the environment or the functioning of the IAWWTF.
+
+## Prohibited From Drain Disposal
+
+Certain classes of chemicals cannot be poured down the drain - they must be collected, managed and disposed of as hazardous waste using the Cornell University Department of Environmental Health and Safety’s waste procedures. If you have questions regarding the proper collection and disposal of aqueous solutions, low concentrations or small volumes of chemicals within the categories below, contact EHS at " askEHS ".
+
+The following classes of chemicals are prohibited from drain disposal:
+
+Any flammable liquids with a flashpoint less than 140 degrees F – including but not limited to any quantity of gasoline, kerosene, naptha, benzene, toluene, xylene, fuel oil, ethers, ketones, aldehydes, chlorates, perchlorates, bromates, carbides, hydrides and sulfides. This does not include aqueous solutions of these compounds that have a flashpoint greater than 140 degrees F.
+
+Explosive chemicals.
+
+Any Liquids, Solids or Gases that pose a fire hazard alone or can potentially interact with other chemicals in the sewer and become a fire or explosion hazard.
+
+Solutions outside the pH range of 5.5 to 9.5. Labs may neutralize acids and bases to a pH within this range and then drain dispose, provided there are no prohibited items in the solution.
+
+Halogenated hydrocarbons and aqueous mixtures containing halogenated hydrocarbons (including but not limited to: bromodichloromethane, chloroform, chloromethane, dibromochloromethane, methylene chloride, tetrachloroethene).
+
+Insoluble materials.
+
+Mercury Metal and mercury compounds such as Thimerosal, Mercuric Chloride, etc. (any discharge down the drain must be reported per the Accidental Discharge procedure).
+
+Water reactive materials (including but not limited to aluminum alkyls, barium, lithium, potassium, sodium, sodium borohydride, zinc powder or zinc dust).
+
+Radioactive materials.
+
+Infectious substances.
+
+Photographic Chemicals Developer solutions containing Hydroquinone or heavy metals such as Barium or Selenium Used fixer solutions. (These contain silver that is recycled through Cornell University's Silver Reclamation program via EHS).
+
+Developer solutions containing Hydroquinone or heavy metals such as Barium or Selenium
+
+Used fixer solutions. (These contain silver that is recycled through Cornell University's Silver Reclamation program via EHS).
+
+Any solids or viscous substances capable of causing obstruction to the flow of sewers, including but not limited to:< Grease Particulates greater than ½ inch in any direction Animal products (gut or tissue, paunch manure, bones, hair, hides or fleshing, entrails, whole blood, feathers) Ashes, cinders, sand, spent lime, stone or marble dust, metal, glass or residues from glass grinding or polishing, straw, shavings, grass clippings, spent grains Rags, waste paper, wood, plastics, rubber, tar, asphalt residues, mud Residues from refining or processing of fuel or lubricating oil, petroleum oil, non-biodegradable cutting oil, or products of mineral oil origin Water soluble polymers that could form gels in the sewer system
+
+Grease
+
+Particulates greater than ½ inch in any direction
+
+Animal products (gut or tissue, paunch manure, bones, hair, hides or fleshing, entrails, whole blood, feathers)
+
+Ashes, cinders, sand, spent lime, stone or marble dust, metal, glass or residues from glass grinding or polishing, straw, shavings, grass clippings, spent grains
+
+Rags, waste paper, wood, plastics, rubber, tar, asphalt residues, mud
+
+Residues from refining or processing of fuel or lubricating oil, petroleum oil, non-biodegradable cutting oil, or products of mineral oil origin
+
+Water soluble polymers that could form gels in the sewer system
+
+Any solution alone or by interaction with waste that can cause a noxious or malodorous gas (such as: Hydrogen Sulfide, Sulfur Dioxide, Nitrous Oxide) that can be hazardous individually or by reaction with other components in the sewer.
+
+Any chemical that either alone or if mixed with other wastes results in the presence of toxic gases, vapors and/or fumes that could be harmful to utilities workers, workers of the Ithaca Waste Water Treatment Facility or create a public nuisance.
+
+Malodorous chemicals such as Mercaptans.
+
+Rinsate from the acutely toxic P listed wastes – first rinse of the triple rinse protocol.
+
+Carcinogens as grouped by the International Agency for Research on Cancer (IARC) IARC Group 1 IARC Group 2A IARC Group 2B
+
+IARC Group 1
+
+IARC Group 2A
+
+IARC Group 2B
+
+Mutagens or Teratogens, such as Ethidium bromide.
+
+## Acceptable Chemicals for Drain Disposal:
+
+The following list identifies chemicals that can be disposed of down the drain, providing the solution does not contain materials otherwise prohibited.
+
+Aqueous solutions such as salts and buffer solutions within the 5.5 to 9.5 pH range.
+
+Chemicals that are water soluble and are non-hazardous by way of definition Naturally occurring Amino Acids and Salts Enzymes Sugars Proteins Citric acid and its Na, K, Mg, Ca, and Ammonium Salts Lactic acid and its Na, K, Mg, Ca and Ammonium Salts
+
+Naturally occurring Amino Acids and Salts
+
+Enzymes
+
+Sugars
+
+Proteins
+
+Citric acid and its Na, K, Mg, Ca, and Ammonium Salts
+
+Lactic acid and its Na, K, Mg, Ca and Ammonium Salts
+
+Acids and bases that have been neutralized and fall within the 5.5 to 9.5 pH range.
+
+Biological liquids that have been treated with disinfectant or autoclaved.
+
+Photographic chemicals Developer solutions that DO NOT contain Hydroquinone or heavy metals above the listed limits above Stop Baths Photo Flo (surfactant)
+
+Developer solutions that DO NOT contain Hydroquinone or heavy metals above the listed limits above
+
+Stop Baths
+
+Photo Flo (surfactant)
+
+Mop water
+
+## Accidental Discharge
+
+The campus sanitary sewer discharge permit issued by IAWWF and sewer use law have reporting requirements for accidental discharge. Anyone causing an accidental discharge of a prohibited material to the sanitary sewer must notify EH&S IMMEDIATELY during normal business hours at 607-255-8200. This includes materials accidently poured or spilled down the drain via sink, floor drain, or plumbed equipment.
+
+For accidental discharges from construction or utilities activities, notify EHS IMMEDIATELY at 607-255-8200 during normal business hours.
+
+If accidental discharges occur after EHS normal business hours NOTIFY CORNELL DISPATCH AT 607-255-1111. Normal business hours are 8 am to 4:30 pm Monday through Thursday and 8 am to 4 pm Fridays.
+
+Faculty, staff and students should be made aware of their roles and responsibilities for accidental discharge by in-house training and or posting in a central communication area. Notification should include:
+
+Building and room number
+
+Detailed description what went down the drain, for example: Names of chemical(s) Concentration and percent in solution Volume lost
+
+Names of chemical(s)
+
+Concentration and percent in solution
+
+Volume lost
+
+Any corrective actions taken
+
+## Appendix C - Disposal Of Unknown Chemical Waste Containers
+
+## Prevention and Management of Unknown Chemicals / Chemical Waste
+
+Personnel must make every effort to provide an accurate description of all chemicals that they dispose of through the hazardous waste management program.
+
+Many unknown chemicals are generated due to a lack of good housekeeping and good laboratory safety practices. ALL containers used to store chemicals must be properly labeled.
+
+There are some easy ways to preventing the generation of unknown chemicals/materials:
+
+Ensure that a label is present on all containers of chemicals including containers of wastes. This means all containers even beakers, test tubes, wash bottles and other containers.
+
+Use chemical names to identify the contents of containers. For hazardous wastes generated at Cornell this is a requirement. Do not use formulas, abbreviations or chemical structures on waste labels.
+
+Containers in which the labels are degrading or falling off should be given a new label immediately.
+
+Check laboratory notebooks for information related to vials or test tubes. Many researchers in labs keep detailed notes on what was placed in these containers.
+
+Don’t leave waste containers in the lab under the fume hood for extended periods of time. If a container isn’t full but no more waste is anticipated in the near future, submit a waste pickup request to EHS.
+
+If chemical wastes cannot be identified, fill out a Cornell two-part Hazardous Waste Label. Write the term "Unknown" in the Constituents section of the label and add any information available concerning the waste. Laboratory personnel in possession of unknown wastes should make every effort, including contacting departed faculty or staff if necessary to determine a container's contents. You must fill out an Unknown Chemical Waste Characterization Form , as well as an online Chemical Waste Pickup Request. The Chemical Waste Pickup Request must be submitted to EHS. Keep the Unknown Chemical Waste Characterization Form with the waste. EHS personnel will take it when the waste is picked up.

@@ -1,0 +1,129 @@
+Part Number: 1910
+
+Part Number Title: Occupational Safety and Health Standards
+
+Subpart: 1910 Subpart Z
+
+Subpart Title: Toxic and Hazardous Substances
+
+Standard Number: 1910.1450
+
+Title: Occupational exposure to hazardous chemicals in laboratories.
+
+Appendix: A B
+
+GPO Source: e-CFR
+
+Scope and application .
+
+Definitions -
+
+Action level means a concentration designated in 29 CFR part 1910 for a specific substance, calculated as an eight (8)-hour time-weighted average, which initiates certain required activities such as exposure monitoring and medical surveillance.
+
+Assistant Secretary means the Assistant Secretary of Labor for Occupational Safety and Health, U.S. Department of Labor, or designee.
+
+Carcinogen (see select carcinogen ).
+
+Chemical Hygiene Officer means an employee who is designated by the employer, and who is qualified by training or experience, to provide technical guidance in the development and implementation of the provisions of the Chemical Hygiene Plan. This definition is not intended to place limitations on the position description or job classification that the designated individual shall hold within the employer's organizational structure.
+
+Chemical Hygiene Plan means a written program developed and implemented by the employer which sets forth procedures, equipment, personal protective equipment and work practices that
+
+(i) are capable of protecting employees from the health hazards presented by hazardous chemicals used in that particular workplace and
+
+(ii) meets the requirements of paragraph (e) of this section.
+
+Designated area means an area which may be used for work with "select carcinogens," reproductive toxins or substances which have a high degree of acute toxicity. A designated area may be the entire laboratory, an area of a laboratory or a device such as a laboratory hood.
+
+Emergency means any occurrence such as, but not limited to, equipment failure, rupture of containers or failure of control equipment which results in an uncontrolled release of a hazardous chemical into the workplace.
+
+Employee means an individual employed in a laboratory workplace who may be exposed to hazardous chemicals in the course of his or her assignments.
+
+Hazardous chemical means any chemical which is classified as health hazard or simple asphyxiant in accordance with the Hazard Communication Standard (§ 1910.1200).
+
+Health hazard means a chemical that is classified as posing one of the following hazardous effects: Acute toxicity (any route of exposure); skin corrosion or irritation; serious eye damage or eye irritation; respiratory or skin sensitization; germ cell mutagenicity; carcinogenity; reproductive toxicity; specific target organ toxicity (single or repeated exposure); aspiration hazard. The criteria for determining whether a chemical is classified as a health hazard are detailed in appendix A of the Hazard Communication Standard (§ 1910.1200) and § 1910.1200(c) (definition of "simple asphyxiant").
+
+Laboratory means a facility where the "laboratory use of hazardous chemicals" occurs. It is a workplace where relatively small quantities of hazardous chemicals are used on a non-production basis.
+
+Laboratory scale means work with substances in which the containers used for reactions, transfers, and other handling of substances are designed to be easily and safely manipulated by one person. "Laboratory scale" excludes those workplaces whose function is to produce commercial quantities of materials.
+
+Laboratory-type hood means a device located in a laboratory, enclosure on five sides with a moveable sash or fixed partial enclosed on the remaining side; constructed and maintained to draw air from the laboratory and to prevent or minimize the escape of air contaminants into the laboratory; and allows chemical manipulations to be conducted in the enclosure without insertion of any portion of the employee's body other than hands and arms.
+
+Walk-in hoods with adjustable sashes meet the above definition provided that the sashes are adjusted during use so that the airflow and the exhaust of air contaminants are not compromised and employees do not work inside the enclosure during the release of airborne hazardous chemicals.
+
+Laboratory use of hazardous chemicals means handling or use of such chemicals in which all of the following conditions are met:
+
+(i) Chemical manipulations are carried out on a "laboratory scale;"
+
+(ii) Multiple chemical procedures or chemicals are used;
+
+(iii) The procedures involved are not part of a production process, nor in any way simulate a production process; and
+
+(iv) "Protective laboratory practices and equipment" are available and in common use to minimize the potential for employee exposure to hazardous chemicals.
+
+Medical consultation means a consultation which takes place between an employee and a licensed physician for the purpose of determining what medical examinations or procedures, if any, are appropriate in cases where a significant exposure to a hazardous chemical may have taken place.
+
+Mutagen means chemicals that cause permanent changes in the amount or structure of the genetic material in a cell. Chemicals classified as mutagens in accordance with the Hazard Communication Standard (§ 1910.1200) shall be considered mutagens for purposes of this section.
+
+Physical hazard means a chemical that is classified as posing one of the following hazardous effects: Explosive; flammable (gases, aerosols, liquids, or solids); oxidizer (liquid, solid, or gas); self reactive; pyrophoric (gas, liquid or solid); self-heating; organic peroxide; corrosive to metal; gas under pressure; in contact with water emits flammable gas; or combustible dust. The criteria for determining whether a chemical is classified as a physical hazard are in appendix B of the Hazard Communication Standard (§ 1910.1200) and § 1910.1200(c) (definitions of "combustible dust" and "pyrophoric gas").
+
+Protective laboratory practices and equipment means those laboratory procedures, practices and equipment accepted by laboratory health and safety experts as effective, or that the employer can show to be effective, in minimizing the potential for employee exposure to hazardous chemicals.
+
+Reproductive toxins mean chemicals that affect the reproductive capabilities including adverse effects on sexual function and fertility in adult males and females, as well as adverse effects on the development of the offspring. Chemicals classified as reproductive toxins in accordance with the Hazard Communication Standard (§ 1910.1200) shall be considered reproductive toxins for purposes of this section.
+
+Select carcinogen means any substance which meets one of the following criteria:
+
+(i) It is regulated by OSHA as a carcinogen; or
+
+(ii) It is listed under the category, "known to be carcinogens," in the Annual Report on Carcinogens published by the National Toxicology Program (NTP) (latest edition); or
+
+(iii) It is listed under Group 1 ("carcinogenic to humans") by the International Agency for Research on Cancer Monographs (IARC) (latest editions); or
+
+(iv) It is listed in either Group 2A or 2B by IARC or under the category, "reasonably anticipated to be carcinogens" by NTP, and causes statistically significant tumor incidence in experimental animals in accordance with any of the following criteria:
+
+(A) After inhalation exposure of 6-7 hours per day, 5 days per week, for a significant portion of a lifetime to dosages of less than 10 mg/m 3 ;
+
+(B) After repeated skin application of less than 300 (mg/kg of body weight) per week; or
+
+(C) After oral dosages of less than 50 mg/kg of body weight per day.
+
+Permissible exposure limits . For laboratory uses of OSHA regulated substances, the employer shall assure that laboratory employees' exposures to such substances do not exceed the permissible exposure limits specified in 29 CFR part 1910, subpart Z.
+
+Employee exposure determination -
+
+Initial monitoring . The employer shall measure the employee's exposure to any substance regulated by a standard which requires monitoring if there is reason to believe that exposure levels for that substance routinely exceed the action level (or in the absence of an action level, the PEL).
+
+Periodic monitoring . If the initial monitoring prescribed by paragraph (d)(1) of this section discloses employee exposure over the action level (or in the absence of an action level, the PEL), the employer shall immediately comply with the exposure monitoring provisions of the relevant standard.
+
+Termination of monitoring . Monitoring may be terminated in accordance with the relevant standard.
+
+Employee notification of monitoring results . The employer shall, within 15 working days after the receipt of any monitoring results, notify the employee of these results in writing either individually or by posting results in an appropriate location that is accessible to employees.
+
+Chemical hygiene plan - General . (Appendix A of this section is non-mandatory but provides guidance to assist employers in the development of the Chemical Hygiene Plan).
+
+Provisions for additional employee protection for work with particularly hazardous substances. These include "select carcinogens," reproductive toxins and substances which have a high degree of acute toxicity. Specific consideration shall be given to the following provisions which shall be included where appropriate:
+
+Employee information and training .
+
+Information . Employees shall be informed of:
+
+The location and availability of the employer's Chemical Hygiene Plan;
+
+Training .
+
+Medical consultation and medical examinations .
+
+Information provided to the physician . The employer shall provide the following information to the physician:
+
+Physician's written opinion .
+
+Any medical condition which may be revealed in the course of the examination which may place the employee at increased risk as a result of exposure to a hazardous chemical found in the workplace; and
+
+Hazard identification .
+
+Use of respirators . Where the use of respirators is necessary to maintain exposure below permissible exposure limits, the employer shall provide, at no cost to the employee, the proper respiratory equipment. Respirators shall be selected and used in accordance with the requirements of 29 CFR 1910.134.
+
+Recordkeeping .
+
+The employer shall assure that such records are kept, transferred, and made available in accordance with 29 CFR 1910.20.
+
+Appendices . The information contained in the appendices is not intended, by itself, to create any additional obligations not otherwise imposed or to detract from any existing obligation. [55 FR 3327, Jan. 31, 1990; 55 FR 7967, March, 6, 1990; 55 FR 12777, March 30, 1990; 61 FR 5507, Feb. 13, 1996; 71 FR 16674, April 3, 2006; 77 FR 17887, March 26, 2012]

@@ -1,0 +1,229 @@
+An official website of the United States government
+
+The .gov means it's official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+
+The site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+Account
+
+Dashboard
+
+Publications
+
+Account settings
+
+Log out
+
+## Bookshelf
+
+Browse Titles
+
+Advanced
+
+Help
+
+Disclaimer
+
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011.
+
+## Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version.
+
+Contents
+
+Hardcopy Version at National Academies Press
+
+## 1 The Culture of Laboratory Safety
+
+## 1.A. INTRODUCTION
+
+Over the past century, chemistry has increased our understanding of the physical and biological world as well as our ability to manipulate it. As a result, most of the items we take for granted in modern life involve synthetic or natural chemical processing.
+
+We acquire that understanding, carry out those manipulations, and develop those items in the chemical laboratory; consequently, we also must monitor and control thousands of chemicals in routine use. Since the age of alchemy, laboratory chemicals have demonstrated dramatic and dangerous properties. Some are insidious poisons.
+
+During the “heroic age” of chemistry, martyrdom for the sake of science was acceptable, according to an 1890 address by the great chemist August Kekulé: “If you want to become a chemist, so Liebig told me, when I worked in his laboratory, you have to ruin your health. Who does not ruin his health by his studies, nowadays will not get anywhere in Chemistry” (as quoted in Purchase, 1994 ).
+
+Today that attitude seems as ancient as alchemy. Over the years, we have developed special techniques for handling chemicals safely. Institutions that sponsor chemical laboratories hold themselves accountable for providing safe working environments. Local, state, and federal regulations codify this accountability.
+
+Beyond regulation, employers and scientists also hold themselves responsible for the well-being of building occupants and the general public. Development of a “culture of safety”—with accountability up and down the managerial (or administrative) and scientific ladders—has resulted in laboratories that are, in fact, safe and healthy environments in which to teach, learn, and work. Injury, never mind martyrdom, is out of style.
+
+## 1.B. THE CULTURE OF LABORATORY SAFETY
+
+As a result of the promulgation of the Occupational Safety and Health Administration (OSHA) Laboratory Standard (29 CFR § 1910.1450), a culture of safety consciousness, accountability, organization, and education has developed in industrial, governmental, and academic laboratories. Safety and training programs, often coordinated through an office of environment, health, and safety (EHS), have been implemented to monitor the handling of chemicals from the moment they are ordered until their departure for ultimate disposal and to train laboratory personnel in safe practices. 1
+
+Laboratory personnel realize that the welfare and safety of each individual depends on clearly defined attitudes of teamwork and personal responsibility and that laboratory safety is not simply a matter of materials and equipment but also of processes and behaviors. Learning to participate in this culture of habitual risk assessment, experiment planning, and consideration of worst-case possibilities—for oneself and one's fellow workers—is as much part of a scientific education as learning the theoretical background of experiments or the step-by-step protocols for doing them in a professional manner. 2
+
+Accordingly, a crucial component of chemical education at every level is to nurture basic attitudes and habits of prudent behavior so that safety is a valued and inseparable part of all laboratory activities. In this way, a culture of laboratory safety becomes an internalized attitude, not just an external expectation driven by institutional rules. This process must be included in each person's chemical education throughout his or her scientific career.
+
+## 1.C. RESPONSIBILITY AND ACCOUNTABILITY FOR LABORATORY SAFETY
+
+Ensuring a safe laboratory environment is the combined responsibility of laboratory personnel, EHS personnel, and the management of an organization, though the primary responsibility lies with the individual performing the work. Of course, federal, state, and local laws and regulations make safety in the laboratory a legal requirement and an economic necessity. Laboratory safety, although altruistic, is not a purely voluntary function; it requires mandatory safety rules and programs and an ongoing commitment to them. A sound safety organization that is respected by all requires the participation and support of laboratory administrators, employees, and students.
+
+The ultimate responsibility for creating a safe environment and for encouraging a culture of safety rests with the head of the organization and its operating units. Leadership by those in charge ensures that an effective safety program is embraced by all. Even a well-conceived safety program will be treated casually by workers if it is neglected by top management.
+
+Direct responsibility for the management of the laboratory safety program typically rests with the chemical hygiene officer (CHO) or safety director; responsibility for working safely, however, lies with those scientists, technicians, faculty, students, and others who actually do the work. A detailed organizational chart with regard to each individual's responsibility for chemical hygiene can be a valuable addition to the Chemical Hygiene Plan (CHP). (See Chapter 2 , section 2.B .)
+
+In course work, laboratory instructors carry direct responsibility for actions taken by students. Instructors are responsible for promoting a culture of safety as well as for teaching the requisite skills needed to handle chemicals safely.
+
+As federal, state, and local regulations became more stringent, institutions developed infrastructures to oversee compliance. Most industrial, governmental, and academic organizations that maintain laboratory operations have an EHS office staffed with credentialed professionals. These individuals have a collective expertise in chemical safety, industrial hygiene, engineering, biological safety, environmental health, environmental management (air, water, waste), occupational medicine, health physics, fire safety, and toxicology.
+
+EHS offices consult on or manage hazardous waste issues, accident reviews, inspections and audits, compliance monitoring, training, record keeping, and emergency response. They assist laboratory management in establishing policies and promoting high standards of laboratory safety. To be most effective, they should partner with department chairpersons, safety directors, CHOs, principal investigators or managers, and laboratory personnel to design safety programs that provide technical guidance and training support that are relevant to the operations of the laboratory, are practical to carry out, and comply with existing codes and regulations.
+
+In view of the importance of these offices, safety directors should be highly knowledgeable in the field and given responsibility for the development of a unified safety program, which will be vetted by institutional authorities and implemented by all. As a result, EHS directors should also have direct access, when necessary, to those senior authorities in the institution who are ultimately accountable to the public.
+
+## 1.D. SPECIAL SAFETY CONSIDERATIONS IN ACADEMIC LABORATORIES
+
+Academic laboratories, like industrial and governmental laboratories, are concerned with meeting the fundamental safety goals of minimizing accidents and injuries, but there are differences. Forming the foundation for a lifelong attitude of safety consciousness, risk assessment, and prudent laboratory practice is an integral part of every stage of scientific education—from classroom to laboratory and from primary school through postdoctoral training. Teaching and academic institutions must accept this unique responsibility for attitude development.
+
+Resources are limited and administration must provide support for teachers who are not subject matter experts. The manifold requirements for record keeping and waste handling can be especially burdensome for overworked teachers in high school or college laboratories. Institutions with graduate programs teach, but they also conduct research activities that often involve unpredictable hazards. The safety goals and the allocation of resources to achieve them are sufficiently different for high school, undergraduate, and graduate teaching laboratories that they are discussed separately here.
+
+## 1.D.1. High School Teaching Laboratories
+
+Laboratory safety involves recognizing and evaluating hazards, assessing risks, selecting appropriate personal protective equipment, and performing the experimental work in a safe manner. Training must start early in a chemist's career. Even a student's first chemical experiments should cover the proper approach to understanding and dealing with the hazardous properties of chemicals (e.g., flammability, reactivity, corrosiveness, and toxicity) as an introduction to laboratory safety and should also teach sound environmental practice when managing chemical waste. Advanced high school chemistry courses should assume the same responsibilities for developing professional attitudes toward safety and waste management as are expected of college and university courses.
+
+## 1.D.2. Undergraduate Teaching Laboratories
+
+Undergraduate chemistry courses are faced with the problem of introducing inexperienced people to the culture of laboratory safety. Although some students enroll in their first undergraduate course with good preparation from their high school science courses, many others bring little or no experience in the laboratory. They must learn to evaluate the wide range of hazards in laboratories and learn risk management techniques that are designed to eliminate various potential dangers in the laboratory.
+
+Undergraduate laboratory instruction is often assigned to graduate—and in some cases undergraduate— teaching assistants, who have widely different backgrounds and communication skills. Supervising and supporting teaching assistants is a special departmental responsibility that is needed to ensure the safe operation of the undergraduate laboratories in the department. The assistants are teaching chemistry while they are trying to learn it and teaching safety when they may not be prepared to do so. However, they are in a position to act as role models of safe laboratory practice for the students in the laboratory, and adequate support and training are required for them to fill that role appropriately.
+
+To this end, a manual designed and written specifically for teaching assistants in undergraduate laboratories is an extremely effective training tool. The manual can include sections on principles of laboratory safety; laboratory facilities; teaching assistant duties during the laboratory session; chemical management; applicable safety rules; teaching assistant and student apparel, teaching assistant and student personal protective equipment; departmental policy on pregnant students in laboratories; and emergency preparedness in the event of a fire, chemical spill, or injury in the laboratory.
+
+There should be resolute commitment by the entire faculty to the departmental safety program to minimize exposure to hazardous materials and unsafe work practices in the laboratory. Teaching safety and safe work practices in the laboratory should be a top priority for faculty as they prepare students for careers in industrial, governmental, academic, and health sciences laboratories. By promoting safety during the undergraduate and graduate years, the faculty will have a significant impact not just on their students but also on everyone who will share their future work environments.
+
+## 1.D.3. Academic Research Laboratories
+
+Advanced training in safety should be mandatory for students engaged in research, and hands-on training is recommended whenever possible. Unlike laboratory course work, where training comes primarily from repeating well-established procedures, research often involves making new materials by new methods, which may pose unknown hazards. As a result, workers in academic research laboratories do not always operate from a deep experience base.
+
+Thus, faculty is expected to provide a safe environment for research via careful oversight of the student's work. Responsibility for the promotion of safe laboratory practices extends beyond the EHS department, and all senior researchers—faculty, postdoctoral, and experienced students—should endeavor to teach the principles and set a good example for their associates. The ability to maintain a safe laboratory environment is necessary for a chemist entering the workforce, and students who are not adequately trained in safety are placed at a professional disadvantage when compared with their peers. To underscore the importance of maintaining a safe and healthy laboratory environment, many chemistry departments provide laboratory safety training and seminars for incoming graduate students. However, in many cases these sessions are designed to prepare graduate students for their work as teaching assistants rather than for their work as research scientists.
+
+Formal safety education for advanced students and laboratory personnel should be made as relevant to their work activities as possible. Training conducted simply to satisfy regulatory requirements may seem like compliance, and researchers may sense that the training does not have the leader's full support. EHS offices and researchers can work together to address such concerns and to design training sessions that fulfill regulatory requirements, provide training perceived as directly relevant to the researchers' work, and provide hands-on experience with safety practices whenever possible.
+
+Safety training is an ongoing process, integral to the daily activities of laboratory personnel. As a new laboratory technique is formally taught or used, relevant safe practices should be included; however, informal training through collegial interactions is a good way to exchange safety information, provide guidance, and reinforce good work habits.
+
+Although principal investigators and project managers are legally accountable for the maintenance of safety in laboratories under their direction, this activity, like much of the research effort, is distributable. Well-organized academic research groups develop hierarchical structures of experienced postdoctoral research associates, graduate students at different levels, undergraduates, and technicians, which can be highly effective in transmitting the importance of safe, prudent laboratory operations. Box 1.1 provides some examples of how to encourage a culture of safety within an academic laboratory.
+
+BOX 1.1
+
+Tips for Encouraging a Culture of Safety Within an Academic Laboratory. Make a topic of laboratory safety an item on every group meeting agenda. Periodically review the results of laboratory inspections with the entire group.
+
+When each principal investigator offers leadership that demonstrates a deep concern for safety, fewer people get hurt. If any principal investigator projects an attitude that appears to be cavalier or hostile to the university safety program, that research group and others can mirror the poor example and exhibit behavior that sets the stage for potential accidents, loss of institutional property, and costly litigation.
+
+## 1.E. THE SAFETY CULTURE IN INDUSTRIAL AND GOVERNMENTAL LABORATORIES
+
+The degree of commitment to EHS programs varies widely among companies and governmental laboratories, as well. Many chemical companies recognize both their moral responsibility and their own self-interest in developing the best possible safety programs, extending them not just to employees but also to contractors. Others do little more than is absolutely required by law and regulations. Unfortunately, bad publicity from a serious accident in one careless operation tarnishes the credibility of all committed supervisors and employees. Fortunately, chemical companies that excel in safety are becoming more common, and safety is often recognized as equal in importance to productivity, quality, profitability, and efficiency.
+
+The industrial or governmental laboratory environment provides strong corporate structure and discipline for maintaining a well-organized safety program where the culture of safety is thoroughly understood, respected, and enforced from the highest level of management down. New employees coming from academic research laboratories are often surprised to discover the detailed planning and extensive safety checks that are required before running experiments. In return for their efforts, they learn the sense of personal security that goes with high professional standards.
+
+## 1.F. OTHER FACTORS THAT INFLUENCE LABORATORY SAFETY PROGRAMS
+
+Several key factors continue to affect the evolution of laboratory safety programs in industry, government, and academe. These factors include advances in technology, environmental impact, and changes in legal and regulatory requirements.
+
+## 1.F.1. Advances in Technology
+
+In response to the increasingly high cost of chemical management, from procurement to waste disposal, a steady movement toward miniaturizing chemical operations exists in both teaching and research laboratories. This trend has had a significant effect on laboratory design and has also reduced the costs associated with procurement, handling, and disposal of chemicals. Another trend—motivated at least partially by safety concerns—is the simulation of laboratory experiments by computer. Such programs are a valuable conceptual adjunct to laboratory training but are by no means a substitute for hands-on experimental work. Only students who have been carefully educated through a series of hands-on experiments in the laboratory have the confidence and expertise needed to handle real laboratory procedures safely as they move on to advanced courses, research work, and eventually to their careers in industry, academe, health sciences, or government laboratories.
+
+## 1.F.2. Environmental Impact
+
+If a laboratory operation produces less waste, there is less waste to dispose of and less impact on the environment. A frequent, but not universal, corollary is that costs are also reduced. The terms “waste reduction,” “waste minimization,” and “source reduction” are often used interchangeably with “pollution prevention.” In most cases the distinction is not important. However, the term “source reduction” may be used in a narrower sense than the other terms, and the limited definition has been suggested as a regulatory approach that mandates pollution prevention. The narrow definition of source reduction includes only procedural and process changes that actually use less material and produce less waste. The definition does not include recycling or treatment to reduce the hazard of a waste. For example, changing to microscale techniques is considered source reduction, but recycling a solvent waste is not.
+
+Many advantages are gained by taking an active pollution prevention approach to laboratory work, and these are well documented throughout this book. Some potential drawbacks do exist, and these are discussed as well and should be kept in mind when planning activities. For example, dramatically reducing the quantity of chemicals used in teaching laboratories may leave the student with an unrealistic appreciation of his or her behavior when using them on a larger scale. Also, certain types of pollution prevention activities, such as solvent recycling, may cost far more in dollars and time than the potential value of recovered solvent. For more information about solvent recycling, see Chapter 5 , section 5.D.3.2 . Before embarking on any pollution prevention program, it is worthwhile to review the options thoroughly with local EHS program managers and to review other organizations' programs to become fully aware of the relative merits of those options.
+
+Perhaps the most significant impediment to comprehensive waste reduction in laboratories is the element of scale. Techniques that are practical and cost-effective on a 55-gal or tank-car quantity of material may be highly unrealistic when applied to a 50-g (or milligram) quantity, or vice versa. Evaluating the costs of both equipment and time becomes especially important when dealing with very small quantities.
+
+## 1.F.3. Changes in the Legal and Regulatory Requirements
+
+Changes in the legal and regulatory requirements over the past several decades have greatly affected laboratory operations. Because of increased regulations, the collection and disposal of laboratory waste constitute major budget items in the operation of every chemical laboratory. The cost of accidents in terms of time and money spent on fines for regulatory violations and on litigation are significant. Of course, protection of students and research personnel from toxic materials is not only an economic necessity but an ethical obligation. Laboratory accidents have resulted in serious, debilitating injuries and death, and the personal impact of such events cannot be forgotten.
+
+In 1990, OSHA issued the Laboratory Standard (29 CFR § 1910.1450), a performance-based rule that serves the community well. In line with some of the developments in laboratory practice, the committee recommends that OSHA review the standard in current context. In particular, the section on CHPs, 1910.1450(e), does not currently include emergency preparedness, emergency response, and consideration of physical hazards as well as chemical hazards. In addition, this book provides guidance that could be a basis for strengthening the employee information and training section, 1910.1450(f). Finally, the nonmandatory Appendix A of the Laboratory Standard was based on the original edition of Prudent Practices in the Laboratory , published in 1981 and currently out of print. The committee recommends that the appendix be updated to reflect the changes in the current edition in both content and reference.
+
+The Laboratory Standard requires that every workplace conducting research or training where hazardous chemicals are used develop a CHP. This requirement has generated a greater awareness of safety issues at all educational science and technology departments and research institutions. Although the priority assigned to safety varies widely among personnel within academic departments and divisions, increasing pressure comes from several other directions in addition to the regulatory agencies and to the potential for accident litigation. In some cases, significant fines have been imposed on principal investigators who received citations for safety violations. These actions serve to increase the faculty's concern for laboratory safety. Boards of trustees or regents of educational institutions often include prominent industrial leaders who are aware of the increasing national concern with safety and environmental issues and are particularly sensitive to the possibility of institutional liability as a result of laboratory accidents. Academic and government laboratories can be the targets of expensive lawsuits. The trustees assist academic officers both by helping to develop an appropriate institutional safety system with an effective EHS office and by supporting departmental requests for modifications of facilities to comply with safety regulations.
+
+Federal granting agencies recognize the importance of sound laboratory practices and active laboratory safety programs in academe. Some require documentation of the institution's safety program as part of the grant proposal. When negligent or cavalier treatment of laboratory safety regulations jeopardizes everybody's ability to obtain funding, a powerful incentive is created to improve laboratory safety.
+
+## 1.F.4. Accessibility for Scientists with Disabilities
+
+Over the years, chemical manufacturers have modernized their views of safety. Approaches to safety for all—including scientists with disabilities—have largely changed in laboratories as well. In the past, full mobility and full eyesight and hearing capabilities were considered necessary for safe laboratory operations. Now, encouraged legally by the adoption of the Americans with Disabilities Act of 1990 (ADA) and the ADA Amendments Act of 2008, leaders in laboratory design and management realize that a nimble mind is more difficult to come by than modified space or instrumentation.
+
+As a result, assistive technologies now exist to circumvent almost any inaccessibility, and laboratories can be equipped to take advantage of them. Many of the modifications to laboratory space and fixtures have benefits for all. Consider, as a single example, the assistance of ramps and an automatic door opener to all lab personnel moving a large cart or carrying two heavy containers.
+
+It is a logical extension of the culture of safety to include a culture of accessibility. For information about compliance with the ADA in the laboratory, see Chapter 9 , section 9.B.8 .
+
+## 1.G. LABORATORY SECURITY
+
+Laboratory security is an issue that has grown in prominence in recent years and is complementary to laboratory safety. In short, a laboratory safety program should be designed to protect people and chemicals from accidental misuse of materials; the laboratory security program should be designed to protect workers from intentional misuse or misappropriation of materials. Security procedures and programs will no doubt be familiar to some readers, but others may have encountered it only in the context of locking the laboratory door. However, in the coming years, a working awareness of security will likely become a common requirement for anyone working in a chemical laboratory. Risks to laboratory security include theft or diversion of high-value equipment, theft of chemicals to commit criminal acts, intentional release of hazardous materials, or loss or release of sensitive information, and will vary with the organization and the work performed. Chapter 10 of this book provides a broad introduction to laboratory security, including discussions of the elements of a security program, performing a security vulnerability assessment, dual-use hazards of laboratory materials, and regulations that affect security requirements. The chapter is not intended to provide all the details needed to create a security program, but rather to acquaint laboratory personnel with the rationale behind developing such a program and to provide the basic tools needed to begin identifying and addressing concerns within their own laboratories.
+
+## 1.H. STRUCTURE OF THE BOOK
+
+This edition of Prudent Practices in the Laboratory builds on the work provided in previous editions. Among other changes, it has two new chapters, one on Emergency Planning and one on Laboratory Security, described above, and the discussion of EHS management systems has been extensively revised. Chapters 2 , 3 , and 10 cover administrative and organizational concerns that affect the laboratory environment; Chapters 4 – 8 discuss practical concerns when working in a laboratory; Chapter 9 discusses laboratory facilities; and Chapter 11 provides an overview of federal regulations that affect laboratory activities. Acknowledging the stronger regulatory environment that exists today, this edition provides more references to relevant codes, standards, and regulations than the prior versions. This is not intended to imply that safety has become a matter of regulation rather than of good practice; it is a reflection of laboratory practice today and is intended to provide a resource for personnel who must remain in compliance with these regulations or face legal consequences.
+
+## 1.I. SUMMARY
+
+A strong culture of safety within an organization creates a solid foundation upon which a successful laboratory health and safety program can be built. As part of that culture, all levels of the organization (i.e., administrative personnel, scientists, laboratory technicians) should understand the importance of minimizing the risk of exposure to hazardous materials in the laboratory and should work together toward this end. In particular, laboratory personnel should consider the health, physical, and environmental hazards of the chemicals that will be used when planning a new experiment and perform their work in a prudent manner. However, the ability to accurately identify and assess hazards in the laboratory is not a skill that comes naturally, and it must be taught and encouraged through training and ongoing organizational support. A successful health and safety program requires a daily commitment from everyone in the organization, and setting a good example is the best method of demonstrating commitment.
+
+## Footnotes
+
+Throughout this book, the committee uses the word training in its usual sense of “making proficient through specialized instruction” with no direct reference to regulatory language.
+
+With regard to safe use of chemicals, the committee distinguishes between hazard, which is an inherent danger in a material or system, and the risk that is assumed by using it in various ways. Hazards are dangers intrinsic to a substance or operation; risk refers to the probability of injury associated with working with a substance or carrying out a particular laboratory operation. For a given chemical, risk can be reduced; hazard cannot.
+
+## Views
+
+PubReader
+
+Print View
+
+Cite this Page National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011. 1, The Culture of Laboratory Safety.
+
+PDF version of this title (9.0M)
+
+## In this Page
+
+INTRODUCTION
+
+THE CULTURE OF LABORATORY SAFETY
+
+RESPONSIBILITY AND ACCOUNTABILITY FOR LABORATORY SAFETY
+
+SPECIAL SAFETY CONSIDERATIONS IN ACADEMIC LABORATORIES
+
+THE SAFETY CULTURE IN INDUSTRIAL AND GOVERNMENTAL LABORATORIES
+
+OTHER FACTORS THAT INFLUENCE LABORATORY SAFETY PROGRAMS
+
+LABORATORY SECURITY
+
+STRUCTURE OF THE BOOK
+
+SUMMARY
+
+## Other titles in this collection
+
+The National Academies Collection: Reports funded by National Institutes of Health
+
+## Recent Activity
+
+The Culture of Laboratory Safety - Prudent Practices in the Laboratory The Culture of Laboratory Safety - Prudent Practices in the Laboratory
+
+Your browsing activity is empty.
+
+Activity recording is turned off.
+
+Turn recording back on
+
+Connect with NLM
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894
+
+Web Policies FOIA HHS Vulnerability Disclosure
+
+Help Accessibility Careers
+
+NLM
+
+NIH
+
+HHS
+
+USA.gov

@@ -1,0 +1,3002 @@
+EID Hazard Identification
+
+Globally Harmonized System 
+
+GHS Pictograms: 
+
+HEALTH HAZARD 
+
+FLAME 
+
+EXCLAMATION MARK 
+
+• Carcinogen 
+• Mutagenicity
+• Reproductive Toxicity 
+• Respiratory Sensitizer
+• Target Organ Toxicity 
+• Aspiration Toxicity 
+
+• Flammables
+• Pyrophoric 
+• Self-Heating
+• Emits Flammable Gas 
+• Self-Reactive
+• Organic Peroxides 
+
+Irritant (skin and eye) 
+
+•
+• Skin Sensitizer
+• Acute Toxicity (harmful)
+• Narcotic Effects
+• Respiratory Tract Irritant
+• Hazardous to Ozone 
+
+Layer (Non-Mandatory)
+
+GAS CYLINDER 
+
+CORROSION 
+
+EXPLODING BOMB
+
+• Gas Under Pressure 
+
+•
+
+• Skin Corrosive/Burns
+• Eye Damage 
+• Corrosive to Metals
+
+• Explosives 
+• Self-Reactives
+• Organic Peroxides 
+
+• • 
+
+i 
+
+I , 
+
+I • 
+
+• 
+
+SKULL AND 
+CROSSBONES 
+
+• Oxidizers 
+
+• Aquatic Toxicity 
+
+• Acute Toxicity (fatal or toxic) 
+
+The Globally Harmonized System of Classification 
+and Labeling of Chemicals (GHS) provides an 
+international standardized approach to the 
+classification and labeling of chemicals. The 
+Occupational Safety and Health Administration 
+(OSHA) Hazard Communication Standard (HCS) 
+aligns with the GHS to ensure consistency of 
+information. The HCS requirements include: 
+
+Hazard Classification: Provides specific criteria for 
+classification of health, physical and environmental 
+hazards, as well as classification of mixtures. 
+
+Labels: Chemical manufacturers and importers 
+are required to provide a label that includes a 
+harmonized signal word, pictogram and hazard 
+statement for each hazard class and category, 
+along with precautionary statements. 
+
+Safety Data Sheets (SDS): Previously called, 
+Material Safety Data Sheets (MSDS), have a 
+specified 16-section format. 
+
+Signal Word: There are two signal words in the 
+GHS system - Danger and Warning. These signal 
+words are used to communicate the relative level 
+of hazard on both the label and the SOS, with 
+"Danger" indicating the more severe hazard. The 
+appropriate signal word is determined by the 
+hazard classification. 
+
+Information and Training: While the GHS does not 
+address training, the HCS requires that all personnel 
+working with chemicals be properly trained to recog-
+nize and understand chemical labels and safety data 
+sheets. If you see old pictograms on chemicals, please 
+relabel if they are within the expiration date or contact 
+DEP for disposal at (301) 496-4710. 
+
+ ■I Hazard Control/Hazardous Spill Procedure 
+
+Hazard Assessment 
+
+Hazard assessment identifies the hazards 
+of the chemicals and processes used in the 
+laboratory. The assessment evaluates the 
+potential for risk and the severity of the risk 
+associated with the hazards. The assessment 
+determines measures to eliminate, minimize, 
+or control the hazards and potential risks. 
+
+What needs to be done? 
+
+To perform a chemical hazard assessment, 
+laboratory workers should examine their plan 
+for an experiment and identify all the chemicals 
+that they are planning to use. The SDS for each 
+chemical should be reviewed . SDS should be 
+maintained by the laboratory in a central location, 
+accessible either as a hard copy or electronically. 
+
+What does this entail? 
+
+A chemical hazard assessment entails gathering 
+information about the health and physical 
+hazards of the chemical and the proposed use 
+of the chemical or reagent. This information 
+should include: 
+
+1. SDS for the chemical or reagent 
+
+2. Description of work/activities/use 
+
+3. Storage requirements 
+
+4. Disposal and environmental requirements 
+
+5. Health surveillance 
+
+6. Emergency procedure 
+
+7. Proposed controls, to include: 
+
+• 
+
+Elimination 
+
+• Substitution 
+
+• 
+
+Engineering controls 
+
+• Administrative controls 
+
+• 
+
+Personal protective equipment (PPE) 
+
+8. A specific written chemical standard 
+
+operating procedure (SOP) is required for 
+Particularly Hazardous Substances (PHS). 
+Reference PHS fact sheet (DS Fact Sheet on 
+Particularly Hazardous Substances (PHS). 
+
+Reference appendix B of the Chemical Hygiene 
+Plan and the DS SOP Control band template. 
+
+Who does the Assessment? 
+
+The principal investigator or supervisor with 
+primary responsibility for the laboratory performs 
+the chemical hazard assessment. He or she may 
+consult with your IC Safety and Health specialist. 
+
+□ NOTE The Chemical Hygiene Plan contains 
+templates for performing chemical hazard 
+assessments and generating Control band SOP. 
+Refer to the NIH Chemical Hygiene Plan {CHP) 
+for more information. 
+
+11111)} National Insti tutes of Health • Office of Research Se.vices • Oivis~n of Safety
+
+Control Banded Standard Operating Procedure (SOP) Templates for Particularly Hazardous Substances (PHS) 
+
+Divisioo of Safety {OS) has developed SOP templates for PHS using the concept of control b.mding. "Control Banding" assigns 
+general protection strategies to chemicals with sim itar hazards that are grouped into " bands". Chemicals that cannot be grouped 
+with other chemicals based on the hazardous characteristics will have chemOCal specific SOP's. Contact: DS (IC Safety Specialist) 
+for assistance in kleotifying the right SOP template for your chemical 
+
+SOP templates for Particularty Hazardous Substances (PHS) 
+
+Control 
+bands/ Plctograms 
+
+Hazard s 
+
+Example 
+
+Carcinogen/reproductive 
+toxin 
+
+Boricacid,Cadmium,berylliuma nditscom­
+pounds,es1rogen,nickelcompou nds,silica, 
+tamoxifen,formam ide,dexamethasoneetc. 
+
+Acutely toxic 
+
+Acetaldehyde,coppercvanide,epinephrine, 
+phenylthiourea,sodiumfluoride 
+
+' I "' ~ ~~M 
+
+Acutely toxic and 
+carcinogen/reproductive 
+'°';" 
+
+'I "' ~ ~~M 
+
+Acutely toxic and 
+carcinogen/reproductive 
+,o,;, 
+
+carbon tetrachloride, 
+Dichloromethane,Chlorofonn 
+1,1-Dichloroethane,Ethylenedichloride, 
+Vinylidenechloride,cisond tron5··1,2· 
+Dichloroethene,1,2 -Dichloropropane,Methyl 
+chloroform, l,l ,2-Trichloroetha ne, 
+chromium,arsen ic, sodiumazide,sodium 
+cyanide,diazomethane,nicl<.el carbonyl, 
+chloroan i1 ine,vanad i<.1 moxide,thalliumsalts, 
+ethidiumbromide,aminopyridineetc. 
+
+Acutely toxic and 
+
+Brornine,arnmonia,acroleinetc. 
+HFrequireschemlcal specificSOP 
+
+SOP-3 
+
+Carcinogen/reproductive 
+toxin and flammable 
+
+Carbond isulfide,dirnethylformarnide (DMF), 
+Diethvleneglycoldimethvlether(diglvme). 
+heptane,hexane,toluene,xylenee tc. 
+
+~ 
+
+Acutely toxic and 
+flammable 
+
+Allylalcohol,brornoacel oneetc., 
+
+SOP-7 
+
+Acutely toxic and oxidizer 
+
+Nitrogen oxides,chlorinetrifluoride,chlorine 
+dioxide,sodiumnitriteetc. 
+
+~ 
+
+Acutelytoxic,corrosive 
+
+'"' 
+
+carcinogen/reproductive 
+
+chrornicacid,phenol,arsenicox ide,cobal! 
+chloride,irnidazoleetc 
+
+Acutely toxic, 
+carcinogen/reproductive 
+toxin and flammable 
+
+Cyclo hexane,benzene, dioxin, t hiophenol, 
+benzenethiol,ethoxyethanol(Ethyteneglycol 
+et hylether)etc. 
+
+Acutely toxic, 
+carcinogen/reproductive 
+toxin and flammable 
+
+Cyd ohexane, benzene,dioxin,thiophenol, 
+benzenel hiol,ethoxyethanol(Ethyleneglycol 
+ethylether)etc. 
+
+SOP-10 
+
+Corrosive and flammable 
+
+'"' 
+
+Hydrazine,cyclohexylamine,lormaldehyde, 
+acro lein,sodiumborohydride, isopropytarnine 
+etc. 
+
+SOP-11 
+
+Above: Control Banded SOP Document providing PHS 
+examples and templates 
+
+A chemical hazard assessment entails gathering 
+information about the health and physical hazards of the 
+chemical and proposed use of a chemical or reagent 
+
+Control banded Standard Operating 
+Procedure (SOP} Templates for 
+Paricularly Hazardous Substances 
+(PHS} 
+
+DS has developed SOP templates for PHS 
+using the concept of control banding "Control 
+Banding" assigns generic protection strategies 
+to chemicals with similar hazards that are 
+grouped into "bands". Chemicals that cannot 
+be grouped with other chemicals based on the 
+hazardous characteristics will have chemical 
+specific SOP. Control banded SOP templates 
+can be used for PHS in your lab and additional 
+Lab-Specific SOP templates (Appendix I of the 
+Chemical Hygiene Plan (CHP)) can be used for 
+non-PHS. Contact your Safety Specialists for 
+assistance in identifying the right SOP template 
+for your chemical. 
+
+ Hierarchy of Controls 
+
+Hierarchy of Safety Controls 
+
+Most 
+effective 
+
+Least 
+effective 
+
+Substitution 
+
+Engineering Controls 
+
+Administrative 
+Controls 
+
+Physically
+remove the hazard 
+
+Replace 
+the hazard 
+
+Isolate people 
+from the hazard 
+
+Change the 
+way people work 
+
+Protect the workers with 
+Personal Protection Equipment 
+
+■I Hazard Control/Hazardous Spill Procedure 
+
+ Spill Prevention: 
+
+4. Contact the Fire Department: 
+
+Most spills are preventable. The following are some tips 
+that could help to prevent or minimize the magnitude of 
+a spill: 
+
+• Substitute with a less hazardous chemical when­
+
+ever possible. 
+
+• Think through each step of your experiment carefully. 
+
+• Order/ use the smallest quantity of chemicals 
+
+possible. 
+
+• Use bottle carriers to transport chemicals. 
+
+• Order chemicals in poly-coated glass safety bottles. 
+The protective coating on these bottles can provide 
+containment if the bottle breaks. 
+
+Bethesda main campus: Dial 911 from an office 
+phone or (301) 496-9911 from a cell phone; Off­
+campus: Dial 9-911 from an office phone or 911 
+from a cell phone. For satellite locations, follow 
+satellite-specific guidance which supersedes the 
+main campus guidance at these locations. 
+
+RML: Contact the Security Control Center (SCC). 
+Dial O from an office phone or (406) 363-9400 
+from a cell phone. 
+
+I RF-Frederick: Call on-site OMS Clinic or follow 
+emergency response plan. 
+
+Baltimore: Refer to the Baltimore chemical spill 
+SOP for guidance. 
+
+5. Notify your supervisor as soon as possible. 
+
+• Use secondary containment for all hazardous 
+
+6. Report to OMS 
+
+chemicals. 
+
+• Do not store bottles near the edges of shelves and 
+
+bench tops. 
+
+Each department must have appropriate spill control and 
+response items available. Refer to Appendix H of the 
+NIH Chemical Hygiene Plan (CHP) for more details. 
+
+High-Level Hazard Spill: 
+
+Bethesda main campus: Report (Monday-Friday, 
+7:30 AM to 5:00 PM) to the Occupational Medical 
+Service (OMS), Building 10, Room 6C306 or call 
+(301) 496-4411 as soon as possible. If life threaten­
+ing, call the Fire Department of your local NIH 
+campus immediately. 
+
+RML: Report (Monday-Friday, 8:00 AM to 4:30 PM) 
+to RML OMS, Building 5, Room 204 or call (406) 
+375-9600 as soon as possible. If life threatening, 
+call O from an office phone or 911. 
+
+High-level hazard spill is defined as one that is requir­
+ing outside assistance like a Fire Department. If ANY 
+of the following criteria are met, an emergency response 
+must be initiated: 
+
+!RF-Frederick: Report (Monday-Friday, 7:30 AM 
+to 5:00 PM ) to IRF OMS, Room 18116 or call (301) 
+631-7233 as soon as possible. If life-threatening, 
+call 911. 
+
+• Spill of any PHS, pyrophoric or water reacti ve 
+
+material. 
+
+• Any spill requiring outside assistance based on the 
+risk assessment (genera lly spills >500ml outside 
+containment or >1L inside containment). 
+
+Risk assessment matrix image. Refer requiring out­
+side assistance like Fire Department to spill in the lab 
+for more details. 
+
+If you witness or are involved in a high-level hazard 
+spill situation: 
+
+1. Leave the area, closing doors behind you . 
+
+2. Prevent others from entering the area. 
+
+3. If anybody is exposed initiate first aid at the work 
+
+site: 
+
+• Eyes: Flush with eyewash for 15 minutes 
+
+• Skin: Use closest emergency shower for 15 
+
+minutes. Remove contaminated clothing while 
+under the shower. 
+
+Baltimore: Report (Monday-Thursday, 8:30 AM to 
+4:30 PM ; Friday, 7:30 AM to 3:30 PM ) to Baltimore 
+OMS: BRC, Room 18210 or call (443) 740-2309 as 
+soon as possible . If Baltimore OMS is unavailable 
+during normal working hours, contact Bethesda 
+OMS at (301) 496-4411. 
+
+For all campuses, if OMS is closed , call the Clinical 
+Center Operator at (301) 496-1211 and ask them to 
+page an OMS physician immediately. For alternative 
+satellite locations report to your onsite OMS Clinic 
+(if applicable) or follow your satellite emergency 
+response plan. 
+
+7. Do not re-enter the room until the Fire Department 
+or appropriate authorities determine that the area 
+is safe. 
+
+□ NOTE Breakthrough time for nitrile gloves may be 
+quite short for some chemicals; use thick nitrile 
+gloves or multi-hazard gloves such as Silver Shield® 
+when working with those chemicals. Always check 
+the manufacturer's guide for compatibility. 
+
+■I Hazard Control/Hazardous Spill Procedure 
+
+□ NOTE ALWAYS report to OMS in the event of 
+chemical exposure, no matter how minor. 
+
+Low-Level Hazard Spills: 
+
+Low-level hazard spill -
+
+• Spill that can be cleaned up by the lab based on 
+the risk assessment (Generally spills <500ml 
+outside containment or <1L inside containment 
+of a known non PHS or water reactive/pyrophoric 
+material). 
+
+DO NOT attempt to clean up a spill unless you have 
+the training and resources to clean the spill with no 
+risk to yourself or others. Attempt ONLY if it is a low­
+level hazard spill after the risk assessment and you 
+are comfortable addressing and you have appropriate 
+supplies on hand , including: 
+
+• Personal protective equipment: safety goggles, 
+
+chemical resistant gloves, lab coats, face shields. 
+
+• Spill kit with absorbent material compatible with 
+
+the chemical spilled to contain the spill. 
+
+• Disposal container (or bag) to collect the absorbent 
+material and any item contaminated with the 
+chemical including the disposable PPE used for 
+cleanup. Dispose as chemical waste. 
+
+RML: Contact the Security Control Center (SCC). 
+Dial O from an office phone or (406) 363-9400 
+from a cell phone. 
+
+Baltimore: Refer to the Baltimore Chemical Spill SOP. 
+
+Other satellite locations: Follow satellite-specific 
+guidance, if applicable. 
+
+For more information consult the Spill in Laboratory 
+and the NIH Chemical Hygiene Plan (CHP). 
+
+ Chemical Storage (continued) 
+
+• Do not store hazardous chemicals under a sink. 
+
+• Inspect each container's cap or closure 
+
+• Store chemicals away from heat and direct 
+
+sunlight. 
+
+• Rotate chemical inventory. Dispose of 
+chemicals by their expiration date. 
+
+• Inspect chemical containers regularly for 
+
+deterioration and integrity. 
+
+• Store chemicals under appropriate conditions. 
+
+Refer to the SOS for guidance. 
+
+Consideration For Ordering: 
+
+• Purchase less hazardous alternatives 
+
+whenever possible. 
+
+• Keep a chemical inventory to avoid duplicate 
+purchases. Maintain a chemical inventory in 
+the lab. DS recommends using LabArchives 
+for chemical inventory. Refer to How to use 
+Lab Archives for Chemical Inventory for details. 
+
+• Purchase chemicals in reasonable quantities 
+that will be used within six months of purchase. 
+
+□ NOTE If an old or expired container of a peroxide 
+-forming or chemical reactive is found, do not 
+move it. On Bethesda main campus contact 
+the Division of Environmental Protection (DEP) 
+at (301) 496-4710 for assistance in disposing 
+of the container. 
+
+RML: Contact the Industrial Hygienist (IH) at 
+(406) 802-6398. 
+
+!RF-Frederick: Contact DEP at (240) 236-9575. 
+
+Baltimore: Contact DEP at (301) 346-6287 or 
+pittj@mail.nih.gov. 
+
+Chemical Transport 
+
+Moving chemicals within your laboratory: 
+
+• Assess chemicals prior to moving to ensure 
+that they are in good condition , properly 
+sealed and labels are well attached . Refer to 
+Section VI of Chemical Hygiene Plan (CHP). 
+
+seals for the formation of crystals. 
+
+• Hazardous chemicals being transported out­
+side the laboratory or between stockrooms 
+and laboratories must be in break-resistant 
+secondary containers, placed in a suitable 
+outside container or bucket, or in carts 
+specifically designed for safe transportation . 
+
+• Personal protective equipment (PPE) should 
+not be worn when transporting chemicals 
+between floors, or outside a building. 
+
+• Use freight elevators for the transport of 
+
+hazardous materials. If you must use a pas­
+senger elevator, never ride with passengers. 
+
+• Place chemicals in sturdy secondary 
+
+containers 
+
+riBm Do not tighten, open or move contain­
+ers that have crystals forming on the caps 
+and seals or inside the bottle in case they are 
+shock sensitive; on Bethesda main campus 
+notify your IC safety specialist and supervisor 
+immediately. Contact chemical waste services 
+immediately for removal at (301) 496-4710. 
+If believed to be an emergent situation (picric 
+acid, diethyl ether, organic peroxides), express 
+this when placing the call. 
+
+RML: Contact the IH at (406) 802-6398. 
+
+!RF-Frederick: Call DEP at (240) 236-9575. 
+
+Baltimore: Call DEP at (301) 346-6287. 
+
+For more detailed information consult the 
+Chemical Hygiene Plan (CHP), Appendix D. 
+
+f 
+
+Inspect bottle caps for crystals. 
+
+Moving chemicals outside of your lab: 
+
+Assess chemicals prior to moving to ensure they 
+are in good condition . Chemical transportation 
+services are available through the DEP. Please 
+contact DEP (301) 496-7990 and your DS 
+Safety Specialist for guidance when you are 
+planning a laboratory move or before you move 
+any chemicals. 
+
+RML: Chemical transportation services are 
+available through the RML HAZMAT Team. If 
+you are planning a laboratory move or before 
+moving chemical stocks, please contact the 
+HAZMAT Team Lead at (406) 363-9219 and the 
+RML Industrial Hygienist (IH) at (406) 375-7467. 
+
+Baltimore: Contact DEP at (301) 346-6287 or 
+pittj@mail.nih.gov and chemical technicians 
+for your IC. 
+
+• NIDA: NIDASafety@mail.nih.gov. 
+• NIA: NIAIRPBaltimoreSafetyOffice@mail.nih.gov 
+
+Proper use of chemical bottle carrier 
+
+Sturdy secondary containers on carts are used t 
+transport chemicals safely 
+
+ Chemical Waste Disposal 
+
+Waste disposal procedures are described in detail in the NIH Waste Disposal Guide and Chemical waste disposal guidance tool. Below are general 
+guidelines: 
+
+DON'T: 
+
+DO: 
+
+Don't mix incompatible chemicals. 
+
+Keep waste containers closed at all times. 
+
+Don't discard chemicals in sinks, medical 
+pathological waste (MPW) boxes, or general 
+trash. 
+
+Don't treat chemical waste in any manner, 
+including use of ethidium bromide filters. 
+
+Don't dispose of volatile chemicals by 
+evaporation. 
+
+Store waste in the laboratory while awaiting 
+pick up. 
+
+Place liquid waste containers in secondary 
+containers (pans). 
+
+Have chemical waste picked up within 60 
+days of accumulation start date. 
+
+Don't put waste containers in hallways or 
+other public locations. 
+
+Dispose of empty chemical bottles as 
+chemical waste or recycling. 
+
+Don't move chemicals with precipitation on 
+or in the bottle. 
+
+□ NOTE Picric acid is a commonly used reagent in 
+biological laboratories which becomes a dangerous 
+explosive if allowed to crystallize. If dry picric acid 
+(or with crystals on the neck or solution) is dis­
+covered, DO NOT MOVE THE BOTTLE. Call DEP for 
+removal. Picric Acid is a Particularly Hazardous 
+Substance (PHS). Consult the CHP, Appendix B, for 
+more detailed information. 
+
+Use only the safety cans provided by the 
+chemical disposal service for disposing of 
+flammables. 
+
+Attach and complete a chemical waste tag 
+to ALL chemical waste not in its original 
+container. 
+
+Consider an annual chemical clean-up day 
+to redistribute useful chemicals and dispose 
+of old or unwanted chemicals. Redistribution 
+is an idea to reduce waste and cut cost. 
+
+• Redistribute your excess useful chemicals 
+
+by using the DEP program. Visit the Surplus 
+Chemical Redistribution Program. 
+
+• Segregate acids and bases, whether dry or 
+liquid, when collecting chemicals for pickup 
+or when cleaning up the laboratory. 
+
+• Flammables should be stored in their own box 
+for chemical waste pick up (separate from 
+acids and bases). Exceptions exist for 
+methanoljacetic acid/water solution and 
+triethylamine (please call DEP for guidance). 
+
+• Leave original labels on bottles whenever 
+
+possible. 
+
+Contact DEP or your IC Safety Specialist 
+if you are unsure how to dispose of a 
+chemical. 
+
+• If the researcher cannot identify a chemical, 
+
+please keep the unknown chemical(s) 
+separated from other chemicals. 
+
+*Certain items may require special handling based on the stability of the material. 
+
+These items may include peroxide formers, explosives, water reactive chemicals, as well 
+
+• Call DEP for pick-up: 
+
+• Affix a Chemical Waste tag to each box, 
+
+identifying contents. 
+
+as shock, air and temperature sensitive items. CALL DEP FOR REMOVAL OF THESE ITEMS. 
+
+' 
+
+/ 
+
+0 
+
+NMcttaaCAI.. WAIITll! TAG 
+
+--
+~---------
+
+, ________.._ 
+_,.____ 
+~~,!; ~ -~-------
+--
+
+-----
+
+----~ - a 
+
+ii ·--------
+---
+
+·-----
+·=:.-=~-==--
+.__,,______ _ 
+·------- -
+
+Chemi cal Waste Tag and examples of correct disposal techniques 
+
+Bethesda main campus: (301) 496-4710 
+
+RML (HAZMAT team): (406) 363 -9219 
+
+!RF-Frederick: (240) 236-9575 
+
+Baltimore: (301) 346-6287 
+
+Please refer to the NIH Waste Disposal Guide 
+for details as shock, air and temperature­
+sensitive items. Call DEP for removal of 
+these specific items or visit https://orf. 
+od.nih.gov/EnvironmentalProtection/Waste 
+Disposa 1/Docu men ts/NI H-Waste-Disposa I­
+Gu ide-2022-508Ready. pdf. 
+
+ Once I have identified all the PHS in 
+my lab, what do I do next? 
+
+1. Determine whether or not the chemical can be 
+replaced with a less hazardous chemical. 
+
+2. If it cannot be replaced, follow the steps below 
+to conduct a hazard assessment and create 
+a PHS specific SOP. When PHS are used for the 
+first time, perform a chemical hazard analysis 
+using the Laboratory Hazard Analysis template 
+in Appendix I of the Chemical Hygiene Plan. 
+Assistance is available from the IC Safety 
+Specialist and the DS Chemical Hygiene 
+Officer (CHO). For detailed information, consult 
+the NIH Chemical Hygiene Plan. 
+
+3. The SOP includes: 
+
+• description of the PHS 
+• a step-by-step review of the work involving 
+
+the PHS 
+
+• the engineering controls and PPE for the PHS 
+• special handling procedures and storage 
+
+requirements 
+
+• spill and accident procedures exposure 
+• waste collection and disposal 
+• designated area and decontamination 
+
+procedures. 
+
+4. Once the hazard analysis, SOP and OMS 
+consultation (if applicable}, have been 
+completed, the laboratory can begin to work 
+with the PHS safely. 
+
+5. The Pl/supervisor can approve the use of 
+the PHS only after employees have been 
+trained according to the safety protocol per 
+the PHS requirement. Document that all 
+employees who work with any PHS have 
+received proper training and a copy of the 
+written safety protocol. 
+
+□ NOTE Commonly used PHS are chloroform, 
+formaldehyde, sodim azide and ethylene oxide. 
+PHS examples that have antidotes or prophylaxis 
+are hydrogen fluoride, MPTP, phenol and hydrogen 
+cyanide. Please refer to the NIH Chemical Hygiene 
+Plan, Appendix Bfor further information. 
+
+o NOTE Medical counseling through the Occupational 
+Medical Service (OMS) is offered for employees 
+working with hazardous chemicals. OMS provides 
+additional services to employees working with 
+potentially hazardous chemicals that monitor 
+individuals for adverse health effects and 
+determines treatment strategies that can help to 
+prevent or significantly reduce adverse health 
+effects if exposed. These include medical surveil­
+lance and post-exposure treatment and follow-up 
+programs. 
+
+Where can I get more information? 
+
+For assistance with PHS or any other lab safety 
+questions, contact the DS at (301) 496-2960. 
+
+RML: Contact the RML IH at (406) 802-2960. 
+
+!RF-Frederick: Contact IRF-DS at (301) 631-7244. 
+
+NIA Labs: Contact NIA Safety at NIAIRP 
+Baltimore Safety0ffice@mail.nih.gov. 
+
+NIDA Labs: Contact NIDA Safety at NIDASafety 
+@mail.nih.gov. 
+
+See also: 
+
+NIH Chemical Hygiene Plan (CHP), https:// 
+ors.od.nih.gov/ sr/ dohs/ Documents/ 
+chemical-hygiene-plan.pdf 
+
+National Research Council, Prudent Practices in the Laboratory: 
+Handling and management of Chemical Hazards, National 
+Academy Press https://nap.nationalacademies.org/catalog/ 
+12654/prudent-practices-in-the-laboratory-handling-and­
+management-of-chemical. 
+
+OSHA standard 29 CFR 1910. 1450. 
+Occupational exposure to hazardous 
+chemicals in laboratories, https://www. 
+osha.gov/ laws-regs/ regulations/ standard 
+number/ 1910/ 1910.1450 
+
+Appendix B of the OSHA laboratory 
+standard (1910.1450) contains a list of 
+references, at https://www.osha .gov/ laws­
+regs/ regulations/ standardnumber/ 1910 
+/ 1910.1450AppB. 
+
+:·.'" 
+
+• OSHA Laboratory Safety Guidance 
+
+booklet, OSHA 3404-11R, 2011, available 
+at https:j/ www.osha .gov/ sites/ defaultj 
+files/ publications/ OSHA3404Iaboratory­
+safety-guidance.pdf 
+
+l!l . 
+
+. 
+
+. 
+
+• 
+
+• 
+
+I
+
+II Special Hazards 
+
+Safe Management of Particularly 
+Hazardous Substances in NIH 
+Laboratories 
+
+• For more information on and how to identify 
+and manage PHS see Appendix B of the NIH 
+CHP and Fact Sheet on Particularly Hazardous 
+Substances-(PHS) DS Fact Sheet on Particularly 
+Hazardous Substances (PHS). Once identified, 
+follow the below steps for safe management. 
+
+• Identify all potential physical and health effects 
+
+• Perform a step-by-step review of the work 
+
+• Identify engineering controls, work practices 
+
+and PPE to be used 
+
+• Establish a clearly marked, designated area 
+
+for the PHS. 
+
+• Identify decontamination procedures (see 
+"Hazard Control " section for more detail) 
+
+• Write a PHS-specific SOP 
+
+• Ensure primary barriers (e.g., chemical fume 
+hoods, downdraft tables, etc.) are functioning 
+properly 
+
+• Ensure availability and use of appropriate PPE 
+
+• Train employees according to the safety protocol 
+
+• Document training 
+
+Pyrophoric and water reactive material 
+
+Pyrophoric and water reactive materials can 
+ignite instantaneously/catch fire without an 
+external ignition source when in contact with 
+air/moisture. Extreme care must be taken 
+while handling these chemicals to avoid fire/ 
+explosion and serious injuries. Refer to 
+Managing Pyrophoric and Water Reactive 
+Chemicals in the Laboratory. 
+
+ Cryogenic Liquids and Solids 
+
+Nitrogen and helium 
+
+Nitrogen and helium are the most commonly 
+used cryogenic liquids. Liquid nitrogen (LN2) is 
+commonly used for storing laboratory samples 
+and/ or components; liquid helium may be 
+used for cooling superconducting magnets. 
+Both are extremely cold (-195.8 °C/-384.4 ° F 
+for nitrogen and -268.9 ° C/ -516 ° F for helium) 
+while in a compressed, liquid state. 
+
+Contact with cryogen may cause serious 
+freezing (frostbite) injury. Wear cryo-protective 
+
+insulated gloves when working with cryogenic 
+liquids. Cryogenic gloves used in research 
+are not designed/rated to protect against 
+immersion into cryogenic liquids or prolonged 
+handling of cryogenically chilled materials. 
+Seek training to safely work with cryogens 
+
+and liquid nitrogen. Consult manufacturer's 
+instructions before using. For more informa­
+tion about cryogen safety, including how to 
+respond to a cryogen-related injury, please 
+see the OS Cryogen Fact Sheet. 
+
+When liquid nitrogen or helium are dispensed 
+they release gases, which can displace oxygen 
+in the air and create potentially hazardous 
+environment. OSHA specifies that a hazardous 
+atmosphere may include one where the oxygen 
+concentration is below 19.5% or above 23.5%. 
+Cryogenic liquids should never be used in spaces 
+with poor or recirculating ventilation, such as 
+cold rooms. 
+
+The following are some of the most common 
+
+locations where cryogenic liquids are found, 
+potentially creating an oxygen deficient 
+atmosphere: 
+
+• Magnetic Resonance Imaging (MRI) rooms 
+
+(or magnet rooms) 
+
+determine if an oxygen monitoring device is 
+needed in your location refer to Oxygen Moni­
+toring Devices or call the DS Oxygen Monitoring 
+Program Mananger for an assessment on the 
+Bethesda main campus at (301) 496-2960. 
+RML: Call the IH at (406) 363-9429. 
+!RF-Frederick: Call the IH at IRF-DS staff for 
+assistance. 
+
+These devices require preventive maintenance 
+and calibration on an annual basis, or as specified 
+by the manufacturer. There is also a DS protocol 
+for using these devices. 
+
+For more information, visit Oxygen Monitoring 
+Devices. 
+
+Oxygen monitoring devices: 
+
+simple asphyxiant. Safety measures for 
+handling and transporting the material include: 
+
+• Wear protective clothing. Use appropriate 
+
+insulated gloves (ex. Cryogloves) and proper 
+clothing (long-sleeves, pants, closed-toe 
+shoes, etc.) to ensure no skin is exposed. 
+
+• If possible, use tongs while wearing gloves 
+instead of your properly gloved hands to pick 
+up dry ice. 
+
+• Handle the dry ice in a well-ventilated room 
+
+and NEVER use dry ice in a cold room. 
+
+• Do not place dry ice in an airtight container; 
+
+the pressure caused by the dry ice 
+sublimating may cause the container to 
+explode or rupture. 
+
+• are typically installed in locations where 
+
+• Do not dump dry ice down the drain as it 
+
+compressed gases or cryogenic liquids are 
+stored and/ or dispensed in a manner that 
+would create the potential for displacement 
+of oxygen 
+
+• may be required by the NIH Design 
+
+Requirements Manual for Biomedical 
+Laboratories and Animal Research Facilities 
+
+• alarm occupants of dangerously low oxygen 
+
+levels 
+
+• must be serviced and maintained by the 
+
+NIH Institute or Center, including calibration 
+recommended by the manufacturer. 
+
+If the device alarms, evacuate the space and 
+call 911 (off campus call 9-911) to have the 
+Fire Department verify oxygen levels. 
+
+RML: Call the SEC at (406) 363-9400. 
+
+!RF-Frederick: Call any IRF-DS staff for 
+assistance. 
+
+may damage the sink or plumbing; allow it 
+to sublimate at room temperature, ideally in 
+a chemical fume hood (CFH) or local exhaust 
+device or if unavailable, in a large well-venti­
+lated space. 
+
+■~R 
+C>U 
+600 
+UltraShield" 
+
+• Nuclear Magnetic Resonance (NMR) 
+
+Baltimore: Call Facilities 
+
+Spectroscopy rooms 
+
+• Liquid Nitrogen Tanks (freezer farms) 
+
+• Transmission Electron Microscope (TEM) 
+
+• GSH (BRC): (443) 740-2766 
+
+• Camelot (Triad): (410) 558-9797. 
+
+rooms 
+
+Cryogenic solids 
+
+Nuclear Magnetic Resonance Spectrometer (NMR) 
+
+Oxygen monitoring devices may be needed 
+in these areas to continuously monitor oxygen 
+levels where cryogenic liquids are stored. To 
+
+Dry ice is a cryogenic solid and should be 
+treated in a manner different than regular ice. 
+Dry ice is extremely cold , solid CO2 and is a 
+
+rll Special Hazards 
+
+ Ventilation 
+
+Chemical Fume Hoods and Other Local Exhaust Ventilation 
+
+The best way to prevent or reduce exposure 
+to hazardous airborne chemicals is through 
+the use of ventilation systems. Local exhaust 
+airborne hazards at the source and directs 
+contaminated air away from the work area. 
+
+All LEV must be certified by DS when installed 
+and on an annual basis. 
+
+A chemical fume hood (CFH) is a ventilated 
+enclosure in which gases, vapors and fumes 
+are exhausted . A fan on the roof of the building 
+pulls air and airborne contaminants through 
+the hood and ductwork and exhausts them to 
+the atmosphere. 
+
+✓TIP Elevate equipment and supplies a few 
+inches by using a stand to ensure baffles 
+are not blocked and have proper airflow. 
+
+Routine cleaning/maintenance and annual 
+inspection of your fume hood is very important 
+to ensure performance. The green sticker on the 
+CFH has information on certification status of 
+your CFH . Schedule annual fume hood certifi­
+cations using the following Service Request link. 
+
+The CFH sash provides protective shielding 
+and maximizes hood performance by optimizing 
+the velocity of the air through the front. Keep 
+the sash at or below the appropriate level when 
+working (as indicated by the green sticker) to 
+ensure optimal face velocity. Improper 
+positioning of the sash can result in loss of 
+containment (i.e. if the sash is too high , air 
+velocity will be insufficient, if the sash is too 
+low, air velocity will be too high, resulting in 
+turbulence which can force contaminants out 
+of the hood). All work in a CFH should be con­
+ducted at least 6" inside (past) the sash. Close 
+the sash when the CFH is not in use. 
+
+The baffles direct the air being exhausted , 
+and it is important that the baffles are not 
+closed or blocked since this block the exhaust 
+air flow. 
+
+□ NOTE The airfoil or beveled frame around the 
+hood face provides more even airflow into the 
+hood by avoiding sharp curves that can create 
+turbulence. 
+
+Class II Type B biosafety cabinets provide 
+protection from biohazardous materials as well 
+as small quantities of potentially hazardous 
+vapor-producing chemicals. Air is pulled through 
+the cabinet and a HEPA filter. If considering a 
+Type B biosafety cabinet for your work, contact 
+DS (301-496-2960) to discuss suitability. Do 
+not use a ductless BSC for chemical work. 
+
+✓TIP Use Biological Safety Cabinet (BSC) 
+
+Surface Decontamination Guidance for 
+proper procedures. 
+
+Downdraft Tables. Like chemical fume hoods, 
+downdraft tables exhaust air to the outside 
+atmosphere. Unlike chemical fume hoods, the 
+blower is usually mounted below the work area 
+so that air is pulled down through a perforated 
+surface and then exhausted to the outside. 
+Downdraft tables are used for applications 
+involving heavier-than-air gases and materials 
+such as anesthetic gases and histological 
+chemicals. 
+
+Other Local Exhaust Ventilation, (e.g., slot 
+hoods, snorkels and cage changing tables) 
+must be certified when installed and on an 
+annual basis. 
+
+□ NOTE Ductless CFHs are not permitted to be 
+used in NIH laboratories. Captured organic 
+vapors may desorb from the charcoal filters, 
+resulting in capture failure. 
+
+Parts of Chemical Fume Hood 
+
+Use a tissue to check for proper airflow. 
+
+Downdraft table 
+
+I\ 
+I 
+~ ~ 
+♦ 
+♦ 
+rn 
+
+-
+
+-
+
+I 
+
+---- 1---B 
+■. 
+-
+0 
+
+:s::t 
+
+-----------IF"'c:::====:z==::'.J 
+
+Airfoil 
+
+Screen 
+
+Work Surface 
+
+-
+
+Class II Type B biosafety cabinet 
+
+Front view 
+
+Side view 
+
+ Negative Airflow 
+
+In any laboratory where hazardous materials are handled, the air must flow from outside of the laboratory into the laboratory. It is critical to keep doors 
+closed to maximize ventilation efficiency. The laboratory's negative airflow serves as a secondary barrier to chemical hazards by keeping hazardous 
+airborne particles and noxious odors inside the laboratory. 
+
+Cold Rooms 
+
+Overview 
+
+Cold room chemical hazards 
+
+Recommendations for cold room work 
+
+Cold rooms have closed air-circulation systems 
+and re-circulate any vapors from spills and leaks 
+within the chamber. 
+
+The refrigeration coils in cold rooms are 
+
+aluminum and are subject to damage from 
+
+corrosive atmospheres. 
+
+Electrical equipment used in cold rooms: 
+
+• Should have Ground Fault Circuit 
+
+Interrupter (GFCI) protection, as cold 
+rooms are often damp. 
+
+• Should be plugged directly into an outlet. 
+
+Do not use extension cords. 
+
+• Should be allowed to equilibrate prior to 
+use after removal from a cold room, as 
+condensation can occur. 
+
+Compressed gas, dry ice, liquid nitrogen and 
+
+• Ensure door release mechanisms are working 
+
+liquid helium can pose an asphyxiation hazard 
+
+and doors are free of obstructions. 
+
+by displacing oxygen and should never be used 
+
+or stored in a cold room. 
+
+Flammable chemicals can release sufficient 
+
+vapors to form explosive atmospheres. Cold 
+
+rooms have fans and electrical equipment 
+
+that are potential ignition sources. Flammable 
+
+chemicals should be stored in flammable 
+
+cabinets in laboratories, not in cold rooms. 
+
+Noxious fumes may be released by materials 
+
+• Avoid working alone. If you must work alone, 
+let others know you are working inside and have 
+someone check on you periodically. 
+
+• Take a 10-minute break every 50 minutes while 
+
+working inside the cold room. 
+
+• Ensure that shoes have no-slip soles; water 
+
+and ice are common in cold storage and pose 
+slip and trip hazards. 
+
+• Dress appropriately: layer clothing for warmth 
+and wear insulated gloves to protect your hands. 
+
+that have been heated on a hot plate. Only use 
+
+• NEVER store chemicals, dry ice/cryogens, or 
+
+stir plates (not hot plates) in the cold room 
+
+compressed gases in the cold room. 
+
+• It is critical to keep doors closed to maximize 
+
+ventilation efficiency. 
+
+• Avoid mold contamination by keeping cardboard 
+or other paper products out of the cold room. 
+
+• Include emergency contact information posted 
+
+outside of the cold room. 
+
+Prevent Asphyxiation 
+No fresh air circulates in a 
+cold room! 
+
+NO hazardous chemicals, 
+pressurized gases or dry ice 
+
+Avoid Mold Contamination 
+Preserve your health and 
+scientific data! 
+
+NO food, drink, cardboard or 
+other paper products 
+
+Maintain Equipment 
+Integrity 
+Prevent rust and corrosion! 
+
+AVOID moisture build-up; 
+keep the door closed 
+
+AVOID cluttering and trash 
+accumulation 
+
+CLEAN UP all spilled materials 
+immediately 
+
+NO Hazardous 
+Chemicals 
+
+NO Pressurized Gases 
+
+NO Dry Ice 
+
+NO Food or Drink 
+
+NO Cardboard or 
+Other Paper Goods 
+
+DO Clean up spills & 
+dispose of trash 
+
+1!11 Ventilation 
+
+ • Lab coats should extend to the knees 
+
+and be fully buttoned down with sleeves 
+rolled down. 
+
+• Don't wear lab coats in public places, 
+such as offices, lunchrooms or lounge 
+areas as they can transfer hazardous 
+materials and contaminate these areas. 
+
+• Tyvek® coveralls can be used over street 
+clothes for protection against particles. 
+However, they do not provide sufficient 
+protection against liquids. 
+
+• Cotton lab coats are preferred over 
+
+polyester as they are more breathable 
+and flame resistant. 
+
+Lab Coat Selection 
+
+Lab coat selection and use: 
+
+• Fabric weight and weave affect how easily 
+
+material ignites and burns; select tight 
+
+weave, heavy weight, and tightly fitted 
+
+sleeves/cuffs for work with flammables 
+
+and pyrophorics. 
+
+• Cuffed sleeves prevent exposure to wrists 
+
+and arms. 
+
+• Blended fabrics often have a high rate of 
+burning combined with fabric melting. 
+
+• Reusable lab coats should be laundered 
+
+weekly or when contaminated, whichever 
+is earlier, and replaced when damaged. 
+Follow lab coat supplier's instructions for 
+laundering and replacement. Only use an 
+approved commercial laundry services. Do 
+not take lab coats home to launder. 
+
+• Closeable lapel is preferred for maximum 
+
+coverage from hazards. 
+
+• Use only fire-retardant lab coats with pyro­
+phoric or highly flammable chemicals. 
+
+• Consider sturdy chemical-resistant aprons 
+
+for high-hazard work such corrosives, etc. 
+
+• Most synthetic material resist ignition but 
+
+once ignited will melt and can cause severe 
+localized burns. 
+
+• Consider heavy-duty materials such as Tychem® 
+for chemical contact. Tychem® is a Tyvek® 
+fabric coated with polyethylene and provides 
+protection against minor chemical spills and 
+splashes. 
+
+Lab Coat Type 
+
+Fabric Type 
+
+Protective Use 
+
+Improper Use 
+
+Standard 
+
+100% cotton (preferred 
+for maximum protection) 
+or cotton/polyester blend 
+fabric (burns more readily 
+than 100% cotton) 
+
+Minimal risk chemicals 
+with low risk of exposure to 
+fire. Radioactive materials, 
+cryogenics, and lasers 
+(general benchwork) 
+
+"Moderate to high 
+volume use of chemicals, 
+flammables, pyrophorics 
+when the risk of expo-
+sure to fire is high 
+
+Fluid/Splash and Tear 
+Resistant 
+
+Polyethylene-coated 
+polypropylene 
+(disposable) 
+
+Human and animal blood 
+and body fluids, BSL2/3 
+and BSL3 and bloodborne 
+pathogens 
+
+Use with flammables 
+and pyrophorics 
+
+Chemical resistant 
+apron and sleeves 
+
+Polyethylene-coated high-
+density polyethylene, 
+neoprene, vinyl, pvc, 
+polyester or polyethylene 
+-coated polypropylene 
+
+Nomex 
+(Flame Resistant) 
+
+Flame resistant fabric 
+
+Select chemical exposure 
+
+Use with flammables 
+and pyrophorics 
+
+Non-flammable or 
+pyrophoric liquids and 
+solids 
+
+Flame or pyrophoric 
+liquids and solids. Wear 
+with a chemical apron 
+when working with non-
+polar organic solvents 
+such as acetone, 
+dichloromethane, 
+diethylamaine, ethyl 
+acetate, n-hexane, 
+tetrahydrofuran, toulene 
+
+Spunbonded olefin 
+such as Tyvek® 
+
+Tear resistant fabric/high 
+-density polyethylene 
+fibers 
+
+Biological material or 
+particulate and clean 
+rooms 
+
+Best at protecting 
+against dry substances 
+but minimal protection 
+against liquids/splashes 
+
+Ell Personal Protective Equipment (PPE) 
+
+ Eal Personal Protective Equipment (PPE) 
+
+Glove Selection 
+
+Glove selection and use: 
+
+• All gloves are permeable and the changes 
+
+are not always apparent. 
+
+• Visible degradation of gloves can include 
+
+swelling, softening, hardening and 
+discoloration . Refer to Chemical Resistance 
+Guidance for information. 
+
+Factors to consider when choosing 
+a chemical resistant glove: 
+
+Consider using: 
+
+• Extended cuffs to protect wrists and 
+
+• frequency and duration of chemical 
+
+forearms. 
+
+contact 
+
+• Ultra-thin gloves to provide greater tactile 
+
+• nature of contact (immersion and/or 
+
+sensitivity. 
+
+splash) 
+
+• concentration of chemical 
+
+• Textured finishes to provide better grip. 
+
+• Different gloves are resistant to different 
+
+• chemical compatibility 
+
+chemicals. 
+
+• Multiple gloves can be worn together 
+
+for greater protection (use smallest size 
+that will provide adequate dexterity and 
+comfort). 
+
+• temperature of chemical 
+
+• abrasion-resistance requirements 
+
+• puncture, snag, tear, and cut-resistance 
+
+• Reusable gloves can be used for 
+
+• length of hand and arm to be protected 
+
+intermittent chemical work. They must 
+be properly rinsed and air dried. Always 
+inspect reusable gloves for integrity 
+before use. 
+
+• dexterity requirements 
+
+• grip requirements and conditions 
+
+(e.g., wet or oily) 
+
+• Disposable gloves provide barrier 
+
+• thermal protection - to protect against 
+
+protection for small amounts of chemicals. 
+They should be replaced immediately 
+when contaminated, and never reused. 
+
+heat and cold 
+
+• size 
+
+• Glove liners may be reused, but must be 
+
+• comfort 
+
+replaced when contaminated. 
+
+• Never use latex gloves for chemical work. 
+
+Always consult the manufacturer's glove 
+selection guidelines, and your DS safety 
+specialist for help in selecting the appropriate 
+glove. Appendix F of the NIH CHP can be 
+consulted for determining the correct glove 
+for a task. 
+
+Example of cryogen protective gloves 
+
+Example of chemical resistance gloves 
+
+Always consult the manufacturer's glove selection guidelines, and your DS safety specialist for help in selecting the appropriate glove. Consult the following resource 
+for glove permeability information: https:j/www.aaesi.com/ansell_8th-edition-chemical-resistance-guide/ 
+
+Glove Type 
+
+Uses 
+
+Caution 
+
+Disposable: vinyl, latex, nitrile 
+
+Dry powders, aqueous solutions. Nitrile 
+gloves are resistant for short duration to 
+a wide range of chemicals 
+
+Disposable gloves must be replaced immediately upon 
+chemical contamination. Not suitable for long time use 
+of halogenated solvents. 
+
+Reusable: Neoprene (Black) 
+
+Corrosives, solvents and alcohols; 
+Resists oils and offers less fatigue 
+
+Must be properly rinsed and dried after each use. 
+
+Reusable: Nitrile (Blue or Green) 
+
+Organic solvents (non-halogenated); 
+Puncture and abrasion resistant 
+
+Must be properly rinsed and dried after each use. 
+
+Reusable: Nomex® or Zetex® 
+
+Temperature extremes 
+
+Must be properly rinsed and dried after each use. 
+
+Reusable: Butyl 
+
+Aldehydes, ketones and esters 
+
+Must be properly rinsed and dried after each use. 
+
+Reusable: Viton® 
+
+Chlorinated and aromatic solvents 
+
+Must be properly rinsed and dried after each use. 
+
+ Eye and Face Protection Selection 
+
+Eye and face protection selection and use: 
+
+• 
+
+• 
+
+Eye protection is mandatory where there is potential for injury. 
+
+Eye protection must be appropriate for the type of hazard 
+
+(e.g. chemical splash and vapors, impact hazards, lasers, ultra 
+
+violet light). 
+
+Safety Glasses/Spectacles: Designed to protect against impact 
+
+hazards. Additional PPE, such as face shields, are to be used 
+
+simultaneously when working with chemicals. 
+
+Safety Goggles: Protect the eyes, eye sockets, and facial area 
+
+surrounding the eyes from chemical hazards. They provide a seal 
+
+around the eyes preventing entry under or around goggles. Safety 
+
+goggles must be fitted to worker's face, poorly fitted goggles will 
+
+not offer necessary protection . 
+
+Safety goggles must be used when working with chemical substances 
+
+which may result in eye contact in the form of splash, mists, vapors 
+
+or fumes one of the following should be used: 
+
+- Non-vented goggles protect eyes from vapors, mists, fumes 
+
+or other hazards. Eyes must be completely covered, but the 
+
+material hazard does not require covering all exposed skin. 
+
+- Vented goggles protect from moderated quantities of liquids 
+
+with no vapor or mist danger. Several types exist. For example, 
+
+the common, hardware-store goggle has holes drilled into the 
+
+plastic. This is unsuitable for laboratory work because liquids 
+
+can get through the holes. Vented laboratory goggles have a 
+
+series of buttons embedded into the plastic. These buttons 
+
+house a baffle plate that allows air to pass but present a 
+
+physical barrier to liquids. 
+
+Face Shields: Shield entire face from a range of hazards. Face 
+
+shields are secondary protectors to be used in addition to primary 
+
+protection such as safety glasses or goggles. For additional OSHA 
+
+resources refer to https//www.osha.gov/eye-face-protection or use 
+
+the QR code below. 
+
+WARNING 
+
+EYE 
+PROTECTION 
+REQUIRED 
+
+Ell Personal Protective Equipment (PPE) 
+
+ Chemical Segregation and Storage Table 
+
+Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemica l Additional Concerns and 
+Examples 
+
+Storage Recommendations 
+
+Common Incompatible 
+Chemical Types 
+
+Possible Re action if 
+Mixed/ Health Concerns 
+
+Corrosive Acids-Organic 
+
+• Acetic acid 
+• Butyric acid 
+• Trifluoroacetic acid 
+• Propionic acid 
+• Formic acid 
+• Carbonic acid 
+• Benzoic acid 
+
+• Store in vent ilated corrosives 
+cabinet on protected shelving 
+using secondary containment, 
+keep away from incompatible 
+chemicals 
+
+• Do not store under the sink 
+• Do not store acids on metal 
+
+shelving 
+
+• See compatibility chart for storage 
+
+• Flammable liquids 
+• Flammable solids 
+• Bases 
+• Oxidizers 
+• Inorganic acids 
+• Cyanides 
+• Sulfides 
+
+• Poisons/t oxins 
+
+• Flammable liquids 
+• Flammable solids 
+• Bases 
+
+• Oxidizers 
+• Organic acids 
+• Cyanides 
+
+. • Sulfides 
+
+Poisons/toxins 
+
+Corrosive Acids-Inorganic 
+
+• Nit ric acid 
+• Sulfuric acid 
+• Phosphoric acid 
+
+• Hydrochloric acid 
+• Hydrofluoric acid 
+
+Corrosive Bases-
+Organic/ Caustic 
+
+• Hydroxylamine 
+• Tetramethylethylamine 
+
+. Diamine 
+. • Triethylamine 
+. 
+
+solution 
+Dicyclohexylamine 
+
+Proplylenediamine 
+• Cuprietylenediamine 
+
+• Store concentrated acids in 
+
+secondary containers. Store in a 
+corrosive cabinet labeled "Acid" 
+or on shelving using a secondary 
+containment 
+
+• Do not store under the sink 
+
+• Do not store acids on metal 
+
+shelving 
+
+• Hydrofluoric acid (HF) should only 
+be handled by trained personnel. 
+as it is a PHS and requires extra 
+handling precautions and a chemical 
+specific SOP. Store in a secondary 
+container. HF is a bone decalcifier. 
+
+• Store in separate cabinet 
+
+pref erably with ventilation, 
+corrosive cabinet or storage area 
+with a spill tray. (DO NOT store 
+under sink) 
+
+• Heat 
+• Gas generation 
+• Violent reaction 
+• DO NOT POUR WATER INTO
+
+ACID
+
+• Causes skin burns 
+• Respiratory distress 
+• Use NIOSH approved 
+
+gloves, eye protection, 
+face shield and apron 
+
+• Heat 
+• Gas generation 
+• Violent react ion 
+• DO NOT POUR WATER INTO 
+
+ACID 
+
+• Hydrofluoric acid can result 
+in skin irritation/burns and 
+req uires a chemical specific 
+SOP 
+
+• Respiratory distress 
+• Use NIOSH approved 
+
+gloves, eye protection, 
+face shield and apron 
+
+• Acids 
+• Oxidizers 
+• Flammable liquids/solids 
+• Inorganic bases 
+• Poisons/t oxins 
+• Amines are generally 
+incompatible with 
+isocyanates, halogenated 
+organics, peroxides, acidic 
+phenols, epoxides, 
+anhydrides, and halides 
+
+• Heat 
+• Gas generation 
+• Violent reaction 
+• Skin irritation and burn 
+• Respiratory distress 
+• Foul odor 
+• Use NIOSH approved 
+
+gloves, eye protection, 
+face shield & apron 
+
+Corrosive Bases-
+Inorganic/ Caustics 
+
+• Ammonium hydroxide 
+
+. Potassium hydroxide 
+
+• Sodium hydroxide 
+• Calcium hydroxide 
+• Sodium hydroxide 
+• Sodium hypochlorit e 
+
+. solut ion (bleach) 
+
+Magnesium hydroxide 
+
+• Store in separate cabinet 
+
+preferably with ventilation, 
+corrosive cabinet or storage area 
+with a spill tray, away from 
+potential water sources (DO NOT 
+store under the sink) 
+
+• Store solutions of inorganic 
+
+hydroxides in labeled polyethylene 
+containers 
+
+• Acids 
+• Oxidizers 
+• Flammable liquids 
+• Flammable solids 
+• Organic bases 
+• Poisons/Toxins 
+
+• Heat 
+• Gas generation 
+• Violent reaction 
+• Skin burn and irritation 
+• Respiratory distress 
+• Use NIOSH approved 
+
+gloves, eye protection, 
+face shield and apron 
+
+ Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemical Additional Concerns and 
+Examples 
+
+Storage Recommendations 
+
+Common Incompatible 
+Chemicals Types 
+
+Possible Reaction if 
+Mixed/Health Concerns 
+
+Flammable Solids 
+
+Flammable Liquids 
+
+Toxic 
+
+Explosives 
+
+• Paraformaldehyde 
+• Phosphorus 
+• Magnesium 
+• Sulfur 
+• Potassium sulphide 
+• Naphthalene 
+• Camphor 
+
+• Keep in a dry, cool area away 
+from oxidizers and corrosives 
+• Follow specific safety procedures 
+• Conduct work on small scale if 
+
+possible 
+
+• Keep amounts on-hand to a 
+
+minimum 
+
+• Keep away from other flammables 
+
+• Acids 
+
+• Bases 
+• Oxidizers 
+• Poisons/toxins 
+
+• Acetone 
+
+. Ethanol 
+. Ethyl Acetate 
+. Methanol 
+. Benzene 
+. Xylene 
+. Diethyl Ether 
+. Propanol
+. Gasoline 
+. Halogenated solvents 
+
+• Tetrahydrofuran 
+• Acetonitrile 
+
+• Toluene 
+
+like Chloroform, 
+dichloromethane etc. 
+
+. • Cyanides 
+
+Heavy metal 
+compounds (e.g. 
+Cadmium, Mercury, 
+Osmium, Arsenic, 
+
+Formamide 
+Phenol 
+
+. . Barium) 
+. • Carbon Tetracholride 
+. • Acrylamide 
+
+2-Mercaptoethanol 
+
+Ethidium Bromide 
+• Sodium Azide Solution 
+
+. Flammable storage cabinet or 
+
+refrigerator rated for flammable/ 
+hazardous storage/explosion proof 
+
+. Peroxide-forming chemicals must 
+
+be dated upon delivery and opening 
+(two dates) ie: Di-ethyl Ether, 
+Tetrahydrofuran, Furan, Methyl 
+Butanol, Methyl Acetylene, 
+Heptanol, Dioxanes, Digyleme 
+
+. Please consult NIH CHP Peroxide 
+
+Formers and Fact Sheet on Peroxide 
+Formers 
+
+• Store in a dark, dry, ventilated, 
+cool area in an unbreakable 
+chemically resistant secondary 
+container (polyethylene) 
+
+• Store volatile toxic materials with 
+evaporation rate above 1.0 - (ether 
+= 1.0) in flammable cabinet 
+
+• Store non-volatile liquid poisons in 
+a refrigerator or cabinet; amounts 
+less than 1 liter can be stored in a 
+cabinet above bench level, ONLY if 
+the cabinet has sliding doors (not 
+swinging) 
+
+• Sodium Azide, must be kept 
+
+refrigerated 
+
+• Fire Hazard 
+• Violent Reaction 
+• Generates toxic fumes 
+• Respiratory distress 
+• Keep away from ignition & sparks 
+• Ignites readily, burn f iercely 
+• Use NIOSH approved gloves, 
+eye protection, face shield 
+and apron 
+
+. Fire Hazard 
+. Heat 
+. Violet Reaction 
+. Watch for vapor mist 
+. Causes eye and skin irritation 
+. Keep away from ignition or 
+. Use NIOSH approved gloves, 
+
+sparks
+
+eye protection, face shield 
+and apron 
+
+• Oxidizers 
+• Acids 
+
+. Bases 
+. Reactives 
+. Poisons/toxins 
+
+. Flammable liquids 
+. . Bases 
+
+• Acids 
+
+Reactives 
+• Oxidizers 
+• Corrosives 
+• Please consult Division 
+of Environmental 
+Protection (DEP) for 
+assistance 
+
+Flammable Gas 
+
+. Generation of Toxic and 
+. Combustible 
+. Heat 
+. Fire Hazard 
+. Explosion Hazard 
+. Violent Reaction 
+
+• Chloroform explosively reacts 
+with chemically-reactive metals 
+(e.g., Aluminum or Magnesium 
+powder, Sodium, and Lithium), 
+Strong Oxidizers, Strong Caustics 
+(e.g., Alkalis), and decomposes 
+in sunlight 
+
+• Some toxins are mutagenic 
+
+. 
+. 
+
+and carcinogenic 
+Review your SOS before 
+working with toxic material 
+Use NIOSH approved gloves, 
+eye protection, face shield 
+and apron 
+
+. Explosion hazard 
+. Violent reaction 
+. Heat 
+. Shock sensitive 
+. Regular inspection maybe 
+. Use spark proof tools 
+. Use NIOSH approved gloves, 
+
+required, to check for 
+deposits or crystallization 
+
+eye protection, face shield 
+and apron 
+
+. . . Picric Acid Dry) 
+. • Trinitroaniline 
+
+Ammonium Nitrate 
+Nitro Urea 
+
+Benzoyl Peroxide (Dry) 
+
+• Trinitrobenzene 
+• Trinitrobenzoic Acid 
+
+Urea Nitrate 
+
+. • Trinitrotoluene 
+. • Trinitrophenol 
+
+Diazoisbutylnitrile 
+• Sodium Azide (Solid) 
+
+• Store in a secure location away 
+
+from other chemicals; store in an 
+area away from friction or shock 
+
+• Store Picric acid in cool location 
+
+away from heat and light and keep 
+wet with at least 10% moisture 
+content to prevent it from drying 
+out and becoming potentially explo-
+sive. Inspect the container regu larly 
+to ensure the content is wet. 
+
+• Storage regulations DO NOT apply 
+to binary explosives until mixed. 
+Consult Explosive Expert of DEP 
+
+. Please consult the SOS 
+. Explosives must be 
+
+and the DEP 
+
+stored as "STAND 
+ALONE". It must never 
+be stored with any 
+chemicals of any kind 
+
+. Peroxide formers should 
+
+be tested as detailed in 
+the NIH CHP 
+
+ Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemical Additional Concerns and 
+Examples 
+
+Storage Recommendations 
+
+Common Incompatible Possible Reaction if 
+Chemicals Types 
+
+M ixed/ Health Concerns 
+
+Oxidizers 
+
+• Peroxides 
+• Nitrates 
+• Perchlorates 
+• Permanganates 
+• Sodium Hypochlorite 
+
+• Store in secondary containment 
+separately from combustibles 
+and flammable materials 
+
+• May explosively decompose on 
+shock, f riction, or concussion. 
+
+• Combust ibles 
+• Flammables 
+• Organic materials 
+• Reducing agents 
+
+Peroxide Formers 
+
+(Solid) 
+
+• Potassium 
+
+Dichromate 
+
+• Chlorates 
+• Chlorites 
+• Chromates 
+• Bromates 
+• Superoxides 
+
+. • Acrylonitrile 
+
+lsopropyl Alcohol 
+• Ethers (e.g. Diethyl 
+
+Ether, lsopropyl Ether) 
+
+• Acetals and Ketals, 
+especially Cyclic 
+Ethers and those 
+with primary and/or 
+secondary Alkyl groups 
+or Aldehydes (e.g. 
+Acetaldehyde, 
+Benzaldehyde) 
+
+• Vinyl and Vinylidene 
+
+compounds 
+
+• Dienes 
+• Tetra hydrofu ran 
+
+Dioxane 
+• Butylated 
+
+Hydroxytoluene (BHT) 
+
+• May EXPLODE ON HEATING, to 
+form irritating toxic fumes and 
+gases of Benzoic Acid and Carbon 
+Monoxide. Its a strong oxidant 
+and reacts violently wit h 
+combust ible, organic and 
+inorganic acids, and reducing 
+materials, causing fire and 
+explosion hazard. Attacks some 
+forms of plastics, rubber or 
+coatings 
+
+• Store in airtight bottles, away from 
+light and heat in a dark, cool dry 
+area; avoid using containers with 
+loose-fitting lids and ground glass 
+stoppers; crystallization, discoloration, 
+and formation or deposition of 
+layers are signs a peroxide former 
+may have become shock sensitive; 
+do not use or move such containers: 
+contact DEP 
+
+• All bottles of peroxide-form ing 
+chemicals must have the 
+rece ived date marked on the 
+container; when t he bottle is f irst 
+opened, the container must be 
+marked with the date opened 
+
+• Testing should be conducted 
+
+f ollowing the NIH CHP guidelines 
+and the Peroxide Former Fact 
+sheet. 
+
+• Always consult the Safety 
+Data Sheet (SDS), NIH 
+CHP and the Division of 
+Environmental Protection 
+(DEP) guidelines for safe 
+management 
+
+• Fire Hazard 
+• Gas Generation 
+• Toxic Gas 
+• Explosion Hazard 
+• Forms irritating toxic fumes 
+• Use NIOSH approved gloves, 
+eye protection, face shield 
+& apron 
+
+. Explosion hazard 
+
+• Violent reaction 
+• Shock sensitive 
+• Combustion 
+
+(Exothermic Reaction) 
+
+. If an old or expired 
+
+container of a peroxide-
+forming chemical or reactive 
+is found, do not move it. 
+Contact t he DEP at 
+301-496-4710 for 
+assist ance in disposing 
+of the container. 
+
+• Use proper PPE 
+
+• Use NIOSH approved gloves, 
+eye protection, face shield 
+& apron 
+
+Water Reactive 
+
+• Sodium Metals 
+• Lit hium Metals 
+• Potassium Metals 
+• Sodium Borohydride 
+• Alkali Metal Hydrides 
+• Cesium Metal 
+
+• Store in a dry, cool area away from 
+potent ial spray from fire sprinklers 
+and other water sources (DO NOT 
+store under t he sink) 
+
+• Label t his area for water-reactive 
+
+storage 
+
+• Do not store with any other 
+
+chemicals 
+
+• Aqueous solutions 
+
+• Heat evolution 
+
+• Oxidizers 
+
+. Please consult the Safety 
+
+Data Sheet (SDS) and the 
+Division of Environmental 
+Protection (DEP) 
+
+• Violent reaction when 
+
+mix with water 
+
+• Liberates hydrogen gas 
+
+with water 
+
+• Reacts violently with water 
+
+• Use NIOSH approved gloves, 
+eye protection, face shield 
+and apron 
+
+ Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemical 
+Examples 
+
+Additional Concerns and 
+Storage Recommendations 
+
+Common Incompatible 
+Chemicals Types 
+
+Possible Reaction If 
+Mixed/Health Concerns 
+
+Toxic Compressed 
+Gases 
+
+Carcinogens 
+
+Teratogens 
+
+• Carbon Monoxide 
+• Hydrogen Sulfide 
+• Nitrogen Dioxide 
+• Arsenic 
+• Pentafluoride 
+• Boron Tribromide 
+• Bromine 
+• Chlorine 
+• Fluorine 
+• Chloropicrin 
+• Cyanogen 
+
+• Benzene 
+• Benzadine 
+• Methylene Chloride 
+
+• Carbon Tetrachloride 
+• Cadmium & 
+Compounds 
+
+• Arsenic & 
+
+Compounds 
+
+• Asbestos 
+• Alfatoxins 
+• Beryllium & 
+Compounds 
+
+• Tegretol 
+• Aminopterin 
+• Chlorobiphenyls 
+• Coumarins 
+• Tetracycline 
+• Tapazole 
+• Propylthioracil (PTU) 
+
+• Handle toxic compressed gases in 
+
+• Flammable Compressed 
+
+• Release of Toxic Gas 
+
+a chemical fume hood 
+
+Gases 
+
+• Oxidizing Compressed 
+
+Gases 
+
+• Please consult the 
+
+specific SOS and DEP 
+
+• Must be secured in upright 
+position, bonded or chained 
+against the wall 
+
+• Indoor storage or use of toxic 
+compressed gases shall be 
+provided with a gas cabinet, 
+exhausted enclosure, or gas room 
+
+• Label the storage area with 
+
+appropriate signage 
+
+• Require SOP and 
+
+emergency response plan 
+
+• Refer to the SOS information for 
+additional guidance on the storage 
+and compatibility requirements 
+
+• Contact OS to determine if a 
+
+fail-safe valve and/or continuous 
+monitoring for toxic gas may be 
+required during use 
+
+• Hydrogen Sulfide is a 
+colorless, flammable, 
+extremely hazardous gas 
+with a "rotten egg" smell; 
+
+• Prolonged exposure may 
+cause nausea, tearing of 
+the eyes, headaches or loss 
+of sleep, airway problems 
+(bronchial constriction) in 
+some asthma patients; 
+
+• Possible fatigue, loss of 
+appetite, headache, 
+irritability, poor memory, 
+dizziness and slight 
+conjunctivitis to name a 
+few symptoms and effects 
+
+• Use NIOSH approved gloves, 
+eye protection, face shield, 
+& apron 
+
+• Wear safety shoes 
+
+• Label all containers as "PHS 
+signage" or the equivalent 
+
+• Please consult the specific 
+
+• Please consult the 
+
+SOS and DEP 
+
+specific SOS and DEP 
+
+• Store according to the hazardous 
+nature of the chemical, using 
+appropriate security when 
+necessary 
+
+• Comply with NIH CHP and all 
+
+PHS requirements 
+
+• Label all containers as "PHS 
+
+signage" 
+
+• Store according to the hazardous 
+nature ofthe chemical, using 
+appropriate security when 
+necessary 
+
+• Comply with NIH CHP and all 
+
+PHS requirements 
+
+• Use NIOSH approved gloves, 
+eye protection, face shield, 
+and apron 
+
+• Aniline incompatible 
+with Nitric Acid and 
+Hydrogen Peroxide 
+
+• Please consult the 
+
+specific SOS and DEP 
+
+• Please consult the 
+
+specific SOS and DEP 
+
+• Use NIOSH approved gloves, 
+eye protection, face shield, 
+and apron 
+
+ Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemical Additional Concerns and 
+Examples 
+
+Storage Recommendations 
+
+Common Incompat ible Possible Reaction if 
+Chemicals Types 
+
+M ixed/ Health Concerns 
+
+• Handle flammable compressed 
+gases in a chemical fume hood 
+
+• Oxidizers 
+• Toxic Compressed Gases 
+
+• Fire Hazard 
+
+• Explosion Hazard 
+
+• Use NIOSH approved 
+
+gloves, eye protection, 
+face shield & apron 
+
+• Wear safety shoes 
+
+Flammable Compressed 
+Gases 
+
+• Methane 
+• Acetylene 
+
+• Butane 
+• Propane 
+• Hydrogen 
+
+• Silane 
+• Et hane 
+• Arsine 
+
+• Germane 
+
+Oxidizing Compressed 
+Gases 
+
+• Oxygen 
+• Chlorine 
+• Fluorine 
+• Nit rogen oxides 
+• Gas mixtures 
+
+containing oxygen 
+higher than 
+atmospheric 
+concent rat ions 
+(above 23%) 
+
+• Store in well-ventilated areas; 
+
+mechanically ventilated cabinets. 
+store away from oxidizers, open 
+flames sparks, and other sources 
+of heat ignition; post NO SMOKING 
+signs around storage area(s) or 
+entrance(s) to storage room(s); 
+flammable gases stored outdoors 
+where ambient temperatures 
+exceed 125 degrees F (51.7 de­
+grees C) shall be protected from 
+direct sunlight 
+
+• Must be secured in upright 
+posit ion, bonded or chained 
+against the wall 
+
+• Require SOPs are emergency 
+
+response plan 
+
+• Some gases may require 
+
+continuous monitoring for leaks 
+and accidental releases. Check 
+with DS. 
+
+• Use a spark proof wrench to 
+attach regulators and make 
+other connect ions; install a 
+f lame/flash arrestor at the 
+regulat or outlet f low valve. Refer 
+to Compressed gas guidelines 
+for more information. 
+
+• Store oxidizers separately from 
+f lammable gas containers or 
+combustible materials; 
+minimum separation 
+req uirement f rom these 
+materials is 20 ft. or a 5 ft. 
+noncombust ible barrier wit h 
+a fire resist ance rating of at 
+least 30 minut es 
+
+• Must be secured in upright 
+
+position. bonded or chained 
+against the wall 
+
+• Clean equipment used for 
+
+Oxygen and Nitrous Oxide with 
+Oxygen compatible materials 
+free from oils, greases. and 
+other contaminants 
+
+• Fluorine shall be handled in 
+
+specially passivated containers 
+and associated equipment 
+
+• Require SOPs and 
+
+emergency response plans 
+
+• Fluorine, chlorine etc. require 
+continuous monitoring for 
+leaks and releases. Check 
+with DS 
+
+• Flammable Compressed 
+
+Gases 
+
+• Fire Hazard 
+• Explosion Hazard 
+
+• Toxic Compressed Gases 
+
+• Use NIOSH approved 
+
+gloves, eye 
+protection, face 
+shield & apron 
+
+• Wear safety shoes 
+
+ Chemical Segregation 
+
+Class of Chemicals 
+
+Common Chemical 
+Examples 
+
+Additional Concerns and 
+Storage Recommendations 
+
+Common Incompatible 
+Chemicals Types 
+
+Possible Reaction if 
+Mixed/Health Concerns 
+
+Flammable Aerosol Cans Pressurized Aerosol cans 
+
+Content under pressure: 
+
+• See incompatibles for 
+f lammable liquids 
+
+• Read instructions and usage 
+
+as directed 
+
+containing flammable 
+liquid not limited to: 
+• Acetone 
+• Thinner 
+
+• Toluene 
+• Petroleum Distillates 
+• Butyl Cellusolve 
+• Xylenes 
+• Methanol 
+
+• Store at room temperatur; or 
+
+store above 120°F 
+
+• Do not use near heat. sparks and 
+
+open flames 
+
+• Do not store with acids, 
+
+oxidizers, toxic and reactive 
+chemicals 
+
+• Always use secondary containers 
+when storing with other chemicals 
+
+• Use secondary container 
+
+with flat surfaces for stability 
+
+• Review SOS prior to use 
+
+• Use NIOSH approve gloves or 
+PPE. Rinse skin thoroughly 
+with soap and water 
+
+• Contact emergency services 
+for severe skin impact or 
+eye exposure 
+
+• Use fire extinguisher in case 
+
+of fire or dial 911 
+
+Non-Flammable­
+Corrosive-Toxic 
+Aerosol Cans 
+
+Pressurized Aerosol cans 
+NOT containing f lammable 
+liquid but not limited to 
+Corrosive or Toxic carrier: 
+• Ammonia 
+• Sodium Hydroxide 
+• Sodium Hypochlorite 
+• Amines 
+
+Content under pressure: 
+• Store at room temperature 
+
+• Do not use near heat, sparks and 
+
+open flames 
+
+• Always use secondary containers 
+when storing with other chemicals 
+
+• Use in a chemical fume hood 
+
+• See incompatibles for 
+
+• Read instructions and use 
+
+corrosive acid, base and 
+toxic items above; Use 
+secondary container with 
+f lat surface for stability 
+
+as directed 
+
+• Review SOS prior to use 
+
+• Use NIOSH approve gloves or 
+PPE. Rinse skin thoroughly 
+with soap and water 
+
+• Contact emergency services 
+for severe skin impact or eye 
+exposure 
+
+• Use fire extinguisher in case 
+
+of fire or dial 911 
+
+1. Adapted from Prudent Practices in the Laboratory: Handling and Disposal of Chemicals, National Research Council, 2011. 
+2. Boston University Environmental Health and Safety. (2011) Chemical Segregation and Storage. 
+3. The University ofTexas Health Science Center at Texas. (2022). Chemical Segregation & Incompatibilities Guidelines. Chemical Hygiene Plan.

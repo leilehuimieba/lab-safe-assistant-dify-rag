@@ -1,0 +1,95 @@
+Fume Hoods | Environmental Health & Safety (EHS)
+Campus Operations and Planning
+Organizational Chart
+Emergency Information
+More Environment / Waste pages
+Asbestos & Lead Safety
+Petroleum Storage Tank Program
+Spill Prevention Control and Countermeasure Program
+Design / Construction
+More Design / Construction pages
+Project Closeout / Commissioning
+Unmanned Aerial Vehicles
+Research / Labs / Clinical
+More Research / Labs / Clinical pages
+Lab Evaluations and UT HERD
+Personal Protective Equipment
+Planning Safe Research
+Shipping Research Materials
+Lab Moves / Lab Closeout
+Environmental Programs Training
+HazCom Training, Site-Specific
+Lab Training Requirements
+Laser Safety Training
+Occupational Safety Training
+Radiation Safety Training
+Training Courses and Descriptions
+More Working Safely pages
+Indoor Air Quality (IAQ)
+Occupational Health Services
+Living and Working Safely
+Laboratory fume hoods are exhausted enclosures with a sash(es) that move vertically, horizontally, or a combination of both, to close and open one or more sides of the enclosure. These devices are meant to be used to protect from exposure to hazardous fumes, vapors, gases, or dusts when handling chemicals.
+If the fume hood is working but you are not sure it is operating correctly, or if you have questions regarding the fume hood operation or safety, call EHS at (512) 471-3511.
+All University fume hood testing is performed in accordance with our established SOPs, which are updated to remain compliant with state, federal and international safety guidelines. Chemical fume hood testing is performed to comply with regulations and standards set forth by OSHA, AIHA/ANSI, SEFA, and ASHRAE. Below are the names of the standards available on their websites:
+ANSI/ASHRAE Standard 110 Methods of Testing Performance of Laboratory Fume Hoods
+ANSI/ ASSP Z9.5 Laboratory Ventilation
+ACGIH Industrial Ventilation publications
+SEFA Selection & Management of Exposure Control Devices in Laboratories
+EPA Performance Requirements for Laboratory Fume Hoods
+Fume Hood Annual Certifications and Schedule
+All fume hoods must be re-certified annually by EHS.
+If your fume hood has not been certified within the last year, or if you have any questions regarding fume hoods, call EHS at (512) 471-3511.
+If you suspect your fume hood is not functioning properly or is in alarm, call the Facilities Service Center at (512) 471-2020 or contact EHS.
+Fume hoods are tested according to the following schedule:
+Test Schedule by Month
+PHR, ARC-ARCN, PMA, BEL, HLB, WCP, SEA, RLP, GEA, HRC, ASE, SSB, MTC, BFL, UTA, FNT
+Standard Bench-Top Hoods
+These hoods are the most common hoods across UT Austin campuses. Bench-top hoods with a bypass grille (used with a CAV system) or without (used on a VAV system) are used for a wide variety of chemical procedures. Most appropriate use with small to moderate quantities of low to highly toxic materials. All other hoods are deviations from this hood. More information available through UT Learn courses. Allowed manufacturers are Labconco and Kewanee Scientific.
+Perchloric Acid Hoods
+Perchloric acid will give off vapors that can condense and form explosive perchlorates. These hoods and exhaust systems are constructed of materials that are acid resistant, nonreactive, seamless, and impervious to perchloric acid. They also incorporate a water wash-down system to help prevent build-up of potentially explosive perchlorate salts. These hoods require authorization by EHS.
+This fume hood should be used for Beta and Gamma radiation, with an interior of type 304 stainless steel and seamless welding for easy decontainmation and cleaning. No horizontal sashes should be on these types of fume hoods.
+Types that require special permission:
+These fume hoods are limited across UT Austin campuses. These hoods function to reduce the consumption of conditioned lab air. It introduces exterior non-tempered air at the face of the fume hood opening which may be uncomfortable to users. In addition, it is difficult to keep the air supply and exhaust of these hoods balanced.
+These portable, non-ducted (not connected to an exhaust system) fume hoods rely on a filter to capture the hazardous chemicals rather than removing the chemicals to the outside of the building through a ventilation system. Instead, the air is recirculated back to the room atmosphere. The ductless hood’s scope of use is limited to the capacity and capability of the filtration system. The objective of the filtration system is to reduce the levels of solids, gases, or vapors to that below the acceptable occupational exposure limit at the exhaust.
+Work Practice Controls
+Preparing the Fume Hood for Work
+Make sure no alarms are on and the fume hood features are working properly*.
+Make sure to wear the proper personal protective equipment (PPE) that is specific to the work being performed in the fume hood. Minimum PPE includes a long sleeve lab coat, safety glasses, gloves, closed toed shoes and pants.
+Prior to beginning work, check and make sure EHS has tested and passed the fume hood within the past year. This information can be located on the safety green sticker at the top corner of the fume hood.
+Set sash height indicated by the sticker and arrow; when possible, set the sash at the lowest position possible.
+*WARNING If the alarm sounds or the monitor lights indicate low flow:
+Close the sash completely.
+Contact Facilities Services at (512) 471-2020
+Working in the Fume Hood
+Monitor the fume hood when performing ongoing or reactive experiments.
+experimental materials and equipment at least six inches back from the sash opening, preferably in the middle of the hood.
+large objects two to three inches above the work surface to allow air to flow underneath and towards the sides. This dramatically reduces the turbulence within the hood and increases its efficiency.
+Keep rear baffle openings clear.
+Keep papers, paper towels, Chem-wipes, work surface absorbent pads, cardboard out of the hood as much as possible to reduce clutter and anything from being suck up into exhaust stack. These combustible materials add to the fire risk and can be drawn into the hood’s ventilation system.
+Do not place objects directly in front of a fume hood (such as refrigerators or lab coats hanging on the manual controls) as this can disrupt the airflow and draw contaminants out of the hood.
+Do not use a fume hood as a storage cabinet for chemicals. Excessive storage of chemicals and other items will disrupt the designed airflow in the hood. Put away chemicals when not in use. If you need to delegate a fume hood for hazardous waste, work cannot also be performed in the fume hood.
+When the fume hood is not in use, pull the sash all the way down. The sash is constructed of safety glass to protect users against fire, splashes, and explosions.
+Keep in mind that modifications made to a fume hood system, e.g., adding a snorkel or cutting a hole in the side of the hood, can render the entire system ineffective. Research personnel can NEVER perform modifications (even minor).
+Minimize the amount of foot traffic immediately in front of a hood. Walking past hoods causes turbulence that can draw contaminants out of the hood and into the room.
+Ensure head and upper body remains outside fume hood opening at all times.
+Lab safety spill procedures still apply in the hood. If you have been trained to respond, use a spill control kit to control material spilled. If you have not been trained, close the sash and notify your supervisor.
+After using the Fume Hood
+After completion of working in the fume hood for the day, carefully remove unused chemicals in proper storage locations.
+Turn off equipment as allows.
+Fully close the fume hood sash
+Properly label all chemical and chemical waste containers
+Any modifications to the fume hood must be approved by EHS before a lab proceeds with modification not after.
+Cleaning the Fume Hood
+Periodically, clean out your fume hood by putting away used chemicals and equipment. If the fume hood is being decommissioned, then wipe the areas down with a soap solution and rinse.
+NOTE: Personnel should wear appropriate PPE when cleaning the fume hood to protect themselves from chemicals.
+If the fume hood is not functioning, contact Facilities Services at (512) 471-2020.
+Laboratory fume hood alarms or monitors should never be turned off. If the alarm sounds or the monitor lights indicate low flow, work should be stopped, equipment turned off, and the sash closed. Lab personnel should leave the area if highly toxic or volatile chemicals are being used. Report all problematic alarms to Facilities Services at (512) 471-2020, if you are unsure or concerned for your safety, please call EHS.
+Facilities Services perform annual preventive maintenance on all fume hoods.
+Personal Protective Equipment (PPE)
+Appropriate personal protective equipment (PPE) must be worn at all times in the lab.
+Proper eye protection
+Additional PPE may be needed.
+Refrigerators and Freezers
+Address: 1200 E Martin Luther King Jr Blvd, Suite 1.200, Austin, Texas 78712Phone: 512-471-3511Find an EHS Email Contact
+The University of Texas at Austin
+Digital Accessibility Policy

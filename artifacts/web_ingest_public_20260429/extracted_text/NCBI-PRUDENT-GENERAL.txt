@@ -1,0 +1,331 @@
+An official website of the United States government
+
+The .gov means it's official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+
+The site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+Account
+
+Dashboard
+
+Publications
+
+Account settings
+
+Log out
+
+## Bookshelf
+
+Browse Titles
+
+Advanced
+
+Help
+
+Disclaimer
+
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+## Prudent Practices in the Laboratory
+
+Updated Version
+
+National Research Council (US) Committee on Prudent Practices in the Laboratory .
+
+Copyright and Permissions
+
+## Excerpt
+
+This edition of Prudent Practices in the Laboratory builds on the work provided in previous editions. Among other changes, it has two new chapters, one on Emergency Planning and one on Laboratory Security, described above, and the discussion of EHS (environment, health, and safety) management systems has been extensively revised. Chapters 2, 3, and 10 cover administrative and organizational concerns that affect the laboratory environment; Chapters 4–8 discuss practical concerns when working in a laboratory; Chapter 9 discusses laboratory facilities; and Chapter 11 provides an overview of federal regulations that affect laboratory activities. Acknowledging the stronger regulatory environment that exists today, this edition provides more references to relevant codes, standards, and regulations than the prior versions. This is not intended to imply that safety has become a matter of regulation rather than of good practice; it is a reflection of laboratory practice today and is intended to provide a resource for personnel who must remain in compliance with these regulations or face legal consequences.
+
+## Contents
+
+Expand All
+
+Collapse All
+
+The National Academies
+
+Committee on Prudent Practices in the Laboratory: an Update
+
+Board on Chemical Sciences and Technology
+
+Preface
+
+Acknowledgments
+
+Acknowledgment of Reviewers
+
+1. The Culture of Laboratory Safety 1.A INTRODUCTION 1.B THE CULTURE OF LABORATORY SAFETY 1.C RESPONSIBILITY AND ACCOUNTABILITY FOR LABORATORY SAFETY 1.D SPECIAL SAFETY CONSIDERATIONS IN ACADEMIC LABORATORIES 1.E THE SAFETY CULTURE IN INDUSTRIAL AND GOVERNMENTAL LABORATORIES 1.F OTHER FACTORS THAT INFLUENCE LABORATORY SAFETY PROGRAMS 1.G LABORATORY SECURITY 1.H STRUCTURE OF THE BOOK 1.I SUMMARY
+
+1.A INTRODUCTION
+
+1.B THE CULTURE OF LABORATORY SAFETY
+
+1.C RESPONSIBILITY AND ACCOUNTABILITY FOR LABORATORY SAFETY
+
+1.D SPECIAL SAFETY CONSIDERATIONS IN ACADEMIC LABORATORIES
+
+1.E THE SAFETY CULTURE IN INDUSTRIAL AND GOVERNMENTAL LABORATORIES
+
+1.F OTHER FACTORS THAT INFLUENCE LABORATORY SAFETY PROGRAMS
+
+1.G LABORATORY SECURITY
+
+1.H STRUCTURE OF THE BOOK
+
+1.I SUMMARY
+
+2. Environmental Health and Safety Management System 2.A INTRODUCTION 2.B CHEMICAL HYGIENE PLAN 2.C SAFETY RULES AND POLICIES 2.D CHEMICAL MANAGEMENT PROGRAM 2.E LABORATORY INSPECTION PROGRAM 2.F EMERGENCY PROCEDURES 2.G EMPLOYEE SAFETY TRAINING PROGRAM
+
+2.A INTRODUCTION
+
+2.B CHEMICAL HYGIENE PLAN
+
+2.C SAFETY RULES AND POLICIES
+
+2.D CHEMICAL MANAGEMENT PROGRAM
+
+2.E LABORATORY INSPECTION PROGRAM
+
+2.F EMERGENCY PROCEDURES
+
+2.G EMPLOYEE SAFETY TRAINING PROGRAM
+
+3. Emergency Planning 3.A INTRODUCTION 3.B PREPLANNING 3.C LEADERSHIP AND PRIORITIES 3.D COMMUNICATION DURING AN EMERGENCY 3.E EVACUATIONS 3.F SHELTER IN PLACE 3.G LOSS OF POWER 3.H INSTITUTIONAL OR BUILDING CLOSURE 3.I EMERGENCY AFFECTING THE COMMUNITY 3.J FIRE OR LOSS OF LABORATORY 3.K DRILLS AND EXERCISES 3.L OUTSIDE RESPONDERS AND RESOURCES
+
+3.A INTRODUCTION
+
+3.B PREPLANNING
+
+3.C LEADERSHIP AND PRIORITIES
+
+3.D COMMUNICATION DURING AN EMERGENCY
+
+3.E EVACUATIONS
+
+3.F SHELTER IN PLACE
+
+3.G LOSS OF POWER
+
+3.H INSTITUTIONAL OR BUILDING CLOSURE
+
+3.I EMERGENCY AFFECTING THE COMMUNITY
+
+3.J FIRE OR LOSS OF LABORATORY
+
+3.K DRILLS AND EXERCISES
+
+3.L OUTSIDE RESPONDERS AND RESOURCES
+
+4. Evaluating Hazards and Assessing Risks in the Laboratory 4.A INTRODUCTION 4.B SOURCES OF INFORMATION 4.C TOXIC EFFECTS OF LABORATORY CHEMICALS 4.D FLAMMABLE, REACTIVE, AND EXPLOSIVE HAZARDS 4.E PHYSICAL HAZARDS 4.F NANOMATERIALS 4.G BIOHAZARDS 4.H HAZARDS FROM RADIOACTIVITY
+
+4.A INTRODUCTION
+
+4.B SOURCES OF INFORMATION
+
+4.C TOXIC EFFECTS OF LABORATORY CHEMICALS
+
+4.D FLAMMABLE, REACTIVE, AND EXPLOSIVE HAZARDS
+
+4.E PHYSICAL HAZARDS
+
+4.F NANOMATERIALS
+
+4.G BIOHAZARDS
+
+4.H HAZARDS FROM RADIOACTIVITY
+
+5. Management of Chemicals 5.A INTRODUCTION 5.B GREEN CHEMISTRY FOR EVERY LABORATORY 5.C ACQUISITION OF CHEMICALS 5.D INVENTORY AND TRACKING OF CHEMICALS 5.E STORAGE OF CHEMICALS IN STOCKROOMS AND LABORATORIES 5.F TRANSFER, TRANSPORT, AND SHIPMENT OF CHEMICALS
+
+5.A INTRODUCTION
+
+5.B GREEN CHEMISTRY FOR EVERY LABORATORY
+
+5.C ACQUISITION OF CHEMICALS
+
+5.D INVENTORY AND TRACKING OF CHEMICALS
+
+5.E STORAGE OF CHEMICALS IN STOCKROOMS AND LABORATORIES
+
+5.F TRANSFER, TRANSPORT, AND SHIPMENT OF CHEMICALS
+
+6. Working with Chemicals 6.A INTRODUCTION 6.B PRUDENT PLANNING 6.C GENERAL PROCEDURES FOR WORKING WITH HAZARDOUS CHEMICALS 6.D WORKING WITH SUBSTANCES OF HIGH TOXICITY 6.E WORKING WITH BIOHAZARDOUS AND RADIOACTIVE MATERIALS 6.F WORKING WITH FLAMMABLE CHEMICALS 6.G WORKING WITH HIGHLY REACTIVE OR EXPLOSIVE CHEMICALS 6.H WORKING WITH COMPRESSED GASES 6.I WORKING WITH MICROWAVE OVENS 6.J WORKING WITH NANOPARTICLES
+
+6.A INTRODUCTION
+
+6.B PRUDENT PLANNING
+
+6.C GENERAL PROCEDURES FOR WORKING WITH HAZARDOUS CHEMICALS
+
+6.D WORKING WITH SUBSTANCES OF HIGH TOXICITY
+
+6.E WORKING WITH BIOHAZARDOUS AND RADIOACTIVE MATERIALS
+
+6.F WORKING WITH FLAMMABLE CHEMICALS
+
+6.G WORKING WITH HIGHLY REACTIVE OR EXPLOSIVE CHEMICALS
+
+6.H WORKING WITH COMPRESSED GASES
+
+6.I WORKING WITH MICROWAVE OVENS
+
+6.J WORKING WITH NANOPARTICLES
+
+7. Working with Laboratory Equipment 7.A INTRODUCTION 7.B WORKING WITH WATER-COOLED EQUIPMENT 7.C WORKING WITH ELECTRICALLY POWERED LABORATORY EQUIPMENT 7.D WORKING WITH COMPRESSED GASES 7.E WORKING WITH HIGH OR LOW PRESSURES AND TEMPERATURES 7.F USING PERSONAL PROTECTIVE, SAFETY, AND EMERGENCY EQUIPMENT 7.G EMERGENCY PROCEDURES
+
+7.A INTRODUCTION
+
+7.B WORKING WITH WATER-COOLED EQUIPMENT
+
+7.C WORKING WITH ELECTRICALLY POWERED LABORATORY EQUIPMENT
+
+7.D WORKING WITH COMPRESSED GASES
+
+7.E WORKING WITH HIGH OR LOW PRESSURES AND TEMPERATURES
+
+7.F USING PERSONAL PROTECTIVE, SAFETY, AND EMERGENCY EQUIPMENT
+
+7.G EMERGENCY PROCEDURES
+
+8. Management of Waste 8.A INTRODUCTION 8.B CHEMICAL HAZARDOUS WASTE 8.C MULTIHAZARDOUS WASTE 8.D PROCEDURES FOR THE LABORATORY-SCALE TREATMENT OF SURPLUS AND WASTE CHEMICALS
+
+8.A INTRODUCTION
+
+8.B CHEMICAL HAZARDOUS WASTE
+
+8.C MULTIHAZARDOUS WASTE
+
+8.D PROCEDURES FOR THE LABORATORY-SCALE TREATMENT OF SURPLUS AND WASTE CHEMICALS
+
+9. Laboratory Facilities 9.A INTRODUCTION 9.B GENERAL LABORATORY DESIGN CONSIDERATIONS 9.C LABORATORY VENTILATION 9.D ROOM PRESSURE CONTROL SYSTEMS 9.E SPECIAL SYSTEMS 9.F MAINTENANCE OF VENTILATION SYSTEMS 9.G VENTILATION SYSTEM MANAGEMENT PROGRAM 9.H SAFETY AND SUSTAINABILITY 9.I LABORATORY DECOMMISSIONING
+
+9.A INTRODUCTION
+
+9.B GENERAL LABORATORY DESIGN CONSIDERATIONS
+
+9.C LABORATORY VENTILATION
+
+9.D ROOM PRESSURE CONTROL SYSTEMS
+
+9.E SPECIAL SYSTEMS
+
+9.F MAINTENANCE OF VENTILATION SYSTEMS
+
+9.G VENTILATION SYSTEM MANAGEMENT PROGRAM
+
+9.H SAFETY AND SUSTAINABILITY
+
+9.I LABORATORY DECOMMISSIONING
+
+10. Laboratory Security 10.A INTRODUCTION 10.B SECURITY BASICS 10.C SYSTEMS INTEGRATION 10.D DUAL-USE HAZARD OF LABORATORY MATERIALS 10.E LABORATORY SECURITY REQUIREMENTS 10.F SECURITY VULNERABILITY ASSESSMENT 10.G DUAL-USE SECURITY 10.H SECURITY PLANS
+
+10.A INTRODUCTION
+
+10.B SECURITY BASICS
+
+10.C SYSTEMS INTEGRATION
+
+10.D DUAL-USE HAZARD OF LABORATORY MATERIALS
+
+10.E LABORATORY SECURITY REQUIREMENTS
+
+10.F SECURITY VULNERABILITY ASSESSMENT
+
+10.G DUAL-USE SECURITY
+
+10.H SECURITY PLANS
+
+11. Safety Laws and Standards Pertinent to Laboratory 11.A INTRODUCTION 11.B REGULATION OF LABORATORY DESIGN AND CONSTRUCTION 11.C REGULATION OF CHEMICALS USED IN LABORATORIES 11.D REGULATION OF BIOHAZARDS AND RADIOACTIVE MATERIALS USED IN LABORATORIES 11.E ENVIRONMENTAL REGULATIONS PERTAINING TO LABORATORIES 11.F SHIPPING, EXPORT, AND IMPORT OF LABORATORY MATERIALS 11.G LABORATORY ACCIDENTS, SPILLS, RELEASES, AND INCIDENTS
+
+11.A INTRODUCTION
+
+11.B REGULATION OF LABORATORY DESIGN AND CONSTRUCTION
+
+11.C REGULATION OF CHEMICALS USED IN LABORATORIES
+
+11.D REGULATION OF BIOHAZARDS AND RADIOACTIVE MATERIALS USED IN LABORATORIES
+
+11.E ENVIRONMENTAL REGULATIONS PERTAINING TO LABORATORIES
+
+11.F SHIPPING, EXPORT, AND IMPORT OF LABORATORY MATERIALS
+
+11.G LABORATORY ACCIDENTS, SPILLS, RELEASES, AND INCIDENTS
+
+Bibliography
+
+Appendixes Appendix A OSHA Laboratory Standard Appendix B Statement of Task Appendix C Committee Member Biographies
+
+Appendix A OSHA Laboratory Standard
+
+Appendix B Statement of Task
+
+Appendix C Committee Member Biographies
+
+Supplemental Materials on CD
+
+Expand All
+
+Collapse All
+
+This study was supported by the U.S. Department of Energy under grant number DE-FG02-08ER15932; the National Institutes of Health under contract number N01-OD-4-2139, TO #200; and the National Science Foundation under grant number CHE-0740356. Additional support was received from Air Products and Chemicals, Inc.; the American Chemical Society; E. I. du Pont de Nemours and Company; Eastman Chemical Company; the Howard Hughes Medical Institute; and PPG Industries.
+
+Any opinions, findings, conclusions, or recommendations expressed in this publication are those of the authors and do not necessarily reflect the views of the organizations or agencies that provided support for the project.
+
+NOTICE: The project that is the subject of this report was approved by the Governing Board of the National Research Council, whose members are drawn from the councils of the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. The members of the committee responsible for the report were chosen for their special competences and with regard for appropriate balance.
+
+## Views
+
+PubReader
+
+Print View
+
+Cite this Page National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011. doi: 10.17226/12654
+
+PDF version of this title (9.0M)
+
+## Other titles in this collection
+
+The National Academies Collection: Reports funded by National Institutes of Health
+
+## Related information
+
+NLM Catalog Related NLM Catalog Entries
+
+## Similar articles in PubMed
+
+Review Culture of Care: Organizational Responsibilities. [Management of Animal Care and ...] Review Culture of Care: Organizational Responsibilities. Brown MJ, Symonowicz C, Medina LV, Bratcher NA, Buckmaster CA, Klein H, Anderson LC. Management of Animal Care and Use Programs in Research, Education, and Testing. 2018
+
+Recognizing Alcohol and Drug Impairment in the Workplace in Florida. [StatPearls. 2026] Recognizing Alcohol and Drug Impairment in the Workplace in Florida. Kopitnik NL, Siela D. StatPearls. 2026 Jan
+
+Review Evidence Brief: The Effectiveness Of Mandatory Computer-Based Trainings On Government Ethics, Workplace Harassment, Or Privacy And Information Security-Related Topics [ 2014] Review Evidence Brief: The Effectiveness Of Mandatory Computer-Based Trainings On Government Ethics, Workplace Harassment, Or Privacy And Information Security-Related Topics Peterson K, McCleery E. 2014 May
+
+Prescription of Controlled Substances: Benefits and Risks. [StatPearls. 2026] Prescription of Controlled Substances: Benefits and Risks. Preuss CV, Kalava A, King KC. StatPearls. 2026 Jan
+
+Review Compliance and Regulatory Programs. [Management of Animal Care and ...] Review Compliance and Regulatory Programs. King WW, Paramastri YA, GuillÁ©n J. Management of Animal Care and Use Programs in Research, Education, and Testing. 2018
+
+## Recent Activity
+
+Prudent Practices in the Laboratory Prudent Practices in the Laboratory
+
+Your browsing activity is empty.
+
+Activity recording is turned off.
+
+Turn recording back on
+
+Connect with NLM
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894
+
+Web Policies FOIA HHS Vulnerability Disclosure
+
+Help Accessibility Careers
+
+NLM
+
+NIH
+
+HHS
+
+USA.gov

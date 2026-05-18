@@ -1,0 +1,1206 @@
+National Institutes of Health 
+Laser Safety Program
+2026 
+
+Authored by the Laser Safety Officer (LSO) and Deputy LSO with additional input, 
+review, and the concurrence of the Laser Safety Advisory Committee (LSAC). 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CONTENTS 
+
+INTRODUCTION………………………………………………………………… 2 
+
+I. 
+
+PURPOSE………………………………………………………………… 2 
+
+II. 
+
+SCOPE……………………………………………………………………. 2 
+
+III. RESPONSIBILITIES …………………………………………………….. 2 
+
+IV. DEFINITIONS………………….…………………………..…………….. 3 
+
+V. 
+
+PROGRAM……………………..…………………………..…………….. 6 
+
+VI. REFERENCES………………….…………………………..…………….. 10 
+
+VII. APPENDICES………………….…………………………..…………….. 11 
+
+ACRONYMS 
+
+Division of Safety 
+Deputy Laser Safety Officer 
+
+DS 
+DLSO 
+IHCSB Industrial Hygiene and Campus Safety Branch 
+LCA 
+LSAC 
+LSO 
+NIH 
+OMS 
+ORS 
+PI 
+SOP 
+
+Laser Controlled Area 
+Laser Safety Advisory Committee 
+Laser Safety Officer 
+National Institutes of Health 
+Occupational Medical Service 
+Office of Research Services 
+Principal Investigator 
+Standard Operating Procedure 
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ INTRODUCTION 
+
+Over time, the applications for lasers in biomedical research and in clinical treatments have 
+grown exponentially. This spectrum is on display at NIH, with lasers in use from optical 
+imaging, where super-resolution microscopy can pinpoint single molecules, to laser therapies of 
+the eye, where laser treatments may help reduce the probability of vision loss in some patients. 
+As the number of novel laser techniques grows, so does the number of personnel who work 
+directly with or around lasers; the majority of NIH institutes use lasers. Full realization of the 
+benefits of lasers necessitates their safe use by everyone. 
+
+In Animal Research settings, lasers are prevalent in a variety of applications, from optical 
+imaging to animal surgery. It is important to note that laboratory animal workers are not 
+excluded from adopting Laser Safety in their workspace. Whether animal researchers are using a 
+confocal microscope for imaging or performing laser surgery, the safe use of lasers must be 
+applied. All animal study proposals involving laser use will be reviewed by the Laser Safety 
+Officer (LSO). 
+
+I. 
+
+PURPOSE 
+
+The Laser Safety Program (LSP) has been developed to provide guidance and oversight for the 
+safe use of lasers at NIH. The program aligns with the American National Standards Institute 
+(ANSI) Z136.1-2014 “Safe Use of Lasers”. 
+
+II. 
+
+SCOPE 
+
+The LSP applies to all NIH employees, contractors, and students working directly with or 
+around Class 3B and Class 4 lasers and laser systems at official NIH facilities, hereinafter 
+referred to as lasers. 
+
+III. RESPONSIBILITIES 
+
+Laser Safety Advisory Committee (LSAC): 
+
+a) Develop and manage the LSP. 
+b) Verify safety practices and control methods by personnel using lasers. 
+c) Investigate all incidents and accidents involving the use of lasers in NIH facilities; and 
+d) Maintain an accurate inventory of lasers. 
+The current LSAC member list can be found here: 
+https://ors.od.nih.gov/sr/dohs/safety/laboratory/Pages/laser_safety.aspx 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Laser Safety Officer (LSO): 
+
+ Assist with laser hazard evaluation and verify laser equipment classification. 
+
+a)
+b) Provide and/or facilitate laser safety training. 
+c) Determine required safety practices and control measures critical for the implementation of a 
+laser laboratory as specified by ANSI Z136.1 – 2014 American National Standard for Safe Use 
+of Lasers and compliance with applicable laws and regulations. 
+d) Consult on the purchase of necessary laser safety materials (signs, labels, safety eyewear, 
+etc.). 
+e) Monitor and enforce program requirements. 
+f) Conduct periodic reviews of the LSP. 
+g) Develop and conduct laser safety surveys/inspections; and 
+h) Provide technical guidance to the safety specialist on site-specific laser standard operating 
+procedures (SOPs) and Animal Study Proposal (ASP) that involve the use of lasers. 
+
+Deputy Laser Safety Officer (DLSO): 
+
+a) Assist the LSO with the performance of his or her duties; and 
+b) As deputy, will carry out the duties of the LSO when authorized. 
+
+Laser Safety Site Contact (LSSC): 
+
+a) Supervising laser usage in a specific area (e.g., eye clinic). 
+b) Acting as a liaison between the clinical laser users and the LSO. 
+c) Troubleshooting equipment problems. 
+d) Acting as a resource to staff members and laser users 
+g) Assessing the needs for continuing education and training. 
+
+Supervisors/Principal Investigators (PIs): 
+
+ https://go.usa.gov/xReGv 
+
+(accessible to users connected to the 
+
+a) Register new lasers online at
+NIH network). 
+b) Identify all laser hazards and implement all appropriate hazard controls. Correct any 
+unsafe or non-compliant conditions in the laboratory. 
+c) Identify all personnel who may operate, maintain, or work in close proximity to lasers and 
+ensure training is completed at intervals specified by the LSP and maintain records of 
+completion dates. 
+d) Monitor all authorized personnel for compliance with the LSP. 
+e) Ensure maintenance is conducted at proper intervals to keep lasers in safe working order. 
+f) Maintain a copy of this written program in the workplace. 
+g) Complete a Standard Operating Procedure (SOP) for each laser and location (lasers which 
+share substantially similar procedures and/or locations can be combined into one SOP). SOPs 
+shall be kept in locations so that personnel have access before entry into a Laser Controlled Area 
+(LCA); and 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h) Report any major changes in laser operations to LSO (i.e: changes in laser set up/layout and 
+laser location). 
+i) Ensure assigned staff utilizing lasers and equipment with lasers review manufacturer operating 
+manual, technical specifications and guidelines of each laser equipment. 
+
+Laser Users: 
+
+a) Know all hazards and associated procedures for the safe use of lasers in the work area. 
+b) Complete required training(s) as specified by a supervisor/PI, LSO, or the LSAC. 
+c) Comply with the LSP and use good safety practices. 
+d) Use all personal protective equipment as specified in prescribed training or required by a 
+supervisor/PI, LSO, or the LSAC; and 
+e) Immediately notify a supervisor/PI, LSO, or the LSAC of any hazards encountered. 
+
+IV. DEFINITIONS 
+
+Accessible emission limit (AEL): The maximum accessible emission level permitted within a 
+particular laser hazard class. 
+
+Authorized personnel: Any individual approved to work with lasers by completion of required 
+training(s). 
+
+Aversion response: An involuntary movement of either the head and/or eye to avoid exposure 
+to a visible laser beam. 
+
+Blink reflex: The involuntary closing and opening of the eye(s) because of external 
+stimulation. 
+
+Collecting optics: Lenses or optical instruments that use magnification to increase the power of 
+a laser beam. 
+
+Continuous wave (CW): A laser beam with an output greater than 0.25 seconds. 
+
+Deputy Laser Safety Officer (DLSO): One who assists the LSO in the performance of his/her 
+duties to monitor and enforce the control of laser hazards and effect the knowledgeable 
+evaluation and control of laser hazards. The LSO can delegate authority to the DLSO. 
+
+Diffuse reflection: The reflection of a laser beam in many directions by a surface. 
+
+Divergence: The splitting of a laser beam so that the beam diameter increases with distance travel. 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Embedded laser: A laser of a specific class that is reduced to a lower class due to the mechanisms 
+and devices (engineering controls) that remove the potential for contact. 
+
+Enclosed laser: A laser that is contained within a protective housing itself or of the laser or laser 
+system in which it is incorporated. 
+
+Fail-safe interlock: An engineering control where the failure of a single mechanical or 
+electrical component of the interlock will cause the system to go into, or remain in, a safe 
+mode. 
+
+Infrared: In this standard, the region of the electromagnetic spectrum between the long- wavelength 
+extreme of the visible spectrum (about 0.7 m) and the shortest microwaves (about 1 mm). 
+
+Intra-beam viewing: The viewing condition whereby the eye is exposed to all or part of a 
+laser beam. 
+
+Laser Controlled Area (LCA): A laser-use area where the occupancy and activity of those 
+within is controlled and supervised. Walls, barriers, or other means may define this area. Within 
+this area, potentially hazardous beam exposure is possible. 
+
+Laser Safety Advisory Committee (LSAC): A group of individual members of the NIH 
+community who have an inherent interest in laser safety due to their professional role, such as 
+using lasers in research, laboratory management, and/or safety responsibility. The group shall be 
+composed of members from all NIH ICs operating lasers and will work together with the LSO 
+and DLSO to shape and execute the LSP. 
+
+Laser Safety Officer (LSO): One who has the authority and responsibility to monitor and 
+enforce the control of laser hazards and effect the knowledgeable evaluation and control of laser 
+hazards. 
+
+Laser Safety Site Contact (LSSC): The LSSC is also referred to as the Laser Safety Specialist 
+(LSS). A DLSO and/or a LSSC/LSS may be designated and approved by the LSO for each area 
+where lasers are being used in multiple sites in a health care organization or facility. The 
+LSSC/LSS oversees the safe laser use in specific areas where a laser is used and for which the 
+LSSC/LSS is responsible. 
+
+Maximum permissible exposure (MPE): The level of laser radiation to which an unprotected 
+person may be exposed without adverse biological changes in the eye or skin. 
+
+Medical Lasers: 
+Per the FDA’s definition, medical lasers are medical devices that use precisely focused light 
+sources to treat or remove tissues. At NIH, laser application occurs in Ocular treatment, Ocular 
+surgery, tumor ablation, and gum disease treatment. As such, the NIH LSP provides the ANSI 
+Z136.3-2018 guidelines to those clinical settings. Responsible parties for guidelines 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ implementation are the NIH LSO and a Laser Safety Site Contact (LSSC) or Laser Safety 
+Representative (LSR) for each site working with medical lasers. 
+
+Nominal hazard zone (NHZ): The space within which the level of the direct, reflected, or 
+scattered radiation may exceed the applicable MPE. Exposure levels beyond the boundary of 
+the NHZ are below the appropriate MPE. 
+
+Non-beam hazard: A class of hazards that result from factors other than direct human exposure 
+to a laser beam. 
+
+Optically aided viewing: Viewing with a telescopic (binocular) or magnifying optic. 
+
+Protective housing: An enclosure that surrounds the laser or laser system and prevents access 
+to laser radiation above the applicable MPE. The aperture through which the useful beam is 
+emitted is not part of the protective housing. Protective housing limits access to other 
+associated radiant energy emissions and to electrical hazards associated with components and 
+terminals and may enclose associated optics and a workstation. 
+
+Pulsed laser: A laser that delivers its energy in the form of a single pulse or a train of pulses. In 
+this standard, the duration of a pulse is less than 0.25 s. 
+
+Q-switch is a technique by which a laser can be made to produce a pulsed output beam. The 
+technique allows the production of light pulses with extremely high (gigawatt) peak power, 
+much higher than would be produced by the same laser if it were operating in a continuous 
+wave (constant output) mode. 
+
+Q-switched laser: A laser that emits short (~10-250 ns), high-power pulses by means of a Q- 
+switch. 
+
+Safety latch: A device intended to provide a measure of safety that must physically be removed 
+to allow exposure to a hazard. 
+
+Specular reflection: A mirror-like reflection. 
+
+Thermal effect: Temperature elevation caused by exposure to a laser beam. 
+
+Threshold limit (TL): The term is applied to laser protective eyewear filters, protective 
+windows, and barriers. The TL is an expression of the “resistance factor” for beam penetration 
+of a laser protective device. This is generally related to the Threshold Limit (TL) of the 
+protective device, expressed in W·cm-2 or J·cm-2. It is the maximum average irradiance or 
+radiant exposure at a given beam diameter for which a laser protective device provides 
+adequate beam resistance. Thus, laser exposures delivered on the protective device at or below 
+the TL will limit beam penetration to levels at or below the applicable MPE. 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Ultraviolet radiation: In this standard, electromagnetic radiation with wavelengths between 180 and 
+400 nm (shorter than those of visible radiation). 
+
+Wavelength: The distance in the line of advance of a sinusoidal wave from any one point to the 
+next point of corresponding phase (e.g., the distance from one peak to the next). 
+
+V. 
+
+PROGRAM 
+
+Laser Safety Program 
+
+The NIH LSP is administered by the Division of Safety (DS) through the LSO and DLSO, in 
+collaboration with the LSAC. 
+
+The LSP was developed to conform to ANSI Z136.1 – 2014, the American National Standard 
+for Safe Use of Lasers, as well as ANSI Z136.8 – 2012, the American National Standard for Safe 
+Use of Lasers in Research, Development, or Testing. The LSP is supplemented with guidelines 
+from other sources and is structured to ensure compliance with all applicable regulations (see 
+references in section VI). 
+
+The control measures outlined herein shall not serve to restrict or limit in any way the use of 
+laser radiation of any type which may be intentionally administered to an individual for 
+diagnostic, therapeutic, or medical research purposes by or under the direction of qualified 
+professionals engaged in health care. However, those administering and assisting in the 
+administering of the laser radiation, as well as the patient, where applicable, shall be protected 
+by the control measures as outlined herein and, as applicable, by the requirements as specified 
+in ANSI Z136.3 – 2018, the American National Standard for Laser Safety in Health Care. 
+
+The LSP is also issued as NIH Policy Manual chapter 3036 – NIH Laser Safety Program. 
+The manual chapter can be viewed online at https://policymanual.nih.gov/3036. 
+
+Laser Classification 
+
+Class 1 
+
+1. Understood to be a non-hazardous source during usage intended by the manufacturer. 
+2. Not intended to be monitored by this LSP: 
+
+a. No surveillance or audits; and 
+b. No control measures for usage. 
+
+Class 1M 
+
+1. A Class 1 system that may become hazardous if viewed with an optical 
+
+instrument. 
+
+2. Not intended to be monitored by this LSP: 
+
+a. No surveillance or audits; and 
+b. Control measures – ensure no optically aided viewing. 
+
+Class 2 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1. A laser with less than or equal to 1 milliwatt. 
+2. A laser within the visual spectrum (400 nanometers – 700 nanometers). 
+3. Not intended to be monitored by this LSP: 
+
+a. No surveillance or audits; and 
+b. Control measures – understood that the natural aversion response is sufficient 
+
+to protect the eyes from damage. 
+
+Class 2M 
+
+1. A Class 2 system that may become hazardous if viewed with an optical 
+
+instrument. 
+
+2. Not intended to be monitored by this LSP: 
+
+a. No surveillance or audits; and 
+b. Control measures – ensure no optically aided viewing. 
+
+Class 3R 
+
+1. A laser with less than 5 milliwatts. 
+2. May be dangerous from both direct viewing and specular reflections if natural 
+
+aversion responses are not functioning properly. 
+
+3. Not intended to be monitored by this LSP: 
+
+a. No surveillance or audits; and 
+b. Control measures – ensure no optically aided viewing, avoid direct viewing of 
+the beam or its specular reflection, and avoid unattended operation where the 
+beam is directed into a location where it can be directly viewed by the public 
+or personnel uninformed about the hazards. 
+
+Class 3B 
+
+1. A laser with less than or equal to 0.5 watts. 
+2. May be dangerous from both direct viewing and specular reflections. 
+3. Not a fire hazard. 
+4. Intended to be monitored by this LSP: 
+
+a. Minimum of an annual survey for compliance with the LSP; and 
+b. Control measures – See section V: Laser Hazard Control Measures for 
+
+more detailed information regarding specific control measures. 
+
+Class 4 
+
+1. A laser with power that exceeds Class 3B. 
+2. Hazardous to both eyes and skin when the beam makes direct contact or from specular 
+
+reflection; may pose a hazard from diffuse reflection. 
+
+3. May be a fire hazard. 
+4. Intended to be monitored by this LSP: 
+
+a. Minimum of an annual survey for compliance with the LSP; and 
+b. Control measures – See section V: Laser Hazard Control Measures for 
+
+more detailed information regarding specific control measures. 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Laser Acquisition and Transfer 
+
+It is the sole responsibility of the PI to document and report to the LSO the purchase of a Class 
+3B or Class 4 laser or laser system. The PI may choose to delegate this function; however, the 
+ultimate responsibility for the success or failure of the reporting remains with the PI. PIs (or 
+their designee) can register new lasers online at https://go.usa.gov/xReGv (accessible to users 
+connected to the NIH network). 
+
+Laser Hazard Control Measures 
+
+Controls for Class 3B and Class 4 Lasers: 
+
+1. Posting – At a minimum, the entryway(s) of a laser safety area shall be posted for 
+the class of laser, laser power, and laser wavelength(s). Additionally, it may be 
+necessary to post inside the laser safety area to further define the hazard. For 
+example, in shared space, non-laser users might need further warning signage of the 
+hazard. 
+
+2. Authorization – Only individuals who have been trained by a designated official 
+may utilize Class 3B and Class 4 lasers. No other individuals have the means to 
+utilize the lasers. 
+
+3. Beam trajectory and control – The laser may only be utilized after the beam 
+
+manner is well characterized and understood. The beam should be controlled to not 
+be at either standing or sitting heights. Additionally, an appropriate beam stop shall 
+be utilized to terminate the beam. 
+
+4. Non-beam hazards – All non-laser materials that have the potential to come into 
+
+contact with the laser beam shall be analyzed to determine if any hazards are created 
+upon contact over a period of time. When no written information is available to 
+describe conditions created by contact, the responsible party should assume a 
+hazardous product and ensure a proper means to eliminate the hazard. The most 
+common means of controlling non-beam hazards is the use of local exhaust 
+ventilation, essentially a mechanical means of purging an atmosphere through the 
+use of controlled, directional air flow. Additional non-beam hazards are described in 
+the next section. 
+
+5. Personal Protective Equipment (PPE) – All Class 3B and Class 4 laser usage 
+areas shall have a written document providing the required PPE to be used while 
+working with the laser. The most common PPE for use with lasers is protective 
+eyewear. Eyewear must be appropriate to the laser used. All PPE shall be inspected 
+before use for conditions that would negate the effectiveness of the protective 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ device. Laser safety eyewear should be properly stored to avoid damage, such as 
+tearing or delamination of protective films. 
+
+6. Containment – All Class 3B and Class 4 laser(s) and laser system(s) should utilize 
+
+a means of containment that fully encloses the beam path and any potential 
+reflections of the beam from surfaces. Building materials utilized in a laser area(s) 
+should be analyzed for reflective potential, and when possible, altered to decrease 
+reflectance to as low a level as achievable. Windows to spaces outside of the laser 
+area should be removed or covered to block transmission of the laser. Engineering 
+controls, like laser activation entry lights and key switches, should be used at all 
+times to ensure effective containment and control. 
+
+7. Rapid Egress and Emergency Access – All Class 4 laser area(s) shall have a 
+controlled means of rapid egress and admittance for emergency conditions. 
+
+8. Standard Operating Procedures (SOP) – A standard operating procedure 
+
+document shall be established for each laser laboratory and be made available to 
+personnel before entry into an LCA (see Appendix B). Submit SOPs to the LSO for 
+review. 
+
+9. Maintenance and Service of laser equipment- All Class 3B and 4 lasers, 
+regardless of their set-up, should have control measures in place during the 
+maintenance and/or servicing of the equipment. Appropriate signage (e.g., laser 
+warning and notice for repair signs) must be posted at entryway(s) of the laser 
+location. Additionally, laser personnel and workers in the surroundings of the laser 
+should be informed of the maintenance in progress. If personnel must enter the laser 
+location during its service, appropriate laser safety eyewear must be worn. 
+
+Non-Beam Hazards & Control Measures 
+
+A. Electrical Hazards – Many incidents and accidents related to laser(s) and laser 
+system(s) stem not from the laser beam, but from user interaction with electrical 
+components required for the laser to function. Most Class 3B and Class 4 lasers 
+utilize high voltages and large capacitors, which have a high potential for electrical 
+accidents. Only highly trained users should be authorized by the PIs to complete 
+work involving electrical components. Any work involving electrical components 
+shall comply with the NIH Lockout/Tagout procedures and guidelines. 
+
+B. Laser Dyes – Dyes used as lasing media are often classified as toxic, 
+
+carcinogenic, and/or flammable. These chemicals shall be handled appropriately, 
+and safety data sheets (SDSs) for each shall be on file within the laser use area. 
+
+C. Laser Generated Air Contaminants (LGAC) – Contact between a laser beam and a 
+material can cause specific, yet sometimes unknown contaminants to be released into 
+the atmosphere of the laser use area. Periodically, this release of air contaminants 
+may occur without noticeable signs, such as the smoking of the material contacted. 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Proper room ventilation or local exhaust ventilation is critical in any laser use area 
+and should be evaluated before the installation of a Class 3B or Class 4 laser. The 
+use of respiratory protection is not an accepted means of controlling the generated 
+airborne hazard. 
+
+D. UV and Visible-Radiation and Plasma Emissions – Evaluations for the discharge 
+of radiation, both visible and UV, and plasma formation shall be completed before 
+the use of a Class 3B or Class 4 laser. Identification of any of these conditions 
+requires a review of the PPE used for skin protection to ensure adequate safety 
+coverage. Additionally, laser and laser system components shall be periodically 
+surveyed for damage from these conditions. 
+
+Laser Safety Training 
+
+All supervisors and users shall complete the NIH Laser Safety training before using a Class 3B 
+or Class 4 laser or laser system. Completion of an alternate training class shall be submitted to 
+the LSAC for approval before laser usage may occur. Retraining is required biennially, after an 
+incident or accident, and as required by the PI, LSO, DLSO, or LSAC. 
+
+As recommended, personnel working near, with, or supervising the use of Class 3B or Class 4 
+lasers at NIH can choose to complete laser safety training. It is recommended to complete the 
+training before initial use and every two years thereafter, per NIH Policy Manual Chapter 3036 
+- NIH Laser Safety Program. Quiz records will serve as proof of completed training and will be 
+maintained by the NIH Division of Safety (DS). For appropriate signage, please visit the laser 
+safety webpage. If you need assistance in verifying the training status of your team, please share 
+their names with the LSO, and access the training below: 
+
+1. View the NIH Laser Safety Training 
+2. Complete the NIH Laser Safety Training Quiz 
+
+Laser Safety Survey 
+
+A laser safety survey is completed annually for all Class 3B and Class 4 lasers and laser systems. 
+Safety surveys can be completed by the LSO, an appropriately trained Occupational Safety and 
+Health Specialist, or a safety survey team involving personnel from the LSAC and the laser use 
+area. The laser safety survey form is attached as Appendix A. The laser safety self-reporting 
+form, attached as Appendix C, is an alternate survey method that can be used periodically instead 
+of the survey form. Deficiencies found will require a response by the PI or designee concerning 
+modifications to make to resolve the issue. No usage of the laser(s) or laser system(s) should 
+occur before the modifications are made unless the LSAC grants a written waiver to the PI. 
+
+Medical Surveillance and Laser Accidents 
+
+Individuals who believe that they require a medical evaluation concerning their use of laser(s) or 
+laser system(s) shall request their respective supervisor. All requests will be conducted by 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Occupational Medical Services (OMS). At this time, standard annual medical evaluations are not 
+conducted for NIH laser users. 
+
+In the event of any accidents or incidents involving a Class 3B or Class 4 laser or laser system, 
+the user shall immediately notify their supervisor. The user shall undergo an immediate 
+evaluation by OMS located on the sixth floor of building 10, Room 6C306. The phone number 
+for OMS is (301) 496-4411. 
+
+Specific Laser Equipment Guidelines 
+
+Embedded lasers: pieces of equipment that may contain “embedded” lasers are 
+
+• Confocal 
+• TIRF microscopes 
+• Two-photon microscopes 
+• Cytometers 
+• Mass Spectrometers 
+• Laser Cutters 
+
+These systems also have interlocks to prevent accidents due to beam exposure. If interlocks are 
+bypassed, exposure or injury may occur. Additionally, once the enclosure is removed, the risk of 
+injury becomes higher. At that point, it is important to remember to treat these systems as open 
+beam lasers equipment. It is required to restrict access to the laser location during the 
+maintenance and/or servicing of such laser equipment. The NIH LSP maintains records of these 
+systems if they contain a Class 3B or 4 power. However, signage, PPE, and training requirements 
+may vary based on laser safeguards. 
+
+VI. REFERENCES 
+
+ANSI Z136.1-2014, American National Standard for Safe Use of Lasers 
+
+ANSI Z136.3-2011, Safe Use of Lasers in Health Care Facilities 
+
+29 CFR 1910.132, Personal protective equipment 
+
+29 CFR 1910.133(a), Eye and face protection 
+
+STD 01-05-001, (OSHA) Guidelines for Laser Safety and Hazard Assessment 
+
+21 CFR 1040.10, Laser Products 
+
+21 CFR 1040.11, Specific-purpose laser product 
+
+HHS Publication FDA 86-8260, Compliance Guide for Laser Products 
+
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VII. APPENDICES 
+
+Appendix A: Laser Safety Survey Form 
+
+Appendix B: Laser Safety General SOP 
+
+Appendix C: Laser Safety Signages
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ ADMINISTRATIVE INFORMATION 
+
+NIH LASER SAFETY PROGRAM: APPENDIX A 
+
+PI 
+
+IC 
+
+SOP(s) Written? YES NO 
+LASER INFORMATION 
+
+Manufacturer 
+Serial # 
+Medical Laser? YES NO Hazard Class 
+Notes: 
+
+TECHNICAL SPECIFICATIONS 
+
+Lab Manager 
+
+Campus/Bldg/Room 
+
+SOPs Available? 
+
+YES NO 
+
+Model 
+NIH Asset Tag # 
+1 1M 2 2M 3R 3B 4 
+
+Type 
+Power(s) 
+Equipment Grounded? 
+Alignment Done In-House? 
+If Yes, Additional Safety Procedures Established? 
+
+Wavelength(s) (nm) 
+Pulsed 
+YES NO 
+YES NO 
+YES NO 
+
+Energy (J): Length (s): Rate (Hz): 
+
+If Yes, Describe 
+
+Notes: 
+
+ENGINEERING AND ADMINISTRATIVE CONTROLS 
+
+Warning Sign 
+Visible? 
+Key Control? 
+(On/Off Switch) 
+Complete 
+Enclosure? 
+Notes: 
+
+YES NO 
+
+YES NO (Required for Class 
+4) 
+
+YES NO 
+
+PERSONAL PROTECTIVE EYEWEAR 
+
+Warning System 
+Type(s) 
+
+Audible Light Verbal 
+
+Protective Housing? YES NO 
+
+Barriers,Curtains, 
+Beam Stops, Etc.? 
+
+YES NO 
+
+Manufacturer(s) 
+
+OD @ λ 
+
+CERTIFICATION 
+
+Follow-Up 
+Required? 
+
+Signature 
+
+Model(s) 
+
+YES NO 
+
+Surveyor 
+
+Date 
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NIH LASER SAFETY PROGRAM APPENDIX B: GENERAL SOP 
+
+REMINDERS: 
+
+- Lasers shall only be operated by authorized personnel who have completed training; and 
+- Laser users must periodically read and always follow the SOP. 
+
+ADMINISTRATIVE INFORMATION 
+
+PI 
+
+IC 
+
+Phone # 
+
+LASER USE AND PROCEDURES 
+
+Laser Use 
+
+Length of Use 
+
+Medical 
+Research 
+Ongoing 
+Limited 
+
+Type of Research 
+
+Specify Limited Use 
+
+List Step-By-Step Procedures for Laser(s) System(s) Use 
+
+Lab Manager 
+
+Campus/Bldg/Room 
+
+DOHS #s 
+
+TECHNICAL SPECIFICATIONS 
+
+Description 
+
+Individual Laser Commercially Embedded Laser System Custom-Built Laser System 
+
+Beam 
+Characteristics 
+Reason for Incomplete Enclosure 
+
+Fully Enclosed Partially Enclosed Open Beam Located Between Sitting & Standing Height 
+
+Alignment Done In-House? 
+
+YES NO 
+
+If Yes, Additional Safety Procedures Established? 
+
+YES NO 
+
+If Yes, Describe 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ENGINEERING AND ADMINISTRATIVE CONTROLS 
+
+Windows Covered 
+
+YES NO N/A 
+
+Only Anodized, Dull, Non-Reflective or Matte Finished Instruments Used Near Laser Site 
+
+YES NO N/A 
+
+Watches and Reflective Jewelry Removed or Covered Prior to Operating the Laser 
+
+YES NO N/A 
+
+Grounded 
+
+Rapid Egress Paths Established 
+
+Restricted Room Access 
+
+Barriers, Curtains, Beam Stops, Etc. 
+
+Key Control (On/Off Switch) (Required for Class 4) 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+Laser Key Returned to Secure Storage When the Laser Is Not in Use 
+
+YES NO N/A 
+
+Fail-Safe Interlock(s) 
+
+Safety Latch(es) 
+
+Fire Extinguisher Available 
+
+Warning Signs Posted on All Laser Room Entrance Doors 
+
+Emergency Contact Information Included on Door Warning Signs 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+YES NO N/A 
+
+Warning System Type(s) 
+
+Audible Visible (Illuminated) Verbal 
+
+PERSONAL PROTECTIVE EYEWEAR 
+
+Clean and Without Scratches 
+
+Stored in Case(s) When Not in Use 
+
+YES NO N/A 
+
+YES NO N/A 
+
+16 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Optical Density and Wavelength Range Markings Visible 
+
+YES NO N/A 
+
+Optical Density Needs Verified (Online Calculator: https://www.lia.org/evaluator/od.php) 
+
+YES NO N/A 
+
+Number of Pairs 
+
+Location Kept (Room) 
+
+Manufacturer 
+
+Model 
+
+OD @ Wavelength(s) 
+
+CERTIFICATION 
+
+Responsible Person 
+
+Signature 
+
+Date 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX C: LASER SAFETY SIGNAGES 
+
+DANGER 
+
+Class 4 Laser Controlled Area 
+
+Laser Eye Protection Required: 
+
+OD ≥ @ nm 
+
+EMERGENCY CONTACT(S): 
+NIH LASER SAFETY OFFICER: (301) 496-2960 
+
+REQUIRED: This sign is required to mark the entryway(s) of areas containing Class 4 
+lasers with high (multi-kilowatt) output power or pulse energies with exposed beams. 
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ REQUIRED: This sign is required to mark the entryway(s) of areas containing Class 3B or 
+Class 4 lasers (choose the highest-class laser present in the area). 
+
+19 
+
+ 
+ 
+ 
+ 
+ REQUIRED: This sign is required to mark the entryway(s) of areas containing Class 3B or 
+Class 4 lasers (choose the highest-class laser present in the area). 
+
+20 
+
+ 
+ 
+ 
+ 
+ OPTIONAL: This sign is optional to mark the entryway(s) of areas containing Class 3B or 
+Class 4 lasers (choose the highest-class laser present in the area). This sign is specific to fully 
+enclosed laser beam equipment (e.g.: some confocal microscopes) and does not require laser 
+safety eye protection. 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ OPTIONAL: This sign is optional for use to mark the entryway(s) of areas containing 
+Class 2, Class 2M, or Class 3R lasers. 
+
+22 
+
+ 
+ 
+ 
+ 
+ REQUIRED DURING MAINTENANCE: This sign is required to mark the entryway(s) of 
+areas that are temporarily for the repair or servicing of a Class 3B or 4 laser equipment. 
+
+23

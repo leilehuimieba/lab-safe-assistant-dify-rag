@@ -1,0 +1,559 @@
+Lab-specific Chemical SOP Template 
+
+The purpose of this template is to be used to describe specific procedures used when working with 
+chemicals. 
+
+STANDARD OPERATING PROCEDURE (SOPs) 
+
+Title: 
+Document No. 
+
+Document Page(s): 
+
+Author’s Branch: 
+
+Effective Date: 
+
+Revision: 
+
+Revision Date: 
+
+Overseeing Official’s Signature: 
+
+Reviewed/Appr 
+oved by: 
+
+Date: 
+
+Date: 
+
+Procedure 
+Location: 
+
+1 
+
+PURPOSE OF STANDARD OPERATING PROCEDURE 
+
+☐ Specific 
+experiment 
+chemiluminescent esters, general organic synthesis, etc.] 
+
+laboratory procedure 
+
+or 
+
+[Examples: 
+
+synthesis 
+
+of 
+
+☐ Generic laboratory procedure that covers several chemicals [Examples: 
+distillation, chromatography, etc.] 
+
+☐ Generic use of specific chemical or class of chemicals with similar hazards 
+[Examples: organic solvents, mineral acids, etc.] 
+
+2 
+
+DESCRIPTION OF PROCESS/ EXPERIMENT 
+
+[Provide a brief description of your process or experiment, including its purpose. Do not 
+provide a detailed sequential description as this will be covered by section #6 of this template. 
+Indicate the frequency and duration below.] 
+
+Frequency: 
+
+Duration per 
+experiment: 
+3 
+
+☐ one time ☐ daily ☐ weekly ☐ monthly 
+☐ other: 
+
+minutes; or 
+
+hours 
+
+SAFETY LITERATURE REVIEW & HAZARD SUMMARY 
+
+1. Hazardous Substances 
+
+[List hazardous substances and their associated health and safety hazards. Examples of 
+potential hazards include toxicity, reactivity, flammability, corrosivity, pressure, etc. Refer 
+to Safety Data Sheets (SDSs) and other resources, as needed.] 
+
+90 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2. Other Hazards 
+
+[List nonchemical hazards, e.g., biological hazards, electrical hazards, physical hazards 
+(including sharps), mechanical hazards, nonanes radiation, or ionizing radiation.] 
+
+3. References 
+
+[List all references you are using for the safe and effective design of your process or 
+experiment, including safety literature and peer-reviewed journal articles.] 
+
+4 
+
+STORAGE REQUIREMENTS 
+
+[Describe special handling and storage requirements for hazardous chemicals in your 
+laboratory, especially for highly reactive/unstable materials, highly flammable materials, and 
+corrosives.] 
+
+5 
+
+STEP-BY-STEP OPERATING PROCEDURE 
+[For each step’s description, include any step-specific hazard, personal protective 
+equipment, engineering controls, and designated work areas in the left-hand column. 
+
+a. Guidance on Engineering and Ventilation Controls – Review safety literature 
+and peer-reviewed journal articles to determine appropriate engineering and 
+ventilation controls for your process or experiment. Guidance is available from 
+health and safety specialists through DS (301) 496-2960. 
+
+b. Guidance on Personal Protective Equipment - To assist with your PPE 
+
+selection, contact your health and safety specialists through DS (301) 496-2960. 
+Respiratory protection is generally not required for lab research, provided the 
+appropriate engineering controls are employed. For additional guidance on 
+respiratory protection see the NIH respiratory protection program. 
+
+c. Designated work area(s) - Required whenever Particularly Hazardous Substances 
+(PHS) - carcinogens, highly acutely toxic substances, or reproductive toxins are used. 
+Refer to the Chemical Hygiene Plan, Section X: Working with Particularly Hazardous 
+Substances for more information. The intent of a designated work area is to limit and 
+minimize possible sources of exposure to these materials. The entire laboratory, a 
+portion of the laboratory, or a laboratory fume hood or bench may be considered a 
+designated area. 
+
+Describe the possible risks involved with failure to follow a step in the SOP in the right-hand 
+column.] 
+
+Step-by-Step Description of Your Process or 
+Experiment 
+
+Potential Risks if Step is Not Done 
+or Done Incorrectly (if any) 
+
+91 
+
+ 
+ 1. Don personal protective equipment. 
+☐ appropriate street clothing (long pants, closed-
+toed shoes) 
+☐ gloves; indicate type: 
+☐ safety goggles ☐ safety glasses ☐ face shield 
+☐ lab coat ☐ flame-resistant lab coat 
+☐ other: 
+
+2. Check the location/accessibility/certification of 
+the safety equipment that serves your lab: 
+
+Item 
+Laboratory Fume 
+Hood/Glove Box or other 
+Ventilation Control 
+
+Eyewash/Safety Shower 
+
+First Aid Kit 
+
+Chemical Spill Kit 
+
+Fire Extinguisher 
+
+Telephone 
+
+Status 
+Location: 
+
+Check sticker to 
+ensure that hood 
+was certified 
+within last 12 
+months. 
+Location: 
+
+Ensure that it is 
+accessible, 
+not 
+blocked. 
+Check tag that it 
+has been tested 
+within last month. 
+
+Location: 
+
+Location: 
+
+Location: 
+
+Location: 
+
+Location: 
+
+Fire Alarm Manual Pull 
+Station 
+3. [Describe the next step in the procedure.] 
+4. [Describe the next step in the procedure. Insert 
+additional rows in table, as needed.] 
+
+National Institutes of Health | 
+
+92 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5. Dispose of hazardous solvents, solutions, 
+mixtures, reaction residues, etc. as hazardous waste. 
+
+6. Clean up work area and lab equipment. [Describe 
+specific cleanup procedures for work areas and lab 
+equipment that must be performed after completion 
+of your process or experiment. For carcinogens, 
+acutely toxic substances, and reproductive toxins, 
+designated areas must be immediately wiped down 
+following each use.] 
+
+7. Remove PPE and wash hands. 
+
+6 
+
+EMERGENCY PROCEDURES 
+
+1) Fire and/or Explosion Procedure 
+
+a) Have everyone evacuate to a safe area. If possible, close doors behind you as you 
+
+leave. 
+
+b) Call the NIH Division of Fire and Rescue Services (fill out information for your site as 
+
+appropriate below). 
+Bethesda (main campus): 911 on-
+
+campus; 
+9-911 off-campus, 
+301-496-9911 from a cell phone 
+
+Baltimore, MD 
+
+911 (cell phone) 
+
+Frederick, MD 
+
+911 
+
+Hamilton, MT 
+
+911 
+
+Research Triangle Park, NC 
+
+911 (landline) 
+919-541-2800 (cell phone) 
+
+c) Do not reenter the room until the Division of Fire and Rescue Services or appropriate 
+
+authorities determine that there is no immediate detriment to life or health. 
+
+2) High-Level Hazard Spill Procedure 
+
+a) Spills >100 mL of any material or spills of Particularly Hazardous Substances of any 
+volume may generate vapors above exposure limits; therefore, these spills may 
+require the use of respiratory protection. 
+
+b) Cover spill, if possible, to minimize vapors. If the spill is in a chemical fume hood 
+
+or biosafety cabinet, close the sash before leaving. 
+
+Back to the Top 
+
+93 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ c) Evacuate area and restrict access. Close the windows and doors upon exit. Attend to injured or exposed 
+persons using emergency shower or eyewash. Follow procedures for chemical exposure below. 
+d) MANDATORY: As soon as possible, you must report the spill in a safe area by notifying NIH 
+
+Division of Fire and Rescue Services (see above). 
+
+e) Stay near the site (in a safe area) until directed otherwise by first responders. Notify supervisor. 
+f) Be prepared to provide the following information: 
+
+i) Name and phone number of knowledgeable persons that can be contacted. 
+ii) Name of chemical spilled, concentration and amount spilled, liquid or solid type spill. 
+iii) Number of injured, if any (refer to procedures for chemical exposure below). 
+iv) Location of spill 
+
+g) Do not reenter the room until the fire department or appropriate authorities determine that 
+
+there is no immediate detriment to life or health. 
+
+3) Chemical exposure 
+
+a) For any suspected or verified chemical exposures or injuries, Call the NIH Division of Fire and Rescue 
+Services (see above). Upon arrival, first responders will provide medical attention/transportation to 
+any exposed/injured employees and assist with spill clean-up. 
+
+b) Sharps injury (needlestick or subcutaneous exposure): scrub the exposed area thoroughly for 
+
+15 minutes using warm water and soap. 
+
+c) Skin exposure: If possible, scrub the expose area thoroughly for 15 minutes using warm water and 
+soap per SDS guidance, if applicable. If an exposure occurs in an area that cannot be washed using 
+a sink, remove contaminated clothing per SDS guidance if applicable. Use the nearest safety shower 
+for 15 minutes, or as stipulated by the chemical’s SDS. Use a clean lab coat or spare clothing for 
+cover-up. 
+
+d) Eye exposure: Begin using the eyewash immediately. Remove contact lenses as soon as practical, but 
+do not delay irrigation while waiting for contact lens removal. Irrigate the eyes for 15 minutes (or as 
+stipulated by the chemical’s SDS), holding the eyelids open with thumb and index fingers, rolling the 
+eyelids to permit thorough cleaning. 
+
+e) Inhalation exposure: Evacuate the contaminated area. Close the door to the area and post a sign. 
+
+Prevent others from entering. Do not re- enter the space but stay in proximity. 
+
+4) Local Cleanup of Low-Level Hazard Spills 
+Do not attempt to clean up spills requiring respiratory protection. Call the Fire Department for 
+assistance. 
+
+94 
+
+ 
+ In the event of a low-level hazard spill (<100 mL of materials that are not PHS) that can be safely cleaned up 
+by local personnel using readily available equipment (absorbent available in the Small Chemical Spill Kit) and 
+laboratory PPE: 
+
+1. Notify personnel in the area and restrict access. Eliminate all sources of ignition. 
+2. Review the SDS for the spilled material or use your knowledge of the hazards of the material to 
+
+determine the appropriate level of protection. 
+
+3. Personnel must wear a lab coat or smock, safety goggles, chemical appropriate type gloves and shoe 
+
+covers as needed when cleaning up spills. 
+
+4. Liquids: Wipe up spilled liquids with absorbent pads. If using a neutralizing absorbent, cover the spill 
+with the absorbent and allow to set for the prescribed contact time (usually 15 min.), and then scoop up 
+and dispose of properly. 
+
+5. Solids: Gently cover with wetted paper towels or absorbent pads (unless chemical is water sensitive 
+
+or reactive) to avoid raising dust and then wipe up. 
+
+6. Clean the spill area thoroughly with approved cleaning solution followed by clean water. 
+7. If spill is extensive within the containment, clean all interior surfaces after completion of 
+
+the spill cleanup. 
+
+8. Double bag all waste in clear plastic bags (NSN-8105-01-195-8730) and attach a filled out chemical 
+
+waste tag. For waste collection instructions consult the NIH Waste Disposal Guide; for chemical 
+waste pick-up contact (301) 496-4710; for chemical waste assistance call (301) 496-7990. 
+
+9. MANDATORY: You must report the spill to your IC Safety and Health Specialist. 
+
+5) Injuries and Exposures: 
+
+a) Remove the injured/exposed individual from the area unless it is unsafe to do so because of the 
+
+medical condition of the victim or the potential hazard to rescuers. 
+
+b) Administer first aid as appropriate (see 3, above). 
+c) As soon as possible (from a safe location), call the NIH Division of Fire and Rescue. Fill out 
+
+information for your site as appropriate below. Bethesda (main campus): 
+
+911 on-campus; 
+9-911 off-campus, 
+301-496-9911 from a cell phone 
+
+Baltimore, MD 
+
+911 (cell phone) 
+
+95 
+
+ 
+ Frederick, MD 
+
+911 
+
+Hamilton, MT 
+
+911 
+
+Research Triangle Park, NC 
+
+911 (landline) 
+919-541-2800 (cell phone) 
+
+d) Report the injury as soon as possible to your local OMS clinic. Fill out information for your site as 
+
+appropriate below. 
+Bethesda (main campus): Building 10, Room 6C306; (301) 496-4411 
+Baltimore, MD: 251 Bayview Blvd., BRC 01B210, (667) 312-5843 
+Frederick, MD: 8200 Research Plaza, Room 1B116; (301) 631-7233 
+Hamilton, MT: 903 South 4th Street, Room 5202; (406) 375-9755 
+Research Triangle Park, NC: 111 T W Alexander Drive, Building 101, 
+Room E111; (984) 287-4178 
+
+e) Bring copies of the SDSs for all chemicals the victim was exposed to, to the OMS clinic. 
+
+6) Lab-Specific Procedures 
+
+[This section is for any emergency procedures different from standard responses, or for additional emergency 
+information due to the nature of materials or task. Include information on gas leaks, chemical spills, and 
+personal exposure/medical emergency as appropriate.] 
+
+7) Building Maintenance Emergencies 
+
+a) Emergencies should be called into the Maintenance Operations 24 Hour Center at (301) 435-
+
+8000. 
+
+8) Biosafety Lab Level 3 or 4 (BSL-3/BSL-4) facility issues, should be called into the 
+
+Maintenance Operations 24 Hour Center immediately, at 
+(301) 435-8000. 
+(Requester should identify specific Building, Location, Biosafety Level, on- site contact and Facility Issue when 
+speaking to an agent.) 
+
+9) Unusual Odors should be considered a life safety emergency. Enter specifics for your site 
+
+below. 
+Bethesda (main campus): 911 on- campus; 
+
+9-911 off-campus; 
+301-496-9911 from a cell phone 
+
+Baltimore, MD 
+
+911 (cell phone) 
+
+Frederick, MD 
+
+911 
+
+96 
+
+ 
+ 
+ 
+ Hamilton, MT 
+911 
+
+Research Triangle Park, NC 
+
+911 (landline) 
+919-541-2800 (cell phone) 
+
+10) Local Notifications 
+[Identify the area management staff that must be contacted and include their work and after-
+hours numbers. This must include the principal investigator and may include the lab safety 
+manager, facilities manager, etc.] 
+
+7 
+
+WASTE DISPOSAL 
+
+[Describe the quantities of waste you anticipate generating and appropriate waste disposal 
+procedures. Include any special handling or storage requirements for your waste. Please see the 
+NIH Chemical Waste Guidance Procedure for questions and guidance.] 
+
+8 
+
+TRAINING REQUIREMENTS 
+
+General Training (check all that apply): 
+
+☐ Introduction to Lab Safety – On-Line Training 
+☐ NIH Laboratory Safety Training 101 
+☐ Working Safely with HIV and Other Bloodborne Pathogens (for Non- Hospital 
+Personnel) 
+☐ Other: 
+[Depending on the hazardous materials and processes you will be working with in this 
+SOP, additional safety training may be required by NIH] 
+
+Location Where General Records 
+Maintained: 
+Laboratory-specific training (check all that apply): 
+
+☐ Review of SDS for chemicals involved in process/experiment 
+☐ Review of this SOP 
+☐ Hands-on training 
+☐ Other: 
+
+Location Where Specific Records 
+Maintained: 
+9 
+
+PRIOR APPROVALS 
+
+You must seek prior approval from your principal investigator (PI) or lab supervisor if you plan 
+to use Particularly Hazardous Substances (PHS). 
+
+You should also consult your PI or lab supervisor if your experiments involve high-risk 
+chemicals (e.g., chemicals with a high level of acute toxicity, 
+
+97 
+
+ 
+ 
+ 
+ 
+ 
+ carcinogens, reproductive toxins, and highly reactive materials) and operations, as 
+special safety precautions may need to be taken. For additional guidance, see the 
+Chemical Hygiene Plan. 
+
+Your PI or lab supervisor’s prior approval may be documented by his/her signature in the 
+Approval Signature section of this document. 
+
+Prior Approval (check if applicable): 
+☐ Prior approval from the PI or lab supervisor is required for this procedure. 
+
+Back to the Top 
+
+98

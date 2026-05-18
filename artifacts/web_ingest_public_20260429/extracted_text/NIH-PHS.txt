@@ -1,0 +1,228 @@
+DS Fact Sheet on Particularly Hazardous Substances (PHS)
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+What is a Particularly Hazardous Substance? 
+
+The OSHA Laboratory Standard classifies a set of chemicals as Particularly Hazardous Substances (PHS) due to certain 
+health hazards they have. These include select carcinogens, reproductive toxins, and substances that have a high degree 
+of acute toxicity. Refer to the NIH Chemical Hygiene Plan (CHP) for guidance on identifying and safely working with 
+Particularly Hazardous Substances. 
+
+This fact sheet provides guidance on: 
+
+Category 
+
+Definition and Resources 
+
+Select Carcinogen 
+
+• Any substance that meets one of the following criteria:
+
+- Regulated by OSHA as a carcinogen: https://www.cdc.gov/niosh/npg/nengapdxb.html
+
+- Listed under the category “Known to be carcinogens” in the 15th Report on Carcinogens
+
+published by the National Toxicology Program (NTP)
+
+- Agents Classified by the IARC Monographs, Volumes 1–137, IARC Monographs on the
+
+Identification of Carcinogenic Hazards to Humans (who.int) 
+
+➢ American Cancer Society (ACS) has compiled the above-mentioned lists into one on its
+
+website: Known and Probable Human Carcinogens
+
+➢ Safety Data Sheet (SDS) Section 2 for specific hazards
+
+Reproductive Toxin 
+
+• Agents that can have adverse effects on various aspects of reproduction: fetal development
+(teratogens), chromosomal damage (mutagens), fertility, gestation, lactation, and sterility.
+
+• Reproductive toxins can affect both men and women
+
+➢ Safety Data Sheet (SDS) Section 2 for specific hazards
+
+Acute Toxin 
+
+• OSHA doesn’t provide any clear guidance on this category. Chemicals with high acute toxicity
+are those having oral, inhalation, or dermal LD50 and LC50 values below a specified threshold.
+The threshold values:
+- Oral LD50 (rats): < 50 mg/k
+- Dermal LD50 (rabbits): < 200 mg/kg
+- Inhalation LC50 (rats): < 200 ppm in air
+
+➢ Safety Data Sheet (SDS) Section 11 for Toxicological Information (LD50 and LC50 values) and
+
+Section 2 for specific hazards
+
+➢ Registry of Toxic Effects of Chemical Substances (RTECS) is also a good source of information
+
+on acute toxins 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+1 
+
+ DS Fact Sheet on Particularly Hazardous Substances (PHS)
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Requirements for Working with PHS 
+
+1. Develop Standard Operating Procedures (SOP)
+
+• PI is responsible for developing the SOPs using the templates available at
+
+PHS SOP Template Table
+
+2. Establish a “Designated Area” and use only that area for work and storage
+
+• All laboratories working with PHS must establish a “designated area.” This area could
+be an entire laboratory, a defined area within a laboratory, or a device or piece of
+equipment. Mark the area with the DS approved PHS Designated Area sign.
+
+3. Document Training
+
+Employees who either handle or who may be exposed to PHS must complete the following trainings:
+
+Introduction to Lab Safety – Online Training ( Lab Safety training)
+
+•
+• Review of the SOPs and SDSs and the NIH guidelines on the use of PHS: NIH Chemical Hygiene Plan, 
+
+Appendix B
+
+• PI provided training on lab-specific procedures, emergency response, exposure control (engineering, 
+
+administrative and PPE), signs and symptoms of exposure, and decontamination/disposal procedures.
+
+4. Use Exposure Controls
+
+• Engineering controls (e.g., chemical fume hood (CFH), downdraft table, or the equivalent) and 
+
+appropriate PPE (at a minimum, safety glasses with side shield, laboratory coat, and nitrile gloves) are 
+required for work involving PHS. Refer to NIH Chemical Hygiene Plan, Appendix F for guidance on PPE 
+selection. If you need assistance in performing hazard assessment and identifying controls, contact your 
+IC Safety and Health Specialist.
+5. Establish Decontamination Procedures
+
+• Decontamination procedures include wiping down work surfaces at the end of the day and cleaning up 
+drips, residues, and spills. Cleanup materials used (e.g., absorbents and rags) must be disposed of as 
+hazardous waste.
+
+Weighing PHS Powders 
+
+All PHS powders must be handled inside a CFH. Placing a balance directly inside the CFH works for some situations, 
+depending on the required accuracy of the experiment and the material’s properties. If the air flow in the CFH is too high, 
+it can sometimes cause the powder to become airborne and spread the material over all the surfaces. Some balances 
+have enclosures that can mitigate this problem. 
+
+If you can’t weigh the powder inside a CFH, do the following, in this order: 
+
+1.
+2.
+
+Purchase ready-made solutions of the chemicals, if available.
+Purchase pre-weighed quantities, if possible, in containers with a septum attached to inject the diluent without
+opening the container.
+
+3. Weigh on a benchtop balance by following the below steps:
+
+•
+
+Pre-weigh a vial with a lid.
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+2 
+
+ DS Fact Sheet on Particularly Hazardous Substances (PHS)
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+•
+•
+
+Take it to the fume hood and add the powder to the vial.
+Take the closed vial back to the balance and re-weigh. It may take few attempts to get the desired 
+amount.
+
+• Once you have the required amount weighed out make the solution inside the CFH.
+
+Storage 
+
+Waste Collection and Disposal 
+
+Store PHS with secondary
+containment in a designated
+area away from any 
+incompatible chemicals. 
+All containers including the 
+secondary containment must
+have appropriate GHS 
+labels with pictograms and 
+the signal word “Danger.” 
+Attach PHS Designated Area sign to the secondary
+containment and the storage area. Store Flammable PHS 
+inside a flammable storage cabinet in a designated area. 
+
+• Accumulate waste in a sturdy, chemically compatible
+
+container, with a secure closure.
+
+• Contaminated debris (e.g., pipette tips, absorbent
+paper, etc.) should be placed in a clear plastic
+bag (NSN-8105-01-195-8730):
+- Close the plastic bag with a filament tape or bag
+closure tie and place bag in a plain carboard box
+or double bag the dry waste.
+
+- Complete and attach a Chemical waste
+
+tag (NSN # 753000L075985).
+
+• All waste containers must be properly closed or
+sealed. Refer to NIH Waste Disposal Guide for
+additional information.
+
+Emergency Response 
+
+For medical help and Spills – 
+All Spills involving PHS are 
+High-level hazard spills. 
+
+Contact the Fire Department: 
+Bethesda, MD – call 911 on-campus, 9-911 off-campus, (301) 496-9911 (cell phone) 
+Baltimore, MD – 911 (cell phone), 9-911 (landline) 
+Frederick, MD – 911 
+Hamilton, MT – 911 
+Research Triangle Park, NC - 911 (landline), (919) 541-2800 (cell phone) 
+
+For dermal & eye exposure – 
+Wash immediately under 
+eyewash or safety shower, as 
+appropriate, for at least 15 
+minutes. 
+
+Seek medical attention if needed, as described above. 
+The injury should be immediately reported to your local OMS clinic: 
+Bethesda, MD – Building 10, Room 6C306: (301) 496-4411 
+Baltimore, MD – 251 Bayview Blvd., BRC 01B210: (667) 312-5843 
+Frederick, MD – 8200 Research Plaza, Room 1B116: (301) 631-7233 
+Hamilton, MT – 903 South 4th Street, Room 5204: (406) 375-9755 
+Research Triangle Park, NC – 111 T W Alexander Drive, Building 101, Room E111: (984) 287-4178 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+3

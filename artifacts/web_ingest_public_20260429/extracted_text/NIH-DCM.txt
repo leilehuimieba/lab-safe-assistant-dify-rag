@@ -1,0 +1,157 @@
+DS Fact Sheet: 
+Working Safely with Dichloromethane (DCM, Methylene Chloride) 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+What is Dichloromethane (DCM, Methylene Chloride) 
+
+Dichloromethane, also known as methylene chloride or DCM is a highly volatile organic solvent with a sweet odor, and is 
+a Particularly Hazardous Substance (carcinogen, reproductive toxin, or acute toxin) under OSHA Laboratory Standard. 
+
+Health Hazards 
+
+Hazards 
+
+Definition 
+
+Carcinogen: Methylene chloride (dichloromethane, DCM) is a Class 1B 
+carcinogen. 
+Causes skin irritation, serious eye irritation, may cause drowsiness, dizziness, 
+or damage to organs through prolonged or repeated exposure. 
+Acute Toxicity: Neurotoxicity effects (central nervous system) are the most 
+serious adverse effects of acute inhalation and dermal exposures of DCM. High- 
+level exposure of methylene chloride can cause dizziness that can result in 
+sudden loss of consciousness or death. 
+
+Applicable Regulations 
+
+• 2024 Methylene Chloride Regulation under the Toxic Substances Control Act (TSCA)
+
+• OSHA Methylene chloride standard 1910.1052
+
+• OSHA Hazard Communication 1910.1200
+
+• OSHA Occupational exposure to hazardous chemicals in laboratories 1910.1450
+
+DCM regulation under the Toxic Substance Control Act (TSCA) 
+
+The Environmental Protection Agency (EPA) determined that DCM presents an unreasonable risk of injury to 
+human health and issued a final ruling in April 2024 regulating the use under the Toxic Substances Control Act 
+(TSCA) to protect users from health risks such as neurotoxicity effects and cancer. 
+
+Under the new EPA regulation, most of the uses of DCM are banned and the exempted uses like research 
+must establish a workplace chemical protection program (WCPP) to continue its use. The EPA also established a 
+new exposure limit to ensure the safety of the users. The new inhalation exposure limit for DCM (Existing 
+Chemical Exposure Limits (ECEL)) is 2 ppm as an 8-hr Time Weighted Average (TWA) and 16 ppm as a 15-
+min TWA. The WCPP also requires establishing an exposure monitoring program with initial monitoring and 
+continued periodic monitoring. 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+1 
+
+ DS Fact Sheet: 
+Working Safely with Dichloromethane (DCM, Methylene Chloride) 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Standard Operating Procedure (SOP) 
+
+DCM is classified under OSHA as a Particularly Hazardous Substance (PHS) due to the health hazards 
+associated with this chemical. Refer to the NIH Chemical Hygiene Plan (CHP) for guidance on working safely 
+with PHSs. Principal investigators (PIs) are responsible for developing a SOP using the NIH SOP template and 
+complying with all the requirements under NIH CHP. 
+
+Personal Protective Equipment (PPE) 
+
+The minimum PPE requirement for handling hazardous chemicals or items that are contaminated with chemicals 
+are a clean buttoned lab coat, safety goggles, and nitrile gloves along with proper lab attire (covered legs and 
+closed toe shoes). 
+
+Additional PPE may be required depending on the nature of the work. Halogenated solvents are known to 
+penetrate nitrile gloves and DCM readily penetrates nitrile gloves in less than 10 minutes. When working with small 
+quantities of DCM at a minimum, double glove with nitrile or nitrile and neoprene combination gloves such as 
+Ansell 93-260. Immediately remove the gloves if they become contaminated. 
+
+For spill cleanup and work with larger volumes, it is recommended to wear Ansell 2-100 liners or SilverShield 
+gloves under a nitrile or nitrile and neoprene combination glove. 
+
+Working with DCM 
+
+PIs are required to train all users of DCM on the hazards, use, emergency 
+response, and decontamination. Review the SDS, SOP, and this fact sheet before 
+starting to work with DCM. All work with DCM must be done in a certified chemical 
+fume hood. Areas where DCM is handled or stored should be marked with 
+“Designated Area” signage. Any other personnel authorized or required to be in the 
+laboratory during work must be provided with general chemical safety awareness
+training. 
+
+Storage 
+
+Store DCM in a secondary containment, away from incompatible chemicals to help prevent breaks and spills. 
+Attach a warning label to the secondary containment to alert others of the chemical and the need for special
+precautions. 
+
+Monitoring 
+
+Personal monitoring will be conducted by the DS to evaluate employee exposure, including the efficacy of 
+exposure controls and work practices. Additional monitoring is required if personal exposure exceeds the 
+limits described in the EPA Standard. Periodic monitoring will be conducted by DS to ensure personal 
+exposures remain below the EPA established limits. 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+2 
+
+ DS Fact Sheet: 
+Working Safely with Dichloromethane (DCM, Methylene Chloride) 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Emergency Response 
+
+For medical help and spills 
+refer to numbers on the right. 
+
+All spills involving PHS are 
+High-level hazard spills. 
+
+Contact the Fire Department: 
+Bethesda, MD – 911 on-campus, 9-911 off-campus, or 301-496-9911 
+(cell phone) 
+Baltimore, MD – 911 
+Frederick, MD – 911 
+Hamilton, MT – 911 
+Research Triangle Park, NC – 911 (landline), 919-541-2800 (cell phone) 
+
+For dermal & eye exposure, 
+wash immediately under 
+eye-wash or safety shower 
+for at least 15 minutes. 
+
+Seek medical attention if needed as described above. 
+The injury should be immediately reported to your local OMS clinic: 
+Bethesda, MD: Building 10, Room 6C306; (301) 496-4411. 
+Baltimore, MD: BRC 01B210; (667) 312-5843 
+Frederick, MD: 8200 Research Plaza, Room 1B116; (301) 631-7233 
+Hamilton, MT: 903 South 4th Street, Room 5202; (406) 375-9755 
+Research Triangle Park, NC: 111 T W Alexander Drive, Building 101, 
+
+ Room E111; (984) 287-4178. 
+
+Waste Disposal 
+
+Follow the NIH Waste Disposal Guide for disposal of DCM and materials contaminated with DCM. 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+3

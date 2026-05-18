@@ -1,0 +1,57 @@
+Laboratory Standard & Design Guidelines – Stanford Environmental Health & Safety
+For medical, fire or law enforcement assistance, call 911
+For EH&S emergencies, including after hours, call (650) 725-9999
+Report an Incident (SU-17)
+Health & Safety Topics
+Standard Operating Procedures
+1. Fume hoods should be located away from activities or facilities, which produce air currents or turbulence. Locate away from high traffic areas, air supply diffusers, doors, and operable windows.
+NFPA 99, Chapter 5-4.3.2
+NFPA 45, Chapter 6-3.4 and 6-9.1
+Air turbulence affects the capability of hoods to exhaust contaminated air. Eddies are created by people passing by and by other sources of air currents.
+2. Fume hoods should not be located adjacent to a single means of access to an exit. Recommend that hoods be located more than 10 feet from any door or doorway.
+NFPA 45, Chapter 6-9.2
+NFPA 45, Chapter 3-4.1(d)
+A fire hazard or chemical release incident, both of which may start in a fume hood, can block an exit rendering it impassable. A fire or explosion in a fume hood located adjacent to a path of egress could trap someone in the lab.
+3. Fume hood openings should not be located opposite workstations where personnel will spend much of their working day, such as desks or microscope benches.
+NFPA 45, Chapter 6-9.3
+Materials splattered or forced out of a hood could injure a person seated across from the hood.
+4. An emergency eyewash/shower station shall be within 10 seconds of each fume hood.
+CCR, Title 8, Section 5162
+Per 8 CCR 5162, the requirement for an eyewash/shower is triggered when an employee may be exposed to substances, which are “corrosive or severely irritating to the skin or which are toxic by skin absorption” during normal operations or foreseeable emergencies. Fume hoods are assumed to contain such substances; hence, Stanford interprets this regulation to mean that emergency eyewash/shower station shall be within 10 seconds of fume hoods.
+5. An ADA emergency eyewash/shower shall be within 10 seconds of an ADA fume hood (minimally one ADA hood per laboratory floor).
+The CalDAG – California Disabled Accessibility Guidebook
+The location of at least one ADA hood per floor will enable disabled individuals to conduct their research without having to transport chemicals, etc. in elevators.
+Biosafety & Biosecurity
+Emergency Management
+Environmental Protection
+Fire Marshal's Office
+Occupational Health Center
+Occupational Safety & Health
+Training & Communications
+Construction Managers
+External Contractors
+Lab Safety Coordinators
+Parents and Families
+Principal Investigators
+Supervisors/Managers
+University Safety Partners
+Animal Research Occupational Health and Safety Program
+Construction and Maintenance
+Eco/Sustainable Practices
+Emergency Preparedness
+General Workplace Safety
+Institutional Biosafety Committee (IBC)
+Lab Setup and Shutdown
+Occupational Injury and Illness
+Respiratory Illness Policies
+Shop / Makerspace Safety
+Stanford University Fire Marshal’s Office (SUFMO)
+COVID-19 Information
+Chemical Inventory System
+Find an EH&S Specialist
+Recycling and Disposal Guide
+Register for Training
+484 Oak Road, Stanford, CA 94305-8007Phone: 650-723-0448
+© Stanford University, Stanford, California 94305.
+Copyright Complaints
+Download full instructions here ->

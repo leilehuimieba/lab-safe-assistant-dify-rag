@@ -1,0 +1,143 @@
+DS Fact Sheet on Chemical Storage-Flammable and Corrosive Cabinets
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Laboratory Safety and Chemical Storage 
+
+Limited laboratory space presents a challenge for the proper and safe storage of hazardous chemicals. Chemical 
+segregation is critical for preventing unintentional chemical reactions between different hazard classes. Incompatible 
+chemicals (i.e., those chemicals that can produce an undesired reaction if mixed) must be segregated and stored 
+separately to reduce the risk of accidental mixing that can result in dangerous or violent reactions. 
+
+Chemical storage cabinets, such as corrosive and flammable cabinets, play critical roles in chemical segregation and 
+lab safety. These cabinets are designed for the specific storage of different hazard classes and should not be used for 
+multi-purpose or general chemical storage. Details of both cabinet types and their applicability are discussed below. 
+
+How to Use Corrosive and Flammable Cabinets? 
+
+Corrosive Chemical Cabinet 
+
+Flammable Cabinet 
+
+Purpose: 
+
+Purpose: 
+
+• Provide designated storage for corrosive
+
+• Flammable cabinets are designed and built to
+
+chemicals.
+
+• Vented exhaust, usually through a chemical fume
+
+hood to remove harmful vapors.
+
+protect the contents from catching fire in case of a
+fire occurring outside and limiting any fire/explosion
+inside the cabinet from spreading to the lab.
+
+• Cabinets may come with vents; these vents
+should remain plugged to contain hazardous
+vapors within the cabinet.
+
+What to store in a Corrosive Cabinet: 
+
+What to store in a Flammable Cabinet: 
+
+• Corrosive materials
+
+• Flammable Chemicals
+
+- Strong acids and bases must be stored in 
+separate cabinets, space permitting, when 
+utilizing large quantities.
+
+- Small quantities of strong acids and bases can 
+
+be stored inside the same cabinet, placed within 
+secondary containment,
+and on separate shelves.
+
+- Within a designated storage area, separate 
+
+organic acids from inorganic acids and organic 
+bases from inorganic bases using appropriate 
+secondary containment.
+
+- Cabinet doors must remain closed to keep 
+
+vapors exhausting through the vent.
+
+- Any amount of class 1, 2 or 3 flammables over
+500 ml/g and non-working stock must be
+secured in an approved flammable cabinet.
+
+- Do not exceed the listed storage capacity of
+
+the cabinet.
+
+- Keep cabinet doors always closed and secured
+to ensure proper functioning of the cabinet.
+
+- Flammable chemicals 
+
+refrigeration
+must be stored in refrigerators/freezers that are
+explosion proof and appropriately rated for the
+storage of flammable materials.
+
+requiring 
+
+Find additional information on construction 
+requirements, installation, and location at 
+NIH DTR Corrosive Storage Cabinet 
+
+Find additional information on construction 
+requirements, installation, and location at 
+NIH DTR Technical Bulletin Flammable Storage Cabinets 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025 
+
+ DS Fact Sheet on Chemical Storage-Flammable and Corrosive Cabinets
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Additional Considerations for Chemical Segregation 
+
+• For chemicals with multiple hazards/multiple pictograms on the label (e.g., both flammable and corrosive), address 
+the more severe hazard and store accordingly (flammable cabinet with separate secondary containment). OSHA 
+details the GHS Pictograms and associated hazards on the Hazard Communication Standard Pictogram Fact Card.
+
+• Consider having an annual chemical clean-up or inventory assessment to check the accuracy of inventory, condition 
+
+of containers, labels, expiration dates, and confirm that chemicals are properly segregated.
+
+• Containers that are cloudy, have illegible labels, or if there is noticeable buildup around the cap should be reviewed 
+for disposal. Outer containers that are rusted or otherwise show corrosion should be reviewed and if the chemical 
+inside of the container is still usable, the outer container should be discarded. Dispose all older chemical that are no 
+longer in use.
+
+• Secondary containment can be used to separate hazard classes and to contain spills/drips to prevent accidental 
+
+mixing of incompatible chemicals.
+
+Above (left) – chemicals in secondary containment 
+
+Above (right) – spill trays to contain leaks or drips 
+
+• Secondary containment should be made of a non-reactive material, (e.g., Nalgene, polypropylene plastic, or an
+
+equivalent), and be clearly labeled with the hazard class of the contained chemicals.
+
+• Hazardous chemicals must be kept at or below eye level and are not to be stored under the sink.
+
+Additional information on working safely with chemicals can be found in the NIH Chemical Safety Guide. 
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025

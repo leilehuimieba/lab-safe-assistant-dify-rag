@@ -1,0 +1,105 @@
+DOHS Fact Sheet on Cryogen Safety 
+
+National Institutes of Health • Offce of Research Services (ORS) • Division of Occupational Health and Safety (DOHS) • Technical Assistance Branch (TAB) 
+
+Cryogenic liquids (e.g. nitrogen, helium, carbon dioxide, oxygen and argon) and compressed gases may be used in 
+laboratories and other locations for various applications and work procedures. Due to its low temperature property, 
+working with a cryogen can be hazardous. 
+
+Guidelines for safe usage of cryogenic liquids: 
+
+• Always store cryogenic liquids in well-ventilated rooms. Cryogenic
+ liquids need to release pressure as they boil off over time. 
+
+• Only use manufacturer-rated containers which are specifcally 
+designed to hold cryogenic liquid. These containers should be
+
+ insulated, impact resistant, have handles (or secondary tray),
+
+ and a loose-ftting lid. 
+
+• Always wear appropriate PPE when handling
+ cryogenic liquids. This includes: cryogloves, 
+close-toed shoes, long pants, and safety goggles. 
+When dispensing cryogenic liquids into an open
+ container, face shields must be worn in addition
+ to the PPE listed above. 
+
+• Never leave the area unattended during the
+ manual flling of cryogenic liquid in dewars. 
+
+• Cryogenic liquids should be stored in the 
+upright position. Avoid rolling containers 
+(either vertically or horizontally), as this may 
+cause pressure buildup and explosion. For 
+moving cryogenic liquid cylinders, always use 
+a specifcally designed cylinder cart. 
+
+• Signage may be posted near cryogenic storage
+ freezers, compressed gas storage areas, and
+ cryogenic liquid dispensing stations to remind
+ users of appropriate PPE and safe work
+
+ practices. Examples of such signs may be
+ found at this QR code: 
+
+• The rapid release and evaporation of cryogenic liquids can create
+ hazardous environments (i.e., oxygen defciency). The Occupa-
+tional Safety and Health Administration (OSHA) specifes that a
+
+ concentration is below 19.5% or above 23.5%.
+ Please contact the DOHS Oxygen Monitoring 
+Program Manager for information on the require-
+ ments of the NIH Oxygen Monitoring Program. 
+
+Safe Handling of Dry Ice: 
+
+• Dry ice is to be stored in a well˜ventilated location and placed
+ in a Styrofoam container, dry ice storage chest, or a cooler
+
+ designed for the storage of dry ice. 
+
+• Do not store dry ice in a tightly sealed container to avoid 
+
+explosion due to thermal expansion. 
+
+• Do not use or store dry ice in confned areas, walk˜in 
+ refrigerators, environmental chambers or rooms without 
+
+ventilation to avoid asphyxiation. 
+
+If a leak is suspected, or there is a spill or 
+rupture of a container: 
+
+• Evacuate the area but have someone remain nearby at a safe
+ distance to prevent the entry of others. 
+
+• Bethesda: Call the NIH Fire Department (911 from a landline or 
+(301) 496-9911 from a cell phone). All other locations: Call 911. 
+
+• Treat any cold burns immediately by fushing with tepid water
+ or placing in a lukewarm water bath. Do not try to warm the
+ skin by rubbing it.
+
+ a. Seek medical attention. 
+
+i. Bethesda: Call 911 from a landline or (301) 496-9911
+
+ from a cell phone.
+
+ ii. All other locations: Call 911.
+
+ hazardous atmosphere may include one where the oxygen 
+
+ b. When safe to do so, notify supervisor and OMS. 
+
+For questions regarding this reference document, please contact the Division of Occupational Health and Safety Oxygen Monitoring 
+Program Manager at (301) 496-2960 or consult your IC Safety Specialist. 
+
+National Institutes of Health • Offce of Research Services 
+Division of Occupational Health and Safety • Technical Assistance Branch (TAB) 
+Building 13, Room 3K04 
+(301) 496-3457 
+December 2023 
+
+1

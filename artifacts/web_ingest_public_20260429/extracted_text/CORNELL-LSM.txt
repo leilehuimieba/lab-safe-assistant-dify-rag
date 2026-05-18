@@ -1,0 +1,185 @@
+About Us
+
+Environmental Compliance
+
+Fire Protection & Emergency Services
+
+Occupational Health & Safety
+
+Research Safety Biosafety & Biosecurity Chemical Safety Controlled Substances General Laboratory Safety Laboratory Operations Continuity Laboratory Safety Training Matrix Department Safety Representatives Eye Protection in Laboratory Spaces Field Research Safety Hazard Assessment and Signage Program (HASP) Laboratory Safety Manual Lab Safety Signs and Labels Lab Safety Certificate Program Laboratory Inspections Reproductive Health Radiation Safety Waste Anesthetic Gases (WAG)
+
+Biosafety & Biosecurity
+
+Chemical Safety
+
+Controlled Substances
+
+General Laboratory Safety Laboratory Operations Continuity Laboratory Safety Training Matrix Department Safety Representatives Eye Protection in Laboratory Spaces Field Research Safety Hazard Assessment and Signage Program (HASP) Laboratory Safety Manual Lab Safety Signs and Labels Lab Safety Certificate Program Laboratory Inspections Reproductive Health
+
+Laboratory Operations Continuity
+
+Laboratory Safety Training Matrix
+
+Department Safety Representatives
+
+Eye Protection in Laboratory Spaces
+
+Field Research Safety
+
+Hazard Assessment and Signage Program (HASP)
+
+Laboratory Safety Manual
+
+Lab Safety Signs and Labels
+
+Lab Safety Certificate Program
+
+Laboratory Inspections
+
+Reproductive Health
+
+Radiation Safety
+
+Waste Anesthetic Gases (WAG)
+
+## Laboratory Safety Manual
+
+TABLE OF CONTENTS
+
+## TABLE OF CONTENTS
+
+Chapter 1 - Introduction
+
+## Chapter 1 - Introduction
+
+Chapter 2 - Engineering Controls
+
+## Chapter 2 - Engineering Controls
+
+Chapter 3 - Personal Protective Equipment
+
+## Chapter 3 - Personal Protective Equipment
+
+Chapter 4 - Administrative Controls
+
+## Chapter 4 - Administrative Controls
+
+Chapter 5 - Emergency Preparation
+
+## Chapter 5 - Emergency Preparation
+
+Chapter 6 - Info and Training
+
+## Chapter 6 - Info and Training
+
+Chapter 7 - Safe Chemical Use
+
+## Chapter 7 - Safe Chemical Use
+
+Chapter 8 - Chemical Hazards
+
+## Chapter 8 - Chemical Hazards
+
+Chapter 9 - Particularly Hazardous Substances
+
+## Chapter 9 - Particularly Hazardous Substances
+
+Chapter 10 - Hazardous Chemical Waste Disposal
+
+## Chapter 10 - Hazardous Chemical Waste Disposal
+
+Chapter 11 - Hazardous Material Shipping
+
+## Chapter 11 - Hazardous Material Shipping
+
+Chapter 12 - Pesticides
+
+## Chapter 12 - Pesticides
+
+Chapter 13 - Biohazards
+
+## Chapter 13 - Biohazards
+
+Chapter 14 - Radiation Hazards
+
+## Chapter 14 - Radiation Hazards
+
+Chapter 15 - Laser Hazards
+
+## Chapter 15 - Laser Hazards
+
+Chapter 16 - Physical Hazards
+
+## Chapter 16 - Physical Hazards
+
+Appendix B - Contact List
+
+## Appendix B - Contact List
+
+Appendix C - Compiled Lab Safety Responsibilities
+
+## Appendix C - Compiled Lab Safety Responsibilities
+
+Appendix D - Standard Operating Procedure Examples
+
+## Appendix D - Standard Operating Procedure Examples
+
+Appendix E - Lab Decommissioning Process
+
+## Appendix E - Lab Decommissioning Process
+
+Appendix F - Glove Selection Guidance
+
+## Appendix F - Glove Selection Guidance
+
+Appendix G - EHS Video Library
+
+## Appendix G - EHS Video Library
+
+Appendix H - How To Understand SDSs
+
+## Appendix H - How To Understand SDSs
+
+Appendix I - Hazards Of Functional Groups
+
+## Appendix I - Hazards Of Functional Groups
+
+Appendix J - Peroxide Forming Chemicals
+
+## Appendix J - Peroxide Forming Chemicals
+
+Appendix K - Incompatible Chemicals
+
+## Appendix K - Incompatible Chemicals
+
+Appendix L - EHS Segregation Scheme
+
+## Appendix L - EHS Segregation Scheme
+
+Appendix M - Sample Prior Approval Form
+
+## Appendix M - Sample Prior Approval Form
+
+Appendix O - EHS Reference Library
+
+## Appendix O - EHS Reference Library
+
+Appendix P - Phenol First Aid Guide and PPE
+
+## Appendix P - Phenol First Aid Guide and PPE
+
+Research Safety
+
+Chemical Safety
+
+Laboratory Safety Manual
+
+## Laboratory Safety Manual
+
+## Purpose of This Manual
+
+The purpose of this manual is to supplement the basic regulatory requirements of the OSHA Laboratory Standard for the development of a Chemical Hygiene Plan and to provide laboratories with useful recommendations that can help achieve compliance with the intent of the OSHA Lab Standard. Throughout this document, areas where regulatory or University requirements exist will be clearly identified using words such as “must”, “required”, “shall”, and “it is the responsibility”, etc. All other information provided within this document are recommendations that Environment, Health, and Safety (EHS) encourages laboratories to follow as best management practices.
+
+To take advantage of the Internet, this document is formatted to be a “front door” to other resources, including useful web links. Where appropriate, web links will be embedded within the document and identified as a hyperlinked word that can be clicked on to view the webpage. Please note, by clicking on these external resources you will be leaving the Laboratory Safety Manual and will need to click the “Back” button on your browser to return to the manual. For those internal hyperlinks, including the table of contents, you can move around the document by clicking on the back and forward hyperlink arrow buttons located in the upper left hand side of your toolbar. If this toolbar is not visible, then go to your menu command “View”, then “Toolbars”, and then select the “Web” or “Navigation” button to make the toolbar and hyperlink arrow buttons accessible. You can search both the PDF and web-based versions of the Laboratory Safety Manual using the function CTRL-F.
+
+If you encounter a broken web link, please send an email to askEHS@cornell.edu and include the section and page number of the manual and the name of the link you were trying to reach. If you have any suggestions to improve this document, including sharing useful web links or would like to request a section or topic to be added, then please send an email to the Chemical Hygiene Officer. This Laboratory Safety Manual should be considered a living document and will be reviewed at least annually and updated with your participation, comments, and suggestions.

@@ -1,0 +1,6324 @@
+y
+t
+i
+s
+r
+e
+v
+i
+n
+U
+e
+l
+a
+Y
+
+y
+t
+e
+f
+a
+S
+&
+h
+t
+l
+a
+e
+H
+
+l
+a
+t
+n
+e
+m
+n
+o
+r
+i
+v
+n
+E
+
+f
+o
+e
+c
+i
+f
+f
+
+O
+
+Laboratory 
+Chemical 
+Hygiene Plan 
+
+Office of Environmental Health & Safety 
+135 College Street, Suite 100, New Haven, CT 06510 
+Telephone: 203-785-3550 / Fax: 203-785-7588 
+ehs.yale.edu 
+
+ Rev: February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CONTENTS 
+
+SECTION 1.0 YALE UNIVERSITY LABORATORY CHEMICAL HYGIENE PLAN ......... 4 
+
+1.1 
+1.2 
+1.3 
+
+1.4 
+1.5 
+
+1.6 
+1.7 
+
+1.8 
+1.9 
+1.10 
+
+INTRODUCTION ........................................................................................................... 4 
+CHEMICAL HYGIENE RESPONSIBILITIES .............................................................. 5 
+KEY DEFINITIONS ....................................................................................................... 7 
+1.3.1 Laboratory ........................................................................................................... 7 
+1.3.2 Laboratory Personnel ........................................................................................... 7 
+1.3.3 Hazardous Chemical ............................................................................................ 7 
+HAZARD IDENTIFICATION FOR NEWLY SYNTHESIZED CHEMICALS ........... 8 
+TRAINING & INFORMATION ..................................................................................... 8 
+1.5.1 Laboratory Safety Training.................................................................................. 8 
+1.5.2 Chemical Safety Information Sources ................................................................. 8 
+CHEMICAL EXPOSURE ASSESSMENT .................................................................. 11 
+MEDICAL CONSULTATION & EXAMINATION .................................................... 11 
+1.7.1 Medical and Workplace Consultations - Reproductive Toxins ............................ 12 
+RECORDKEEPING ...................................................................................................... 12 
+LABORATORY SAFETY INSPECTION PROGRAM ............................................... 12 
+PROTOCOL REVIEW .................................................................................................. 12 
+
+SECTION 2.0 STANDARD OPERATING PROCEDURES FOR WORKING WITH 
+
+HAZARDOUS CHEMICALS ............................................................................... 14 
+
+2.1 
+
+2.2 
+2.3 
+
+2.4 
+
+2.5 
+
+2.6 
+
+CHEMICAL HANDLING WORK PRACTICES AND PROCEDURES .................... 14 
+2.1.1 General Guidelines ............................................................................................ 14 
+2.1.2 Personal Hygiene ............................................................................................... 15 
+2.1.3 Housekeeping .................................................................................................... 15 
+2.1.4 Glassware Safety ............................................................................................... 15 
+RISK ASSESSMENT AND REVIEW OF SAFETY PROCEDURES ........................ 16 
+PROTECTIVE CLOTHING AND LABORATORY SAFETY EQUIPMENT ........... 16 
+2.3.1 Standard Laboratory Clothing – Appropriate Attire .......................................... 17 
+2.3.2 Additional Personal Protective Equipment ........................................................ 17 
+2.3.3 Gloves ................................................................................................................ 17 
+2.3.4 Eye Protection .................................................................................................... 18 
+2.3.5 Protection of The Respiratory System ............................................................... 18 
+2.3.5 Laboratory Safety Equipment ............................................................................ 19 
+CHEMICAL PROCUREMENT, DISTRIBUTION, AND STORAGE ........................ 21 
+2.4.1 Chemical Management ...................................................................................... 21 
+2.4.2 Distribution ........................................................................................................ 21 
+2.4.3 Chemical Storage in the Laboratory .................................................................. 21 
+CHEMICAL RELEASES .............................................................................................. 23 
+2.5.1 General Information .......................................................................................... 23 
+2.5.2 Minor Chemical Spill ........................................................................................ 23 
+2.5.3 Major Chemical Spill ......................................................................................... 24 
+2.5.4 Small Mercury Spills ......................................................................................... 24 
+2.5.5 Alkali Metal Spills ............................................................................................. 24 
+2.5.6 Compressed Gas Leak ....................................................................................... 24 
+PERSONAL CONTAMINATION AND INJURY ....................................................... 25 
+2.6.1 General Information .......................................................................................... 25 
+
+Yale University Chemical Hygiene Plan 
+
+ Rev: February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.6.2 Chemicals Spills to the Body ............................................................................. 25 
+2.6.3 Chemical Splash in the Eye ............................................................................... 25 
+Ingestion of Hazardous Chemicals .................................................................... 26 
+2.6.4 
+2.6.5 
+Inhalation of Smoke, Vapors and Fumes ........................................................... 26 
+2.6.6 Organo-Heavy Metal Compounds ..................................................................... 26 
+2.6.7 Cyanide .............................................................................................................. 26 
+2.6.8 Hydrogen Fluoride/Hydrofluoric Acid .............................................................. 26 
+2.6.8.1 Skin Exposure to HF .......................................................................................... 27 
+2.6.8.2 Eye Exposures to HF ......................................................................................... 27 
+2.6.8.3 Inhalation Exposures to HF ............................................................................... 27 
+2.6.9 Phenol ................................................................................................................ 27 
+2.6.9.1 Skin Exposure to Phenol/Phenol-containing products....................................... 27 
+2.6.9.2 Eye Exposures to Phenol/Phenol-containing products ...................................... 27 
+2.6.9.3 Inhalation Exposures to Phenol/Phenol-containing products ............................ 27 
+FIRE AND OTHER RELATED EMERGENCIES ...................................................... 27 
+CHEMICAL WASTE DISPOSAL PROGRAM ........................................................... 28 
+
+2.7 
+2.8 
+
+SECTION 3.0 HEALTH AND SAFETY INFORMATION FOR WORK WITH CHEMICALS OF 
+
+SPECIFIC HAZARD CLASS ............................................................................... 29 
+
+3.1 
+
+3.2 
+
+3.3 
+
+3.4 
+
+FLAMMABLE LIQUIDS ............................................................................................. 29 
+3.l.l General Information .......................................................................................... 29 
+3.1.2 Special Handling Procedures ............................................................................. 30 
+HIGHLY REACTIVE CHEMICALS & HIGH ENERGY OXIDIZERS ..................... 30 
+3.2.1 General Information .......................................................................................... 30 
+3.2.2 Special Handling Procedures for Highly Reactive Compounds ........................ 31 
+3.2.4 Special Handling Procedures for Pyrophoric and Water-Reactive Chemicals .. 32 
+COMPRESSED GASES ............................................................................................... 33 
+3.3.1 General Information .......................................................................................... 33 
+3.3.3 Special Precautions for Hydrogen ..................................................................... 35 
+3.3.4 Special Requirements for Toxic, Corrosive and Flammable Gases .................. 35 
+CORROSIVE CHEMICALS ........................................................................................ 35 
+3.4.1 General Information .......................................................................................... 35 
+3.4.2 Special Handling Procedures ............................................................................. 36 
+REGULATED CHEMICALS & PARTICULARLY HAZARDOUS CHEMICALS – 
+
+3.5 
+CARCINOGENS, REPRODUCTIVE TOXINS, AND ACUTELY TOXIC MATERIALS .......... 37 
+3.5.1 General Information .......................................................................................... 37 
+3.5.2 Special Handling Procedures ............................................................................. 37 
+DEPARTMENT OF HOMELAND SECURITY (DHS) REGULATED CHEMICALS38 
+3.6.1 General Information .......................................................................................... 38 
+3.6.2 Special Handling Procedures ............................................................................. 39 
+
+3.6 
+
+SECTION 4.0 CHEMICAL TOXICOLOGY ............................................................................... 40 
+
+4.1 
+
+CHEMICAL TOXICOLOGY OVERVIEW ................................................................. 40 
+4.1.1 Definitions ......................................................................................................... 40 
+4.1.2 Dose-Response Relationships ............................................................................ 40 
+4.1.3 Routes of Entry into the Body ........................................................................... 40 
+4.1.4 Types of Effects ................................................................................................. 40 
+4.1.5 Other Factors Affecting Toxicity ....................................................................... 41 
+4.1.6 Physical Classifications ..................................................................................... 41 
+4.1.7 Physiological Classifications ............................................................................. 41 
+
+Yale University Chemical Hygiene Plan 
+
+ Rev: February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4.2 
+4.3 
+
+SOME TARGET ORGAN EFFECTS........................................................................... 43 
+OCCUPATIONAL HEALTH STANDARDS .............................................................. 43 
+
+SECTION 5.0 GLOSSARY OF TERMS ..................................................................................... 45 
+
+APPENDIX A SUMMARY OF OSHA's LABORATORY STANDARD ................................... 51 
+
+APPENDIX B YALE UNIVERSITY POLICY ON EATING, DRINKING, AND SMOKING IN 
+LABORATORIES .................................................................................................. 52 
+
+APPENDIX C LABORATORY SAFETY REFERENCES ......................................................... 53 
+
+APPENDIX D PRELIMINARY HEALTH AND SAFETY INFORMATION SHEET ............ 54 
+
+APPENDIX E UNATTENDED OPERATIONS POSTING ........................................................ 54 
+
+APPENDIX F CHEMICAL HAZARD RISK ASSESSMENT FORM ...................................... 55 
+
+APPENDIX G SELECTION AND USE OF PERSONAL PROTECTIVE EQUIPMENT ...... 54 
+
+APPENDIX H HIGHLY REACTIVE COMPOUNDS AND STRONG OXIDIZERS ................ 6 
+
+APPENDIX I CHEMICALS THAT MAY FORM EXPLOSIVE PEROXIDES ....................... 7 
+
+APPENDIX J RESTRICTED CHEMICALS REQUIRING EHS APPROVAL ........................ 8 
+
+APPENDIX K CARCINOGENS AND REPRODUCTIVE TOXINS ........................................... 9 
+
+Yale University Chemical Hygiene Plan 
+
+ Rev: February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SECTION 1.0 YALE UNIVERSITY LABORATORY CHEMICAL HYGIENE 
+PLAN 
+
+1.1 
+
+INTRODUCTION 
+
+The Chemical Hygiene Plan (CHP) is a requirement for non-production laboratories where chemicals are used in 
+accordance with the Occupational Safety & Health Administration’s (OSHA) Occupational Exposure to 
+Hazardous Chemicals in Laboratories standard (29 CFR 1910.1450), more commonly referred to as the 
+Laboratory Standard. This plan applies to all Yale University faculty, staff, students, and visitors who use 
+hazardous materials in laboratory settings. 
+
+The CHP does not address the use of radioactive materials or biological agents. Information on these materials is 
+available in the University’s Radiation Safety Manual and Biosafety Manual, respectively. Where additional 
+regulatory standards apply (e.g., CLIA, CAP, Radiation Safety, Biosafety), this Plan supplements those 
+requirements. The most protective standard governs. 
+
+OSHA’s Laboratory Standard requires employers of laboratory personnel to implement exposure control 
+programs that convey chemical health and safety information to laboratory personnel working with hazardous 
+materials. Specific provisions of the standard require: 
+
+• 
+laboratory inspections; 
+• 
+establishment of standard operating procedures for routine and high-hazard laboratory operations; 
+• protocol safety reviews for procedures, activities, or operations that the employer believes to be of 
+
+sufficiently hazardous nature to warrant prior approval; 
+exposure assessments; 
+
+• 
+• medical consultations/exams; 
+• 
+• 
+• 
+
+training; 
+labeling of chemical containers; 
+the management of chemical safety data and other safety reference materials. 
+
+The intent of this standard is to ensure that laboratory personnel are apprised of the hazards of chemicals in their 
+work area, and that appropriate work practices, procedures, and controls are in place to protect laboratory 
+employees from chemical health and safety hazards. Yale’s Chemical Hygiene Plan covers all personnel in 
+laboratories at the University, including faculty, staff, and students. 
+
+The standard operating procedures (laboratory practices and engineering controls) recommended in this plan 
+specify the safeguards to be implemented when handling hazardous chemicals. These safeguards will protect 
+laboratory personnel from unsafe conditions in most situations. There are instances, however, when the physical 
+and chemical properties, the proposed use, the quantity used for a particular purpose, or the toxicity of a substance 
+are such that additional or fewer controls may be appropriate to protect the laboratory worker. Professional 
+judgment is essential when interpreting these standard operating procedures, and individual laboratories may 
+modify them to meet their specific uses and operational needs. These modifications and lab-specific SOPs must 
+be maintained by the laboratory and be available for review. 
+
+The manner in which Yale University is complying with each of the elements in OSHA's Laboratory Standard is 
+detailed in this Chemical Hygiene Plan. This plan is available on the Yale Environmental Health and Safety 
+(EHS) website: ehs.yale.edu. Printed copies can be made available by contacting EHS (203-785-3550). OSHA’s 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exposure to Hazardous Chemicals in Laboratories standard and appendices (29 CFR 1910.1450) are available on 
+the OSHA website: https://www.osha.gov/ 
+
+1.2 CHEMICAL HYGIENE RESPONSIBILITIES 
+
+Responsibility for chemical health and safety rests at all levels, including the: 
+
+President of the University, who has ultimate responsibility for chemical hygiene within the institution and 
+must, along with other officers and administrators, provide continuing support for institutional chemical safety. 
+
+Department Chair or Director of an administrative unit, who is responsible for chemical hygiene in the 
+department/unit. 
+
+Principal Investigator, Director, or Manager who has primary responsibility for chemical hygiene and safety in 
+the laboratory. They are responsible for: 
+
+• Acquiring the knowledge and information needed to recognize and control chemical hazards in the 
+
+laboratory; 
+
+• Conducting workplace hazard assessments; 
+• Conducting PPE hazard assessments; 
+• Selecting and employing laboratory practices, engineering controls, and PPE that reduce the potential for 
+
+• 
+
+exposure to hazardous chemicals to the appropriate level; 
+Informing personnel working in the laboratory of the potential hazards associated with the use of 
+chemicals in the laboratory and instructing them in the safe laboratory practices, adequate controls, and 
+procedures for dealing with accidents involving hazardous chemicals; 
+
+• Supervising the performance of the personnel in the laboratory to ensure the required safety and chemical 
+
+hygiene rules are adhered to; 
+
+• Completing required EHS training, and ensuring that all lab personnel also complete required EHS 
+
+training; 
+
+• Ensuring appropriate controls (engineering and personal protective equipment) are used and are in good 
+
+working order; 
+
+• Obtaining approval, when required, from Yale EHS prior to purchasing and using particularly hazardous 
+
+substances; 
+
+• Developing an understanding of the current legal requirements regulating hazardous substances used in 
+
+the laboratory; 
+
+• Ensuring that chemical hazardous waste is collected, labeled, and stored properly; 
+• 
+
+Informing visitors entering their laboratory of the potential hazards and safety rules/precautions, including 
+proper work attire, and enforcing the use of required personal protective equipment. 
+
+Laboratory Personnel, who are responsible for: 
+
+• Being aware of the hazards of the materials they are around or working with, and handling those 
+
+chemicals in a safe manner; 
+
+• Planning and conducting each operation in accordance with the Yale University chemical hygiene 
+
+procedures; 
+
+• Developing good chemical hygiene habits (chemical safety practices and procedures); 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • Wearing the appropriate clothing and required personal protective equipment in the laboratory; 
+• Reporting unsafe conditions to the Principal Investigator, immediate laboratory supervisor, and/or Yale 
+
+EHS; 
+
+• Completing all required EHS training; 
+• Collecting, labeling and storing chemical hazardous waste properly; 
+• 
+
+Informing visitors entering their laboratory of the potential hazards and safety rules/precautions. 
+
+Chemical Hygiene Officer, Yale Environmental Health & Safety, who is responsible for: 
+
+• Updating the Chemical Hygiene Plan; 
+• Working with the laboratory community, administrators, Safety Advisors, and others to develop and 
+
+implement appropriate chemical hygiene policies and practices; 
+
+• Providing technical assistance for complying with the Chemical Hygiene Plan, and answering chemical 
+
+safety questions; 
+
+• Overseeing the University wide chemical safety inspection and training programs; 
+• Assisting Principal Investigators, Managers and Supervisors in the selection of appropriate laboratory 
+
+safety practices and engineering controls for new and existing projects and procedures, together with the 
+Safety Advisors; 
+
+• Making the final determination for when an exposure assessment is appropriate and conducting or 
+
+overseeing these assessments; 
+
+• Knowing the current legal requirements concerning regulated substances; 
+• 
+
+Investigating or overseeing the investigation of all reported accidents which result in the exposure of 
+personnel or the environment to hazardous chemicals. 
+
+Safety Advisor, Yale Environmental Health and Safety, who is responsible for: 
+
+• Assisting Principal Investigators, Managers and Supervisors in the selection of appropriate laboratory 
+
+safety practices and engineering controls for new and existing projects and procedures, together with the 
+Chemical Hygiene Officer; 
+
+• Making an initial determination of the need for an exposure assessment of a laboratory procedure; 
+• 
+Investigating reported accidents which result in the exposure of personnel or the environment to 
+hazardous chemicals; 
+
+• Conducting chemical safety inspections in laboratories in their designated areas and departments; 
+• Providing technical chemical safety assistance and answering chemical safety questions. 
+
+Laboratory Safety Committee, which is responsible for: 
+
+• Providing subject matter expertise on laboratory safety issues to the University; 
+• Evaluating, assisting, and advising on laboratory safety issues not covered by other institutional safety 
+
+committees, such as the BSC and RSC; 
+
+• Providing guidance and support to the Chemical Hygiene Officer (CHO) and EHS in executing the 
+
+University's Chemical Hygiene Plan; 
+
+• Examining laboratory-related policies and approval processes for minors, undergraduates, graduate 
+
+students, post-doctoral scientists, fellows, visiting scientists, researchers, and others in Yale laboratories. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.3 KEY DEFINITIONS 
+
+Additional terms are defined in SECTION 5.0 GLOSSARY OF TERMS. 
+
+1.3.1 Laboratory 
+
+A facility in which hazardous chemicals (defined below) are used in small quantities (containers that are easily 
+manipulated by one person) on a non-production basis. 
+
+1.3.2 Laboratory Personnel 
+
+Laboratory personnel include faculty, staff, students, trainees, clinical laboratory staff, conservation 
+professionals, visiting scholars, contractors, and any other individuals who work in Yale laboratories 
+where hazardous chemicals are used or stored. 
+
+1.3.3 Hazardous Chemical 
+
+Any chemical that is classified as a health hazard or simple asphyxiant in accordance with the Hazard 
+Communication Standard (§ 1910.1200). 
+
+Classes of health hazards include: 
+
+• 
+carcinogens 
+• 
+reproductive toxins 
+• 
+irritants 
+• 
+corrosives 
+• 
+sensitizers 
+• neurotoxins 
+• hepatotoxins 
+• nephrotoxins 
+• 
+• 
+• 
+
+agents that act on the hematopoietic system 
+asphyxiants 
+agents that damage the lungs, skin, eyes, or mucus membranes 
+
+combustible 
+explosives 
+
+For purposes of this plan, it also includes any chemical that is a physical hazard. This includes chemicals which 
+are: 
+• 
+• 
+• organic peroxides 
+• oxidizers 
+• pyrophoric 
+• 
+flammable 
+• 
+reactive 
+• 
+compressed gas 
+
+In most cases, the chemical container's original label indicates whether the chemical is hazardous. OSHA’s 
+Hazard Communication Standard requires chemical labels and safety data sheets to be uniform and consistent 
+with global regulations. There are signal words (Warning, Danger), hazard statements, precautionary statements, 
+and pictograms based on the chemical's hazard classification. Note that products manufactured beginning June 
+2015 were required to be labeled in compliance with this regulation; containers of hazardous chemicals acquired 
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ or manufactured before June 2015 may not contain this standardized information. These containers will still 
+indicate the contents and hazard warnings. Look for keywords like caution, hazardous, toxic, dangerous, 
+corrosive, irritant, carcinogen, etc. 
+
+To confirm if a chemical you are using is hazardous, review the SDS for the substance or contact your supervisor, 
+instructor, or EHS Safety Advisor. 
+
+1.4 HAZARD IDENTIFICATION FOR NEWLY SYNTHESIZED CHEMICALS 
+
+Some laboratories synthesize or develop new chemical substances during their work. If the composition of the 
+substance is known and will be used exclusively in the laboratory, laboratory personnel must label the substance 
+and, to the best of their ability, determine its hazardous properties (e.g., corrosive, flammable, reactive, toxic, 
+etc.). This can sometimes be done by comparing the structure of the new substance with the structure of similar 
+materials with known hazardous properties. If the chemical produced is of unknown composition, it must be 
+assumed to be hazardous, and appropriate precautions should be taken. 
+
+If a chemical substance is produced for another user outside the University, the laboratory producing the 
+substance must provide as much information as possible about the substance's identity and known hazardous 
+properties to the recipient. This should be communicated in the form of a hazard information sheet as illustrated in 
+the sample form in APPENDIX D PRELIMINARY HEALTH AND SAFETY INFORMATION SHEET. 
+Contact EHS if you have questions or need assistance with meeting this obligation. 
+
+1.5 TRAINING & INFORMATION 
+
+1.5.1 Laboratory Safety Training 
+
+All laboratory personnel exposed to, or potentially exposed to, hazardous chemicals while performing their 
+laboratory duties must receive information and training on the standard, this Chemical Hygiene Plan, and 
+laboratory safety prior to working with these chemicals and every three years thereafter. This training program, 
+entitled Laboratory Safety, must be completed in Workday Learning. Principal Investigators, Managers, and 
+Supervisors are responsible for the safety in their laboratories and must also receive this information and complete 
+this training. Additional laboratory-specific safety training is provided by the Principal Investigator, Manager, or 
+Supervisor. 
+
+All laboratory personnel must complete the Laboratory Safety Program prior to beginning work with hazardous 
+chemicals. When performing a non-routine task that presents hazards for which laboratory personnel have not 
+already been trained, the supervisor will discuss the task hazards and any special measures (e.g., personal 
+protective equipment or engineering controls) to be used with the affected person. Environmental Health and 
+Safety is available for consultation as needed. Information on Personal Protective Equipment (PPE) for specific 
+laboratory tasks is available in the Yale University PPE Assessment Tables/Tools for Laboratories. Every 
+laboratory member should know the locations and proper use of available protective clothing and equipment, as 
+well as emergency equipment/procedures. Additional information on protective clothing and equipment is also 
+contained in SECTION 2.3 PROTECTIVE CLOTHING AND LABORATORY SAFETY EQUIPMENT 
+of this manual. 
+
+1.5.2 Chemical Safety Information Sources 
+
+There are numerous sources of chemical safety information available online and on campus. These sources 
+include: 
+
+(1) labels found on containers of hazardous chemicals; 
+(2) the substance's SDS; 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (3) special health and safety reference literature available online; 
+(4) reference literature available from EHS; and 
+(5) signs, charts, and fact sheets available from EHS and posted in your laboratory. 
+
+In addition, your supervisor and your EHS Safety Advisor are available to provide safety information. 
+
+Yale University currently subscribes to an SDS management system. Supplier/manufacturer-specific SDS can be 
+obtained via this system, accessible from any Yale IP address via the Yale EHS website at ehs.yale.edu. 
+Yale EHS also maintains a library of reference materials on chemical health and safety. In addition, EHS will 
+perform literature searches on health and safety topics upon request or as needed. 
+
+1.5.2.1 Container Labeling 
+
+All containers of hazardous chemicals must be labeled identifying their contents. Labels on hazardous 
+chemicals must not be removed or defaced except when empty. 
+
+Chemical labels on purchased chemicals are required to provide you with safety information to help you protect 
+yourself while working with this substance. This includes physical and health hazard warnings, protective 
+measures for handling the material, first-aid instructions, storage information, and procedures to follow in the 
+event of a fire, leak, or spill. All labels on chemicals purchased after June 2015 must include the information 
+required by the OSHA Hazard Communication Standard. Manufacturers and importers of these chemicals must 
+provide a label that includes a signal word (Danger, Warning), pictogram(s), hazard statement(s), and 
+precautionary statement(s) based on the hazard classification and category of the chemical. This requirement 
+ensures consistent, uniform hazard information across all chemical containers, regardless of manufacturer or 
+supplier. 
+
+Read the label each time you use a newly purchased chemical. The manufacturer may have added new hazard 
+information or reformulated the product since your last purchase, which could have altered the potential hazards 
+you face when working with it. 
+
+All personnel involved in unpacking chemicals are responsible for inspecting each incoming container to ensure 
+that it is labeled with the information outlined above. Yale EHS should be notified if containers lack proper 
+labels. 
+
+Secondary working containers that will not be immediately used should also be labeled: 
+
+• Labels on containers used for storing hazardous chemicals should include the chemical or 
+product identification and appropriate hazard warnings. Appropriate hazard warnings can be 
+included on the secondary container itself, in a laboratory posting outlining chemicals and their hazards, 
+or through another comparable method.1 
+
+• The contents of all other chemical containers and transfer vessels, including, but not limited to, beakers, 
+
+flasks, reaction vessels, and process equipment, should be properly identified 
+
+1.5.2.2 Safety Data Sheets 
+
+A Safety Data Sheet (SDS) is a detailed informational document prepared by the manufacturer or importer of a 
+hazardous chemical that describes the physical and chemical properties of the product. Information in these data 
+sheets aids in selecting safe products, helps personnel understand the potential health and physical hazards of the 
+
+1 Labeling of secondary containers with hazard information is required in laboratories that are subject to the 
+Hazard Communication Standard or a certifying agency that mandates this information. 
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ chemical, and describes how to respond effectively to exposure situations. As of June 2015, all SDSs were 
+standardized to contain the same information, based on the chemical or compound's hazard classification and 
+category. If you have safety questions regarding a particular chemical, contact EHS or your supervisor. 
+
+The University maintains an SDS management system accessible via the EHS website when connected to the 
+Yale network. 
+
+If you do not have web access or need a hard copy of an SDS, EHS will provide one upon request at no charge. 
+Your laboratory supervisor may also maintain SDSs for chemicals commonly used in your laboratory. 
+Alternatively, you may request an SDS directly from the chemical manufacturer or supplier. 
+
+As of June 2015, all chemical manufacturers and importers were required to provide SDSs that comply with the 
+updated Hazard Communication Standard. When referencing an SDS, ensure it is dated June 2015 or later to 
+confirm it meets these requirements. 
+
+The updated standard provides a single set of harmonized criteria for classifying chemicals according to their 
+health and physical hazards and requires SDS to be in a uniform format, including the 16 section numbers, 
+headings, and associated information below: 
+
+• Section 1: Identification includes product identifier; manufacturer or distributor name, address, phone 
+
+number; emergency phone number; recommended use; restrictions on use. 
+
+• Section 2: Hazard identification includes all hazards regarding the chemical; required label elements. 
+• Section 3: Composition/information on ingredients includes information on chemical ingredients; trade 
+
+secret claims. 
+
+• Section 4: First-aid measures includes symptoms/ effects, acute, delayed; required treatment. 
+• Section 5: Fire-fighting measures lists suitable extinguishing techniques, equipment; chemical hazards 
+
+from fire. 
+
+• Section 6: Accidental release measures lists emergency procedures; protective equipment; proper methods 
+
+of containment and cleanup. 
+
+• Section 7: Handling and storage lists precautions for safe handling and storage, including 
+
+incompatibilities. 
+
+• Section 8: Exposure controls/personal protection lists OSHA's PELs; ACGIH TLVs; appropriate 
+
+engineering controls; personal protective equipment (PPE). 
+
+• Section 9: Physical and chemical properties lists the chemical's characteristics. 
+• Section 10: Stability and reactivity lists chemical stability and possibility of hazardous reactions. 
+• Section 11: Toxicological information includes routes of exposure; related symptoms, acute and chronic 
+
+effects; numerical measures of toxicity. 
+
+• Section 12: Ecological information 
+• Section 13: Disposal considerations 
+• Section 14: Transport information 
+• Section 15: Regulatory information 
+• Section 16: Other information, includes the date of preparation or last revision. 
+
+If you would like additional information concerning the content or use of SDSs, contact your supervisor or EHS. 
+
+1.5.2.3 Signage 
+
+Prominent signs of the following types must be posted in each laboratory: 
+
+• Laboratory safety information postings outside each laboratory list the chemical, biological, and radiation 
+hazards for that lab, safety equipment available in the lab, restrictions on entering the laboratory, and the 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ names and phone numbers of the Principal Investigator/Director/Supervisor and other responsible 
+laboratory personnel. These postings are kept up to date and used by emergency responders in the event 
+of an emergency when the laboratory is unoccupied. 
+
+• Signs identifying safety showers, eyewash stations, and exits. 
+• Emergency contact numbers prominently located on or near the laboratory phone. 
+• Radiation safety or biological safety signs at laboratory doors, sinks, benches, fume hoods, etc, as 
+
+appropriate. 
+
+• Warnings near areas or equipment where special or unusual hazards exist. 
+
+1.6 CHEMICAL EXPOSURE ASSESSMENT 
+
+Regular environmental or personal exposure monitoring of airborne concentrations is not usually warranted or 
+practical in laboratories because chemicals are typically used for relatively short periods, in small quantities, 
+and/or within laboratory fume hoods or other local exhaust ventilation systems. Exposure monitoring may be 
+appropriate when a highly toxic substance is used regularly or for an extended period, when hazardous chemicals 
+are used outside a fume hood/local exhaust ventilation, or when quantities are larger than lab-scale. During 
+annual laboratory safety inspections, Safety Advisors from EHS will identify these situations, and Industrial 
+Hygienists from Yale EHS will perform follow-up exposure assessments as necessary. 
+
+The EHS Industrial Hygienists will assess exposures for laboratory personnel who suspect or report being 
+overexposed to a toxic chemical in the laboratory or who are displaying symptoms of overexposure. The 
+assessment may include specific quantitative exposure monitoring. These results and any corresponding 
+recommendations will be sent to the laboratory Principal Investigator/Director/Supervisor, the Employee Health 
+Physician or Other Licensed Health Care Professional (PLHCP), the affected laboratory personnel, and anyone 
+else deemed appropriate. A copy of the monitoring results will be kept on file in the EHS Office. 
+
+Individuals with concerns about laboratory exposures should immediately bring them to the attention of Yale EHS 
+and the lab supervisor or Principal Investigator. 
+
+1.7 MEDICAL CONSULTATION & EXAMINATION 
+
+The University provides personnel who work with hazardous chemicals an opportunity to receive medical 
+attention through the Employee Health or Student Health programs, including any follow-up examinations which 
+the examining PLHCP determines to be necessary, whenever personnel: 
+
+• develop signs or symptoms associated with excessive exposure to a hazardous chemical used in their 
+
+• 
+
+laboratory; 
+are exposed routinely above the action level (or in the absence of an action level, the applicable OSHA 
+workplace exposure limit) for an OSHA-regulated substance; 
+
+• may have been exposed to a hazardous chemical during a chemical incident such as a spill, leak, 
+
+explosion, or fire; or 
+is referred for medical follow-up by the Chemical Hygiene Officer. 
+
+• 
+
+Individuals with serious or life-threatening emergencies should proceed immediately to the emergency room at 
+Yale-New Haven Hospital. An ambulance can be obtained by dialing 911 from any phone. Follow-up medical 
+examination/consultation visits will be handled by the Acute Care PLHCP at Yale Health or the facility they 
+designate. The appropriate facility to visit can be identified by calling Yale Health Acute Care Department at 203-
+432-0123. The appropriate PLHCP at the Yale Health Center will administer non-urgent medical examinations 
+and consultations, as well as medical surveillance. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.7.1 Medical and Workplace Consultations - Reproductive Toxins 
+
+Exposure to certain chemicals may adversely affect fertility and may affect the developing fetus during 
+pregnancy. Therefore, anyone working with reproductive toxins or teratogenic agents planning to conceive a 
+child or who is pregnant should consult their Principal Investigator or supervisor, the Chemical Hygiene Officer, 
+and/or the Department of Employee Health or Student Health as appropriate for opinions regarding risks of 
+exposure and potential exposure control options. The Chemical Hygiene Officer can assess potential exposures 
+and, with the individual and the Principal Investigator or laboratory supervisor, as appropriate, adjust work 
+practices to minimize risk. The Employee Health or Student Health PLHCP can discuss the potential risks of 
+exposure as they apply to each situation. Information on reproductive and developmental hazards, including lists 
+of materials suspected of causing such effects, is available in the “Reproductive and Developmental Hazards 
+Safety Guidelines” at ehs.yale.edu. 
+
+1.8 RECORDKEEPING 
+
+All exposure assessments and occupational medical consultation/examination reports will be maintained in 
+accordance with OSHA's Medical Records Rule (29 CFR 1910.1020). Exposure assessments refer to the 
+quantitative evaluation of hazardous materials, i.e., environmental (workplace) monitoring or measurement of 
+toxic substances or harmful physical agents. Occupational medical records include medical questionnaires, 
+results of pre-employment, pre-assignment, periodic, or episodic medical examinations, laboratory tests taken to 
+establish a baseline or detect occupational illness, and associated medical opinions, diagnoses, recommendations, 
+and treatments, as applicable. 
+
+Individuals may obtain copies of or read their reports by submitting a written request to EHS (exposure 
+assessment records) or the Employee Health Department (occupational medical records). 
+
+1.9 LABORATORY SAFETY INSPECTION PROGRAM 
+
+The designated Safety Advisor from EHS conducts, at a minimum, annual safety inspections of all University 
+laboratories that handle or store hazardous materials. As part of these inspections, the Safety Advisor evaluates (1) 
+exposures to personnel (through qualitative assessments); (2) the status of critical control equipment such as fume 
+hoods; (3) the handling and storage of chemicals; (4) use of personnel protective equipment; (5) waste disposal; (6) 
+safety training; and (7) compliance with Federal/State regulation and University policies. More frequent inspections 
+may be required for laboratories handling higher-risk materials. Inspection times are arranged in advance with 
+Principal Investigators (PI)/Director/Supervisor and/or lab managers, and PIs/Directors/Managers receive an 
+electronic report of the inspection results, along with recommendations and deadlines for improvements, through the 
+Yale EHS Integrator program. The PI/Director/Manager, or their designee, must respond to each issue noted in the 
+report. Department chairs, business managers, safety representatives, and/or committees, as directed by the 
+department chairperson, may also receive inspection summary reports for their department. 
+
+1.10 PROTOCOL REVIEW 
+
+Under certain circumstances, a specific chemical substance and the associated laboratory operation, procedure, or 
+activity may be deemed sufficiently hazardous to require prior EHS approval before work begins. These 
+circumstances include a) those chemicals placed on the restricted chemicals list due to the hazardous nature of the 
+chemical, b) hazardous chemicals or operations that the laboratory are not familiar with and need special guidance, 
+and c) hazardous chemicals that are used in a manner outside of the procedures outlined in SECTION 3.0 HEALTH 
+AND SAFETY INFORMATION FOR WORK WITH CHEMICALS OF SPECIFIC HAZARD CLASS, including 
+larger volumes and scaling up of experiments. 
+
+The chemicals on the restricted list, due to their hazardous nature (condition “a” above), are divided into two tiers. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Tier 1 chemicals cannot be purchased until a completed chemical registration is submitted using EHS Integrator 
+(ehs.yale.edu). As part of this registration process, laboratory personnel must provide detailed information on the 
+protocol, including the specific chemical(s), proposed handling, storage, and disposal procedures. Once laboratory 
+personnel submit the registration, it is routed to EHS and the Principal Investigator/Director/Manager for review and 
+approval. Tier 2 chemicals may not present the same level of hazard as Tier 1 chemicals and therefore do not require 
+registration. Laboratory Personnel handling these materials receive information specific to the chemical's hazards for 
+their review. Chemicals in both Tier 1 and Tier 2 are routed to EHS for review and approval. 
+
+For conditions “b” and “c” above, i.e., hazardous chemicals or operations that the laboratory is not familiar with and 
+need special guidance, or for hazardous chemicals being used in a manner outside of the procedures outlined in this 
+plan, Yale EHS will need to review the proposed activity/procedure and provide approval prior to work beginning. 
+Depending on the procedure and materials, Laboratory Personnel may be asked to complete the chemical registration 
+using EHS Integrator or submit a protocol, including all relevant safety information, to EHS for review. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SECTION 2.0 STANDARD OPERATING PROCEDURES FOR WORKING 
+WITH HAZARDOUS CHEMICALS 
+
+2.1 CHEMICAL HANDLING WORK PRACTICES AND PROCEDURES 
+
+2.1.1 General Guidelines 
+
+Carefully read the label before using a chemical. The manufacturer's or supplier's SDS may also provide special 
+handling information. Be aware of potential hazards existing in the laboratory and of the appropriate safety 
+precautions. Know the location and proper use of emergency equipment, the procedures for responding to 
+emergencies, and the proper methods for storing, transporting, and disposing of chemicals within the facility. 
+
+• Always wear the appropriate personal protective equipment (PPE) as determined during the PPE 
+assessment for the laboratory operation. Use the Laboratory Hazard Assessment Tool (LHAT) to 
+determine any additional PPE requirements for lab tasks or activities. This assessment must be completed 
+in EHS Integrator; the tool can be found at Laboratory PPE Assessment. At a minimum, safety glasses, a 
+lab coat, exam-style nitrile gloves, clothing that covers the legs, and closed-toe, solid-top shoes are 
+required when working with hazardous materials in the laboratory. Inspect PPE and clothing for integrity 
+and proper function before use. 
+
+• Pull back and secure long hair; long beards should also be contained. 
+• Avoid working alone in the laboratory whenever possible. If working alone is necessary (e.g., after 
+
+normal business hours), you must inform another individual of your location, the nature of your work, and 
+your expected duration in the laboratory. Arrange for periodic check-ins. Working alone is strictly 
+prohibited when: 
+• Handling highly hazardous chemicals 
+• Performing high-hazard operations 
+• Using materials or equipment that are specifically prohibited for lone work. 
+When planning work involving highly hazardous chemicals, schedule these activities during normal 
+working hours and ensure that other trained personnel are present in the laboratory. Notify other 
+laboratory members before beginning such work. Refer to the “Policy on Working Alone in 
+Laboratories” for University-wide requirements, definitions, and a list of materials/equipment that may 
+not be used while working alone. 
+
+• Complete required EHS training prior to beginning work. Successful completion of Yale University’s 
+
+“Laboratory Safety Program” in Workday Learning is required before beginning work with chemicals in 
+a University laboratory. 
+Incorporate risk assessments when planning out experiments and write Standard Operating Procedures 
+before beginning new processes or operations. 
+
+• 
+
+• Label all secondary chemical containers with appropriate identification, including squirt bottles and oil or 
+
+water baths. 
+
+• Use only those chemicals for which you have the appropriate exposure controls, such as a chemical fume 
+
+hood. Always use adequate ventilation with chemicals. Operations involving volatile, toxic, or 
+malodorous substances should be performed only in a chemical fume hood. 
+• Do not dispense more of a hazardous chemical than is needed for immediate use. 
+• Use hazardous chemicals and all laboratory equipment only as directed or for their intended purpose. 
+• 
+Inspect equipment or apparatus for damage before adding a hazardous chemical. Do not use damaged 
+equipment. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • Store chemicals in appropriate storage locations. Do not store chemicals directly on floors and minimize 
+
+chemical storage outside of chemical cabinets. 
+
+• Malfunctioning laboratory equipment (such as a fume hood) should be identified as "out of service" so 
+that others will not inadvertently use it before repairs are made. Contact Facilities Operations to repair 
+fume hoods as soon as possible. 
+
+• For laboratory work involving hazardous substances that will be continuous in your absence or overnight, 
+
+you must post the “Unattended Operations” form on either the fume hood or the lab door, clearly 
+displaying your name, contact information, and the hazardous materials in use. Please refer to 
+APPENDIX E UNATTENDED OPERATIONS POSTING or visit ehs.yale.edu for the form. 
+
+2.1.2 Personal Hygiene 
+
+• Remove contaminated clothing and gloves before leaving the laboratory. Never touch door handles, 
+
+elevator buttons, etc. with gloved hands. 
+
+• Avoid direct contact with any chemical. Keep chemicals off your hands, face, and clothing, including 
+shoes. Never waft, smell, inhale, or taste a hazardous chemical. Wash thoroughly with soap and water 
+after handling any chemical. 
+
+• Smoking, vaping, drinking, eating, and the application of cosmetics are forbidden in laboratories where 
+hazardous chemicals are used. See APPENDIX B YALE UNIVERSITY POLICY ON EATING, 
+DRINKING, AND SMOKING IN LABORATORIES. 
+
+• Never pipette by mouth. Use a pipette bulb or another mechanical pipette filling device. 
+
+2.1.3 Housekeeping 
+
+• Keep floors clean and dry. Keep all aisles, hallways, and stairs clear of all chemicals. Stairways and 
+
+hallways should not be used for storage. 
+
+• Keep all work areas, and especially work benches, clear of clutter and obstructions. 
+• All working surfaces should be cleaned regularly. 
+• Access to emergency equipment, utility controls, electrical panels, showers, eyewashes, fire 
+
+extinguishers, and exits should never be blocked. 
+
+• Waste must be stored in appropriate containers and be properly labeled. All hazardous waste 
+
+containers must be labeled with the full chemical names of the contents and the words “hazardous waste”. 
+Ensure these containers are tightly capped when waste is not being added. Latching funnels are 
+acceptable for use if they have a latching lid to prevent spills or vapor release. 
+
+2.1.4 Glassware Safety 
+
+Handle and store laboratory glassware with care. Do not use damaged glassware. Borosilicate glassware is 
+recommended for all laboratory glassware except for special experiments that use UV or other light sources. Any 
+glass equipment to be evacuated, such as suction flasks, should be specially designed with heavy walls to 
+withstand pressure. Glass equipment in pressure or vacuum service should be provided with shielding to protect 
+users and other laboratory occupants. Glass vessels at reduced pressure can collapse violently, either 
+spontaneously (if cracked or weakened) or from an accidental blow. Use extra care with Dewar flasks and other 
+evacuated glassware; shield or wrap them with safety netting to contain chemicals or fragments in the event of an 
+implosion. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.2 RISK ASSESSMENT AND REVIEW OF SAFETY PROCEDURES 
+
+Effective hazard control begins with thoughtful experimental design. Prior to conducting laboratory work, 
+laboratory personnel must evaluate the hazards associated with the chemicals, equipment, and procedures 
+involved and implement appropriate control measures. 
+
+A laboratory risk assessment should include: 
+
+1. Identification of materials and quantities to be used 
+2. Evaluation of chemical and physical hazards 
+3. Determination of appropriate engineering controls 
+4. Selection of required personal protective equipment (PPE) 
+5. Planning for emergency response and spill management 
+6. Reassessment of hazards when procedures change 
+
+See APPENDIX F CHEMICAL HAZARD RISK ASSESSMENT FORM for a sample that can assist in 
+conducting a successful risk assessment. 
+
+Risk assessments must be revisited whenever: 
+
+• New chemicals or procedures are introduced 
+• Experimental quantities are significantly increased 
+• Equipment or process changes occur 
+• Unexpected reactions or byproducts are observed 
+• Engineering controls malfunction 
+• Signs or symptoms of potential exposure arise 
+
+Scaling up experiments or modifying procedures may introduce new hazards, including increased heat generation, 
+pressure buildup, or the formation of toxic byproducts. Laboratory Personnel must reassess hazards and confirm 
+that existing controls remain adequate before proceeding. 
+
+The occurrence of any of these conditions should prompt Laboratory Personnel to pause, evaluate the safety 
+implications of the changes or results, make adjustments as necessary, and proceed cautiously. If needed, contact 
+EHS for assistance. 
+
+2.3 
+
+PROTECTIVE CLOTHING AND LABORATORY SAFETY EQUIPMENT 
+
+Personal protective clothing and equipment should be selected carefully and used after all feasible engineering 
+and administrative controls have been implemented, or while such controls are being established. These devices 
+are considered less effective than other controls because they rely heavily on each person's work practices and 
+training. The engineering and administrative controls that should always be considered first when reducing or 
+eliminating exposures to hazardous chemicals include: 
+
+• Substitution of a less hazardous substance, less hazardous equipment, or less hazardous process 
+• Scaling down the size of the experiment 
+• 
+Isolation of the operator or the process 
+• Local exhaust ventilation (e.g., use of fume hoods) 
+
+A laboratory coat, chemical-resistant gloves, protective eyewear (ANSI Z87 safety glasses or goggles at a 
+minimum), clothing that covers the legs, and closed-toe, solid-top shoes are required whenever handling 
+hazardous chemicals in Yale laboratories. Additional personal protective equipment, such as face shields, utility-
+grade chemical-resistant gloves, aprons, and respirators, may be necessary depending on an assessment of the 
+hazard and operation. The assessment should be made for each laboratory using the Laboratory Hazard 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+16 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Assessment Tool (LHAT) for laboratory workers. Principal Investigators/Directors/Managers and supervisors 
+must provide appropriate personal protective equipment to Laboatory Personnel. Refer to the Laboratory PPE 
+Hazard Assessment” in APPENDIX G SELECTION AND USE OF PERSONAL PROTECTIVE 
+EQUIPMENT 
+
+2.3.1 Standard Laboratory Clothing – Appropriate Attire 
+
+Even when there is no immediate risk of skin contact with a hazardous chemical, it is still important to wear 
+clothing that minimizes exposed skin when in the laboratory. Laboratory Personnel must wear safety or 
+prescription glasses, pants or clothing that covers the legs (shorts and short skirts are not acceptable), and closed-
+toe, solid-top shoes in the laboratory at all times. Safety glasses, exam-style gloves, and a laboratory coat (or its 
+equivalent in certain circumstances – apron, barrier gown, etc.) are required to be worn whenever working with 
+hazardous materials. Prescription glasses may be worn only when working with hazardous materials if they are 
+prescription safety glasses with side shields. Laboratory coats are intended to prevent contact with dirt, chemical 
+dusts, and minor chemical splashes or spills. If a lab coat becomes contaminated, it should be removed 
+immediately, and the affected skin surface thoroughly washed. 
+
+2.3.2 Additional Personal Protective Equipment 
+
+Additional PPE may be required for certain procedures or when handling specific substances or operations, such 
+as when larger quantities of corrosives, oxidizing agents, or organic solvents are present. This clothing may 
+include chemically resistant aprons and gloves as well as face shields, goggles, and shoe covers. Refer to the 
+Laboratory Hazard Assessment Tool to assist in identifying additional required PPE. Personal protective 
+equipment should never be worn outside the laboratory. 
+
+If you are working with substances of high acute or chronic toxicity and wearing washable garments (such as a 
+laboratory coat), assess the risk of exposing non-laboratory personnel during laundering. Wear disposable 
+garments if others may be exposed to risk during laundering. Lab coats must be laundered through an approved 
+laundry service or facility; please see the University Buying Guide. 
+
+2.3.3 Gloves 
+
+Chemical-resistant gloves must be worn whenever handling hazardous chemicals or whenever there is a 
+possibility of contact with hazardous materials. Gloves should be selected based on the materials being handled, 
+the specific hazard involved, and the operation's requirements. Before each use, gloves should be checked for 
+integrity. Exam-style gloves are most commonly used for laboratory work and are disposed of in the regular trash 
+after each use. In general, nitrile exam-style gloves provide better chemical protection than latex or vinyl gloves. 
+All laboratories that use chemicals should stock and use nitrile gloves. Latex gloves are discouraged not only 
+because they do not hold up well to many chemicals, but also because of the potential for the user or other lab 
+personnel to develop a sensitization to the latex. Nitrile exam-style gloves are generally more chemically resistant 
+than vinyl or latex, but because they are thin, it may be advisable to wear double nitrile gloves if contact is 
+possible. Thicker utility-style reusable gloves should be worn over thin exam-style gloves if there is a high 
+probability of contact with hazardous chemicals. Reusable gloves should be washed before removal and replaced 
+periodically, depending on use frequency and the substances handled. The following table offers a general guide 
+to glove selection. 
+
+Glove Material 
+Latex exam style 
+
+Intended Use 
+Incidental Contact • Good for biological and 
+
+Advantages 
+
+water-based materials 
+
+• User acceptability 
+
+Disadvantages 
+• Poor for organic solvents 
+• Hard to detect puncture 
+
+holes 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nitrile - exam 
+style 
+
+Incidental Contact 
+
+Nitrile - utility 
+style 
+
+Extended Contact 
+
+Neoprene – utility 
+style 
+
+Extended contact 
+
+ Good for solvents, oils, 
+greases, some acids, and 
+bases 
+
+ Clear indication of tears 
+
+and breaks 
+
+ User acceptability 
+ Good for solvents, oils, 
+greases, some acids, and 
+bases 
+
+ Can be washed and reused 
+ Good for acids, bases, 
+
+alcohols, fuels, peroxides, 
+hydrocarbons, and phenols 
+
+• Latex allergy issues 
+• May be slightly more 
+expensive than latex 
+
+• Not effective for 
+
+halogenated and aromatic 
+hydrocarbons 
+
+• Poor for halogenated and 
+aromatic hydrocarbons 
+
+Butyl rubber - 
+utility style 
+Silver Shield - 
+Teflon 
+
+Extended contact 
+
+ Good for ketones and 
+
+ High cost 
+
+Extended contact 
+
+ Good for most chemicals 
+
+esters 
+
+ Lack of dexterity 
+ Very expensive 
+
+Contact your EHS Safety Advisor for assistance with PPE selection or information. 
+
+2.3.4 Eye Protection 
+
+Eye protection is required for all people present in laboratories where hazardous materials are handled or stored. 
+Prescription eyeglasses may be worn in lieu of safety glasses if not handling hazardous materials in the 
+laboratory, however safety glasses with side shields must be worn when handling hazardous materials. Safety 
+glasses, goggles, and goggles with a face shield should be worn in the laboratory based upon the physical state, 
+the volume, the operation, or the level of toxicity of the chemicals used. Goggles should be worn in situations 
+where bulk quantities of chemicals are handled and chemical splashes to the eyes are possible. Goggles form a 
+liquid-proof seal around the eyes, protecting them from splashes. When handling highly reactive substances, 
+chemicals under pressure, or larger quantities of corrosives, poisons, and hot chemicals, goggles with face shield 
+should be worn. 
+
+2.3.5 Protection of The Respiratory System 
+
+Inhalation hazards can be best controlled with local exhaust ventilation, such as a laboratory fume hood. 
+Respiratory protection can also be used as a secondary means to protect against inhalation hazards but is not 
+normally required in most laboratories. Check the label and SDS for information on a substance's inhalation 
+hazard and special ventilation requirements. Take appropriate precautions before using these substances. 
+Controlling inhalation exposures through engineering controls (e.g., ventilation) is always the preferred method. 
+As with other PPE, respiratory protection relies heavily on the fit of the respirator, work practices, and training to 
+be effective. 
+
+Respirators are designed to protect against specific substances at limited concentrations. Respirators must be 
+selected based on the specific hazard type (toxic chemical, oxygen deficiency, etc.), the contaminant's anticipated 
+airborne concentration, and the required protection factor. 
+
+Types of respiratory protective equipment include: 
+
+• Disposable N/P/R95 or HEPA filter masks (particle-removing respirators) 
+• Air purifying respirators (vapor, gas and/or particle removing – ½ mask, full face, or powered air 
+
+purifying (PAPR)) 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • Atmosphere supplying respirators (airline or SCBA) 
+
+Respirators are not to be used except in conjunction with a complete respiratory protection program as required by 
+OSHA. If your work requires the use of a respirator, contact your EHS Safety Advisor and your supervisor or PI. 
+Do not use respiratory protection equipment until you have met all elements of the written Yale University 
+Respiratory Protection Program. Users of respirators must be fitted to the proper size respirator, and thoroughly 
+trained in proper use, maintenance, storage and limitations of this equipment, the nature of the respiratory hazard, 
+and the signals of respirator failure. Medical surveillance to determine the person’s ability to physically wear a 
+respirator must also be conducted. This involves completing a medical surveillance questionnaire, which is 
+evaluated by the Employee Health Physician or Other Licensed Health Care Professional (PLHCP). The 
+Employee Health PLHCP will determine whether a physical examination is needed before providing medical 
+clearance to wear the respirator. No one is allowed to wear a respirator on campus without medical clearance 
+from the Employee Health Office and without approval and training from EHS. 
+
+Under some circumstances, laboratory personnel may wish to use respiratory protection equipment for their own 
+comfort or sense of well-being, even when there is no recognized hazard or overexposure. Respirator use in these 
+circumstances would be considered “voluntary”. For voluntary users, respirator fit testing is not required. 
+Voluntary users of filtering facepiece respirators (N95, N100) are also not required to undergo medical 
+clearances. Voluntary users of all other respirators are required to complete the medical clearance questionnaire 
+and obtain medical clearance. Anyone wearing a respirator under the voluntary use provision must complete the 
+Workday Learning course Voluntary Use of Respirators. See Yale University’s Respiratory Protection Program 
+for more information about respirator use requirements. 
+
+2.3.5 Laboratory Safety Equipment 
+
+2.3.5.1 Fume Hoods 
+
+Chemical fume hoods are the primary engineering control for reducing inhalation exposure to hazardous vapors, 
+gases, and particulates. When used properly, they protect laboratory personnel by capturing and exhausting 
+airborne contaminants away from the breathing zone. Fume hoods can also be used to isolate apparatus or 
+chemicals that may present physical hazards to Laboratory Personnel. The closed sash on a hood serves as a 
+barrier against fire, flying objects, and chemical splashes or spatter. 
+
+Standard fume hoods are typically certified to operate at approximately 100 feet per minute (fpm) (±20%) at the 
+normal operating sash height. High-performance fume hoods are designed to operate safely at lower face 
+velocities while maintaining effective containment and are certified in accordance with Yale EHS performance 
+criteria. All laboratory fume hoods are inspected and certified annually under the Yale EHS fume hood 
+certification program. 
+
+When using a chemical fume hood: 
+
+• Conduct work at least six inches inside the hood 
+• Keep the sash at or below the indicated operating height 
+• Avoid blocking air baffles or disrupting airflow 
+• Elevate large equipment to maintain airflow beneath the apparatus 
+• Minimize storage inside the hood 
+• Follow the instructions on the “Safe Use of Laboratory Fume Hoods” sticker posted on the hoods. 
+
+All operations involving volatile, toxic, reactive, or malodorous chemicals must be conducted in a functioning 
+chemical fume hood or other approved local exhaust ventilation system. Contact EHS with any questions or 
+concerns regarding engineering controls for specific operations. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ There are a wide variety of fume hood styles and systems on campus, including constant-volume and variable-air-
+volume systems. Some of these systems have been modified with energy-saving setbacks. These setbacks are 
+triggered by various factors, including sash position, motion sensors, and room light switches, often in 
+conjunction with the time of day. 
+
+Many constant air volume systems are on hoods that have a bypass design over the sash. These use more energy 
+than other hood systems because they operate on the principle of a constant air volume exhausted through the 
+hood, regardless of sash height. Many of the older fume hood systems on campus are bypass hoods with constant 
+air volume systems. With these hoods, the safe sash height is indicated by red arrows. The sash should stay in 
+that position during chemical handling. 
+
+Variable air volume systems use less energy than constant air volume systems because they are designed to keep 
+face velocity constant while exhaust volume decreases as the sash is lowered. The sashes on these hoods should 
+be kept as low as possible when not in use. Some of these systems are supplemented with motion sensors that 
+reduce flow rates when no one is actively working at the hood. 
+
+2.3.5.2 Filtering (Ductless) Fume Hoods 
+
+Filtering fume hoods, or ductless chemical fume hoods, recirculate air back to the laboratory after it passes 
+through a filter. They are offered by a variety of manufacturers. The primary safety concern with filtering fume 
+hoods is the risk that vapors may not be fully removed by the filter media and may be recirculated back into the 
+laboratory. These systems must be used with extreme caution. Yale EHS must be consulted before 
+purchasing or using ductless fume hood systems for chemical exposure control. These hoods may not be 
+purchased nor installed without prior approval from Yale EHS. 
+
+Applications where these units might be appropriate include particulate control, low-hazard chemical control, and 
+nuisance-odor control. Filtering hoods should not be used to protect laboratory workers from toxicologically 
+significant concentrations of hazardous chemicals. 
+
+2.3.5.3 Eyewashes and Safety Showers 
+
+Whenever chemicals may damage the skin or eyes, an emergency supply of water must be available. All 
+laboratories in which hazardous chemicals are handled should have ready access to plumbed, ANSI-approved 
+eyewash stations and safety showers. To ensure easy access and safe use of eyewashes and safety showers: 
+
+• Keep all passageways to eyewashes and safety showers clear of any obstacle. This includes temporary 
+
+storage for supplies, carts, and related items. There should be at least 32 inches of clear space around the 
+shower and 6 feet of clear space around the eyewash. 
+
+• Ensure that all laboratory personnel know the location of the nearest eyewashes and safety showers, and how 
+
+to operate them. 
+
+• Eyewashes should be checked routinely by laboratory personnel. Allow them to run for several minutes once 
+per week to clear out the supply lines. Submit a work request to Facilities Operations if the eyewash is not 
+functioning properly. 
+
+• Shower locations should be checked routinely by laboratory personnel to ensure that access is not restricted 
+
+and that the start chain or lever is within reach. 
+
+• The testing program for safety showers and eyewashes is managed by EHS. They are tested annually to 
+ensure proper operation and sufficient flow rates. Additional testing may be required for DPH-registered 
+laboratories. For more information, contact your Safety Advisor. 
+
+2.3.5.4 Fire Safety Equipment 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+20 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Fire safety equipment must be easily accessible to the laboratory and include the appropriate fire extinguisher(s) 
+(or fire hoses, fire blankets, and automatic extinguishing systems), as determined by the Yale Office of Fire Code 
+Compliance. 
+
+2.4 CHEMICAL PROCUREMENT, DISTRIBUTION, AND STORAGE 
+
+2.4.1 Chemical Management 
+
+Anyone purchasing a hazardous substance must be informed of the proper handling, storage, and disposal of this 
+material prior to receipt. It is the responsibility of the Principal Investigator, Manager, Director, or Supervisor to 
+ensure that the laboratory facilities in which the hazardous materials will be stored and handled are adequate and 
+that those who will handle the substance have received appropriate information and training. Safety Data Sheets 
+may provide some of the necessary information for handling these hazardous materials. No chemical container 
+should be accepted without an adequate identifying label as outlined in this manual. Chemicals identified on the 
+restricted items list because they are extremely hazardous, require special facilities/handling or are of special 
+interest for reporting reasons are flagged for approval by EHS upon purchase and included in a container-level 
+chemical inventory system. 
+
+The list of restricted chemicals is located at http://ehs.yale.edu/forms-tools/chemicals-requiring-ehs-pre-approval. 
+
+2.4.2 Distribution 
+
+All containers of hazardous chemicals should be transported in a secondary container, such as a chemical carrier. 
+These carriers are commercially available and provide secondary containment and "bump" protection. If several 
+bottles must be moved at once, they should be transported on a small cart with a substantial rim to prevent 
+slippage. Where available, a freight elevator should be used to transport chemicals between floors. The 
+stockrooms will not allow purchases of hazardous liquids unless a chemical carrier is available to return the 
+containers to the laboratory. 
+
+2.4.3 Chemical Storage in the Laboratory 
+
+Carefully read the label before storing a hazardous chemical. The SDS will provide any special storage 
+information and information on incompatibilities. The requirements in this section apply to chemicals in storage 
+ONLY, not to working containers. 
+
+This section details basic guidelines for chemical storage. However, some chemicals may fall into multiple 
+hazard categories, and the label and SDS should be reviewed for specific storage requirements. Segregation of 
+chemicals may be achieved by adequate distance or by a physical barrier such as a secondary container, tray, or 
+cabinet. 
+
+Basic guidelines for chemical storage by compatibility are as follows: 
+
+Solids 
+Most solid chemicals can be stored together, but the following classes of solid hazardous materials should be kept 
+separated. This separation may often be achieved with distance, trays, or other secondary containment: 
+
+• Flammable solids (ex: phosphorus, magnesium, lithium) 
+• Water reactives (ex: calcium carbide, magnesium, lithium, potassium, sodium) 
+• Highly toxic solids (ex: cyanide salts, sulfide salts, osmium tetroxide) 
+
+Liquids 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • Flammables (ex: acetone, diethyl ether, ethanol, hexanes, methanol, xylene) 
+• Acids (separate organic acids from oxidizing mineral acids) 
+
+o Oxidizing mineral acids (ex: sulfuric, nitric, chromic, perchloric) 
+o Organic acids (ex: acetic, butyric, formic, propionic) 
+
+• Bases (ex: ammonium hydroxide, sodium hydroxide, potassium hydroxide) 
+• Oxidizers (ex: bromine, hydrogen peroxide, oxidizing acids) 
+
+Gases 
+
+o Flammable gases (ex: hydrogen) 
+o Oxidizing gases (ex: oxygen) 
+o Toxic gases (ex: ammonia, carbon monoxide) 
+
+Once separated into the above hazard classes, chemicals may be stored alphabetically. 
+
+It is preferable to store flammable chemicals in flammable storage cabinets, if available. Up to 10 gallons of 
+flammable liquids may be stored outside rated flammable storage cabinets or safety cans in any laboratory. 
+
+Flammable chemicals requiring refrigeration may only be stored in refrigerators and freezers specifically designed 
+for flammable storage. 
+
+Keep flammable liquids away from oxidizing acids, oxidizers, and ignition sources. 
+
+Hazardous chemicals should generally not be stored on bench tops, directly on the floor, or under sinks. 
+Reasonably small amounts of closed containers of chemicals may be kept in the fume hood or on the bench, if 
+necessary. Chemicals that are incompatible with adjacent chemicals should be put in a separate tray. Containers 
+in fume hoods do not need to be in trays. 
+
+Closed containers of acids and bases may be stored in the same cabinet if segregated by placing them in trays or 
+other secondary containment. 
+
+Corrosive, flammable, or toxic liquids cannot be stored above eye level (~5 feet). 
+
+Avoid exposure of stored chemicals to heat sources (especially open flames) and direct sunlight. 
+
+Conduct and review periodic inventories of chemicals stored in the laboratory and dispose of old or unwanted 
+chemicals promptly in accordance with the EHS hazardous chemical waste program. 
+
+Ensure all containers are properly labeled with the contents' identity and any appropriate hazard warnings. 
+
+For more information on chemical storage, contact your supervisor or your EHS Safety Advisor. 
+
+2.4.3.1 Chemical Storage - Chemical Stability 
+
+Stability refers to a chemical's susceptibility to hazardous decomposition. The label and SDS will indicate if a 
+chemical is unstable. 
+
+See SECTION 3.2 HIGHLY REACTIVE CHEMICALS & HIGH ENERGY OXIDIZERS for information 
+on handling and storage limitations of these compounds. 
+
+Special note: peroxide formers 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+22 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chemicals that can form explosive peroxide crystals on exposure to air require special handling 
+procedures after the container is opened. Some chemicals form peroxides that are violently explosive in 
+concentrated solution or as solids; therefore, they should never be evaporated to dryness. Others are 
+unsaturated polymerizable compounds that can initiate a runaway, explosive polymerization reaction. 
+All peroxidizable compounds should be stored away from heat and light. They should be protected from 
+physical damage and ignition sources. All containers of peroxide formers must be dated upon receipt 
+and again upon opening. For specific information on storage and testing of these compounds, refer to 
+the “Peroxide Forming Chemicals” safety guidelines at ehs.yale.edu. 
+
+For additional information on chemical stability, contact your supervisor or your EHS Safety Advisor. 
+
+2.5 CHEMICAL RELEASES 
+
+2.5.1 General Information 
+
+Anticipate the types of chemical releases that can occur in the laboratory and ensure that all laboratory personnel 
+know the appropriate steps to take if a release occurs. This includes keeping the necessary equipment (e.g., spill 
+kits and PPE) in the lab to respond to minor spills, learning how to safely clean up minor spills of regularly used 
+chemicals, and knowing what to do if there is a leak from a compressed gas cylinder or from piped gases. 
+
+If the release or spill is too large to handle, requires respiratory protection, is a threat to personnel, students, or the 
+public, or involves a highly toxic or reactive chemical, call for assistance immediately: 
+
+Yale Environmental Health and Safety - Hazardous Materials Emergency Response 203-785-3555 
+
+Yale EHS is equipped to handle most spills that may occur on the University campus. If there is any doubt about 
+how to proceed, request assistance from EHS. 
+
+The following compounds are very hazardous. You should not clean them up yourself, no matter how small 
+the spill: 
+
+- Aromatic amines 
+- Bromine 
+- Carbon disulfide 
+- Cyanides 
+
+- Hydrazine 
+- Organic Halides 
+- Nitriles 
+- Nitro compounds 
+
+2.5.2 Minor Chemical Spill 
+
+Chemical spills should only be cleaned up by trained, knowledgeable, and experienced personnel. 
+Trained laboratory personnel can clean up most minor spills without direct EHS assistance if they are comfortable 
+doing so, fully understand the hazards of the spilled material, and know the methods to protect themselves. They 
+should follow the procedure below for cleaning up: 
+
+• Review the SDS section on spill clean-up 
+• Alert people in the immediate area and restrict access to the spill location. 
+• Avoid vapor or dust from spills. If dry/powder material is spilled, minimize air disturbances and drafts. 
+
+However, if a spill involves a volatile liquid, increase ventilation if possible. 
+
+• Confine liquid spills with absorbent materials to minimize spread. 
+• 
+
+Identify the materials involved, quantity, and specific location of the spill. Review the SDS for additional 
+information. Evaluate hazard(s) and address personal contamination/injury. Summon any additional 
+emergency services needed. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ • To clean up a minor chemical spill, wear PPE appropriate to the hazard – if respiratory protection is 
+needed, the incident is NOT minor. Refer to the Laboratory Hazard Assessment Tool (LHAT). 
+
+• Use an appropriate kit to absorb or neutralize spilled material. Work from the perimeter inwards. Collect 
+the residue with a scoop or dustpan, place it in a heavy plastic bag or another receptacle, affix a hazardous 
+waste label describing the contents, and contact Yale EHS for waste pickup. 
+
+• Clean spill area with soap and water. 
+• 
+
+If the floor finish has been damaged, contact Custodial Services. 
+
+If there are any concerns or questions about the ability to safely clean the spill, EHS should be contacted. 
+
+2.5.3 Major Chemical Spill 
+
+• Attend to injured or contaminated persons and remove them from exposure if safe to do so. 
+• Alert people in the laboratory to evacuate. 
+• 
+• 
+• Close doors to the affected area. 
+• Call the 24-hour Yale Hazardous Materials Emergency Response number (203-785-3555) to report 
+
+If spilled material is flammable, turn off ignition and heat sources. 
+If you can do so safely, place spill cleanup material over the spill to keep the substance from volatilizing. 
+
+the incident and request assistance. 
+
+• Have a person with knowledge of the incident and laboratory available to answer questions from 
+
+responding emergency personnel. 
+
+2.5.4 Small Mercury Spills 
+
+Contact EHS if you have a mercury spill that exceeds the amount in a standard laboratory thermometer, or if 
+you require assistance with cleaning up any amount of spilled mercury. 
+Follow these steps to clean up a small mercury spill: 
+• Do not use a domestic or commercial vacuum cleaner. 
+• Use a disposable pipette to pick up mercury droplets. 
+• Cover small droplets in inaccessible areas with powdered sulfur or zinc. 
+• Place residue in a labeled container and call Yale EHS for disposal information. 
+• Contact EHS to determine if it is necessary to monitor mercury vapor levels in the room after clean-up. 
+
+2.5.5 Alkali Metal Spills 
+
+• Smother with powdered graphite, sodium carbonate, or calcium carbonate or "Met-L-X", call EHS for 
+
+assistance. 
+
+2.5.6 Compressed Gas Leak 
+
+If a cylinder leak cannot be stopped by tightening the valve gland or packing nut, follow the appropriate 
+guidelines below: 
+
+Inert gas: Place the cylinder in a well-ventilated location and contact the vendor for removal. 
+
+• 
+• Toxic or Corrosive gas: 
+
+ Attend to injured or contaminated people and remove them from exposure. 
+ Alert people in the laboratory to evacuate. 
+ Close doors to the affected area. 
+ Call the 24-hour Yale Hazardous Materials Emergency Response number (203-785-3555) to 
+
+report the incident and request assistance. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+24 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Have a person with knowledge of the incident and laboratory available to answer questions from 
+
+responding emergency personnel. 
+
+• Flammable gas: 
+
+ Turn off sources of ignition if safe to do so. 
+ Alert people in the laboratory to evacuate. 
+ Close doors to the affected area. 
+ Call the 24-hour Yale Hazardous Materials Emergency Response number (203-785-3555) to 
+
+report the incident and request assistance. 
+
+ Have a person with knowledge of the incident and laboratory available to answer questions from 
+
+responding emergency personnel. 
+
+2.6 
+
+PERSONAL CONTAMINATION AND INJURY 
+
+2.6.1 General Information 
+
+• Know the locations of the nearest emergency safety shower, eye wash station, and fire extinguisher. 
+• Report all incidents and injuries to your supervisor. 
+• Do not move an injured person unless they are in further danger from inhalation or skin exposure. 
+• Get medical attention promptly by dialing: 
+
+Yale University Police (ambulance) 
+Yale Health Acute Care (minor medical) 
+Yale EHS Hazardous Materials Emergency Response 
+
+911 (from a Yale phone) or 203-432-4400 
+203-432-0123 
+203-785-3555 
+
+2.6.2 Chemicals Spills to the Body 
+
+• Remove any contaminated clothing or footwear. 
+• 
+
+Immediately flood the affected body area with water for at least 15 minutes using the nearest emergency 
+shower. 
+
+• Call or have a co-worker call for medical assistance by dialing 911. 
+• Contact EHS emergency (203-785-3555) for assistance, to clean up any hazardous materials spill, and to 
+
+report incident. 
+
+• Obtain SDS or other information source for the chemical involved and provide to the appropriate emergency 
+
+responder and health care provider. 
+
+Some chemicals (e.g., phenol, aniline) are rapidly absorbed through the skin. If a large enough area of skin is 
+contaminated, an adverse health effect (systemic toxicological reaction) may occur immediately to several hours 
+after initial exposure, depending on the chemical. In general, if more than a few square inches of skin are exposed 
+to a hazardous chemical, seek medical attention after washing the material off the skin. 
+
+2.6.3 Chemical Splash in the Eye 
+
+• Flush the eyeball(s) and inner surface of eyelid(s) with plenty of water for at least 15 minutes. Using a 
+
+nearby safety eyewash, forcibly hold eyelids open to ensure effective rinsing. 
+
+• Call or have a co-worker call for medical assistance. 
+• Check for and remove contact lenses if possible. 
+• Get medical attention promptly. Obtain SDS or other information source for the chemical involved and 
+provide to the appropriate emergency responder and health care provider. Contact Yale EHS at 203-785-
+3555 for assistance and to report exposure. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.6.4 
+
+Ingestion of Hazardous Chemicals 
+
+Identify chemical ingested. If available, save container for reference. 
+
+• Call or have a co-worker call for medical assistance. 
+• 
+• Do not induce vomiting or drink water or other liquids unless instructed to do so by medical responders. 
+• Cover victim for warmth/prevent shock. Remain with victim. 
+• Provide the ambulance crew and PLHCP with as much information about the material ingested as 
+possible. If available, send the container, container label, or product Safety Data Sheet with the 
+emergency responders. 
+
+• Contact Yale EHS at 203-785-3555 for assistance and to report exposure. 
+
+2.6.5 
+
+Inhalation of Smoke, Vapors and Fumes 
+
+Anyone overcome by smoke, chemical vapors, or fumes should be moved to uncontaminated air and treated for 
+shock if it is safe to do so. Do not enter the area if you believe a life-threatening condition still exists - oxygen 
+depletion, explosive vapors, or highly toxic gases (ex: cyanide gas, hydrogen sulfide, nitrogen oxides, carbon 
+monoxide, arsine, phosphine) 
+
+• Remove the exposed person to uncontaminated air and treat for shock (sit or lie down, cover to keep 
+
+warm, remain with the victim). 
+
+• Call or have a co-worker call 911 for medical assistance. 
+• Contact Yale EHS at 203-785-3555 for assistance and to report exposure. 
+• Get medical attention promptly. 
+
+2.6.6 Organo-Heavy Metal Compounds 
+
+Many organic forms of heavy metals (e.g., dimethyl mercury, tetraethyl lead) are extremely toxic and highly 
+permeable to most common personal protective equipment. If you or a co-worker suspects direct contact with 
+these compounds, follow the procedures listed for Chemical Spills to the Body, and immediately obtain 
+professional medical attention. 
+
+2.6.7 Cyanide 
+
+Cyanide antidote kits are available at the YNHH emergency room, which is where cyanide victims should be 
+directed. Immediately summon emergency medical assistance, indicating that the exposure involved cyanide. 
+Follow the steps outlined above for chemical exposures. However, in the event of inhalation or ingestion of 
+cyanide, DO NOT give mouth-to-mouth resuscitation as this may cause serious exposure to the rescuer. 
+
+2.6.8 Hydrogen Fluoride/Hydrofluoric Acid 
+
+Hydrogen fluoride and hydrofluoric acid cause severe, deeply penetrating burns to the skin, eyes, and lungs. 
+Although concentrated forms of these compounds are readily perceived by a burning sensation, more dilute forms 
+are often imperceptible for many hours. This potential time delay between exposure and treatment can lead to 
+insidious and difficult-to-treat burns. Calcium gluconate gel is an effective treatment for hydrofluoric acid 
+exposure. Every laboratory and location where HF is used or stored should have a tube of calcium gluconate gel 
+readily available. Yale EHS currently purchases and distributes the gel free-of-charge to all HF user locations. 
+Please contact your Safety Advisor or EHS if you work with HF and need calcium gluconate. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+26 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.6.8.1 Skin Exposure to HF 
+
+• Remove any contaminated clothing or footwear. 
+• 
+
+Immediately flood the affected body area with cool water for at least 15 minutes (limit to 5 minutes if 
+calcium gluconate gel is available). 
+
+• Call or have a co-worker call for medical assistance. 
+• Gently rub calcium gluconate ointment onto the affected area and continue to apply until medical 
+
+response arrives. 
+
+• Await emergency medical responders, informing them and all others that the exposure involved hydrogen 
+
+fluoride/hydrofluoric acid. 
+
+2.6.8.2 Eye Exposures to HF 
+
+• 
+
+Immediately flush eyes for at least 15 minutes with cool, flowing water. Hold the eyelids open and away 
+from the eye during irrigation to ensure thorough flushing. 
+• Contact 911 and inform dispatcher that eye exposure involves HF. 
+• Continue to rinse in eyewash until EMS arrives. 
+
+2.6.8.3 Inhalation Exposures to HF 
+
+• Move inhalation exposure victim to clean air. 
+• Call or have a co-worker call for medical assistance. 
+• Await emergency medical responders, informing them and all others that the exposure involved hydrogen 
+
+fluoride/hydrofluoric acid. 
+
+2.6.9 Phenol 
+
+Phenol or phenol-containing products (e.g., Trizol or QIAzol) are toxic by inhalation, skin absorption, and 
+ingestion. They are corrosive, causing skin burns and eye damage. Phenol is readily absorbed through the skin 
+and can cause systemic effects. It has an anesthetic effect, and therefore, the burn may not be immediately 
+noticeable due to numbness. PEG 300/400 is an effective treatment for skin contact with phenol. Every 
+laboratory and location where phenol is used or stored should have a bottle of PEG 300/400 readily available. 
+Please contact your Safety Advisor or EHS if you work with phenol and need PEG 300/400. 
+
+2.6.9.1 Skin Exposure to Phenol/Phenol-containing products 
+
+• Remove contaminated clothing. 
+• Swab area repeatedly with PEG 300/400, changing out with fresh swabs frequently. 
+• Continue PEG swabbing until EMS arrives or odor is no longer detectable. 
+• Use the emergency shower for 15 minutes if no PEG is available. 
+
+2.6.9.2 Eye Exposures to Phenol/Phenol-containing products 
+
+• 
+
+Immediately flush eyes for at least 15 minutes with cool, flowing water. Hold the eyelids open and away 
+from the eye during irrigation to allow thorough flushing. 
+
+• Contact 911 and inform the dispatcher that eye exposure involves phenol. 
+• Continue to rinse in eyewash until EMS arrives. 
+
+2.6.9.3 Inhalation Exposures to Phenol/Phenol-containing products 
+
+• Move the inhalation exposure victim to clean air. 
+• Call or have a co-worker call for medical assistance. 
+• Await emergency medical responders, informing them and all others that the exposure involved phenol/ 
+
+2.7 
+
+FIRE AND OTHER RELATED EMERGENCIES 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+27 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ If you discover a fire or smoke, immediately follow these procedures: 
+
+• Notify the Fire Department by dialing 911 
+• Activate the building alarm (fire pull station). 
+• Shut down equipment in the immediate area, if possible. 
+• 
+• 
+
+Isolate the area by closing windows and doors and evacuate the building. 
+If trained to do so, use a portable fire extinguisher to: 
+ assist oneself in evacuating; 
+ assist another to evacuate; and 
+ control a small fire, if possible. 
+
+Provide the fire/police with the details of the problem upon their arrival. Special hazard information you may 
+know is essential to the safety of emergency responders. 
+
+If the fire alarms are ringing in your building: 
+
+• You must evacuate the building and stay out until you are notified to return. 
+• Move upwind from the building and stay clear of streets, driveways, sidewalks, and other access ways to 
+
+• 
+
+the building. 
+If you are a supervisor, try to account for lab personnel, keep them together, and report any missing 
+persons to the emergency personnel at the scene. 
+
+If you notice/discover a natural gas leak, burning odor, or abnormal heating of material, immediately follow these 
+procedures: 
+
+• Notify the Facilities Operations at 203-432-6888; 
+• Shut down equipment in the immediate area, if possible; 
+• 
+• Evacuate the area. 
+
+If a building natural gas leak is suspected, use the emergency gas shut-off for the affected area; 
+
+2.8 CHEMICAL WASTE DISPOSAL PROGRAM 
+
+Laboratory chemical waste must be handled in accordance with the University's policy and management 
+guidelines outlined in the Management of Hazardous Waste Procedure, available at ehs.yale.edu. The 
+University's waste management practices are designed to ensure a safe and healthy environment for laboratory 
+personnel and the surrounding community, without adversely affecting the environment. This is accomplished by 
+regularly removing chemical waste from University facilities and disposing of it in compliance with local, state, 
+and federal regulations. The manual provides laboratory personnel with specific guidance on identifying, 
+handling, collecting, segregating, storing, tagging, and disposing of chemical waste appropriately. For additional 
+information on Yale's chemical waste management program, contact your EHS Safety Advisor. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+28 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SECTION 3.0 HEALTH AND SAFETY INFORMATION FOR WORK WITH 
+CHEMICALS OF SPECIFIC HAZARD CLASS 
+
+In addition to the information in the following section, general guidance on safe work practices involving a 
+specific chemical or hazard class can be found at https://ehs.yale.edu/restricted-particularly-hazardous-substances 
+for the following: 
+
+Specific Chemicals 
+Acrolein 
+Aqua Regia 
+Hydrofluoric Acid 
+Isoflurane 
+Osmium Tetroxide 
+Phenol 
+Piranha 
+Potassium or Sodium Cyanide 
+Sodium Azide 
+Tetramethylammonium Hydroxide 
+(Trimethylsilyl) Diazomethane 
+
+Class/Group of Chemicals 
+Acutely Toxic Materials 
+Carcinogens 
+Corrosives 
+Flammable Liquids 
+Organic Peroxides and Peroxide-Forming Compounds 
+Particularly Hazardous Substances 
+Potentially Explosive and Explosive Compounds 
+Pyrophoric and Reactive Compounds 
+Strong Oxidizers 
+Corrosives 
+Flammable liquids 
+
+3.1 
+
+FLAMMABLE LIQUIDS 
+
+3.l.l General Information 
+
+Flammable liquids are among the most common hazardous materials found in laboratories. They are usually 
+highly volatile (have high vapor pressures at room temperature) and their vapors, mixed with air at the appropriate 
+ratio, can ignite and burn. The lowest temperature at which they can form an ignitable vapor/air mixture (the flash 
+point) is less than 100°F. For many common laboratory solvents, such as ether, acetone, toluene, and 
+acetaldehyde, the flash point is well below room temperature. As with all solvents, their vapor pressure increases 
+with temperature and, therefore, as temperatures increase, they become more volatile and more hazardous. 
+
+For a fire to occur, three distinct conditions must exist simultaneously: (1) the concentration of the vapor must be 
+between the upper and lower flammable limits of the substance (the right fuel/air mix); (2) an oxidizing 
+atmosphere, usually air, must be available; and (3) a source of ignition must be present. Removal of any of these 
+three conditions will prevent a fire from starting. Flammable liquids may form flammable mixtures in open or 
+closed containers or spaces (such as refrigerators) when heated or when leaks or spills occur in the laboratory. 
+
+Strategies for preventing the ignition of flammable vapors include removing all sources of ignition or maintaining 
+the concentration below the lower flammability limit by using local exhaust ventilation, such as a fume hood. 
+The former strategy is more difficult due to the numerous ignition sources in laboratories, including open flames, 
+hot surfaces, operating electrical equipment, and static electricity. 
+
+The concentrated vapors of flammable liquids are usually heavier than air and can travel away from a source for a 
+considerable distance across laboratories, into hallways, and down elevator shafts or stairways. If the vapors 
+reach a source of ignition, a flame may result that can flash back to the vapor source. 
+
+The risk of fire and explosion posed by flammable liquids can usually be eliminated or minimized by strict 
+adherence to safe handling, dispensing, and storage procedures. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+29 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3.1.2 Special Handling Procedures 
+
+When working with flammable liquids, chemical-resistant gloves, safety glasses or goggles, and lab coats must be 
+worn. Long pants or clothing that covers the legs, and closed-toe, solid-top shoes must always be worn in any 
+laboratory. Wear tight-fitting chemical goggles when dispensing solvents or performing an operation that could 
+result in a splash to the eyes. 
+
+Flammable liquids should always be handled in a chemical fume hood or under other local exhaust ventilation. 
+When dispensing flammable solvents into small storage containers, use metal or plastic containers or safety cans 
+and avoid glass containers. If splash risk is high, wear a face shield in addition to goggles. 
+
+Make sure that metal surfaces or containers through which flammable substances are flowing are properly 
+grounded to discharge static electricity. Free-flowing liquids generate static electricity that can produce a spark 
+and ignite the solvent. 
+
+Larger quantities of flammable liquids must be handled in areas free of ignition sources (including spark-emitting 
+motors and equipment) using non-sparking tools. Remember that vapors are heavier than air and can travel to a 
+distant source of ignition. 
+
+Never heat flammable substances by using an open flame. Instead, use any of the following heat sources: steam 
+baths, water baths, oil baths, heating mantles, or hot air baths. Do not distill flammable substances under reduced 
+pressure. 
+
+Store flammable substances away from ignition sources. Flammable liquids should be stored inside rated 
+flammable storage cabinets. If no flammable storage cabinet is available, small quantities may be stored in a 
+cabinet under the hood or bench, or on a shelf below eye level. Five-gallon containers should only be stored in a 
+flammable cabinet. 
+
+The total volume of flammable liquids kept outside of rated flammable cabinets and safety cans should not exceed 
+10 gallons at any one time in the laboratory. Never store containers of flammable liquids or other hazardous 
+chemicals directly on the floor. 
+
+Oxidizing and corrosive materials should not be stored with flammable liquids. A tray could be used to separate 
+containers if necessary. Flammable liquids should never be stored or chilled in domestic refrigerators and 
+freezers but in units specifically designed for this purpose. It is acceptable to store or chill flammables in ultra-
+low temperature units. 
+
+If flammable liquids are placed in ovens, ensure they are appropriately designed for flammable liquids (no 
+internal ignition sources and mechanically vented). Make sure the solvent's autoignition temperature is above the 
+oven temperature or its internal elements. 
+
+3.2 HIGHLY REACTIVE CHEMICALS & HIGH ENERGY OXIDIZERS 
+
+3.2.1 General Information 
+
+Highly reactive chemicals include those that are inherently unstable and susceptible to rapid decomposition, as 
+well as chemicals that, under specific conditions, can react alone or with other substances in a violent, 
+uncontrolled manner, liberating heat, toxic gases, or leading to an explosion. Because reaction rates increase 
+dramatically with temperature, if heat evolved from a reaction is not dissipated, the reaction can accelerate out of 
+control, resulting in injuries or costly accidents. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+30 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Air, light, heat, mechanical shock, water, and certain catalysts can cause violent decomposition of some highly 
+reactive chemicals. Examples include hydrogen and chlorine, which can react explosively in the presence of 
+light. Alkali metals, such as sodium, potassium, and lithium, will react violently with water, liberating hydrogen 
+gas. Examples of shock-sensitive materials include acetylides, azides, organic nitrates, nitro compounds, and 
+many peroxides. 
+
+Organic peroxides are a special class of compounds that exhibit unusual stability issues, making them among the 
+most hazardous substances commonly handled in laboratories. As a class, organic peroxides are low-powered 
+explosives. Organic peroxides are extremely sensitive to light, heat, shock, sparks, and other forms of accidental 
+ignition; as well as to strong oxidizing and reducing materials. All organic peroxides are also highly flammable. 
+Examples of organic peroxides found in laboratories include concentrated benzoyl peroxide and methyl ethyl 
+ketone peroxide (MEKP). 
+
+Peroxide formers can form reactive peroxides during storage, especially after exposure to air (once opened). 
+Peroxide-forming substances include: aldehydes, cyclic ethers, compounds containing benzylic hydrogen atoms, 
+compounds containing the allylic structure (including most alkenes), and vinyl and vinylidine compounds. 
+
+3.2.2 Special Handling Procedures for Highly Reactive Compounds 
+
+Before working with highly reactive materials or high-energy oxidizers, review the available literature to obtain 
+specific safety information. The proposed reactions should be discussed with the principal investigator or your 
+supervisor. An SOP needs to be developed, reviewed, and made available for work involving these materials. 
+
+When working with highly reactive compounds and high-energy oxidizers, always wear the following PPE: lab 
+coats, chemical-resistant gloves, and safety glasses/goggles. Long pants or clothing that covers the legs to the 
+ankles, and closed-toe, solid-top shoes must always be worn when working with hazardous materials in the 
+laboratory. A face shield should be worn in addition to protective eyewear, depending on the scale and nature of 
+the material and the reaction. Refer to the Laboratory Hazard Assessment Tool (LHAT) to determine the 
+appropriate personal protective equipment for the operation. 
+
+Minimize the amount of highly reactive material involved in any experiment; the smallest amount sufficient to 
+achieve the desired result should be used. Scale-ups should be handled with great care, with consideration of 
+reaction vessel size and cooling, heating, stirring, and equilibration rates; a separate SOP should be conducted for 
+all scale-ups. A new risk assessment is required for any scale-up of procedures involving highly reactive 
+materials. 
+
+Keep only the minimum amount of highly reactive compounds stored in the laboratory. The key to safely 
+handling reactive chemicals is to keep them isolated from the substances that initiate their violent reactions. 
+Unused reactive compounds should never be returned to their original container but should be discarded as 
+hazardous waste. 
+
+Do not work alone. All operations involving highly reactive and explosive chemicals should be performed 
+during the normal workday or when other laboratory personnel are available, either in the same laboratory or in 
+the immediate area. 
+
+Perform all manipulations of highly reactive or high-energy oxidizers inside a chemical fume hood. Some factors 
+to consider when assessing the hood's adequacy include its size relative to the reaction and required equipment, 
+and the ability to fully close the sash. Keep the sash between you and the highly reactive material and use a blast 
+shield as needed. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Handle highly reactive chemicals away from direct light, open flames, and other sources of heat. Oxidizing agents 
+should only be heated with fiberglass heating mantles or sand baths. 
+
+Make sure that the reaction equipment is properly secured. Reaction vessels should be supported from beneath 
+with tripods or lab jacks. Use shields or guards that are clamped or secured. If possible, use remote controls for 
+controlling the reaction, such as cooling, heating, and stirring controls. These should be located outside the shield 
+or hood. 
+
+Store highly reactive chemicals and high-energy oxidizers in closed cabinets segregated from the materials with 
+which they react, inside secondary containment. Do not store these substances above eye level or on open 
+shelves. 
+
+Never distill substances contaminated with peroxides. Never use a metal spatula with peroxides, since 
+contamination by metals can lead to explosive decompositions. 
+
+Store peroxides and peroxide-forming compounds in a cool, dark location. If you use a refrigerator, make sure it 
+is rated for storing flammable substances. Store light-sensitive compounds in light-tight containers. Store water-
+sensitive compounds away from water sources. 
+
+Handle shock-sensitive substances gently, avoid friction, grinding, and all forms of impact. Glass containers that 
+have screw-cap lids or glass stoppers should not be used with shock-sensitive materials. 
+
+Labels on peroxide-forming and shock/heat-sensitive substances must include the date the container was received 
+and the date it was first opened. Information on proper use, testing, and storage of these chemicals can be found 
+in the “Peroxide Forming Chemicals” safety guidelines at ehs.yale.edu. Perchloric acid is a high-energy oxidizer 
+that can volatilize and condense in the ventilation system, leaving highly reactive perchlorate crystals that can 
+pose a serious fire and explosion hazard. Perchlorates can form if perchloric acid is highly concentrated (>72%) 
+or if any concentration is heated above room temperature. Inorganic oxidizers such as perchloric acid can react 
+violently with most organic materials and must be stored and used separately from organic materials. Any 
+handling and work with large volumes of perchloric acid, or with highly concentrated or heated perchloric acid, 
+can only be conducted in a dedicated perchloric acid fume hood with a functioning wash-down system. Please 
+notify Yale EHS if you plan to heat perchloric acid, use highly concentrated solutions, or large volumes. 
+
+3.2.4 Special Handling Procedures for Pyrophoric and Water-Reactive Chemicals 
+
+Pyrophoric and water-reactive materials can ignite spontaneously on contact with air, moisture, oxygen, or water. 
+Failure to follow proper handling procedures can result in fire or explosion with the potential to cause significant 
+damage to facilities, serious injuries, and death. Purchases of these chemicals are flagged as Restricted and are 
+routed to EHS for approval. Anyone using pyrophoric compounds must complete the “Pyrophoric Safety 
+Program” in Workday Learning prior to beginning work. 
+
+Basic rules for working with pyrophoric chemicals at Yale University are as follows: 
+
+Clothing and PPE Requirements: Non-synthetic clothing should be worn when working with pyrophoric 
+chemicals. In addition, always wear a flame-resistant lab coat when working with any material that can ignite in 
+air, including pyrophoric liquids and alkali metals. For larger volumes, flame-resistant “flight gloves” made of 
+aramid fiber should be worn. These are not chemically resistant, but they can be worn over exam-style nitrile 
+gloves. Flame-resistant lab coats and flight gloves are available through Workday. The Laboratory Hazard 
+Assessment Tool (LHAT) should be used to determine the appropriate PPE requirements. Contact EHS for more 
+information. 
+
+Look to use less reactive materials whenever possible. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+32 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Never work alone when handling pyrophoric or highly reactive materials. Always let others in the laboratory 
+know when you are working with these materials and try to schedule your work during normal working hours. 
+
+Before working with pyrophoric material, review available reference literature to obtain specific safety 
+information. The proposed reactions should be discussed with your Principal Investigator or your supervisor. An 
+SOP should be developed, reviewed, and available for work involving these materials. 
+
+Always minimize the amount of material involved in the experiment; the smallest amount sufficient to achieve the 
+desired result should be used. Scale-ups should be handled with great care, with consideration of reaction vessel 
+size and cooling, heating, stirring, and equilibration rates. A new risk assessment is required for any scale-up of 
+procedures involving pyrophoric chemicals. 
+
+Only work with pyrophoric chemicals in areas with an ANSI-approved eyewash and safety shower nearby. Be 
+sure to know where they are located and the procedures to follow in the event of an emergency prior to beginning 
+work. 
+
+Be sure to have the appropriate fire extinguisher nearby before beginning work with pyrophoric materials. Note 
+that Class D extinguishers are necessary for fires involving alkali metals, but dry chemical extinguishers (ABC, 
+BC) are appropriate for fires involving liquid organolithium reagents. 
+
+3.2.4.1 Additional Special Handling Procedures for Organolithium Compounds 
+
+Organolithium compounds are commonly used for organic chemical synthesis. Anyone planning to work with 
+organolithium compounds must also follow the additional requirements outlined below. 
+
+• Complete the Workday Learning Training in the “Pyrophoric Safety Program.” 
+• Dispose of containers as hazardous waste within 1 month of opening. 
+• Only purchase the amount that you plan to use for each experiment. 
+• Review the Aldrich technical bulletins AL-134 “Handling Air-Sensitive Reagents” and AL-164 
+
+“Handling Pyrophoric Reagents”. 
+
+• Work inside the fume hood with the horizontal sash positioned in front of you to protect you from any 
+splash that may occur. If your fume hood does not have a horizontal sash, use a splash or blast shield 
+positioned in front of the bottle when drawing the liquid into the syringe. 
+
+3.3 COMPRESSED GASES 
+
+3.3.1 General Information 
+
+Compressed gases present both physical and potential chemical hazards, depending on the gas. Gases contained 
+in cylinders may be from any of the hazard classes described in this section (flammable, reactive, corrosive, or 
+toxic). Because these are compressed gases, concentrations in the laboratory can increase rapidly if leaks develop 
+at the regulator or in the piping system, posing a risk of hazardous chemical exposure or a fire/explosion. Even 
+inert gases such as nitrogen or argon can displace room oxygen if accidentally released. Often, there is little or no 
+indication that leaks have occurred or are occurring. In addition, the large amount of potential energy resulting 
+from the compression of the gas makes a compressed gas cylinder a potential rocket or fragmentation bomb if the 
+tank or valve is physically broken. 
+
+3.3.2 Special Handling Procedures 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+33 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Wear safety glasses, gloves, a long-sleeved lab coat, long pants, and closed-toe, solid top shoes when handling 
+compressed gases. Refer to the Laboratory Hazard Assessment Tool for specific PPE requirements for your 
+operation. 
+
+The contents of any compressed gas cylinder should be clearly identified. No cylinder should be accepted for use 
+that does not legibly identify its contents by name. Color coding is not a reliable means of identification. 
+
+Carefully read the label before using or storing compressed gas. The SDS will provide additional hazard 
+information. 
+
+All gas cylinders should be clearly marked indicating whether they are in use, full, or empty. 
+
+All gas lines leading from a remote compressed gas supply should be clearly labeled to identify the gas and the 
+laboratory served. 
+
+All cylinders, including empty ones, must be stored securely with the regulator removed and valve protection cap 
+in place. Use suitable racks, straps, chains, or stands to support cylinders, and keep them away from heat sources. 
+Store as few cylinders as possible in your laboratory. 
+
+Transport gas cylinders in carts, one or two at a time, only while they are secured and capped. Do not move gas 
+cylinders by rolling them. 
+
+Place gas cylinders so the cylinder valve is always accessible. The main cylinder valve should be closed as soon 
+as the gas flow is no longer needed. Do not store gas cylinders with the regulator under pressure. 
+
+Use the wrenches or other tools provided by the cylinder supplier to open a valve if necessary. Pliers should not 
+be used to open a cylinder valve or attach a regulator or pigtail. 
+
+Use a leak check solution to detect leaks. Leak test the regulator, pigtail connections, and any piping system after 
+performing maintenance or making modifications that could affect the integrity of the system. Always use a leak-
+check solution approved for oxygen whenever leak-checking oxygen or nitrous oxide cylinders. 
+
+Oil or grease on the high-pressure side of an oxygen cylinder can cause an explosion. Do not lubricate an oxygen 
+regulator. 
+
+In general, avoid purchasing lecture bottles. These cylinders are not returnable, and disposing of them is 
+extremely difficult and costly. Small refillable cylinders may be an available alternative or use the smallest 
+returnable-sized cylinder. Any purchase of lecture bottles must be approved by Yale EHS. 
+
+Keep regulators bagged and safe from damage when not in use. Do not use any regulator that appears damaged, 
+dirty, or in otherwise questionable condition. Regulators greater than 10 years old in storage should not be used 
+unless they have been tested and certified. 
+
+Use only Compressed Gas Association standard combinations of valves and fittings for compressed gas 
+installations. Never use a regulator adaptor. The CGA number should be visible on all regulators. Do not use 
+any regulator that does not have a CGA number marking. The following table lists the CGA connections for 
+gases commonly used in laboratories. A complete list of gases and their corresponding CGA numbers is available 
+from your gas supplier and from EHS. 
+
+Compressed Gas 
+
+Argon 
+
+Yale University Chemical Hygiene Plan 
+
+CGA 
+number 
+580 
+
+Compressed Gas 
+
+Freon 
+
+34 
+
+CGA 
+number 
+660 
+
+Revised February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Carbon dioxide 
+Carbon monoxide 
+Chlorine 
+Ethane 
+Ethylene 
+
+320 
+350 
+660 
+350 
+350 
+
+Helium 
+Hydrogen 
+Hydrogen chloride 
+Nitrogen 
+Oxygen 
+
+580 
+350 
+330 
+580 
+540 
+
+3.3.3 Special Precautions for Hydrogen 
+
+Hydrogen gas has several unique properties that make it dangerous to work with. It has an extremely wide 
+flammability range (LEL 4%, UEL 74.5%) and is easier to ignite than most other flammable gases. Unlike most 
+other gases, hydrogen's temperature increases during expansion. If a cylinder valve is opened too quickly the 
+static charge generated by the escaping gas may cause it to ignite. Hydrogen burns with an invisible flame. 
+Caution should therefore be exercised when approaching a suspected hydrogen flame. Cast iron pipes and fittings 
+must never be used with hydrogen because hydrogen embrittlement can weaken carbon steel. Precautions 
+associated with other flammable substances identified above also apply to hydrogen. 
+
+3.3.4 Special Requirements for Toxic, Corrosive and Flammable Gases 
+
+Toxic, corrosive, and a subset of flammable gases are restricted chemicals. They require EHS approval prior to 
+purchase and must be registered in the Yale chemical registration program. 
+
+Toxic, corrosive, and pyrophoric gases must be stored and used under local exhaust ventilation, either in an 
+exhausted gas cabinet or in another EHS-approved exhausted enclosure. Flammable gases may also need to be 
+stored in a vented gas cabinet. Be sure to check with the Office of Fire Code Compliance (OFCC) and EHS prior 
+to initial purchase of flammable gas cylinders or when increasing the number of flammable gas cylinders. 
+
+A continuous gas monitoring system may also be necessary in laboratories where these gases are used or stored. 
+
+A written SOP is required for laboratory procedures involving toxic, corrosive, pyrophoric, and flammable gases. 
+
+The list of restricted chemicals is located at http://ehs.yale.edu/forms-tools/chemicals-requiring-ehs-pre-approval. 
+
+3.4 CORROSIVE CHEMICALS 
+
+3.4.1 General Information 
+
+Corrosive chemicals can pose both health and physical hazards. As a health hazard, corrosive substances can 
+rapidly destroy or alter living tissue by chemical action at the site of contact. Symptoms of exposure to corrosive 
+vapor or mist include a burning sensation, coughing, wheezing, laryngitis, shortness of breath, nausea, and 
+vomiting. For eyes, symptoms include pain, tearing, and blurred or lost vision. For skin, symptoms may include 
+reddening, pain, inflammation, blistering, and burns. Corrosive substances present a physical hazard due to their 
+ability to corrode materials upon contact and their potential to react vigorously with other chemicals. It is 
+important to review information on the materials they corrode, their reactivity with other substances, and their 
+health effects. 
+
+If you suspect you may have been exposed to a corrosive chemical, flush the exposed area with water for at least 
+15 minutes at an approved emergency eyewash or safety shower, and immediately seek medical treatment. 
+
+Strong acids - All concentrated acids can damage the skin and eyes, causing painful burns. Rinse for 15 minutes 
+in the nearest emergency eyewash or shower as appropriate and seek immediate medical treatment if you have 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ been contaminated with any corrosive chemical, including acids. Hydrofluoric acid (HF) is especially dangerous 
+and requires specific emergency procedures and an antidote gel in all locations where HF is used or stored. See 
+SECTION 2.6.8 Hydrogen Fluoride/Hydrofluoric Acid for HF medical treatment information. 
+
+Strong bases - Common strong alkalis (bases) used in laboratories are metal hydroxides and ammonia. Burns 
+from these materials are often initially less painful than acids. However, damage may be more severe than painful 
+acid burns because the injured person, feeling little pain, may not take immediate action, allowing the material to 
+penetrate the tissue. Ammonia is also a severe bronchial irritant and should always be used in a chemical fume 
+hood or other local exhaust ventilation. Rinse for 15 minutes in the nearest emergency eyewash or shower as 
+appropriate and seek immediate medical treatment if you have been contaminated with any corrosive chemical, 
+including bases. 
+
+Dehydrating agents - This group of chemicals includes concentrated sulfuric acid, sodium hydroxide, 
+phosphorus pentoxide, and calcium oxide. Because heat is evolved when these substances are mixed with water, 
+mixing should always be done by adding the agent to water, not the reverse, to avoid violent reactions and 
+splattering. Because of their affinity for water, these substances cause very severe burns on contact with skin. 
+Affected areas should be washed promptly with large volumes of water at an approved emergency eyewash or 
+emergency shower for 15 minutes to ensure all agent is removed before seeking immediate medical attention. 
+
+Oxidizing agents - In addition to their corrosive properties, as described above, powerful oxidizing agents such 
+as concentrated hydrogen peroxide (>30%), bromine, chlorine, perchloric acid, and chromic acid pose a fire 
+hazard when they come into contact with organic compounds and other oxidizable substances. They also have 
+serious corrosive effects and should not come into contact with the skin or eyes. All handling of powerful 
+oxidizing agents should be handled only after thorough familiarization with the recommended operating 
+procedures for highly reactive compounds (see SECTION 3.2 HIGHLY REACTIVE CHEMICALS & 
+HIGH ENERGY OXIDIZERS). 
+
+3.4.2 Special Handling Procedures 
+
+When working with corrosive chemicals, wear appropriate gloves, safety glasses or goggles, a long-sleeved lab 
+coat, and closed-toe, solid top shoes. Handling bulk quantities of these chemicals requires the use of rubber 
+aprons, face shields, and goggles, and utility-grade gloves. Refer to the Laboratory Hazard Assessment Tool for 
+the required PPE for your operation. 
+
+Corrosive chemicals should be handled only in a chemical fume hood. Use plastic trays for containment when 
+handling in bulk (> 1 liter) and when there is a risk of dripping or spillage. 
+
+An eyewash and safety shower should be close by within a 10-second unobstructed run from areas where 
+corrosive chemicals are handled. Spill materials, including absorbents and neutralizing materials, should be 
+available in the laboratory. 
+
+Store corrosive chemicals in cabinets designed for corrosive chemicals, if possible. If these cabinets are 
+unavailable, store them under fume hoods or on low shelves in impervious trays to physically separate them from 
+other chemical groups. Do not store volatile, corrosive chemicals such as hydrochloric acid in a flammable 
+cabinet, as their vapors will corrode the cabinet. Keep containers not in use in storage areas and off bench tops 
+whenever possible. 
+
+Use a chemical carrier whenever moving corrosive chemicals from one laboratory to another or from the 
+stockroom. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+36 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3.5 REGULATED CHEMICALS & PARTICULARLY HAZARDOUS CHEMICALS – 
+CARCINOGENS, REPRODUCTIVE TOXINS, AND ACUTELY TOXIC MATERIALS 
+
+3.5.1 General Information 
+
+This section establishes supplemental work procedures to control the handling of chemicals with high acute and 
+chronic toxicity, including carcinogens, reproductive toxins, and highly toxic chemicals. Chemicals that possess 
+the characteristic of high acute toxicity may be fatal or cause damage to target organs as a result of a single 
+exposure or exposures of short duration. Chemicals that possess the characteristic of high chronic toxicity cause 
+damage after repeated exposure or exposure over long periods of time, with health effects often not becoming 
+evident until after a latency period of many years. 
+
+Chemical carcinogens listed and regulated by the Department of Labor, Occupational Safety and Health 
+Administration (OSHA), and human carcinogens listed by the International Agency for Research on Cancer 
+(IARC) and the National Toxicology Program (NTP) are covered by this section. 
+
+3.5.2 Special Handling Procedures 
+
+An SOP should be available and reviewed by the PI/Director/Manager or designated senior lab personnel for 
+work involving these materials. 
+
+Avoid or minimize contact with these chemicals by any route of exposure. Protect yourself by wearing gloves, 
+long pants, closed-toe, solid top shoes, and a long-sleeved laboratory coat. Protect your eyes with safety goggles 
+or glasses. If the procedure involving these chemicals has the potential to splash, wear an impermeable apron or 
+coveralls, and a face shield in addition to goggles. Wear disposable garments if others may be placed at risk 
+during laundering. Refer to the Laboratory Hazard Assessment Tool (LHAT) to determine the appropriate PPE 
+for your operation. 
+
+All PPE should be removed before leaving the designated area. If necessary, decontaminate PPE, and if 
+disposable, place it in a plastic bag and secure it before disposal. Skin surfaces - hands, forearms, face and 
+neck - should be washed immediately. 
+
+Use these chemicals only in a chemical fume hood or other approved containment device, such as a glove box. 
+
+Analytical instruments or other laboratory equipment that generate vapors and/or aerosols during operation should 
+be locally exhausted or vented into a chemical fume hood. 
+
+Particularly hazardous chemicals that are volatile should be stored in a vented storage area in an unbreakable, 
+primary or secondary container or placed in a chemically resistant tray to contain spills. Nonvolatile hazardous 
+chemicals should be stored securely in cabinets or in drawers. Do not store these chemicals on open shelves or 
+counters. Access to all of these chemicals should be restricted. Cyanide salts and some chemicals listed as 
+chemical warfare agents must be stored in a locked cabinet or locked storage area. 
+
+All hazardous chemicals should be transported between laboratories in durable outer containers or chemical 
+carriers. 
+
+All procedures with these chemicals should be performed in designated areas. The designated area can be the 
+entire laboratory, a portion of a laboratory, or a storage or containment device, such as a laboratory fume hood. 
+Others working in the area should be informed of the specific hazards associated with these substances and the 
+appropriate precautions needed to prevent exposure. All designated areas should be posted with a sign which 
+reads: 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+37 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WARNING 
+DESIGNATED AREA 
+for select carcinogens, reproductive toxins, and high acute toxicity chemicals 
+AUTHORIZED PERSONNEL ONLY 
+
+As an alternative, if the laboratory door sign has one of the following symbols, the entire laboratory is considered 
+to be a designated area: 
+
+Work surfaces on which these substances will be handled should be easy to decontaminate or protected from 
+contamination using plastic trays or plastic-backed paper. Refer to the SDS or contact EHS for substance-specific 
+decontamination and disposal procedures. 
+
+Chemical wastes from procedures using these substances should be placed in containers, tagged, and placed in the 
+designated satellite accumulation area until picked up by EHS. If possible, chemically decontaminate all toxic 
+substances to nontoxic materials as part of the procedure. 
+
+Normal laboratory work should not be conducted in a designated area until it has been decontaminated or 
+determined to be acceptable by the principal investigator, laboratory supervisor, or your EHS Safety Advisor. 
+
+Lab personnel of child-bearing age should be informed of any known reproductive toxins used in the laboratory. 
+Lab personnel who are pregnant, or planning to become pregnant, and who are working with potential 
+reproductive toxins that might affect the fetus, should contact EHS to evaluate their exposure. The lab personnel 
+should also inform the Employee and Student Health PLHCP, and their personal PLHCP, of the specific 
+substance being used, as necessary. The Chemical Hygiene Officer can assess potential exposures and, if 
+necessary, work with the principal investigator or laboratory supervisor to adjust work practices to minimize risk. 
+
+Highly toxic chemicals are flagged as restricted and routed to EHS for approval. The list of restricted chemicals, 
+including highly toxic ones, is available at http://ehs.yale.edu/forms-tools/chemicals-requiring-ehs-pre-approval. 
+An inventory of these chemicals is maintained in Yale’s chemical inventory system. An SOP is required for all 
+work involving highly toxic chemicals. 
+
+Examples of carcinogens and reproductive toxins are listed in APPENDIX K CARCINOGENS AND 
+REPRODUCTIVE TOXINS. Some of these chemicals are also flagged as restricted and routed to EHS for 
+approval. SOPs are required for all work involving these chemicals. 
+
+DEPARTMENT OF HOMELAND SECURITY (DHS) REGULATED CHEMICALS 
+
+3.6 
+Note: As of July 28, 2023, Congress allowed the statutory authority for the Chemical Facility Anti-
+Terrorism Standards (CFATS) program (6 CFR Part 27) to expire. Yale EHS continues to approve and 
+track each of these chemicals and the handling procedures specified below should continue to be 
+followed. 
+
+3.6.1 General Information 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+38 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Congress and the Department of Homeland Security, in the Chemical Facility Anti-Terrorism Standards (CFATS) 
+Interim Final Rule, have mandated that all workplaces, including universities, inventory and report on the 
+presence and location of specific “chemicals of interest”. These chemicals are identified as restricted items; their 
+purchase is flagged and routed to EHS for approval, and a container-level inventory is maintained. The 
+chemicals on the CFATS Chemicals of Interest list can be found here: https://www.cisa.gov/appendix-chemicals-
+interest. 
+
+3.6.2 Special Handling Procedures 
+
+The chemicals on this list may exhibit one or more hazardous characteristics outlined previously, e.g., 
+flammability, acute toxicity, etc. The hazard(s) of the chemical being used should be understood prior to 
+beginning work, and the appropriate procedures for those hazards outlined in previous subsections should be 
+followed. 
+
+Access to all these chemicals should be restricted. They should not be stored on open shelves or counters. 
+Volatile chemicals should be stored in an appropriately rated cabinet (corrosive, flammable). Nonvolatile 
+hazardous chemicals should be stored in cabinets or in drawers. 
+
+All hazardous chemicals should be transported between laboratories in durable outer containers or chemical 
+carriers. 
+
+SOPs are required for all work involving these chemicals. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+39 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SECTION 4.0 CHEMICAL TOXICOLOGY 
+
+4.1 CHEMICAL TOXICOLOGY OVERVIEW 
+
+4.1.1 Definitions 
+
+Toxicology is the study of the nature and action of poisons. 
+
+Toxicity is the ability of a chemical substance or compound to produce injury once it reaches a susceptible site in 
+or on the body. 
+
+A material's hazard potential is the probability that injury will occur after consideration of the conditions under 
+which the substance is used. 
+
+4.1.2 Dose-Response Relationships 
+
+The potential toxicity (harmful action) inherent in a substance is exhibited only when that substance comes in 
+contact with a living biological system. The potential toxic effect increases with increasing exposure. All 
+chemicals exhibit toxic effects at sufficiently high doses. The toxic potency of a chemical is thus ultimately 
+defined by the dose (amount) that produces a specific response in a specific biological system. 
+
+4.1.3 Routes of Entry into the Body 
+
+There are three main routes by which hazardous chemicals enter the body: 
+
+• Absorption through the respiratory tract via inhalation. 
+• Absorption through the skin via dermal contact. 
+• Absorption through the digestive tract via ingestion. (Ingestion can occur through eating or smoking with 
+
+contaminated hands or in contaminated work areas.) 
+
+Most exposure standards, such as the Threshold Limit Values (TLVs) and Permissible Exposure Limits (PELs), 
+are based on inhalation exposure. These limits are normally expressed in terms of either parts per million (PPM) 
+or milligrams per cubic meter (mg/m3) concentration in air. If a significant (or systemic) exposure to a substance 
+is through skin contact, the SDS, PEL, and/or TLV will have a "skin" notation. Examples of substances where 
+skin absorption may be a significant factor include pesticides, carbon disulfide, carbon tetrachloride, dioxane, 
+mercury, thallium compounds, xylene, and hydrogen cyanide. 
+
+4.1.4 Types of Effects 
+
+Acute poisoning is characterized by sudden and severe exposure and rapid absorption of the substance. 
+Normally, a single large exposure is involved. Adverse health effects are often reversible. Examples: carbon 
+monoxide or cyanide poisoning. 
+
+Chronic poisoning is characterized by prolonged or repeated exposure over days, months, or years. Symptoms 
+may not be immediately apparent. Health effects are often irreversible. Examples: lead or mercury poisoning. 
+
+A Local effect refers to an adverse health effect that takes place at the point or area of contact. The site may be 
+skin, mucous membranes, the respiratory tract, gastrointestinal system, eyes, etc. Absorption does not necessarily 
+occur. Examples: strong acids or alkalis. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+40 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Systemic effect refers to an adverse health effect that occurs at a location distant from the body's initial point of 
+contact and presupposes that absorption has occurred. Examples: arsenic affects the blood, nervous system, liver, 
+kidneys, and skin; benzene affects bone marrow. 
+
+Cumulative poisons are characterized by materials that tend to build up in the body because of numerous chronic 
+exposures. The effects are not seen until a critical body burden is reached. Example: heavy metals. 
+
+Substances in combination: When two or more hazardous materials are present at the same time, the resulting 
+effect can be greater than the effect predicted based on the additive effect of the individual substances. This is 
+called a synergistic effect. Similarly, a potentiating effect occurs when a substance that normally has no toxic 
+effect becomes toxic in the presence of another substance. Examples include exposure to alcohol and chlorinated 
+solvents, or smoking and asbestos. 
+
+4.1.5 Other Factors Affecting Toxicity 
+
+• Rate of entry and route of exposure; that is, how fast is the toxic dose delivered and by what means. 
+• Age can affect the capacity to repair tissue damage. 
+• Previous exposure can lead to tolerance, increased sensitivity, or make no difference. 
+• State of health, physical condition, and lifestyle can affect the toxic response. 
+• Pre-existing disease can result in increased sensitivity. 
+• Environmental factors such as temperature and pressure. 
+• Host factors including genetic predisposition and the sex of the exposed individual. 
+
+4.1.6 Physical Classifications 
+
+A gas is a substance that is in the gaseous state at room temperature and pressure. 
+
+A Vapor is the gaseous phase of a material that is ordinarily a solid or a liquid at room temperature and pressure. 
+
+When assessing the toxicity of gases and vapors, solubility is a key factor. Highly soluble materials, like 
+ammonia, irritate the upper respiratory tract. On the other hand, relatively insoluble materials, such as nitrogen 
+dioxide, penetrate deeply into the lungs. Fat-soluble substances, such as pesticides, tend to have longer residence 
+times in the body and are cumulative poisons. 
+
+An aerosol is composed of solid or liquid particles of microscopic size dispersed in a gaseous medium. 
+
+The toxic potential of an aerosol is only partially described by its airborne concentration. For a proper assessment 
+of the toxic hazard, the size of the aerosol's particles must be determined. A particle's size determines whether it 
+will be deposited in the respiratory system and where. Particles above 10 micrometers tend to deposit in the nose 
+and other areas of the upper respiratory tract. Particles smaller than 10 micrometers enter the lung and are 
+deposited there. Very small particles (<0.2 micrometers) are generally not deposited but exhaled. 
+
+4.1.7 Physiological Classifications 
+
+Irritants are materials that cause inflammation of the mucous membranes with which they come in contact. 
+Tissue inflammation results from exposure to concentrations far below those needed to cause corrosion. Irritants 
+can also alter the mechanics of respiration and lung function. Long-term exposure to irritants can result in 
+increased mucous secretions and chronic bronchitis. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A primary irritant exerts no systemic toxic action either because the products formed on the tissue of the 
+respiratory tract are non-toxic or because the irritant action is far in excess of any systemic toxic action. Example: 
+dilute hydrogen chloride. 
+
+A secondary irritant's effect on mucous membranes is overshadowed by a systemic effect resulting from 
+absorption. Examples: Hydrogen sulfide, Aromatic hydrocarbons. 
+
+Asphyxiants have the ability to deprive tissue of oxygen. 
+
+Simple asphyxiants are inert gases that displace oxygen. Examples: Nitrogen, Helium, Carbon dioxide. 
+
+Chemical asphyxiants reduce the body’s ability to absorb, transport, or utilize inhaled oxygen. They are often 
+active at very low concentrations (a few PPM). Examples: Carbon monoxide, Cyanides. 
+
+Primary anesthetics have a depressant effect upon the central nervous system, particularly the brain. Examples: 
+Halogenated hydrocarbons, Alcohols. 
+
+Hepatotoxic agents cause liver damage. Examples: Carbon tetrachloride, Tetrachloroethane, Nitrosamines. 
+
+Nephrotoxic agents damage the kidneys. Examples: Halogenated hydrocarbons, Uranium compounds. 
+
+Neurotoxic agents damage the nervous system. The nervous system is especially sensitive to organometallic 
+compounds and certain sulfide compounds. Examples include: 
+
+- Trialkyl tin compounds 
+- Methyl mercury 
+- Organic phosphorus insecticides 
+- Manganese 
+
+- Tetraethyl lead 
+- Carbon disulfide 
+- Thallium 
+
+Some toxic agents act on the blood or hematopoietic system. The blood cells can be affected directly or the 
+bone marrow (which produces the blood cells) can be damaged. Examples: Nitrites, Aniline, Toluidine, 
+Nitrobenzene, Benzene. 
+
+There are toxic agents that produce damage to the pulmonary tissue (lungs) but not by immediate irritant action. 
+Fibrotic changes can be caused by free silica and asbestos. Other dusts can cause a restrictive disease called 
+pneumoconiosis. Examples: Coal dust, Cotton dust, Wood dust. 
+
+A carcinogen means a substance or a mixture of substances that induces cancer or increases its incidence. 
+Substances and mixtures that have induced benign and malignant tumors in well-performed experimental studies 
+on animals are also considered to be presumed or suspected human carcinogens unless there is strong evidence 
+that the mechanism of tumor formation is not relevant for humans. 
+A chemical is considered a carcinogen or potential carcinogen if it is listed in any of the following publications: 
+• National Toxicology Program, Annual Report on Carcinogens (latest edition) – listed under the category 
+
+• 
+
+of “known to be carcinogens” 
+International Agency for Research on Cancer, Monographs (latest edition) – listed as either Group 1, 
+Group 2A or Group 2B 
+
+• Regulated by OSHA as a carcinogen under 29 CFR 1910 Subpart Z, Toxic and Hazardous Substances 
+
+Known human carcinogens include: 
+
+Asbestos 
+Formaldehyde 
+Vinyl chloride 
+
+Methyl chloromethyl ether 
+Benzene 
+Bis-chloromethyl ether 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+42 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A mutagen causes heritable changes (mutations) in the genetic material (DNA) of exposed cells. If germ cells 
+are involved, the effect may be inherited and become part of the genetic pool passed on to future generations. 
+Ethidium bromide is an example of a mutagen. 
+
+A teratogen (embryotoxic or fetotoxic agent) is an agent that interferes with normal embryonic development 
+without causing a lethal effect to the fetus or damage to the mother. Effects are not inherited. Examples: Lead, 
+Thalidomide. 
+
+A sensitizer is a chemical that can cause an allergic reaction in normal tissue after repeated exposure. The 
+reaction may range from a mild rash (allergic dermatitis) to anaphylactic shock. Examples: Epoxy compounds, 
+Toluene diisocyanate, Nickel compounds, Chromium compounds, Poison ivy, Formaldehyde, d-Limonene. 
+
+4.2 
+
+SOME TARGET ORGAN EFFECTS 
+
+The following is a categorization of target organ effects that may occur from chemical exposure. Signs and 
+symptoms of these effects, along with examples of chemicals found to cause them, are listed below. 
+
+Target organ effect 
+Toxins 
+Hepatotoxins Causes liver damage 
+
+Signs and symptoms 
+Jaundice; liver 
+enlargement 
+
+Nephrotoxins Causes kidney 
+
+Edema; proteinuria 
+
+Neurotoxins 
+
+damage 
+Affects the nervous 
+system 
+
+Hematopoieti
+c toxins 
+Pulmonary 
+toxins 
+
+Decreases blood 
+function 
+Irritates or damages 
+the lungs 
+
+Reproductive 
+toxins 
+Skin hazards Affects the dermal 
+
+Affects the 
+reproductive system 
+
+Eye hazards 
+
+layer of the body 
+Affect the eye or 
+vision 
+
+Narcosis; behavior 
+changes; decreased 
+muscle coordination 
+Cyanosis; loss of 
+consciousness 
+Cough; tightness in 
+chest, shortness of 
+breath, pulmonary 
+edema 
+Birth defects; sterility 
+
+Defatting of skin; 
+rashes; irritation 
+Conjunctivitis, corneal 
+damage 
+
+Example chemicals 
+Nitrosamines, chloroform, toluene, 
+perchloro-ethylene, cresol, dimethyl 
+sulfate, carbon tetrachloride 
+Halogenated hydrocarbons, uranium, 
+chloroform, mercury, dimethyl sulfate 
+Mercury, carbon disulfide, benzene, carbon 
+tetrachloride, lead, nitrobenzene 
+
+Carbon monoxide, cyanides, nitrobenzene, 
+aniline, arsenic, benzene, toluene 
+Silica, asbestos, ozone, hydrogen sulfide, 
+chromium, nickel, alcohols 
+
+Lead, 2-ethoxyethanol, 
+dibromodichloropropane, toluene 
+Ketones, chlorinated compounds, alcohols, 
+nickel, phenol, trichloroethylene 
+Organic solvents, acids, cresol, quinone, 
+hydroquinone, benzol, chloride, butyl 
+alcohol, methanol, bases 
+
+4.3 OCCUPATIONAL HEALTH STANDARDS 
+
+TLV: The threshold limit value is a recommended occupational exposure guideline published by the American 
+Conference of Governmental Industrial Hygienists. TLVs are expressed as parts of vapor or gas per million parts 
+of air by volume (PPM) or as approximate milligrams of particulate per cubic meter of air (mg/M3). The TLV is 
+the average concentration of a chemical that most people can be exposed to over a working lifetime without ill 
+effects. The TLV is an advisory guideline. If applicable, a ceiling concentration (C) that should not be 
+exceeded or a skin absorption notation (S) will be indicated with the TLV. 
+
+PEL: The permissible exposure limit is a legal standard issued by OSHA. Unless specified, the PEL is a time-
+weighted average (TWA). 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+43 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TWA: Most exposure standards are based on time-weighted averages. The TWA is the average exposure over 
+an eight (8) hour workday. Some substances have short-term exposure limits (STELs). These levels are time-
+weighted over a 15-minute period, and exposures should not exceed the STEL at any time during a 15-minute 
+period during an 8-hour workday. Some substances have Ceiling (C) limits. Ceiling limits are concentrations that 
+should never be exceeded. 
+
+The SDS will list the occupational health standard(s) for the hazardous chemical or each hazardous component of 
+a mixture. 
+
+The EHS office has a complete listing of published TLVs and PELs, as well as other information on chemical 
+toxicology. If you would like to conduct a thorough review of a particular compound, contact EHS. The 
+references available upon request to the EHS office are listed in APPENDIX C LABORATORY SAFETY 
+REFERENCES. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+44 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SECTION 5.0 GLOSSARY OF TERMS 
+
+ACGIH - The American Conference of Governmental Industrial Hygienists - a voluntary membership 
+organization of professional industrial hygiene personnel. The ACGIH develops and publishes recommended 
+occupational exposure limits each year called Threshold Limit Values (TLV's) for hundreds of chemicals, 
+physical agents, and biological exposure indices. 
+
+ACUTE - Short duration, rapidly changing conditions. 
+
+ACUTE EXPOSURE - An intense exposure over a relatively short period of time. 
+
+ANSI - The American National Standards Institute - a voluntary membership organization (run with private 
+funding) that develops consensus standards nationally for a wide variety of devices and procedures. 
+
+ASPHYXIANT - A chemical (gas or vapor) that can cause death or unconsciousness by suffocation. Simple 
+asphyxiants, such as nitrogen, either remove or displace oxygen in the air. They become especially dangerous in 
+confined or enclosed spaces. Chemical asphyxiants, such as carbon monoxide and hydrogen sulfide, interfere 
+with the body's ability to absorb or transport oxygen to the tissues. 
+
+BOILING POINT - The temperature at which the vapor pressure of a liquid equals atmospheric pressure or at 
+which the liquid changes to a vapor. The boiling point is usually expressed in degrees Fahrenheit. If a flammable 
+material has a low boiling point, it indicates a special fire hazard. 
+
+"C" OR CEILING - A description usually seen in connection with ACGIH exposure limits. It refers to the 
+concentration that should not be exceeded, even for an instant. It may be written as TLV-C or Threshold Limit 
+Value-Ceiling. (See also THRESHOLD LIMIT VALUE). 
+
+CARCINOGEN - A substance or physical agent that may cause cancer in animals or humans. 
+
+CAS NUMBER - Identifies a particular chemical by the Chemical Abstracts Service, a service of the American 
+Chemical Society that indexes and compiles abstracts of worldwide chemical literature called Chemical Abstracts. 
+
+cc - Cubic centimeter, a volumetric measurement which is also equal to one milliliter (ml). 
+
+oC - Degrees, Celsius; a temperature scale. 
+
+CHEMICAL - As broadly applied to the chemical industry, an element or a compound produced by chemical 
+reactions on a large scale for either direct industrial and consumer use or for reaction with other chemicals. 
+
+CHEMICAL REACTION - A change in the arrangement of atoms or molecules to yield substances of different 
+composition and properties. (see REACTIVITY) 
+
+CHRONIC - Persistent, prolonged or repeated conditions. 
+
+CHRONIC EXPOSURE - A prolonged exposure occurring over a period of days, weeks, or years. 
+
+COMBUSTIBLE - Substances such as wood, paper, etc., are termed "Ordinary Combustibles" and can readily 
+ignite in elevated temperatures or in a fire. According to the NFPA, combustible liquids are those having a flash 
+point between 100-200°F. They do not ignite as easily as flammable liquids at room temperature. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+45 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CONCENTRATION - The relative amount of a material in combination with another material - for example, 5 
+parts of (acetone) per million (parts of air) = 5 PPM acetone. 
+
+CORROSIVE - A substance that, according to the DOT, is highly corrosive to steel. In addition, OSHA states 
+that corrosive substances will cause visible destruction or permanent changes in human skin tissue at the site of 
+contact. 
+
+CUTANEOUS - Pertaining to or affecting the skin. 
+
+DECOMPOSITION - The breakdown of a chemical or substance into different parts or simpler compounds. 
+Decomposition can occur due to heat, chemical reaction, decay, etc. 
+
+DERMAL - Pertaining to or affecting the skin. 
+
+DERMATITIS - An inflammation of the skin. 
+
+DILUTION VENTILATION - See GENERAL VENTILATION. 
+
+DOT - The United States Department of Transportation - the federal agency that regulates the labeling and 
+transportation of hazardous materials. 
+
+DYSPNEA -Shortness of breath; difficult or labored breathing. 
+
+EPA - The Environmental Protection Agency - the governmental agency responsible for administration of laws to 
+control and/or reduce pollution of air, water, and land systems. 
+
+EPA NUMBER - The number assigned to chemicals regulated by the Environmental Protection Agency (EPA). 
+
+EPIDEMIOLOGY - The study of disease in human populations. 
+
+ERYTHEMA - A reddening of the skin. 
+
+EVAPORATION RATE - The rate at which a material is converted to vapor (evaporates) at a given temperature 
+and pressure. Health and fire hazard evaluations of materials involve consideration of evaporation rates as one 
+aspect of the evaluation. 
+
+oF - Degrees, Fahrenheit; a temperature scale. 
+
+FLASH POINT - The minimum temperature at which a liquid gives off vapor in sufficient concentration 
+to form an ignitable mixture with air near the surface of the liquid. 
+
+FLAMMABLE LIQUID - According to the NFPA, a flammable liquid is one that has a flash point below 
+100oF. (See FLASH POINT). DOT defines flammable liquids as those that have a flash point below 140°F. 
+OSHA defines flammable liquids as those having a flash point of below 200°F. 
+
+GENERAL VENTILATION - Also known as general exhaust ventilation, this is a system of ventilation 
+consisting of either natural or mechanically induced fresh air movements to mix with and dilute contaminants in 
+the workroom air. This is not the recommended type of ventilation to control hazardous contaminants. (See 
+LOCAL EXHAUST VENTILATION). 
+
+GRAM (g) - A metric unit of weight. One ounce equals 28.4 grams. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+46 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ GRAMS PER KILOGRAM (g/Kg) - This indicates the dose of a substance given to test animals in toxicity 
+studies. For example, a dose may be 2 grams (of substance) per kilogram of body weight (of the experimental 
+animal). 
+
+HAZARDOUS MATERIAL - Any substance or compound that has the capability of producing adverse effects 
+on the health and safety of humans. 
+
+IGNITABLE - A solid, liquid or compressed gas that has a flash point of less than 140oF. Ignitable material are 
+regulated by the EPA as a hazardous waste. 
+
+INCOMPATIBLE - The term applied to two substances to indicate that one material cannot be mixed with the 
+other without the possibility of a dangerous reaction. 
+
+INGESTION - Taking a substance into the body through the mouth, such as food, drink, medicine, or 
+unknowingly as in contaminated hands or cigarettes, etc. 
+
+INHALATION - Breathing in of an airborne substance that may be in the form of gases, fumes, mists, vapors, 
+dusts, or aerosols. 
+
+INHIBITOR - A substance that is added to another to prevent or slow down an unwanted reaction or change. 
+
+IRRITANT - A substance that produces an irritating effect when it contacts skin, eyes, nose, or respiratory 
+system. 
+
+KILOGRAM (Kg) - A unit of weight in the metric system equal to 2.2 pounds. 
+
+LABORATORY PERSONNEL - Laboratory personnel include faculty, staff, students, trainees, clinical 
+laboratory staff, conservation professionals, visiting scholars, contractors, and any other individuals who work in 
+Yale laboratories where hazardous chemicals are used or stored. 
+
+LEL - See LOWER EXPLOSIVE LIMIT. 
+
+LETHAL CONCENTRATION50 (LC50 ) - The concentration of an air contaminant that will kill 50 percent of 
+the test animals in a group during a single exposure. This test is used to determine the toxicity of a substance. 
+
+LETHAL DOSE50 (LD50) - The dose of a substance or chemical that will kill 50 percent of the test animals in a 
+group within the first 30 days following exposure. This test is used to determine the toxicity of a substance. 
+
+LITER (L) - A measure of capacity. One quart equals 0.9 liters. 
+
+LOCAL EXHAUST VENTILATION - A ventilation system that captures and removes contaminants at the 
+point where they are being produced before they escape into the workroom air. The system consists of hoods, 
+ducts, a fan and possibly an air cleaning device. Advantages of local exhaust ventilation over general ventilation 
+include: removes the contaminant rather than dilutes it; requires less air flow and thus is more economical over 
+the long term; and the system can be used to conserve or reclaim valuable materials. However, the system must 
+be properly designed with the correctly shaped and placed hoods, and correctly sized fans and duct work. 
+
+LOWER EXPLOSIVE LIMIT (LEL) - (Also known as Lower Flammable Limit). The lowest concentration of 
+a substance that will produce a fire or flash when an ignition source (flame, spark, etc.) is present. It is expressed 
+in percent of vapor or gas in the air by volume. Below the LEL or LFL, the air/contaminant mixture is 
+theoretically too "lean" to burn. (See also UEL). 
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+47 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ MELTING POINT - The temperature at which a solid changes to a liquid. A melting range may be given for 
+mixtures. 
+
+MILLIGRAM (mg) - A unit of weight in the metric system. One thousand milligrams equal one gram. 
+
+MILLIGRAMS PER CUBIC METER (mg/m3) - Units used to measure air concentrations of dusts, gases, 
+mists, and fumes. 
+
+MILLIGRAMS PER KILOGRAM (mg/kg) - This indicates the dose of a substance given to test animals in 
+toxicity studies. For example, a dose may be 2 milligrams (of substance) per kilogram of body weight (of the 
+experimental animal). 
+
+MILLILITER (ml) - A metric unit used to measure capacity. One milliliter equals one cubic centimeter. One 
+thousand milliliters equal one liter. 
+
+MSHA - The Mine Safety and Health Administration; a federal agency that regulates the mining industry in the 
+safety and health area. 
+
+MUTAGEN - Anything that can cause an inherited change (or mutation) in the genetic material of a living cell. 
+
+NARCOSIS - Stupor or unconsciousness caused by exposure to a chemical. 
+
+NFPA - The National Fire Protection Association is a voluntary membership organization whose aims are to 
+promote and improve fire protection and prevention. NFPA has published 16 volumes of codes known as the 
+National Fire Codes. Within these codes is Standard No. 704, Identification of the Fire Hazards of Materials. 
+This is a system that rates the hazard of a material during a fire. These hazards are divided into health, 
+flammability, and reactivity hazards and appear in a well-known diamond system using from zero through four to 
+indicate severity of the hazard. Zero indicates no special hazard and four indicates severe hazard. 
+
+NIOSH - The National Institute of Occupational Safety and Health is a federal agency that among its various 
+responsibilities trains occupational health and safety professionals, conducts research on health and safety 
+concerns, and tests and certifies respirators for workplace use. 
+
+NON-PRODUCTION LABORATORY – a laboratory space that is used for research, teaching, clinical, or 
+academic purposes where chemicals are handled on a laboratory scale and not for commercial manufacturing or 
+large-scale production. 
+
+ODOR THRESHOLD - The minimum concentration of a substance at which a majority of test subjects can 
+detect and identify the substance's characteristic odor. 
+
+OSHA - The Occupational Safety and Health Administration, is a federal agency under the Department of Labor 
+that publishes and enforces safety and health regulations for most businesses and industries in the United States. 
+
+OXIDATION - The process of combining oxygen with some other substance causing a chemical change in 
+which an atom loses electrons. 
+
+OXIDIZER - A substance that gives up oxygen easily to stimulate combustion of organic material. 
+
+OXYGEN DEFICIENCY - An atmosphere having less than the normal percentage of oxygen found in normal 
+air. Normal air contains 20.9% oxygen at sea level. Adequate oxygen levels range from 19.5 to 23.5%. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+48 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ PERMISSIBLE EXPOSURE LIMIT (PEL) - An exposure limit that is published and enforced by OSHA as a 
+legal standard. PEL may be a time-weighted average (TWA) exposure limit (8-hour), a 15-minute short-term 
+exposure limit (STEL), or a ceiling (C). PELs are found in Tables Z-1, Z-2, or Z-3 of OSHA regulations 
+1910.1000, and in the chemical-specific standards under Subpart Z. 
+
+PERSONAL PROTECTIVE EQUIPMENT - Any devices or clothing worn by the worker to protect against 
+hazards in the environment. Examples are respirators, gloves, safety glasses. 
+
+POLYMERIZATION - A chemical reaction in which two or more small molecules combine to form larger 
+molecules that contain repeating structural units of the original molecules. A hazardous polymerization is the 
+above reaction with an uncontrolled release of energy. 
+
+PPM - Parts (of vapor or gas) per million (parts of air) by volume. 
+
+REACTIVITY - A substance's susceptibility to undergoing a chemical reaction or change that may result in 
+dangerous side effects, such as explosions, burning, and corrosive or toxic emissions. The conditions that cause 
+the reaction, such as heat, other chemicals, friction, or shock, will usually be specified as "Conditions to Avoid" 
+when a chemical's reactivity is discussed on a SDS. 
+
+RESPIRATOR - A form of PPE which is designed to protect the wearer from inhaling harmful contaminants. 
+
+RESPIRATORY HAZARD - A particular concentration of an airborne contaminant that, when entering the 
+body by way of the respiratory system or by being breathed into the lungs, results in some bodily function 
+impairment. 
+
+SENSITIZER - A substance that may cause no reaction in a person during initial exposures, but with continued 
+exposures over time, will cause an allergic response to the substance. 
+
+SHORT TERM EXPOSURE LIMIT (STEL) - Represented as STEL or TLV-STEL, this is the maximum 
+concentration to which workers can be exposed for a short period of time (15 minutes) for only four times 
+throughout the day with at least one hour between exposures. The daily TLV-TWA must not be exceeded. 
+
+"SKIN" - This designation sometimes appears alongside a TLV or PEL. It refers to the possibility of absorption 
+of the particular chemical through the skin and eyes. Thus, protection of large surface areas of skin should be 
+considered to prevent skin absorption so that the TLV is not invalidated. 
+
+SUBSTANCE - Any chemical entity. 
+
+SYNONYM - Another name by which the same chemical may be known. 
+
+SYSTEMIC - Spread throughout the body; affecting many or all body systems or organs; not localized in one 
+spot or area. 
+
+TERATOGEN - An agent or substance that may cause physical defects in the developing embryo or fetus when 
+a pregnant female is exposed to that substance. 
+
+THRESHOLD LIMIT VALUE (TLV) - Airborne concentrations of substances devised by the ACGIH that 
+represent conditions under which it is believed that nearly all workers may be exposed day after day with no 
+adverse effect. TLV's are advisory exposure guidelines that are based on evidence from industrial experience, 
+animal studies, or human studies when they exist. There are three different types of TLV's: Time Weighted 
+Average (TLV-TWA), Short Term Exposure Limit (TLV-STEL) and Ceiling (TLV-C). (See also PEL.) 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+49 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TIME WEIGHTED AVERAGE - The average time, over a given work period (e.g., 8-hour workday), of a 
+person's exposure to a chemical or an agent. The average is determined by sampling for the contaminant 
+throughout the time period. Represented as TLV-TWA. 
+
+TOXICITY - The potential for a substance to exert a harmful effect on humans or animals and a description of 
+the effect and the conditions or concentrations under which the effect takes place. 
+
+TRADE NAME - The commercial name or trademark by which a chemical is known. One chemical may have a 
+variety of trade names depending on the manufacturers or distributors involved. 
+
+UNSTABLE LIQUID - A liquid that, in its pure state or as commercially produced, will react vigorously in 
+some hazardous way under shock conditions (i.e., dropping), certain temperatures, or pressures. 
+
+UPPER EXPLOSIVE LIMIT (UEL) - Also known as Upper Flammable Limit. Is the highest concentration 
+(expressed in percent of vapor or gas in the air by volume) of a substance that will burn or explode when an 
+ignition source is present. Theoretically, above this limit, the mixture is said to be too "rich" to support 
+combustion. The difference between the LEL and the UEL constitutes the flammable range or explosive range of 
+a substance. That is, if the LEL is 1 PPM and the UEL is 5 PPM, then the explosive range of the chemical is 1 
+PPM to 5 PPM. (see also LEL). 
+
+VAPOR - The gaseous form of substances which are normally in the liquid or solid state (at normal room 
+temperature and pressure). Vapors evaporate into the air from liquids such as solvents. Solvents with low boiling 
+points will evaporate. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+50 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX A SUMMARY OF OSHA'S LABORATORY STANDARD 
+
+"Occupational Exposures to Hazardous Chemicals in Laboratories" 29 CFR 1910.1450 
+
+The Laboratory Standard requires laboratories to develop procedures to reduce or minimize occupational 
+exposure to hazardous chemicals in the laboratory environment. 
+
+OSHA summarizes the intent of the standard in the preamble: 
+
+"The new standard differs from many OSHA health standards in that it does not establish new exposure limits but 
+sets other performance provisions designed to protect laboratory workers from potential hazards in their work 
+environment. By permitting a greater degree of flexibility to laboratories in developing and implementing 
+employee safety and health programs, OSHA expects benefits to result from increased worker awareness of 
+potential risks, improved work practices, appropriate use of existing personal protective equipment and greater 
+use of engineering controls. Given the flexibility to design and implement innovative measures to reduce 
+employee exposure to hazardous substances, employers also will reap rewards in terms of lower insurance 
+premiums, lower property damage costs, lower turnover costs, less absenteeism and, in general, increased 
+productivity. Finally, the potential decrease in acute and chronic health problems will result in overall benefits to 
+society through the associated reduction in medical and productivity costs." 
+
+The Laboratory Standard is primarily a performance-oriented standard, allowing individual laboratories to tailor 
+their approaches to meeting the standard's requirements to their circumstances. 
+
+A copy of this standard is readily available web at www.osha.gov. Your EHS Safety Advisor can also provide a 
+copy upon request. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+51 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX B YALE UNIVERSITY POLICY ON EATING, DRINKING, AND 
+SMOKING IN LABORATORIES 
+
+Eating, drinking, and smoking are prohibited in laboratories where radioisotopes, biological agents, or 
+hazardous chemicals are used, handled, or stored. 
+
+This prohibition applies to the entire laboratory, not just to areas where hazardous materials are used. 
+This prohibition applies to study carrels and desks that are not physically separated from the work area 
+by floor-to-ceiling walls with doors that close, even if the space is not used for work involving 
+hazardous materials. 
+
+This prohibition does not apply to space associated with laboratories (such as an interior office) that is 
+physically separated from the laboratory area by floor-to-ceiling walls with doors that will close, and in 
+which hazardous materials are never used or stored.2 On a case-by-case basis, exceptions to this 
+restriction may be granted for covered beverages in interior office spaces that do not meet all of these 
+requirements, upon a formal request for review by EHS. Laboratories with infectious agents or 
+radioactive materials are prohibited from this exception. 
+
+In areas where eating and drinking are prohibited, food and beverages (and empty food and beverage 
+containers) may not be stored, left, or discarded. Government regulators and University EHS personnel 
+may regard discarded food or beverage containers in a laboratory as evidence of eating or drinking there. 
+
+Food or drink may be moved through a laboratory only if it is wrapped or in a covered container. 
+
+2 In Biosafety 3 laboratories, the prohibition applies to all areas, including interior offices and similar 
+spaces, even if they are separated by such barriers. 
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+52 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX C LABORATORY SAFETY REFERENCES 
+
+Available upon request from Environmental Health and Safety: 
+
+American Conference of Governmental Industrial Hygienists. Guidelines for the Selection of Chemical 
+
+Protective Clothing. 
+
+American Conference of Governmental Industrial Hygienists. ACGIH Threshold Limit Values for Chemical 
+
+Substances and Physical Agents, and Biological Exposure Indices. Updated Annually. 
+
+Bretherick, L. (ed.). Handbook of Reactive Chemical Hazard, 6th edition. Butterworth Heinemann. 1999. 
+
+Budavari (ed). The Merck Index: An Encyclopedia of Chemical Drugs and Biologicals. Merck Research 
+
+Laboratories, New Jersey. 1996. 
+
+Clayton, G.D. and Clayton, F.L. (ed.). Patty's Industrial Hygiene ad Toxicology. General Principles, Vol. I 
+
+through III. Wiley Interscience, New York. 1982. 
+
+Furr, A. K. (ed.). CRC Handbook of Laboratory Safety, 5th ed. CRC Press, Boca Raton, Florida. 2000. 
+
+Greenberg, M. Occupational, Industrial, and Environmental Toxicology, 2nd edition. Mosby, Inc., 
+
+Pennsylvania. 2003. 
+
+Klaassen, CD (ed.). Casarett & Doull’s Toxicology: The Basic Science of Poisons, 5th ed. McGraw-Hill Co., 
+
+1996. 
+
+Manufacturing Chemists Association. Guide for Safety in the Chemical Laboratory, 2nd ed. 
+
+Van Nostrand Reinhold Co., 1972. 
+
+National Research Council. Prudent Practices in the Laboratory. Handling and Disposal of Chemicals. 
+
+National Academy Press, Washington, DC. 1995. 
+
+Sax, N.J. and Lewis, R.J. (ed.). Rapid Guide to Hazardous Chemical in the Workplace. Van Norstrand 
+
+Reinhold Company, New York. 1986. 
+
+U.S. Department of Health and Human Services. NIOSH Pocket Guide to Chemical Hazards. 
+
+ 29 CFR 1910 Code of Federal Regulations, United States Department of Labor, OSHA. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX D PRELIMINARY HEALTH AND SAFETY INFORMATION 
+SHEET 
+
+(Must be completed for chemical substances produced for another user outside the University) 
+
+CAUTION: The chemical, physical, and toxicological properties of this chemical have not been fully 
+investigated, and its handling or use may be hazardous. Exercise due care. 
+
+Principal Investigator: 
+Campus address: 
+Telephone/Email: 
+Date: 
+
+CHEMICAL NAME 
+SYNONYMS 
+CHEMICAL STRUCTURE: 
+
+EMPIRICAL STRUCTURE 
+MOLECULAR WEIGHT 
+HEALTH REMARKS (identify known adverse 
+effects)____________________________________
+__________________________________________ 
+
+______ 
+______ 
+
+FIRST AID PROCEDURES 
+Eye contamination (check appropriate items) 
+1. None necessary 
+2. Flush with water 
+3. Call physician 
+4. Other 
+
+______ 
+______ 
+______ 
+______ 
+
+Skin contamination (check appropriate items) 
+1. None necessary 
+2. Flush with water 
+3. Call physician 
+
+___________________ 
+___________________ 
+___________________ 
+
+PHYSICAL PROPERTIES 
+Description 
+
+Odor 
+Boiling point 
+Melting point 
+Specific gravity 
+Solubility 
+Flash point 
+Flammable limits 
+
+_____________ 
+_____________ 
+______ 
+__________°C 
+__________°C 
+_________g/ml 
+___________________ 
+___________________ ____°F 
+____________ 
+
+__________________________ 
+________________________________ 
+__________________________ 
+________________________________ 
+
+FIRE-FIGHTING PROCEDURES 
+(check appropriate items) 
+1. Water 
+2. Carbon dioxide 
+3. Foam 
+4. Dry chemicals 
+5. Special precautions 
+
+_____________ 
+_____________ 
+_____________ 
+_____________ 
+
+SPILL PROCEDURES 
+ 1. Eliminate ignition sources 
+ 2. Contain spill, dike 
+ 3. Wear respirator 
+ 4. Absorbent 
+ 5. Sweep 
+ 6. Flush residual with water 
+
+_____________ 
+_____________ 
+_____________ 
+_____________ 
+_____________ 
+______ 
+
+PROTECTIVE EQUIPMENT 
+None necessary 
+Goggles 
+Face shield 
+Gloves Regular 
+Impervious 
+Boots 
+Coveralls 
+Apron Impervious 
+Respirator 
+Chemical fume hood 
+
+______ 
+______ 
+_____________ 
+______ 
+___________________ 
+_____________ 
+_____________ 
+_____________ 
+_____________ 
+_____________ 
+
+WASTE DISPOSAL 
+Dispose of contaminated products and materials 
+used in cleaning up spills or leaks in a manner 
+approved for this material. Consult appropriate 
+federal, state, and local regulatory agencies to 
+ascertain proper disposal procedures.
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+54 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX E UNATTENDED OPERATIONS POSTING 
+
+Instructions: Complete this form and attach it to the fume hood whenever a process is 
+left unattended. Assume the worst-case scenario when determining which hazards apply. 
+ATTENTION 
+
+Emergency Information - Unattended Operations 
+
+Contact Name:___________________________________________________________ 
+
+Contact Cell Phone Number:_______________________________________________ 
+
+Date:___________________________________________________________________ 
+
+Start Time:__________ End Time:___________ 
+
+Chemical Identity and Quantities: 
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________ 
+
+Compressed Gases: 
+________________________________________________________________ 
+
+Hazards: 
+(circle all that apply) 
+Corrosive 
+
+Toxic 
+
+Reactive 
+
+Flammable 
+
+Pressurized 
+
+Water Reactive 
+
+Electrical 
+
+In Case of Emergency, Please Shut off: 
+(circle all that apply) 
+Electricity 
+
+Vacuum 
+
+Gas Source 
+
+Water Source 
+
+Hot Plate/Ignition Sources 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX F CHEMICAL HAZARD RISK ASSESSMENT FORM 
+
+Completing this document will help you to identify the risks associated with your laboratory work. 
+
+Title of Experiment or Procedure: ________________________________________________ 
+
+Initial & Additional Review Date(s): ______________________________________________ 
+
+Brief Description of Experiment or Procedure (include reaction conditions such as temperature or 
+pressure, etc., if applicable): 
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+________________________________________________________________ 
+
+Known risks associated with the procedure (briefly describe hazard, probability (high, medium, low), 
+consequence of occurrence) 
+_____________________________________________________________________________________
+_______________________________________________________________________ 
+______________________________________________________________________________ 
+
+Substances to be used (List ALL substances, including solvents, expected products, and by-products): 
+Exposure 
+route(s) 
+e.g., skin, eyes 
+
+Hazards 
+i.e. flammable, corrosive, irritant, 
+readily absorbed through skin, etc. 
+
+Physical form 
+e.g. powder, 
+vapor, volatile 
+liquid, gas, etc 
+
+Approx. 
+quantity 
+
+Substances Used 
+
+Risk implications: 
+Is there any substance used or formed that might give rise to a fire or explosion (e.g. flammable 
+gases/liquids)? 
+If yes, how can you ensure that no explosion occurs? 
+
+Is it reasonably foreseeable that the lower explosive limit will be reached in the event of a leak or 
+spillage? 
+ If yes, a more detailed risk assessment is required – contact EHS. 
+Is there a likelihood of copious amounts of gas being released or thermal runaway? 
+If the experiment will be run continuously unattended, describe fail-safe mechanisms/redundant 
+systems used. 
+Are any carcinogens, acutely toxic substances, or chemicals requiring prior approval by EHS used? 
+
+Y/N 
+
+Y/N 
+
+Y/N 
+
+Y/N 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Can any of the substances be substituted with a less hazardous substance? 
+
+Y/N 
+
+What could happen if there were a catastrophic failure of the apparatus? 
+
+In the event of an accident, who might be exposed? 
+
+Control measures to be used: 
+Containment 
+
+ Chemical fume hood 
+ Glove box 
+ Other local exhaust ventilation 
+ Blast guard/shield 
+ Other (specify) 
+
+Personal Protective Equipment 
+
+ Lab coat (type):_____________________ 
+ Chemical apron 
+ Gloves (type): _____________________ 
+ Eye protection (type):________________ 
+ Respirator* (type): __________________ 
+*Note: Contact EHS before wearing a respirator 
+ Other (specify): ____________________ 
+
+Are any additional controls required? (Consider nearby sources of ignition, formation of explosive 
+atmospheres/mixtures or residues, asphyxiation in confined spaces). 
+_____________________________________________________________________________________
+_____________________________________________________________________________________ 
+
+Equipment to be used: 
+
+Major Laboratory Equipment Used 
+
+Potential Hazards 
+(i.e., electric shock, temperature extremes, pressure, 
+chemical exposure) 
+
+Equipment controls required: 
+______________________________________________________________________________
+______________________________________________________________________________ 
+
+Disposal measures to be used during and after the procedures: 
+______________________________________________________________________________
+______________________________________________________________________________ 
+Emergency procedures (emphasize any special hazards): 
+• 
+• 
+• 
+• 
+
+Shut down Procedures 
+Action in the event of Fire (type of extinguisher): 
+Action in the event of spillage or uncontrolled release: 
+
+Emergency treatment for personnel in the event of 
+contamination, exposure to vapors, or other adverse 
+effects
+
+Name of Assessor:_________________________ 
+
+Signature:_______________________________ Date:_______________________________
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX G SELECTION AND USE OF PERSONAL PROTECTIVE EQUIPMENT 
+
+Laboratory PPE Hazard Assessment Tool 
+
+This assessment must be completed online at https://ehsis.yale.edu/EHSIntegrator/Survey/LabPPE. All Activities/Jobs/tasks that apply 
+to your laboratory must be noted. 
+
+Personal Protection Equipment (PPE) Requirements 
+
+*Please note that safety glasses also includes ANSI approved prescription glasses with side shields 
+
+General PPE – To Be Worn at All Times 
+
+Applies 
+
+✓ 
+
+Activities/Jobs/Tasks 
+Working in a laboratory 
+where hazardous materials 
+are used 
+(exception: safety glasses are 
+not required when sitting at a 
+desk in the lab that is 
+separated from the bench and 
+there is minimal possibility of 
+contamination) 
+
+Task-Specific PPE Requirements 
+
+Applies 
+
+Activities/Jobs/Tasks 
+
+Directly handling 
+hazardous materials 
+
+Potential Exposures Addressed by PPE 
+• Contamination (feet, leg, clothing, 
+
+eyes, hands) 
+
+Personal Protective Equipment Requirements 
+
+• Closed‐toe, solid top shoes 
+• Clothing that covers the legs 
+• Safety glasses* or prescription glasses 
+• Gloves if touching potentially contaminated equipment 
+
+Potential Exposures Addressed by PPE 
+• Chemical, biological or radioactive 
+
+material contamination (hands, eyes) 
+• Contamination of personal clothing or 
+
+skin (body) 
+
+Personal Protective Equipment Requirements 
+
+• Safety glasses 
+• Gloves—exam style nitrile (highly permeable and/or 
+highly toxic materials may require different gloves— 
+contact EHS) 
+
+• Lab coat 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+54 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Applies 
+
+Activities/Jobs/Tasks 
+
+Working with larger 
+volumes of flammable 
+liquids (>4L) or heating 
+flammable liquids 
+
+Potential Exposures Addressed by PPE 
+• Splashing (eyes/face) 
+• Fire/burns (eyes, face, hands, arms, 
+
+body) 
+
+Personal Protective Equipment Requirements 
+
+• Safety glasses 
+• Gloves – exam style nitrile 
+• Flame resistant lab coat 
+
+Working with larger 
+volumes (>1L) of corrosive 
+or toxic liquids 
+
+• Splashing (eyes, face) 
+• Contamination/burns to unprotected 
+
+skin (hands, wrists, body) 
+
+• Chemical goggles 
+• Face shield if under pressure or outside fume hood 
+• Gloves—utility grade nitrile or neoprene over nitrile exam 
+
+Working directly with 
+pyrophoric and water 
+reactive chemicals 
+
+• Burns (clothing, eyes, face, hands, 
+
+body) 
+
+Working with cryogenic 
+materials 
+
+• Cold burns (eyes, face, hands, body) 
+
+Working with hot objects 
+or equipment 
+
+• Burns (eyes, face, hands, arms, body) 
+
+Working with open flames 
+
+• Burns (eyes, face, hands, arms, 
+
+body) 
+
+style 
+• Lab coat 
+• Wear non‐synthetic clothing 
+• Safety glasses or chemical goggles 
+• Face shield if splashing can occur 
+• Nitrile gloves 
+• Flame resistant gloves (larger volumes) 
+• Flame resistant lab coat 
+
+• Safety glasses 
+• Face shield (larger volumes) 
+• Thermal insulated gloves 
+• Lab coat, apron or equivalent (larger volumes) 
+• Safety glasses 
+• Face shield as necessary 
+• Heat resistant gloves (with arm protection if needed) 
+• Lab coat, apron or equivalent 
+• Safety glasses 
+• Gloves – exam style nitrile 
+• Flame resistant lab coat 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+55 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Applies 
+
+Activities/Jobs/Tasks 
+Working with apparatus 
+under high pressure 
+
+Potential Exposures Addressed by PPE 
+• Cuts from glass/ material fragments 
+
+(face, hands, body) 
+
+• Chemical contamination (eyes, face, 
+
+hands, body) 
+
+Personal Protective Equipment Requirements 
+
+• Safety glasses or goggles 
+• Face shield 
+• Utility gloves 
+• Chemical resistant apron as necessary 
+
+Working with highly reactive 
+or explosive chemicals 
+
+• Cuts from glass/ material fragments 
+
+(face, hands, body) 
+
+• Chemical contamination (eyes, face, 
+
+hands, body) 
+
+• Fire 
+
+Minor chemical spill cleanup 
+(if <1 liter of low hazard 
+chemical, and respiratory 
+protection is not required) 
+
+• Chemical contamination (shoes, 
+
+eyes, hands, clothing) 
+
+UV light sources 
+
+• Burns (eyes, face, neck, hands, wrist) 
+
+• Work only inside a chemical fume hood 
+• Goggles 
+• Face shield 
+• Utility grade gloves—neoprene, butyl, nitrile, nomex, cut 
+
+resistant, as appropriate 
+
+• Flame resistant lab coat when fire hazard exists 
+• Chemical resistant apron 
+
+• Shoe covers as necessary 
+• Safety glasses or goggles 
+• Double nitrile gloves or utility grade gloves over nitrile 
+
+exam gloves 
+
+• Lab coat 
+• Full face shield (polycarbonate) over safety glasses 
+• Nitrile gloves (wrists fully covered) 
+• Lab coat 
+
+Handling animals in a 
+laboratory 
+
+• Animal blood and other potentially 
+infectious materials (eyes, hands) 
+• Bites, scratches (hands, forearms, 
+
+body) 
+
+• Allergens (respiratory or transfer to 
+
+mucous membranes of the eyes, nose 
+or mouth) 
+
+• Anesthetic agents (respiratory) 
+
+• Safety glasses 
+• Gloves 
+• Gown or lab coat 
+• Refer to YARC for additional PPE requirements, which may 
+differ depending on species, engineering controls, and 
+hazardous agents used 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+56 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Applies 
+
+Activities/Jobs/Tasks 
+Working with radioactive 
+materials 
+
+Potential Exposures Addressed by PPE 
+• Contamination of personal clothing 
+
+(body) 
+
+• Radioactive material contamination 
+
+(eyes, hands, wrists, skin) 
+
+Performing an iodination 
+with volatile radioactive 
+sodium iodide inside an 
+approved radioiodine 
+fume hood 
+
+• Contamination of personal clothing 
+
+(shoes, body) 
+
+• Radioactive material contamination 
+
+(eyes, hands, wrists, skin) 
+• Inhalation of volatile material 
+
+(respiratory) 
+
+Operating analytical or 
+diagnostic x‐ray generating 
+equipment (fluoroscopy, 
+XRD, XRF, patient 
+procedures, etc.) 
+
+Working with open table 
+Class 3B or 4 Lasers 
+
+• Radiation exposure (body) 
+• If patient or human subject, standard 
+
+precautions 
+
+• If laboratory animals, allergens 
+
+(respiratory or transfer to mucous 
+membranes of the eyes, nose or 
+mouth) 
+
+• Ocular and skin exposure (eyes, face, 
+
+hands, body) 
+
+Working at a microscope 
+in the laboratory 
+
+• Hazardous material 
+
+contamination (hands) 
+
+• Contamination of personal clothing 
+
+(body) 
+
+Personal Protective Equipment Requirements 
+
+• Safety glasses 
+• Gloves (double gloves recommended) 
+• Lab coat 
+• Personal radiation badge as appropriate 
+• Survey meter as appropriate 
+• Bench‐top radiation shielding as appropriate 
+• Shoe covers 
+• Safety glasses* 
+• Double gloves 
+• Sleeve covers 
+• Lab coat 
+• Personal radiation badge 
+• Survey meter with scintillation probe 
+• Benchtop radiation shielding 
+• Lead apron or use of structural radiation shielding as 
+
+appropriate 
+
+• Personal radiation badge and ring if assigned 
+• Survey Meter as appropriate 
+• Gloves, as appropriate 
+• Lab coat, gown or approved uniform, as appropriate 
+
+• Protective eyewear of proper optical density 
+• Face shield for UV Lasers 
+• Appropriate gloves for UV lasers 
+• Lab coat for UV lasers 
+• No jewelry or reflective items worn 
+• (If necessary, safety glasses may be temporarily removed 
+
+while viewing materials via a microscope) 
+
+• Gloves if touching potentially contaminated material 
+• Lab coat or gown 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+57 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Applies 
+
+Activities/Jobs/Tasks 
+
+Using an autoclave 
+
+Potential Exposures Addressed by PPE 
+• Contamination/burns (eyes, face, 
+
+hands, body) 
+
+Personal Protective Equipment Requirements 
+
+• Lab coat 
+• Face shield 
+• Heat resistant apron 
+• Heat resistant gloves 
+
+Working when exposed to 
+fall hazards (4 feet or 
+greater without 
+guardrails) 
+
+• Fall to lower level (body) 
+
+• Active fall protection (requires site specific training) 
+
+Biohazard experiments are classified based on risk. The starting point for risk assessment is the assignment of a biohazard to a specific Risk 
+Group. There are 4 Risk Groups (RGs) based on risk to the individual and the community. RG1 is the lowest risk and RG4 is the highest. Risk 
+Group assignments for human pathogens can be accessed at: http://www.absa.org/riskgroups/index.html 
+• For other experiments, researchers can refer to the Gradations of Risk Table referenced in this document. 
+
+Work with Risk Group 1 
+materials that do not cause 
+disease in humans (i.e. non‐
+pathogenic strains of 
+E. coli, Bacillus subtillus, 
+Saccharomyces cerevisiae, 
+rodent cell lines) 
+Working with human 
+blood, tissues, body fluids, 
+human cell lines, or Risk 
+Group 2 bloodborne 
+pathogens, utilizing 
+Universal Precautions and 
+BSL2 containment. 
+
+• Risk Group 1 materials could represent 
+a risk to individuals with compromised 
+immunity or who may have allergies to 
+the materials (eyes, hands, 
+respiratory, body) 
+
+• Safety glasses 
+• Gloves 
+• 
+• Surgical mask or respirator, if specified 
+
+Lab coat 
+
+• Potentially infectious materials by 
+splash (to mucous membranes of 
+the eyes, nose or mouth, or through 
+non‐intact skin) 
+
+• Puncture by contaminated sharps 
+
+(skin—percutaneous) 
+
+• Safety glasses 
+• Mask or face shield if splashing is possible 
+• Gloves—nitrile exam and/or cut‐resistant 
+• 
+• Surgical mask or respirator, if specified 
+• Additional PPE may be required based on risk to the 
+
+Lab coat or gown 
+
+individual 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+58 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Potential Exposures Addressed by PPE 
+• Exposure to agent (eyes, hands, 
+
+skin) 
+
+• Puncture by contaminated sharps 
+
+(skin—percutaneous) 
+Ingestion (eyes, nose or mouth) 
+
+• 
+• Aerosol production can create 
+potential risk of inhalation and 
+contamination of surrounding surfaces 
+(respiratory) 
+
+Personal Protective Equipment Requirements 
+
+• Safety glasses 
+• Gloves 
+• 
+Lab coat or gown 
+• Respirator, if specified 
+• Additional PPE may be required based on risk to the 
+
+individual 
+
+• Confine aerosols as close as possible to their point of 
+
+generation 
+
+• Use a biosafety cabinet or other engineering control 
+
+• All RG2 routes of exposure may be 
+applicable (eyes, nose, mouth, 
+hands, respiratory, skin) 
+
+• Inhalation is of particular concern for 
+pathogens classified at Risk Group 3 
+(respiratory) 
+
+• All work with RG3 agents must be conducted under 
+
+primary containment using BSL3 containment practices. 
+Specialized laboratories are required for this work. 
+• All procedures with RG3 agents must be approved by 
+
+the Yale Biological Safety Committee 
+
+• Full face protection—face shield or safety glasses and 
+
+mask 
+
+• Gloves—exam, two pairs 
+• Gown—back‐fastening 
+• Additional PPE may be required based on risk to the 
+individual, such as respiratory protection, protective 
+sleeve covers, booties, jump suits, etc. 
+
+• Work with Risk Group 4 Agents is not allowed at Yale 
+
+University. 
+
+• All routes of exposure (percutaneous, 
+inhalation, ingestion, and via facial 
+mucous membranes) may be involved 
+with these experiments. 
+
+Applies 
+
+Activities/Jobs/Tasks 
+Experiments involving Risk 
+Group 2 agents, that 
+represent a moderate risk 
+to the individual and may 
+cause disease of varying 
+severity. Examples of Risk 
+Group 2 agents include 
+Plasmodium falciparum, 
+Salmonella typhimurium, 
+Herpes Simplex Virus and 
+Cryptococcus neoformans) 
+Experiments with Risk 
+Group 3 agents (i.e. West 
+Nile Virus, Mycobacterium 
+tuberculosis, Histoplasma 
+capsulatum) in cell culture 
+or animal laboratories 
+
+Performing work with Risk 
+Group 4 agents (i.e. Ebola 
+virus, Marburg virus) or 
+work that requires BSL4 
+containment. Risk Group 4 
+agents represent a very 
+high risk to the individual 
+and are also a risk to the 
+community. 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+59 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX H HIGHLY REACTIVE COMPOUNDS AND STRONG 
+OXIDIZERS 
+
+Examples of potentially explosive and explosive compounds include: 
+
+Acetylene 
+Ammonium picrate 
+Bromopropyne 
+Diazodinitrophenol 
+Dinitroresorcinol 
+Dodecanoyl peroxide 
+Lauric peroxide 
+Methyl ethyl ketone peroxide 
+Nitrocellulose 
+Nitroglycerine 
+Nitrourea 
+Picric acid 
+Potassium azide 
+Sodium azide 
+Tetranitroaniline 
+Trinitrobenzene 
+Trinitrocresol 
+Trinitroresorcinol 
+
+Potentially Explosive Compounds (PEC) 
+Acetyl peroxide 
+Ammonium perchlorate 
+Benzoyl peroxide 
+Cumene peroxide 
+Dinitrophenylhydrazine 
+Dipicryl sulphide 
+Heavy metal azides 
+Lithium azide 
+Mercury fulminate 
+Nitrogen triiodide 
+Nitromethane 
+Picramide 
+Picryl sulphonic acid 
+Silver fulminate 
+Succinic peroxide 
+Trinitroanisole 
+Trinitrobenzoic acid 
+Trinitrophenol 
+Urea nitrate 
+Potentially Explosive Compound Classes 
+Acetylene (-C=C-) 
+Azide Metal (M-N3) 
+Diazosulphide (-N=N-S-N=N-) 
+Halogen Amine (=N-X) 
+Aromatic or Aliphatic Nitramine (=N-
+NO2) (-NH-NO2) 
+Ozonides 
+Hydroperoxide (-O-O-H) 
+
+Acyl hypohalites (RCO-OX) 
+Azo (-N=N-) 
+Diazonium salts (R-N2+) 
+Nitrate (-ONO2) 
+Nitrite (-ONO) 
+
+Peracids (-CO-O-O-H) 
+Metal peroxide (M-O-O-M) 
+
+Ammonium nitrate 
+Barium azide 
+Butanone peroxide 
+Dinitrophenol 
+Dipicryl amine 
+Ethylene oxide 
+Lead azide 
+Mercury azide 
+Nitrogen trifluoride 
+Nitroguanidine 
+Organic azides 
+Picryl chloride 
+Propargyl bromide (neat) 
+Sodium dinitrophenate 
+Trinitroaniline 
+Trinitrobenzenesulphonic acid 
+Trinitronaphthalene 
+Trinitrotoluene 
+
+Azide Organic (R-N3) 
+Diazo (=N=N) 
+Fulminate (-CNO) 
+Nitro (-NO2) 
+Nitroso (-NO) 
+
+Peroxide (-O-O-) 
+
+Explosive Salts 
+Bromate salts (BrO3-) 
+Perchlorate salts (Cl04-) 
+
+Hypohalite salts (XO-) 
+
+Chlorate salts (ClO3-) 
+Picrate salts (2,4,6-
+trinitrophenoxide) 
+Iodate salts (IO3-) 
+
+Chlorite salts (Cl02-) 
+Picramate salts (2-amino-4,6-
+dinitrophenoxide) 
+
+Examples of strong oxidizers include: 
+
+• 
+
+Sodium perchlorate (Class 2) 
+
+Chromic acid (Class 2) 
+
+• Ammonium perchlorate (Class 4) 
+• Ammonium permanganate (Class 4) 
+• 
+• Hydrogen peroxide (>27.5‐52% Class 2, >52‐91% Class 3) 
+• Mangesium peroxide (Class 1) 
+• Nitric Acid (≤40% Class 1, >40‐86% Class 2) 
+• 
+• 
+• 
+• 
+• 
+• 
+
+Perchloric acid (>50‐60% Class 2, >60‐72% Class 3, >72% Class 4) 
+Potassium bromate (Class 3) 
+Potassium chlorate (Class 3) 
+Potassium peroxide (Class 2) 
+Sodium chlorate (Class 3) 
+Sodium chlorite (>40% Class 3) 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX I CHEMICALS THAT MAY FORM EXPLOSIVE 
+PEROXIDES 
+
+(This list is not all-inclusive) 
+
+Class A 
+Chemicals that may form 
+explosive peroxides without 
+concentration. 
+Discard within 3 months after 
+opening 
+
+Class B 
+Chemicals that may form 
+peroxides upon concentration 
+(distillation/evaporation). 
+Discard within 12 months after 
+opening 
+
+Class C 
+Chemicals that may auto-
+polymerize as a result of 
+peroxide accumulation. 
+Discard within 12 months after 
+opening 
+
+Acetal 
+Cumene 
+
+Isopropyl ether 
+Butadiene (liquid) 
+Chlorobutadiene (chloroprene) Cyclohexene 
+Cyclooctene 
+Potassium amide 
+Cyclopentene 
+Potassium metal 
+Diacetylene 
+Sodium amide (sodamide) 
+Dicyclopentadiene 
+Tetrafluoroethylene 
+Diethylene glycol dimethyl ether 
+Divinyl acetylene 
+(diglyme) 
+Diethyl ether 
+Dioxane (p-dioxane) 
+Furan 
+Methyl acetylene 
+Methyl cyclopentane 
+Methyl-i-butyl ketone 
+Tetrahydrofuran 
+Tetrahydronaphthalene 
+Vinyl ethers 
+
+Vinylidene chloride 
+
+Acrylic acid 
+Butadiene (gas) 
+Chlorotrifluoroethylene 
+Ethyl acrylate 
+Methyl methacrylate 
+Styrene 
+Vinyl acetate 
+Vinyl acetylene 
+
+Vinyl chloride 
+Vinyl pyridine 
+
+National Research Council, Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards; National Academies Press: 
+Washington DC, 2011; pg 72. DOI: https://doi.org/10.17226/12654 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX J RESTRICTED CHEMICALS REQUIRING EHS 
+APPROVAL 
+
+The most updated list can be found on this page: 
+https://ehs.yale.edu/sites/default/files/files/chemicals-ehs-approval.pdf 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX K CARCINOGENS AND REPRODUCTIVE TOXINS 
+
+(This list is not all inclusive) 
+
+CAS 
+57-14-7 
+
+Chemical 
+1,1-dimethylhydrazine 
+(UDMH) 
+1,2-Dibromo-3-chloropropane 96-12-8 
+107-06-2 
+1,2-dichloroethane 
+106-99-0 
+1,3-butadiene 
+1120-71-4 
+1,3-Propane sultone 
+123-91-1 
+1,4-dioxane (p-dioxane) 
+55-98-1 
+1,4-Butanediol 
+dimethanesulfonate (myleran, 
+busulfan) 
+1-Methyl-3-nitro-1-
+nitrosoguanidine (MNNG) 
+
+70-25-7 
+
+2-Acetylaminofluorene 
+2-Aminofluorene 
+2-Ethoxyethanol (ethyl 
+cellosolve) 
+2-Ethoxyethylacetate 
+(cellosolve acetate) 
+2-Methoxyethanol (methyl 
+cellosolve) 
+2-Methoxyethylacetate 
+(methyl cellosolve acetate) 
+
+2-naphthylamine 
+2-nitropropane 
+3-Methylcholanthrene 
+3,3'-Dichlorobenzidine (& its 
+salts) 
+3,3'-Dimethylbenzidine (o-
+Tolidine) 
+4,4'-Methylene bis(2-
+chloroaniline) (MOCA) 
+
+4,4-methylenedianiline 
+4-Aminodiphenyl 
+
+4-Dimethylaminoazobenzene 
+(p-
+dimethylaminoazobenzene) 
+4-Nitrobiphenyl 
+
+7,12-
+Dimethylbenz[a]anthracene 
+
+Yale University Chemical Hygiene Plan 
+
+53-96-3 
+153-78-6 
+110-80-5 
+
+111-15-9 
+
+109-86-4 
+
+110-49-6 
+
+91-59-8 
+79-46-9 
+56-49-5 
+91-94-1 
+
+119-93-7 
+
+101-14-4 
+
+101-77-9 
+92-67-1 
+
+60-11-7 
+
+92-93-3 
+
+57-97-6 
+
+Chemical 
+cobalt and cobalt 
+compounds 
+
+Cyclophosphamide 
+Diazoaminobenzene 
+Dibenz[a,h]anthracene 
+Diepoxybutane 
+Diethylstilbestrol (DES) 
+
+CAS 
+ various 
+
+50-18-0 
+136-35-6 
+53-70-3 
+1464-53-5 
+56-53-1 
+
+Diethyl sulfate 
+
+64-67-5 
+
+Dimethyl sulfate 
+Ethyl methane sulfonate 
+Ethylene dibromide 
+
+Ethyleneimine 
+
+Ethylene oxide 
+
+77-78-1 
+62-50-0 
+106-93-4 
+
+151-56-4 
+
+75-21-8 
+
+Formaldehyde (formalin) 
+
+50-00-0 
+
+Furan 
+hexamethylphosphoramide 
+Hydrazine 
+isoprene 
+
+110-00-9 
+680-31-9 
+302-01-2 
+78-79-5 
+
+lead and lead compounds 
+
+various 
+
+Methylmercury and other 
+organic mercury 
+compounds 
+Methyl methane sulfonate 
+Methylene chloride 
+(dichloromethane) 
+Methyl chloromethyl ether 
+
+various 
+
+66-27-3 
+75-09-2 
+
+107-30-2 
+
+Nickel and nickel 
+compounds 
+Nitrobenzene 
+
+various 
+
+98-95-3 
+
+Revised February 2026 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Acetaldehyde 
+Acrylamide (solid form) 
+
+75-070-0 
+79-06-1 
+
+Acrylonitrile 
+alpha-Naphthylamine (1-
+Naphthylamine) 
+Arsenic and arsenic 
+compounds 
+
+Benz[a]anthracene 
+Benzene 
+
+Benzidine 
+Benzo[a]pyrene 
+beryllium 
+Beryllium compounds 
+
+beta-Naphthylamine (2-
+Naphthylamine) 
+beta-Propiolactone 
+
+107-13-1 
+134-32-7 
+
+various 
+
+56-55-3 
+71-43-2 
+
+92-87-5 
+50-32-8 
+7440-41-7 
+various 
+
+91-59-8 
+
+57-57-8 
+
+bis-chloromethyl ether 
+
+542-88-1 
+
+bromodichloromethane 
+Cadmium and cadmium 
+compounds 
+
+75-27-4 
+various 
+
+Carbon tetrachloride 
+
+56-23-5 
+
+Chemotherapy agents 
+Chlornaphazine 
+Chloroethylene (vinyl 
+chloride) 
+Chloroform 
+chromium compounds (VI) 
+
+various 
+494-03-1 
+75-01-4 
+
+67-66-3 
+various 
+
+Nitromethane 
+N, N-bis(2-chloroethyl)-2-
+naphthylamine 
+(chlornaphazine) 
+N-Nitrosodiethylamine 
+N-Nitrosodimethylamine 
+
+75-52-5 
+494-03-1 
+
+55-18-5 
+62-75-9 
+
+N-Nitrosodi-n-butylamine 
+
+924-16-3 
+
+N-Nitrosodi-n-propylamine 86-30-6 
+759-73-9 
+N-Nitroso-N-ethylurea 
+684-93-5 
+N-Nitroso-N-methylurea 
+615-53-2 
+N-Nitroso-N-
+methylurethane 
+N-Nitrosopiperidine 
+o-Aminoazotoluene 
+Perchloroethylene 
+Polyclorinated biphenyls 
+(PCBs) 
+
+100-75-4 
+97-56-3 
+127-18-4 
+various 
+
+propylene oxide 
+(epoxypropane) 
+Propylenimine (2-
+methylaziridine) 
+Styrene 
+
+75-56-9 
+
+75-55-8 
+
+100-42-5 
+
+Thioacetamide 
+Toluene diisocyanates 
+(TDI) 
+trichloroethylene (TCE) 
+Uracil mustard 
+Urethane (ethyl carbamate) 
+
+62-55-5 
+26471-62-5 
+
+79-1-6 
+66-75-1 
+51-79-6 
+
+vinyl magnesium bromide 
+
+1826-67-1 
+
+Yale University Chemical Hygiene Plan 
+
+Revised February 2026 
+
+10

@@ -1,0 +1,104 @@
+Chemical Waste – Environmental Health and Safety
+Environmental Health and Safety
+Find a Subject Matter Expert
+Environmental Affairs
+Research and Lab Safety
+Find Training Courses
+Personal Protective Equipment – PPE
+Principal Investigator Resources
+Safety Orientation Checklist
+Emergency Management & Mission Continuity
+Accident Report Forms
+The provisions of the Resource Conservation and Recovery Act (RCRA) and the Hazardous Waste Generator Improvement Rule (40 CFR 260 – 265) require generators of hazardous waste to properly manage hazardous waste generated under their control. These documents are the basis for the Hazardous Waste Management Plan (HWMP) for North Carolina State University (NC State) (pdf). Also, NC State has opted in to 40 CFR 262 Subpart K (Subpart K) – Alternative Requirements for Hazardous Waste Determination and Accumulation of Unwanted Material for Laboratories Owned by Eligible Academic Entities. Waste generated within a laboratory is regulated by Subpart K and managed under the Laboratory Waste Management Plan (pdf). Non-laboratory areas will manage their waste under the Hazardous Waste Generator Improvements Rule.
+Trainings available via REPORTER:
+All Laboratory personnel MUST take the new Laboratory Chemical Waste Management Training which is available on line.
+Classes have been developed for Non-Laboratory Hazardous Waste Training to disseminate information on the new regulations for compliant waste management for non-lab (Facilities, Athletics, Dining, Environmental Services, etc.) users.
+Personnel in those areas mentioned above should retake this training as there are major waste management changes under the new rule. In-person training is available upon request. Contact env-health-haz-waste@ncsu.edu for assistance.
+EHSA is the university’s web submission and tracking database and fulfills the Environmental Protection Agency’s regulated requirements involving the tracking of waste from initial use to final disposal.
+All university Chemical Wastes must be submitted for pickup via EHSA
+EHSA for Unwanted Materials/Hazardous Waste Management
+EHSA – Frequently Asked Questions
+How do I use to EHSA for Unwanted Materials/Hazardous Waste Management?
+Upon initial login, you must choose to Register as a PI or a Worker. Once
+approved, you must fill out a Profile. This is done by clicking on the Unwanted
+Material/Hazardous Waste Icon. Click on “Add a Request” and fill out your
+Profile and hit Save. Note: You cannot submit material until you complete this step.
+When you go back later and click “Add a Request”, ensure the location is
+correct (ie. Building and Room). You are limited to the bldgs. and rooms in you
+and your PI’s license and profile. Trying to type in any of this information
+rather than using the dropdowns will cause the system fault and it will not
+send you a label once approved.
+Submitting Waste in EHSA
+Waste Type – Chemicals Used or Unused, Bio, or Rad. For regulatory reporting purposes, the distinction between Used and Unused is important.
+System defaults to “Accumulating Yes” – is only for containers you are accumulating waste in. Set to No if the item is ready for pickup.
+Form, number of containers, size, etc. are all required. When accumulating, we need the size of the container. When ready for pickup we need the amount IN the container.
+Any clarifications or helpful data may be added to the additional info area.
+Container Contents – No free-type – you must search by chemical name or CAS#. The total percentage of chemicals must add up to 100. If you have gloves, other PPE, plates, wipes or the like, use “Laboratory Debris” as the main chemical constituent. Items such as Broken Glass and Sharps are also available for use.
+If you find something that is not in the chemical catalog, please contact EHS for addition or alternative. Do not submit as an unknown and then add the chemical constituents to the additional information area.
+Add Container – adds another container. Please do not put more than 10 per
+Hit Save – if not accumulating it may ask if you wish to submit for pickup, hit yes. If multiple containers for one line it may ask if you wish to separate containers – Click No.
+Whether Accumulating or for Pickup, once we review and approve you will receive an email with labels. If the items are not labeled, the contractor will not pick them up.
+Items accumulating or ready for pickup should be able to be seen by all lab personnel registered under a PI. Only the person who submitted the waste will receive the labels.
+Items submitted for pickup after 4pm may not be picked up the following day.
+Any items that exceed 300 days of accumulation will be submitted by EHS for waste pickup as required by regulation.
+EHSA – Frequently Asked Questions (pdf)
+Management of chemical waste in different work environments requires understanding regulations and applying best practices. Review the laboratory waste generation and storage quick facts for most common violations cited by regulators and associated guidance.
+Chemical Waste Satellite Accumulation Area
+Store near point of generation
+Store under control of process operator
+Maximum 55 gallons of waste
+Dispose within 90 DAYS of start of accumulation
+Keep closed unless venting or adding material
+Remove funnel when not in use, latch shut if attached to the container
+No parafilm, corks, glass stoppers
+Communicate Contents
+Label as ‘Hazardous Waste’
+Identify contents and hazards
+Store in secondary containment
+Ensure compatibility with contents
+Keep clean with no residue
+Unwanted Materials Form (EHSA)
+Unwanted Material Satellite Accumulation Storage sign
+Maximum 55 gallons of material
+Disposewithin10 months of start of accumulation
+Must have an EHSA label
+Self Audit Checklist for Laboratory Unwanted Materials
+Building/Room Number:
+Does the Lab generate regulated waste?
+Presence of accumulated waste in room?
+Waste is accumulated in the room where generated and under the control of the
+Have all personnel working in the laboratory completed Laboratory Chemical Waste Management Training?
+Containers are labeled with an EHSA “Unwanted Material” designation with the chemical contents’ associated hazards visible.
+Does the Unwanted Material “Accumulation” label have a generation start date less than 10 months old?
+Unwanted Material containers are closed?
+Containers are suitable for the contents?
+Waste containers are stored in secondary containment?
+Containers are stored in a manner that prevents breakage, spills, or leaks?
+Does the generator allow for 10% head space for expansion in accumulation containers?
+There is no visible residue on waste containers?
+Is the “working container” connected to HPLC machines and the like that is less than or equal to 2 gallons?
+Is the “working container” labeled as a “working container” and the chemical names(s)?
+Is the “working container” emptied at the end of the process or work shift, which ever comes first?
+Are obsolete (unused, unopened, unknown, or expired) chemicals present in the area?
+If yes, have they been submitted via EHSA for pick up as an Unwanted Material?
+Is there less than 55 gallons of Unwanted Material in the area?
+Are aerosol cans being via EHSA for pick up as an Unwanted Material?
+Containers of used oil are labeled “Used Oil” and not “Waste”?
+Hazardous waste is picked up on a routine scheduled basis. Special projects may require additional scheduling and should be scheduled ahead of time.
+NCSU Chemical Waste Pickup Schedule
+Monday – Special Projects
+Tuesday – Centennial Campus and other areas South of Western Boulevard
+Wednesday – Centennial Biomedical Campus and other areas West of Gorman Street
+Thursday – Northwest Main Campus. Areas North of Yarborough Drive and West of
+Katharine Stinson Drive
+Friday – Northeast Main Campus – Polk, Broughton, Burlington, and areas East.
+Central Main Campus – Areas between the Railroad Tracks and Western Blvd.
+Surplus Guidelines – Some equipment and material may not be appropriate for resale due to the presence of hazardous materials, characteristics, or regulatory constraints. It is the responsibility of the equipment owner to ensure that all oils, coolants, and other hazardous materials have been removed prior to submitting the item for disposition through surplus. Items that may be contaminated by chemical, biological, or radioactive material must be cleaned and inspected prior to submission to surplus.
+NCSU Surplus Guidelines (pdf)
+A-Z search of Website
+Environmental Health & Safety Organizational Chart
+Subject Matter Expert List
+2024-2025 Campus Safety Award Recipients
+· NC State University
+· University Policies
+North Carolina State University

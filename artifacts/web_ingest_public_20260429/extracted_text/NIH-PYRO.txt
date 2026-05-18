@@ -1,0 +1,419 @@
+Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Table of Contents 
+Safe Use of Pyrophoric and Water Reactive Chemicals in the Laboratories................................................................... 2 
+
+Hazards .................................................................................................................................................................................. 2 
+
+Purchase and Storage ........................................................................................................................................................... 2 
+
+Working Safely with Pyrophoric and Water Reactive Materials ..................................................................................... 2 
+
+General Precautions .......................................................................................................................................................... 2 
+
+Engineering Controls ........................................................................................................................................................ 3 
+
+Personal Protective Equipment (PPE) ............................................................................................................................ 3 
+
+Eye Protection ............................................................................................................................................................... 3 
+
+Hand Protection ............................................................................................................................................................ 3 
+
+Lab Coat ........................................................................................................................................................................ 3 
+
+Access to Safety Equipment ............................................................................................................................................. 3 
+
+Eyewash and Safety Shower ......................................................................................................................................... 3 
+
+Fire Extinguisher ........................................................................................................................................................... 3 
+
+Laboratory Specific Standard Operating Procedure (SOP) ......................................................................................... 3 
+
+Training .............................................................................................................................................................................. 4 
+
+Using Syringe to Transfer Pyrophoric Liquid ................................................................................................................ 4 
+
+Handling Pyrophoric/Water Reactive Solids ...................................................................................................................... 5 
+
+Weighing and Transferring Pyrophoric/Water Reactive Solids ................................................................................... 5 
+
+Quenching of Pyrophoric Liquids and Solids ..................................................................................................................... 6 
+
+Emergency Response ............................................................................................................................................................ 6 
+
+Waste Disposal ....................................................................................................................................................................... 7 
+
+References .............................................................................................................................................................................. 7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Safe Use of Pyrophoric and Water Reactive Chemicals in the Laboratories 
+Pyrophoric materials are liquids or solids that can ignite instantaneously without an external ignition source when in 
+contact with air/moisture. Extreme care must be taken while handling these chemicals to avoid fire/explosion leading to 
+serious injuries to personnel and damage to the facility. 
+
+Below are some examples of pyrophoric and water reactive materials commonly found in research laboratories: 
+
+• Organolithium reagents (e.g., alkyl and aryl lithiums, lithium acetylide, lithium amide) 
+• Organohalogen or Grignard reagents (e.g., RMgX, where R=alkyl and X=halogen) 
+• Alkyl metal bases (e.g., butyllithiums, trimethylaluminum, triethylboron) 
+• Metal hydrides (e.g., sodium hydride, lithium aluminum hydride, sodium borohydride) 
+• Finely divided metals (e.g., Raney nickel, aluminum powder, zinc dust) 
+• Metal carbonyls (e.g., nickel carbonyl, iron pentacarbonyl) 
+• Aluminum alkyls (e.g., trimethylaluminum) 
+
+Hazards 
+The primary hazard of pyrophoric/water reactive materials is the ignition of the material when exposed to air or moisture. 
+Other hazards may include corrosivity, peroxide formation, and toxicity. 
+
+For chemical specific hazard information, refer to manufacturers’ labels and safety data sheets (SDS). 
+
+Purchase and Storage 
+
+• Minimize the purchase of the pyrophoric/water reactive materials to quantities just enough for the application or 
+
+enough to meet the needs of a few months. 
+
+• Store these materials in accordance with SDS recommendations, away from sources of heat/ignition, , ﬂammable 
+and combustible materials and other incompatible chemicals(Chemical Segregation Table). Store in airtight 
+secondary containment to reduce the potential for exposure to air and moisture. 
+
+• Pyrophoric liquids are generally packaged in glass bottles under an inert atmosphere and sealed with a septum to 
+
+prevent air intrusion. Never expose these liquids to air/moisture. 
+ Store pyrophoric solids under an inert atmosphere or under mineral oil as per SDS. 
+
+• 
+• Containers carrying pyrophoric materials must be clearly labeled with the correct chemical name and hazard 
+
+warning. Date all containers upon receipt and opening. 
+
+• Periodically check the condition of the container and the material. Some of the chemicals like potassium metal 
+
+can form peroxides and superoxides over time even under mineral oils. 
+
+• Pyrophoric and water reactive chemicals stored in glove boxes must be sealed when not in use. 
+
+ Working Safely with Pyrophoric and Water Reactive Materials 
+
+General Precautions 
+Quantities of the pyrophoric reagents used in any process/experiment shall be limited to the minimum required amount, 
+and procedures and SOPs shall be developed by the researcher in advance of the usage to control fires/vigorous reactions. 
+A container of powdered lime or a bucket of dry sand should be kept within arm’s length while working with 
+pyrophoric/water reactive chemicals. Use powdered lime/sand to completely smother and cover any spill and call for 
+
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+emergency help. Never use paper towels or other combustive materials to clean spills. Additional controls may be 
+required based on the hazards of the specific chemical used, amount used, type of application etc. Consult with your 
+Safety Specialist for guidance. 
+
+Engineering Controls 
+Pyrophoric/water reactive materials ideally should be handled inside a glovebox under an inert atmosphere. When this is 
+not possible, handle inside a properly functioning chemical fume hood by following special techniques described later in 
+this document to prevent exposure to air/oxygen/water. Keep the sash of the fume hood at the lowest feasible position. 
+
+Personal Protective Equipment (PPE) 
+
+Eye Protection 
+
+Safety goggles or safety glasses with side shields that meet the ANSI Z.87.1 1989 standard must be worn while handling 
+pyrophoric/water reactive chemicals. General prescription glasses are not appropriate for providing adequate protection. 
+Additional protection like a face shield may be required if the risk of explosion, splash or a highly exothermic reaction 
+exists. 
+
+Hand Protection 
+
+Appropriate gloves must be worn when working with pyrophoric/water reactive chemicals. Nitrile gloves are appropriate 
+for handling small quantities and refer to SDS for chemical specific recommendations. Consider the use of fire-resistant 
+(FR) gloves or liners if needed. 
+
+Lab Coat 
+
+Flame resistant or NOMEX lab coats are required when working with pyrophoric/water reactive chemicals. Clothing 
+made of natural fibers must be worn under the lab coat and on legs. Clothing made of synthetic fibers such as polyester 
+and nylon tend to melt to the body when exposed to flames while clothing made of natural fibers such as cotton tend to 
+char. 
+
+Access to Safety Equipment 
+
+Eyewash and Safety Shower 
+
+Access to plumbed emergency eyewash stations and safety showers within 10 seconds, or 55 feet of unimpeded access 
+from the hazard, are required. 
+
+Fire Extinguisher 
+
+Access to a Class D fire extinguisher within 10 seconds, or 55 feet of unimpeded access is required if the laboratory is 
+working with a considerable amount of pyrophoric material or finely divided metal powder. 
+
+Laboratory workers must be trained in the location and use of all the emergency equipment present in the lab. Keep the 
+emergency phone numbers clearly posted and readily accessible. 
+
+Laboratory Specific Standard Operating Procedure (SOP) 
+Laboratories using and storing pyrophoric/water reactive chemicals must develop a lab specific SOP covering 
+procurement, storage, use, emergency response and disposal. PI/supervisor is responsible for developing the SOP and all 
+laboratory personnel should be made familiar with and review the completed SOP. Contact your DS Safety Specialist for 
+guidance. 
+
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Training 
+Pyrophoric materials should be handled only by trained/experienced personnel. Users must be trained by the 
+PI/supervisor on: 
+
+• How to handle pyrophoric reagents including storage, emergency response, waste management, 
+
+neutralization/quenching of the excess reagent/rinsate etc. 
+
+• Review of SDSs and the lab specific SOP. 
+• Laboratory policies on working alone and prior approvals 
+• Any additional lab specific training/approval processes etc. 
+• Lab Safety training provided by DS 
+
+To provide approval to work with pyrophoric/water reactive reagents the PI/supervisor must verify the competency of the 
+employee to perform the tasks safely and respond to emergencies. The training must be documented, and the records must 
+be maintained by the PI/Supervisor. 
+
+Handling Pyrophoric Liquids 
+
+Before starting work, all people working with or around pyrophoric materials must read the manufacturer’s SDSs, lab 
+specific SOPs and other available reference materials. 
+
+Never allow any combustible materials, including paper products, to come in contact with pyrophoric/water reactive 
+chemicals. Remove all unnecessary items including equipment and chemicals from the fume hood. Syringes, needles, and 
+glassware must be completely dry and purged with an inert gas prior to use with pyrophoric/water reactive chemicals. 
+
+Everything used for the transfer (needles, syringes etc.), the experimental assembly and any other equipment that 
+encountered pyrophoric liquids must be rinsed with a neutral solvent and the rinsate must be quenched following the 
+“quenching guidelines” at the end of this document. 
+
+Using Syringe to Transfer Pyrophoric Liquid 
+
+• Secure pyrophoric reagent bottle to a stand with a clamp prior to 
+starting the transfer to prevent it from tipping. Syringing out the 
+liquid with one hand holding the bottle while the other managing 
+the syringe is not an acceptable practice. 
+
+• Always use long needles that (18 gauge or higher) to reach the 
+
+liquid and never try tilting the reagent bottle. 
+
+• Always use a syringe that has at a minimum double the capacity of 
+
+the volume being transferred. 
+
+• Never use syringes for the transfer of more than 10ml of a 
+
+pyrophoric liquid. Double-Tipped Needle (Cannula) must be used 
+for transfer of quantities exceeding 10ml. 
+
+Fig 1. Filling syringe using inert gas 
+pressure. Image from Aldrich Technical 
+Bulletin AL-134 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+To syringe out pyrophoric liquids from the bottle first insert a needle that is 
+attached to an inert gas line through the septum to the headspace above the reagent 
+without touching the liquid. Insert a long needle (18 gauge or higher) that is firmly 
+attached to a syringe to the reagent bottle through the septum. Pressure of the 
+inert gas will slowly push the plunger back when the reagent starts to fill in the 
+syringe. Once the required amount is inside the syringe, pull the needle out of the 
+liquid and by gently pushing the plunger send any excess reagent along with any 
+air bubbles back into the reagent bottle. Extreme caution must be taken to prevent 
+the plunger getting separated from the syringe. Quickly transfer the reagent to the 
+
+reaction flask (Fig. 2) through the septum by carefully pushing the plunger. 
+
+Using a Double-Tipped Needle (Cannula) to Transfer Pyrophoric 
+Liquid 
+
+Fig 2. Syringe transfer of reagent 
+to reaction flask. Image from Aldrich 
+Technical Bulletin AL-134 
+
+Double-tipped needle (cannula) method should be used when transferring liquids more than 10ml. Insert one end of the 
+double -tipped needle through the septum to the reaction flask/dropping funnel and the other end of the needle to the 
+reagent through the septum of the bottle. Insert another needle attached to an inert gas line (<1 psi) into the reagent bottle 
+through the septum into the headspace without touching the liquid. The reagent will start flowing to the reaction 
+flask/dropping funnel when the tip of the double -tipped needle lowered to the liquid inside the reagent bottle. Pull the end 
+of the double -tipped needle out of the reagent slowly once you have completed the transfer of the required volume. The 
+reaction flask must be vented throughout the process and kept under an inert atmosphere to prevent air from entering the 
+system. 
+
+Refer to Aldrich Technical Bulletins AL-134 and AL-164 for 
+detailed instructions on how to safely transfer liquids using 
+syringe and double tipped needle (cannula). 
+
+Pyrophoric reagents should be added slowly to the reaction 
+flask while cooling in a cooling bath (e.g., acetone/dry ice etc.) 
+to control the reaction rate. The syringe, needle and the double 
+tipped needle used for transfer must be rinsed with a non-
+reacting solvent at the end of the transfer and the rinsate must 
+be neutralized/quenched carefully. 
+
+Handling Pyrophoric/Water Reactive Solids 
+Even though pyrophoric solids are slightly more stable in the 
+air than pyrophoric liquids, all precautions described for liquid pyrophorics (PPE, SOP, Engineering controls, access to 
+emergency equipment etc.) must be followed while handling pyrophoric solids. 
+
+Fig 3. Double-tipped needle transfer of pyrophoric 
+liquids. Image from Aldrich Technical Bulletin AL-164 
+
+Because of the reactivity, most of the pyrophoric/water reactive solids are sold either as mineral oil dispersions or 
+completely submerged in hydrocarbon solvents. The safest approach for handling these solids is performing all 
+manipulations under an inert atmosphere inside a glove box. 
+
+Weighing and Transferring Pyrophoric/Water Reactive Solids 
+Before opening the reagent bottle for weighing/transferring, ensure that all the required equipment/supplies are ready to 
+avoid prolonged exposure of the pyrophorics to air. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+To weigh metals like sodium and potassium, the first step is to cut the required amount using a dry knife while the metal is 
+coated with hydrocarbon/ mineral oil. Transfer the cut metal immediately to a flask with toluene/hexane to wash out the 
+oil. To weigh out the final amount, transfer the washed material to a pre-weighed flask containing toluene/hexane. Once 
+the final amount is weighed out, carefully transfer to the reaction flask. All handling and transfer of the metal must be 
+done using a dry tweezer or a similar device. Never use low boiling solvents like pentane for washing to avoid water 
+condensation. 
+
+Metal hydrides of sodium and lithium are generally sold as oil dispersions and may be handled in the air for brief periods 
+of time. Weighing these oil dispersions must be done carefully under a fume hood, using a pre-weighed flask with a 
+septum and sealed under an inert gas. Remove the mineral oil by repeating washings using dry hexane injected through 
+the septum. The washings syringed out from the flask must be carefully quenched by using isopropanol. Never add 
+solvent to dry metal hydrides, always add metal hydrides slowly to the anhydrous solvent in the reaction flask. Seal the 
+reagent bottle after flushing with an inert gas before storage. 
+
+Do not cut pieces of pyrophoric metals like sodium on paper towels or other combustible materials and do not clean up 
+residues or small spills of pyrophoric materials using paper towels. Contaminated paper products can ignite and can cause 
+fire/explosion. Never leave containers with pyrophoric/water reactive chemicals and residues open to expose the materials 
+to air/moisture to prevent fire/explosions. 
+
+Pyrophoric solids that are discolored or have any unusual appearances should never be used. These materials may be 
+unstable. When these conditions are found, never touch/move the container and contact your Safety Specialist and DEP 
+(301-496-7990) immediately. Some of the pyrophoric solids like potassium and sodium are peroxide formers. 
+
+Quenching of Pyrophoric Liquids and Solids 
+Quenching of excess reagents and the cleaning of used glassware can be very dangerous and should be done very 
+carefully. Dissolve or disperse excess pyrophoric reagents (liquids and solids) in an inert solvent like toluene before 
+quenching. Everything used in an experiment involving pyrophoric materials (syringe, a double-tipped needle (cannula), 
+spatula, glassware assembly, etc.) must be rinsed with an inert solvent and the rinsate must be transferred to a ﬂask under 
+an inert atmosphere for quenching. Cool the rinsate/solvent containing pyrophoric material using a cooling bath (e.g., 
+acetone/dry ice) before starting the quenching process. Slowly add isopropyl alcohol to the cooled toluene suspension to 
+initiate the quenching process. Continue the addition of isopropanol until no further heat/bubbles are released. Methanol is 
+then added slowly followed by copious amounts of water to ensure no active pyrophoric material is left in the solution. 
+Continue stirring for another hour and slowly bring the solution to the room temperature. When all signs of reaction (i.e. 
+bubble and/or heat production) cease, dispose the solution as hazardous waste by following NIH Waste Disposal Guide. 
+
+There are some instances where transferring or washing out all the pyrophoric/water reactive materials from the 
+contaminated items can be very difficult, for example, alkali metals stuck to a spatula. They may be quenched by 
+carefully adding ice if the amount is extremely small. It is very important to add the material to a large quantity of ice 
+while stirring to control any exothermic reaction. No organic solvent should be added during this process to avoid the 
+potential for flammable materials catching fire. Continue stirring the ice mixture and slowly warm up to the room 
+temperature. Once all signs of reaction have completely ceased, dispose the mixture as hazardous waste. 
+
+Emergency Response 
+Spills involving pyrophoric materials are very dangerous due to the potential for spontaneous combustion. Any spill 
+involving pyrophoric materials is considered as a large spill. Follow NIH Chemical Spill Response Procedures . Cover 
+
+ 
+ 
+ 
+ 
+ 
+ Managing Pyrophoric and Water Reactive Chemicals in the Laboratory 
+
+ National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+the spill with powdered lime or dry sand if safe to do so before contacting emergency services. Never use paper towels or 
+other combustive materials to clean or cover pyrophoric/water reactive material spills. 
+
+If anyone is exposed, or on fire, wash under a safety shower and get medical attention immediately by following the 
+guideline below. 
+
+Emergency medical help 
+and spills: 
+
+Contact Emergency Services/Fire Department. 
+Bethesda, MD - call 911 on-campus, 9-911 off-campus; 301-496-9911 
+(cell phone) 
+Baltimore, MD - 911 
+Frederick, MD - 911 
+Hamilton, MT - 911 
+Research Triangle Park, NC - 911 (landline), 919-541-2800 (cell phone) 
+
+The injury/exposure should be immediately reported to your supervisor and local OMS clinic as described below. 
+
+For eye & dermal 
+exposure, wash 
+immediately under eyewash 
+or safety shower for at least 
+15 minutes. 
+
+Seek emergency medical help if needed as described above. 
+The injury/exposure should be immediately reported to your supervisor 
+and local OMS clinic: 
+Bethesda, MD: Building 10, Room 6C306; (301) 496-4411 
+Baltimore, MD: 251 Bayview Blvd., BRC 01B210; (667) 312-5843 
+Frederick, MD: 8200 Research Plaza, Room 1B116; (301) 631-7233 
+Hamilton, MT: 903 South 4th Street, Room 5202; (406) 375-9755 
+Research Triangle Park, NC: 111 T W Alexander Drive, Building 101, 
+Room E111; (984) 287-4178 
+
+Waste Disposal 
+
+Follow the NIH Waste Disposal Guide for disposal of pyrophoric/water reactive materials and any contaminated items 
+including the quenched materials. 
+
+References 
+
+1. Aldrich Technical Bulletins AL-134 and AL-164 
+2. Methods for the safe storage; handling; and disposal of pyrophoric liquids and solids in the laboratory 
+
+Reviewed – 2025 
+NIH Division of Safety

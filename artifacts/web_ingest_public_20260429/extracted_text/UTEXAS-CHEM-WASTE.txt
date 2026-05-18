@@ -1,0 +1,245 @@
+Chemical Waste | Environmental Health & Safety (EHS)
+Campus Operations and Planning
+Organizational Chart
+Emergency Information
+More Environment / Waste pages
+Asbestos & Lead Safety
+Petroleum Storage Tank Program
+Spill Prevention Control and Countermeasure Program
+Design / Construction
+More Design / Construction pages
+Project Closeout / Commissioning
+Unmanned Aerial Vehicles
+Research / Labs / Clinical
+More Research / Labs / Clinical pages
+Lab Evaluations and UT HERD
+Personal Protective Equipment
+Planning Safe Research
+Shipping Research Materials
+Lab Moves / Lab Closeout
+Environmental Programs Training
+HazCom Training, Site-Specific
+Lab Training Requirements
+Laser Safety Training
+Occupational Safety Training
+Radiation Safety Training
+Training Courses and Descriptions
+More Working Safely pages
+Indoor Air Quality (IAQ)
+Occupational Health Services
+Environmental Protection and Waste Management
+The disposal of regulated waste and other unwanted chemicals has become increasingly complicated. The U.S. Environmental Protection Agency (EPA) and the Texas Commission on Environmental Quality (TCEQ) regulate the treatment and disposal of chemical wastes in Texas. This section is written by Environmental Health and Safety – Hazardous Material Management (EHS –HMM) to help you identify what is and is not a regulated chemical waste. In doing so, we hope that you may be able to plan your operations with waste minimization in mind, and help you manage chemical waste generated from your research, clinical or general operations in a manner consistent with legal requirements.
+Removal of Chemical Waste
+Log in with UT EID and Submit: Environmental Management Systems (EMS)
+Instructions for submitting chemical waste for removal using EMS (PDF)
+Training: OH 111 - EMS for Waste Generators (UT EID required)
+I. Identifying Regulated Chemical Wastes
+A regulated chemical waste is defined as a waste which, due to its quantity, concentration, or physical and chemical characteristics may:
+cause, or significantly contribute to, an increase in mortality or an increase in serious or incapacitating illness; or pose a substantial present or potential threat to human health or the environment when improperly treated, stored, transported, disposed of, or otherwise managed.
+A. Characteristics of Chemical Wastes
+In the Code of Federal Regulations (40 CFR), the Resource Conservation and Recovery Act (RCRA) defines the four fundamental characteristics of regulated waste as:
+1. Ignitability - Ignitable materials are defined as materials exhibiting one or more of the following characteristics:
+Liquids that have a flash point less than 60°C (140°F).
+Materials other than liquids that are capable, under standard temperature and pressure, of causing fire by friction, adsorption of moisture, or spontaneous chemical changes and, when ignited, burn so vigorously and persistently that they create a hazard.
+Flammable compressed gases, including those that form flammable mixtures with air.
+Oxidizers that stimulate combustion of organic materials.
+2. Corrosivity - Corrosive materials are defined as materials meeting one or more of the following criteria:
+Aqueous solutions with a pH of less than or equal to 2 or greater than or equal to 12.5.
+Liquid substances which corrode steel at a rate greater than 6.35 millimeters (0.250 inches) per year at a test temperature of 55°C (130°F).
+3. Reactivity - Reactive materials are defined as materials meeting one or more of the following criteria:
+​Unstable materials capable of undergoing violent chemical change (without detonating).
+Materials which react violently with water.
+Materials which form potentially explosive mixtures with water.
+Materials which, when mixed with water, generate toxic gases, vapors, or fumes in a quantity sufficient to present a danger to human health or the environment.
+Cyanide or sulfide bearing wastes which, when exposed to pH conditions between 2 and 12.5, will generate toxic gases, vapors, or fumes in a quantity sufficient to present a danger to human health or the environment.
+Materials capable of detonation or explosive reaction when subjected to a strong initiating source or if heated in confinement.
+Materials which are capable of detonation or explosive decomposition at standard temperature and pressure.
+Alkali metals, peroxides, and cyanide and sulfide compounds are classified as reactive materials.
+4. Toxicity -Toxicity is established through the Toxicity Characteristic Leaching Procedure (TCLP), which measures the tendency of certain toxic materials to be leached (extracted) from the waste material under conditions that the waste would be exposed to in a landfill.
+The current list of toxic substances published by the Environmental Protection Agency includes:
+Carbon tetrachloride
+*Chromium (hexavalent)
+2,4-Dichlorophenoxyacetic acid
+1,1-Dichloroethylene
+Heptachlor (and its epoxide)
+Lindane (hexachlorocyclohexane)
+Toxaphene (chlorinated camphene)
+2,4,5-Trichlorophenol
+2,4,6-Trichlorophenol
+2-(2,4,5-Trichlorophenoxy)propionic acid (Silvex)
+The levels at which these chemicals are regulated in mixtures varies from 0.2 ppm to 400 ppm. For example, solutions that contain mercury at levels above 0.2 ppm are hazardous waste. These levels are very low, so if a waste contains one or more of these components it should be considered to be a hazardous waste unless analysis following the TCLP method shows that its concentration is below the regulatory limit.
+*Note: The eight metals listed and bolded above are regulated in both their pure forms and as compounds (e.g. lead, lead paint, lead oxide, and tetraethyl lead are all regulated wastes).
+B. Listed Chemical Wastes
+In addition to defining the characteristics of regulated waste, RCRA also defines (or lists) certain specific waste materials as being regulated. These materials are listed in 40 CFR sections 261.31 (the F List), 261.32 (the K list), and 261.33 (the P and U Lists).
+The “F List” addresses wastes from nonspecific sources (e.g., spent solvents) and is broken down into several subcategories (or codes). Five codes that are commonly applicable to laboratory wastes are:
+F001 Code - Applicable to all spent solvent mixtures and blends used for degreasing which contained, before use, a total of 10% or more (by volume) of one or more of the following halogenated solvents:
+1,1,1-trichloroethane
+carbon tetrachloride
+chlorinated fluorocarbons
+F002 Code - Applicable to all spent solvent mixtures and blends which contained, before use, a total of 10% or more (by volume) of one or more of the following halogenated solvents:
+1,1,2-trichloro-1,2,2-trifluoroethane
+ortho-dichlorobenzene
+trichlorofluoromethane
+1,1,2-trichloroethane
+F003 Code - Applicable to all spent solvent mixtures and blends which contained, before use, a total of 10% or more (by volume) of one or more of the following non-halogenated solvents:
+methyl isobutyl ketone
+F004 Code - Applicable to all spent solvent mixtures and blends which contained, before use, a total of 10% or more (by volume) of one or more of the following non-halogenated solvents:
+cresols and cresylic acid
+F005 Code - Applicable to all spent solvent mixtures and blends which contained, before use, a total of 10% or more (by volume) of one or more of the following non-halogenated solvents:
+The “K List” - addresses waste from specific sources (e.g., pink/red water from TNT operations - K047) and is generally not applicable to wastes generated from research, clinical or general university operations.
+The “P List” - designates as hazardous waste, pure and commercial grade formulations of certain unused acutely toxic chemicals that are being disposed. (e.g., laboratory chemicals having an LD50 of less than 50 mg/kg (oral; rat)). It is applicable to many surplus chemicals that are disposed of by research laboratories. Some examples are nickel tetracarbonyl, phosphine, and osmium tetroxide.
+Be sure to view Section V. EPA P-List Chemicals for more information.
+The “U List” - designate as hazardous waste, pure and commercial grade formulations of certain unused toxic chemicals that are being disposed. . Like the P list, this is applicable to many surplus chemicals that are disposed of by research laboratories. Some examples are aniline, benzene, and acetone.
+Be sure to view Section VI. EPA U-List Chemicals for more information.
+Class I wastes are wastes which are regulated by the (TCEQ). They are not considered hazardous by the EPA definition, but must be disposed of at a permitted landfill due to Texas regulations. Examples of wastes which fall under the Class I definition are soils contaminated with petroleum hydrocarbons, sandblasting sand with leachable lead concentrations between 1.5 and 5.0 ppm, used oil, and solids that when mixed with an equal weight of water form a corrosive solution.
+II. Identifying Non-Regulated Chemical Wastes
+The following checklist should be used in determining whether or not a waste may be disposed of in the sanitary sewer or municipal trash. This checklist does not apply to wastes which are radioactive, mixed in nature.
+Does the material meet any of the following criteria?
+_____ Is it ignitable? Refer to Section I Part A.1 Identifying Regulated Chemical Wastes – Characteristics of Chemical Wastes – Ignitability
+_____ Is it corrosive? Refer to Section I Part A.2 Identifying Regulated Chemical Wastes – Characteristics of Chemical Wastes – Corrosivity
+_____ Is it reactive? Refer to Section I Part A.3 Identifying Regulated Chemical Wastes – Characteristics of Chemical Wastes – Reativity
+Unstable materials capable of undergoing violent chemical change (without detonating).
+_____ Is it toxic? Refer to Section I Part A.4 Identifying Regulated Chemical Wastes – Characteristics of Chemical Wastes – Toxicity
+Chromium (hexavalent)
+Note: The eight metals listed here are regulated in both their pure forms and as compounds (e.g. lead, lead paint, lead oxide, and tetraethyl lead are all regulated wastes).
+_____ Is it an F listed waste? Refer to Section I Part B.1 Identifying Regulated Chemical Wastes – Listed Chemical Wastes – F-list
+_____ Is it an K listed waste? Refer to Section I Part B.2 Identifying Regulated Chemical Wastes – Listed Chemical Wastes – K-list
+If the material has not been used, does it meet any of the following criteria?
+_____ Is it a P listed waste? Refer to Section V. EPA P List Chemicals
+_____ Is it a U listed waste? Refer to Section VI. EPA U List Chemicals
+If the answer to any of the preceding questions is "Yes," then the waste is regulated and must not be disposed of via sanitary sewer. Please refer to the disposal procedures outlined in section IV of this chapter (Procedures for Removal of Chemical Waste).
+If the material is not a hazardous waste, please answer the following questions:
+_____ Is the material miscible in all proportions with water?
+If the answer to the preceding question is "No," then the waste is prohibited by the City of Austin POTW and must not be disposed of via sanitary sewer. Please refer to the disposal procedures outlined in section IV of this chapter (Procedures for Removal of Chemical Waste).
+_____ Does the sum of the concentrations of the following constituents in the waste exceed 2 ppm?
+Possible Constituents of Concern in Waste
+Benzo(b)fluroanthene
+Benzo(k)fluoranthene
+Bis(2-chloroethyl)ether
+Bis(2-chloroethoxy)methane
+Bis(2-chloroisopropyl)ether
+Bis(2-ethylhexyl)phthalate
+4-Bromophenylphenylether
+Butylbenzylphthalate
+Chlorodibromomethane
+2-Chloroethylvinylether
+4-Chlorophenylphenylether
+1,2,5,6-Dibenzanthracene
+3,3'-Dichlorobenzidine
+Dichlorobromomethane
+trans-1,2-Dichloroethene
+cis-1,3-Dichloropropene
+trans-1,3-Dichloropropene
+4,6-Dinitro-o-cresol
+1,2-Diphenylhydrazine
+Hexachlorocyclopentadiene
+Indeno(1,2,3,c,d,)pyrene
+N-Nitrosodi-n-propylamine
+N-Nitosodiphenylamine
+Parachlorometa cresol
+2,3,7,8-Tetrachlorodibenzo-p-dioxin
+1,1,2,2-Tetrachloroethane
+1,2,4-Trichlorobenzene
+1,1,1-Trichlorethane
+1,1,2-Trichlorethane
+_____ Does the waste contain any of the following constituents at levels greater than the specified amount?
+Constituent Concentration Amounts
+_____ Is it extremely toxic or a known carcinogen or mutagen?
+If the answers to the two preceding questions are "Yes," then the waste is prohibited by the City of Austin POTW and must not be disposed of via sanitary sewer. Please refer to the disposal procedures outlined in Section IV Procedures for Removal of Chemical Waste.
+If you are unsure of the answer to any of the questions above submit for disposal through EHS – HMM. EHS – HMM reviews each and every item received to determine the proper method of disposal.
+Otherwise, the material is acceptable for sanitary sewer disposal if it is a liquid or for trash disposal if it is a solid. The discharge of wastes to the sanitary sewer should be accompanied with copious amounts of water - a good rule of thumb is to use a 100-fold excess of water when discharging non-regulated and non-hazardous wastes to the sanitary sewer.
+III. Chemical Waste Management
+A. Accumulation of Chemical Waste
+A generator of possible hazardous waste may accumulate up to a total of 55 gallons of waste, which may be determined to be hazardous by EHS – HMM , or one quart of "listed" acutely hazardous waste, refer to Section V (EPA P-List Chemicals), at or near the point of generation. If a process will generate more than this volume at one time, Environmental Health and Safety should be contacted in advance to arrange a special waste removal. If a generator accumulates more than 55 gallons of waste or one quart of listed acutely hazardous waste in a single room.
+The generator is required to:
+Immediately submit a Request for Chemical Disposal (RFD) for all filled waste containers in the room through EMS before the end of day. Call EHS main office at (512) 471-3511 to notify that you have exceeded your allowed accumulation limits and provide the following:
+Name of individual who submitted the RFD
+Waste request number(s) associated with the request(s)
+Whenever possible, keep different hazardous wastes separate so that disposal options remain clearer and more cost effective. In all cases, do not mix incompatible wastes or other materials in the same container or place wastes in a container that previously held an incompatible waste or materials. However, if separation is not practical, collect waste in compatible containers and try to keep it segregated into the following general categories:
+Miscellaneous solids – Examples include: grossly contaminated gloves, rags or towels, and other grossly contaminated lab equipment should be collected separately from liquid wastes.
+Halogenated solvents – Examples include: methylene chloride, chloroform, carbon tetrachloride.
+Non-halogenated solvents – Examples include: xylene, toluene, alcohols.
+Used oil must be kept as uncontaminated as possible to be recycled. You should keep oils separate from other chemicals, particularly solvents, pesticides, and PCB's.
+Metal-bearing waste whether dry, flammable, corrosive or other. Specific metals of concern are arsenic, barium, cadmium, chromium, lead, mercury, nickel, selenium, silver, and thallium.
+Accumulate waste that is both flammable and corrosive separately from waste that is either flammable or corrosive.
+Special wastes, e.g., cyanide, sulfide, pesticides, oxidizers, organic acids, explosives and peroxides, should be collected individually whenever possible.
+Mercury and mercury containing compounds. All mixtures containing mercury in any form must be disposed of as mercury contaminated waste.
+B. Chemical Waste Containers
+Chemical waste may be accumulated in either waste containers provided by EHS – HMM or empty original chemical containers. Waste cannot be stored in laboratory glassware, even if it can be sealed. All primary waste containers must meet the following requirements before use:
+Must be in good condition without any leaks, and no visible signs of deterioration;
+Must have the original container’s lid and can be securely closed;
+Must be compatible with the physical state and composition of the waste stream you are generating – if you are unsure contact EHS – HMM;
+Must not have previously contained incompatible materials;
+Must have all of the original label and marking removed, covered up or clearly marked out; and
+Must have a completed chemical waste tag attached, see Section III. Part C Labeling of Chemical Wastes.
+C. Labeling of Chemical Wastes
+All waste containers are required to be labeled with a complete chemical waste tag immediately upon the start of accumulating waste. The tag must be completed by the waste generator. The information on the tag is used to categorize and treat the waste. Fill the waste tag out legibly, accurately, and completely.
+A complete chemical waste tag will include:
+The name of the generator and their supervisor.
+Working phone number (either the generator’s phone number or the laboratory’s phone number)
+The location of the point of generation (including the three-letter building abbreviation and full room number).
+The date in which waste was first added into the container (MM/DD/YYYY format).
+The full chemical name(s) of all waste components in the container or product name if an SDS is either submitted or made available to EHS.
+The associated hazards (Corrosive, Flammable, Metals, Toxic and Reactive) should be marked.
+The percent of each component is required to be filled out prior to submitting waste for removal.
+Chemical Waste Tag/Label Instructions (PDF).
+As a recommendation, generators should keep a log of waste added to the container. This will allow the generator to accurate determine the percentage of each waste component and identify potential waste compatibility issues.
+D. Chemical Waste Container Storage
+Personnel that generate waste are responsible for properly managing containers of chemical waste. All waste containers must be kept at or near the point of generation and under control of the generator. To assure the safe storage of your chemical waste, to prevent leaks, spills emissions to the air, adverse chemical reactions, and dangerous situations that my result in the harm to human health or the environment.
+Proper storage area and container management includes:
+Keeping the area clean and free of non-waste materials
+Keeping the outside of all waste containers clean, including the bottom
+Secondary containment is required for all waste except immobile solids (e.g. gloves, large chucks of material, gas cylinders)
+Transferring all wastes from work area to the waste storage area either at the end of the day or process, whichever comes first
+Always keeping all waste containers closed, except when actively adding waste or the prevention of pressure building
+Waste containers already submitted should not be reopened and segregated away from waste containers that are in the process of being filled and have not been submitted for removal
+Separating incompatible waste streams by means of a partition, wall or other device
+Inspecting waste containers at least weekly to ensure they are in good condition and not leaking
+Filling to a safe level (minimum of 1 inch from the opening of the container or 90% of the containers capacity
+If a container holding hazardous waste is no longer in good condition or if it begins to leak, the generator must transfer the waste from this container to a container that is in good condition, over-pack the container, or manage the waste in some other way that prevents a potential for a release or contamination. Please contact EHS – HMM, (512) 471-3511, if assistance is required.
+E. Unknown Chemical Wastes
+All waste generators and chemical users are responsible for knowing the contents of all containers in their work areas. This includes properly labeling all waste containers and requesting their removal in a timely manner to avoid the generation of unknown wastes. If you have an unknown chemical waste that needs to be removed you should:
+Try to identify the contents by asking other researchers, shop personnel, building manager or users in your work area if they know who produced the waste
+If you cannot find the original generator, attempt to narrow down the potential sources of generation
+If you have exhausted all available information and still cannot identify the waste you may submit as an “Unknown.” EHS – HMM will inspect and analyze the material.
+EHS – HMM, pays for a Reactive Specialist to categorize unknown waste generated by The University at least every 75-days. Generators of unknown wastes MAY BE responsible for the costs associated with analyzing and disposal of unknown wastes. Unknown wastes require special handling procedures and may not be acceptable for standard removal depending on the container’s condition, source, and other factors.
+F. Peroxide Formers and Other Unstable Chemical Waste
+Disposal and Testing Guidance
+Older containers of peroxidizable chemicals, or containers of unknown age or history, must be handled very carefully and should never be opened by researchers. Any peroxidizable chemical with visible discoloration, cloudiness, crystallization, wisp-like structures, or oily layer (or other liquid heterogeneity/stratification) should be treated as potentially explosive. Older steel containers that have visible rust may also be extremely dangerous. If any of these conditions are observed on a peroxidizable chemical, or if the origin and age of the container are unknown, do not attempt to move or open the container. If any of such containers are found, please contact EHS – HMM immediately.
+Testing strips are available from EHS for instances in which laboratories do not have their own peroxide test strips. For peroxides concentrations of < 20 ppm, either neutralize the peroxides in the compounds using an approved method or dispose of the chemical through EHS – HMM and indicate the peroxide level in the notes. For peroxides concentrations > 20 ppm, contact EHS – HMM to dispose of the chemical through EHS - HMM and indicate the peroxide level in the notes.
+Peroxidizable Chemical Classification
+Dispose (or Test) After
+Unopened chemicals from the manufacturer
+Class C (Uninhibited)
+If peroxides are detected
+Be sure to view Classification List of Peroxide Forming Chemicals for more information.
+IV. Procedures for Removal of Chemical Waste
+The following wastes are acceptable for standard removal:
+Liquid waste in suitable containers that are clean, free of contamination, and have a leak proof cap;
+Dry and/or solid waste in a suitable container that is clean, free of contamination, and properly tied or sealed;
+Non-returnable gas cylinders owned by The University with original DOT labeling and all safety components in place if applicable: valve protection cap or valve plug;
+Chemically contaminated sharps (with no infectious or biohazardous contamination) in a properly tagged rigid sharps container; and
+Treated infectious waste streams or deactivated biological agents that are mixed with chemical wastes.
+Note: Biohazardous wastes are still acceptable for removal through a Biological Waste Disposal Request Form (PDF), however, they must not be combined with chemical waste, unless properly treated.
+The following wastes are unacceptable for standard removal by EHS – HMM:
+Radioactive Waste (DOC: Radioactive Waste) – Managed by EHS – Radiation Safety;
+Mixed or Multi-hazard Waste (A mix of two of the following: radioactive, hazardous chemical waste, biohazardous waste) Controlled Substances
+Gas cylinders not owned by The University. These should be returned directly to the manufacturer.
+Reactive waste streams without a properly vented cap, or containers that are bulging, fuming, or bubbling;
+Leaking, overflowing, or contaminated containers, or containers that are compromised;
+Wastes that require special handling procedures or have shipping restrictions; and
+Waste streams in incompatible or improper containers.
+For these types of wastes, please contact EHS – HMM, (512) 471-3511, for assistance to resolve the specific unacceptable condition for standard chemical waste removal.
+Chemical waste removal:
+Each container must have an attached chemical waste label as described above and submitted in EMS.
+Instructions for submitting chemical waste for removal using EMS.
+Questions? Contact Environmental Health and Safety - Hazardous Material Management (EHS-HMM) by email EHS-HazardousMaterials@austin.utexas.edu or by calling (512) 471-3511.
+EPA P-List Chemicals
+EPA U-List Chemicals
+Classification List of Peroxide Forming Chemicals
+Batteries, Lamps, Paints, Oil, and Mercury Devices
+Biological, Medical, Sharps, and Pharmaceutical Waste (Regulated)
+Pollution Prevention
+Address: 1200 E Martin Luther King Jr Blvd, Suite 1.200, Austin, Texas 78712Phone: 512-471-3511Find an EHS Email Contact
+The University of Texas at Austin
+Digital Accessibility Policy

@@ -1,0 +1,135 @@
+DS Fact Sheet on Compatible Chemical Storage 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Chemical Storage 
+Chemicals should be separated by hazard class and stored in appropriate chemical storage cabinets. Consult NIH Chemical 
+Hygiene Plan (CHP) and NIH Chemical Safety Guide. Secondary containment should be used for all hazardous liquids to 
+avoid accidental mixing of incompatible chemicals. Secondary containment must have sufficient capacity to contain 10% of 
+the volume of containers or the volume of the largest container stored within, whichever is greater. All secondary containers 
+should be made of Nalgene trays or an equivalent non-reactive plastic such as polypropylene or polyethylene. Chemicals
+should never be alphabetized until they are segregated by hazard class first. 
+For all chemicals, please refer to the manufacturer’s Safety Data Sheet (SDS) (Section 7: Handling and Storage, Section 10: 
+Stability and Reactivity) for specific storage requirements. Label all storage areas for the hazard present. 
+
+If your lab works with small quantities of chemicals and space does not allow for separate Storage Groups, the following 
+scheme can be used with extra care taken to provide stable, uncrowded, and carefully monitored storage conditions. 
+
+Storage Groups 
+
+Storage Code 
+
+Chemical Storage Groups 
+
+Examples 
+
+A 
+
+ B* 
+
+C 
+
+D 
+
+E 
+
+F 
+
+G 
+
+Compatible Organic Bases 
+
+Methylamine, Phenylamine, Amines 
+
+Compatible Pyrophoric & Water-Reactive Materials 
+
+Lithium, Sodium borohydride 
+
+Compatible Inorganic Bases 
+
+Sodium hydroxide, Potassium hydroxide, 
+Ammonium hydroxide 
+
+Compatible Organic Acids 
+
+Acetic acid, Trichloroacetic acid, Lactic acid 
+
+Compatible Oxidizers including Peroxides 
+
+Nitrates, Hydrogen Peroxide 
+
+Compatible Inorganic Acids (not including Oxidizers 
+or Combustible) 
+
+Not Intrinsically Reactive or Flammable or Combustible 
+(Compatible with Anything) 
+
+Hydrochloric acid, Hydrofluoric acid 
+
+Agars, Buffers, Sodium chloride etc. 
+
+OA* 
+
+Compatible Strong, Oxidizing Acids 
+
+Nitric acid, Perchloric acid, Sulfuric acid 
+
+J* 
+
+K* 
+
+L 
+
+X* 
+
+Toxic/flammable/oxidizer/corrosive Compressed Gas 
+
+Carbon monoxide, Hydrogen sulfide, 
+Nitrogen Dioxide 
+
+Compatible Explosive or other highly Unstable Material 
+
+Picric acid, Urea nitrate, Tetrazole 
+
+Non-Reactive Flammable and Combustible, including solvents 
+
+Ethanol, Methanol, Hexane, Acetonitrile 
+
+Incompatible with ALL other Chemical Storage Groups 
+(including other chemicals within X) 
+
+Benzol peroxide, Methyl Ethyl Ketone 
+peroxide, Acetyl peroxide 
+
+* These materials require special handling & storage conditions. Use extreme caution. For specific storage, consult the
+manufacturer’s SDS. Storage Groups B, J, K and X: Consultation is required with the NIH Division of Safety (DS).
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025
+
+ DS Fact Sheet on Compatible Chemical Storage 
+
+National Institutes of Health (NIH) • Office of Research Services (ORS) • Division of Safety (DS) 
+
+Storage Groups (Continued) 
+
+• Group X must be segregated from all other chemicals.
+
+• Chemicals within Group X must be segregated from each other.
+
+• Group B must be segregated from all other chemicals.
+
+• Flammables above 500ml/g must be stored in flammable cabinets.
+
+References: 
+
+1. https://ehs.stanford.edu/wp-content/uploads/Storage-Group-Poster.pdf?1719494991
+
+2. https://www.ncbi.nlm.nih.gov/books/NBK55878/pdf/Bookshelf_NBK55878.pdf
+
+National Institutes of Health 
+Office of Research Services • Division of Safety 
+Building 13, Room 3K04 • (301) 496-2960 
+Revised 03/2025

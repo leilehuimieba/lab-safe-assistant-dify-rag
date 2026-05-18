@@ -1,0 +1,91 @@
+Chemical Hygiene – EHS
+Compliance & Regulatory Programs
+EHS Management System
+EHS Recognition Program
+Emergency Management
+Institute Committees
+Working Alone Policy
+Autoclave Validation Program
+Bloodborne Pathogens
+Decontamination and Disinfection
+Biological Research Registration
+Chemical Regulatory Reporting & Security
+Compressed Gas Cylinder Safety
+Dangerous & Highly Toxic Chemicals
+DEA Controlled Substances
+Gammacell Irradiator Safety
+Magnets, UV & Radio Frequency
+Radioactive Material Safety
+Field Research Safety
+Fume Hoods/Laboratory Ventilation
+Hazardous Materials Shipping
+Inspections: Level I & Level II
+Lithium-ion Battery Safety
+Toxic Gas Monitoring
+Safe & Sustainable Labs (S2L)
+Bio-Waste Pick-up Form
+Chemical Waste Collection Form
+Pollution Prevention
+Rad-Waste Pickup Form
+Recycling & Waste Reduction
+Pipette Tip Box Pickup
+Campus Design & Construction
+Decommissioning & Demolition
+Event & Exhibit Safety
+Inflatables & Amusement Devices
+Lighting, Pyrotechnics, Fireworks, Lasers, & Strobes
+Crane and Hoisting Systems
+Hazard Communication
+Hearing Conservation
+Lockout/ Tagout (LOTO)
+Occupational Injury or Illness Reporting
+Personal Protective Equipment (PPE)
+Reproductive Health Protection
+Order Signs & Stickers
+Space Heater Use Guidelines
+Download CHP Template
+Home > Chemical > Chemical Hygiene
+Chemical Hygiene Plan (CHP)
+All MIT Departments, Laboratories, Centers and Institutes (DLCI) that engage in the laboratory use of hazardous chemicals are required to develop and carry out the provisions of a written Chemical Hygiene Plan (CHP) that meets the requirements of the U.S. Occupational Safety and Health Administration (OSHA) “Laboratory Standard” and MIT policies and required procedures. CHPs are written documents that establish the administrative measures and standard operating procedures for safely and responsibly using chemical materials in laboratories. Your CHP contains information on how to safely handle corrosives, carcinogens, flammables, toxics, particularly hazardous substances, and other hazardous materials including those with physical hazards.
+To assist those DLCI that must prepare a CHP, the MIT Environment, Health and Safety (EHS) Office has prepared a Chemical Hygiene Plan Template. This template provides a customizable CHP that meets the Institute’s requirements for the use of common laboratory chemicals and procedures. The Template also provides assistance in the development of specialized standard operating procedures to accommodate the unique materials and procedures in specific laboratories.
+Laboratory Users of Hazardous Chemicals
+Every user of hazardous chemicals at MIT must be trained to handle them safely. To ensure this, all students and employees in the department who use hazardous chemicals in a laboratory must read their department’s CHP, be familiar with its contents, and complete all required chemical hygiene training which includes:
+General Chemical Hygiene
+Read your DLCI-specific CHP. Contact your department EHS Coordinator, Chemical Hygiene Officer, or Laboratory Rep to receive a physical or online copy of your CHP. Once you have read the CHP, contact your EHS Coordinator or Chemical Hygiene Officer to receive credit.
+Lab-Specific Chemical Hygiene
+Managing Hazardous Waste
+Any additional training required for your specific work
+Department Chemical Hygiene Officers
+EHS has prepared a template that you can customize for your department’s unique chemicals and procedures. To develop your own plan, review the CHP Preparer’s Guide.
+DLCI’s CHP may include the information about exemption process for certain areas and processes. For example, DLCI EHS Committees may establish an exemption process for low-risk areas where less stringent clothing requirements may be acceptable. Refer to the Clothing Exemptions – Guiding Principles for details.
+For additional guidance, you can contact your EHS/IHP team member.
+Lab Specific SOP Template
+Clothing Exemptions – Guiding Principles
+Every year the EHS Office updates the CHP Template according to OSHA and MIT requirements. You must incorporate these changes and update your plan annually. This year, the due date for your DLCI’s revised plan is October 31, 2025. We will review your revised plan annually for compliance with OSHA and MIT requirements.
+Note: Once a plan is submitted the reviewer has 30 days to approve it. The date is assigned by the system upon your submission.
+2025 CHP Template Updates
+Submit your DLCI CHP
+Frequently Asked Questions
+Who can use the CHP Template?
+All MIT DLCI that engage in the laboratory use of chemicals are required by law and Institute policy to prepare a CHP. All DLCI that are required to have a CHP are welcome to use the template as the foundation for their plan.
+Is my DLCI required to use the MIT CHP Template?
+No. DLCI are free to utilize a CHP design and framework that best suits their needs. However, all CHPs must meet the minimum standards, objectives, and requirements contained in the CHP Template. This is to ensure that all DLCI are fulfilling their institute and legal obligations while ensuring a high level of protection for personnel from chemicals in the laboratory.
+Does the MIT CHP Template address the risks posed by my lab's hazards?
+Yes. The template has been specifically designed to be customized for the unique conditions posed by the individual DLCI laboratories. The template outlines the administrative measures and standard operating procedures for using common classes of chemicals. If your laboratory uses especially hazardous chemical materials or processes that require specialized operating procedures to ensure safety, the template provides a worksheet and additional template to provide custom standard operating procedures.
+How do I obtain and use the MIT CHP Template?
+Download the CHP Template
+Customize the CHP according to your needs
+Submit your CHP electronically to the EHS Office for review via the automated submission form
+Upon receipt, the EHS Office will assign a reviewer who will review the CHP to ensure it meets the requirements of the Institute and OSHA Laboratory Standard. The EHS Office will notify you via e-mail when your CHP has been approved or whether adjustments might be required.
+Is there a guidance document for the MIT CHP Template?
+Yes. The EHS Office has prepared a CHP Template Plan Preparer’s Guide that outlines the guidance to develop CHP and minimum content required to be addressed in a complete CHP. The Preparer’s Guide addresses both OSHA and MIT requirements, as well as selected best management practices.
+How can I learn about updates and news regarding the template?
+To facilitate the tracking and incorporation of periodic updates to the CHP Template, the EHS Office has created an Updates Document on the web to highlight and describe all changes to the CHP Template and news regarding the Chemical Hygiene Plan Program.
+Can I modify the Roles and Responsibilities section?
+Yes. The tasks, roles, and responsibilities associated with the development and implementation of the CHP can be reassigned to best suit your needs. However, all of the tasks, roles, and responsibilities outlined in the CHP Template must be included in your CHP to assure full and proper accountability for meeting the requirements of a compliant CHP.
+Does the Institute require that my lab have a chemical inventory?
+Effective January 2009, as specified in the CHP Template, inventories must be maintained for all hazardous chemicals. Hazardous chemicals include chemicals for which there is statistically significant evidence of health effects following exposure as well as flammable and explosive substances. The use of the online chemical inventory system has been paid for by the EHS Office and is free to you. Its use is recommended but not required. For more information on the chemical inventory system, contact the EHS Office at 617-452-3477 or email environment@mit.edu.
+Chemical Hygiene Training
+Office Visits 8am-5pm, Monday–Friday
+Massachusetts Institute of Technology | Environment, Health & Safety Office | 265 Massachusetts Ave, N52-496 | Cambridge, MA 02139 | 617-452-3477
+© 2019 MIT Environment, Health & Safety Office

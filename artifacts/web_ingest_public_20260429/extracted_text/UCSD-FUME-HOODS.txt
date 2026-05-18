@@ -1,0 +1,80 @@
+Chemical Fume Hoods Overview
+UC San Diego UC San Diego
+BI & Financial Reporting
+Finance Administration Resources
+Travel & Entertainment
+Facilities & Services
+Campus Planning Site
+Facilities Management
+Triton Print & Digital Media
+Transportation Services Site
+Faculty & Instruction
+Student Operational Reporting
+Browse Service Portal
+Research & Innovation
+Organized Research Units (ORUs)
+Sponsored Research Administration
+Environment, Health & Safety
+Departments in Blink
+Toggle navigation TOOLS
+Compensation Calculator
+Educational Benefits
+Performance Appraisal
+Concur Travel & Expense
+Oracle Financials Cloud
+Business Analytics Hub
+Campus Space Management (Tririga)
+Performance Appraisals
+SPARCM (login required)
+Tracker I-9 Complete
+Co-Curricular Record
+Enrollment/waitlists
+Research Development
+Business Analytics Hub (BAH)
+Last Updated: November 4, 2024 2:37:10 PM PST
+Learn how chemical fume hoods protect lab workers, types of fume hoods, the limitations, and UCSD's inspection and certification program.
+Note: All chemical fume hoods must meet the requirements of Title 8, California Code of Regulations, Section 5154.1.
+Cal/OSHA Fume Hood definition:
+A device enclosed except for necessary exhaust purposes on three sides and top and bottom, designed to draw air inward by means of mechanical ventilation, operated with insertion of only the hands and arms of the user, and used to control exposure to hazardous substances. These devices are also known as laboratory fume hoods.
+Chemical fume hoods, when used properly, are one of the most reliable engineering controls in the laboratory. They protect workers by:
+Containing vapors, dusts, gases, and fumes generated within the hood, and removing them as air flows into the hood and then out via the laboratory exhaust system
+Contributing to laboratory ventilation as air flows through the hood
+Shielding the worker with a clear sliding window, called a sash, that contains aerosols and prevents injury from splashes, fires, or minor explosions that may occur inside the hood
+Follow Chemical Fume Hood Use Guidelines to ensure safe and effective fume hood operation.
+There are 2 kinds of fume hoods in use at UCSD:
+Constant air volume hoods
+The constant air volume (CAV) fume hood exhausts the same amount of air all the time, regardless of sash position. As the sash is lowered and raised, the velocity at the face of the hood changes. EH&S tests all hoods regularly and marks the opening that gives the correct face velocity (see image at left) on constant air volume hoods.
+Variable air volume hoods
+Some newer models, called variable air volume (VAV) hoods, modulate air flow based on sash height and maintain 100 feet per minute face velocity at all sash heights. EH&S tests VAV hoods, but does not mark the sash height since it's always 100 feet per minute.
+VAV fume hoods are equipped with a monitor (see image at right) that indicates whether the hood is in "standard operation" or "standby operation" mode. The fume hood monitor also has an "emergency purge" button, which increases airflow through the hood to maximum and can be used to quickly remove air contaminates from the lab.
+VAV fume hoods are equipped with flow sensors that activate an audible alarm when malfunctions occur. Contact Facilities Management, (858) 534-2930, if your fume hood alarm sounds.
+Biohazardous materials
+Fume hoods are not for use with biohazardous materials.
+Use a biological safety cabinet, (BSC), for work with infectious agents. BSCs are designed to protect the worker and the environment from biological agents, and to protect the research materials from contamination.
+Highly toxic materials
+In some cases, for highly toxic materials a glove box or another containment device is preferred over a chemical fume hood. Contact Environment, Health & Safety (EH&S) for guidance on containment needs.
+Ductless fume hoods are not allowed at UC San Diego as per UC San Diego Policy and the University of California Lab Safety Design Manual.
+UCSD's chemical fume hoods are inspected and tested annually by EH&S for functionality and condition. A certification sticker is placed on the front of each fume hood indicating the inspection results (see image at right). Deficiencies are immediately reported to the Area Safety Coordinator or Facilities Management for abatement.
+During certification testing, inspectors do the following:
+Check the laboratory room pressure differential (the room pressure must be negative to non-laboratory space)
+Remove old certification stickers
+Confirm the sash moves easily
+Test both the audio and visual alarms
+Confirm the face velocity is within the required specification of 100 linear feet per minute (lfm)
+Check overall fume hood condition
+If you suspect your fume hood is not operating properly, contact Environment, Health & Safety, (858) 534-5427.
+Learn more about basic airflow and operation of a Labconco fume hood, including proper work procedures and detailed information on the movement of air in and around the hood in the Laboratory Safety Videos.
+For more information, contact an EH&S Research Assistance Program specialist.
+Note: This page has a friendly link that's easy to remember: http://blink.ucsd.edu/go/fumehood
+Hazard Control Plan (HCP)
+Chemical Hygiene Plan
+General Chemical Guidelines
+Specific Chemical Guidelines
+Flammable & Combustible Liquids
+Chemicals of Interest (COI)
+Biosafety Cabinet Overview
+Engineering Controls for Laboratory Safety
+Laboratory Safety Manual
+UC San Diego 9500 Gilman Dr. La Jolla, CA 92093 (858) 534-2230
+Copyright © 2026 Regents of the University of California.
+All rights reserved.

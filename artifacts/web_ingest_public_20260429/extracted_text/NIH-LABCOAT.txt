@@ -1,0 +1,675 @@
+National Institutes of Health 
+Guidance for the Selection of Laboratory Coats 
+
+Drafted by the Occupational Safety and Health 
+Committee, August 2016 
+
+This reference document provides a general overview for selection of laboratory coats. It does not alter or 
+in OSHA standards or NIH’s Manual Chapter 1340. Because 
+determine compliance responsibilities 
+interpretations and policy may change over time, you should your consult with your Institute's Safety and Health 
+Specialist. Contact the Technical Assistance Branch, Division of Occupational Health and Safety at 301-496-2960 
+for technical questions regarding this reference document. 
+
+ Information on the Selection of Laboratory Coats 
+
+A. Examples of laboratory hazards: 
+
+In general, there are three types of hazards personnel may encounter while working in laboratories at the NIH. 
+
+Possible hazards include: 
+
+• Biological Hazards – bloodborne pathogens
+• Chemical Hazards – carcinogenic, flammable, or corrosive materials
+•
+
+Physical Hazards – pyrophoric materials, lasers or radiation.
+
+It is possible, even common, for a single laboratory to have types of hazards associated with more than one of 
+these categories at once. Engineering controls should be used as primary barriers, functioning to contain the 
+hazards. Personal protective equipment (PPE) should be used in combination with engineering controls to 
+reduce the risk of worker exposure to laboratory hazards. A risk assessment should be used to determine the 
+hazards associated with a particular laboratory or laboratory operation, and establishing which engineering 
+controls should be utilized and what PPE should be selected. Information on how to perform a risk assessment 
+is described in Biosafety in Microbiological and Biomedical Laboratories 5th Edition. For assistance with 
+performing a risk assessment and selecting proper PPE, please contact your Institute's Safety and Health 
+Specialist, or the Division of Occupational Health and Safety. 
+
+B. Appropriate laboratory attire, laboratory coats and applicable standards: 
+
+While in a laboratory at the NIH for any reason, all personnel must wear appropriate clothing attire that prevents 
+direct contact of materials with the skin. Examples of attire that is appropriate includes long pants or leg 
+coverings and closed toe shoes. In addition, a task appropriate laboratory coat, as determined by a risk 
+assessment, must be worn while performing laboratory operations. Following a thorough risk assessment, 
+guidance to the selection of laboratory coats can be obtained from Tables 1 and 2. Table 1 lists the three types 
+of laboratory hazards and the applicable laboratory coat material standards. Table 2 provides a more detailed 
+description on the application of these standards and examples of laboratory coats that meet these standards. 
+Table 1. Summary of laboratory hazards and applicable test standards 
+Type of Laboratory Hazard 
+Biological Hazards 
+
+Applicable Test standard 
+ASTM F1670 (penetration by synthetic blood) and 
+ASTM F1671 (bloodborne pathogen exposure) 
+AATCC Method 42 (resistance to the penetration of 
+water by impact) and ASTM F903 (liquid chemical 
+barrier) 
+NFPA 701 or 2112 (flame propagation tests) 
+
+Liquid or Chemical Hazards 
+
+Physical Hazards 
+
+The standards listed in Table 2 serve as standardized testing methods to determine protection levels of materials 
+against certain hazardous or hazard surrogates. These standards should be considered when selecting a 
+laboratory coat material when working with the hazards that correspond to the applicable hazard or hazard 
+surrogate tested. These testing methods only test the material and do not test the complete laboratory coat 
+making it important to consider characteristics of the laboratory coat such as seams, stitches and where the 
+openings, snaps or buttons are located when selecting a laboratory coat. A complete description of the 
+standards can be viewed by contacting your Institute's Safety and Health Specialist, or the Division of 
+Occupational Health and Safety. 
+
+ More information about chemical protective PPE is available in the NIH Chemical Hygiene Plan. Radiological or 
+laser protection is modeled after the ANSI guidelines established under Z.136-2007 and best practices and 
+consultation with the Division of Radiation Safety or the DOHS Laser Safety Program is recommended. 
+
+C. Additional task specific PPE: 
+
+When performing experimentation in the laboratory, in addition to the proper laboratory attire and a task 
+appropriate laboratory coat, a risk assessment should be used to determine appropriate hand protection, and 
+eye and face protection devices. Task appropriate hand protection is required when performing laboratory 
+operations and the selection is determined by the laboratory supervisor in accordance with the appropriate 
+standard (ANSI/ISEA 105-2011 for laboratory gloves). Eye protection is mandatory when there is a potential for 
+injury. Eye protection (protective glasses, goggles, faceshield) must be appropriate for the type of hazard 
+(chemical splash or vapors, lasers, ultra violet light) and should be selected by the laboratory supervisor in 
+accordance with the appropriate standard (ANSI/ISEA Z78.1-2015 for safety eyewear). More information on 
+hand and eye protection can be found in section IX of the NIH Chemical Hygiene Plan. Any employee needing 
+prescription safety glasses should consult the Safety Glasses Request section of the Occupational Medical 
+Service website. It is important to ensure that safety eyewear selected for use in laboratories where lasers are 
+present is appropriate for the wavelength of the specific laser used. For assistance with laser specific eyewear, 
+please contact the Technical Assistance Branch of the Division of Occupational Health and Safety. In some 
+situations, it may be required for an NIH employee to wear a respirator for work. In accordance with OSHA’s 
+Respiratory Protection Standards (29 CFR, 1910.124), the NIH has established a Respiratory Protection Program, 
+and more information can obtained by contacting the Technical Assistance Branch of the Division of 
+Occupational Health and Safety. 
+
+ 
+ 
+ Table 3. Standards used to determine barrier properties of materials. 
+
+ The information provided in this table is meant to act as a guideline only. Proper selection of PPE should ALWAYS be determined by a risk assessment. 
+Information on how to perform a risk assessment can be found in Biosafety in Microbiological and Biomedical Laboratories 5th Edition. 
+ 
+ Other laboratory coat characteristics should be considered such as the presence of seams, integrity of the seams and open front/back. 
+ Fabrics are not flame resistant unless specified. Melting fabric can cause severe burns. 
+
+Examples of Applicable 
+Hazards 
+
+Relevant 
+Standards 
+
+Standard 
+Measurements 
+
+Non-hazardous materials None met 
+
+Not applicable 
+
+Standard 
+Applications 
+Comments 
+Not applicable 
+
+and 
+
+Measurement 
+Determinations 
+
+Not applicable 
+
+volumes 
+
+Small 
+potentially 
+aqueous 
+infectious materials 
+
+of 
+hazardous 
+solutions or 
+
+AATCC 
+Method 42 
+
+Resistance to the 
+penetration 
+of 
+water by impact 
+
+500 mL of water is 
+sprayed against a 
+material backed by a 
+is 
+blotter which 
+to 
+reweighed 
+determine 
+water 
+penetration. 
+
+Results 
+are 
+reported as an 
+in 
+increase 
+the 
+mass of 
+blotter 
+in 
+grams. Values 
+over 5.0 grams 
+be 
+may 
+reported 
+as 
+>5.0 grams. 
+
+Material Examples 
+
+• Traditional “white lab coat” 
+• 100% cotton (fire resistant) 
+• Non-disposable polyester/cotton 
+blend (80/20 or 65/35) material 
+(not fire resistant) 
+
+* Increase in mass is >5.0g1,2* 
+
+• VWR Basic Protection SPP, and 
+
+SMS materials 
+
+• DenLine DL3460, DL3660, and 
+
+DL3630 
+
+* Increase in mass is <5.0g1,2* 
+
+• VWR 
+
+Advanced 
+
+Protection, 
+Maximum Protection, Maximum 
+Protection Gowns with Fluid-
+Impervious Fabric 
+
+• Medline Level 1, Level 2, Level 3, 
+
+and Level 4 materials 
+
+• DenLine DL4260, DL4230, DL3760 
+
+and DL3730 
+
+1 Greater resistance to the penetration of water corresponds with lower weight reported results. 
+2 See manufacturer specifications for the reported results. 
+The National Institutes of Health does not endorse any brands listed in this table – they are listed solely as reference examples. 
+
+ 
+ 
+ 
+ Examples of Applicable 
+Hazards 
+
+Relevant 
+Standards 
+
+Standard 
+Measurements 
+
+Human or animal blood 
+and body fluids 
+
+ASTM F1670 Penetration by 
+
+synthetic blood 
+
+and 
+
+Standard 
+Applications 
+Comments 
+the 
+Evaluates 
+of 
+resistance 
+to 
+materials 
+by 
+penetration 
+blood 
+synthetic 
+under conditions of 
+continuous 
+liquid 
+contact. 
+
+Measurement 
+Determinations 
+
+A 
+material 
+passes the test 
+if there is no 
+synthetic blood 
+penetration 
+based on visual 
+detection. 
+
+Material Examples 
+
+• VWR 
+
+Advanced 
+
+Protection, 
+Maximum Protection coveralls, lab 
+coats, shoe covers, masks, and 
+frocks 
+
+• Kimberly Clark Kleenguard A40, 
+Liquid & Particle 
+
+A60, A80 
+Protection Apparel 
+
+• Life 
+
+Science 
+
+Products 
+
+Poly 
+
+Propylene/Polyethylene coated 
+
+• Medline 
+
+polyethylene-coated 
+polypropylene 
+material, 
+microporous breathable white 
+material, 
+Up® 
+polyethylene material 
+
+Thumbs 
+
+• DenLine FluidGuard material 
+• Cardinal Health yellow coated-
+polypropylene material, 
+blue 
+coated-polypropylene material, 
+polyethylene film material, coated-
+polypropylene 
+isolation gowns, 
+poly-coated SMS chemotherapy 
+gowns 
+
+The National Institutes of Health does not endorse any brands listed in this table – they are listed solely as reference examples. 
+
+ Examples of Applicable 
+Hazards 
+
+Relevant 
+Standards 
+
+Standard 
+Measurements 
+
+Bloodborne 
+including: 
+
+pathogens 
+
+ASTM F1671 Bloodborne 
+
+• Hepatitis B Virus 
+• Hepatitis C Virus 
+• Human 
+
+Immunodeficiency 
+Virus 
+
+and 
+
+the 
+of 
+against 
+by 
+
+Standard 
+Applications 
+Comments 
+Measures 
+resistance 
+materials 
+penetration 
+bloodborne 
+pathogens using a 
+surrogate microbe 
+under conditions of 
+continuous 
+liquid 
+contact. 
+
+pathogen 
+exposure 
+
+*This is a more 
+stringent 
+standard to pass 
+ASTM 
+than 
+F1670 
+
+Chemicals 
+individually 
+
+are 
+
+tested 
+
+ASTM F903 
+
+Liquid chemical 
+barrier 
+
+A material used for 
+clothing 
+protective 
+or a specimen from a 
+finished 
+is 
+subjected to a liquid 
+for a specified time 
+and 
+pressure 
+sequence. 
+
+item 
+
+Material Examples 
+
+• Kimberly Clark Kleenguard A60, 
+A80 Liquid & Particle Protection 
+Apparel 
+
+• Life 
+
+Science 
+
+Products 
+
+Poly 
+
+Propylene/Polyethylene coated 
+• Medline prevention plus material 
+• DenLine FluidGuard material 
+• Cardinal Health blue 
+
+coated-
+polypropylene material, 
+blue 
+polyethylene film material, coated-
+polypropylene 
+isolation gowns, 
+poly-coated SMS chemotherapy 
+gowns 
+
+• VWR Advanced Protection (70% 
+Sulfuric Acid, 85% Phosphoric 
+Acid), Maximum Protection (70% 
+Sulfuric Acid, 85% Phosphoric Acid) 
+
+*It is important to confirm that the 
+specific chemical being used has 
+been tested on the laboratory coat 
+material intending to be used. 
+
+Measurement 
+Determinations 
+
+A 
+material 
+passes the test 
+if 
+(<1 
+no 
+PFU/mL) 
+are 
+phages 
+detected in the 
+assay. 
+
+if 
+
+A passing test 
+a 
+occurs 
+droplet 
+of 
+liquid does not 
+and 
+appear 
+there 
+is no 
+discoloration 
+indicating 
+the 
+presence of the 
+chemical 
+appearing on 
+viewing 
+the 
+side of 
+the 
+specimen. 
+
+The National Institutes of Health does not endorse any brands listed in this table – they are listed solely as reference examples. 
+
+ 
+ 
+ Examples of Applicable 
+Hazards 
+
+Relevant 
+Standards 
+
+Standard 
+Measurements 
+
+ Flammable or pyrophoric 
+liquids 
+
+Flammable 
+
+NFPA 701 or 
+2112 
+Flame 
+Propagation 
+Tests 
+
+Standard 
+Applications 
+Comments 
+Fire resistant 
+
+and 
+
+Measurement 
+Determinations 
+
+Material Examples 
+
+Fire resistant 
+
+• DuPont Nomex® 
+• Kimberly Clark Kleenguard A65 Lab 
+
+Flammable or pyrophoric 
+solids 
+
+NFPA 701 or 
+2112 
+Flame 
+Propagation 
+Tests 
+
+Flammable 
+
+Fire resistant 
+
+Fire resistant 
+
+Coat 
+
+• Nylon, polyester, or polypropylene 
+low 
+will melt 
+at 
+temperatures and should not be 
+used 
+
+relatively 
+
+• Cotton will not deflect flammable 
+or pyrophoric liquids and should 
+not be used when working with 
+these hazards 
+
+• Cotton (or other non-synthetic 
+
+material) 
+
+• DuPont Nomex® 
+• Kimberly Clark Kleenguard A65 Lab 
+
+Coat 
+
+• Nylon, polyester, or polypropylene 
+low 
+at 
+will melt 
+temperatures and should not be 
+used 
+
+relatively 
+
+The National Institutes of Health does not endorse any brands listed in this table – they are listed solely as reference examples. 
+
+ 
+ 
+ 
+ FAQs: 
+
+1) Why do I need to wear a laboratory coat when performing laboratory operations? 
+
+A layer of protection between your skin and potentially hazardous materials provided by a laboratory coat can 
+prevent painful injuries to your skin. An appropriate laboratory coat will protect you against most hazards in the 
+laboratory. 
+
+2) Why is it appropriate to keep all skin below the knee covered while in the laboratory? 
+
+If a spill occurs, the lower extremities are protected if they are covered with appropriate clothing. Tights or other 
+thin materials are not recommended because they do not afford proper protection from potentially hazardous 
+materials. 
+
+3) Do I need to wear PPE when performing administrative tasks such as working on a computer at my desk? 
+
+No. However, it is important to keep in mind that while you may not be working with a hazardous material, the 
+person working next to you may be. Maintain situational awareness at all times to ensure your safety. 
+
+4) How do I use Table 2 for the selection of task appropriate laboratory coats? 
+
+The hazards associated with a given laboratory operation should be determined by performing a risk assessment 
+– information on how to perform a risk assessment is described in Biosafety in Microbiological and Biomedical 
+Laboratories 5th Edition. Identify which row in Table 2 the identified hazards most suitably fall into, keeping in 
+mind that you may need to consider more than one row. Select a laboratory coat that meets the standards listed 
+in the row(s) you have selected. Contact your DOHS Safety and Health Specialist if you need help selecting an 
+appropriate laboratory coat. 
+
+5) Why is a traditional white laboratory coat not appropriate for many laboratory operations? 
+
+Traditional white laboratory coats, which are made of 100% cotton, or a polyester/cotton blend have been 
+widely used and are what most people think of when they imagine a lab coat. Although a traditional white 
+laboratory coat can protect against limited splashes and spills when working with non-hazardous materials, it 
+does not offer specific protection when working with infectious materials, chemicals and/or flammable or 
+pyrophoric liquids. A task appropriate laboratory coat, as determined by a risk assessment, must be worn while 
+performing laboratory operations. 
+
+6) Why do different laboratory operations require different laboratory coats? 
+
+Depending on the laboratory task, an employee may be exposed to different types of hazards, such as chemical, 
+biological, or physical hazards. A task appropriate laboratory coat is determined by a risk assessment based on 
+the nature and quantities of the hazards involved and the circumstances of use. See Table 2 for detailed 
+information on laboratory coat characteristics and selection or contact your DOHS Safety and Health Specialist. 
+
+7) What are the differences between ASTM F1670 and ASTM F1671 that should be considered when 
+
+selecting a laboratory coat? 
+
+ASTM F1671 is a more stringent method used to determine the resistance of a material to bloodborne 
+pathogens than ASTM F1670. ASTM F1670 evaluates the resistance of material to penetration by synthetic 
+blood. A material passes the test if no synthetic blood penetrates through the material based on visual 
+detection. ASTM F1671 measures the resistance of a material against penetration by bloodborne pathogens 
+using a surrogate microbe. This standard requires an actual measurement to determine a pass or fail. Laboratory 
+coat material meeting the ASTM F1670 standard is appropriate for research involving blood and body fluids, 
+
+ 
+ 
+ whereas those meeting the ASTM F1671 standard are more appropriate for performing research with 
+bloodborne pathogens, pending a comprehensive risk assessment of the work being performed. 
+
+8) Why should I consider features such as closed front, snaps, seams, stitches and other when selecting a 
+
+laboratory coat? 
+
+Laboratory coat closures and seams should be considered when selecting a laboratory coat because these 
+openings, when not sealed or double stitched, may serve as entry points for hazardous materials into the 
+laboratory coat. When considering selection of the appropriate laboratory coat for your laboratory’s hazards, 
+please contact your DOHS Safety and Health Specialist. 
+
+9) Can I clean, wash, or otherwise reuse my laboratory coat? 
+
+The reuse or laundering of a laboratory coat is greatly dependent on the material composition. If a laboratory 
+is coated with a material, such as polyethylene, any laundering will remove the protective coating. Do NOT bring 
+your laboratory coat home for laundering. Contact the vendor for laboratory coat lifetime and laundering-
+specific questions. 
+
+10) Why should I be inspecting my PPE for defects prior to use? 
+
+PPE should be inspected for defects prior to use to ensure that there are no holes, rips, or tears that could allow 
+hazardous substances to enter the coat and come into contact with the person wearing it. If defects are found 
+the PPE should be disposed of appropriately in accordance with the hazards present and the Waste Disposal 
+Guide. A new item of PPE should be selected and inspected. 
+
+11) Can I wear my laboratory coat or other PPE outside of the laboratory? 
+
+NO! All PPE, including gloves and laboratory coats should be considered contaminated upon donning. All PPE 
+must be removed prior to exiting the laboratory into shared common spaces to prevent contaminating clean 
+spaces. Even if you are working with nonhazardous material, you must still remove all PPE before leaving the 
+laboratory. 
+
+12) Where can I get help selecting appropriate laboratory coats taking into account the hazards found in my 
+
+laboratory? 
+
+Refer to Table 2 or contact your DOHS Safety and Health Specialist for any laboratory coat selection inquiries. 
+
+13) Why must I consult with the Respiratory Protection manager before wearing any respirator? 
+
+The NIH Respiratory Protection Program provides NIH-wide procedures for the proper selection, use and care 
+of respiratory protective equipment. For more information, or to enroll in the Respiratory Protection Program, 
+please visit the Respiratory Protection Program website.
