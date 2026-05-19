@@ -54,12 +54,18 @@
       <div class="row">
         <button id="askBtn">发送到 Dify/RAG 链路</button>
         <button class="secondary" id="searchBtn">只检索本地知识库</button>
+        <button class="secondary" id="newSessionBtn" style="background:#475569;">新建会话</button>
       </div>
       <p class="muted">未配置 DIFY_APP_API_KEY 时，接口会使用结构化兜底回答，便于本地演示。</p>
     </div>
     <div class="card">
-      <h2>回答</h2>
+      <h2>回答 <span id="elapsed" style="font-size:14px;color:var(--muted);"></span></h2>
       <pre id="answer">等待提问...</pre>
+      <div class="row" id="feedbackRow" style="display:none;">
+        <button id="usefulBtn" style="background:#15803d;">有用</button>
+        <button id="notUsefulBtn" style="background:#b45309;">无用</button>
+        <span id="feedbackMsg" class="muted" style="margin-left:8px;"></span>
+      </div>
     </div>
   </section>
 
@@ -71,12 +77,27 @@
 <script>
 const $ = (id) => document.getElementById(id);
 function esc(s){return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+let _lastAnswer = '', _lastQuestion = '';
+function getSessionId(){
+  let sid = localStorage.getItem('lab_session_id') || '';
+  if(!sid){ sid = 'sess_'+Math.random().toString(36).slice(2,14); localStorage.setItem('lab_session_id', sid); }
+  return sid;
+}
+function newSession(){
+  localStorage.removeItem('lab_session_id');
+  $('feedbackRow').style.display='none';
+  $('elapsed').textContent='';
+  $('answer').textContent='等待提问...';
+  renderCitations([]);
+}
 function renderCitations(items){
   if(!items || !items.length){ $('citations').innerHTML='<p class="muted">暂无引用。</p>'; return; }
   $('citations').innerHTML = items.map(it => `<div class="citation"><b>${esc(it.kb_id || '-')}</b> ${esc(it.title || '')}<br><span class="muted">score=${esc(it.score)} | risk=${esc(it.risk_level || '-')} | source=${esc(it.source_title || '-')}</span><p>${esc(it.snippet || '')}</p></div>`).join('');
 }
 async function loadMeta(){
   const data = await fetch('/api/meta').then(r=>r.json());
+  const times = await fetch('/api/stats').then(r=>r.json()).catch(()=>({}));
+  const statsTxt = times.recent_count ? ` | 最近${times.recent_count}次响应: 平均${times.recent_avg_ms}ms P50=${times.recent_p50_ms}ms` : '';
   $('meta').innerHTML = `<h2>运行状态</h2>
     <div><span>应用版本</span><span>${esc(data.app_version)}</span></div>
     <div><span>问答链路</span><span>${esc(data.chat_lane_lab)}</span></div>
@@ -84,16 +105,30 @@ async function loadMeta(){
     <div><span>Dify Key</span><span>${data.dify_app_key_configured ? '已配置' : '未配置'}</span></div>
     <div><span>知识库</span><span>${esc(data.knowledge_base_imported)} 正式导入 / ${esc(data.knowledge_base_rows)} 本地</span></div>
     <div><span>扩展数据</span><span>${esc(data.knowledge_base_external || 0)} 外部权威来源；${esc(data.knowledge_base_chunked || 0)} 切分片段仅作检索粒度优化</span></div>
-    <div><span>评测口径</span><span>${esc(data.formal_eval_score)}；${esc(data.stability_status)}</span></div>`;
+    <div><span>评测口径</span><span>${esc(data.formal_eval_score)}；${esc(data.stability_status)}</span></div>
+    <div><span>性能</span><span>${esc(statsTxt || '暂无数据')}</span></div>`;
 }
 async function ask(){
-  $('askBtn').disabled=true; $('answer').textContent='请求中...'; renderCitations([]);
+  $('askBtn').disabled=true; $('answer').textContent='请求中...'; $('feedbackRow').style.display='none'; $('elapsed').textContent=''; renderCitations([]);
+  const q = $('question').value;
   try{
-    const data = await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({mode:'lab',question:$('question').value})}).then(async r=>{if(!r.ok) throw new Error(await r.text()); return r.json();});
+    const data = await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({mode:'lab',question:q,session_id:getSessionId()})}).then(async r=>{if(!r.ok) throw new Error(await r.text()); return r.json();});
     $('answer').textContent = `[${data.decision} | ${data.model}]\n\n${data.answer}`;
+    $('elapsed').textContent = `(${data.elapsed_ms||0}ms)`;
+    _lastAnswer = data.answer; _lastQuestion = q;
+    $('feedbackRow').style.display='flex';
+    $('feedbackMsg').textContent='';
     renderCitations(data.citations);
   }catch(e){ $('answer').textContent='请求失败：'+e.message; }
   finally{ $('askBtn').disabled=false; }
+}
+async function sendFeedback(rating){
+  $('usefulBtn').disabled=true; $('notUsefulBtn').disabled=true;
+  try{
+    await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:getSessionId(),question:_lastQuestion,answer:_lastAnswer,rating:rating})});
+    $('feedbackMsg').textContent='感谢反馈！';
+  }catch(e){ $('feedbackMsg').textContent='反馈提交失败'; }
+  finally{ $('usefulBtn').disabled=false; $('notUsefulBtn').disabled=false; }
 }
 async function searchOnly(){
   $('searchBtn').disabled=true; $('answer').textContent='检索中...';
@@ -106,6 +141,9 @@ async function searchOnly(){
 }
 $('askBtn').addEventListener('click', ask);
 $('searchBtn').addEventListener('click', searchOnly);
+$('newSessionBtn').addEventListener('click', newSession);
+$('usefulBtn').addEventListener('click', ()=>sendFeedback('useful'));
+$('notUsefulBtn').addEventListener('click', ()=>sendFeedback('not_useful'));
 loadMeta().catch(e => $('meta').innerHTML='<h2>运行状态</h2><p class="muted">读取失败：'+esc(e.message)+'</p>');
 </script>
 </body>

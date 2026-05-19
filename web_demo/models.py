@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field
 class ChatRequest(BaseModel):
     mode: str = Field(default="lab", description="当前独立项目固定使用 lab / Dify RAG 链路")
     question: str = Field(min_length=1, max_length=4000)
+    session_id: str = Field(default="", description="多轮对话会话 ID，留空则每次新建会话")
 
 class Citation(BaseModel):
     kb_id: str
@@ -26,7 +27,23 @@ class ChatResponse(BaseModel):
     low_confidence: bool = False
     low_confidence_reason: str = ""
     followup_logged: bool = False
+    elapsed_ms: int = 0
+    session_id: str = ""
     citations: list[Citation] = Field(default_factory=list)
+
+class FeedbackRequest(BaseModel):
+    session_id: str = ""
+    question: str = ""
+    answer: str = ""
+    rating: str = Field(default="", description="useful / not_useful")
+    comment: str = Field(default="", max_length=500)
+
+class StatsResponse(BaseModel):
+    recent_count: int
+    recent_avg_ms: float
+    recent_p50_ms: float
+    recent_p95_ms: float
+    recent_max_ms: float
 
 class DemoMetaResponse(BaseModel):
     app_version: str

@@ -80,10 +80,6 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
     scored: list[tuple[float, dict[str, str]]] = []
     for row in entries:
         score = 0.0
-        blob = row.get("blob", "")
-        title_blob = row.get("title_blob", "")
-        tag_blob = row.get("tag_blob", "")
-        body_blob = row.get("body_blob", "")
         row_question = normalize_search_text(row.get("question", ""))
         row_title = normalize_search_text(row.get("title", ""))
         if row_question and row_question == q:
@@ -94,14 +90,18 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
             score += 8.0
         elif row_title and (row_title in q or q in row_title):
             score += 4.0
+        title_tokens = row.get("title_tokens", set())
+        tag_tokens = row.get("tag_tokens", set())
+        body_tokens = row.get("body_tokens", set())
+        all_tokens = row.get("all_tokens", set())
         for token in q_tokens:
-            if token in title_blob:
+            if token in title_tokens:
                 score += 1.9 + min(len(token), 4) * 0.2
-            elif token in tag_blob:
+            elif token in tag_tokens:
                 score += 1.35 + min(len(token), 4) * 0.15
-            elif token in body_blob:
+            elif token in body_tokens:
                 score += 0.95 + min(len(token), 4) * 0.11
-            elif token in blob:
+            elif token in all_tokens:
                 score += 0.65 + min(len(token), 4) * 0.08
 
         # ---- 混合加权：语义分数加成 ----

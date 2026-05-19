@@ -1,0 +1,15 @@
+# Logs
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 注意：dist 保留提交，供 FastAPI 后端直接托管静态文件

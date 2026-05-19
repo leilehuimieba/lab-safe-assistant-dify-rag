@@ -1,0 +1,46 @@
+# 环境变量（含敏感信息）
+.env.dify_rag
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node.js
+node_modules/
+
+# 构建产物（前端源码已提交，dist 按需保留）
+# web_demo/frontend/dist/ 保留以便后端直接托管
+
+# 日志
+logs/
+*.log
+
+# 运行时临时文件
+artifacts/local-dify-rag/
+artifacts/eval_50/
+artifacts/kb_changelog/
+artifacts/user_feedback/
+artifacts/low_confidence_followups/
+
+# 数据导入临时目录
+data_sources/incoming/
+
+# Playwright 测试临时文件
+.playwright-mcp/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# 编辑器备份
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+desktop.ini

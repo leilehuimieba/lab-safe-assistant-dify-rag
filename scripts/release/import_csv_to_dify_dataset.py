@@ -113,6 +113,11 @@ def parse_args() -> argparse.Namespace:
         help="Skip rows when a document with same generated name already exists.",
     )
     parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Alias for --skip-existing. Only import new/changed entries.",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
         default=0,
@@ -458,7 +463,8 @@ def main() -> int:
 
     rows = read_rows(csv_path, args.limit)
     existing_names: set[str] = set()
-    if args.skip_existing:
+    skip_existing = args.skip_existing or args.incremental
+    if skip_existing:
         existing_names = list_existing_names(args.base_url, dataset_id, token)
         print(f"[info] existing document names loaded: {len(existing_names)}")
 
@@ -466,7 +472,7 @@ def main() -> int:
 
     for idx, row in enumerate(rows, start=1):
         name = build_doc_name(row)
-        if args.skip_existing and name in existing_names:
+        if skip_existing and name in existing_names:
             result.skipped_existing += 1
             continue
 
@@ -482,7 +488,7 @@ def main() -> int:
             batch = str(payload.get("batch") or "").strip()
             if batch:
                 result.batches.append(batch)
-            if args.skip_existing:
+            if skip_existing:
                 existing_names.add(name)
         else:
             result.failed += 1

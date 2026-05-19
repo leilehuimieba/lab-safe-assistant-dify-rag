@@ -93,6 +93,9 @@ def load_kb_entries() -> list[dict[str, str]]:
             hazard_types = (row.get("hazard_types") or "").strip()
             tags = (row.get("tags") or "").strip()
             blob = normalize_search_text(" ".join([title, question, answer, steps, forbidden, emergency, ppe, hazard_types, tags]))
+            title_blob = normalize_search_text(" ".join([title, question]))
+            tag_blob = normalize_search_text(" ".join([hazard_types, tags]))
+            body_blob = normalize_search_text(" ".join([answer, steps, forbidden, emergency, ppe]))
             rows.append({
                 "id": (row.get("id") or "").strip(),
                 "title": title,
@@ -110,10 +113,15 @@ def load_kb_entries() -> list[dict[str, str]]:
                 "emergency": emergency,
                 "ppe": ppe,
                 "tags": tags,
-                "title_blob": normalize_search_text(" ".join([title, question])),
-                "tag_blob": normalize_search_text(" ".join([hazard_types, tags])),
-                "body_blob": normalize_search_text(" ".join([answer, steps, forbidden, emergency, ppe])),
+                "title_blob": title_blob,
+                "tag_blob": tag_blob,
+                "body_blob": body_blob,
                 "blob": blob,
+                # Pre-computed token sets for fast lookup
+                "title_tokens": extract_tokens(title_blob),
+                "tag_tokens": extract_tokens(tag_blob),
+                "body_tokens": extract_tokens(body_blob),
+                "all_tokens": extract_tokens(blob),
             })
     return rows
 
