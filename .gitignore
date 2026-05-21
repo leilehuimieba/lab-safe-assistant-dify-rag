@@ -44,3 +44,19 @@ data_sources/incoming/
 # Windows
 Thumbs.db
 desktop.ini
+
+# 临时文件
+.tmp_*
+*.tmp
+
+# 数据生成脚本的输出产物（报告/CSV/Excel）
+*_report.md
+*_list.csv
+*_candidates.csv
+audit_sample.csv
+problem_sources.csv
+source_audit_report.md
+ingest_report.md
+phase4_report.md
+recollect_ingest_report.md
+*.xlsx

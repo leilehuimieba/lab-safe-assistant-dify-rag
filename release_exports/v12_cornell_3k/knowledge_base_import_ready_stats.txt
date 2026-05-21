@@ -1,0 +1,4 @@
+KB v12 - Cornell LSM Integration
+Total entries: 3367
+Date: 2024-05-21
+Source: Cornell LSM + chemical TSVs + NCBI + waste management + gap fill
