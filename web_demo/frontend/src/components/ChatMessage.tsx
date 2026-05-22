@@ -58,7 +58,7 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
         </div>
         <div className={`bubble dec-${dec}`}>
           <div className="dec-row">
-            <DecisionBadge decision={dec} />
+            <DecisionBadge decision={dec} model={r.model} />
             {r.risk_level ? <RiskBadge level={r.risk_level} /> : null}
             {r.matched_rule_id ? (
               <span
@@ -77,7 +77,15 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
             {r.model ? (
               <span className="badge model">
                 <span className="b-dot" />
-                {r.model}
+                {r.model === 'local-fast-path'
+                  ? '本地快速通道'
+                  : r.model === 'dify-workflow'
+                    ? 'Dify 主链路'
+                    : r.model === 'rule-engine'
+                      ? '规则引擎'
+                      : r.model === 'fallback-rule-engine'
+                        ? '结构化兜底'
+                        : r.model}
               </span>
             ) : null}
           </div>
