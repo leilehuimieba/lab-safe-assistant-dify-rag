@@ -34,6 +34,14 @@ safe_response_templates:
     - "请补充具体试剂名称、浓度、设备型号和场景，我才能提供准确建议。"
 
 rules:
+  - id: R-025
+    category: incompatible_storage_pair
+    match_type: keywords
+    patterns: ["硝酸和乙醇", "乙醇和硝酸"]
+    action: direct_safe_answer
+    severity: high
+    response: "不能。硝酸属于强氧化性酸，乙醇属于易燃有机溶剂，应按不相容化学品分开储存，不得放在同一柜体或同层。"
+
   - id: R-001
     category: dangerous_mixing
     match_type: keywords
@@ -69,7 +77,7 @@ rules:
   - id: R-005
     category: fume_hood_bypass
     match_type: keywords
-    patterns: ["不开通风柜", "通风柜关掉", "不用通风"]
+    patterns: ["不开通风柜", "不在通风柜", "通风柜关掉", "不用通风"]
     action: refuse
     severity: high
     response: "挥发性或有毒操作必须在通风柜内进行。"
@@ -120,7 +128,7 @@ rules:
   - id: R-011
     category: chemical_splash_skin
     match_type: keywords
-    patterns: ["溅到皮肤", "化学品溅到皮肤", "皮肤被腐蚀", "化学灼伤", "酸碱灼伤"]
+    patterns: ["溅到皮肤", "化学品溅到皮肤", "皮肤被腐蚀", "化学灼伤", "酸碱灼伤", "溅到手上", "浓酸溅到手上", "酸溅到手上", "手上被酸溅到"]
     action: redirect_emergency
     severity: high
     response: "若化学品溅到皮肤：立即用大量清水持续冲洗，尽快脱去被污染的衣物/手套，并联系实验室管理人员或就医。"
@@ -216,7 +224,7 @@ rules:
   - id: R-023
     category: centrifuge_violation
     match_type: keywords
-    patterns: ["离心机转着", "离心机运转时", "离心机没停"]
+    patterns: ["离心机转着", "离心机运转时", "离心机没停", "边转边开盖", "边转边掀盖", "转的时候开盖", "转着开盖", "开盖看看", "掀盖看看", "边转边掀盖看一下"]
     action: refuse
     severity: high
     response: "绝对不能在离心机运转时开盖！必须等转子完全停止后才能打开，强行开盖有严重危险。"

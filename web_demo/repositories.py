@@ -47,7 +47,7 @@ SYSTEM_PROMPTS = {
 }
 
 SEVERITY_SCORE = {"critical": 5, "high": 4, "medium": 3, "low": 2}
-TERMINAL_ACTIONS = {"refuse", "redirect_emergency", "ask_for_more_info"}
+TERMINAL_ACTIONS = {"refuse", "redirect_emergency", "ask_for_more_info", "direct_safe_answer"}
 REFUSE_INTENT_MARKERS = [
     "能不能", "可不可以", "可以吗", "绕过", "规避", "跳过", "怎么混", "混吗", "一起混",
     "直接倒", "倒掉", "下水道", "明火", "酒精灯", "加热", "不开通风柜", "不用通风", "不戴",

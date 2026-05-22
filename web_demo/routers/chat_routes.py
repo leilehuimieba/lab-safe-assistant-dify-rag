@@ -15,7 +15,7 @@ from fastapi.responses import Response, StreamingResponse
 from ..models import ChatRequest, ChatResponse, FeedbackRequest, StatsResponse
 from ..repositories import DEFAULT_TOP_K, DIFY_DEFAULT_TIMEOUT, REPO_ROOT
 from ..services import (
-    retrieve_citations, match_rule, should_enforce_terminal_rule,
+    retrieve_citations, match_rule, should_enforce_terminal_rule, should_force_more_info,
     build_rule_answer, assess_low_confidence, append_low_confidence_followup,
     append_low_confidence_followup_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
@@ -129,6 +129,13 @@ def chat(payload: ChatRequest) -> ChatResponse:
     t_rule = time.perf_counter()
     rule = match_rule(question)
     timings["rule_ms"] = round((time.perf_counter() - t_rule) * 1000)
+    if should_force_more_info(question, rule):
+        rule = {
+            "id": str((rule or {}).get("id") or "R-ASK-LOCAL"),
+            "action": "ask_for_more_info",
+            "severity": str((rule or {}).get("severity") or "low"),
+            "response": "当前问题缺少关键对象或场景信息，我需要先确认具体条件后才能给出安全建议。",
+        }
     rule_action = str((rule or {}).get("action") or "")
     decision = "dify_answer"
     followup_logged = False
@@ -137,6 +144,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
         decision = (
             "rule_blocked" if rule_action == "refuse"
             else "emergency_redirect" if rule_action == "redirect_emergency"
+            else "rule_direct_answer" if rule_action == "direct_safe_answer"
             else "need_more_info"
         )
         answer = build_rule_answer(rule, citations)
@@ -168,6 +176,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
         low_confidence=low_confidence,
         rule=rule,
         session_has_history=bool(session.history),
+        history=session.history,
     )
     if fast_path_citations:
         citations = fast_path_citations
