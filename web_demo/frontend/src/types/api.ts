@@ -13,6 +13,7 @@ export interface Citation {
 export interface ChatRequest {
   mode: string;
   question: string;
+  session_id?: string;
 }
 
 export type DecisionKind =
@@ -36,6 +37,8 @@ export interface ChatResponse {
   low_confidence: boolean;
   low_confidence_reason: string;
   followup_logged: boolean;
+  elapsed_ms: number;
+  session_id: string;
   citations: Citation[];
 }
 
@@ -62,5 +65,28 @@ export interface DemoMetaResponse {
 
 export interface HealthResponse {
   ok: boolean;
+  status: string;
+  service?: string;
+  kb_loaded?: number;
+  dify_base_url?: string;
+  dify_app_key_configured?: boolean;
+  dify_reachable?: boolean;
+  dify_error?: string;
   [k: string]: unknown;
+}
+
+export interface StatsResponse {
+  recent_count: number;
+  recent_avg_ms: number;
+  recent_p50_ms: number;
+  recent_p95_ms: number;
+  recent_max_ms: number;
+}
+
+export interface FeedbackRequest {
+  session_id: string;
+  question: string;
+  answer: string;
+  rating: 'useful' | 'not_useful';
+  comment?: string;
 }

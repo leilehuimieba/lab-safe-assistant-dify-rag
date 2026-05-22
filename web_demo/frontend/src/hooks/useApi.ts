@@ -3,8 +3,10 @@ import type {
   ChatRequest,
   ChatResponse,
   DemoMetaResponse,
+  FeedbackRequest,
   HealthResponse,
   SearchResponse,
+  StatsResponse,
 } from '../types/api';
 
 /** 通用 fetch 包装。所有路径必须是相对路径（如 /api/chat），由 Vite proxy / 后端托管转发。 */
@@ -63,6 +65,44 @@ export function useMetaAndHealth() {
   return { loading, error, meta, health };
 }
 
+export function useStats() {
+  const [stats, setStats] = useState<StatsResponse | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async () => {
+      try {
+        const data = await jsonFetch<StatsResponse>('/api/stats');
+        if (!cancelled) {
+          setStats(data);
+          setError(null);
+        }
+      } catch (e) {
+        if (!cancelled) {
+          setError(e instanceof Error ? e.message : '统计加载失败');
+        }
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+
+    void load();
+    const timer = window.setInterval(() => {
+      void load();
+    }, 15_000);
+
+    return () => {
+      cancelled = true;
+      window.clearInterval(timer);
+    };
+  }, []);
+
+  return { stats, loading, error };
+}
+
 export function useChat() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -107,4 +147,28 @@ export function useSearch() {
   }, []);
 
   return { search, busy, error, setError };
+}
+
+export function useFeedback() {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const submitFeedback = useCallback(async (payload: FeedbackRequest): Promise<void> => {
+    setBusy(true);
+    setError(null);
+    try {
+      await jsonFetch<{ status: string }>('/api/feedback', {
+        method: 'POST',
+        body: JSON.stringify(payload),
+      });
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : '反馈提交失败';
+      setError(msg);
+      throw e;
+    } finally {
+      setBusy(false);
+    }
+  }, []);
+
+  return { submitFeedback, busy, error };
 }

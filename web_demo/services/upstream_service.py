@@ -51,20 +51,28 @@ def iter_sse_payloads(response: requests.Response) -> list[str]:
     return payloads
 
 
-def parse_sse_answer(response: requests.Response) -> tuple[str, str]:
+def parse_sse_answer(response: requests.Response) -> tuple[str, str, str]:
     answer_parts: list[str] = []
     workflow_status = ""
     workflow_error = ""
+    conversation_id = ""
     for payload in iter_sse_payloads(response):
         try:
             obj = json.loads(payload)
         except Exception:
             continue
         event = str(obj.get("event") or "").strip().lower()
+        if not conversation_id:
+            conversation_id = str(obj.get("conversation_id") or "").strip()
         if event == "message":
             chunk = str(obj.get("answer") or "").strip()
             if chunk:
                 answer_parts.append(chunk)
+            if not conversation_id:
+                conversation_id = str(obj.get("conversation_id") or "").strip()
+        elif event == "message_end":
+            if not conversation_id:
+                conversation_id = str(obj.get("conversation_id") or "").strip()
         elif event == "workflow_finished":
             data = obj.get("data") or {}
             workflow_status = str(data.get("status") or "").strip().lower()
@@ -72,7 +80,7 @@ def parse_sse_answer(response: requests.Response) -> tuple[str, str]:
         elif event == "error":
             workflow_error = str(obj.get("message") or obj.get("error") or obj)
             break
-    return "".join(answer_parts).strip(), workflow_error or workflow_status
+    return "".join(answer_parts).strip(), workflow_error or workflow_status, conversation_id
 
 
 def resolve_dify_api_base() -> str:
@@ -93,7 +101,7 @@ def build_dify_proxy_auth(request: Request) -> str:
     return ""
 
 
-def call_dify_lab(question: str) -> tuple[str, str]:
+def call_dify_lab(question: str, conversation_id: str = "") -> tuple[str, str, str]:
     app_key = os.getenv("DIFY_APP_API_KEY", "").strip()
     timeout = float(os.getenv("DIFY_TIMEOUT", str(DIFY_DEFAULT_TIMEOUT)) or str(DIFY_DEFAULT_TIMEOUT))
     if not app_key:
@@ -112,7 +120,7 @@ def call_dify_lab(question: str) -> tuple[str, str]:
                 "inputs": {},
                 "query": question,
                 "response_mode": "streaming",
-                "conversation_id": "",
+                "conversation_id": conversation_id.strip(),
                 "user": "web-demo-lab",
                 "auto_generate_name": False,
             },
@@ -125,9 +133,9 @@ def call_dify_lab(question: str) -> tuple[str, str]:
     if response.status_code >= 400:
         raise HTTPException(status_code=502, detail=f"dify_http_{response.status_code}: {response.text[:200]}")
 
-    answer, status_text = parse_sse_answer(response)
+    answer, status_text, returned_conversation_id = parse_sse_answer(response)
     if answer:
-        return sanitize_llm_output(answer), "dify-workflow"
+        return sanitize_llm_output(answer), "dify-workflow", returned_conversation_id
     raise HTTPException(status_code=502, detail=f"dify_empty_answer: {status_text or 'unknown'}")
 
 

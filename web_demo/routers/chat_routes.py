@@ -98,8 +98,12 @@ def chat(payload: ChatRequest) -> ChatResponse:
 
     model = "dify-workflow"
     try:
-        answer, model = call_dify_lab(question)
-        set_conversation_id(session.session_id, "")
+        answer, model, returned_conversation_id = call_dify_lab(
+            question,
+            conversation_id=session.conversation_id,
+        )
+        if returned_conversation_id:
+            set_conversation_id(session.session_id, returned_conversation_id)
         if rule:
             decision = "dify_answer_guarded"
     except HTTPException:

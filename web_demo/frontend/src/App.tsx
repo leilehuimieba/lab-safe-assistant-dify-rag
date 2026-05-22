@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { useChat, useMetaAndHealth, useSearch } from './hooks/useApi';
+import { useChat, useFeedback, useMetaAndHealth, useSearch, useStats } from './hooks/useApi';
 import type { ChatResponse, Citation } from './types/api';
 import ChatMessage, { type Msg } from './components/ChatMessage';
 import Sidebar from './components/Sidebar';
@@ -30,9 +30,12 @@ export default function App() {
   const { loading, error: metaError, meta, health } = useMetaAndHealth();
   const { send, busy } = useChat();
   const { search, busy: searchBusy } = useSearch();
+  const { stats, loading: statsLoading } = useStats();
+  const { submitFeedback } = useFeedback();
 
   const [messages, setMessages] = useState<Msg[]>([]);
   const [input, setInput] = useState('');
+  const [sessionId, setSessionId] = useState('');
   const [flashIdx, setFlashIdx] = useState(-1);
   const [error, setError] = useState<AppError | null>(null);
   const [lastSearchCitations, setLastSearchCitations] = useState<Citation[]>([]);
@@ -78,8 +81,11 @@ export default function App() {
     setMessages((m) => [...m, userMsg]);
     setInput('');
     try {
-      const resp: ChatResponse = await send({ question: q, mode: 'lab' });
-      setMessages((m) => [...m, { role: 'ai', time: nowHHMM(), resp }]);
+      const resp: ChatResponse = await send({ question: q, mode: 'lab', session_id: sessionId });
+      if (resp.session_id) {
+        setSessionId(resp.session_id);
+      }
+      setMessages((m) => [...m, { role: 'ai', time: nowHHMM(), resp, userQuestion: q }]);
     } catch (e) {
       const msg = e instanceof Error ? e.message : '网络请求失败';
       setError({ kind: 'network', msg: `请求失败：${msg}`, lastQ: q });
@@ -109,9 +115,11 @@ export default function App() {
         low_confidence: false,
         low_confidence_reason: '',
         followup_logged: false,
+        elapsed_ms: 0,
+        session_id: sessionId,
         citations: data.citations,
       };
-      setMessages((m) => [...m, { role: 'ai', time: nowHHMM(), resp: pseudoResp }]);
+      setMessages((m) => [...m, { role: 'ai', time: nowHHMM(), resp: pseudoResp, userQuestion: q }]);
     } catch (e) {
       const msg = e instanceof Error ? e.message : '检索失败';
       setError({ kind: 'network', msg: `检索失败：${msg}`, lastQ: q });
@@ -122,8 +130,27 @@ export default function App() {
   const newChat = () => {
     setMessages([]);
     setInput('');
+    setSessionId('');
     setError(null);
     setLastSearchCitations([]);
+  };
+
+  const submitMessageFeedback = async (
+    resp: ChatResponse,
+    rating: 'useful' | 'not_useful',
+    userQuestion?: string,
+  ) => {
+    const comment =
+      rating === 'not_useful'
+        ? (window.prompt('可以补充一下哪里不满意吗？（可留空）') || '').trim()
+        : '';
+    await submitFeedback({
+      session_id: resp.session_id || sessionId,
+      question: userQuestion || '',
+      answer: resp.answer,
+      rating,
+      comment,
+    });
   };
 
   const history = messages
@@ -170,7 +197,7 @@ export default function App() {
             {messages.length === 0 && !error && <EmptyHero onPick={onPickQuick} />}
 
             {messages.map((m, i) => (
-              <ChatMessage key={i} msg={m} />
+              <ChatMessage key={i} msg={m} onFeedback={submitMessageFeedback} />
             ))}
 
             {busy && <Thinking />}
@@ -188,7 +215,13 @@ export default function App() {
         />
       </main>
 
-      <MetaPanel meta={meta} health={health} loading={loading} lastSearchCitations={lastSearchCitations} />
+      <MetaPanel
+        meta={meta}
+        health={health}
+        loading={loading || statsLoading}
+        stats={stats}
+        lastSearchCitations={lastSearchCitations}
+      />
       <Footbar meta={meta} />
     </div>
   );

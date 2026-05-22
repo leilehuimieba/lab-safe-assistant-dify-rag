@@ -15,15 +15,18 @@ export interface AiMsg {
   role: 'ai';
   time: string;
   resp: ChatResponse;
+  userQuestion?: string;
 }
 export type Msg = UserMsg | AiMsg;
 
 interface Props {
   msg: Msg;
+  onFeedback?: (resp: ChatResponse, rating: 'useful' | 'not_useful', userQuestion?: string) => Promise<void>;
 }
 
-export default function ChatMessage({ msg }: Props) {
+export default function ChatMessage({ msg, onFeedback }: Props) {
   const [openCites, setOpenCites] = useState(false);
+  const [feedbackState, setFeedbackState] = useState<'idle' | 'sending' | 'useful' | 'not_useful'>('idle');
 
   if (msg.role === 'user') {
     return (
@@ -114,6 +117,61 @@ export default function ChatMessage({ msg }: Props) {
               </div>
             </div>
           )}
+
+          <div
+            style={{
+              marginTop: 12,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              gap: 12,
+              flexWrap: 'wrap',
+            }}
+          >
+            <div style={{ fontSize: 12, color: 'var(--text-3)' }}>
+              响应耗时：<strong>{r.elapsed_ms || 0}ms</strong>
+              {r.session_id ? (
+                <>
+                  {' '}· 会话 <code>{r.session_id.slice(0, 12)}</code>
+                </>
+              ) : null}
+            </div>
+            {onFeedback ? (
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <span style={{ fontSize: 12, color: 'var(--text-3)' }}>这条回答有帮助吗？</span>
+                <button
+                  className="retry"
+                  disabled={feedbackState === 'sending' || feedbackState === 'useful'}
+                  onClick={async () => {
+                    try {
+                      setFeedbackState('sending');
+                      await onFeedback(r, 'useful', msg.role === 'ai' ? msg.userQuestion : '');
+                      setFeedbackState('useful');
+                    } catch {
+                      setFeedbackState('idle');
+                    }
+                  }}
+                >
+                  {feedbackState === 'useful' ? '已记录 👍' : '有帮助'}
+                </button>
+                <button
+                  className="retry"
+                  disabled={feedbackState === 'sending' || feedbackState === 'not_useful'}
+                  onClick={async () => {
+                    try {
+                      setFeedbackState('sending');
+                      await onFeedback(r, 'not_useful', msg.role === 'ai' ? msg.userQuestion : '');
+                      setFeedbackState('not_useful');
+                    } catch {
+                      setFeedbackState('idle');
+                    }
+                  }}
+                >
+                  {feedbackState === 'not_useful' ? '已记录 👀' : '待改进'}
+                </button>
+              </div>
+            ) : null}
+          </div>
 
           {r.citations && r.citations.length > 0 && (
             <div className="cites">

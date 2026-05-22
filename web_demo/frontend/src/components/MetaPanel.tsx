@@ -1,10 +1,11 @@
-import type { Citation, DemoMetaResponse } from '../types/api';
+import type { Citation, DemoMetaResponse, StatsResponse } from '../types/api';
 import CitationCard from './CitationCard';
 
 interface Props {
   meta: DemoMetaResponse | null;
   health: boolean;
   loading: boolean;
+  stats: StatsResponse | null;
   lastSearchCitations: Citation[];
 }
 
@@ -15,7 +16,7 @@ function statusDot(s: string): string {
   return 'dot-ok';
 }
 
-export default function MetaPanel({ meta, health, loading, lastSearchCitations }: Props) {
+export default function MetaPanel({ meta, health, loading, stats, lastSearchCitations }: Props) {
   if (loading || !meta) {
     return (
       <aside className="metabar">
@@ -114,6 +115,28 @@ export default function MetaPanel({ meta, health, loading, lastSearchCitations }
               <span className={`status-dot ${meta.dify_app_key_configured ? 'dot-ok' : 'dot-err'}`} />
               {meta.dify_app_key_configured ? '已配置' : '未配置'}
             </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="meta-card">
+        <div className="meta-card-head"><h3>最近性能</h3></div>
+        <div className="kb-grid">
+          <div className="kb-stat">
+            <div className="v">{stats?.recent_count ?? 0}</div>
+            <div className="l">样本数</div>
+          </div>
+          <div className="kb-stat">
+            <div className="v">{Math.round(stats?.recent_avg_ms ?? 0)}</div>
+            <div className="l">平均 ms</div>
+          </div>
+          <div className="kb-stat">
+            <div className="v">{Math.round(stats?.recent_p95_ms ?? 0)}</div>
+            <div className="l">P95 ms</div>
+          </div>
+          <div className="kb-stat">
+            <div className="v">{Math.round(stats?.recent_max_ms ?? 0)}</div>
+            <div className="l">最大 ms</div>
           </div>
         </div>
       </div>
