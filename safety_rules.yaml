@@ -77,7 +77,7 @@ rules:
   - id: R-005
     category: fume_hood_bypass
     match_type: keywords
-    patterns: ["不开通风柜", "通风柜关掉", "不用通风"]
+    patterns: ["不开通风柜", "不在通风柜", "通风柜关掉", "不用通风"]
     action: refuse
     severity: high
     response: "挥发性或有毒操作必须在通风柜内进行。"
@@ -224,7 +224,7 @@ rules:
   - id: R-023
     category: centrifuge_violation
     match_type: keywords
-    patterns: ["离心机转着", "离心机运转时", "离心机没停", "边转边开盖", "转的时候开盖", "转着开盖", "开盖看看"]
+    patterns: ["离心机转着", "离心机运转时", "离心机没停", "边转边开盖", "边转边掀盖", "转的时候开盖", "转着开盖", "开盖看看", "掀盖看看", "边转边掀盖看一下"]
     action: refuse
     severity: high
     response: "绝对不能在离心机运转时开盖！必须等转子完全停止后才能打开，强行开盖有严重危险。"
