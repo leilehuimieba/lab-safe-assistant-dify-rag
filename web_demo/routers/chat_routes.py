@@ -20,6 +20,7 @@ from ..services import (
     append_low_confidence_followup_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
+    should_use_fast_path, build_fast_path_answer,
 )
 
 router = APIRouter()
@@ -161,6 +162,34 @@ def chat(payload: ChatRequest) -> ChatResponse:
         decision = "dify_low_confidence"
 
     model = "dify-workflow"
+    if should_use_fast_path(
+        question=question,
+        citations=citations,
+        low_confidence=low_confidence,
+        rule=rule,
+        session_has_history=bool(session.history),
+    ):
+        answer = build_fast_path_answer(question, citations)
+        elapsed_ms = round((time.perf_counter() - t0) * 1000)
+        _record_metrics(total_ms=elapsed_ms, **timings)
+        add_history(session.session_id, question, answer)
+        return ChatResponse(
+            answer=answer,
+            mode=mode,
+            model="local-fast-path",
+            decision="dify_answer",
+            risk_level="",
+            matched_rule_id="",
+            matched_rule_action="",
+            low_confidence=False,
+            low_confidence_reason="",
+            followup_logged=False,
+            elapsed_ms=elapsed_ms,
+            session_id=session.session_id,
+            citations=citations,
+            timings={"total_ms": elapsed_ms, **timings},
+        )
+
     use_cache = not low_confidence and not rule and not session.history
     effective_question = question
     if session.history and not session.conversation_id:
