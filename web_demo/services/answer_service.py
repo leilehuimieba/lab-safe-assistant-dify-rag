@@ -101,7 +101,37 @@ def format_citation_lines(citations: list[Citation], limit: int = 3) -> str:
 
 
 def build_rule_answer(rule: dict[str, Any], citations: list[Citation]) -> str:
+    action = str(rule.get("action") or "").strip()
     response = str(rule.get("response") or "Stop the task and follow the local emergency procedure immediately.").strip()
+    if action == "ask_for_more_info":
+        return (
+            "结论:\n"
+            f"{response}\n\n"
+            "请补充以下信息后我再继续判断：\n"
+            "1. 具体试剂、设备或柜体对象是什么；\n"
+            "2. 当前处于储存、使用、处置还是异常情况；\n"
+            "3. 是否已经出现泄漏、受伤、冒烟、报警等紧急迹象。\n\n"
+            "在信息不完整前：\n"
+            "- 不要继续高风险操作；\n"
+            "- 不要擅自混放、倾倒、开盖或离开现场；\n"
+            "- 如已出现人员暴露或事故征兆，立即按应急预案处理。\n\n"
+            "参考依据:\n"
+            f"{format_citation_lines(citations)}"
+        )
+    if action == "direct_safe_answer":
+        return (
+            "结论:\n"
+            f"{response}\n\n"
+            "步骤:\n"
+            "1. 先按化学品相容性重新核对危险特性，不要只看是否‘都能进柜’。\n"
+            "2. 氧化性酸、易燃有机溶剂等不相容物质应分柜或分区隔离存放。\n"
+            "3. 如现场柜体分类不明确，先暂停放置并联系实验室负责人确认。\n\n"
+            "禁止事项:\n"
+            "- 禁止将不相容化学品同柜、同层或紧邻混放。\n"
+            "- 禁止在未核对标签、浓度和危险类别前凭经验判断可否共存。\n\n"
+            "参考依据:\n"
+            f"{format_citation_lines(citations)}"
+        )
     return (
         "结论:\n"
         f"{response}\n\n"

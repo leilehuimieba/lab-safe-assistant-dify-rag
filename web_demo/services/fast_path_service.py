@@ -12,10 +12,23 @@ FAST_PATH_KEYWORDS = [
     ("通风柜", ["通风柜", "排风柜", "风罩", "窗扇", "前窗", "面风速", "报警", "认证", "关闭通风柜"]),
     ("废弃物", ["废弃物", "废液", "废试剂", "废瓶", "试剂瓶", "空瓶", "危废", "废液桶", "垃圾分类"]),
     ("标签标识", ["标签", "标识", "标记", "名称", "浓度", "配制日期", "责任人", "标签缺失", "标签不完整", "废液标签"]),
-    ("化学品储存", ["储存", "存放", "防火柜", "试剂柜", "安全柜", "乙醇", "易燃液体", "分类储存", "不相容", "氧化剂"]),
-    ("离心机基础", ["离心机", "平衡", "转头", "离心管", "盖子", "启动前", "低速", "异常振动", "停稳"]),
+    ("化学品储存", ["储存", "存放", "防火柜", "试剂柜", "安全柜", "乙醇", "易燃液体", "分类储存", "不相容", "氧化剂", "混放", "同一个柜子", "同柜", "硝酸"]),
+    ("配酸稀释", ["配酸", "稀释浓酸", "浓酸稀释", "酸入水", "酸倒入水中", "把酸倒进水里", "先加水", "先加酸", "加酸到水里", "倒入水", "加酸"]),
+    ("离心机基础", ["离心机", "平衡", "转头", "离心管", "盖子", "启动前", "低速", "异常振动", "震动", "振动", "抖动", "异响", "噪音", "停机", "停稳"]),
+    ("访客准入", ["参观", "访客", "外来人员", "来访", "小朋友", "儿童", "未成年人", "带孩子", "带小孩"]),
+    ("安全培训准入", ["培训", "准入", "第一课", "第一次进实验", "进实验前", "进入实验室前", "新进实验室", "安全内容", "考核", "第一次做实验前", "做实验前", "必须满足什么条件", "新同学", "开始实验前"]),
+    ("风险评估", ["风险评估", "评估步骤", "基本步骤", "风险识别", "控制措施", "风险分析"]),
     ("基础应知", ["实验室前", "进入实验室", "注意事项", "基本要求", "实验室穿什么", "可以穿", "准入"]),
 ]
+
+DOMAIN_REQUIRED_MARKERS = {
+    "化学品储存": ["储存", "存放", "柜", "不相容", "氧化剂", "易燃", "硝酸", "乙醇"],
+    "配酸稀释": ["配酸", "稀释", "酸", "浓酸"],
+    "离心机基础": ["离心机", "转子", "离心管"],
+    "访客准入": ["访客", "参观", "儿童", "未成年人", "小朋友"],
+    "安全培训准入": ["培训", "准入", "考核", "实验室"],
+    "风险评估": ["风险评估", "风险识别", "控制措施", "评估"],
+}
 
 
 def _match_domain(question: str, citation: Citation, row: dict[str, str] | None = None) -> str | None:
@@ -49,6 +62,32 @@ def _question_domains(question: str) -> list[str]:
     return []
 
 
+def _history_domains(history: list[dict[str, str]] | None) -> list[str]:
+    if not history:
+        return []
+    found: list[str] = []
+    for item in history[-2:]:
+        text = " ".join([
+            str(item.get("question") or ""),
+            str(item.get("answer") or ""),
+        ])
+        for domain in _question_domains(text):
+            if domain not in found:
+                found.append(domain)
+    return found
+
+
+def _allow_fast_path_with_history(question: str, history: list[dict[str, str]] | None, domains: list[str]) -> bool:
+    q = normalize_search_text(question)
+    if not domains:
+        return False
+    if any(token in q for token in ["起火", "着火", "泄漏", "冒烟", "灼伤", "受伤", "爆炸", "报警"]):
+        return False
+    if any(token in q for token in ["怎么办", "怎么处理", "如何处理"]) and any(domain not in {"标签标识", "化学品储存", "废弃物"} for domain in domains):
+        return False
+    return bool(history)
+
+
 def _row_matches_domain(row: dict[str, str], domain: str) -> bool:
     keywords = dict(FAST_PATH_KEYWORDS).get(domain, [])
     haystacks = [
@@ -57,6 +96,10 @@ def _row_matches_domain(row: dict[str, str], domain: str) -> bool:
         row.get("body_blob", ""),
         normalize_search_text(row.get("question", "")),
     ]
+    combined = " ".join(haystacks)
+    required_markers = DOMAIN_REQUIRED_MARKERS.get(domain, [])
+    if required_markers and not any(marker in combined for marker in required_markers):
+        return False
     return any(keyword in haystack for keyword in keywords for haystack in haystacks)
 
 
@@ -122,6 +165,42 @@ def _score_row_for_domain(question: str, row: dict[str, str], domain: str) -> fl
         score += 1.2
     if any(token in q for token in ["检查", "启动前", "使用前"]) and any(token in title_blob + body_blob for token in ["检查", "启动前", "使用前", "确认"]):
         score += 1.5
+    if any(token in q for token in ["震动", "振动", "抖动", "异响", "噪音"]) and any(token in title_blob + body_blob for token in ["震动", "振动", "抖动", "异响", "噪音", "停机", "停稳"]):
+        score += 1.8
+    if any(token in q for token in ["培训", "准入", "考核", "第一课", "进实验前"]) and any(token in title_blob + body_blob for token in ["培训", "准入", "考核", "上岗", "进入实验室"]):
+        score += 1.8
+    if any(token in q for token in ["风险评估", "评估步骤", "风险识别", "控制措施"]) and any(token in title_blob + body_blob for token in ["风险评估", "风险识别", "控制措施", "风险分析"]):
+        score += 2.0
+    if any(token in q for token in ["参观", "访客", "小朋友", "儿童", "未成年人"]) and any(token in title_blob + body_blob for token in ["参观", "访客", "儿童", "未成年人", "陪同", "登记"]):
+        score += 1.8
+    if any(token in q for token in ["配酸", "稀释浓酸", "酸入水", "先加水", "先加酸"]) and any(token in title_blob + body_blob for token in ["配酸", "稀释浓酸", "酸入水", "先加水", "先加酸"]):
+        score += 1.8
+    if any(token in q for token in ["同一个柜子", "同柜", "混放", "硝酸"]) and any(token in title_blob + body_blob for token in ["同柜", "混放", "不相容", "氧化剂", "硝酸", "易燃"]):
+        score += 2.0
+    if domain == "化学品储存" and any(token in row_question + title_blob for token in ["氧化剂", "不相容", "混放", "硝酸", "乙醇"]):
+        score += 2.2
+    if domain == "离心机基础" and any(token in q for token in ["震动", "振动", "抖动", "异响", "噪音"]):
+        if any(token in title_blob + body_blob for token in ["离心机", "振动", "转子", "停机", "开盖"]):
+            score += 3.0
+    if domain == "离心机基础" and "离心机" in row_question + title_blob:
+        score += 1.6
+    if domain == "安全培训准入" and any(token in q for token in ["培训", "准入", "第一课", "安全内容", "进实验前", "做实验前", "满足什么条件", "新同学"]):
+        if any(token in title_blob + body_blob for token in ["培训", "准入", "考核", "SDS", "应急", "PPE"]):
+            score += 2.6
+    if domain == "安全培训准入" and any(token in row_question + title_blob for token in ["培训", "准入", "新进实验室", "进入实验室"]):
+        score += 2.2
+    if domain == "访客准入" and any(token in row_question + title_blob for token in ["参观", "访客", "儿童", "未成年人", "小朋友"]):
+        score += 2.2
+    if domain == "风险评估" and any(token in row_question + title_blob for token in ["风险评估", "风险识别", "控制措施", "生物安全风险评估"]):
+        score += 2.4
+    if domain == "配酸稀释" and any(token in q for token in ["稀释浓酸", "酸倒入水中", "倒入水", "加酸"]):
+        if any(token in title_blob + body_blob for token in ["先加水", "加入酸", "酸入水", "配酸"]):
+            score += 2.8
+    if domain == "配酸稀释" and any(token in row_question + title_blob for token in ["配酸", "先加水", "先加酸", "浓酸"]):
+        score += 2.5
+    if domain == "化学品储存" and "硝酸" in q and "乙醇" in q:
+        if any(token in title_blob + body_blob for token in ["氧化剂", "易燃", "不相容", "隔离", "同层"]):
+            score += 3.0
     if "什么时候" in q and any(token in title_blob + body_blob for token in ["何时", "结束后", "用完", "离开"]):
         score += 1.0
 
@@ -186,12 +265,24 @@ def select_fast_path_citations(
     low_confidence: bool,
     rule: dict[str, Any] | None,
     session_has_history: bool,
+    history: list[dict[str, str]] | None = None,
 ) -> list[Citation]:
-    if session_has_history or low_confidence:
+    if low_confidence:
         return []
 
-    domains = _question_domains(question)
+    q = normalize_search_text(question)
+    if "硝酸" in q and "乙醇" in q and any(token in q for token in ["同一个柜子", "同柜", "混放"]):
+        return []
+
+    direct_domains = _question_domains(question)
+    domains = list(direct_domains)
+    used_history_domains = False
+    if not domains and session_has_history:
+        domains = _history_domains(history)
+        used_history_domains = bool(domains)
     if not domains:
+        return []
+    if session_has_history and not _allow_fast_path_with_history(question, history, domains):
         return []
 
     ranked: list[tuple[float, Citation]] = []
@@ -204,6 +295,8 @@ def select_fast_path_citations(
         if _parse_risk_level(row.get("risk_level", "")) >= 4:
             continue
         best_score = max((_score_row_for_domain(question, row, domain) for domain in domains), default=0.0)
+        if used_history_domains and best_score > 0:
+            best_score += 3.0
         if best_score >= 6.0 and citation.kb_id not in seen_ids:
             ranked.append((citation.score + best_score, citation))
             seen_ids.add(citation.kb_id)
@@ -215,12 +308,24 @@ def select_fast_path_citations(
         if _parse_risk_level(row.get("risk_level", "")) >= 4:
             continue
         best_score = max((_score_row_for_domain(question, row, domain) for domain in domains), default=0.0)
-        if best_score >= 7.2:
+        if used_history_domains and best_score > 0:
+            best_score += 3.0
+        threshold = 5.4 if used_history_domains else 6.2
+        if best_score >= threshold:
             ranked.append((best_score, _row_to_citation(row, score=best_score)))
             seen_ids.add(row_id)
 
     ranked.sort(key=lambda item: item[0], reverse=True)
-    return [citation for _, citation in ranked[:3]]
+    selected = [citation for _, citation in ranked[:3]]
+    if selected and any(token in q for token in ["同一个柜子", "同柜", "混放"]):
+        top_text = normalize_search_text(" ".join([
+            selected[0].title,
+            selected[0].source_title,
+            selected[0].snippet,
+        ]))
+        if not any(token in top_text for token in ["不相容", "氧化剂", "混放", "隔离", "分开存放"]):
+            return []
+    return selected
 
 
 def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
@@ -251,11 +356,35 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "按危险特性分类放入对应试剂柜或防火柜",
                 "保持远离热源、火源和不相容化学品",
             ]
+        elif domain == "配酸稀释":
+            steps = [
+                "先在耐热容器中加入水，必要时先做冰浴降温",
+                "将浓酸沿器壁缓慢加入水中并持续搅拌",
+                "全程佩戴护目镜、实验服和合适手套，严禁反向加料",
+            ]
         elif domain == "离心机基础":
             steps = [
                 "检查离心管配平、转头状态和盖子锁定",
                 "确认参数设置与样品耐受范围一致",
                 "异常振动或噪音时立即停机检查",
+            ]
+        elif domain == "访客准入":
+            steps = [
+                "先确认该实验室是否允许访客或未成年人进入",
+                "安排教师或实验室负责人全程陪同并完成安全告知",
+                "按要求提供 PPE、限制接触设备和化学品，并做好登记",
+            ]
+        elif domain == "安全培训准入":
+            steps = [
+                "先完成实验室通用安全培训和准入考核",
+                "再完成课题组现场风险告知与设备专项培训",
+                "确认熟悉应急路线、PPE 和化学品标签/SDS 后再进入",
+            ]
+        elif domain == "风险评估":
+            steps = [
+                "先识别实验中涉及的人员、化学品、设备和环境风险",
+                "再评估风险等级、暴露途径和最坏后果",
+                "最后落实控制措施、应急方案并在操作前复核",
             ]
         elif domain == "通风柜":
             steps = [
@@ -298,11 +427,35 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "靠近热源、火源或阳光直晒",
                 "超量暂存或长期放在实验台面",
             ]
+        elif domain == "配酸稀释":
+            forbidden = [
+                "把水直接倒入浓酸",
+                "不降温就快速加料或剧烈摇晃",
+                "未佩戴护目镜、实验服和手套就配酸",
+            ]
         elif domain == "离心机基础":
             forbidden = [
                 "未配平直接启动",
                 "运转过程中强行开盖",
                 "发现异常振动仍继续运行",
+            ]
+        elif domain == "访客准入":
+            forbidden = [
+                "让儿童或未成年人自行进入高风险实验室",
+                "未告知风险、未陪同就让访客接触设备或化学品",
+                "未登记或未提供必要防护就带人进入实验区",
+            ]
+        elif domain == "安全培训准入":
+            forbidden = [
+                "未培训、未考核就直接进入实验区操作",
+                "未读 SDS、SOP 就接触化学品或设备",
+                "把第一次进实验室当作普通参观而省略准入流程",
+            ]
+        elif domain == "风险评估":
+            forbidden = [
+                "未识别风险就直接开做高危实验",
+                "只写结论不落实控制措施和应急准备",
+                "现场条件变化后仍沿用旧评估不复核",
             ]
         elif domain == "通风柜":
             forbidden = [

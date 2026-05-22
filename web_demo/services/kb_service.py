@@ -4,7 +4,7 @@ from __future__ import annotations
 
 - retrieve_citations: 基于 token 匹配 + 语义检索（bge-m3）混合打分检索 KB 条目
 - match_rule: 按 severity、命中数和规则顺序匹配安全规则
-- should_enforce_terminal_rule: 判断是否触发终止动作（refuse / redirect_emergency / ask_for_more_info）
+- should_enforce_terminal_rule: 判断是否触发终止动作（refuse / redirect_emergency / ask_for_more_info / direct_safe_answer）
 """
 
 import os
@@ -34,6 +34,13 @@ except ImportError:  # pragma: no cover
 
 _EMBEDDING_CACHE_DIR = KB_FILE.parent / ".cache" / "embedding"
 _SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "12.0"))
+_AMBIGUOUS_REFERENT_MARKERS = [
+    "这个", "那个", "这瓶", "那瓶", "这桶", "这个柜子", "那个柜子", "这里", "那里", "这种情况",
+]
+_FORCE_MORE_INFO_PATTERNS = [
+    "过夜反应", "无人值守", "晚上可以回家", "能回家吗", "最适合替代", "替代二氯甲烷", "替代溶剂",
+    "这个柜子里", "能不能放这里", "这个能不能放", "那个能不能放",
+]
 
 
 def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citation]:
@@ -168,7 +175,7 @@ def should_enforce_terminal_rule(question: str, rule: dict[str, Any] | None) -> 
     q = normalize_search_text(question)
     category = str(rule.get("id") or "")
 
-    if action == "ask_for_more_info":
+    if action in {"ask_for_more_info", "direct_safe_answer"}:
         return True
 
     if action == "refuse":
@@ -179,5 +186,23 @@ def should_enforce_terminal_rule(question: str, rule: dict[str, Any] | None) -> 
 
     if action == "redirect_emergency":
         return any(marker in q for marker in EMERGENCY_INTENT_MARKERS)
+
+    return False
+
+
+def should_force_more_info(question: str, rule: dict[str, Any] | None = None) -> bool:
+    q = normalize_search_text(question)
+    if not q:
+        return False
+
+    if any(pattern in q for pattern in _FORCE_MORE_INFO_PATTERNS):
+        return True
+
+    if any(marker in q for marker in _AMBIGUOUS_REFERENT_MARKERS):
+        if any(token in q for token in ["能不能", "可不可以", "可以吗", "怎么处理", "怎么办", "直接倒", "放在", "放这里", "放里面"]):
+            return True
+
+    if rule and str(rule.get("id") or "") == "R-003" and any(marker in q for marker in _AMBIGUOUS_REFERENT_MARKERS):
+        return True
 
     return False
