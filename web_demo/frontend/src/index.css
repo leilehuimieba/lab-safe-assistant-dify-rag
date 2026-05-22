@@ -211,6 +211,8 @@
 
 .badge.model { background: var(--surface); color: var(--text-2); border-color: var(--border); }
 .badge.model .b-dot { background: var(--primary-500); }
+.badge.source { background: var(--surface-2); color: var(--text-2); border-color: var(--border); }
+.badge.source .b-dot { background: var(--text-3); }
 
 /* Low-confidence note */
 .lc-note { margin-top: 12px; padding: 10px 12px; background: var(--dec-lowconf-bg); border-left: 3px solid var(--dec-lowconf); border-radius: 8px; font-size: 12.5px; color: #B45309; display: flex; gap: 8px; align-items: flex-start; }

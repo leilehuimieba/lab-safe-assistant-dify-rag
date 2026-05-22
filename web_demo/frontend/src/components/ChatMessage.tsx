@@ -24,6 +24,23 @@ interface Props {
   onFeedback?: (resp: ChatResponse, rating: 'useful' | 'not_useful', userQuestion?: string) => Promise<void>;
 }
 
+function getModelLabel(model?: string): string {
+  if (model === 'local-fast-path') return '本地快速通道';
+  if (model === 'dify-workflow') return 'Dify 主链路';
+  if (model === 'rule-engine') return '规则引擎';
+  if (model === 'fallback-rule-engine') return '结构化兜底';
+  return model || '';
+}
+
+function getSourceHint(resp: ChatResponse): string {
+  if (resp.timings?.cache_hit) return '安全缓存复用';
+  if (resp.model === 'local-fast-path') return '本地知识直出';
+  if (resp.model === 'dify-workflow') return '正式知识库主链路';
+  if (resp.model === 'rule-engine') return '规则库直接判定';
+  if (resp.model === 'fallback-rule-engine') return '规则+检索兜底';
+  return '回答来源已标注';
+}
+
 export default function ChatMessage({ msg, onFeedback }: Props) {
   const [openCites, setOpenCites] = useState(false);
   const [feedbackState, setFeedbackState] = useState<'idle' | 'sending' | 'useful' | 'not_useful'>('idle');
@@ -77,15 +94,16 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
             {r.model ? (
               <span className="badge model">
                 <span className="b-dot" />
-                {r.model === 'local-fast-path'
-                  ? '本地快速通道'
-                  : r.model === 'dify-workflow'
-                    ? 'Dify 主链路'
-                    : r.model === 'rule-engine'
-                      ? '规则引擎'
-                      : r.model === 'fallback-rule-engine'
-                        ? '结构化兜底'
-                        : r.model}
+                {getModelLabel(r.model)}
+              </span>
+            ) : null}
+            <span className="badge source">
+              <span className="b-dot" />
+              {getSourceHint(r)}
+            </span>
+            {r.model && r.model !== 'rule-engine' && r.model !== 'fallback-rule-engine' ? (
+              <span className="badge source">
+                首条依据 {r.citations?.[0]?.kb_id || 'N/A'}
               </span>
             ) : null}
           </div>

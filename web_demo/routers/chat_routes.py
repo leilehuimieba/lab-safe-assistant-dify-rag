@@ -20,7 +20,7 @@ from ..services import (
     append_low_confidence_followup_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
-    should_use_fast_path, build_fast_path_answer,
+    select_fast_path_citations, build_fast_path_answer,
 )
 
 router = APIRouter()
@@ -162,13 +162,15 @@ def chat(payload: ChatRequest) -> ChatResponse:
         decision = "dify_low_confidence"
 
     model = "dify-workflow"
-    if should_use_fast_path(
+    fast_path_citations = select_fast_path_citations(
         question=question,
         citations=citations,
         low_confidence=low_confidence,
         rule=rule,
         session_has_history=bool(session.history),
-    ):
+    )
+    if fast_path_citations:
+        citations = fast_path_citations
         answer = build_fast_path_answer(question, citations)
         elapsed_ms = round((time.perf_counter() - t0) * 1000)
         _record_metrics(total_ms=elapsed_ms, **timings)
