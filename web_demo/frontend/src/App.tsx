@@ -118,6 +118,14 @@ export default function App() {
         elapsed_ms: 0,
         session_id: sessionId,
         citations: data.citations,
+        timings: {
+          total_ms: 0,
+          retrieve_ms: 0,
+          rule_ms: 0,
+          cache_lookup_ms: 0,
+          upstream_ms: 0,
+          cache_hit: false,
+        },
       };
       setMessages((m) => [...m, { role: 'ai', time: nowHHMM(), resp: pseudoResp, userQuestion: q }]);
     } catch (e) {

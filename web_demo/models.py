@@ -16,6 +16,14 @@ class Citation(BaseModel):
     snippet: str = ""
     score: float = 0.0
 
+class TimingBreakdown(BaseModel):
+    total_ms: int = 0
+    retrieve_ms: int = 0
+    rule_ms: int = 0
+    cache_lookup_ms: int = 0
+    upstream_ms: int = 0
+    cache_hit: bool = False
+
 class ChatResponse(BaseModel):
     answer: str
     mode: str
@@ -30,6 +38,7 @@ class ChatResponse(BaseModel):
     elapsed_ms: int = 0
     session_id: str = ""
     citations: list[Citation] = Field(default_factory=list)
+    timings: TimingBreakdown = Field(default_factory=TimingBreakdown)
 
 class FeedbackRequest(BaseModel):
     session_id: str = ""
@@ -44,6 +53,10 @@ class StatsResponse(BaseModel):
     recent_p50_ms: float
     recent_p95_ms: float
     recent_max_ms: float
+    recent_avg_upstream_ms: float = 0
+    recent_p95_upstream_ms: float = 0
+    recent_cached_count: int = 0
+    recent_cache_hit_rate: float = 0
 
 class DemoMetaResponse(BaseModel):
     app_version: str

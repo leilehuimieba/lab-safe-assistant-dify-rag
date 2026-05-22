@@ -139,6 +139,22 @@ export default function MetaPanel({ meta, health, loading, stats, lastSearchCita
             <div className="l">最大 ms</div>
           </div>
         </div>
+        <div className="meta-card-body">
+          <div className="meta-row">
+            <span className="meta-label">平均上游耗时</span>
+            <span className="meta-value">{Math.round(stats?.recent_avg_upstream_ms ?? 0)} ms</span>
+          </div>
+          <div className="meta-row">
+            <span className="meta-label">上游 P95</span>
+            <span className="meta-value">{Math.round(stats?.recent_p95_upstream_ms ?? 0)} ms</span>
+          </div>
+          <div className="meta-row">
+            <span className="meta-label">缓存命中</span>
+            <span className="meta-value">
+              {stats?.recent_cached_count ?? 0} 次 / {stats?.recent_cache_hit_rate ?? 0}%
+            </span>
+          </div>
+        </div>
       </div>
 
       {lastSearchCitations.length > 0 && (

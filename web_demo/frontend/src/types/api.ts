@@ -40,6 +40,14 @@ export interface ChatResponse {
   elapsed_ms: number;
   session_id: string;
   citations: Citation[];
+  timings: {
+    total_ms: number;
+    retrieve_ms: number;
+    rule_ms: number;
+    cache_lookup_ms: number;
+    upstream_ms: number;
+    cache_hit: boolean;
+  };
 }
 
 export interface SearchResponse {
@@ -81,6 +89,10 @@ export interface StatsResponse {
   recent_p50_ms: number;
   recent_p95_ms: number;
   recent_max_ms: number;
+  recent_avg_upstream_ms: number;
+  recent_p95_upstream_ms: number;
+  recent_cached_count: number;
+  recent_cache_hit_rate: number;
 }
 
 export interface FeedbackRequest {

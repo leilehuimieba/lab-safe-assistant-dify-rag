@@ -135,6 +135,17 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
                   {' '}· 会话 <code>{r.session_id.slice(0, 12)}</code>
                 </>
               ) : null}
+              {r.timings?.cache_hit ? (
+                <>
+                  {' '}· <strong style={{ color: 'var(--ok-600, #0a7f44)' }}>缓存命中</strong>
+                </>
+              ) : null}
+              <div style={{ marginTop: 4 }}>
+                检索 {r.timings?.retrieve_ms ?? 0}ms
+                {' '}· 规则 {r.timings?.rule_ms ?? 0}ms
+                {' '}· 缓存查询 {r.timings?.cache_lookup_ms ?? 0}ms
+                {' '}· 上游 {r.timings?.upstream_ms ?? 0}ms
+              </div>
             </div>
             {onFeedback ? (
               <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
