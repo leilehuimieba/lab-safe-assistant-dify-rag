@@ -10,6 +10,12 @@ from ..repositories import get_kb_entries, normalize_search_text
 FAST_PATH_KEYWORDS = [
     ("个人防护", ["个人防护", "ppe", "护目镜", "实验服", "手套", "口罩", "鞋", "穿戴", "封闭式鞋", "凉鞋", "拖鞋", "高跟鞋", "长裤"]),
     ("通风柜", ["通风柜", "排风柜", "风罩", "窗扇", "前窗", "面风速", "报警", "认证", "关闭通风柜"]),
+    ("甲醛使用", ["甲醛", "福尔马林", "formaldehyde"]),
+    ("二氯甲烷", ["二氯甲烷", "dcm", "ch2cl2", "methylene chloride", "卤代溶剂"]),
+    ("过期化学品", ["过期化学品", "过期试剂", "过期药品", "过期危化品", "过期试剂瓶"]),
+    ("重金属废液", ["重金属废液", "含重金属", "汞废液", "铅废液", "镉废液", "铬废液", "六价铬"]),
+    ("实验室停电", ["停电", "断电", "突然停电", "实验室停电", "停电应急"]),
+    ("马弗炉", ["马弗炉", "muffle furnace", "灰化", "焙烧", "高温炉", "坩埚"]),
     ("废弃物", ["废弃物", "废液", "废试剂", "废瓶", "试剂瓶", "空瓶", "危废", "废液桶", "垃圾分类"]),
     ("标签标识", ["标签", "标识", "标记", "名称", "浓度", "配制日期", "责任人", "标签缺失", "标签不完整", "废液标签"]),
     ("化学品储存", ["储存", "存放", "防火柜", "试剂柜", "安全柜", "乙醇", "易燃液体", "分类储存", "不相容", "氧化剂", "混放", "同一个柜子", "同柜", "硝酸"]),
@@ -23,12 +29,20 @@ FAST_PATH_KEYWORDS = [
 
 DOMAIN_REQUIRED_MARKERS = {
     "化学品储存": ["储存", "存放", "柜", "不相容", "氧化剂", "易燃", "硝酸", "乙醇"],
+    "甲醛使用": ["甲醛", "福尔马林", "formaldehyde"],
+    "二氯甲烷": ["二氯甲烷", "dcm", "ch2cl2", "卤代"],
+    "过期化学品": ["过期", "危废", "处置", "过氧化物"],
+    "重金属废液": ["重金属", "汞", "铅", "镉", "铬", "六价铬"],
+    "实验室停电": ["停电", "断电", "应急", "关闭"],
+    "马弗炉": ["马弗炉", "高温", "坩埚", "灰化", "焙烧"],
     "配酸稀释": ["配酸", "稀释", "酸", "浓酸"],
     "离心机基础": ["离心机", "转子", "离心管"],
     "访客准入": ["访客", "参观", "儿童", "未成年人", "小朋友"],
     "安全培训准入": ["培训", "准入", "考核", "实验室"],
     "风险评估": ["风险评估", "风险识别", "控制措施", "评估"],
 }
+
+FAST_PATH_HIGH_RISK_ALLOWED_DOMAINS = {"甲醛使用", "二氯甲烷", "重金属废液"}
 
 
 def _match_domain(question: str, citation: Citation, row: dict[str, str] | None = None) -> str | None:
@@ -110,6 +124,14 @@ def _parse_risk_level(value: str) -> int:
         return 0
 
 
+def _allow_row_by_risk(domain: str, risk_level: int) -> bool:
+    if risk_level >= 5:
+        return False
+    if risk_level >= 4:
+        return domain in FAST_PATH_HIGH_RISK_ALLOWED_DOMAINS
+    return True
+
+
 def _row_to_citation(row: dict[str, str], *, score: float) -> Citation:
     return Citation(
         kb_id=row.get("id", "").strip(),
@@ -179,6 +201,18 @@ def _score_row_for_domain(question: str, row: dict[str, str], domain: str) -> fl
         score += 2.0
     if domain == "化学品储存" and any(token in row_question + title_blob for token in ["氧化剂", "不相容", "混放", "硝酸", "乙醇"]):
         score += 2.2
+    if domain == "甲醛使用" and any(token in title_blob + body_blob for token in ["致癌", "孕", "生殖", "通风柜", "密闭"]):
+        score += 3.0
+    if domain == "二氯甲烷" and any(token in title_blob + body_blob for token in ["IARC", "2A", "卤代", "通风柜", "手套"]):
+        score += 3.0
+    if domain == "过期化学品" and any(token in title_blob + body_blob for token in ["过氧化物", "结晶", "爆炸", "专业处置"]):
+        score += 3.0
+    if domain == "重金属废液" and any(token in title_blob + body_blob for token in ["汞", "铅", "镉", "铬", "六价铬", "专桶"]):
+        score += 3.0
+    if domain == "实验室停电" and any(token in title_blob + body_blob for token in ["停电", "断电", "气瓶", "加热", "应急照明"]):
+        score += 3.0
+    if domain == "马弗炉" and any(token in title_blob + body_blob for token in ["坩埚", "预干燥", "开门", "高温", "通风"]):
+        score += 3.0
     if domain == "离心机基础" and any(token in q for token in ["震动", "振动", "抖动", "异响", "噪音"]):
         if any(token in title_blob + body_blob for token in ["离心机", "振动", "转子", "停机", "开盖"]):
             score += 3.0
@@ -237,6 +271,11 @@ def _first_sentence(text: str) -> str:
     return value[:80].strip()
 
 
+def _contains_any(items: list[str], keywords: list[str]) -> bool:
+    haystack = normalize_search_text(" ".join(items))
+    return any(normalize_search_text(keyword) in haystack for keyword in keywords)
+
+
 def should_use_fast_path(
     *,
     question: str,
@@ -292,9 +331,13 @@ def select_fast_path_citations(
         row = _lookup_kb_row(citation.kb_id)
         if not row:
             continue
-        if _parse_risk_level(row.get("risk_level", "")) >= 4:
-            continue
-        best_score = max((_score_row_for_domain(question, row, domain) for domain in domains), default=0.0)
+        allowed_scores = []
+        for domain in domains:
+            risk_level = _parse_risk_level(row.get("risk_level", ""))
+            if not _allow_row_by_risk(domain, risk_level):
+                continue
+            allowed_scores.append(_score_row_for_domain(question, row, domain))
+        best_score = max(allowed_scores, default=0.0)
         if used_history_domains and best_score > 0:
             best_score += 3.0
         if best_score >= 6.0 and citation.kb_id not in seen_ids:
@@ -305,9 +348,13 @@ def select_fast_path_citations(
         row_id = row.get("id", "").strip()
         if not row_id or row_id in seen_ids:
             continue
-        if _parse_risk_level(row.get("risk_level", "")) >= 4:
-            continue
-        best_score = max((_score_row_for_domain(question, row, domain) for domain in domains), default=0.0)
+        allowed_scores = []
+        for domain in domains:
+            risk_level = _parse_risk_level(row.get("risk_level", ""))
+            if not _allow_row_by_risk(domain, risk_level):
+                continue
+            allowed_scores.append(_score_row_for_domain(question, row, domain))
+        best_score = max(allowed_scores, default=0.0)
         if used_history_domains and best_score > 0:
             best_score += 3.0
         threshold = 5.4 if used_history_domains else 6.2
@@ -343,6 +390,21 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
     if not summary:
         summary = "请按实验室基础安全要求完成个人防护、环境核对并遵循书面 SOP。"
 
+    if domain == "甲醛使用" and not any(token in summary for token in ["致癌", "孕", "生殖"]):
+        summary = "甲醛具有刺激性并被列为致癌风险化学品，必须尽量降低吸入和皮肤暴露，孕期或计划怀孕人员应避免接触。"
+    elif domain == "二氯甲烷" and not any(token in summary.lower() for token in ["iarc", "2a", "卤代"]):
+        summary = "二氯甲烷挥发性强，通常按卤代有机溶剂管理，存在致癌风险，必须在通风柜内操作并严格控暴露。"
+    elif domain == "过期化学品" and "过氧化物" not in summary:
+        summary = "过期化学品一律按危废管理，其中乙醚、THF 等过氧化物形成物要特别警惕结晶、爆炸和禁止随意开盖移动。"
+    elif domain == "重金属废液" and not any(token in summary for token in ["汞", "铅", "镉", "铬"]):
+        summary = "含重金属废液必须专桶、专标识、专暂存，严禁下水道，汞、铅、镉、六价铬等应作为重点污染物单独管理。"
+    elif domain == "实验室停电" and not any(token in summary for token in ["气瓶", "加热", "照明"]):
+        summary = "实验室停电时要先控风险源，再保人员与关键设备安全，重点是关闭加热设备、气源并确认通风与应急照明状态。"
+    elif domain == "马弗炉" and not any(token in summary for token in ["坩埚", "预干燥", "开门"]):
+        summary = "马弗炉属于高温高风险设备，样品类型、坩埚材质、隔热手套和安全开门温度都必须符合要求。"
+    elif domain == "个人防护" and not any(token in summary for token in ["PPE", "封闭鞋"]):
+        summary = "化学实验的基础 PPE 通常包括护目镜、实验服、合适手套和封闭鞋，必要时再升级面罩、围裙或呼吸防护。"
+
     if not steps:
         if domain == "标签标识":
             steps = [
@@ -355,6 +417,42 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "确认容器密封完好并贴有清晰标签",
                 "按危险特性分类放入对应试剂柜或防火柜",
                 "保持远离热源、火源和不相容化学品",
+            ]
+        elif domain == "甲醛使用":
+            steps = [
+                "全程在通风柜内操作，确认前窗高度、风速报警和容器密闭状态正常",
+                "佩戴护目镜、实验服和合适防化手套，避免吸入蒸气和皮肤接触",
+                "孕期或计划怀孕人员应先做岗位暴露评估，废液按危废分类收集并清晰标识",
+            ]
+        elif domain == "二氯甲烷":
+            steps = [
+                "所有开盖、转移和萃取操作都在通风柜内完成，避免在柜外短时暴露",
+                "优先选用对卤代溶剂更合适的手套方案，长时间接触不要只依赖普通薄丁腈手套",
+                "废液收入卤代有机废液桶，不与非卤代有机废液混装",
+            ]
+        elif domain == "过期化学品":
+            steps = [
+                "先核对标签、开封日期和危险类别，按危废分类密闭、贴签和登记台账",
+                "对乙醚、THF、二恶烷等可能形成过氧化物的试剂，发现瓶口结晶或可疑沉积时不要再开盖移动",
+                "联系有资质的危废处置单位或校内危化管理员统一评估和移交",
+            ]
+        elif domain == "重金属废液":
+            steps = [
+                "将含汞、铅、镉、铬、六价铬等废液专桶收集，避免与有机废液、酸碱废液混装",
+                "容器标注“重金属废液”以及主要成分、浓度、日期和责任人，保持密封暂存",
+                "按危废流程交由有资质单位清运处置，严禁排入下水道",
+            ]
+        elif domain == "实验室停电":
+            steps = [
+                "先停止实验并关闭电热套、加热板、搅拌器等带热源设备，防止来电后自启动",
+                "能安全做到时关闭气瓶总阀和相关工艺阀门，确认通风柜、低温冰箱和培养箱等关键设备状态",
+                "启用应急照明并报告负责人/物业，待供电恢复后按 SOP 逐项复机",
+            ]
+        elif domain == "马弗炉":
+            steps = [
+                "样品进炉前先确认无残留溶剂、非密闭、非未知成分，并选用陶瓷/石英/铂等合适坩埚",
+                "按程序升温，取样或开门时站在炉门侧面，先开一条缝降温散气，再用长柄坩埚钳操作",
+                "高温坩埚放在耐热垫上冷却，设备周围保持无可燃物并保证排风良好",
             ]
         elif domain == "配酸稀释":
             steps = [
@@ -411,6 +509,49 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "如现场条件与常规流程不一致，先暂停并询问老师或安全员",
             ]
 
+    if domain == "甲醛使用":
+        steps = [
+            "全程在通风柜内操作，确认前窗高度、风速报警和容器密闭状态正常",
+            "佩戴护目镜、实验服和合适防化手套，避免吸入蒸气和皮肤接触",
+            "孕妇或计划怀孕人员应先做岗位暴露评估，废液按危废分类收集并清晰标识",
+        ]
+    elif domain == "二氯甲烷":
+        steps = [
+            "所有开盖、转移和萃取操作都在通风柜内完成，避免在柜外短时暴露",
+            "优先选用对卤代溶剂更合适的手套方案，长时间接触不要只依赖普通薄丁腈手套",
+            "废液收入卤代废液桶或卤代有机废液桶，不与非卤代有机废液混装",
+        ]
+    elif domain == "过期化学品":
+        steps = [
+            "先核对标签、开封日期和危险类别，按危废分类密闭、贴签和登记台账",
+            "对乙醚、THF、二恶烷等可能形成过氧化物的试剂，发现瓶口结晶或可疑沉积时不要再开盖移动",
+            "联系有资质的危废处置单位或校内危化管理员统一评估、专业处置和移交",
+        ]
+    elif domain == "重金属废液":
+        steps = [
+            "将含汞、铅、镉、铬、六价铬等废液单独收集、专桶暂存，避免与有机废液、酸碱废液混装",
+            "容器标注“重金属废液”以及主要成分、浓度、日期和责任人，保持密封暂存",
+            "按危废流程交由有资质单位专业处置，严禁排入下水道",
+        ]
+    elif domain == "实验室停电" and not _contains_any(steps, ["加热", "气瓶", "应急照明", "复机"]):
+        steps = [
+            "先停止实验并关闭电热套、加热板、搅拌器等带热源设备，防止来电后自启动",
+            "能安全做到时关闭气瓶阀门和相关工艺阀门，确认通风柜、低温冰箱和培养箱等关键设备状态",
+            "启用应急照明并报告负责人/物业，待供电恢复后按 SOP 逐项复机",
+        ]
+    elif domain == "马弗炉" and not _contains_any(steps, ["坩埚", "预干燥", "开门", "长柄", "耐热"]):
+        steps = [
+            "样品进炉前先确认无残留溶剂、非密闭、非未知成分，并选用陶瓷/石英/铂等合适坩埚",
+            "按程序升温，佩戴隔热手套，取样或开门时站在炉门侧面，达到安全开门温度后先开一条缝散气，再用长柄坩埚钳操作",
+            "高温坩埚放在耐热垫上冷却，设备周围保持无可燃物并保证排风良好",
+        ]
+    elif domain == "个人防护" and not _contains_any(steps, ["PPE", "封闭鞋", "护目镜"]):
+        steps = [
+            "先按实验内容确认 PPE：护目镜、实验服、合适手套是化学实验基础配置",
+            "脚部穿封闭鞋，避免凉鞋、拖鞋、露趾鞋或高跟鞋进入实验区",
+            "遇强腐蚀、飞溅、粉尘或挥发性风险时，再按 SOP 升级面罩、围裙或呼吸防护",
+        ]
+
     if ppe and any(token in normalize_search_text(question) for token in ["个人防护", "ppe", "护目镜", "实验服", "手套", "口罩", "鞋"]):
         steps = [f"优先确认防护要求：{'、'.join(ppe[:4])}"] + steps[:2]
 
@@ -426,6 +567,42 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "与不相容化学品混放",
                 "靠近热源、火源或阳光直晒",
                 "超量暂存或长期放在实验台面",
+            ]
+        elif domain == "甲醛使用":
+            forbidden = [
+                "在通风柜外长时间开盖、转移或配制甲醛溶液",
+                "忽视甲醛致癌/致敏风险而仅按普通刺激性试剂处理",
+                "将甲醛废液倒入下水道或与普通生活垃圾混放",
+            ]
+        elif domain == "二氯甲烷":
+            forbidden = [
+                "在通风柜外使用或闻气味判断暴露是否严重",
+                "长期接触时只依赖普通薄丁腈手套而不更换/升级防护",
+                "把二氯甲烷废液混入非卤代有机废液桶",
+            ]
+        elif domain == "过期化学品":
+            forbidden = [
+                "把过期化学品直接倒入下水道或普通垃圾桶",
+                "对可形成过氧化物的旧试剂强行开盖、蒸馏或搬动",
+                "未登记、未评估危险性就私自转移或继续使用",
+            ]
+        elif domain == "重金属废液":
+            forbidden = [
+                "把含汞、铅、镉、铬等废液倒入下水道",
+                "与有机废液或酸碱废液混装导致后续处置困难",
+                "无标签暂存或使用不耐腐蚀容器长期存放",
+            ]
+        elif domain == "实验室停电":
+            forbidden = [
+                "停电后放任加热设备、反应装置和气源处于原状态",
+                "在照明不足、通风异常时继续进行高风险实验",
+                "未确认设备复位和环境安全就直接恢复运行",
+            ]
+        elif domain == "马弗炉":
+            forbidden = [
+                "将含溶剂、密闭、未知或可能爆炸的样品放入马弗炉",
+                "高温时正对炉口猛开门或徒手取放坩埚",
+                "把马弗炉放在可燃台面附近或排风不良处长期运行",
             ]
         elif domain == "配酸稀释":
             forbidden = [
@@ -480,6 +657,43 @@ def build_fast_path_answer(question: str, citations: list[Citation]) -> str:
                 "省略 PPE、通风、标签核对等基础步骤",
                 "未确认兼容性前混放、混用或随意处置化学品/废弃物",
             ]
+
+    if domain == "甲醛使用":
+        forbidden = [
+            "在通风柜外长时间开盖、转移或配制甲醛溶液",
+            "忽视甲醛致癌/致敏风险而仅按普通刺激性试剂处理",
+            "将甲醛废液倒入下水道或与普通生活垃圾混放",
+        ]
+    elif domain == "二氯甲烷":
+        forbidden = [
+            "在通风柜外使用或闻气味判断暴露是否严重",
+            "长期接触时只依赖普通薄丁腈手套而不更换/升级防护",
+            "把二氯甲烷废液混入非卤代有机废液桶",
+        ]
+    elif domain == "过期化学品":
+        forbidden = [
+            "把过期化学品直接倒入下水道或普通垃圾桶",
+            "对可形成过氧化物的旧试剂强行开盖、蒸馏或搬动",
+            "未登记、未评估危险性就私自转移或继续使用",
+        ]
+    elif domain == "重金属废液":
+        forbidden = [
+            "把含汞、铅、镉、铬等废液倒入下水道",
+            "与有机废液或酸碱废液混装导致后续处置困难",
+            "无标签暂存或使用不耐腐蚀容器长期存放",
+        ]
+    elif domain == "实验室停电" and not _contains_any(forbidden, ["加热", "气源", "恢复运行"]):
+        forbidden = [
+            "停电后放任加热设备、反应装置和气源处于原状态",
+            "在照明不足、通风异常时继续进行高风险实验",
+            "未确认设备复位和环境安全就直接恢复运行",
+        ]
+    elif domain == "马弗炉" and not _contains_any(forbidden, ["坩埚", "爆炸", "炉口", "排风"]):
+        forbidden = [
+            "将含溶剂、密闭、未知或可能爆炸的样品放入马弗炉",
+            "高温时正对炉口猛开门或徒手取放坩埚",
+            "把马弗炉放在可燃台面附近或排风不良处长期运行",
+        ]
 
     forbidden_lines = [
         f"- 禁止{item}" if not item.startswith("禁止") else f"- {item}"
