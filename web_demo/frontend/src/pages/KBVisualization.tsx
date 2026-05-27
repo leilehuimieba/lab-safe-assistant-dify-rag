@@ -4,6 +4,7 @@ import { ScatterChart, SunburstChart } from 'echarts/charts';
 import { TooltipComponent, TitleComponent, GridComponent } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
 import { List } from 'react-window';
+import { jsonFetch } from '../hooks/useApi';
 
 echarts.use([ScatterChart, SunburstChart, TooltipComponent, TitleComponent, GridComponent, CanvasRenderer]);
 
@@ -61,10 +62,9 @@ function useKBSummary() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch('/api/kb/summary')
-      .then((r) => r.json())
+    jsonFetch<KBSummary>('/api/kb/summary')
       .then((d) => { setData(d); setLoading(false); })
-      .catch((e) => { setError(String(e)); setLoading(false); });
+      .catch((e) => { setError(e instanceof Error ? e.message : String(e)); setLoading(false); });
   }, []);
 
   return { data, loading, error };
@@ -80,8 +80,7 @@ function useKBEntries(category: string, subcategory: string) {
     params.set('category', category);
     if (subcategory) params.set('subcategory', subcategory);
     params.set('limit', '200');
-    fetch(`/api/kb/entries?${params}`)
-      .then((r) => r.json())
+    jsonFetch<{ entries: KBEntry[] }>(`/api/kb/entries?${params.toString()}`)
       .then((d) => { setEntries(d.entries || []); setLoading(false); })
       .catch(() => setLoading(false));
   }, [category, subcategory]);
