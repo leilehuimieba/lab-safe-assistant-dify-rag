@@ -235,6 +235,13 @@ export default function KBVisualization() {
 
   // L3 Virtual List
   const { entries: l3Entries, loading: l3Loading } = useKBEntries(selCat, selSub);
+  const [listHeight, setListHeight] = useState(typeof window !== 'undefined' ? window.innerHeight - 220 : 600);
+
+  useEffect(() => {
+    const handleResize = () => setListHeight(window.innerHeight - 220);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const openDrawer = useCallback((entry: KBEntry) => {
     setDrawerEntry(entry);
@@ -350,7 +357,7 @@ export default function KBVisualization() {
               <div style={{ color: COLORS.cyan }}>加载中...</div>
             ) : (
               <List
-                height={window.innerHeight - 220}
+                height={listHeight}
                 itemCount={l3Entries.length}
                 itemSize={80}
                 width="100%"

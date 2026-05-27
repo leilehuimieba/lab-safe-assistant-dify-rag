@@ -44,6 +44,12 @@ function getSourceHint(resp: ChatResponse): string {
 export default function ChatMessage({ msg, onFeedback }: Props) {
   const [openCites, setOpenCites] = useState(false);
   const [feedbackState, setFeedbackState] = useState<'idle' | 'sending' | 'useful' | 'not_useful'>('idle');
+  const [toast, setToast] = useState('');
+
+  const showToast = (text: string) => {
+    setToast(text);
+    window.setTimeout(() => setToast(''), 2000);
+  };
 
   if (msg.role === 'user') {
     return (
@@ -184,8 +190,10 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
                       setFeedbackState('sending');
                       await onFeedback(r, 'useful', msg.role === 'ai' ? msg.userQuestion : '');
                       setFeedbackState('useful');
+                      showToast('反馈已提交，感谢！👍');
                     } catch {
                       setFeedbackState('idle');
+                      showToast('提交失败，请重试');
                     }
                   }}
                 >
@@ -199,8 +207,10 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
                       setFeedbackState('sending');
                       await onFeedback(r, 'not_useful', msg.role === 'ai' ? msg.userQuestion : '');
                       setFeedbackState('not_useful');
+                      showToast('反馈已提交，感谢！👀');
                     } catch {
                       setFeedbackState('idle');
+                      showToast('提交失败，请重试');
                     }
                   }}
                 >
@@ -229,6 +239,16 @@ export default function ChatMessage({ msg, onFeedback }: Props) {
                   ))}
                 </div>
               )}
+            </div>
+          )}
+          {toast && (
+            <div style={{
+              position: 'fixed', bottom: 24, left: '50%', transform: 'translateX(-50%)',
+              background: '#0f172a', color: '#fff', padding: '10px 20px', borderRadius: 10,
+              fontSize: 13, zIndex: 3000, boxShadow: '0 8px 30px rgba(0,0,0,0.2)',
+              animation: 'msg-in 0.3s ease-out',
+            }}>
+              {toast}
             </div>
           )}
         </div>

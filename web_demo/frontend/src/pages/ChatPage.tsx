@@ -26,6 +26,31 @@ interface AppError {
   lastQ?: string;
 }
 
+const STORAGE_KEY = 'labsafe_chat_session';
+
+function loadSession(): { messages: Msg[]; sessionId: string } {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed.messages)) {
+        return { messages: parsed.messages, sessionId: parsed.sessionId || '' };
+      }
+    }
+  } catch {
+    // ignore parse errors
+  }
+  return { messages: [], sessionId: '' };
+}
+
+function saveSession(messages: Msg[], sessionId: string) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ messages, sessionId }));
+  } catch {
+    // ignore storage errors (e.g. quota exceeded)
+  }
+}
+
 export default function ChatPage() {
   const { loading, error: metaError, meta, health } = useMetaAndHealth();
   const { send, busy } = useChat();
@@ -33,15 +58,21 @@ export default function ChatPage() {
   const { stats, loading: statsLoading } = useStats();
   const { submitFeedback } = useFeedback();
 
-  const [messages, setMessages] = useState<Msg[]>([]);
+  const saved = loadSession();
+  const [messages, setMessages] = useState<Msg[]>(saved.messages);
   const [input, setInput] = useState('');
-  const [sessionId, setSessionId] = useState('');
+  const [sessionId, setSessionId] = useState(saved.sessionId);
   const [flashIdx, setFlashIdx] = useState(-1);
   const [error, setError] = useState<AppError | null>(null);
   const [lastSearchCitations, setLastSearchCitations] = useState<Citation[]>([]);
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const composerRef = useRef<HTMLTextAreaElement | null>(null);
+
+  // Persist session to localStorage whenever messages change.
+  useEffect(() => {
+    saveSession(messages, sessionId);
+  }, [messages, sessionId]);
 
   // Lift backend connectivity failures into the inline alert.
   useEffect(() => {
@@ -141,6 +172,7 @@ export default function ChatPage() {
     setSessionId('');
     setError(null);
     setLastSearchCitations([]);
+    try { localStorage.removeItem(STORAGE_KEY); } catch { /* ignore */ }
   };
 
   const submitMessageFeedback = async (
@@ -172,7 +204,13 @@ export default function ChatPage() {
   return (
     <div className={`app ${loading ? 'loading-fade' : 'loaded'}`}>
       <Topbar health={health} healthChecked={!loading} />
-      <Sidebar onPick={onPickQuick} onNew={newChat} history={history} flashIdx={flashIdx} />
+      <Sidebar
+        onPick={onPickQuick}
+        onNew={newChat}
+        history={history}
+        flashIdx={flashIdx}
+        onHistoryClick={(q) => { setInput(q); focusComposer(); }}
+      />
 
       <main className="main">
         <ChatHeader count={userTurns} />

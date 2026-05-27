@@ -6,6 +6,18 @@ import mimetypes
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+# 优先加载环境变量（必须在其他导入之前，确保密码等配置可用）
+from dotenv import load_dotenv
+
+_ENV_PATH = Path(__file__).resolve().parent.parent / ".env.web_demo"
+if _ENV_PATH.exists():
+    load_dotenv(dotenv_path=str(_ENV_PATH), override=True)
+else:
+    # Fallback: try same directory
+    _ENV_PATH2 = Path(__file__).resolve().parent / ".env.web_demo"
+    if _ENV_PATH2.exists():
+        load_dotenv(dotenv_path=str(_ENV_PATH2), override=True)
+
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 

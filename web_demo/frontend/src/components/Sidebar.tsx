@@ -7,9 +7,10 @@ interface SidebarProps {
   onNew: () => void;
   history: string[];
   flashIdx: number;
+  onHistoryClick?: (q: string) => void;
 }
 
-export default function Sidebar({ onPick, onNew, history, flashIdx }: SidebarProps) {
+export default function Sidebar({ onPick, onNew, history, flashIdx, onHistoryClick }: SidebarProps) {
   const { logout } = useAuth();
   return (
     <aside className="sidebar">
@@ -51,7 +52,12 @@ export default function Sidebar({ onPick, onNew, history, flashIdx }: SidebarPro
         ) : (
           <div>
             {history.map((h, i) => (
-              <div className="history-item" key={i}>
+              <div
+                className="history-item"
+                key={i}
+                onClick={() => onHistoryClick?.(h)}
+                title="点击重新提问"
+              >
                 <Icon name="history" size={12} />
                 <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                   {h}
