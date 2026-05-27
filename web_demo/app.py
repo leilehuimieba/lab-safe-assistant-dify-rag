@@ -1,19 +1,43 @@
 from __future__ import annotations
 
+import atexit
+import logging
 import mimetypes
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 
-from .routers import chat_router, meta_router
+from .routers import chat_router, meta_router, kb_router
+from .repositories import get_kb_entries
+from .services.response_cache_service import load_cache_from_disk, save_cache_to_disk
+from .services.kb_usage_service import load_usage_from_disk
+
+logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    kb = get_kb_entries()
+    logger.info("KB preloaded: %d entries", len(kb))
+    loaded = load_cache_from_disk()
+    logger.info("Cache loaded from disk: %d entries", loaded)
+    usage_loaded = load_usage_from_disk()
+    logger.info("KB usage loaded from disk: %d entries", usage_loaded)
+    atexit.register(save_cache_to_disk)
+    yield
+    saved = save_cache_to_disk()
+    logger.info("Cache saved to disk: %d entries", saved)
+
 
 # Windows 上 mimetypes 可能把 .js 识别为 text/plain，需手动修正
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("application/javascript", ".mjs")
 
-app = FastAPI(title="Lab Safety Assistant - Dify RAG Project")
+app = FastAPI(title="Lab Safety Assistant - Dify RAG Project", lifespan=lifespan)
 app.include_router(meta_router)
+app.include_router(kb_router)
 app.include_router(chat_router)
 
 # 托管前端 React SPA 构建产物

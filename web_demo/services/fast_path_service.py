@@ -25,6 +25,11 @@ FAST_PATH_KEYWORDS = [
     ("安全培训准入", ["培训", "准入", "第一课", "第一次进实验", "进实验前", "进入实验室前", "新进实验室", "安全内容", "考核", "第一次做实验前", "做实验前", "必须满足什么条件", "新同学", "开始实验前"]),
     ("风险评估", ["风险评估", "评估步骤", "基本步骤", "风险识别", "控制措施", "风险分析"]),
     ("基础应知", ["实验室前", "进入实验室", "注意事项", "基本要求", "实验室穿什么", "可以穿", "准入"]),
+    ("气瓶安全", ["气瓶", "钢瓶", "气体", "瓶阀", "减压阀", "气瓶柜"]),
+    ("用电安全", ["用电", "电气", "触电", "漏电", "接地", "电源", "插座"]),
+    ("生物安全", ["生物", "细菌", "病毒", "培养", "灭菌", "生物安全柜"]),
+    ("液氮低温", ["液氮", "低温", "冷冻", "冻伤", "杜瓦", "-196"]),
+    ("高压灭菌", ["高压灭菌", "灭菌锅", "高压釜", "autoclave"]),
 ]
 
 DOMAIN_REQUIRED_MARKERS = {
@@ -286,10 +291,6 @@ def should_use_fast_path(
     rule: dict[str, Any] | None,
     session_has_history: bool,
 ) -> bool:
-    if session_has_history:
-        return False
-    if low_confidence:
-        return False
     return bool(select_fast_path_citations(
         question=question,
         citations=citations,
@@ -308,15 +309,15 @@ def select_fast_path_citations(
     session_has_history: bool,
     history: list[dict[str, str]] | None = None,
 ) -> list[Citation]:
-    if low_confidence:
-        return []
-
     q = normalize_search_text(question)
     if "硝酸" in q and "乙醇" in q and any(token in q for token in ["同一个柜子", "同柜", "混放"]):
         return []
 
     direct_domains = _question_domains(question)
     domains = list(direct_domains)
+
+    if low_confidence and not domains:
+        return []
     used_history_domains = False
     if not domains and session_has_history:
         domains = _history_domains(history)

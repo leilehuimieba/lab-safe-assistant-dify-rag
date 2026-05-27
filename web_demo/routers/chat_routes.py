@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import Response, StreamingResponse
 
 from ..models import ChatRequest, ChatResponse, FeedbackRequest, StatsResponse
@@ -22,8 +22,10 @@ from ..services import (
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
     select_fast_path_citations, build_fast_path_answer,
 )
+from ..services.auth_service import verify_password
+from ..services.kb_usage_service import record_kb_usage
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(verify_password)])
 
 # --- In-memory performance stats ---
 _stats_lock = threading.Lock()
@@ -32,6 +34,16 @@ _MAX_STATS = 200
 
 FEEDBACK_FILE = REPO_ROOT / "artifacts" / "user_feedback" / "feedback.csv"
 FEEDBACK_HEADERS = ["created_at", "session_id", "question", "answer", "rating", "comment"]
+
+
+def _extract_kb_ids(citations: list[Any]) -> list[str]:
+    ids = []
+    for c in citations:
+        if hasattr(c, "kb_id") and getattr(c, "kb_id"):
+            ids.append(getattr(c, "kb_id"))
+        elif isinstance(c, dict) and c.get("kb_id"):
+            ids.append(c["kb_id"])
+    return ids
 
 
 def _build_contextual_query(question: str, history: list[dict[str, str]]) -> str:
@@ -151,6 +163,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
         elapsed_ms = round((time.perf_counter() - t0) * 1000)
         _record_metrics(total_ms=elapsed_ms, **timings)
         add_history(session.session_id, question, answer)
+        record_kb_usage(_extract_kb_ids(citations))
         return ChatResponse(
             answer=answer,
             mode=mode,
@@ -181,9 +194,11 @@ def chat(payload: ChatRequest) -> ChatResponse:
     if fast_path_citations:
         citations = fast_path_citations
         answer = build_fast_path_answer(question, citations)
+        set_cached_answer(question, {"answer": answer, "model": "local-fast-path", "citations": [item.model_dump() if hasattr(item, "model_dump") else item for item in citations]})
         elapsed_ms = round((time.perf_counter() - t0) * 1000)
         _record_metrics(total_ms=elapsed_ms, **timings)
         add_history(session.session_id, question, answer)
+        record_kb_usage(_extract_kb_ids(citations))
         return ChatResponse(
             answer=answer,
             mode=mode,
@@ -219,6 +234,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
             elapsed_ms = round((time.perf_counter() - t0) * 1000)
             _record_metrics(total_ms=elapsed_ms, **timings)
             add_history(session.session_id, question, answer)
+            record_kb_usage(_extract_kb_ids(citations))
             return ChatResponse(
                 answer=answer or "No answer returned.",
                 mode=mode,
@@ -278,6 +294,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
     elapsed_ms = round((time.perf_counter() - t0) * 1000)
     _record_metrics(total_ms=elapsed_ms, **timings)
     add_history(session.session_id, question, answer)
+    record_kb_usage(_extract_kb_ids(citations))
 
     return ChatResponse(
         answer=answer or "No answer returned.",

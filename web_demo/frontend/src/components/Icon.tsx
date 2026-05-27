@@ -3,7 +3,7 @@ import type { JSX } from 'react';
 type IconName =
   | 'flask' | 'shield' | 'plus' | 'send' | 'sparkles' | 'chevron'
   | 'external' | 'alert' | 'info' | 'ban' | 'siren' | 'question'
-  | 'history' | 'menu' | 'settings' | 'book' | 'droplet' | 'fire';
+  | 'history' | 'menu' | 'settings' | 'book' | 'droplet' | 'fire' | 'database';
 
 interface IconProps {
   name: IconName;
@@ -30,6 +30,7 @@ const PATHS: Record<IconName, JSX.Element> = {
   book: <g><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></g>,
   droplet: <path d="M12 2.7s7 7 7 12a7 7 0 0 1-14 0c0-5 7-12 7-12z"/>,
   fire: <path d="M12 2s4 4 4 8a4 4 0 0 1-8 0c0-2 2-3 2-5 0-2-2-3-2-3s4 0 4 0zM6 14a6 6 0 0 0 12 0c0-3-3-6-3-6"/>,
+  database: <g><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 3 4 5 9 5s9-2 9-5V5"/><path d="M3 12c0 3 4 5 9 5s9-2 9-5"/></g>,
 };
 
 export default function Icon({ name, size = 16, stroke = 1.8 }: IconProps) {

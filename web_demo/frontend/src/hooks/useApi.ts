@@ -11,6 +11,7 @@ import type {
 
 /** 通用 fetch 包装。所有路径必须是相对路径（如 /api/chat），由 Vite proxy / 后端托管转发。 */
 async function jsonFetch<T>(input: RequestInfo, init?: RequestInit, timeoutMs = 60_000): Promise<T> {
+  const password = localStorage.getItem('labsafe_password') || '';
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), timeoutMs);
   try {
@@ -20,6 +21,7 @@ async function jsonFetch<T>(input: RequestInfo, init?: RequestInit, timeoutMs = 
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
+        ...(password ? { 'x-password': password } : {}),
         ...(init?.headers || {}),
       },
     });

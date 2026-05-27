@@ -2,23 +2,24 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from fastapi.responses import FileResponse
 
 from ..models import DemoMetaResponse
 from ..repositories import HTML_FILE, get_kb_entries
 from ..services import get_demo_meta
+from ..services.auth_service import verify_password
 from ..services.upstream_service import resolve_dify_api_base
 
 import os
 import requests
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(verify_password)])
 
 # 若前端已构建，优先返回 React SPA；否则回退到旧模板
 _FRONTEND_INDEX = Path(__file__).resolve().parent.parent / "frontend" / "dist" / "index.html"
 
-@router.get("/")
+@router.get("/", dependencies=[])
 def index() -> FileResponse:
     if _FRONTEND_INDEX.exists():
         return FileResponse(_FRONTEND_INDEX)

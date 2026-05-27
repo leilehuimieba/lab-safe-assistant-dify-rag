@@ -1,5 +1,6 @@
 import Icon from './Icon';
 import { QUICK_QUESTIONS } from './quickQuestions';
+import { useAuth } from '../contexts/AuthContext';
 
 interface SidebarProps {
   onPick: (q: string, i: number) => void;
@@ -9,12 +10,16 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ onPick, onNew, history, flashIdx }: SidebarProps) {
+  const { logout } = useAuth();
   return (
     <aside className="sidebar">
       <div className="sb-section">
         <button className="new-chat-btn" onClick={onNew}>
           <Icon name="plus" size={14} stroke={2.4} /> 新建对话
         </button>
+        <a href="#/kb" className="new-chat-btn" style={{ marginTop: 8, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 6 }}>
+          <Icon name="database" size={14} stroke={2.4} /> 知识库态势
+        </a>
       </div>
 
       <div className="sb-section">
@@ -55,6 +60,16 @@ export default function Sidebar({ onPick, onNew, history, flashIdx }: SidebarPro
             ))}
           </div>
         )}
+      </div>
+
+      <div className="sb-section" style={{ marginTop: 'auto' }}>
+        <button
+          className="new-chat-btn"
+          onClick={logout}
+          style={{ background: 'transparent', border: '1px solid rgba(239,68,68,0.4)', color: '#ef4444' }}
+        >
+          <Icon name="ban" size={14} stroke={2.4} /> 退出登录
+        </button>
       </div>
     </aside>
   );
