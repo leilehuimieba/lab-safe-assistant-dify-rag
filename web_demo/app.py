@@ -36,13 +36,19 @@ mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("application/javascript", ".mjs")
 
 app = FastAPI(title="Lab Safety Assistant - Dify RAG Project", lifespan=lifespan)
-app.include_router(meta_router)
-app.include_router(kb_router)
-app.include_router(chat_router)
 
 # 托管前端 React SPA 构建产物
 _frontend_dist = Path(__file__).resolve().parent / "frontend" / "dist"
 _frontend_index = _frontend_dist / "index.html"
+
+if _frontend_index.exists():
+    @app.get("/")
+    async def serve_index() -> FileResponse:
+        return FileResponse(_frontend_index)
+
+app.include_router(meta_router)
+app.include_router(kb_router)
+app.include_router(chat_router)
 
 if _frontend_index.exists():
     # 自定义 /assets/* 路由，确保 MIME 类型正确
