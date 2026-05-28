@@ -60,3 +60,5 @@ ingest_report.md
 phase4_report.md
 recollect_ingest_report.md
 *.xlsx
+# 运行时监控数据（自动生成）
+artifacts/runtime/
