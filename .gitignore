@@ -17,9 +17,12 @@ node_modules/
 # 日志
 logs/
 *.log
+.cache/
 
 # 运行时临时文件
 artifacts/local-dify-rag/
+artifacts/acceptance_precheck/
+artifacts/backups/
 artifacts/eval_50/
 artifacts/kb_changelog/
 artifacts/user_feedback/

@@ -2,7 +2,9 @@ from __future__ import annotations
 
 from fastapi import APIRouter, Depends
 
-from ..repositories import load_kb_entries
+from libs.text_utils import normalize_search_text
+
+from ..repositories import get_kb_entries
 from ..services.auth_service import verify_password
 from ..services.kb_usage_service import get_called_kb_ids, get_call_counts
 
@@ -11,7 +13,7 @@ router = APIRouter(dependencies=[Depends(verify_password)])
 
 @router.get("/api/kb/summary")
 def kb_summary() -> dict:
-    kb = load_kb_entries()
+    kb = get_kb_entries()
     called_ids = get_called_kb_ids()
     call_counts = get_call_counts()
 
@@ -80,21 +82,32 @@ def kb_summary() -> dict:
 
 
 @router.get("/api/kb/entries")
-def kb_entries(category: str = "", subcategory: str = "", offset: int = 0, limit: int = 50) -> dict:
-    kb = load_kb_entries()
-    called_ids = get_called_kb_ids()
+def kb_entries(
+    category: str = "",
+    subcategory: str = "",
+    keyword: str = "",
+    offset: int = 0,
+    limit: int = 120,
+    sort_by: str = "call_count",
+    sort_order: str = "desc",
+) -> dict:
+    kb = get_kb_entries()
+    called_ids = set(get_called_kb_ids())
     call_counts = get_call_counts()
 
     filtered = []
     cat_filter = category.strip()
     sub_filter = subcategory.strip()
+    keyword_filter = normalize_search_text(keyword)
 
     for row in kb:
-        row_cat = (row.get("category") or "").strip()
-        row_sub = (row.get("subcategory") or "").strip()
+        row_cat = (row.get("category") or "").strip() or "未分类"
+        row_sub = (row.get("subcategory") or "").strip() or "未分类"
         if cat_filter and row_cat != cat_filter:
             continue
         if sub_filter and row_sub != sub_filter:
+            continue
+        if keyword_filter and keyword_filter not in row.get("blob", ""):
             continue
         kb_id = row.get("id", "").strip()
         filtered.append({
@@ -105,20 +118,50 @@ def kb_entries(category: str = "", subcategory: str = "", offset: int = 0, limit
             "risk_level": row.get("risk_level", ""),
             "called": kb_id in called_ids,
             "call_count": call_counts.get(kb_id, 0),
+            "source_title": row.get("source_title", ""),
             "source_org": row.get("source_org", ""),
             "source_url": row.get("source_url", ""),
             "question": row.get("question", ""),
             "answer": row.get("answer", "")[:300],
         })
 
+    sort_key = (sort_by or "call_count").strip().lower()
+    reverse = (sort_order or "desc").strip().lower() != "asc"
+
+    def _risk_rank(value: str) -> tuple[int, str]:
+        text = (value or "").strip()
+        if text.isdigit():
+            return int(text), text
+        mapping = {"low": 1, "medium-low": 2, "medium": 3, "high": 4, "critical": 5}
+        return mapping.get(text.lower(), 0), text
+
+    def _sorter(item: dict) -> tuple:
+        title = (item.get("title") or item.get("id") or "").strip().lower()
+        if sort_key == "title":
+            return title, item.get("id", "")
+        if sort_key == "risk_level":
+            risk_rank, risk_text = _risk_rank(str(item.get("risk_level", "")))
+            return risk_rank, risk_text, title
+        if sort_key == "called":
+            return int(bool(item.get("called"))), int(item.get("call_count") or 0), title
+        return int(item.get("call_count") or 0), int(bool(item.get("called"))), title
+
+    filtered.sort(key=_sorter, reverse=reverse)
+
     total = len(filtered)
     offset = max(0, offset)
-    limit = max(1, min(200, limit))
+    limit = max(20, min(240, limit))
     page = filtered[offset:offset + limit]
+    next_offset = offset + len(page)
 
     return {
         "total": total,
         "offset": offset,
         "limit": limit,
+        "has_more": next_offset < total,
+        "next_offset": next_offset if next_offset < total else None,
+        "sort_by": sort_key,
+        "sort_order": "desc" if reverse else "asc",
+        "keyword": keyword.strip(),
         "entries": page,
     }

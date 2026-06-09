@@ -45,6 +45,8 @@
   "total": 3009,
   "offset": 0,
   "limit": 50,
+  "has_more": true,
+  "next_offset": 50,
   "entries": [
     {
       "id": "KB-1001",
@@ -54,16 +56,24 @@
       "risk_level": "2",
       "called": false,
       "call_count": 0,
+      "source_title": "string",
       "source_org": "string"
     }
   ]
 }
 ```
 
+### 2026-06 收口说明
+
+- 三级明细页不再固定只取前 `200` 条，而是改为**服务端分页 + 前端增量加载**。
+- 明细接口支持 `keyword / sort_by / sort_order / offset / limit`，用于在不改业务口径的前提下支撑 `3000+` 条知识条目的浏览。
+- 前端明细列表改为**虚拟渲染**：只绘制当前视口附近的卡片，滚动到底部时再继续拉取下一批数据。
+- 这次调整属于**现有知识库展示能力补强**，不是新增业务功能，目标是让验收演示时可以稳定、完整地查看 3k 级知识数据。
+
 ## Three-Layer Drill-Down
 1. **L1 Bubble Chart**: ECharts scatter, x=index, y=count, size=count, color=coverage_rate. Click bubble -> drill to L2.
 2. **L2 Sunburst**: ECharts sunburst, inner=category, outer=subcategory, area=count, color=coverage_rate. Click segment -> drill to L3.
-3. **L3 Virtual List**: react-window FixedSizeList, 80px/item. Click item -> detail drawer with full KB fields.
+3. **L3 Virtual List**: 服务端分页 + 前端虚拟列表，按批次续载并只渲染可视区附近条目。Click item -> detail drawer with full KB fields.
 
 ## Call Tracking
 - Binary state: citation.kb_id recorded in chat response = "called"
