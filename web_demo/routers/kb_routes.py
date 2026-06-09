@@ -18,6 +18,8 @@ router = APIRouter(dependencies=[Depends(verify_password)])
 _ENTRIES_CACHE_MAX = 48
 _ENTRIES_CACHE_LOCK = RLock()
 _ENTRIES_CACHE: OrderedDict[tuple[str, str, str, str, str], tuple[float, list[dict]]] = OrderedDict()
+_SUMMARY_CACHE_LOCK = RLock()
+_SUMMARY_CACHE: dict[str, tuple[float, dict]] = {}
 
 
 def _entries_cache_ttl_seconds() -> int:
@@ -25,6 +27,38 @@ def _entries_cache_ttl_seconds() -> int:
         return max(0, int(os.getenv("KB_ENTRIES_CACHE_SECONDS", "10") or "10"))
     except ValueError:
         return 10
+
+
+def _summary_cache_ttl_seconds() -> int:
+    try:
+        return max(0, int(os.getenv("KB_SUMMARY_CACHE_SECONDS", "10") or "10"))
+    except ValueError:
+        return 10
+
+
+def _get_cached_summary() -> dict | None:
+    ttl = _summary_cache_ttl_seconds()
+    if ttl <= 0:
+        return None
+    now = time.monotonic()
+    with _SUMMARY_CACHE_LOCK:
+        cached = _SUMMARY_CACHE.get("summary")
+        if not cached:
+            return None
+        created_at, payload = cached
+        if now - created_at > ttl:
+            _SUMMARY_CACHE.pop("summary", None)
+            return None
+        return {**payload, "cache_hit": True}
+
+
+def _set_cached_summary(payload: dict) -> None:
+    ttl = _summary_cache_ttl_seconds()
+    if ttl <= 0:
+        return
+    cached_payload = {**payload, "cache_hit": False}
+    with _SUMMARY_CACHE_LOCK:
+        _SUMMARY_CACHE["summary"] = (time.monotonic(), cached_payload)
 
 
 def _get_cached_entries(key: tuple[str, str, str, str, str]) -> list[dict] | None:
@@ -57,6 +91,10 @@ def _set_cached_entries(key: tuple[str, str, str, str, str], entries: list[dict]
 
 @router.get("/api/kb/summary")
 def kb_summary() -> dict:
+    cached = _get_cached_summary()
+    if cached:
+        return cached
+
     kb = get_kb_entries()
     called_ids = get_called_kb_ids()
     call_counts = get_call_counts()
@@ -116,13 +154,16 @@ def kb_summary() -> dict:
 
     categories.sort(key=lambda x: x["count"], reverse=True)
 
-    return {
+    payload = {
         "total_entries": total,
         "total_categories": len(categories),
         "called_entries": called_total,
         "coverage_rate": round((called_total / total) * 100, 1) if total > 0 else 0.0,
         "categories": categories,
+        "cache_hit": False,
     }
+    _set_cached_summary(payload)
+    return payload
 
 
 @router.get("/api/kb/entries")
