@@ -52,7 +52,7 @@ function saveSession(messages: Msg[], sessionId: string) {
 }
 
 export default function ChatPage() {
-  const { loading, error: metaError, meta, health } = useMetaAndHealth();
+  const { loading, error: metaError, meta, health, healthChecked } = useMetaAndHealth();
   const { send, busy } = useChat();
   const { search, busy: searchBusy } = useSearch();
   const { stats, loading: statsLoading } = useStats();
@@ -203,7 +203,7 @@ export default function ChatPage() {
 
   return (
     <div className={`app ${loading ? 'loading-fade' : 'loaded'}`}>
-      <Topbar health={health} healthChecked={!loading} />
+      <Topbar health={health} healthChecked={healthChecked} />
       <Sidebar
         onPick={onPickQuick}
         onNew={newChat}

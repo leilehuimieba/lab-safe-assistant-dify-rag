@@ -40,31 +40,51 @@ export function useMetaAndHealth() {
   const [error, setError] = useState<string | null>(null);
   const [meta, setMeta] = useState<DemoMetaResponse | null>(null);
   const [health, setHealth] = useState<boolean>(false);
+  const [healthChecked, setHealthChecked] = useState<boolean>(false);
 
   useEffect(() => {
     let cancelled = false;
-    (async () => {
+
+    const loadMeta = async () => {
       try {
-        const [m, h] = await Promise.all([
-          jsonFetch<DemoMetaResponse>('/api/meta'),
-          jsonFetch<HealthResponse>('/health'),
-        ]);
+        const m = await jsonFetch<DemoMetaResponse>('/api/meta');
         if (cancelled) return;
         setMeta(m);
-        setHealth(!!h.ok || h.status === 'ok');
+        setError(null);
       } catch (e) {
         if (cancelled) return;
         setError(e instanceof Error ? e.message : '加载失败');
       } finally {
         if (!cancelled) setLoading(false);
       }
-    })();
+    };
+
+    const loadHealth = async () => {
+      try {
+        const h = await jsonFetch<HealthResponse>('/health', undefined, 8_000);
+        if (!cancelled) {
+          setHealth(!!h.ok || h.status === 'ok');
+        }
+      } catch {
+        if (!cancelled) {
+          setHealth(false);
+        }
+      } finally {
+        if (!cancelled) {
+          setHealthChecked(true);
+        }
+      }
+    };
+
+    void loadMeta();
+    void loadHealth();
+
     return () => {
       cancelled = true;
     };
   }, []);
 
-  return { loading, error, meta, health };
+  return { loading, error, meta, health, healthChecked };
 }
 
 export function useStats() {
