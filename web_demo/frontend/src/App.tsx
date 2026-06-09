@@ -1,16 +1,22 @@
+import { lazy, Suspense, type ReactNode } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import ErrorBoundary from './components/ErrorBoundary';
 import ChatPage from './pages/ChatPage';
-import KBVisualization from './pages/KBVisualization';
 import LoginPage from './pages/LoginPage';
 
-function ProtectedRoute({ children }: { children: React.ReactNode }) {
+const KBVisualization = lazy(() => import('./pages/KBVisualization'));
+
+function ProtectedRoute({ children }: { children: ReactNode }) {
   const { isLoggedIn } = useAuth();
   if (!isLoggedIn) {
     return <Navigate to="/login" replace />;
   }
   return <>{children}</>;
+}
+
+function PageFallback() {
+  return <div className="page-fallback">正在加载知识库态势舱...</div>;
 }
 
 function AppRoutes() {
@@ -30,7 +36,9 @@ function AppRoutes() {
           path="/kb"
           element={
             <ProtectedRoute>
-              <KBVisualization />
+              <Suspense fallback={<PageFallback />}>
+                <KBVisualization />
+              </Suspense>
             </ProtectedRoute>
           }
         />

@@ -94,6 +94,15 @@
 .app.loading-fade { opacity: 0; }
 .app.loaded { opacity: 1; transition: opacity .3s ease-out; }
 
+.page-fallback {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: var(--text-2);
+  background: var(--bg);
+  font-size: 14px;
+}
+
 .topbar { grid-area: top; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; background: var(--surface); border-bottom: 1px solid var(--border); position: relative; z-index: 5; }
 .topbar .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark { width: 32px; height: 32px; border-radius: 10px; background: linear-gradient(135deg, var(--primary-600), var(--primary-500)); display: grid; place-items: center; color: #fff; box-shadow: 0 4px 12px rgba(15, 118, 110, .35), inset 0 -1px 0 rgba(0,0,0,.1); }
