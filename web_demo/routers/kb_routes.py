@@ -1,5 +1,10 @@
 from __future__ import annotations
 
+import os
+import time
+from collections import OrderedDict
+from threading import RLock
+
 from fastapi import APIRouter, Depends
 
 from libs.text_utils import normalize_search_text
@@ -9,6 +14,45 @@ from ..services.auth_service import verify_password
 from ..services.kb_usage_service import get_called_kb_ids, get_call_counts
 
 router = APIRouter(dependencies=[Depends(verify_password)])
+
+_ENTRIES_CACHE_MAX = 48
+_ENTRIES_CACHE_LOCK = RLock()
+_ENTRIES_CACHE: OrderedDict[tuple[str, str, str, str, str], tuple[float, list[dict]]] = OrderedDict()
+
+
+def _entries_cache_ttl_seconds() -> int:
+    try:
+        return max(0, int(os.getenv("KB_ENTRIES_CACHE_SECONDS", "10") or "10"))
+    except ValueError:
+        return 10
+
+
+def _get_cached_entries(key: tuple[str, str, str, str, str]) -> list[dict] | None:
+    ttl = _entries_cache_ttl_seconds()
+    if ttl <= 0:
+        return None
+    now = time.monotonic()
+    with _ENTRIES_CACHE_LOCK:
+        cached = _ENTRIES_CACHE.get(key)
+        if not cached:
+            return None
+        created_at, entries = cached
+        if now - created_at > ttl:
+            _ENTRIES_CACHE.pop(key, None)
+            return None
+        _ENTRIES_CACHE.move_to_end(key)
+        return entries
+
+
+def _set_cached_entries(key: tuple[str, str, str, str, str], entries: list[dict]) -> None:
+    ttl = _entries_cache_ttl_seconds()
+    if ttl <= 0:
+        return
+    with _ENTRIES_CACHE_LOCK:
+        _ENTRIES_CACHE[key] = (time.monotonic(), entries)
+        _ENTRIES_CACHE.move_to_end(key)
+        while len(_ENTRIES_CACHE) > _ENTRIES_CACHE_MAX:
+            _ENTRIES_CACHE.popitem(last=False)
 
 
 @router.get("/api/kb/summary")
@@ -91,42 +135,16 @@ def kb_entries(
     sort_by: str = "call_count",
     sort_order: str = "desc",
 ) -> dict:
-    kb = get_kb_entries()
-    called_ids = set(get_called_kb_ids())
-    call_counts = get_call_counts()
-
-    filtered = []
     cat_filter = category.strip()
     sub_filter = subcategory.strip()
     keyword_filter = normalize_search_text(keyword)
-
-    for row in kb:
-        row_cat = (row.get("category") or "").strip() or "未分类"
-        row_sub = (row.get("subcategory") or "").strip() or "未分类"
-        if cat_filter and row_cat != cat_filter:
-            continue
-        if sub_filter and row_sub != sub_filter:
-            continue
-        if keyword_filter and keyword_filter not in row.get("blob", ""):
-            continue
-        kb_id = row.get("id", "").strip()
-        filtered.append({
-            "id": kb_id,
-            "title": row.get("title", ""),
-            "category": row_cat or "未分类",
-            "subcategory": row_sub or "未分类",
-            "risk_level": row.get("risk_level", ""),
-            "called": kb_id in called_ids,
-            "call_count": call_counts.get(kb_id, 0),
-            "source_title": row.get("source_title", ""),
-            "source_org": row.get("source_org", ""),
-            "source_url": row.get("source_url", ""),
-            "question": row.get("question", ""),
-            "answer": row.get("answer", "")[:300],
-        })
-
     sort_key = (sort_by or "call_count").strip().lower()
     reverse = (sort_order or "desc").strip().lower() != "asc"
+    normalized_sort_order = "desc" if reverse else "asc"
+
+    cache_key = (cat_filter, sub_filter, keyword_filter, sort_key, normalized_sort_order)
+    filtered = _get_cached_entries(cache_key)
+    cache_hit = filtered is not None
 
     def _risk_rank(value: str) -> tuple[int, str]:
         text = (value or "").strip()
@@ -146,7 +164,39 @@ def kb_entries(
             return int(bool(item.get("called"))), int(item.get("call_count") or 0), title
         return int(item.get("call_count") or 0), int(bool(item.get("called"))), title
 
-    filtered.sort(key=_sorter, reverse=reverse)
+    if filtered is None:
+        kb = get_kb_entries()
+        called_ids = set(get_called_kb_ids())
+        call_counts = get_call_counts()
+
+        filtered = []
+        for row in kb:
+            row_cat = (row.get("category") or "").strip() or "未分类"
+            row_sub = (row.get("subcategory") or "").strip() or "未分类"
+            if cat_filter and row_cat != cat_filter:
+                continue
+            if sub_filter and row_sub != sub_filter:
+                continue
+            if keyword_filter and keyword_filter not in row.get("blob", ""):
+                continue
+            kb_id = row.get("id", "").strip()
+            filtered.append({
+                "id": kb_id,
+                "title": row.get("title", ""),
+                "category": row_cat or "未分类",
+                "subcategory": row_sub or "未分类",
+                "risk_level": row.get("risk_level", ""),
+                "called": kb_id in called_ids,
+                "call_count": call_counts.get(kb_id, 0),
+                "source_title": row.get("source_title", ""),
+                "source_org": row.get("source_org", ""),
+                "source_url": row.get("source_url", ""),
+                "question": row.get("question", ""),
+                "answer": row.get("answer", "")[:300],
+            })
+
+        filtered.sort(key=_sorter, reverse=reverse)
+        _set_cached_entries(cache_key, filtered)
 
     total = len(filtered)
     offset = max(0, offset)
@@ -161,7 +211,8 @@ def kb_entries(
         "has_more": next_offset < total,
         "next_offset": next_offset if next_offset < total else None,
         "sort_by": sort_key,
-        "sort_order": "desc" if reverse else "asc",
+        "sort_order": normalized_sort_order,
         "keyword": keyword.strip(),
+        "cache_hit": cache_hit,
         "entries": page,
     }
