@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import threading
 from pathlib import Path
 from typing import Any
@@ -47,8 +48,10 @@ def _persist_usage() -> None:
     _USAGE_DIR.mkdir(parents=True, exist_ok=True)
     data = {"called_ids": list(_CALLED_KB_IDS), "call_counts": _CALL_COUNTS}
     try:
-        with open(_USAGE_FILE, "w", encoding="utf-8") as f:
+        tmp = _USAGE_FILE.with_suffix(_USAGE_FILE.suffix + ".tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False)
+        os.replace(tmp, _USAGE_FILE)
     except OSError:
         pass
 

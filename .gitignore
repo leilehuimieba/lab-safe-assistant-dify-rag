@@ -65,3 +65,21 @@ recollect_ingest_report.md
 *.xlsx
 # 运行时监控数据（自动生成）
 artifacts/runtime/
+
+# 历史版本快照（防未来误提交，已归档的 tracked 文件不受影响）
+artifacts/dify_import_*/
+release_exports/v[0-9]*_*/
+release_exports/v[0-9]*.[0-9]*/
+# 数据生成脚本的输入 tsv/json（一次性）
+scripts/*.tsv
+scripts/kb_batch_data.json
+# 一次性脚本归档目录（可保留但不接受新文件）
+scripts/_archive/*.tsv
+scripts/_archive/*.json
+
+# 一次性移除清单
+untraceable_medium_removal_list.csv
+untraceable_medium_removal_report.md
+high_risk_removal_list.csv
+high_risk_removal_report.md
+removal_candidates.csv

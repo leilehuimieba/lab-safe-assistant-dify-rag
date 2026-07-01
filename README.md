@@ -84,7 +84,7 @@ powershell -ExecutionPolicy Bypass -File scripts/start_dify_rag_local.ps1
 如需真实走 Dify，请填写：
 
 ```env
-DIFY_BASE_URL=http://127.0.0.1:8080
+DIFY_BASE_URL=http://127.0.0.1:8081
 DIFY_APP_API_KEY=app-xxxxxxxxxxxxxxxx
 DIFY_TIMEOUT=120
 ```
@@ -115,8 +115,8 @@ powershell -ExecutionPolicy Bypass -File scripts/status_dify_rag_local.ps1
 
 ```powershell
 python scripts/release/import_csv_to_dify_dataset.py `
-  --csv release_exports/v8.2/knowledge_base_import_ready.csv `
-  --base-url http://127.0.0.1:8080 `
+  --csv release_exports/v12_cornell_3k/knowledge_base_import_ready.csv `
+  --base-url http://127.0.0.1:8081 `
   --dataset-id <dataset_id> `
   --dataset-api-key <dataset_api_key> `
   --report-json artifacts/dify_import/import_report.json `

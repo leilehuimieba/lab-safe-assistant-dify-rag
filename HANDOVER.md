@@ -124,7 +124,7 @@ cp .env.dify_rag.example .env.dify_rag
 
 ```env
 # .env.dify_rag
-DIFY_BASE_URL=http://127.0.0.1:8080
+DIFY_BASE_URL=http://127.0.0.1:8081
 DIFY_APP_API_KEY=app-xxxxxxxxxxxxxxxx
 DIFY_TIMEOUT=120
 
@@ -222,7 +222,7 @@ powershell -ExecutionPolicy Bypass -File scripts/stop_dify_rag_local.ps1
 ```powershell
 python scripts/release/import_csv_to_dify_dataset.py `
   --csv release_exports/v10_external_sources/knowledge_base_external_import_ready.csv `
-  --base-url http://127.0.0.1:8080 `
+  --base-url http://127.0.0.1:8081 `
   --dataset-id <dataset_id> `
   --dataset-api-key <dataset_api_key>
 ```

@@ -22,35 +22,14 @@ import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
-DEFAULT_FIELDS = [
-    "title",
-    "category",
-    "subcategory",
-    "lab_type",
-    "risk_level",
-    "hazard_types",
-    "scenario",
-    "question",
-    "answer",
-    "steps",
-    "ppe",
-    "forbidden",
-    "disposal",
-    "first_aid",
-    "emergency",
-    "legal_notes",
-    "references",
-    "source_type",
-    "source_title",
-    "source_org",
-    "source_version",
-    "source_date",
-    "source_url",
-    "tags",
-    "language",
-]
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from libs.kb_schema import DIFY_IMPORT_FIELDS
+
+DEFAULT_FIELDS = list(DIFY_IMPORT_FIELDS)
 
 @dataclass
 class ImportResult:
@@ -67,13 +46,13 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--csv",
-        default="release_exports/v7/knowledge_base_import_ready.csv",
+        default="release_exports/v12_cornell_3k/knowledge_base_import_ready.csv",
         help="Input CSV path.",
     )
     parser.add_argument(
         "--base-url",
-        default="http://localhost:8080",
-        help="Dify base URL, e.g. http://localhost:8080",
+        default="http://localhost:8081",
+        help="Dify base URL, e.g. http://localhost:8081",
     )
     parser.add_argument(
         "--dataset-id",

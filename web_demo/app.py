@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import atexit
 import logging
 import mimetypes
 from contextlib import asynccontextmanager
@@ -38,7 +37,6 @@ async def lifespan(app: FastAPI):
     logger.info("Cache loaded from disk: %d entries", loaded)
     usage_loaded = load_usage_from_disk()
     logger.info("KB usage loaded from disk: %d entries", usage_loaded)
-    atexit.register(save_cache_to_disk)
     yield
     saved = save_cache_to_disk()
     logger.info("Cache saved to disk: %d entries", saved)

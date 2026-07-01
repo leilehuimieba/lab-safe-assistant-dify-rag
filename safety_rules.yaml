@@ -1,37 +1,17 @@
 ﻿version: 1.0
-updated_at: 2026-03-11
+updated_at: 2026-07-01
+
+# 说明：
+# - 每条 rule.response 会被代码填入"结论"段；rich 结构化模板（立即处理/禁止事项/应急升级）
+#   由 web_demo/services/answer_service.py::_build_emergency_rule_answer 硬编码提供，
+#   目前覆盖 R-011~R-020（应急类）。修改 rule.response 只影响结论段。
+# - enforcement: always 表示该规则命中即拒绝，不再要求用户输入包含违规意图关键词；
+#   为空则退化为"关键词+意图双匹配"。此字段由 kb_service.rule_terminal_action_ok 读取。
 
 global_policy:
   default_action: safe_answer
   low_confidence_action: ask_for_more_info
   cite_sources: true
-
-safe_response_templates:
-  refuse:
-    - "该问题涉及高风险或违规操作，我不能提供具体操作建议。请联系实验室管理人员或指导老师。"
-    - "为确保安全与合规，我无法回答该问题的操作细节。建议参考实验室安全制度或应急预案。"
-  redirect_emergency:
-    - "若出现紧急情况，请立即停止实验、切断电源/气源并按应急预案处理，同时联系实验室管理人员。"
-  emergency_chemical_splash_skin:
-    - "若化学品溅到皮肤：立即用大量清水持续冲洗，尽快脱去被污染的衣物/手套，并联系实验室管理人员或就医。"
-  emergency_chemical_splash_eye:
-    - "若化学品溅入眼睛：立即用洗眼器或大量清水持续冲洗，同时联系实验室管理人员并尽快就医。"
-  emergency_fire:
-    - "若发生起火/冒烟：立即停止实验、切断电源/气源；在确保安全且受过培训的前提下使用灭火器；无法控制请立刻撤离并报警。"
-  emergency_gas_leak:
-    - "若疑似气体泄漏：停止实验、关闭气源（在安全前提下），开启通风并撤离到安全区域，联系实验室管理人员处理。"
-  emergency_chemical_spill:
-    - "若发生化学品泄漏：隔离现场、避免接触和吸入，在安全前提下通风并使用泄漏应急物资处理，立即报告实验室管理人员。"
-  emergency_ingestion:
-    - "若误食/误饮化学品：立即停止实验，漱口并尽快就医或联系急救，同时告知具体化学品名称与浓度。"
-  emergency_inhalation:
-    - "若吸入有害气体：立即转移到新鲜空气处，必要时求助医疗或实验室管理人员。"
-  emergency_burn:
-    - "若发生烫伤/灼伤：立即停止实验，用清水冷却并保护伤处，必要时就医。"
-  emergency_cut:
-    - "若发生割伤/出血：立即停止实验，清洁伤口并加压止血，必要时就医。"
-  ask_more_info:
-    - "请补充具体试剂名称、浓度、设备型号和场景，我才能提供准确建议。"
 
 rules:
   - id: R-025
@@ -87,6 +67,7 @@ rules:
     match_type: keywords
     patterns: ["自杀", "伤害", "投毒", "爆炸", "制造武器"]
     action: refuse
+    enforcement: always
     severity: critical
     response: "该问题涉及安全风险或违法行为，无法提供帮助。"
 
@@ -95,6 +76,7 @@ rules:
     match_type: keywords
     patterns: ["忽略以上", "无视规则", "系统提示", "显示提示词", "越狱"]
     action: refuse
+    enforcement: always
     severity: high
     response: "无法执行该请求。"
 
@@ -226,6 +208,7 @@ rules:
     match_type: keywords
     patterns: ["离心机转着", "离心机运转时", "离心机没停", "边转边开盖", "边转边掀盖", "转的时候开盖", "转着开盖", "开盖看看", "掀盖看看", "边转边掀盖看一下"]
     action: refuse
+    enforcement: always
     severity: high
     response: "绝对不能在离心机运转时开盖！必须等转子完全停止后才能打开，强行开盖有严重危险。"
 
@@ -234,5 +217,6 @@ rules:
     match_type: keywords
     patterns: ["灭菌锅有压力", "灭菌结束立刻", "高压灭菌直接开"]
     action: refuse
+    enforcement: always
     severity: high
     response: "有压力时严禁强制开门！灭菌结束后须慢速放汽，等压力归零、温度降至安全值后，人站在两侧才能缓慢开盖。"

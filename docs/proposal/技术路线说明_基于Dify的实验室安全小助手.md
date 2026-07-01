@@ -180,7 +180,7 @@ Dify 请求核心参数：
 运行前需要配置：
 
 ```env
-DIFY_BASE_URL=http://127.0.0.1:8080
+DIFY_BASE_URL=http://127.0.0.1:8081
 DIFY_APP_API_KEY=app-xxxxxxxxxxxxxxxx
 DIFY_TIMEOUT=120
 ```

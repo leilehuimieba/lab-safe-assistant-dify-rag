@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 
 from ..models import DemoMetaResponse
 from ..repositories import get_kb_entries
@@ -58,8 +58,15 @@ def _probe_dify_reachable(dify_base: str) -> tuple[bool, str, bool]:
 
 @router.get("/health")
 def health() -> dict[str, object]:
-    dify_base = resolve_dify_api_base()
-    dify_reachable, dify_error, dify_probe_cached = _probe_dify_reachable(dify_base)
+    try:
+        dify_base = resolve_dify_api_base()
+        dify_base_error = ""
+    except HTTPException as exc:
+        dify_base = ""
+        dify_base_error = str(exc.detail)
+    dify_reachable, dify_error, dify_probe_cached = (
+        _probe_dify_reachable(dify_base) if dify_base else (False, dify_base_error, False)
+    )
 
     return {
         "ok": True,

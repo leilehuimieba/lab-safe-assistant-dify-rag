@@ -6,12 +6,10 @@ import csv
 import sys
 from pathlib import Path
 
-REQUIRED_KB_HEADERS = [
-    "id", "title", "category", "subcategory", "lab_type", "risk_level", "hazard_types", "scenario",
-    "question", "answer", "steps", "ppe", "forbidden", "disposal", "first_aid", "emergency",
-    "legal_notes", "references", "source_type", "source_title", "source_org", "source_version",
-    "source_date", "source_url", "last_updated", "reviewer", "status", "tags", "language",
-]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from libs.kb_schema import KB_HEADERS
+
+REQUIRED_KB_HEADERS = list(KB_HEADERS)
 
 
 def parse_args() -> argparse.Namespace:

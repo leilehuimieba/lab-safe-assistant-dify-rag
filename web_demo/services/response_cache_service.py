@@ -97,8 +97,10 @@ def save_cache_to_disk() -> int:
         _purge_expired(now, ttl)
         data = {key: {"created_at": entry.created_at, "payload": entry.payload} for key, entry in _CACHE.items()}
     try:
-        with open(_CACHE_FILE, "w", encoding="utf-8") as f:
+        tmp = _CACHE_FILE.with_suffix(_CACHE_FILE.suffix + ".tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False)
+        os.replace(tmp, _CACHE_FILE)
         return len(data)
     except OSError:
         return 0

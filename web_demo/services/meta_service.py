@@ -15,6 +15,14 @@ from ..repositories import (
 from .upstream_service import resolve_dify_api_base
 
 
+def _safe_dify_base_url() -> str:
+    # /api/meta 只是回显配置，不应因白名单校验失败而 500。
+    try:
+        return resolve_dify_api_base()
+    except Exception as exc:
+        return f"(invalid: {exc})"
+
+
 def get_demo_meta() -> DemoMetaResponse:
     dify_app_key = os.getenv("DIFY_APP_API_KEY", "").strip()
     return DemoMetaResponse(
@@ -28,6 +36,6 @@ def get_demo_meta() -> DemoMetaResponse:
         knowledge_base_chunked=KB_CHUNK_IMPORT_COUNT,
         knowledge_base_external=KB_EXTERNAL_IMPORT_COUNT,
         demo_port=os.getenv("DEMO_PORT", "8088").strip() or "8088",
-        dify_base_url=resolve_dify_api_base(),
+        dify_base_url=_safe_dify_base_url(),
         dify_app_key_configured=bool(dify_app_key),
     )

@@ -31,7 +31,7 @@ KB_EXTERNAL_IMPORT_COUNT = int(os.getenv("KB_EXTERNAL_IMPORT_COUNT", "1159") or 
 
 DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "4") or "4")
 DEFAULT_LOW_CONFIDENCE_TOP_SCORE = float(os.getenv("LOW_CONFIDENCE_TOP_SCORE", "3.5") or "3.5")
-DIFY_DEFAULT_BASE_URL = "http://127.0.0.1:8080"
+DIFY_DEFAULT_BASE_URL = "http://127.0.0.1:8081"
 DIFY_DEFAULT_TIMEOUT = 120.0
 
 # 仅保留兜底兼容常量；本项目主链路是 Dify + RAG。

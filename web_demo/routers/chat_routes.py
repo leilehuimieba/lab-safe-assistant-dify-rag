@@ -11,6 +11,7 @@ from typing import Any
 import requests
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import Response, StreamingResponse
+from starlette.concurrency import run_in_threadpool
 
 from ..models import ChatRequest, ChatResponse, FeedbackRequest, StatsResponse
 from ..repositories import DEFAULT_TOP_K, DIFY_DEFAULT_TIMEOUT, REPO_ROOT
@@ -34,6 +35,9 @@ _MAX_STATS = 200
 
 FEEDBACK_FILE = REPO_ROOT / "artifacts" / "user_feedback" / "feedback.csv"
 FEEDBACK_HEADERS = ["created_at", "session_id", "question", "answer", "rating", "comment"]
+_FEEDBACK_LOCK = threading.Lock()
+_FEEDBACK_MAX_QUESTION = 2000
+_FEEDBACK_MAX_COMMENT = 2000
 
 
 def _extract_kb_ids(citations: list[Any]) -> list[str]:
@@ -335,7 +339,14 @@ def dify_parameters_proxy(request: Request) -> Response:
         upstream = requests.get(endpoint, headers=headers, timeout=(8, 20))
     except requests.RequestException as exc:
         raise HTTPException(status_code=502, detail=f"dify_proxy_request_failed: {exc}") from exc
-    return Response(content=upstream.content, status_code=upstream.status_code, media_type=upstream.headers.get("Content-Type", "application/json"))
+    try:
+        return Response(
+            content=upstream.content,
+            status_code=upstream.status_code,
+            media_type=upstream.headers.get("Content-Type", "application/json"),
+        )
+    finally:
+        upstream.close()
 
 
 @router.post("/v1/chat-messages")
@@ -353,7 +364,14 @@ async def dify_chat_messages_proxy(request: Request) -> Response:
         headers["Authorization"] = auth
 
     try:
-        upstream = requests.post(endpoint, headers=headers, json=payload, timeout=(20, timeout), stream=True)
+        upstream = await run_in_threadpool(
+            requests.post,
+            endpoint,
+            headers=headers,
+            json=payload,
+            timeout=(20, timeout),
+            stream=True,
+        )
     except requests.RequestException as exc:
         raise HTTPException(status_code=502, detail=f"dify_proxy_request_failed: {exc}") from exc
 
@@ -388,16 +406,17 @@ def submit_feedback(payload: FeedbackRequest) -> dict[str, str]:
     FEEDBACK_FILE.parent.mkdir(parents=True, exist_ok=True)
     row = {
         "created_at": datetime.now().isoformat(timespec="seconds"),
-        "session_id": payload.session_id,
-        "question": (payload.question or "").strip(),
+        "session_id": (payload.session_id or "")[:128],
+        "question": (payload.question or "").strip()[:_FEEDBACK_MAX_QUESTION],
         "answer": (payload.answer or "")[:500],
         "rating": rating,
-        "comment": (payload.comment or "").strip(),
+        "comment": (payload.comment or "").strip()[:_FEEDBACK_MAX_COMMENT],
     }
-    file_exists = FEEDBACK_FILE.exists()
-    with FEEDBACK_FILE.open("a", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=FEEDBACK_HEADERS, extrasaction="ignore")
-        if not file_exists:
-            writer.writeheader()
-        writer.writerow(row)
+    with _FEEDBACK_LOCK:
+        file_exists = FEEDBACK_FILE.exists()
+        with FEEDBACK_FILE.open("a", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=FEEDBACK_HEADERS, extrasaction="ignore")
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow(row)
     return {"status": "ok"}

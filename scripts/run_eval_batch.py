@@ -138,8 +138,8 @@ def main() -> int:
     for idx, row in enumerate(eval_rows, 1):
         qid = row.get("id", f"Q{idx}")
         question = row.get("question", "").strip()
-        category = row.get("category", "") or row.get("domain", "")
-        subcategory = row.get("subcategory", "") or row.get("scenario", "")
+        category = row.get("category", "")
+        subcategory = row.get("subcategory", "")
         conversation_group = (row.get("conversation_group", "") or "").strip()
         turn_no = (row.get("turn_no", "") or "").strip()
         reused_session_id = group_sessions.get(conversation_group, "") if conversation_group else ""
@@ -162,8 +162,8 @@ def main() -> int:
             "category": category,
             "subcategory": subcategory,
             "risk_level_expected": row.get("risk_level", ""),
-            "expected_answer_type": row.get("expected_answer_type", "") or row.get("evaluation_type", ""),
-            "expected_keywords": row.get("expected_keywords", "") or row.get("expected_keypoints", ""),
+            "expected_answer_type": row.get("expected_answer_type", ""),
+            "expected_keywords": row.get("expected_keywords", ""),
             "expected_action": row.get("expected_action", ""),
             "expected_lane": row.get("expected_lane", ""),
             "allowed_sources": row.get("allowed_sources", ""),

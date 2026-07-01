@@ -44,6 +44,11 @@ def parse_args() -> argparse.Namespace:
         help="Skip validate_eval_dashboard_gate.py and only generate status/risk note.",
     )
     parser.add_argument(
+        "--skip-quality-gate",
+        action="store_true",
+        help="Skip pre-flight scripts/quality_gate.py (KB schema / required files).",
+    )
+    parser.add_argument(
         "--skip-release-policy-check",
         action="store_true",
         help="Skip validate_release_policy.py step.",
@@ -362,6 +367,20 @@ def main() -> int:
     repo_root = resolve_path(Path(args.repo_root).resolve(), ".")
     if (not args.skip_failover_eval) and (not args.workflow_id.strip()):
         raise SystemExit("--workflow-id is required unless --skip-failover-eval is set.")
+
+    # Pre-flight quality gate: 结构性检查（KB 表头、必备文件）失败则整个流水线中止。
+    if not getattr(args, "skip_quality_gate", False):
+        gate_script = repo_root / "scripts" / "quality_gate.py"
+        gate_run = subprocess.run(
+            [sys.executable, str(gate_script), "--repo-root", str(repo_root)],
+            cwd=str(repo_root),
+            capture_output=True,
+            text=True,
+        )
+        if gate_run.returncode != 0:
+            sys.stderr.write("[oneclick] quality_gate FAILED, aborting pipeline:\n")
+            sys.stderr.write((gate_run.stdout or "") + (gate_run.stderr or ""))
+            return gate_run.returncode
 
     run_dir = resolve_path(repo_root, args.output_root) / f"run_{now_tag()}"
     run_dir.mkdir(parents=True, exist_ok=True)

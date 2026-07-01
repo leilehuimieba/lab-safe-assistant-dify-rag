@@ -7,6 +7,7 @@ from __future__ import annotations
 - should_enforce_terminal_rule: 判断是否触发终止动作（refuse / redirect_emergency / ask_for_more_info / direct_safe_answer）
 """
 
+import logging
 import os
 from typing import Any
 
@@ -23,6 +24,8 @@ from ..repositories import (
     get_rules_config,
     KB_FILE,
 )
+
+logger = logging.getLogger(__name__)
 
 # 语义检索可选依赖：未安装时自动 fallback 到纯文本检索
 try:
@@ -78,8 +81,8 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
             if semantic_results:
                 for score, row in semantic_results:
                     semantic_scores[row.get("id", "")] = score
-        except Exception:
-            pass  # fallback 到纯文本检索
+        except Exception as exc:
+            logger.warning("semantic_search failed, fallback to text search: %s", exc)
 
     # ---- 文本检索（原有逻辑） ----
     q = normalize_search_text(question)
@@ -179,8 +182,7 @@ def should_enforce_terminal_rule(question: str, rule: dict[str, Any] | None) -> 
         return True
 
     if action == "refuse":
-        always_refuse = {"R-006", "R-007", "R-023", "R-024"}
-        if category in always_refuse:
+        if str(rule.get("enforcement") or "").strip().lower() == "always":
             return True
         return any(marker in q for marker in REFUSE_INTENT_MARKERS)
 

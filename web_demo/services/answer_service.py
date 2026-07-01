@@ -101,6 +101,8 @@ def format_citation_lines(citations: list[Citation], limit: int = 3) -> str:
 
 
 def _build_emergency_rule_answer(rule_id: str, response: str, citations: list[Citation]) -> str:
+    # rule.response 只填入"结论"段；立即处理/禁止事项/应急升级为本函数硬编码模板。
+    # 覆盖 R-011~R-020；未列出的 redirect_emergency 规则走末尾通用兜底。
     if rule_id == "R-011":
         return (
             "结论:\n"
