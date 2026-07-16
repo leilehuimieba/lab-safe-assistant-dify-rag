@@ -1,0 +1,10 @@
+# Dify Dataset Import Report
+
+- generated_at: `2026-07-16T20:58:10+08:00`
+- csv_path: `D:\newwork\Security\lab-safe-assistant-dify-rag\release_exports\v12_cornell_3k\knowledge_base_import_ready.csv`
+- base_url: `http://127.0.0.1:8081`
+- dataset_id: `5d63f693-8a13-480e-bf22-b2404bf280c2`
+- created: `10`
+- skipped_existing: `0`
+- failed: `0`
+- batches_count: `10`
