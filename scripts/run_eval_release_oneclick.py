@@ -9,6 +9,14 @@ One-click eval release pipeline:
 """
 
 from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+REPO_ROOT_FOR_IMPORTS = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT_FOR_IMPORTS) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT_FOR_IMPORTS))
+
 from libs.common_io import now_iso
 
 import argparse
