@@ -1,6 +1,6 @@
 param(
     [string]$OutputRoot = "",
-    [string]$DifyComposeDir = "D:\newwork\lab-safe-assistant-workspace\lab-safe-assistant-github\local_env\dify\docker",
+    [string]$DifyComposeDir = "D:\newwork\Security\lab-safe-assistant-workspace\lab-safe-assistant-github\local_env\dify\docker",
     [string]$ProjectName = "docker",
     [string]$PostgresContainer = "docker-db_postgres-1",
     [string]$Database = "dify",
