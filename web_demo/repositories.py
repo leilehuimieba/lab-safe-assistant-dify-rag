@@ -23,8 +23,8 @@ RULES_FILE = REPO_ROOT / "safety_rules.yaml"
 LOW_CONFIDENCE_QUEUE_FILE = REPO_ROOT / "artifacts" / "low_confidence_followups" / "data_gap_queue.csv"
 
 APP_VERSION = "dify-rag-project-1"
-FORMAL_EVAL_SCORE = "20/20"
-STABILITY_EVIDENCE = "3/3 PASS"
+FORMAL_EVAL_SCORE = "50题HTTP 50/50；内容待专家复核"
+STABILITY_EVIDENCE = "7×24监测累积中（2026-07-01起）"
 KB_IMPORT_SUCCESS_COUNT = int(os.getenv("KB_IMPORT_SUCCESS_COUNT", "398") or "398")
 KB_CHUNK_IMPORT_COUNT = int(os.getenv("KB_CHUNK_IMPORT_COUNT", "3164") or "3164")
 KB_EXTERNAL_IMPORT_COUNT = int(os.getenv("KB_EXTERNAL_IMPORT_COUNT", "1159") or "1159")

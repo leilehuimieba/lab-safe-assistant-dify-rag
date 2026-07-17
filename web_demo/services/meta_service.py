@@ -28,7 +28,7 @@ def get_demo_meta() -> DemoMetaResponse:
     return DemoMetaResponse(
         app_version=APP_VERSION,
         chat_lane_lab="Dify RAG 正式问答链路" if dify_app_key else "Dify 未配置，当前处于结构化回退模式",
-        acceptance_status="project-1-extracted",
+        acceptance_status="预验收中",
         formal_eval_score=FORMAL_EVAL_SCORE,
         stability_status=STABILITY_EVIDENCE,
         knowledge_base_rows=len(get_kb_entries()),
