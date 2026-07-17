@@ -27,6 +27,8 @@ FAST_PATH_KEYWORDS = [
     ("基础应知", ["实验室前", "进入实验室", "注意事项", "基本要求", "实验室穿什么", "可以穿", "准入"]),
     ("气瓶安全", ["气瓶", "钢瓶", "气体", "瓶阀", "减压阀", "气瓶柜"]),
     ("用电安全", ["用电", "电气", "触电", "漏电", "接地", "电源", "插座"]),
+    ("液相色谱", ["hplc", "uhplc", "高效液相色谱", "液相色谱", "流动相", "色谱柱"]),
+    ("生物安全柜", ["生物安全柜", "biosafety cabinet", "bsc", "气流屏障", "前窗"]),
     ("生物安全", ["生物", "细菌", "病毒", "培养", "灭菌", "生物安全柜"]),
     ("液氮低温", ["液氮", "低温", "冷冻", "冻伤", "杜瓦", "-196"]),
     ("高压灭菌", ["高压灭菌", "灭菌锅", "高压釜", "autoclave"]),
@@ -47,7 +49,18 @@ DOMAIN_REQUIRED_MARKERS = {
     "风险评估": ["风险评估", "风险识别", "控制措施", "评估"],
 }
 
-FAST_PATH_HIGH_RISK_ALLOWED_DOMAINS = {"甲醛使用", "二氯甲烷", "重金属废液"}
+FAST_PATH_HIGH_RISK_ALLOWED_DOMAINS = {
+    "甲醛使用",
+    "二氯甲烷",
+    "重金属废液",
+    "废弃物",
+    "生物安全",
+    "用电安全",
+    "液相色谱",
+    "生物安全柜",
+    "马弗炉",
+    "实验室停电",
+}
 
 
 def _match_domain(question: str, citation: Citation, row: dict[str, str] | None = None) -> str | None:
@@ -69,6 +82,10 @@ def _match_domain(question: str, citation: Citation, row: dict[str, str] | None 
 
 def _question_domains(question: str) -> list[str]:
     q = normalize_search_text(question)
+    if any(token in q for token in ["hplc", "uhplc", "高效液相色谱", "液相色谱"]):
+        return ["液相色谱"]
+    if any(token in q for token in ["生物安全柜", "biosafety cabinet", "bsc"]):
+        return ["生物安全柜"]
     domains = [
         domain
         for domain, keywords in FAST_PATH_KEYWORDS
@@ -242,6 +259,15 @@ def _score_row_for_domain(question: str, row: dict[str, str], domain: str) -> fl
     if domain == "化学品储存" and "硝酸" in q and "乙醇" in q:
         if any(token in title_blob + body_blob for token in ["氧化剂", "易燃", "不相容", "隔离", "同层"]):
             score += 3.0
+    if domain == "生物安全柜":
+        if "生物安全柜" in title_blob:
+            score += 8.0
+        if any(token in q for token in ["操作规范", "正确使用", "使用要求"]):
+            if any(token in title_blob for token in ["操作规范", "安全使用", "正确使用", "使用要求"]):
+                score += 30.0
+        if not any(token in q for token in ["紫外", "uv"]):
+            if any(token in title_blob for token in ["紫外", "uv", "手持"]):
+                score -= 35.0
     if "什么时候" in q and any(token in title_blob + body_blob for token in ["何时", "结束后", "用完", "离开"]):
         score += 1.0
 
@@ -347,23 +373,9 @@ def select_fast_path_citations(
             ranked.append((citation.score + best_score, citation))
             seen_ids.add(citation.kb_id)
 
-    for row in get_kb_entries():
-        row_id = row.get("id", "").strip()
-        if not row_id or row_id in seen_ids:
-            continue
-        allowed_scores = []
-        for domain in domains:
-            risk_level = _parse_risk_level(row.get("risk_level", ""))
-            if not _allow_row_by_risk(domain, risk_level):
-                continue
-            allowed_scores.append(_score_row_for_domain(question, row, domain))
-        best_score = max(allowed_scores, default=0.0)
-        if used_history_domains and best_score > 0:
-            best_score += 3.0
-        threshold = 5.4 if used_history_domains else 6.2
-        if best_score >= threshold:
-            ranked.append((best_score, _row_to_citation(row, score=best_score)))
-            seen_ids.add(row_id)
+    # Fast path may only re-rank the citations returned by the primary
+    # retriever. A second repository-wide scan can introduce a merely related
+    # but incorrect object (for example, an incubator for biological waste).
 
     ranked.sort(key=lambda item: item[0], reverse=True)
     selected = [citation for _, citation in ranked[:3]]

@@ -45,9 +45,56 @@ _FORCE_MORE_INFO_PATTERNS = [
     "这个柜子里", "能不能放这里", "这个能不能放", "那个能不能放",
 ]
 
+_QUERY_ANCHOR_GROUPS = [
+    ("liquid_chromatography", ["hplc", "uhplc", "高效液相色谱", "液相色谱"]),
+    ("biosafety_cabinet", ["生物安全柜", "biosafety cabinet", "bsc"]),
+    ("muffle_furnace", ["马弗炉", "muffle furnace"]),
+    ("power_outage", ["突然停电", "实验室停电", "停电应急", "power outage"]),
+    ("high_voltage_supply", ["高压电源"]),
+    ("reactive_metal", ["钠金属", "金属钠", "活泼金属"]),
+    ("autoclave", ["高压灭菌锅", "高压灭菌器", "灭菌锅", "autoclave"]),
+    ("oscilloscope", ["示波器"]),
+    ("vacuum_pump", ["真空泵"]),
+    ("nmr", ["核磁共振", "nmr"]),
+]
+
+
+def _filter_entries_by_query_anchor(
+    question: str, entries: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    q = normalize_search_text(question)
+    active_groups = [
+        terms
+        for _name, terms in _QUERY_ANCHOR_GROUPS
+        if any(normalize_search_text(term) in q for term in terms)
+    ]
+    if not active_groups:
+        return entries
+
+    anchored = []
+    for row in entries:
+        row_text = normalize_search_text(
+            " ".join(
+                [
+                    row.get("title", ""),
+                    row.get("question", ""),
+                    row.get("tags", ""),
+                    row.get("category", ""),
+                    row.get("subcategory", ""),
+                    row.get("hazard_types", ""),
+                ]
+            )
+        )
+        if all(
+            any(normalize_search_text(term) in row_text for term in terms)
+            for terms in active_groups
+        ):
+            anchored.append(row)
+    return anchored or entries
+
 
 def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citation]:
-    entries = get_kb_entries()
+    entries = _filter_entries_by_query_anchor(question, get_kb_entries())
 
     # ---- 语义检索（可选） ----
     semantic_scores: dict[str, float] = {}
@@ -162,6 +209,7 @@ def match_rule(question: str) -> dict[str, Any] | None:
             "action": str(rule.get("action") or "safe_answer"),
             "severity": severity,
             "response": str(rule.get("response") or ""),
+            "enforcement": str(rule.get("enforcement") or ""),
             "score": (SEVERITY_SCORE.get(severity, 1), len(hits), -order),
         }
         if best is None or candidate["score"] > best["score"]:
