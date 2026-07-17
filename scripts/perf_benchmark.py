@@ -21,6 +21,20 @@ import requests
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_API = os.getenv("EVAL_API_BASE", "http://127.0.0.1:8088")
 
+
+def load_demo_password() -> str:
+    configured = os.getenv("DEMO_PASSWORD", "").strip()
+    if configured:
+        return configured
+    env_file = REPO_ROOT / ".env.web_demo"
+    if not env_file.exists():
+        return ""
+    for line in env_file.read_text(encoding="utf-8-sig").splitlines():
+        key, separator, value = line.strip().partition("=")
+        if separator and key.strip() == "DEMO_PASSWORD":
+            return value.strip().strip('"')
+    return ""
+
 BENCH_QUESTIONS = [
     "浓硫酸稀释的正确操作步骤是什么？",
     "实验室发生火灾时正确的处置流程是什么？",
@@ -53,15 +67,22 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--api-base", default=DEFAULT_API, help=f"API base URL (default: {DEFAULT_API})")
     p.add_argument("--timeout", type=int, default=120, help="Per-request timeout in seconds")
     p.add_argument("--warmup", type=int, default=3, help="Warmup rounds (results discarded)")
+    p.add_argument("--demo-password", default=load_demo_password(), help=argparse.SUPPRESS)
     return p.parse_args()
 
 
-def run_one(api_base: str, question: str, timeout: int) -> tuple[int, bool]:
+def run_one(
+    api_base: str,
+    question: str,
+    timeout: int,
+    demo_password: str = "",
+) -> tuple[int, bool]:
     start = time.perf_counter()
     try:
         resp = requests.post(
             f"{api_base.rstrip('/')}/api/chat",
             json={"question": question},
+            headers={"x-password": demo_password} if demo_password else {},
             timeout=(20, timeout),
         )
         elapsed_ms = round((time.perf_counter() - start) * 1000)
@@ -85,7 +106,7 @@ def main() -> int:
         print(f"Warming up ({args.warmup} rounds, {len(warmup_q)} questions)...")
         for _ in range(args.warmup):
             for q in warmup_q:
-                run_one(args.api_base, q, args.timeout)
+                run_one(args.api_base, q, args.timeout, args.demo_password)
         print("Warmup done.\n")
 
     # Benchmark
@@ -97,7 +118,7 @@ def main() -> int:
     for run_idx in range(args.runs):
         print(f"=== Run {run_idx + 1}/{args.runs} ===")
         for idx, q in enumerate(questions):
-            elapsed_ms, ok = run_one(args.api_base, q, args.timeout)
+            elapsed_ms, ok = run_one(args.api_base, q, args.timeout, args.demo_password)
             status = "OK" if ok else "FAIL"
             all_latencies.append({
                 "run": run_idx + 1,

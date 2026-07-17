@@ -32,21 +32,43 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_API = os.getenv("EVAL_API_BASE", "http://127.0.0.1:8088")
 
 
+def load_demo_password() -> str:
+    configured = os.getenv("DEMO_PASSWORD", "").strip()
+    if configured:
+        return configured
+    env_file = REPO_ROOT / ".env.web_demo"
+    if not env_file.exists():
+        return ""
+    for line in env_file.read_text(encoding="utf-8-sig").splitlines():
+        key, separator, value = line.strip().partition("=")
+        if separator and key.strip() == "DEMO_PASSWORD":
+            return value.strip().strip('"')
+    return ""
+
+
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Batch eval runner for lab safety assistant")
     p.add_argument("--eval-set", required=True, help="Path to eval set CSV")
     p.add_argument("--output", required=True, help="Output directory for results")
     p.add_argument("--api-base", default=DEFAULT_API, help=f"API base URL (default: {DEFAULT_API})")
     p.add_argument("--timeout", type=int, default=120, help="Per-request timeout in seconds")
+    p.add_argument("--demo-password", default=load_demo_password(), help=argparse.SUPPRESS)
     return p.parse_args()
 
 
-def run_one(api_base: str, question: str, timeout: int, session_id: str = "") -> dict[str, Any]:
+def run_one(
+    api_base: str,
+    question: str,
+    timeout: int,
+    session_id: str = "",
+    demo_password: str = "",
+) -> dict[str, Any]:
     start = time.perf_counter()
     try:
         resp = requests.post(
             f"{api_base.rstrip('/')}/api/chat",
             json={"mode": "lab", "question": question, "session_id": session_id},
+            headers={"x-password": demo_password} if demo_password else {},
             timeout=(20, timeout),
         )
         elapsed_ms = round((time.perf_counter() - start) * 1000)
@@ -150,7 +172,13 @@ def main() -> int:
 
         extra = f" group={conversation_group} turn={turn_no}" if conversation_group else ""
         print(f"  [{idx}/{len(eval_rows)}] {qid}:{extra} {question[:60]}...", end=" ", flush=True)
-        result = run_one(args.api_base, question, args.timeout, reused_session_id)
+        result = run_one(
+            args.api_base,
+            question,
+            args.timeout,
+            reused_session_id,
+            args.demo_password,
+        )
         status = "OK" if result["http_status"] == 200 else f"ERR {result['http_status']}"
         print(f"{status} {result['elapsed_ms']}ms {result['decision']} {result['model']}")
 

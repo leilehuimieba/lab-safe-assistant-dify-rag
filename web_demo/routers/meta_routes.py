@@ -12,7 +12,7 @@ import os
 import requests
 import time
 
-router = APIRouter(dependencies=[Depends(verify_password)])
+router = APIRouter()
 
 _DIFY_HEALTH_CACHE: dict[str, object] = {
     "checked_at": 0.0,
@@ -41,12 +41,32 @@ def _probe_dify_reachable(dify_base: str) -> tuple[bool, str, bool]:
 
     dify_reachable = False
     dify_error = ""
-    upstream_probe = dify_base[:-3] if dify_base.endswith("/v1") else dify_base
+    app_key = os.getenv("DIFY_APP_API_KEY", "").strip()
+    if not app_key:
+        dify_error = "dify_app_key_missing"
+        _DIFY_HEALTH_CACHE.update({
+            "checked_at": now,
+            "reachable": False,
+            "error": dify_error,
+        })
+        return False, dify_error, False
+
+    upstream_probe = f"{dify_base.rstrip('/')}/parameters"
+    response = None
     try:
-        response = requests.get(upstream_probe, timeout=(1, 2))
-        dify_reachable = 200 <= response.status_code < 500
+        response = requests.get(
+            upstream_probe,
+            headers={"Authorization": f"Bearer {app_key}"},
+            timeout=(1, 2),
+        )
+        dify_reachable = 200 <= response.status_code < 300
+        if not dify_reachable:
+            dify_error = f"dify_http_{response.status_code}"
     except requests.RequestException as exc:
         dify_error = str(exc)
+    finally:
+        if response is not None:
+            response.close()
 
     _DIFY_HEALTH_CACHE.update({
         "checked_at": now,
@@ -70,7 +90,7 @@ def health() -> dict[str, object]:
 
     return {
         "ok": True,
-        "status": "ok",
+        "status": "ok" if dify_reachable else "degraded",
         "service": "lab-safe-assistant",
         "kb_loaded": len(get_kb_entries()),
         "dify_base_url": dify_base,
@@ -81,6 +101,10 @@ def health() -> dict[str, object]:
     }
 
 
-@router.get("/api/meta", response_model=DemoMetaResponse)
+@router.get(
+    "/api/meta",
+    response_model=DemoMetaResponse,
+    dependencies=[Depends(verify_password)],
+)
 def demo_meta() -> DemoMetaResponse:
     return get_demo_meta()

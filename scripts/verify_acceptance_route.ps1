@@ -1,6 +1,7 @@
 param(
     [string]$BaseUrl = "http://127.0.0.1:8091",
     [string]$EnvFile = "",
+    [string]$DemoEnvFile = "",
     [string]$ProbeQuestion = "Please explain the difference between a laboratory SOP and SDS in one sentence.",
     [int]$ExpectedKbRows = 3000,
     [int]$ExpectedKbCategories = 50,
@@ -16,6 +17,9 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 if (-not $EnvFile) {
     $EnvFile = Join-Path $RepoRoot ".env.dify_rag"
+}
+if (-not $DemoEnvFile) {
+    $DemoEnvFile = Join-Path $RepoRoot ".env.web_demo"
 }
 
 function Read-EnvFile {
@@ -57,6 +61,10 @@ if (-not (Test-Path -LiteralPath $EnvFile)) {
 }
 
 $envMap = Read-EnvFile -Path $EnvFile
+$demoEnvMap = if (Test-Path -LiteralPath $DemoEnvFile) { Read-EnvFile -Path $DemoEnvFile } else { @{} }
+$demoPassword = [string]($demoEnvMap["DEMO_PASSWORD"])
+if (-not $demoPassword) { throw "DEMO_PASSWORD is missing in $DemoEnvFile" }
+$demoHeaders = @{ "x-password" = $demoPassword }
 $difyBase = [string]($envMap["DIFY_BASE_URL"])
 $difyKey = [string]($envMap["DIFY_APP_API_KEY"])
 if (-not $difyBase) { throw "DIFY_BASE_URL is missing in $EnvFile" }
@@ -75,7 +83,7 @@ if ([int]$health.kb_loaded -lt $ExpectedKbRows) {
 
 Write-Host "[INFO] Checking KB summary and paged entries..."
 $kbSummary = Invoke-WithRetry -Label "KB summary" -ScriptBlock {
-    Invoke-RestMethod -Uri "$BaseUrl/api/kb/summary" -Method Get -TimeoutSec 20
+    Invoke-RestMethod -Uri "$BaseUrl/api/kb/summary" -Method Get -Headers $demoHeaders -TimeoutSec 20
 }
 if ([int]$kbSummary.total_entries -lt $ExpectedKbRows) {
     throw "Expected KB total_entries >= $ExpectedKbRows, got $($kbSummary.total_entries)"
@@ -85,7 +93,7 @@ if ([int]$kbSummary.total_categories -lt $ExpectedKbCategories) {
 }
 
 $kbEntries = Invoke-WithRetry -Label "KB paged entries" -ScriptBlock {
-    Invoke-RestMethod -Uri "$BaseUrl/api/kb/entries?limit=$KbPageLimit&offset=0" -Method Get -TimeoutSec 20
+    Invoke-RestMethod -Uri "$BaseUrl/api/kb/entries?limit=$KbPageLimit&offset=0" -Method Get -Headers $demoHeaders -TimeoutSec 20
 }
 $entryCount = @($kbEntries.entries).Count
 if ([int]$kbEntries.total -lt $ExpectedKbRows) {
@@ -115,7 +123,7 @@ $payload = @{
     user_id = "acceptance-route"
 } | ConvertTo-Json -Compress
 $chat = Invoke-WithRetry -Label "Demo chat route" -ScriptBlock {
-    Invoke-RestMethod -Uri "$BaseUrl/api/chat" -Method Post -ContentType "application/json" -Body $payload -TimeoutSec 90
+    Invoke-RestMethod -Uri "$BaseUrl/api/chat" -Method Post -Headers $demoHeaders -ContentType "application/json" -Body $payload -TimeoutSec 90
 }
 if ($chat.model -ne "dify-workflow") {
     throw "Expected model=dify-workflow, got model=$($chat.model), decision=$($chat.decision)"

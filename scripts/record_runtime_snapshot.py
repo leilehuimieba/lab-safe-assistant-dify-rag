@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -15,6 +16,20 @@ import requests
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def load_demo_password() -> str:
+    configured = os.getenv("DEMO_PASSWORD", "").strip()
+    if configured:
+        return configured
+    env_file = REPO_ROOT / ".env.web_demo"
+    if not env_file.exists():
+        return ""
+    for line in env_file.read_text(encoding="utf-8-sig").splitlines():
+        key, separator, value = line.strip().partition("=")
+        if separator and key.strip() == "DEMO_PASSWORD":
+            return value.strip().strip('"')
+    return ""
 
 
 def parse_args() -> argparse.Namespace:
@@ -31,6 +46,7 @@ def parse_args() -> argparse.Namespace:
         help="Directory for runtime snapshots",
     )
     parser.add_argument("--timeout", type=int, default=15, help="HTTP timeout seconds")
+    parser.add_argument("--demo-password", default=load_demo_password(), help=argparse.SUPPRESS)
     return parser.parse_args()
 
 
@@ -40,9 +56,18 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def fetch_json(url: str, timeout: int) -> tuple[int, dict[str, Any], str]:
+def fetch_json(
+    url: str,
+    timeout: int,
+    demo_password: str = "",
+) -> tuple[int, dict[str, Any], str]:
+    resp = None
     try:
-        resp = requests.get(url, timeout=(8, timeout))
+        resp = requests.get(
+            url,
+            headers={"x-password": demo_password} if demo_password else {},
+            timeout=(8, timeout),
+        )
         payload: dict[str, Any] = {}
         err = ""
         try:
@@ -52,6 +77,9 @@ def fetch_json(url: str, timeout: int) -> tuple[int, dict[str, Any], str]:
         return resp.status_code, payload, err
     except Exception as exc:
         return 0, {}, str(exc)
+    finally:
+        if resp is not None:
+            resp.close()
 
 
 def append_csv(path: Path, row: dict[str, Any], headers: list[str]) -> None:
@@ -72,9 +100,15 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     runtime = load_json(runtime_file)
-    health_status, health_payload, health_error = fetch_json(f"{base_url}/health", args.timeout)
-    meta_status, meta_payload, meta_error = fetch_json(f"{base_url}/api/meta", args.timeout)
-    stats_status, stats_payload, stats_error = fetch_json(f"{base_url}/api/stats", args.timeout)
+    health_status, health_payload, health_error = fetch_json(
+        f"{base_url}/health", args.timeout, args.demo_password
+    )
+    meta_status, meta_payload, meta_error = fetch_json(
+        f"{base_url}/api/meta", args.timeout, args.demo_password
+    )
+    stats_status, stats_payload, stats_error = fetch_json(
+        f"{base_url}/api/stats", args.timeout, args.demo_password
+    )
 
     dify_base_url = str(health_payload.get("dify_base_url") or meta_payload.get("dify_base_url") or "")
     dify_host = ""
