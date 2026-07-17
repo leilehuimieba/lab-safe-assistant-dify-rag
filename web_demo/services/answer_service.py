@@ -324,6 +324,10 @@ def build_rule_answer(rule: dict[str, Any], citations: list[Citation]) -> str:
     )
 
 
+def _split_semi_list(text: str) -> list[str]:
+    return [part.strip() for part in (text or "").replace("；", ";").split(";") if part.strip()]
+
+
 def build_fallback_lab_answer(
     question: str,
     citations: list[Citation],
@@ -334,25 +338,57 @@ def build_fallback_lab_answer(
         [int(float(item.risk_level)) for item in citations if str(item.risk_level).replace(".", "", 1).isdigit()] or [3]
     )
     risk_text = RISK_LABEL.get(highest_risk, "Medium")
-    top_title = citations[0].title if citations else "No direct KB match"
+    top = citations[0] if citations else None
+    top_title = top.title if top else "No direct KB match"
     notes = low_confidence_reason or "upstream unavailable"
     guard = str((rule or {}).get("response") or "").strip()
+
+    kb_steps = _split_semi_list(top.steps) if top else []
+    kb_first_aid = _split_semi_list(top.first_aid) if top else []
+    kb_forbidden = _split_semi_list(top.forbidden) if top else []
+    kb_emergency = (top.emergency if top else "").strip()
+
+    if kb_steps:
+        step_lines = [f"{i}. {item}。" for i, item in enumerate(kb_steps, start=1)]
+        if kb_first_aid:
+            step_lines.append("若已发生伤害，参考急救处置：")
+            step_lines.extend(f"- {item}。" for item in kb_first_aid)
+        steps_block = "\n".join(step_lines)
+    else:
+        steps_block = (
+            "1. 先暂停操作并隔离能量、反应或暴露源。\n"
+            "2. 重新核对 PPE、围护、通风和应急设备状态。\n"
+            "3. 按书面 SOP 执行，并明确一人控制、一人观察、一人上报。\n"
+            "4. 如已出现受伤、起火、泄漏或异常反应，立即启动应急预案。"
+        )
+
+    if kb_forbidden:
+        forbidden_block = "\n".join(f"- {item}。" for item in kb_forbidden)
+    else:
+        forbidden_block = (
+            "- 未经授权或无人监护时禁止继续操作。\n"
+            "- 禁止绕过通风、断电锁定、屏蔽或废弃物分类要求。\n"
+            "- 禁止隐瞒异常情况或延迟上报。"
+        )
+
+    if kb_emergency:
+        escalation_block = f"- {kb_emergency}。"
+    else:
+        escalation_block = (
+            "- 人员受伤或暴露：先冲洗或隔离，再联系医疗支持。\n"
+            "- 存在起火或爆炸风险：立即撤离并联系应急力量。\n"
+            "- 存在泄漏：先警戒隔离，再按泄漏 SOP 处置。"
+        )
+
     return (
         "结论:\n"
         f"请将该问题视为 {risk_text} 风险等级的实验室安全场景，优先依照本地 SOP 处理，不要临场 improvising。\n\n"
         "步骤:\n"
-        "1. 先暂停操作并隔离能量、反应或暴露源。\n"
-        "2. 重新核对 PPE、围护、通风和应急设备状态。\n"
-        "3. 按书面 SOP 执行，并明确一人控制、一人观察、一人上报。\n"
-        "4. 如已出现受伤、起火、泄漏或异常反应，立即启动应急预案。\n\n"
+        f"{steps_block}\n\n"
         "禁止事项:\n"
-        "- 未经授权或无人监护时禁止继续操作。\n"
-        "- 禁止绕过通风、断电锁定、屏蔽或废弃物分类要求。\n"
-        "- 禁止隐瞒异常情况或延迟上报。\n\n"
+        f"{forbidden_block}\n\n"
         "应急升级:\n"
-        "- 人员受伤或暴露：先冲洗或隔离，再联系医疗支持。\n"
-        "- 存在起火或爆炸风险：立即撤离并联系应急力量。\n"
-        "- 存在泄漏：先警戒隔离，再按泄漏 SOP 处置。\n\n"
+        f"{escalation_block}\n\n"
         "参考依据:\n"
         f"- top context: {top_title}\n"
         f"{format_citation_lines(citations)}\n\n"

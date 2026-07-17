@@ -56,6 +56,8 @@ _QUERY_ANCHOR_GROUPS = [
     ("oscilloscope", ["示波器"]),
     ("vacuum_pump", ["真空泵"]),
     ("nmr", ["核磁共振", "nmr"]),
+    ("hydrofluoric_acid", ["氢氟酸", "hydrofluoric"]),
+    ("drying_oven", ["烘箱", "干燥箱"]),
 ]
 
 
@@ -188,6 +190,10 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
                 risk_level=row.get("risk_level", ""),
                 snippet=snippet,
                 score=round(score, 3),
+                steps=row.get("steps", ""),
+                forbidden=row.get("forbidden", ""),
+                first_aid=row.get("first_aid", ""),
+                emergency=row.get("emergency", ""),
             )
         )
     return citations

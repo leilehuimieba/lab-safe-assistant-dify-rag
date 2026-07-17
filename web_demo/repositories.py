@@ -89,13 +89,14 @@ def load_kb_entries() -> list[dict[str, str]]:
             steps = (row.get("steps") or "").strip()
             forbidden = (row.get("forbidden") or "").strip()
             emergency = (row.get("emergency") or "").strip()
+            first_aid = (row.get("first_aid") or "").strip()
             ppe = (row.get("ppe") or "").strip()
             hazard_types = (row.get("hazard_types") or "").strip()
             tags = (row.get("tags") or "").strip()
-            blob = normalize_search_text(" ".join([title, question, answer, steps, forbidden, emergency, ppe, hazard_types, tags]))
+            blob = normalize_search_text(" ".join([title, question, answer, steps, forbidden, emergency, first_aid, ppe, hazard_types, tags]))
             title_blob = normalize_search_text(" ".join([title, question]))
             tag_blob = normalize_search_text(" ".join([hazard_types, tags]))
-            body_blob = normalize_search_text(" ".join([answer, steps, forbidden, emergency, ppe]))
+            body_blob = normalize_search_text(" ".join([answer, steps, forbidden, emergency, first_aid, ppe]))
             rows.append({
                 "id": (row.get("id") or "").strip(),
                 "title": title,
@@ -111,6 +112,7 @@ def load_kb_entries() -> list[dict[str, str]]:
                 "steps": steps,
                 "forbidden": forbidden,
                 "emergency": emergency,
+                "first_aid": first_aid,
                 "ppe": ppe,
                 "tags": tags,
                 "title_blob": title_blob,

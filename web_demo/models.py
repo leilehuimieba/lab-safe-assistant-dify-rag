@@ -15,6 +15,10 @@ class Citation(BaseModel):
     risk_level: str = ""
     snippet: str = ""
     score: float = 0.0
+    steps: str = ""
+    forbidden: str = ""
+    first_aid: str = ""
+    emergency: str = ""
 
 class TimingBreakdown(BaseModel):
     total_ms: int = 0
