@@ -18,7 +18,7 @@ from ..repositories import DEFAULT_TOP_K, DIFY_DEFAULT_TIMEOUT, REPO_ROOT
 from ..services import (
     retrieve_citations, match_rule, should_enforce_terminal_rule, should_force_more_info,
     build_rule_answer, assess_low_confidence, append_low_confidence_followup,
-    append_low_confidence_followup_notice, call_dify_lab,
+    append_low_confidence_followup_notice, looks_truncated, append_truncation_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
     select_fast_path_citations, build_fast_path_answer,
@@ -235,6 +235,9 @@ def chat(payload: ChatRequest) -> ChatResponse:
             cached_citations = cached.get("citations") or []
             if isinstance(cached_citations, list) and cached_citations:
                 citations = cached_citations
+            cache_truncated = looks_truncated(answer) if model == "dify-workflow" else False
+            if cache_truncated:
+                answer = append_truncation_notice(answer)
             elapsed_ms = round((time.perf_counter() - t0) * 1000)
             _record_metrics(total_ms=elapsed_ms, **timings)
             add_history(session.session_id, question, answer)
@@ -249,6 +252,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
                 matched_rule_action="",
                 low_confidence=False,
                 low_confidence_reason="",
+                answer_possibly_truncated=cache_truncated,
                 followup_logged=False,
                 elapsed_ms=elapsed_ms,
                 session_id=session.session_id,
@@ -281,6 +285,10 @@ def chat(payload: ChatRequest) -> ChatResponse:
         answer = build_fallback_lab_answer(question=question, citations=citations, rule=rule, low_confidence_reason=low_reason)
         model = "fallback-rule-engine"
 
+    answer_possibly_truncated = looks_truncated(answer) if model == "dify-workflow" else False
+    if answer_possibly_truncated:
+        answer = append_truncation_notice(answer)
+
     if low_confidence:
         followup_logged = append_low_confidence_followup(
             question=question,
@@ -310,6 +318,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
         matched_rule_action=rule_action,
         low_confidence=low_confidence,
         low_confidence_reason=low_reason,
+        answer_possibly_truncated=answer_possibly_truncated,
         followup_logged=followup_logged,
         elapsed_ms=elapsed_ms,
         session_id=session.session_id,

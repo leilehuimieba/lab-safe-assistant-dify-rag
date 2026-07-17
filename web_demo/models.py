@@ -38,6 +38,7 @@ class ChatResponse(BaseModel):
     matched_rule_action: str = ""
     low_confidence: bool = False
     low_confidence_reason: str = ""
+    answer_possibly_truncated: bool = False
     followup_logged: bool = False
     elapsed_ms: int = 0
     session_id: str = ""

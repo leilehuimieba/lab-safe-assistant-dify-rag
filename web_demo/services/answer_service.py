@@ -7,6 +7,7 @@ from __future__ import annotations
 - build_rule_answer: 按匹配规则生成标准化安全回答
 - build_fallback_lab_answer: 在上游服务不可用时生成结构化回退回答
 - append_low_confidence_followup_notice: 在回答末尾追加低置信度提示附注
+- looks_truncated: 判断上游回答是否疑似因长度限制被截断
 """
 
 import csv
@@ -36,6 +37,39 @@ def assess_low_confidence(citations: list[Citation]) -> tuple[bool, str]:
     if citations[0].score < threshold:
         return True, f"top_score_below_threshold:{citations[0].score}<{threshold}"
     return False, ""
+
+
+
+# DeepSeek's answers commonly end in one of several ways that are NOT
+# truncation even though they don't end in "." or "。":
+#   - a bare bolded list item, e.g. "...-**丙酮废液如何处理**" (ends in "*")
+#   - a closing Chinese quote, e.g. "...“呼吸防护设备选择对照表”" (ends in "”")
+# A prior version of this heuristic tried to strip a trailing "如果你愿意/如果需要..."
+# offer-to-elaborate clause before checking, on the theory that it's always an
+# unpunctuated sign-off tacked onto a complete answer. That's wrong in general:
+# the offer clause is often itself a complete, properly punctuated sentence
+# (e.g. "...如果你愿意，我还可以进一步整理成“...”简明版。"), and stripping it discarded
+# that trailing "。" and inspected the wrong (unpunctuated list item) character
+# instead, producing false positives. Simplest correct fix: just look at the
+# actual last character of the actual last thing the model wrote.
+_SENTENCE_END_CHARS = "。！？；.!?;\"')）】》」』*“”‘’"
+
+
+def looks_truncated(answer: str) -> bool:
+    """Heuristic: flag Dify-generated answers that stop mid-sentence (hit a
+    token/length limit) instead of ending on normal closing punctuation."""
+    text = (answer or "").strip()
+    if not text:
+        return False
+    return text[-1] not in _SENTENCE_END_CHARS
+
+
+def append_truncation_notice(answer: str) -> str:
+    note = "附注：本回答可能因生成长度限制被截断，请核实关键安全步骤是否完整，必要时联系实验室安全管理人员确认。"
+    text = (answer or "").strip()
+    if not text or note in text:
+        return text or note
+    return f"{text}\n\n{note}"
 
 
 def append_low_confidence_followup(
