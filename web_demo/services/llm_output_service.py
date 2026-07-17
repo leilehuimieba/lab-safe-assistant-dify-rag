@@ -37,5 +37,9 @@ def sanitize_llm_output(text: str) -> str:
     cleaned = fix_mojibake_text(text or "")
     cleaned = re.sub(r"<think\b[^>]*>.*?</think>", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
     cleaned = re.sub(r"```(?:think|thought|reasoning)[^\n]*\n.*?```", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    # Generation truncated mid-thought (no closing tag): drop everything from the
+    # unclosed <think> onward rather than leaking raw reasoning to the user.
+    cleaned = re.sub(r"<think\b[^>]*>.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"```(?:think|thought|reasoning)[^\n]*\n.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
     cleaned = cleaned.strip()
     return cleaned or "No answer returned."
