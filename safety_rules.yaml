@@ -14,6 +14,22 @@ global_policy:
   cite_sources: true
 
 rules:
+  - id: R-028
+    category: common_prohibited_behaviors
+    match_type: keywords
+    patterns: ["常见的禁止行为", "实验室禁止行为", "实验室里禁止"]
+    action: direct_safe_answer
+    severity: medium
+    response: "实验室禁止行为应覆盖人员准入、个人防护、饮食卫生、无人值守、高风险操作和废弃物处置等基本红线。"
+
+  - id: R-029
+    category: daily_closing_check
+    match_type: keywords
+    patterns: ["每天下班前", "下班前必须检查", "离开实验室前检查", "关门前检查"]
+    action: direct_safe_answer
+    severity: medium
+    response: "离开实验室前必须完成书面安全检查，确认人员、设备、气源、水电、通风和危化品均处于安全状态并做好记录。"
+
   - id: R-025
     category: incompatible_storage_pair
     match_type: keywords
@@ -122,6 +138,22 @@ rules:
     action: redirect_emergency
     severity: high
     response: "若化学品溅入眼睛：立即用洗眼器或大量清水持续冲洗，同时联系实验室管理人员并尽快就医。"
+
+  - id: R-027
+    category: reactive_metal_storage
+    match_type: keywords
+    patterns: ["钠金属", "金属钠", "活泼金属"]
+    action: direct_safe_answer
+    severity: high
+    response: "金属钠、钾等活泼金属必须与水和潮气严格隔离，按SDS和本单位SOP在合适的惰性覆盖介质及密闭容器中储存，并由受训人员处置。"
+
+  - id: R-026
+    category: reactive_metal_fire
+    match_type: keywords
+    patterns: ["金属钠着火", "钠着火", "钾着火", "活泼金属着火", "金属火灾"]
+    action: redirect_emergency
+    severity: critical
+    response: "金属钠、钾等活泼金属着火属于特殊金属火灾：立即停止操作、隔离现场，优先使用适用的D类灭火剂或干燥砂土覆盖窒息；无法控制时立即撤离并报警。"
 
   - id: R-013
     category: fire_smoke
