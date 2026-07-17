@@ -84,3 +84,12 @@ untraceable_medium_removal_report.md
 high_risk_removal_list.csv
 high_risk_removal_report.md
 removal_candidates.csv
+
+# 结题材料渲染/校对过程产物（本地临时，不进正式仓库）
+docs/conclusion_2026/official_sources/
+docs/conclusion_2026/official_working/
+docs/conclusion_2026/rendered_final_word*/
+docs/conclusion_2026/rendered_libreoffice_fixed*/
+artifacts/conclusion_2026/
+artifacts/dify_rag_20260716/
+artifacts/libreoffice_diagnostics/
