@@ -41,12 +41,24 @@ _model: Any = None
 _index_states: dict[str, dict[str, Any]] = {}
 
 
+def _embedding_enabled() -> bool:
+    """语义 Embedding 检索是可选功能，默认关闭。
+
+    全项目的运行口径是关键词检索 RAG（见 docs/ops/部署与运行说明.md 与
+    .env.dify_rag：ENABLE_EMBEDDING=0）。这里默认关闭，可避免不加载 .env 的脚本
+    （如 scripts/quality_gate.py、pytest）在首次调用时阻塞于约 2GB 的 bge-m3 模型
+    下载——该下载在无缓存或访问 HuggingFace 受限时会长时间挂起且不抛异常。
+    需要启用语义检索时显式设置 ENABLE_EMBEDDING=1。
+    """
+    return os.getenv("ENABLE_EMBEDDING", "0") == "1"
+
+
 def _get_model() -> Any:
     """懒加载 SentenceTransformer 模型（单例线程安全）。"""
     global _model
     if _model is not None:
         return _model
-    if not ST_AVAILABLE or os.getenv("ENABLE_EMBEDDING", "1") != "1":
+    if not ST_AVAILABLE or not _embedding_enabled():
         return None
     with _lock:
         if _model is not None:
@@ -148,7 +160,7 @@ def semantic_search(
     如果依赖不可用、模型加载失败或发生异常，返回 None，调用方应 fallback 到文本检索。
     """
     global _index_states
-    if os.getenv("ENABLE_EMBEDDING", "1") != "1":
+    if not _embedding_enabled():
         return None
     if EMBEDDING_BACKEND == "sentence-transformers" and not ST_AVAILABLE:
         return None
