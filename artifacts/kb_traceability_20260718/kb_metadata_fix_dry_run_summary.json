@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-18T14:31:28.658885+00:00",
+  "kb_path": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\knowledge_base_curated.csv",
+  "dry_run": true,
+  "row_count": 3009,
+  "changed_row_count": 71,
+  "change_counts": {
+    "references_source_org_appended": 70,
+    "references_source_title_appended": 1
+  },
+  "report_csv": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\kb_traceability_20260718\\kb_metadata_fix_dry_run.csv"
+}

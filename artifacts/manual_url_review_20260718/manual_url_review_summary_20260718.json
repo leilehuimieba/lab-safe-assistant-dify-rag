@@ -1,0 +1,10 @@
+{
+  "non_open_url_count": 376,
+  "p1_url_count": 342,
+  "p2_url_count": 34,
+  "blocked_or_forbidden": 337,
+  "network_error": 39,
+  "all_csv": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\manual_url_review_20260718\\manual_url_review_all_non_open_20260718.csv",
+  "priority_csv": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\manual_url_review_20260718\\manual_url_review_priority_top80_20260718.csv",
+  "by_domain_csv": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\manual_url_review_20260718\\manual_url_review_by_domain_20260718.csv"
+}

@@ -1,0 +1,72 @@
+﻿id,title,category,old_subcategory,new_subcategory,old_risk_level,new_risk_level,source_url,changes
+WEB-001-001,实验室安全的基本要求,通用,基本要求,基本要求,3,3,https://linxue.njfu.edu.cn/aqgz/sysaq/20210929/i230277.html,references_source_org_appended
+WEB-002-001,实验室一般安全规范,通用,安全规范,安全规范,3,3,https://eetc.qlu.edu.cn/2012/1207/c1403a25377/page.htm,references_source_org_appended
+WEB-003-001,实验室安全守则,通用,安全守则,安全守则,3,3,https://huihua.hebtu.edu.cn/s/zhuanti/page/8.html,references_source_org_appended
+WEB-004-001,实验室化学品安全管理实施细则,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-002,实验室化学品安全管理实施细则（片段2）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-003,实验室化学品安全管理实施细则（片段3）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-004,实验室化学品安全管理实施细则（片段4）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-005,实验室化学品安全管理实施细则（片段5）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-006,实验室化学品安全管理实施细则（片段6）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-007,实验室化学品安全管理实施细则（片段7）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-008,实验室化学品安全管理实施细则（片段8）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-009,实验室化学品安全管理实施细则（片段9）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-004-010,实验室化学品安全管理实施细则（片段10）,化学,化学品管理,化学品管理,4,4,https://sbc.sysu.edu.cn/article/670,references_source_org_appended
+WEB-007-001,化学化工实验室安全管理规范,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-002,化学化工实验室安全管理规范（片段2）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-003,化学化工实验室安全管理规范（片段3）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-004,化学化工实验室安全管理规范（片段4）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-005,化学化工实验室安全管理规范（片段5）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-006,化学化工实验室安全管理规范（片段6）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-007,化学化工实验室安全管理规范（片段7）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-008,化学化工实验室安全管理规范（片段8）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-009,化学化工实验室安全管理规范（片段9）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-010,化学化工实验室安全管理规范（片段10）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-011,化学化工实验室安全管理规范（片段11）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-012,化学化工实验室安全管理规范（片段12）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-013,化学化工实验室安全管理规范（片段13）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-014,化学化工实验室安全管理规范（片段14）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-007-015,化学化工实验室安全管理规范（片段15）,化学,安全管理,安全管理,4,4,https://sbc.sysu.edu.cn/article/570,references_source_org_appended
+WEB-009-001,实验室危险废弃物安全处置管理办法,化学,危废管理,危废管理,4,4,https://sbc.cug.edu.cn/info/1234/3228.htm,references_source_org_appended
+WEB-009-002,实验室危险废弃物安全处置管理办法（片段2）,化学,危废管理,危废管理,4,4,https://sbc.cug.edu.cn/info/1234/3228.htm,references_source_org_appended
+WEB-010-001,高等学校实验室安全规范（教育部）,通用,国家规范,国家规范,3,3,https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml,references_source_org_appended
+WEB-010-002,高等学校实验室安全规范（教育部）（片段2）,通用,国家规范,国家规范,3,3,https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml,references_source_org_appended
+WEB-010-003,高等学校实验室安全规范（教育部）（片段3）,通用,国家规范,国家规范,3,3,https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml,references_source_org_appended
+WEB-010-004,高等学校实验室安全规范（教育部）（片段4）,通用,国家规范,国家规范,3,3,https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml,references_source_org_appended
+WEB-010-005,高等学校实验室安全规范（教育部）（片段5）,通用,国家规范,国家规范,3,3,https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml,references_source_org_appended
+WEBX-001-001,Chemical Hygiene Plan,化学,安全管理,安全管理,4,4,https://ehs.cornell.edu/research-safety/chemical-safety/chemical-hygiene-plan,references_source_org_appended
+WEBX-002-001,Chemical Hygiene Plan,化学,安全管理,安全管理,4,4,https://ehs.berkeley.edu/safety-subjects/chemical-safety/chemical-hygiene-plan,references_source_org_appended
+WEBX-003-001,Information on Hydrofluoric Acid,化学,化学品管理,化学品管理,5,5,https://ehs.stanford.edu/reference/information-hydrofluoric-acid,references_source_org_appended
+WEBX-005-001,Information on Pyrophoric Compounds,化学,危化品管理,危化品管理,5,5,https://ehs.stanford.edu/reference/working-air-sensitive-or-highly-reactive-compounds,references_source_org_appended
+WEBX-007-001,5.11 Peroxide Forming Chemicals,化学,危化品管理,危化品管理,5,5,https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/511-peroxide-forming-chemicals,references_source_org_appended
+WEBX-009-001,5.6 Compressed Gases,设备,气瓶管理,气瓶管理,4,4,https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/56-compressed-gases,references_source_org_appended
+WEBX-010-001,Compressed Gas Cylinder Safety,设备,气瓶管理,气瓶管理,4,4,https://ehs.mit.edu/chemical-safety-program/compressed-gas-cylinder-safety/,references_source_org_appended
+WEBX-011-001,Compressed Gas and Cryogenics,设备,气瓶管理,气瓶管理,4,4,https://ehs.stonybrook.edu/programs/laboratory-safety/chemical-safety/compressed-gas-and-cryogenics,references_source_org_appended
+WEBX-012-001,5.7 Cryogens,设备,低温安全,低温安全,4,4,https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/57-cryogens,references_source_org_appended
+WEBX-013-001,Cryogens,设备,低温安全,低温安全,4,4,https://ehs.utexas.edu/working-safely/equipment-safety/cryogens,references_source_org_appended
+WEBX-014-001,Cryogens,设备,低温安全,低温安全,4,4,https://www.ehs.ufl.edu/departments/research-safety-services/chemical-safety/cryogens/,references_source_org_appended
+WEBX-015-001,Autoclave Safety,生物,设备安全,设备安全,4,4,https://www.ehs.washington.edu/biological/biohazardous-waste/autoclave-safety,references_source_org_appended
+WEBX-016-001,Autoclaves,生物,设备安全,设备安全,4,4,https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/autoclaves,references_source_org_appended
+WEBX-017-001,Centrifuges,设备,设备安全,设备安全,4,4,https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/centrifuges,references_source_org_appended
+WEBX-018-001,Laboratory Safety Manual,通用,安全手册,安全手册,4,4,https://ehs.cornell.edu/book/export/html/237,references_source_org_appended
+WEBX-019-001,Biosafety in Microbiological and Biomedical Laboratories (BMBL) 6th Edition,生物,安全管理,安全管理,5,5,https://www.cdc.gov/labs/bmbl/index.html,references_source_org_appended
+WEBX-020-001,Laboratory biosafety manual 4th edition: Risk Assessment,生物,安全管理,安全管理,5,5,https://www.who.int/publications/i/item/9789240011458,references_source_org_appended
+WEBX-022-001,Biosafety Manual,生物,设备安全,设备安全,5,5,https://ehs.yale.edu/sites/default/files/files/biosafety-manual.pdf,references_source_org_appended
+WEBX-027-001,School Chemistry Laboratory Safety Guide,通用,安全手册,安全手册,3,3,https://www.cdc.gov/niosh/docs/2007-107/default.html,references_source_org_appended
+WEBX-028-001,实验室危险废弃物如何处理,生物,危废处置,危废处置,4,4,https://life.sjtu.edu.cn/En/Data/View/6074,references_source_org_appended
+WEBX-029-001,生物安全操作规范,生物,SOP,SOP,5,5,https://www.muhn.edu.cn/kletme/info/1164/1522.htm,references_source_org_appended
+WEBX-030-001,关于印发《武汉市大专院校、科研单位、中学实验室剧毒化学品、易制爆危险化学品储存与使用管理规范》的通知,化学,危化品管理,危化品管理,5,5,https://www.wuhan.gov.cn/gwfbpt/sbm/sgaj_79493/202403/t20240313_2372418.shtml,references_source_org_appended
+WEBX-031-001,宜春学院实验室危险化学品、易制毒化学品管理办法,化学,危化品管理,危化品管理,5,5,https://sysglzx.jxycu.edu.cn/2024/0619/c4101a129320/page.htm,references_source_org_appended
+WEBX-032-001,易制毒、易制爆、危险化学品管理规章制度,化学,危化品管理,危化品管理,5,5,https://chem.fjnu.edu.cn/86/7f/c17280a362111/page.htm,references_source_org_appended
+WEBX-035-001,关于加强实验室特种设备（压力容器）专项管理的通知,设备,设备安全,设备安全,4,4,https://xxgk.hznu.edu.cn/c/2024-06-03/2969471.shtml,references_source_org_appended
+WEBX-037-001,实验室化学废弃物收集处理管理规定（试行）,化学,危废处置,危废处置,4,4,https://www.hbmzu.edu.cn/sfzx/info/1017/1119.htm,references_source_org_appended
+WEBX-039-001,化学实验室气瓶、化学品和消防安全要点,通用,安全规范,安全规范,4,4,https://ccce.csu.edu.cn/info/1591/7436.htm,references_source_org_appended
+WEBX-040-001,实验室危险废弃物、废液处置流程,化学,废液处置,废液处置,4,4,https://chemlab.jhun.edu.cn/4b/ea/c4541a84970/pagem.htm,references_source_org_appended
+WEB82-024-001,HSE Biosafety Blood-borne Viruses,生物,安全规范,安全规范,4,4,https://www.hse.gov.uk/biosafety/blood-borne-viruses/index.htm,references_source_org_appended
+WEB82-025-001,HSE Biosafety GMO,生物,安全规范,安全规范,4,4,https://www.hse.gov.uk/biosafety/gmo/index.htm,references_source_org_appended
+WEB82-026-001,HSE Biosafety Infection,生物,安全规范,安全规范,4,4,https://www.hse.gov.uk/biosafety/infection.htm,references_source_org_appended
+WEB82-027-001,HSE COSHH,标准,国家规范,国家规范,4,4,https://www.hse.gov.uk/coshh/,references_source_org_appended
+WEBX-047-001,Biological Safety Cabinets,生物,设备安全,设备安全,5,5,https://www.ehs.washington.edu/biological/biological-safety-cabinets,references_source_org_appended
+WEBX-048-001,Biological Safety Cabinets,生物,设备安全,设备安全,5,5,https://dehs.umn.edu/biological-safety-cabinets,references_source_org_appended
+WEBX-049-001,Laser Safety Program,辐射,辐射安全,辐射安全,5,5,https://ehs.stanford.edu/topic/radiation-safety/laser-safety,references_source_org_appended
+KB-RECO-0283,Stony Brook大学通风橱使用安全规程,通用,通风橱使用,通风橱使用,3,3,https://ehs.stonybrook.edu/_pdfs/EHS_Policy_4.5_Laboratory_Chemical_Fume_Hood_Safety_Program.pdf,references_source_title_appended

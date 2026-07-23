@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-07-18T15:27:44.871542+00:00",
+  "before_kb": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\kb_traceability_20260718\\knowledge_base_curated.before_metadata_fix.csv",
+  "current_kb": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\knowledge_base_curated.csv",
+  "changed_row_count": 95,
+  "unique_old_url_count": 44,
+  "unique_new_url_count": 42,
+  "report_csv": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\artifacts\\kb_traceability_20260718\\kb_url_replacements_register_20260718.csv"
+}
