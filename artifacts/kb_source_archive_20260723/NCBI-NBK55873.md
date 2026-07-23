@@ -1,0 +1,634 @@
+# Environmental Health and Safety Management System - Prudent Practices in the Laboratory - NCBI Bookshelf
+
+- Original citation URL: https://www.ncbi.nlm.nih.gov/books/NBK55873/
+- Retrieved: 2026-07-23
+- Source: NCBI Bookshelf (National Library of Medicine, publicly accessible)
+
+---
+
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+National Research Council (US) Committee on Prudent Practices in the Laboratory. Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version. Washington (DC): National Academies Press (US); 2011.
+
+[![Cover of Prudent Practices in the Laboratory](/corehtml/pmc/pmcgifs/bookshelf/thumbs/th-nap12654-lrg.png)](/books/n/nap12654/ "Table of Contents Page")
+
+## Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards: Updated Version.
+
+[Show details](#__NBK55873_dtls__)
+
+National Research Council (US) Committee on Prudent Practices in the Laboratory.
+
+Washington (DC): [National Academies Press (US)](http://www.nap.edu/); 2011.
+
+* [Contents](/books/n/nap12654/)
+* [Hardcopy Version at National Academies Press](http://www.nap.edu/catalog.php?record_id=12654)
+
+Search term
+
+[< Prev](/books/n/nap12654/ch1/ "Previous page in this title")[Next >](/books/n/nap12654/ch3/ "Next page in this title")
+
+# 2Environmental Health and Safety Management System
+
+## 2.A. INTRODUCTION
+
+Many people are interested in an organization's approach to laboratory environmental health and safety (EHS) management including laboratory personnel; customers, clients, and students (if applicable); suppliers; the community; shareholders; contractors; insurers; and regulatory agencies. More and more organizations attach the same importance to high standards in EHS management as they do to other key aspects of their activities. High standards demand a structured approach to the identification of hazards and the evaluation and control of work-related risks.
+
+A comprehensive legal framework already exists for laboratory EHS management. This framework requires organizations to manage their activities in order to anticipate and prevent circumstances that might result in occupational injury, ill health, or adverse environmental impact. This chapter seeks to improve the EHS performance of organizations by providing guidance on EHS to integrate EHS management with other aspects of the organization.
+
+Many features of effective EHS management are identical to management practices advocated by proponents of quality assurance and business excellence. The guidelines presented here are based on general principles of good management and are designed to integrate EHS management within an overall management system.[1](#ch2.fn1) By establishing an EHS management system, EHS risks are controlled in a systematic proactive manner.
+
+Within many organizations, some elements of EHS management are already in place, such as policy and risk assessment records, but other aspects need to be developed. It is important that all the elements described here are incorporated into the EHS management system. The manner and extent to which individual elements are applied, however, depend on factors such as the size of the organization, the nature of its activities, the hazards, and the conditions in which it operates. An initial status review should be carried out in all organizations that do not have an established EHS management system. This initial status review will provide information on the scope, adequacy, and implementation of the current management system. Where no formal management system exists, or if the organization is newly established, the initial status review should indicate where the organization stands with respect to managing risks.
+
+[Figure 2.1](/books/NBK55873/figure/ch2.f1/?report=objectonly) illustrates the major elements of an EHS management system.
+
+[![Flow diagram showing the cycle of development of policies relating to Environmental Health and Safety (EHS). Briefly, the stages are 1. Developing or reviewing the policy. 2. Planning. 3. Implementation. 4. Performance Measurements, Audits, and Change Management. 5. Management Review. Stage 5 leads back to Stage 1.](/books/NBK55873/bin/ch2f1.gif)](/books/NBK55873/figure/ch2.f1/?report=objectonly "FIGURE 2.1")
+
+#### [FIGURE 2.1](/books/NBK55873/figure/ch2.f1/?report=objectonly)
+
+Overview of environmental health and safety management system.
+
+### 2.A.1. Environmental Health and Safety Policy
+
+Top management should set in place procedures to define, document, and endorse a formal EHS policy for an organization. The policy should clearly outline the roles and expectations for the organization, faculty, EHS personnel, and individual employees or students. It should be developed in communication with laboratory personnel to ensure that all major concerns are adequately addressed.
+
+The EHS policy should state intent to
+
+* prevent or mitigate both human and economic losses arising from accidents, adverse occupational exposures, and environmental events;
+* build EHS considerations into all phases of the operations, including laboratory discovery and development environments;
+* achieve and maintain compliance with laws and regulations; and
+* continually improve EHS performance.
+
+The EHS policy and policy statement should be reviewed, revalidated, and where necessary, revised by top management as often as necessary. It should be communicated and made readily accessible to all employees and made available to relevant interested parties, as appropriate.
+
+### 2.A.2. Management Commitment
+
+Management commitment to EHS performance is widely recognized as one of the elements most critical to EHS program success and to the development of a strong culture of safety within an organization. Therefore, the management system document establishes management commitment with a formal statement of intent, which defines examples of how performance goals are supported. Examples of how this commitment is supported include the following:
+
+* Establish methods to use energy more efficiently, reduce waste, and prevent accidents.
+* Comply with laws, regulations, and organizational requirements applicable to their operations.
+* Improve EHS performance continually.
+* Conduct periodic assessments to verify and validate EHS performance.
+
+### 2.A.3. Planning
+
+Planning is an integral part of all elements of the management system and to be effective involves the design and development of suitable processes and organizational structure to manage EHS aspects and their associated risk control systems proportionately to the needs, hazards, and risks of the organization. Planning is equally important to deal with health risks that might only become apparent after a long latency period. It also establishes objectives that define the criteria for judging success or failure of the management system. Objectives are identified on the basis of either the results of the initial status review, subsequent periodic reviews, or other available data.
+
+Various sources of information are used to identify applicable EHS aspects and to assess the risk associated with each. Examples include, but are not limited to, information obtained from the following:
+
+* hazard/exposure assessment,
+* risk assessment,
+* inspections,
+* permits,
+* event investigations (injury and illness investigations, environmental incident investigations, root-cause analysis, trend analysis),
+* internal audits and/or external agency audits,
+* fire and building codes,
+* employee feedback concerning unsafe work conditions or situations,
+* emerging issues,
+* corporate/institution goals, and
+* emergency management.
+
+Once applicable EHS aspects are identified, a risk-based evaluation is performed to determine the potential impact and adequacy of existing control measures. If additional controls or corrective actions are needed to reduce risks to acceptable levels, they are integrated into business planning. Categorizing each item in this manner allows gaps that are identified to be prioritized and incorporated, based on level of importance and available resources.
+
+Care should be taken when developing and disseminating new controls and corrective actions. If requirements are perceived by laboratory personnel as unnecessarily onerous, there is potential for lower compliance within the organization and a loss of credibility on the part of EHS personnel. While understanding that some individuals will never be convinced of the need for new controls, it is important to provide clear, supported justifications for changes to existing protocols to encourage adoption of the new policies and procedures.
+
+### 2.A.4. Implementation
+
+The design of management arrangements should reflect the organization's business needs and the nature of their risks. However, there should be appropriate activity across all elements of the model (policy; planning; implementation; performance measurement, audits, and change management; and management review).
+
+Specifically the organization should make arrangements to cover the following key areas:
+
+* overall plans and objectives, including employees and resources, for the organization to implement its policy;
+* operational plans to implement arrangements to control the risks identified;
+* contingency plans for foreseeable emergencies and to mitigate their effects (e.g., prevention, preparedness, and response procedures);
+* plans covering the management of change of either a permanent or a temporary nature (e.g., associated with new processes or plant working procedures, production fluctuations, legal requirements, and organizational and staffing changes);
+* plans covering interactions with other interested parties (e.g., control, selection, and management of contractors; liaison with emergency services; visitor control);
+* performance measures, audits, and status reviews;
+* corrective action implementation;
+* plans for assisting recovery and return to work of any staff member who is injured or becomes ill through work activities;
+* communication networks to management, employees, and the public;
+* clear performance and measurement criteria defining what is to be done, who is responsible, when it is to be done, and the desired outcome;
+* education and training requirements associated with EHS;
+* document control system; and
+* contractors should have written safety plans and qualified staff whose qualifications are thoroughly reviewed before a contract is awarded. All contractor personnel should be required to comply with the sponsoring organization's safety policies and plans.
+
+Though it is the responsibility of each individual researcher to ensure that work is performed in a prudent and safe manner, achieving a safe laboratory environment is a cooperative endeavor between management, EHS personnel, and laboratory personnel. Regulations, policies, and plans will never cover every contingency, and it is important for these different groups to communicate with each other to ensure that new situations can be handled appropriately. One way to ensure that the needs of all groups are being met is by creating safety committees consisting of representatives from each part of an organization. In this forum, safety concerns can be raised, information can be distributed to affected parties, and a rough sense of the efficacy of policies and programs can be gained.
+
+### 2.A.5. Performance Measurement and Change Management
+
+The primary purpose of measuring EHS performance is to judge the implementation and effectiveness of the processes established for controlling risk. Performance measurement provides information on the progress and current status of the arrangements (strategies, processes, and activities) used by an organization to control risks to EHS. Measurement information includes data to judge the management system by
+
+* gathering information on how the system operates in practice,
+* identifying areas where corrective action is necessary, and
+* providing a basis for continual improvement.
+
+All of the components of the EHS management system should be adequately inspected, evaluated, maintained, and monitored to ensure continued effective operation. Risk assessment and risk control should be reviewed in the light of modifications or technological developments. Results of evaluation activities are used as part of the planning process and management review, to improve performance and correct deficiencies over time.
+
+Periodic audits that enable a deeper and more critical appraisal of all of the elements of the EHS management system (see [Figure 2.1](/books/NBK55873/figure/ch2.f1/?report=objectonly)) should be scheduled and should reflect the nature of the organization's hazards and risks. To maximize benefits, competent persons independent of the area or activity should conduct the audits. The use of external, impartial auditors should be considered to assist in evaluation of the EHS management system. When performing these reviews, it is important that the organization have a plan for following up on the results of the audit to ensure that problems are addressed and that recognition is given where it is deserved.
+
+The concept of change management in the laboratory environment varies markedly from methods typically prescribed, for example, in manufacturing operations. By its very nature, the business of conducting experiments is constantly changing. Therefore, it is a part of everyday activities to evaluate modifications and/or technological developments in experimental and scale-up processes. As such, a number of standard practices are used to identify appropriate handling practices, containment methods, and required procedures for conducting laboratory work in a safe manner. Several examples of these practices include
+
+* identification of molecules as particularly hazardous substances (PHSs),[2](#ch2.fn2) which specifies certain handling and containment requirements and the use of personal protective equipment (PPE);
+* approval and training for new radioisotope users;
+* completion of biosafety risk assessments for the use of infectious agents; and
+* Material Safety Data Sheet (MSDS) review of chemicals being used.
+
+### 2.A.6. Management Review of EHS Management System
+
+Top management should review the organization's EHS management system at regular intervals to ensure its continuing suitability, adequacy, and effectiveness. This review includes assessing opportunities for improvement and the need for changes in the management system, including the EHS policy and objectives. The results of the management review should be documented.
+
+Among other information, a management review should include the following:
+
+* results of EHS management system audits,
+* results from any external audits,
+* communications from interested parties,
+* extent to which objectives have been met,
+* status of corrective and preventive actions,
+* follow-up actions from previous management reviews, and
+* recommendations for improvement based on changing circumstances.
+
+The outputs from management review should include any decisions and actions related to possible change to EHS policy, objectives, and other elements of the management system, consistent with the commitment to continual improvement.
+
+The management system review ensures a regular process that evaluates the EHS management system in order to identify deficiencies and modify them. Systemic gaps, evidence that targets are not being met, or compliance issues that are discovered during compliance or risk assessments indicate a possible need for revision to the management system or its implementation.
+
+### 2.A.7. Example Management System: Department of Energy Integrated Safety Management System
+
+One example of a common EHS management system is that used by the Department of Energy (DOE). The agency's Integrated Safety Management (ISM) system, adopted in 1996, is used at all DOE facilities, and has been used as a model for other agencies and institutions. The system consists of six guiding principles and five core management safety functions. The principles and functions in DOE Policy DOE P 450.4 ([DOE, 1994](/books/n/nap12654/bibliography.rl1/#bibliography.r32)), outlined below, require planning, identification of hazards and controls before work begins, and for work to be performed within these defined and planned methods.
+
+Principles:
+
+* **Line management responsibility for safety.** Line management is directly responsible for the protection of the public, the workers, and the environment. As a complement to line management, the Department's Office of Environment, Safety, and Health provides safety policy, enforcement, and independent oversight functions.
+* **Clear roles and responsibilities.** Clear and unambiguous lines of authority and responsibility for ensuring safety shall be established and maintained at all organizational levels within the Department and its contractors.
+* **Competence commensurate with responsibilities.** Personnel shall possess the experience, knowledge, skills, and abilities that are necessary to discharge their responsibilities.
+* **Balanced priorities.** Resources shall be effectively allocated to address safety, programmatic, and operational considerations. Protecting the public, the workers, and the environment shall be a priority whenever activities are planned and performed.
+* **Identification of safety standards and requirements.** Before work is performed, the associated hazards shall be evaluated and an agreed-upon set of safety standards and requirements shall be established which, if properly implemented, will provide adequate assurance that the public, the workers, and the environment are protected from adverse consequences.
+* **Hazard controls tailored to work being performed.** Administrative and engineering controls to prevent and mitigate hazards shall be tailored to the work being performed and associated hazards.
+* **Operations authorization.** The conditions and requirements to be satisfied for operations to be initiated and conducted shall be clearly established and agreed upon.
+
+Functions:
+
+* **Define the scope of work.** Missions are translated into work, expectations are set, tasks are identified and prioritized, and resources are allocated.
+* **Analyze the hazards.** Hazards associated with the work are identified, analyzed, and categorized.
+* **Develop and implement hazard controls.** Applicable standards and requirements are identified and agreed upon, controls to prevent/mitigate hazards are identified, the safety envelope is established, and controls are implemented.
+* **Perform work within controls.** Readiness is confirmed and work is performed safely.
+* **Provide feedback and continuous improvement.** Feedback information on the adequacy of controls is gathered, opportunities for improving the definition and planning of work are identified and implemented, line and independent oversight is conducted, and, if necessary, regulatory enforcement actions occur.
+
+In addition, in 2006, and in recognition of a gap within the management system, DOE identified four supplemental safety culture elements. These, as described in DOE Manual DOE M 450.4-1 ([DOE, 2006](/books/n/nap12654/bibliography.rl1/#bibliography.r33)), are as follows:
+
+* **Individual attitude and responsibility for safety.** Every individual accepts responsibility for safe mission performance. Individuals demonstrate a questioning attitude by challenging assumptions, investigating anomalies, and considering potential adverse consequences of planned actions. All employees are mindful of work conditions that may impact safety, and assist each other in preventing unsafe acts or behaviors.
+* **Operational excellence.** Organizations achieve sustained, high levels of operational performance, encompassing all DOE and contractor activities to meet mission, safety, productivity, quality, environmental, and other objectives. High reliability is achieved through a focus on operations, conservative decision making, open communications, deference to expertise, and systematic approaches to eliminate or mitigate error-likely situations.
+* **Oversight for performance assurance.** Competent, robust, periodic, and independent oversight is an essential source of feedback that verifies expectations are being met and identifies opportunities for improvement. Performance assurance activities verify whether standards and requirements are being met. Performance assurance through conscious, directed, independent previews at all levels brings fresh insights and observations to be considered for safety and performance improvement.
+* **Organizational learning for performance improvement.** The organization demonstrates excellence in performance monitoring, problem analysis, solution planning, and solution implementation. The organization encourages openness and trust, and cultivates a continuous learning environment.
+
+More information about the DOE ISM system can be found at [www.directives.doe.gov](http://www.directives.doe.gov).
+
+The DOE ISM system is only one example of an EHS management system, and many others exist. It is important that each organization develop a management system to meet the needs of the organization. Small organizations or those that do not handle particularly hazardous materials should not be tempted to “over-engineer” the system. If the burden of organizational oversight and management of the ESH program is not appropriately tied to the organizational risk, then the safety program may lose credibility in the eyes of the people it supports.
+
+## 2.B. CHEMICAL HYGIENE PLAN
+
+The foundation of all management system approaches is the identification of EHS concerns, which if not adequately controlled, can result in employee injury or illness, adverse effects on the environment, and regulatory action. One of the most critical EHS aspects for laboratories is the requirement for chemical safety, which in the United States is specifically regulated by OSHA Laboratory Standard, 29 CFR § 1910.1450, *Occupational Exposure to Hazardous Chemicals in Laboratories.* This standard was created to minimize employee exposure to hazardous chemicals in the laboratory and sets forth guidelines for employers and trained laboratory personnel engaged in the use of hazardous chemicals.[3](#ch2.fn3)
+
+The OSHA Laboratory Standard defines a Chemical Hygiene Plan (CHP) as “a written program developed and implemented by the employer which sets forth procedures, equipment, personal protective equipment and work practices that are capable of protecting employees from the health hazards presented by hazardous chemicals used in that particular workplace.” “Where hazardous chemicals as defined by this standard are used in the workplace, the employer shall develop and carry out the provisions of a written Chemical Hygiene Plan.” The CHP is the foundation of the laboratory safety program and should be reviewed and updated, as needed, on an annual basis to reflect changes in policies and personnel. A CHP that is facility specific can assist in promoting a culture of safety to protect employees from exposure to hazardous materials.
+
+Topics included in a CHP are
+
+1. individual responsibilities for chemical hygiene within the organization (see [Boxes 2.1](/books/NBK55873/box/ch2.box1/?report=objectonly), [2.2](/books/NBK55873/box/ch2.box2/?report=objectonly), and [2.3](/books/NBK55873/box/ch2.box3/?report=objectonly)),
+2. emergency preparedness and facility security issues,
+3. personal apparel and PPE,
+4. chemical management,
+5. laboratory housekeeping,
+6. standard operating procedures,
+7. emergency action plan (EAP) for accidents and spills,
+8. safety equipment,
+9. chemical waste policies,
+10. required training,
+11. safety rules and regulations,
+12. facility design and laboratory ventilation,
+13. medical and environmental monitoring,
+14. compressed gas safety,
+15. laboratory equipment,
+16. biological safety, and
+17. radiation safety.
+
+[![Box Icon](/corehtml/pmc/css/bookshelf/2.26/img/box-icon.gif)](/books/NBK55873/box/ch2.box1/?report=objectonly "BOX 2.1")
+
+#### [BOX 2.1](/books/NBK55873/box/ch2.box1/?report=objectonly)
+
+Chemical Hygiene Responsibilities in a Typical Academic Institution. The duties of the CHO vary widely from one institution to another but may include the following: Establish, maintain, and revise the Chemical Hygiene Plan (CHP).
+
+[![Box Icon](/corehtml/pmc/css/bookshelf/2.26/img/box-icon.gif)](/books/NBK55873/box/ch2.box2/?report=objectonly "BOX 2.2")
+
+#### [BOX 2.2](/books/NBK55873/box/ch2.box2/?report=objectonly)
+
+Chemical Hygiene Responsibilities in a Typical Industry Research Facility. Qualified by training or experience to provide technical guidance in the development and implementation of the provisions of the Laboratory Standard. Oversees implementation and [(more...)](/books/NBK55873/box/ch2.box2/?report=objectonly)
+
+[![Box Icon](/corehtml/pmc/css/bookshelf/2.26/img/box-icon.gif)](/books/NBK55873/box/ch2.box3/?report=objectonly "BOX 2.3")
+
+#### [BOX 2.3](/books/NBK55873/box/ch2.box3/?report=objectonly)
+
+Chemical Hygiene Responsibilities in a Typical Governmental Laboratory. Is given authority by the Director of Safety Services Division to provide technical guidance in the development and implementation of the provisions of the Chemical Hygiene Plan (CHP). [(more...)](/books/NBK55873/box/ch2.box3/?report=objectonly)
+
+Determining what belongs in the CHP for a given laboratory should be the result of conversations between the Chemical Hygiene Officer (CHO), the director of the laboratory, and laboratory personnel. The laboratory director and the individuals performing the research are responsible for following safe practices, and they are the people most familiar with the work being performed. However, they are less likely to be familiar with all relevant regulations, standards, and codes than the CHO, and they may benefit from assistance in identification and assessment of hazards within the laboratory. Thus there must be communication across the groups to ensure that the CHP is complete and that it contains no irrelevant information (e.g., information on biological safety in a laboratory that only works with inorganic materials).
+
+## 2.C. SAFETY RULES AND POLICIES
+
+Safety rules and regulations are created to protect laboratory personnel from unsafe work practices and exposure to hazardous materials. Consistently following and enforcing the safety rules in order to create a safe and healthful laboratory environment in which to work will help encourage a culture of safety within the workplace. What follows is a description of laboratory safety rules, but these will not cover every contingency. Part of the culture of safety is communication and discussion about safety hazards within the laboratory, so that new concerns can be addressed as quickly as possible.
+
+### 2.C.1. General Safety Rules
+
+Below are some basic guidelines for maintaining a safe laboratory environment.
+
+1. To ensure that help is available if needed, do not work alone if using hazardous materials or performing hazardous procedures.
+2. To ensure that help is available in case of emergencies, laboratory personnel should not deviate from the assigned work schedule without prior authorization from the laboratory supervisor.
+3. Do not perform unauthorized experiments.
+4. Plan appropriate protective procedures and the positioning of all equipment before beginning any operation. Follow the appropriate standard operating procedures at all times in the laboratory.
+5. Always read the MSDS and the label before using a chemical in the laboratory.
+6. Wear appropriate PPE, including a laboratory apron or coat, at all times in the laboratory. Everyone, including visitors, must wear appropriate eye protection in areas where laboratory chemicals are used or stored.
+7. Wear appropriate gloves when handling hazardous materials. Inspect all gloves for holes and defects before using.
+8. Use appropriate ventilation such as laboratory chemical hoods when working with hazardous chemicals.
+9. Contact the CHO or the EHS office if you have questions about the adequacy of the safety equipment available or chemical handling procedures.
+10. Know the location and proper use of the safety equipment (i.e., eyewash unit, safety shower, fire extinguisher, first-aid kit, fire blanket, emergency telephone, and fire alarm pulls).
+11. Maintain situational awareness. Be aware of the hazards posed by the work of others in the laboratory and any additional hazards that may result from contact between materials and chemicals from different work areas.
+12. Make others in the laboratory aware of any special hazards associated with your work.
+13. Notify supervisors of any chemical sensitivities or allergies.
+14. Report all injuries, accidents, incidents, and near misses as directed by the organization's policy.
+15. For liability, safety, and security reasons, do not allow unauthorized persons in the laboratory.
+16. Report any unsafe conditions to the laboratory supervisor or CHO.
+17. Properly dispose of all chemical wastes. Follow organizational policies for drain and trash disposal of chemicals.
+
+Visitors, including children, are permitted in laboratories where hazardous substances are stored or are in use or hazardous activities are in progress as long as they are properly protected. If minors are expected in a laboratory (e.g., as part of an educational or classroom activity), ensure that they are under the direct supervision of qualified adults at all times. The institution should have a review process regarding minors in the laboratory, and prior to their arrival, scheduled activities should be approved. Other laboratory personnel in the area should be made aware that minors will be present.
+
+No pets are permitted in laboratories. Note that service animals are not pets. They are highly trained and may be present in a laboratory. However, a clean, safe area should be provided where the animal can wait.
+
+To prevent some common laboratory accidents:
+
+1. Always protect hands with appropriate gloves when cutting glass tubing. To avoid breakage, do not attempt to dry glassware by inserting a glass rod wrapped with paper towels. Always lubricate glassware with soap or glycerin before inserting rods, tubing, or thermometers into stoppers.
+2. To reduce the chances of injuries from projectiles, when heating a test tube or other apparatus, never point the apparatus toward yourself or others.
+3. Be sure that glassware has cooled before touching it. Hot glass looks just like cold glass.
+4. Dilute concentrated acids and bases by slowly pouring the acid or base into the water while stirring.
+
+### 2.C.2. Working Alone in the Laboratory
+
+It is not prudent to work alone in a laboratory. The American Chemical Society states that one should, “[n]ever work alone in the laboratory” ([ACS, 2003](/books/n/nap12654/bibliography.rl1/#bibliography.r8)). In [Alaimo (2001)](/books/n/nap12654/bibliography.rl1/#bibliography.r9) it states that “[w]ork should be absolutely forbidden unless there are at least two people present”. The OSHA Laboratory Standard states “Avoid working alone in a building; do not work alone in a laboratory if the procedures being conducted are hazardous.” Accidents are unexpected by definition, and if a person is working alone when one occurs, his or her ability to respond appropriately could be severely impaired, which could result in personal injury or death and catastrophic facility damage. Thus it is imperative that, whenever working in the laboratory, others are actively aware of your activities. If faced with a situation where you feel it is necessary to work alone in a laboratory:
+
+1. Reconsider the need. Are the increased risks to your health and safety really outweighed by the return?
+2. Reconsider the timing and setup of the work. Is there any way to accomplish the required tasks during a time when others will be present?
+3. If the timing of the task cannot be changed and you still feel it must be accomplished during a period when the laboratory is empty is there any other person trained in laboratory procedures who can accompany you while you work?
+4. If not, is there anyone else within the building who could act as a “buddy” to check on you periodically during the time that you feel you must work alone?
+5. If no one can accompany you and you cannot find a “buddy,” **do not proceed with the work.** The situation is unsafe. Speak to your supervisor or the organizational safety office to make arrangements to complete the work in a safe manner.
+
+### 2.C.3. How to Avoid Routine Exposure to Hazardous Chemicals
+
+Many chemicals and solutions routinely used in laboratories present a significant health risk when handled improperly. The Swiss physician and alchemist Theophrastus Phillippus Aureolus Bombastus von Hohenheim (1493-1541), who took the name Paracelsus later in life in homage to Celsus, a Roman physician, is known as “the father of toxicology.” Paracelsus is famous for his quote, “What is it that is not poison? All things are poison and nothing is without poison. It is the dose alone that makes a thing not a poison” ([Dillon, 1994](/books/n/nap12654/bibliography.rl1/#bibliography.r31)). Today, in that same spirit, trained laboratory personnel are encouraged to reduce personal risk by minimizing exposure to hazardous chemicals and by eliminating unsafe work practices in the laboratory.
+
+The OSHA Laboratory Standard defines a hazardous chemical as one “for which there is statistically significant evidence based on at least one study conducted in accordance with established scientific principles that acute or chronic health effects may occur in exposed persons.” Note that this definition is not limited to toxic chemicals and includes corrosives, explosives, and other hazard classes. Routes of exposure to hazardous materials include contact with skin and eyes, inhalation, ingestion, and injection. Acute exposure is defined as short durations of exposure to high concentrations of hazardous materials in the workplace. Chronic exposure is defined as continual exposure over a long period of time to low concentrations of hazardous materials in the workplace. Overexposure to chemicals, whether a result of a single episode or long-term exposure, can result in adverse health effects. These effects are categorized as acute or chronic. Acute health effects appear rapidly after only one exposure and symptoms include rashes, dizziness, coughing, and burns. Chronic health effects may take months or years before they are diagnosed. Symptoms of chronic health effects include joint paint, neurological disorders, and tumors. (For more information on toxicity of laboratory chemicals, see [Chapter 4](/books/n/nap12654/ch4/), [section 4.C](/books/n/nap12654/ch4/#ch4.s14).)
+
+In addition to the hazards associated with the chemicals themselves, flammable, reactive, explosive, and physical hazards may be present in the laboratory. Reactive hazards include pyrophorics and incompatible chemicals; explosive hazards include peroxide formers and powders; and physical hazards include cryogenic liquids, electrical equipment, lasers, compressed gas cylinders and reactions that involve high pressure or vacuum lines. (For more information about these hazards within a laboratory, see [Chapter 4](/books/n/nap12654/ch4/), [sections 4.D](/books/n/nap12654/ch4/#ch4.s36) and [4.E](/books/n/nap12654/ch4/#ch4.s60).)
+
+An array of controls exists to protect laboratory personnel from the hazards listed above. Engineering controls (e.g., laboratory chemical hoods and gloveboxes), administrative controls (e.g., safety rules, CHPs, and standard operating procedures), and PPE (e.g., gloves, laboratory coats, and chemical splash goggles) are all designed to minimize the risks posed by these hazards.
+
+Work practices to minimize exposure to hazardous chemicals can be found in [Chapter 6](/books/n/nap12654/ch6/).
+
+### 2.C.4. General Housekeeping Practices in the Laboratory
+
+Good housekeeping practices in the laboratory has a number of benefits. For example, in terms of safety, it can reduce the number of chemical hazards (health, physical, reactive, etc.) in the laboratory and help control the risks from hazards that cannot be eliminated. Practices that encourage the appropriate labeling and storage of chemicals can reduce the risks of mixing of incompatible chemicals and assist with regulatory compliance. From a security standpoint, order in the laboratory makes it easier to identify items out of place or missing. And finally, good housekeeping can help reduce scientific error by, for example, reducing the chances of samples becoming confused or contaminated and keeping equipment clean and in good working order. More information about housekeeping practices can be found in [Chapter 6](/books/n/nap12654/ch6/), [section 6.C.3](/books/n/nap12654/ch6/#ch6.s18)
+
+## 2.D. CHEMICAL MANAGEMENT PROGRAM
+
+One of the most important components of a laboratory safety program is chemical management. Prudent chemical management includes the following processes.
+
+### 2.D.1. Chemical Procurement
+
+According to the nonmandatory OSHA Laboratory Standard ([Appendix A](/books/n/nap12654/appendixes.app1/), section D.2(a), *Chemical Procurement, Distribution, and Storage*), “Before a substance is received, information on proper handling, storage, and disposal should be known to those who will be involved.” The standard further states that “No container should be accepted without an adequate identifying label. Preferably, all substances should be received in a central location.” These procedures are strongly recommended. Personnel should be trained to identify signs of breakage (e.g., rattling) and leakage (e.g., wet spot or stain) on shipments and such shipments should be refused or opened in a hood by laboratory staff.
+
+Some organizations have specific purchasing policies to prohibit unauthorized purchases of chemicals and other hazardous materials. The purchaser must assume responsibility for ownership of the chemical. Because of the possibility of a chemical leak or release and subsequent exposure, chemical shipments should only be received by trained personnel in a laboratory or central receiving area with proper ventilation. Neither administrative offices nor the mail room is appropriate for receipt or opening of chemical shipments.
+
+When preparing to order a chemical for an experiment, several questions should be asked:
+
+* What is the minimum amount of this chemical that is needed to perform the experiment? Is it available elsewhere in the facility? Remember, when ordering chemicals, less is always best. Prudent purchasing methods will save storage space, money, and disposal costs. Larger containers require more storage space and will incur additional disposal costs if the chemical is not used.
+* Has the purchase been reviewed by the CHO to ensure that any special requirements can be met?
+* Is the proper PPE available in the laboratory to handle this chemical?
+* What are the special handling precautions?
+* Where will the chemical be stored in the laboratory?
+* Does the laboratory chemical hood provide proper ventilation?
+* Are there special containment considerations in the event of a spill, fire, or flood?
+* Will there be additional costs or considerations related to the disposal of this chemical?
+
+### 2.D.2. Chemical Storage
+
+To lessen risk of exposure to hazardous chemicals, trained laboratory personnel should separate and store all chemicals according to hazard category and compatibility. In the event of an accident involving a broken container or a chemical spill, incompatible chemicals that are stored in close proximity can mix to produce fires, hazardous fumes, and explosions. Laboratory personnel should read the MSDS and heed the precautions regarding the storage requirements of the chemicals in the laboratory. A detailed chemical compatibility table is included in [Chapter 5](/books/n/nap12654/ch5/), [section 5.E.2](/books/n/nap12654/ch5/#ch5.s31), [Table 5.1](/books/n/nap12654/ch5/table/ch5.t1/?report=objectonly)
+
+To avoid accidents, all chemical containers must be properly labeled with the full chemical name, not abbreviations, and using a permanent marker. All transfer vessels should have the following label information:
+
+* chemical name,
+* hazard warnings,
+* name of manufacturer,
+* name of researcher in charge, and
+* date of transfer to the vessel.
+
+Incoming chemical shipments should be dated promptly upon receipt, and chemical stock should be rotated to ensure use of older chemicals. It is good practice to date peroxide formers upon receipt and date again when the container is opened so that the user can dispose of the material according to the recommendations on the MSDS. Peroxide formers should be stored away from heat and light in sealed airtight containers with tight-fitting, nonmetal lids. Test regularly for peroxides and discard the material prior to the expiration date. (For more information about storage and handling of peroxides, see [Chapter 4](/books/n/nap12654/ch4/), [section 4.D.3.2](/books/n/nap12654/ch4/#ch4.s55), and [Chapter 6](/books/n/nap12654/ch6/), [section 6.G.3](/books/n/nap12654/ch6/#ch6.s60).)
+
+When storing chemicals on open shelves, always use sturdy shelves that are secured to the wall and contain ¾-in. lips. Do not store liquid chemicals higher than 5 ft on open shelves. Do not store chemicals within 18 in. of sprinkler heads in the laboratory. Use secondary containment devices (i.e., chemical-resistant trays) where appropriate. Do not store chemicals in the laboratory chemical hood, on the floor, in the aisles, in hallways, in areas of egress, or on the benchtop. Chemicals should be stored away from heat and direct sunlight.
+
+Only laboratory-grade explosion-proof refrigerators and freezers should be used to store properly sealed and labeled chemicals that require cool storage in the laboratory. Periodically clean and defrost the refrigerator and freezer to ensure maximum efficiency. Domestic refrigerators and freezers should not be used to store chemicals; they possess ignition sources and can cause dangerous and costly laboratory fires and explosions. Do not store food or beverages in the laboratory refrigerator. (For more information, see [Chapter 7](/books/n/nap12654/ch7/), [section 7.C.3](/books/n/nap12654/ch7/#ch7.s11).)
+
+Highly hazardous chemicals must be stored in a well-ventilated secure area that is designated for this purpose. Cyanides must be stored in a tightly closed container that is securely locked in a cool dry cabinet to which access is restricted. Protect cyanide containers against physical damage and separate them from incompatibles. When handling cyanides, follow good hygiene practices and regularly inspect your PPE. Use proper disposal techniques.
+
+Flammable liquids should be stored in approved flammable-liquid containers and storage cabinets. Observe National Fire Protection Association, International Building Code, International Fire Code, and other local code requirements that limit the quantity of flammables per cabinet, laboratory space, and building. Consult the local fire marshal for assistance, if needed. Store odiferous materials in ventilated cabinets. Chemical storage cabinets may be used for long-term storage of limited amounts of chemicals.
+
+Rooms that are used specifically for chemical storage and handling (i.e., preparation rooms, storerooms, waste collection rooms, and laboratories) should be controlled-access areas that are identified with appropriate signage. Chemical storage rooms should be designed to provide proper ventilation, two means of access/egress, vents and intakes at both ceiling and floor levels, a diked floor, and a fire suppression system. If flammable chemicals are stored in the room, the chemical storage area must be a spark-free environment and only spark-free tools should be used within the room. Special grounding and bonding must be installed to prevent static charge while dispensing solvents.
+
+### 2.D.3. Chemical Handling
+
+Important information about handling chemicals can be found in the MSDS. A comprehensive file of MSDSs must be kept in the laboratory or be readily accessible online to all employees during all work shifts. Trained laboratory personnel should always *read* and *heed* the label and the MSDS before using a chemical for the first time. Laboratory personnel should be familiar with the types of PPE that must be worn when handling the chemical. Ensure that the ventilation will be adequate to handle the chemicals in the laboratory. One should be familiar with the institutional CHP and EAP so that appropriate actions are taken in the event of a chemical spill, fire, or explosion.
+
+### 2.D.4. Chemical Inventory
+
+The OSHA Laboratory Standard, [Appendix A](/books/n/nap12654/appendixes.app1/), section D.2(b) (Chemical Procurement, Distribution, and Storage), states, “Stored chemicals should be examined periodically (at least annually) for replacement, deterioration, and container integrity.” Section D.2(d) states, “Periodic inventories should be conducted, with unneeded items being discarded or returned to the storeroom/stockroom.” Though [Appendix A](/books/n/nap12654/appendixes.app1/) is not mandatory, compliance with the standard is an element of good laboratory management. On a basic level, you cannot safely manage something if you do not know that you have it on-site. Thus, a system for maintaining an accurate inventory of the laboratory chemicals on campus or within an organization is essential for compliance with local and state regulations and any building codes that apply.
+
+There are many benefits of performing annual physical chemical inventory updates:
+
+* ensures that chemicals are stored according to compatibility tables,
+* eliminates unneeded or outdated chemicals,
+* increases ability to locate and share chemicals in emergency situations,
+* updates the hazard warning signage on the laboratory door,
+* promotes more efficient use of laboratory space,
+* checks expiration dates of peroxide formers,
+* ensures integrity of shelving and storage cabinets,
+* encourages laboratory supervisors to make "executive decisions" about discarding dusty bottles of chemicals,
+* repairs/replaces torn or missing labels and broken caps on bottles,
+* ensures compliance with all federal, state, and local record-keeping regulations,
+* promotes good relations and a sense of trust with the community and the emergency responders,
+* reduces the risk of exposure to hazardous materials and ensures a clean and healthful laboratory environment, and
+* may reduce costs by making staff aware of chemicals available within the organization.
+
+Every laboratory should maintain an up-to-date chemical inventory. A physical chemical inventory should be performed at least annually, or as requested by the CHO. Although the software that is used to maintain the inventory and the method of performing the chemical inventory will vary from one institution to another, ultimately, the chemical inventory should include the following information:
+
+* chemical name,
+* Chemical Abstract Service number,
+* manufacturer,
+* owner,
+* room number, and
+* location of chemical within the room.
+
+Note that the chemical name should be listed with its synonyms. This will allow for cross-indexing for tracking of chemicals and help reduce unnecessary inventory.
+
+Important safety issues to consider when performing a chemical inventory are:
+
+* Wear appropriate PPE and have extra gloves available.
+* Use a chemical cart with side rails and secondary containment.
+* Use a laboratory step stool to reach chemicals on high shelves.
+* Read the EAP and be familiar with the institution's safety equipment.
+* If necessary cease all other work in the laboratory while performing the inventory.
+
+Once the inventory is complete, use suitable security precautions regarding the accessibility of the information in the chemical inventory. For example, precautions should be taken when the database shows the location of Department of Homeland Security (DHS) Chemicals of Interest in excess of DHS threshold quantities. (For more information about laboratory security, see [Chapter 10](/books/n/nap12654/ch10/))
+
+### 2.D.5. Transporting, Transferring, and Shipping Chemicals
+
+It is prudent practice to use a secondary containment device (i.e., rubber pail) when transporting chemicals from the storeroom to the laboratory or even short distances within the laboratory. When transporting several containers, use carts with attached side rails and trays of single piece construction at least 2 in. deep to contain a spill that may occur. Bottles of liquids should be separated to avoid breakage and spills. Avoid high-traffic areas when moving chemicals within the building. When possible, use freight elevators when transporting chemicals and do not allow other passengers. If you must use a general traffic elevator, ask other passengers to wait until you have delivered the chemicals.
+
+Always ground and bond the drum and receiving vessel when transferring flammable liquids from a drum to prevent static charge buildup. Use a properly operating chemical fume hood, local exhaust, or adequate ventilation, as verified by monitoring, when transferring PHSs.
+
+All outgoing domestic and international chemical shipments must be authorized and handled by the institutional shipper. The shipper must be trained in U.S. Department of Transportation (DOT) regulations for ground shipments and must receive mandatory International Air Transport Association training for air shipments. DOT oversees the shipment of hazardous materials and has the authority to impose citations and fines in the event of noncompliance. (For more detailed information on the shipment of chemicals, see [Chapter 5](/books/n/nap12654/ch5/), [section 5.F](/books/n/nap12654/ch5/#ch5.s38).)
+
+### 2.D.6. Chemical Waste
+
+All chemical waste must be stored and disposed of in compliance with applicable federal, state, local, and institutional regulatory requirements. Waste containers should be properly labeled and should be the minimum size that is required. There should be at least 2 in. of headspace in the liquid waste container to avoid a buildup of gas that could cause an explosion or a container rupture. (For more information about handling of hazardous waste, see [Chapter 8](/books/n/nap12654/ch8/).)
+
+## 2.E. LABORATORY INSPECTION PROGRAM
+
+A program of periodic laboratory inspections helps keep laboratory facilities and equipment in a safe operating condition. Inspections safeguard the quality of the institution's laboratory safety program. A variety of inspection protocols may be used, and the organization's management should select and participate in the design of the inspection program appropriate for that institution's unique needs. The program should embrace the following goals:
+
+* Maintain laboratory facilities and equipment in a safe, code-compliant operating condition.
+* Provide a comfortable and safe working environment for all personnel and the public.
+* Ensure that all laboratory activities are conducted in a manner to avoid employee exposure to hazardous chemicals.
+* Ensure that trained laboratory personnel follow institutional CHPs.
+
+Approach these goals with a degree of flexibility. Consider the different types of inspection, the frequency with which they are conducted, and who conducts them. A discussion of items to inspect and several possible inspection protocols follows, but is not all-inclusive.
+
+Laboratory inspections are performed by EHS staff, the CHO, the safety director, laboratory staff, a safety committee, or an outside entity with the requisite qualifications and experience. The inspection checklist can include sections on chemical storage, chemical waste, housekeeping, PPE, laboratory chemical hoods, gas cylinder storage, emergency safety equipment, signs and labels, and facility issues.
+
+Following each inspection, a detailed report is sent to the laboratory supervisor and appropriate administration. Photographs taken during the inspection process can emphasize the critical nature of a violation. Consider giving special recognition to laboratories demonstrating good laboratory practice and those that have demonstrated significant improvements in safety.
+
+### 2.E.1. Types of Inspection Programs: Who Conducts Them and What They Offer
+
+There are several types of inspection programs, each providing a different perspective and function. A comprehensive laboratory inspection program includes a combination of some or all of these programs.
+
+#### 2.E.1.1. Routine Inspections
+
+Trained laboratory personnel and supervisors should complete general equipment and facility inspections on a regular basis. For certain types of equipment in constant use, such as gas chromatographs, daily inspections may be appropriate. Other types of equipment may need only weekly or monthly inspection or inspection prior to use if operated infrequently. Keep a record of inspection attached to the equipment or in a visible area. The challenge for any inspection program is to keep laboratory personnel continuously vigilant. They need positive encouragement to develop the habit of inspection and to adopt the philosophy that good housekeeping and maintenance for their workspace protect them and may help them produce better research results.
+
+#### 2.E.1.2. Self-Audits
+
+To supplement an inspection program, some institutions promote self-inspections within the laboratories. Laboratory personnel may conduct their own inspections for their own benefit or management may ask them to self-audit and report their findings, using the routine inspections as a check on the self-inspections. This approach can be mutually beneficial, raising awareness, promoting the institutional safety culture, and easing the burden on management.
+
+#### 2.E.1.3. Program Audits
+
+A program audit includes both a physical inspection and a review of the operations and the facilities. This type of audit is generally conducted by a team, which includes the laboratory supervisor, senior management, and laboratory safety representatives, and presents an excellent opportunity to promote a culture of safety and prudence within an organization. The supervisor and senior management have the opportunity to take a close look at the facilities and operations. They can discuss with individual workers issues of interest or concern that may fall outside the scope of the actual inspection. A constructive and positive approach to observed problems and issues fosters an attitude of cooperation and leadership with regard to safety and helps build and reinforce a culture of teamwork and cooperation that has benefits far beyond protecting personnel and the physical facilities.
+
+The audit begins with a discussion of the safety program and culture, and a review of operations, written programs, training records, and pertinent policies and procedures and how they are implemented in the laboratory. A laboratory inspection that includes interviews with laboratory personnel follows to determine the level of safety awareness. An open discussion with key personnel can ascertain how personnel, supervisors, managers, and safety officers can better support each other.
+
+This type of audit provides a much more comprehensive view of the laboratory than a routine inspection.
+
+#### 2.E.1.4. Peer Inspections
+
+One of the most effective safety tools a facility can use is periodic peer-level inspections. Usually, the people who fulfill this role work in the organization they serve, but not in the area being surveyed. Personnel may participate on an ad hoc basis, or the institution may select specific individuals to be part of a more formal, ongoing inspection team. A peer inspection program has the intrinsic advantage of being perceived as less threatening than other forms of surveys or audits.
+
+Peer inspections depend heavily on the knowledge and commitment of the people who conduct them. Individuals who volunteer or are selected to perform inspections for only a brief time may not learn enough about an operation or procedure to observe and comment constructively. People who receive involuntary appointments or who serve too long may not maintain the desired level of diligence.
+
+A high-quality peer-level inspection program reduces the need for frequent inspections by supervisory personnel. However, peer inspections should not replace other inspections completely. Walk-throughs by the organization's leadership demonstrate commitment to the safety programs, which is key to their continuing success.
+
+#### 2.E.1.5. Environmental Health and Safety Inspections
+
+The organization's EHS staff, the safety committee, or an equivalent group may also conduct laboratory inspections on a routine basis. These inspections may be comprehensive, targeted to certain operations or experiments, focused on a particular type of inspection such as safety equipment and systems, or audits to check the work of other inspectors.
+
+Safety staff are not the only nonlaboratory personnel who may conduct safety inspections. Facility engineers or maintenance personnel may add considerable value to safety inspection programs. They are also given the opportunity to gain a better perspective on laboratory work. It is advisable to have a representative from facilities engineering present during inspections so physical deficiencies can be appropriately and clearly noted and understood and priorities set for correction.
+
+#### 2.E.1.6. Inspections by External Entities
+
+Many types of elective inspections or audits are conducted by outside experts, regulatory agencies, emergency responders, or other organizations. They may inspect a particular facility, equipment, or procedure either during the preexperiment design phase or during operations. As a matter of safety and security, if someone requests entry to a laboratory for the purpose of an audit without a recognized escort, ask to see his or her credentials and contact the EHS office or other appropriate parties.
+
+Tours, walk-throughs, and inspections by regulatory or municipal organizations offer the opportunity to build relationships with governmental agencies and the public. For example, an annual visit by the fire department serving a particular facility will acquaint personnel with the operations and the location of particular hazards. If these individuals are ever called into the facility to handle an emergency, their familiarity with it will make them more effective. During their walk-through, they may offer comments and suggestions for improvements. A relationship built over time helps make this input positive and constructive.
+
+If a pending operation or facility change may raise public attention and concern, an invitation targeted to specific people or groups may prevent problems. Holding public open houses from time to time helps build a spirit of support and trust. Many opportunities exist to apply this type of open approach to dealing with the public. An organization only needs to consider when to use it and what potential benefits may accrue.
+
+Inspections and audits by outside consultants or peer institutions are especially helpful to identify both best practices and vulnerabilities. Many times, the inspectors bring with them experiences and examples from other laboratories that prove useful. When choosing a consultant, best practice is to find one with experience conducting similar audits of peer institutions. More and more often, health and safety experts, facilities staff, and laboratory personnel from peer institutions form inspection teams that conduct inspections of each other's laboratories. Such an arrangement can be beneficial and economical.
+
+Many regulatory agencies promote institutions conducting self-audits, by either consultants or peer auditors, and reporting the findings to the agency. As an incentive, any violations noted in the self-audit may result in reduced or waived fines and fewer visits from the agency inspectors. It is important to fully understand the regulatory agency's self-reporting policy before implementing this option. In some cases, the institution must commit to remediating identified deficiencies within a specific time period.
+
+Finally, regulatory agencies may conduct announced or unannounced inspections on a routine or sporadic basis. Laboratories and institutions should keep their programs and records up-to-date at all times to be prepared for such inspections. Any significant incident or accident within a facility may trigger one or more inspections or investigations by outside agencies. Evidence that the underlying safety programs are sound may help limit negative findings and potential penalties.
+
+### 2.E.2. Elements of an Inspection
+
+#### 2.E.2.1. Preparing for an Inspection
+
+Whether an inspection is announced or unannounced depends on the objective. There are many advantages to announcing an inspection ahead of time. By announcing and scheduling inspections, the inspectors are more likely to interact with the laboratory personnel and the supervisors. The inspection can be a good learning experience for all and will feel less like a safety-police action and more like a value-added service, with the right attitude and approach. However, if the objective is to observe real-time conditions in preparation for a regulatory inspection, an unannounced targeted inspection might be appropriate.
+
+Before the inspection, have a checklist of inspection items, along with the criteria and the basis for each issue. The criteria may be based on regulations, institutional policies, or recommended practices. Sharing the checklist with laboratory personnel prior to the inspection helps them perform their own inspections before and periodically after the inspection.
+
+Bring a camera. A photograph is much more effective than a long explanation in convincing a manager that something needs attention.
+
+#### 2.E.2.2. Inspection Checklists
+
+Inspection checklists take a variety of formats and vary in length depending on the type and focus of the inspection. Although most inspection forms are paper, some are computer based. Make each inspection item a YES or NO question. Pose the issue so that a positive outcome is a YES, making it easy to spot problems. Always leave room for comments.
+
+There are a number of commercial products on the market offering Web-based applications that work on a laptop or notebook computer. Checklist programs are available for handheld digital devices. Some may download into spreadsheets or word-processing programs. Others automatically create reports that can be e-mailed to recipients. All are intended to streamline the record-keeping and reporting process.
+
+#### 2.E.2.3. Conducting the Inspection
+
+When conducting an inspection, interacting with the individuals in the laboratory is important. Even if inspectors are mainly looking at equipment and conditions, laboratory personnel can provide a great deal of information and the conversation itself may foster positive relationships between laboratory personnel and the group conducting the inspection. Speaking with laboratory personnel also helps gauge how well training programs are working and provides feedback for possible improvements to the laboratory safety program.
+
+Take notes and make comments on the inspection form to be able to recall the details and describe any problems in the report. Where possible, take photographs of issues that need particular attention.
+
+Point out problems as they are found and show laboratory personnel how to fix them. If the problem is corrected during the inspection, make a note that it was resolved.
+
+#### 2.E.2.4. Inspection Report
+
+As soon as possible after an inspection, prepare a report for the laboratory supervisor and others, as appropriate. This may include the CHO, the chair or manager of the department, line supervisors, and directors. Depending on the type and focus of the inspection, it may be helpful to hold a meeting with the key individuals to review the findings.
+
+The report should include all problems noted during the inspection, along with the criteria for correcting them. If photographs were taken, include them in the report. The report should also note any best practices and any improvements since the last inspection.
+
+Include a reasonable time line for corrective actions. Be sure to follow up with the laboratory to ensure that recommended corrections are made.
+
+#### 2.E.2.5. Corrective Actions
+
+In most cases, laboratory personnel will take the appropriate corrective actions once they have been made aware of an issue. If the laboratory supervisor is not supportive and the necessary changes are not made, the inspectors and EHS and other appropriate individuals in the organization will have to decide whether the infractions are serious enough to put either the health or safety of laboratory personnel at risk or the institution at risk for violation of a regulation or code.
+
+The organization must decide what steps to take for those individuals or laboratory groups that are using unsafe work practices or are not in compliance with institutional policies or external regulations.
+
+### 2.E.3. Items to Include in an Inspection Program
+
+The following list is representative, not exhaustive:
+
+* Required PPE is available and used consistently and correctly (e.g., laboratory coat, gloves, safety glasses, chemical splash goggles, face shield).
+* Compressed gas cylinders are secured correctly, cylinders are capped if not connected for use, and proper regulators are used.
+* Limitations on where food and drink storage and eating and drinking are allowed are observed.
+* Electrical cords are off surfaces where spills of flammable materials are likely, and cords are in good condition, not displaying signs of excessive wear (fraying, cords are not pinched). Equipment not meeting National Electrical Safety Code Division 1, Group C and D explosion-resistance specifications are electrically inspected prior to use in the laboratory. (See [Chapter 7](/books/n/nap12654/ch7/), [section 7.C](/books/n/nap12654/ch7/#ch7.s3).)
+* Laboratory chemical hoods have been tested and are operated with inspection information visible, hoods are used properly, work is conducted inside 6 in. from hood face, airflow is not significantly impeded by large pieces of equipment.
+* Vacuum glassware is inspected and maintained in good condition, pressure reaction vessels with pressure relief and temperature/pressure measuring capability are used for high-pressure reactions.
+* Health classification of materials is conducted (particularly for unknown compounds), and associated work practices and containment based on hazard/risk classification of the material are followed (e.g., low hazard, hazardous, particularly hazardous materials and associated requirements for use of ventilated enclosures, disposal of waste, labeling of areas where work with high-hazard materials is conducted, decontamination of work surfaces).
+* Access to emergency equipment is unobstructed (e.g., safety showers, eyewash units, fire extinguishers), and equipment is maintained in good working order. Aisles are unobstructed and minimum egress is maintained. Minimum clearance to sprinkler heads, as required by local building and fire codes, is maintained.
+* Chemicals are properly stored and segregated (e.g., flammables, strong acids, strong bases, peroxides).
+* Personnel demonstrate ability to access MSDSs or other chemical safety references and knowledge of handling requirements for various classifications of materials.
+* Rotating machinery and high-temperature devices have appropriate guards. Safety switches and emergency stops are working.
+* Associated egress corridors are unobstructed and minimum egress as required by building and fire codes is maintained. Combustible and surplus materials and equipment are removed from exit passageways.
+
+Depending on the laboratory and the type of work conducted in it, other items may also be targeted for inspection ([Box 2.4](/books/NBK55873/box/ch2.box4/?report=objectonly)).
+
+[![Box Icon](/corehtml/pmc/css/bookshelf/2.26/img/box-icon.gif)](/books/NBK55873/box/ch2.box4/?report=objectonly "BOX 2.4")
+
+#### [BOX 2.4](/books/NBK55873/box/ch2.box4/?report=objectonly)
+
+Excerpt from an Inspection Checklist. Department/Group/Laboratory: Inspector:
+
+## 2.F. EMERGENCY PROCEDURES
+
+### 2.F.1. Fire Alarm Policy
+
+When a fire alarm sounds in the facility, evacuate the laboratory immediately via the nearest exit. Extinguish all Bunsen burner and equipment flames. If the fire originates in your laboratory, follow all institutional policies regarding firefighting and suppression. Check restrooms and other areas with possible limited audio or visual notification of an alarm before exiting the facility. Where necessary, provide assistance to persons with disabilities to ensure they are able to exit the facility.
+
+### 2.F.2. Emergency Safety Equipment
+
+The following is a guide to safety equipment found in a laboratory.
+
+1. A written EAP has been developed and communicated to all personnel in the unit. The plan includes procedures for evacuation, ventilation failure, first aid, and incident reporting.
+2. Fire extinguishers are available in the laboratory and tested on a regular basis. If a fire extinguisher is activated for any reason, make an immediate report of the activity to the CHO, fire marshal, or appropriate individual responsible for fire safety equipment so that the fire extinguisher is replaced in a timely manner.
+3. Eyewash units are available, inspected, and tested on a regular basis.
+4. Safety showers are available and tested routinely.
+5. Fire blankets are available in the laboratory, as required. Fire blankets can be used to wrap a burn victim to douse flames as well as to cover a shock victim and to provide a privacy shield when treating a victim under a safety shower in the event of a chemical spill.
+
+   **NOTE:** Laboratory personnel should be taught that fire blankets can be dangerous if used incorrectly. Wrapping a fire blanket around a person on fire can result in a chimney-like effect that intensifies, rather than extinguishes, the fire. Fire blankets should never be used on a person when they are standing. (See [Chapter 7](/books/n/nap12654/ch7/), [section 7.F.2.3](/books/n/nap12654/ch7/#ch7.s80) for more information on responding to fires.)
+6. First-aid equipment is accessible, whether through a kit available in the laboratory or by request through the organization.
+7. Fire alarms and telephones are available and accessible for emergency use.
+8. Pathways to fire extinguishers, eyewash units, fire blankets, first-aid kits, and safety showers are clear.
+
+### 2.F.3. Chemical Spill Policy
+
+Laboratory personnel should be familiar with the chemical, physical, and toxicological properties of each hazardous substance in the laboratory. Consult the label and the MSDS prior to the initial use of each hazardous substance. Always use the minimal amount of the chemical and use caution when transporting the chemical. In the event of an accidental chemical release or spill, personnel should refer to the following general guidelines.
+
+Most laboratory workers should be able to clean up incidental spills of the materials they use. Large spills, for example, 4 L or more, may require materials, protective equipment, and special handling that make it unsafe for cleanup by laboratory workers themselves. Lab workers should be instructed to contact EHS personnel to evaluate how to proceed with spill cleanup.
+
+In the event that the spill material has been released to the environment, notify EHS personnel immediately. A release to the environment includes spills directly into a drain or waterway or onto land, such as grass or dirt.
+
+#### Low-flammability and low-toxicity materials that are not volatile (e.g., inorganic acids and caustic bases)
+
+1. Decontaminate any victim at the nearest safety shower or eyewash unit. Take other appropriate action as described in the MSDS.
+2. Notify appropriate personnel immediately.[4](#ch2.fn5)
+3. Limit or restrict access to the area as necessary.
+4. Wear PPE that is appropriate to the degree of hazard of the spilled substance.
+5. Use chemical spill kits that contain an inert absorbent to clean up the affected area if this action can be accomplished without risk of additional injury or contamination to personnel. If the spill is located on the laboratory floor, be aware that some absorbents can create a slipping hazard.
+6. Dispose of contaminated materials according to institutional policy.
+7. Complete an incident report and submit it to the appropriate office or individual.
+8. Label all phones with emergency phone numbers.
+
+#### Flammable solvents of low toxicity (e.g., diethyl ether and tetrahydrofuran)
+
+1. Decontaminate any victims at the nearest safety shower or eyewash unit. Take other appropriate action as described in the MSDS.
+2. Alert all other personnel in the laboratory and the general vicinity of the spill.
+3. Extinguish all flames and turn off any spark-producing equipment. If necessary, turn off power to the laboratory at the circuit breaker. The ventilation system must remain operational.
+4. Immediately notify appropriate personnel.[4](#ch2.fn5)
+5. Limit or restrict access to the area as necessary.
+6. Wear PPE that is appropriate to the degree of hazard of the spilled substance.
+7. Use spill pillows or spill absorbent and nonsparking tools to soak up the solvent as quickly as possible. Be sure to soak up chemicals that have seeped under equipment and other objects in the laboratory. If the spill is located on the laboratory floor, be aware that some absorbents can create a slipping hazard.
+8. Dispose of contaminated materials according to institutional policy.
+9. Complete an incident report and submit it to the appropriate office or individual.
+
+#### Highly toxic materials (e.g., dimethylmercury)
+
+1. Alert all trained laboratory personnel in the laboratory and the general vicinity of the spill and immediately evacuate the area.
+2. Decontaminate any victims at a safety shower or eyewash unit in a safe location. Take other appropriate decontamination action as described in the MSDS.
+3. Immediately notify appropriate personnel.[4](#ch2.fn5)
+4. Limit or restrict access to the area as necessary.
+5. Do not attempt to clean up the spill. EHS personnel will evaluate the hazards that are involved with the spill and will take the appropriate actions.
+6. Only EHS personnel and appropriate outside industrial hygienists are authorized to decontaminate the area and dispose of the contaminated waste.
+7. Complete an incident report and submit it to the appropriate office or individual.
+
+### 2.F.4. Accident Procedures
+
+In the event of an accident, follow all institutional policies for emergency response and notify the internal point of contact for laboratory safety and local emergency responders. All accidents involving personal injury, however slight, must be immediately reported according to your institution's procedure. Provide a copy of the appropriate MSDS to the attending physician, as needed. Complete an accident report ([Figure 2.2](/books/NBK55873/figure/ch2.f2/?report=objectonly)) and submit it to the appropriate office or individual within 24 hours of the incident.
+
+[![Example of an accident report form with sections for personal data and event details.](/books/NBK55873/bin/ch2f2.gif)](/books/NBK55873/figure/ch2.f2/?report=objectonly "FIGURE 2.2")
+
+#### [FIGURE 2.2](/books/NBK55873/figure/ch2.f2/?report=objectonly)
+
+Accident report form.
+
+## 2.G. EMPLOYEE SAFETY TRAINING PROGRAM
+
+Newly hired employees or students working in a laboratory should be required to attend basic safety training prior to their first day. Additional training should be provided to laboratory personnel as they advance in their laboratory duties or when they are required to handle a chemical or use equipment for the first time.
+
+Safety training should be viewed as a vital component of the laboratory safety program within the organization. The organization should provide ongoing safety activities that serve to promote a culture of safety in the workplace that will begin when the person begins work and will continue for the length of their tenure. Personnel should be encouraged to suggest or request training if they feel it would be beneficial. The training should be recorded and related documents maintained in accordance with organizational requirements.
+
+Training sessions may be provided in-house by professional trainers or may be provided via online training courses. Hands-on, scenario-based training should be incorporated whenever possible. Safety training topics that may prove to be helpful to laboratory personnel include
+
+* use of CHPs and MSDSs,
+* chemical segregation,
+* PPE,
+* safety showers and eyewash units,
+* first aid and cardiopulmonary resuscitation,
+* chemical management,
+* gas cylinder use,
+* fire extinguisher training,
+* laser safety, and
+* emergency procedures.
+
+## Footnotes
+
+1
+:   A general definition of a management system is “a series of elements for establishing policy, objectives, and processes for implementation, review, and continual improvement.”
+
+2
+:   The term “particularly hazardous substances” is used by Occupational Safety and Health Administration (OSHA) and defined in the Laboratory Standard 29 CFR § 1910.1450. (For more information see [Chapter 4](/books/n/nap12654/ch4/), [section 4.C.3](/books/n/nap12654/ch4/#ch4.s25).)
+
+3
+:   29 CFR § 1910.1450 (1990), [http://www​.osha.gov/](http://www.osha.gov/).
+
+4
+:   The person to notify in case of an incident in the laboratory varies by organization. It may be the CHO, the safety director, on-site security, or another party. Check with the organization to determine the appropriate individual or office.
+
+[Copyright](/books/about/copyright/) © 2011, National Academy of Sciences.
+
+Bookshelf ID: NBK55873
+
+[Contents](/books/n/nap12654/)
+
+[< Prev](/books/n/nap12654/ch1/ "Previous page in this title")[Next >](/books/n/nap12654/ch3/ "Next page in this title")
