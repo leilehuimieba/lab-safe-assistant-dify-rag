@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import logging
 import os
 import time
 import threading
@@ -27,6 +28,31 @@ from ..services.auth_service import verify_password
 from ..services.kb_usage_service import record_kb_usage
 
 router = APIRouter(dependencies=[Depends(verify_password)])
+
+logger = logging.getLogger(__name__)
+
+
+def _classify_dify_failure(detail: str) -> str:
+    """把 call_dify_lab 抛出的 HTTPException.detail 归类成用户可读的中文短标签。
+
+    目的：`structured_fallback` 兜底时保留“为什么回退”的可区分信息，便于事后
+    根因排查（超时 / 上游空返回 / 上游报错 / 连接失败 / 配置错误），避免像此前那样
+    所有回退都被记成同一句 "upstream unavailable" 而无法区分失败模式。
+    仅返回稳定的短标签，不回传上游原始报文（原始 detail 另行写入服务端日志）。
+    """
+    text = (detail or "").lower()
+    if "timeout" in text or "timed out" in text:
+        return "上游响应超时"
+    if "empty_answer" in text or "empty" in text:
+        return "上游未返回有效内容"
+    if "dify_http_" in text or "http " in text:
+        return "上游返回错误"
+    if "request_failed" in text or "connection" in text:
+        return "上游连接失败"
+    if "api_key" in text or "base_url" in text or "allowlist" in text:
+        return "上游配置错误"
+    return "上游暂时不可用"
+
 
 # --- In-memory performance stats ---
 _stats_lock = threading.Lock()
@@ -280,9 +306,23 @@ def chat(payload: ChatRequest) -> ChatResponse:
                     "citations": [item.model_dump() if hasattr(item, "model_dump") else item for item in citations],
                 },
             )
-    except HTTPException:
+    except HTTPException as exc:
+        # 记录失败耗时（time-to-failure）——此前异常路径不给 upstream_ms 赋值，
+        # 结果 upstream_ms 停在 0，误导性地看起来像“上游从未被调用”。
+        timings["upstream_ms"] = round((time.perf_counter() - t_upstream) * 1000)
         decision = "structured_fallback"
-        answer = build_fallback_lab_answer(question=question, citations=citations, rule=rule, low_confidence_reason=low_reason)
+        detail = str(getattr(exc, "detail", "") or "")
+        fallback_reason = _classify_dify_failure(detail)
+        logger.warning(
+            "dify upstream failed after %sms, using structured fallback (%s): %s",
+            timings["upstream_ms"], fallback_reason, detail,
+        )
+        answer = build_fallback_lab_answer(
+            question=question,
+            citations=citations,
+            rule=rule,
+            low_confidence_reason=low_reason or fallback_reason,
+        )
         model = "fallback-rule-engine"
 
     answer_possibly_truncated = looks_truncated(answer) if model == "dify-workflow" else False
