@@ -1,0 +1,6 @@
+{
+  "RemoteHost": "0.0.0.0",
+  "RemoteUser": "root",
+  "KeyPath": "C:\\Users\\you\\.ssh\\your_key.pem",
+  "RemotePath": "/root/lab-safe-assistant-github"
+}

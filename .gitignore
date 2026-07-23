@@ -2,6 +2,9 @@
 .env.dify_rag
 .env.web_demo
 
+# 远程主监测环境连接配置（含服务器 IP / SSH key 路径，不入库）
+scripts/.remote_runtime.local.json
+
 # Python
 __pycache__/
 *.py[cod]
