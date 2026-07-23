@@ -6,6 +6,6 @@ pydantic==2.10.4
 PyYAML==6.0.2
 python-multipart==0.0.20
 python-dotenv==1.1.0
-numpy>=1.26
+numpy==2.4.4
 # 可选：启用本地语义检索时再安装 sentence-transformers
 # sentence-transformers>=3.0.0

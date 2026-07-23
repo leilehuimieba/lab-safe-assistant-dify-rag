@@ -5,6 +5,9 @@
 # 远程主监测环境连接配置（含服务器 IP / SSH key 路径，不入库）
 scripts/.remote_runtime.local.json
 
+# Dify 账户/凭证备份（含管理员邮箱 + 口令哈希 + salt，绝不入库）
+artifacts/dify_account_backup/
+
 # Python
 __pycache__/
 *.py[cod]
