@@ -7,6 +7,18 @@ interface Props {
 }
 
 export default function CitationCard({ citation: c }: Props) {
+  let sourceDomain = '';
+  let sourceType = '';
+  if (c.source_url) {
+    try {
+      const parsed = new URL(c.source_url);
+      sourceDomain = parsed.hostname;
+      sourceType = parsed.pathname.toLowerCase().endsWith('.pdf') ? 'PDF' : '网页';
+    } catch {
+      // Keep the card usable even if a legacy row contains a malformed URL.
+    }
+  }
+
   const inner = (
     <>
       <div className="cite-head">
@@ -36,7 +48,9 @@ export default function CitationCard({ citation: c }: Props) {
         <ScoreBar score={c.score} />
         {c.source_url ? (
           <span className="cite-link">
-            打开来源 <Icon name="external" size={11} />
+            {sourceDomain ? <span className="cite-domain">{sourceDomain}</span> : null}
+            {sourceType ? <span className="cite-type">{sourceType}</span> : null}
+            <span>打开来源</span> <Icon name="external" size={11} />
           </span>
         ) : (
           <span style={{ fontSize: 11, color: 'var(--text-3)' }}>无外链</span>

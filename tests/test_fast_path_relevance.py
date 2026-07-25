@@ -64,6 +64,23 @@ class FastPathRelevanceTests(unittest.TestCase):
         self.assertTrue(selected)
         self.assertIn("停电", selected[0].title)
 
+    def test_ether_spill_does_not_retrieve_needlestick_exposure(self) -> None:
+        retrieved = retrieve_citations("乙醚洒在实验台上并有人感到头晕，应该怎么办？", top_k=4)
+
+        self.assertTrue(retrieved)
+        top_text = " ".join(
+            [
+                retrieved[0].title,
+                retrieved[0].snippet,
+                retrieved[0].source_title,
+            ]
+        )
+        self.assertTrue("乙醚" in top_text or "泄漏" in top_text or "有机溶剂" in top_text)
+        self.assertTrue("泄漏" in top_text or "洒漏" in top_text)
+        self.assertTrue("泄漏" in retrieved[0].title or "洒漏" in retrieved[0].title)
+        self.assertNotIn("针刺", top_text)
+        self.assertNotIn("血液", top_text)
+
 
 if __name__ == "__main__":
     unittest.main()

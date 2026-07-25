@@ -10,6 +10,8 @@ import Thinking from '../components/Thinking';
 import EmptyHero from '../components/EmptyHero';
 import ChatHeader from '../components/ChatHeader';
 import Icon from '../components/Icon';
+import MobileNavigation from '../components/MobileNavigation';
+import { useAuth } from '../contexts/AuthContext';
 
 function nowHHMM(): string {
   const d = new Date();
@@ -52,6 +54,7 @@ function saveSession(messages: Msg[], sessionId: string) {
 }
 
 export default function ChatPage() {
+  const { logout } = useAuth();
   const { loading, error: metaError, meta, health, healthChecked } = useMetaAndHealth();
   const { send, busy } = useChat();
   const { search, busy: searchBusy } = useSearch();
@@ -65,6 +68,7 @@ export default function ChatPage() {
   const [flashIdx, setFlashIdx] = useState(-1);
   const [error, setError] = useState<AppError | null>(null);
   const [lastSearchCitations, setLastSearchCitations] = useState<Citation[]>([]);
+  const [mobileNavigationOpen, setMobileNavigationOpen] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const composerRef = useRef<HTMLTextAreaElement | null>(null);
@@ -203,7 +207,11 @@ export default function ChatPage() {
 
   return (
     <div className={`app ${loading ? 'loading-fade' : 'loaded'}`}>
-      <Topbar health={health} healthChecked={healthChecked} />
+      <Topbar
+        health={health}
+        healthChecked={healthChecked}
+        onOpenNavigation={() => setMobileNavigationOpen(true)}
+      />
       <Sidebar
         onPick={onPickQuick}
         onNew={newChat}
@@ -267,6 +275,17 @@ export default function ChatPage() {
         loading={loading || statsLoading}
         stats={stats}
         lastSearchCitations={lastSearchCitations}
+      />
+      <MobileNavigation
+        open={mobileNavigationOpen}
+        onClose={() => setMobileNavigationOpen(false)}
+        onNew={newChat}
+        history={history}
+        onHistoryClick={(q) => {
+          setInput(q);
+          window.setTimeout(focusComposer, 0);
+        }}
+        onLogout={logout}
       />
       <Footbar meta={meta} />
     </div>

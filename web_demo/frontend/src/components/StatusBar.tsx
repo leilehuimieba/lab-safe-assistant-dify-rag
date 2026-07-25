@@ -5,6 +5,7 @@ import Icon from './Icon';
 interface TopbarProps {
   health: boolean;
   healthChecked: boolean;
+  onOpenNavigation?: () => void;
 }
 
 function Modal({ title, children, onClose }: { title: string; children: React.ReactNode; onClose: () => void }) {
@@ -21,7 +22,7 @@ function Modal({ title, children, onClose }: { title: string; children: React.Re
   );
 }
 
-export function Topbar({ health, healthChecked }: TopbarProps) {
+export function Topbar({ health, healthChecked, onOpenNavigation }: TopbarProps) {
   const [showSettings, setShowSettings] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
 
@@ -45,6 +46,14 @@ export function Topbar({ health, healthChecked }: TopbarProps) {
     <>
       <header className="topbar">
         <div className="brand">
+          <button
+            className="icon-btn mobile-menu-btn"
+            aria-label="打开导航"
+            title="打开导航"
+            onClick={onOpenNavigation}
+          >
+            <Icon name="menu" size={19} />
+          </button>
           <div className="brand-mark"><Icon name="flask" size={18} stroke={2.2} /></div>
           <div>
             <div className="brand-name">实验室安全小助手</div>
@@ -119,7 +128,7 @@ export function Footbar({ meta }: FootbarProps) {
             <span className="sep" />
           </>
         )}
-        <span>已加密 · 已脱敏</span>
+        <span>本地演示环境</span>
       </div>
     </footer>
   );

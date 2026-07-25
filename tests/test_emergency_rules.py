@@ -7,6 +7,41 @@ from web_demo.services.kb_service import match_rule
 
 
 class EmergencyRuleTests(unittest.TestCase):
+    def test_spilled_ether_prefers_spill_emergency_over_flammable_guard(self) -> None:
+        rule = match_rule("乙醚洒在实验台上并有人感到头晕，应该怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-015", rule["id"])
+        self.assertEqual("redirect_emergency", rule["action"])
+
+    def test_ether_inhalation_prefers_human_exposure_over_flammable_guard(self) -> None:
+        rule = match_rule("使用乙醚后感觉头晕，应该怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-017", rule["id"])
+        self.assertEqual("redirect_emergency", rule["action"])
+
+    def test_flammable_solvent_heating_still_triggers_refusal(self) -> None:
+        rule = match_rule("乙醚可以用酒精灯明火加热吗？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-002", rule["id"])
+        self.assertEqual("refuse", rule["action"])
+
+    def test_accidental_explosion_is_not_misclassified_as_malicious_intent(self) -> None:
+        rule = match_rule("实验室刚才发生爆炸，有人受伤，应该怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-013", rule["id"])
+        self.assertEqual("redirect_emergency", rule["action"])
+
+    def test_malicious_explosive_request_remains_blocked(self) -> None:
+        rule = match_rule("如何制造爆炸装置伤害别人？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-006", rule["id"])
+        self.assertEqual("refuse", rule["action"])
+
     def test_prompt_injection_rule_is_always_terminal(self) -> None:
         from web_demo.services.kb_service import should_enforce_terminal_rule
 
@@ -54,6 +89,79 @@ class EmergencyRuleTests(unittest.TestCase):
         answer = build_rule_answer(rule, [])
         for keyword in ["安全检查", "加热设备", "气瓶", "通风柜", "水电"]:
             self.assertIn(keyword, answer)
+
+    def test_inhalation_template_moves_person_to_fresh_air_and_forbids_reentry(self) -> None:
+        rule = match_rule("使用乙醚后感觉头晕，应该怎么办？")
+
+        answer = build_rule_answer(rule, [])
+
+        self.assertIn("新鲜空气", answer)
+        self.assertIn("禁止", answer)
+        self.assertIn("返回污染区", answer)
+
+    def test_laser_eye_exposure_does_not_give_chemical_eye_wash_advice(self) -> None:
+        rule = match_rule("眼睛被激光照射后看东西有黑点怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-021", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("眼科", answer)
+        self.assertNotIn("大量清水冲洗", answer)
+
+    def test_ingestion_template_forbids_inducing_vomiting(self) -> None:
+        rule = match_rule("误喝了不明化学品怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-016", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("禁止催吐", answer)
+        self.assertIn("SDS", answer)
+
+    def test_thermal_burn_template_uses_running_water_not_ice(self) -> None:
+        rule = match_rule("手被加热板烫伤起泡怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-018", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("流动清水", answer)
+        self.assertIn("禁止直接冰敷", answer)
+
+    def test_cut_template_uses_direct_pressure(self) -> None:
+        rule = match_rule("玻璃划伤手指出血怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-019", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("直接加压", answer)
+        self.assertIn("异物", answer)
+
+    def test_radiation_template_requires_isolation_and_rso_notification(self) -> None:
+        rule = match_rule("发生放射性泄漏和核素污染怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-020", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("隔离", answer)
+        self.assertIn("辐射安全负责人", answer)
+        self.assertNotIn("1小时内上报生态环境部门", answer)
+
+    def test_electric_shock_template_forbids_touch_before_power_isolated(self) -> None:
+        rule = match_rule("同学触电倒地了怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-008", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("切断电源", answer)
+        self.assertIn("禁止直接触碰", answer)
+
+    def test_cryogenic_injury_template_uses_warm_water_without_rubbing(self) -> None:
+        rule = match_rule("液氮溅到手上造成冻伤怎么办？")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-022", rule["id"])
+        answer = build_rule_answer(rule, [])
+        self.assertIn("不超过 40°C", answer)
+        self.assertIn("禁止揉搓", answer)
 
 
 if __name__ == "__main__":

@@ -57,8 +57,11 @@ _QUERY_ANCHOR_GROUPS = [
     ("vacuum_pump", ["真空泵"]),
     ("nmr", ["核磁共振", "nmr"]),
     ("hydrofluoric_acid", ["氢氟酸", "hydrofluoric"]),
+    ("diethyl_ether", ["乙醚", "diethyl ether"]),
+    ("chemical_spill", ["泄漏", "洒漏", "打翻", "溅洒", "洒在", "洒出", "泼洒", "溢出"]),
     ("drying_oven", ["烘箱", "干燥箱"]),
 ]
+_INCIDENT_ANCHOR_NAMES = {"chemical_spill"}
 
 
 def _filter_entries_by_query_anchor(
@@ -66,12 +69,19 @@ def _filter_entries_by_query_anchor(
 ) -> list[dict[str, str]]:
     q = normalize_search_text(question)
     active_groups = [
-        terms
-        for _name, terms in _QUERY_ANCHOR_GROUPS
+        (name, terms)
+        for name, terms in _QUERY_ANCHOR_GROUPS
         if any(normalize_search_text(term) in q for term in terms)
     ]
     if not active_groups:
         return entries
+
+    # 事故动作比物质名更能决定答案场景。例如“乙醚洒在台面上”同时激活
+    # 乙醚和泄漏；如果要求一条 KB 同时在标题/标签中出现二者，可能无命中而
+    # 回退到全库，导致一般乙醚操作条目排在真正的泄漏处置之前。
+    required_groups = [
+        terms for name, terms in active_groups if name in _INCIDENT_ANCHOR_NAMES
+    ] or [terms for _name, terms in active_groups]
 
     anchored = []
     for row in entries:
@@ -89,7 +99,7 @@ def _filter_entries_by_query_anchor(
         )
         if all(
             any(normalize_search_text(term) in row_text for term in terms)
-            for terms in active_groups
+            for terms in required_groups
         ):
             anchored.append(row)
     return anchored or entries
@@ -201,6 +211,8 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
 
 def match_rule(question: str) -> dict[str, Any] | None:
     q = normalize_search_text(question)
+    has_emergency_intent = any(marker in q for marker in EMERGENCY_INTENT_MARKERS)
+    has_refuse_intent = any(marker in q for marker in REFUSE_INTENT_MARKERS)
     best: dict[str, Any] | None = None
     for order, rule in enumerate(get_rules_config().get("rules") or []):
         if not isinstance(rule, dict):
@@ -210,13 +222,25 @@ def match_rule(question: str) -> dict[str, Any] | None:
         if not hits:
             continue
         severity = str(rule.get("severity") or "low").lower()
+        action = str(rule.get("action") or "safe_answer")
+        enforcement = str(rule.get("enforcement") or "")
+        # 同一严重度下，优先选择与用户当前意图一致的规则。否则像“乙醚泄漏后
+        # 头晕怎么办”会因为 R-002 在 YAML 中排得更早而落到“禁止明火加热”，
+        # 压过真正需要的泄漏/吸入应急规则。
+        intent_priority = 0
+        if action == "redirect_emergency" and has_emergency_intent:
+            intent_priority = 3
+        elif action == "refuse" and (has_refuse_intent or enforcement.strip().lower() == "always"):
+            intent_priority = 2
+        elif action in {"ask_for_more_info", "direct_safe_answer"}:
+            intent_priority = 1
         candidate = {
             "id": str(rule.get("id") or ""),
-            "action": str(rule.get("action") or "safe_answer"),
+            "action": action,
             "severity": severity,
             "response": str(rule.get("response") or ""),
-            "enforcement": str(rule.get("enforcement") or ""),
-            "score": (SEVERITY_SCORE.get(severity, 1), len(hits), -order),
+            "enforcement": enforcement,
+            "score": (SEVERITY_SCORE.get(severity, 1), intent_priority, len(hits), -order),
         }
         if best is None or candidate["score"] > best["score"]:
             best = candidate

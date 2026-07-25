@@ -3,12 +3,9 @@ interface Props {
 }
 
 export default function ScoreBar({ score }: Props) {
-  const pct = Math.max(0, Math.min(100, (score / 10) * 100));
   return (
-    <div className="score-bar" title={`匹配分 ${score} / 10`}>
-      <div className="track">
-        <div className="fill" style={{ width: `${pct}%` }} />
-      </div>
+    <div className="score-bar" title={`检索匹配分 ${score}（仅用于本次结果排序）`}>
+      <span className="score-label">匹配</span>
       <span className="num">{score.toFixed(1)}</span>
     </div>
   );

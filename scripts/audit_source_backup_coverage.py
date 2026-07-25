@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+"""Summarize live source reachability and local evidence/PDF backup coverage.
+
+This script intentionally does not download or mutate source material. It joins the
+latest URL audit with the existing public-ingest cache and source archive manifest,
+so the result can be reproduced without claiming that a blocked URL is dead.
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Iterable
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def resolve_local_path(value: str) -> Path | None:
+    value = (value or "").strip()
+    if not value or value.upper().startswith("N/A"):
+        return None
+    path = Path(value)
+    return path if path.is_absolute() else REPO_ROOT / path
+
+
+def build_backup_index(
+    public_items: Iterable[dict[str, object]],
+    raw_dir: Path,
+    archive_rows: Iterable[dict[str, str]],
+) -> dict[str, dict[str, object]]:
+    """Build per-original-URL evidence records.
+
+    Public ingest files are exact downloads of the listed URL. Archive-manifest
+    files may be an official mirror, which is deliberately labelled ``mirror``.
+    """
+    index: dict[str, dict[str, object]] = {}
+
+    for item in public_items:
+        source_id = str(item.get("id") or "").strip()
+        url = str(item.get("url") or "").strip()
+        if not source_id or not url:
+            continue
+        paths = sorted(path for path in raw_dir.glob(f"{source_id}_*") if path.is_file())
+        if not paths:
+            continue
+        index[url] = {
+            "backup_kind": "original",
+            "has_local_pdf": any(path.suffix.lower() == ".pdf" for path in paths),
+            "paths": [str(path) for path in paths],
+        }
+
+    for row in archive_rows:
+        original_url = (row.get("original_citation_url") or "").strip()
+        mirror_url = (row.get("mirror_url") or "").strip()
+        paths = []
+        for field in ("local_original_path", "local_markdown_path"):
+            path = resolve_local_path(row.get(field) or "")
+            if path and path.is_file():
+                paths.append(path)
+        if not original_url or not paths:
+            continue
+
+        kind = "original" if not mirror_url or mirror_url == original_url else "mirror"
+        existing = index.get(original_url)
+        if existing and existing["backup_kind"] == "original":
+            existing_paths = list(existing["paths"])
+            existing_paths.extend(str(path) for path in paths if str(path) not in existing_paths)
+            existing["paths"] = existing_paths
+            existing["has_local_pdf"] = bool(existing["has_local_pdf"]) or any(
+                path.suffix.lower() == ".pdf" for path in paths
+            )
+            continue
+
+        index[original_url] = {
+            "backup_kind": kind,
+            "has_local_pdf": kind == "original"
+            and any(path.suffix.lower() == ".pdf" for path in paths),
+            "paths": [str(path) for path in paths],
+        }
+
+    return index
+
+
+def is_pdf_source(row: dict[str, str]) -> bool:
+    url = (row.get("url") or "").lower().split("?", 1)[0]
+    content_type = (row.get("content_type") or "").lower()
+    return url.endswith(".pdf") or "application/pdf" in content_type
+
+
+def summarize_coverage(
+    kb_rows: list[dict[str, str]],
+    live_rows: list[dict[str, str]],
+    backup_index: dict[str, dict[str, object]],
+) -> dict[str, object]:
+    source_urls = {(row.get("source_url") or "").strip() for row in kb_rows}
+    source_urls.discard("")
+    live_by_url = {(row.get("url") or "").strip(): row for row in live_rows}
+    status_counts = Counter(
+        (live_by_url.get(url, {}).get("traceability_status") or "not_audited")
+        for url in source_urls
+    )
+    pdf_urls = {
+        url for url in source_urls
+        if url in live_by_url and is_pdf_source(live_by_url[url])
+    }
+    evidence_urls = source_urls.intersection(backup_index)
+    original_urls = {
+        url for url in evidence_urls
+        if backup_index[url].get("backup_kind") == "original"
+    }
+    mirror_urls = evidence_urls - original_urls
+    pdf_backup_urls = {
+        url for url in pdf_urls
+        if bool(backup_index.get(url, {}).get("has_local_pdf"))
+    }
+
+    return {
+        "kb_rows": len(kb_rows),
+        "unique_source_urls": len(source_urls),
+        "open_urls": status_counts["open"],
+        "blocked_or_forbidden_urls": status_counts["blocked_or_forbidden"],
+        "network_error_urls": status_counts["network_error"],
+        "not_audited_urls": status_counts["not_audited"],
+        "urls_with_local_evidence": len(evidence_urls),
+        "urls_with_original_download": len(original_urls),
+        "urls_with_archive_mirror": len(mirror_urls),
+        "rows_with_local_evidence": sum(
+            1 for row in kb_rows
+            if (row.get("source_url") or "").strip() in evidence_urls
+        ),
+        "pdf_source_urls": len(pdf_urls),
+        "pdf_urls_with_local_pdf": len(pdf_backup_urls),
+        "pdf_urls_missing_local_pdf": len(pdf_urls - pdf_backup_urls),
+    }
+
+
+def write_outputs(
+    kb_rows: list[dict[str, str]],
+    live_rows: list[dict[str, str]],
+    backup_index: dict[str, dict[str, object]],
+    output_dir: Path,
+    report_path: Path,
+) -> dict[str, object]:
+    summary = summarize_coverage(kb_rows, live_rows, backup_index)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+
+    live_by_url = {(row.get("url") or "").strip(): row for row in live_rows}
+    row_counts = Counter((row.get("source_url") or "").strip() for row in kb_rows)
+    detail_rows = []
+    for url in sorted(row_counts):
+        if not url:
+            continue
+        live = live_by_url.get(url, {})
+        backup = backup_index.get(url, {})
+        detail_rows.append({
+            "url": url,
+            "row_count": row_counts[url],
+            "traceability_status": live.get("traceability_status", "not_audited"),
+            "http_status": live.get("http_status", ""),
+            "content_type": live.get("content_type", ""),
+            "is_pdf_source": "yes" if live and is_pdf_source(live) else "no",
+            "backup_kind": backup.get("backup_kind", "none"),
+            "has_local_pdf": "yes" if backup.get("has_local_pdf") else "no",
+            "local_paths": " | ".join(str(path) for path in backup.get("paths", [])),
+        })
+
+    detail_path = output_dir / "source_backup_coverage.csv"
+    with detail_path.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(detail_rows[0]))
+        writer.writeheader()
+        writer.writerows(detail_rows)
+
+    generated_at = datetime.now(timezone.utc).isoformat()
+    payload = {"generated_at": generated_at, **summary}
+    (output_dir / "source_backup_coverage_summary.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    missing_pdf_rows = [
+        row for row in detail_rows
+        if row["is_pdf_source"] == "yes" and row["has_local_pdf"] == "no"
+    ]
+    lines = [
+        "# 知识库来源链接与本地备份覆盖审计（2026-07-25）",
+        "",
+        f"- 生成时间（UTC）：`{generated_at}`",
+        f"- 知识片段：**{summary['kb_rows']}** 条；唯一来源链接：**{summary['unique_source_urls']}** 个",
+        f"- 本次实测可打开：**{summary['open_urls']}** 个；被站点/反爬拦截：**{summary['blocked_or_forbidden_urls']}** 个；网络错误：**{summary['network_error_urls']}** 个",
+        f"- 有本地原件或归档证据：**{summary['urls_with_local_evidence']}** 个链接，覆盖 **{summary['rows_with_local_evidence']}** 条知识片段",
+        f"- PDF 来源：**{summary['pdf_source_urls']}** 个；有本地 PDF 原件：**{summary['pdf_urls_with_local_pdf']}** 个；缺本地 PDF：**{summary['pdf_urls_missing_local_pdf']}** 个",
+        "",
+        "## 结论口径",
+        "",
+        "1. `blocked_or_forbidden` 只表示自动化访问被站点策略拦截，不能直接判定链接失效；需要浏览器抽样或更换官方镜像复核。",
+        "2. `network_error` 是当前网络下未完成验证的来源，不能算作已通过。",
+        "3. `archive_mirror` 表示保存了官方镜像/等效证据，不等同于原始 URL 的逐字节备份。",
+        "4. 当前不能宣称“所有来源都有本地备份”；PDF 原件覆盖率仍需继续提升。",
+        "",
+        "## PDF 原件缺口（按影响片段数排序）",
+        "",
+        "| 影响片段 | 实测状态 | 来源链接 |",
+        "|---:|---|---|",
+    ]
+    for row in sorted(missing_pdf_rows, key=lambda item: int(item["row_count"]), reverse=True):
+        lines.append(f"| {row['row_count']} | {row['traceability_status']} | {row['url']} |")
+    report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return payload
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--kb", type=Path, default=REPO_ROOT / "knowledge_base_curated.csv")
+    parser.add_argument(
+        "--live-audit",
+        type=Path,
+        default=REPO_ROOT / "artifacts/kb_traceability_20260725/kb_source_url_audit.csv",
+    )
+    parser.add_argument(
+        "--public-report",
+        type=Path,
+        default=REPO_ROOT / "artifacts/link_check_public_20260429/link_check_report.json",
+    )
+    parser.add_argument(
+        "--raw-dir",
+        type=Path,
+        default=REPO_ROOT / "artifacts/web_ingest_public_20260429/raw",
+    )
+    parser.add_argument(
+        "--archive-manifest",
+        type=Path,
+        default=REPO_ROOT / "artifacts/kb_source_archive_20260723/kb_source_archive_manifest_20260723.csv",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=REPO_ROOT / "artifacts/source_backup_coverage_20260725",
+    )
+    parser.add_argument(
+        "--report",
+        type=Path,
+        default=REPO_ROOT / "docs/eval/source_backup_coverage_20260725.md",
+    )
+    args = parser.parse_args()
+
+    kb_rows = read_csv(args.kb)
+    live_rows = read_csv(args.live_audit)
+    public_items = json.loads(args.public_report.read_text(encoding="utf-8"))["items"]
+    archive_rows = read_csv(args.archive_manifest)
+    backup_index = build_backup_index(public_items, args.raw_dir, archive_rows)
+    summary = write_outputs(
+        kb_rows,
+        live_rows,
+        backup_index,
+        args.output_dir,
+        args.report,
+    )
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

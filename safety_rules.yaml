@@ -81,7 +81,8 @@ rules:
   - id: R-006
     category: self_harm_or_illegal
     match_type: keywords
-    patterns: ["自杀", "伤害", "投毒", "爆炸", "制造武器"]
+    # 不使用单独的“爆炸”作为恶意意图关键词，避免把真实爆炸事故求助误判为拒答。
+    patterns: ["自杀", "伤害别人", "投毒", "制造爆炸物", "爆炸装置", "炸弹", "制造武器"]
     action: refuse
     enforcement: always
     severity: critical
@@ -158,7 +159,7 @@ rules:
   - id: R-013
     category: fire_smoke
     match_type: keywords
-    patterns: ["起火", "着火", "冒烟", "火灾", "燃烧", "爆燃", "火警"]
+    patterns: ["起火", "着火", "冒烟", "火灾", "燃烧", "爆燃", "爆炸", "火警"]
     action: redirect_emergency
     severity: critical
     response: "若发生起火/冒烟：立即停止实验、切断电源/气源；在确保安全且受过培训的前提下使用灭火器；无法控制请立刻撤离并报警。"
@@ -174,7 +175,7 @@ rules:
   - id: R-015
     category: chemical_spill
     match_type: keywords
-    patterns: ["洒漏", "打翻", "化学品泄漏", "溶液洒在地上", "溅洒"]
+    patterns: ["洒漏", "打翻", "化学品泄漏", "溶液洒在地上", "溅洒", "洒在", "洒出", "泼洒", "溢出"]
     action: redirect_emergency
     severity: high
     response: "若发生化学品泄漏：隔离现场、避免接触和吸入，在安全前提下通风并使用泄漏应急物资处理，立即报告实验室管理人员。"
@@ -182,7 +183,7 @@ rules:
   - id: R-016
     category: ingestion
     match_type: keywords
-    patterns: ["误食", "误饮", "吞咽", "喝到", "摄入", "中毒"]
+    patterns: ["误食", "误饮", "误喝", "吞咽", "喝到", "摄入", "中毒"]
     action: redirect_emergency
     severity: critical
     response: "若误食/误饮化学品：立即停止实验，漱口并尽快就医或联系急救，同时告知具体化学品名称与浓度。"
@@ -217,7 +218,7 @@ rules:
     patterns: ["放射源丢失", "辐射污染", "意外照射", "放射性泄漏", "核素污染"]
     action: redirect_emergency
     severity: critical
-    response: "发生辐射事故：立即疏散周围人员并隔离区域，皮肤污染用流水清洗，第一时间通知辐射安全负责人，1小时内上报生态环境部门，配合专业机构处置。"
+    response: "发生辐射事故：立即停止作业、疏散无关人员并隔离区域，第一时间通知本单位辐射安全负责人，按许可证、应急预案和属地监管要求上报并配合专业人员处置。"
 
   - id: R-021
     category: laser_injury
@@ -225,7 +226,7 @@ rules:
     patterns: ["激光伤眼", "激光照到眼", "激光灼伤", "被激光照射"]
     action: redirect_emergency
     severity: high
-    response: "激光伤眼是紧急情况：立即停止操作，用大量清水冲洗眼部，禁止揉眼，立即就医并告知激光波长和功率信息。"
+    response: "疑似激光眼损伤应立即停止操作并关闭激光，保持现场原状，禁止揉眼，尽快接受眼科评估并向医生说明激光波长、功率和暴露经过。"
 
   - id: R-022
     category: cryogenic_injury
@@ -233,7 +234,7 @@ rules:
     patterns: ["液氮冻伤", "低温冻伤", "被液氮烫", "液氮溅到", "冻伤"]
     action: redirect_emergency
     severity: high
-    response: "低温冻伤处置：将冻伤部位浸入37-40°C温水中缓慢复温，禁止摩擦或揉搓，立即就医。若在密闭空间大量液氮泄漏，立即撤离至通风处。"
+    response: "低温冻伤处置：移除未粘连的受污染衣物，用不超过 40°C 的温水缓慢复温，禁止摩擦或揉搓并尽快就医。若在密闭空间发生大量液氮泄漏，立即撤离到安全通风区域。"
 
   - id: R-023
     category: centrifuge_violation
