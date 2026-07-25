@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-25T14:52:58.289482+00:00",
-  "pdf_files": 58,
-  "unique_source_urls": 58,
-  "total_size_bytes": 181183149,
+  "generated_at": "2026-07-25T15:24:08.880764+00:00",
+  "pdf_files": 80,
+  "unique_source_urls": 80,
+  "total_size_bytes": 220314209,
   "coverage_pdf_source_urls": 151,
-  "coverage_pdf_with_local_pdf": 89,
-  "coverage_pdf_missing_local_pdf": 62,
+  "coverage_pdf_with_local_pdf": 111,
+  "coverage_pdf_missing_local_pdf": 40,
   "manifest": "artifacts\\pdf_source_backups_20260725\\pdf_backup_manifest_20260725.csv",
   "file_index": "artifacts\\pdf_source_backups_20260725\\pdf_backup_file_index_20260725.csv",
   "failed_attempts": "artifacts\\pdf_source_backups_20260725\\pdf_backup_failed_attempts_20260725.csv"

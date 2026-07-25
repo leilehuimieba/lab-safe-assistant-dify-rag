@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T14:52:58.716183+00:00",
+  "generated_at": "2026-07-25T15:23:24.833919+00:00",
   "kb_rows": 3009,
   "unique_source_urls": 716,
   "open_urls": 352,
   "blocked_or_forbidden_urls": 333,
   "network_error_urls": 31,
   "not_audited_urls": 0,
-  "urls_with_local_evidence": 151,
-  "urls_with_original_download": 127,
+  "urls_with_local_evidence": 173,
+  "urls_with_original_download": 149,
   "urls_with_archive_mirror": 24,
-  "rows_with_local_evidence": 1608,
+  "rows_with_local_evidence": 1648,
   "pdf_source_urls": 151,
-  "pdf_urls_with_local_pdf": 89,
-  "pdf_urls_missing_local_pdf": 62
+  "pdf_urls_with_local_pdf": 111,
+  "pdf_urls_missing_local_pdf": 40
 }

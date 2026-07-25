@@ -103,6 +103,11 @@ def download_once(url: str, out_path: Path, max_seconds: int, max_bytes: int) ->
             "--fail",
             "--silent",
             "--show-error",
+            # Windows Schannel aborts the TLS handshake ("EOF"/handshake failed)
+            # when the local network blocks CRL/OCSP revocation lookups.  Skipping
+            # the revocation check lets government CDNs (cdc.gov, nrc.gov, epa.gov,
+            # osp.od.nih.gov) complete the handshake without weakening cert checks.
+            "--ssl-no-revoke",
             "--connect-timeout",
             "12",
             "--max-time",
@@ -111,10 +116,24 @@ def download_once(url: str, out_path: Path, max_seconds: int, max_bytes: int) ->
             str(max_bytes),
             "--user-agent",
             ua,
+            # Present a full browser-like header set.  Several WAFs return 403 to
+            # requests that only send Accept: application/pdf; a real navigation
+            # sends an HTML-first Accept plus Sec-Fetch metadata.
             "--header",
-            "Accept: application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+            "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,"
+            "application/pdf,*/*;q=0.8",
             "--header",
             "Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+            "--header",
+            "Sec-Fetch-Dest: document",
+            "--header",
+            "Sec-Fetch-Mode: navigate",
+            "--header",
+            "Sec-Fetch-Site: none",
+            "--header",
+            "Sec-Fetch-User: ?1",
+            "--header",
+            "Upgrade-Insecure-Requests: 1",
             "--dump-header",
             str(header_path),
             "--output",

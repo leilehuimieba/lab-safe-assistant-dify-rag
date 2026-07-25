@@ -54,7 +54,9 @@
 
 ## 5. 剩余缺口说明
 
-补档后仍有 62 个 PDF 来源缺本地 PDF 原件，主要原因包括：
+> 说明：本节 5 / 5.1 记录的是**第一轮补档后**的状态（89/151，缺 62）。同日第二轮补档后的最新口径为 111/151、缺 40，详见第 8 节；第 8.3 节给出剩余 40 个缺口的逐条复核结论。
+
+第一轮补档后仍有 62 个 PDF 来源缺本地 PDF 原件，主要原因包括：
 
 1. OSHA PDF：本地 curl/Node/Chrome/in-app browser 均出现 403 或 `ERR_CONNECTION_CLOSED`；但 `web.open` 能验证部分 PDF 在线存在，例如 OSHA 3404 Laboratory Safety Guidance。
 2. NIH Guidelines：本地下载 403；`web.open` 可验证 PDF 在线存在。
@@ -62,7 +64,7 @@
 4. Berkeley 等个别 PDF URL 返回 HTML 包装页，不直接返回 PDF 原件，需要浏览器人工下载或替换为同机构可下载的新链接；Yale 与 Guelph 已通过同机构现行下载端点补齐。
 5. Thermo/OSHA 等个别设备手册或官方文件仍存在站点防护、迁移或区域访问限制，需要官方站内搜索或产品文档页替代；Agilent 与 Metrohm 已新增补齐一批。
 
-因此，当前严谨口径是：**89/151 个 PDF 来源已有本地 PDF 原件，仍缺 62 个；部分缺口已能在线验证存在，但本机无法保存原始 PDF，需要后续人工下载、浏览器导出或官方镜像替代。**
+因此，第一轮结束时的严谨口径是：**89/151 个 PDF 来源已有本地 PDF 原件，仍缺 62 个**（此口径已被同日第二轮的 111/151、缺 40 取代，见第 6、8 节）。
 
 
 ## 5.1 已在线验证但尚未形成本地 PDF 原件的高影响来源
@@ -81,13 +83,15 @@
 
 ## 6. 结项口径更新
 
-旧口径：31/151 个 PDF 来源有本地 PDF 原件，仍缺 120 个。
+演进过程（均为同日 2026-07-25 实测，累计口径）：
 
-新口径：89/151 个 PDF 来源有本地 PDF 原件，仍缺 62 个。
+- 初始：31/151 个 PDF 来源有本地 PDF 原件，仍缺 120 个。
+- 第一轮补档后：89/151，仍缺 62 个。
+- 第二轮补档后（当前口径）：**111/151 个 PDF 来源有本地 PDF 原件，仍缺 40 个。**
 
 可用于答辩的表述：
 
-> 项目已完成一轮 PDF 原件本地补档，本地 PDF 原件覆盖由 31/151 提升到 89/151，新增 58 个唯一 PDF 来源原件，并为每个文件记录 SHA-256、大小和本地路径。剩余 62 个 PDF 来源主要受站点防护、TLS 握手失败或 HTML 包装页影响，已列入后续人工下载、浏览器验证或官方镜像替代清单。
+> 项目已完成两轮 PDF 原件本地补档，本地 PDF 原件覆盖由 31/151 提升到 111/151，累计新增 80 个唯一 PDF 来源原件（本地 PDF 文件共 80 个、约 210 MB），并为每个文件记录 SHA-256、大小和本地路径。剩余 40 个 PDF 来源经本机多客户端复核，主要受官方站点 CDN/WAF 边缘拦截（OSHA CloudFront 403、NRC 边缘 403、NIH 403、Thermo Fisher 403）或原 `.pdf` 路径已被官方改为 HTML 网页所致，均非链接失效，已列入缺口清单并逐条记录原因。
 
 ## 7. 后续建议
 
@@ -95,3 +99,44 @@
 2. 对 CDC/EPA/NRC TLS EOF 类链接，换用校园网、VPN、浏览器“另存为”或官方 archive/stacks/govinfo 镜像继续补档。
 3. 对设备厂商手册迁移链接，优先从厂商官网产品文档页找同版本或新版 PDF，不使用非权威转载替代。
 4. 若替换知识库 source_url，应保留原 URL、替代 URL、替换理由、替换时间和审核人。
+
+## 8. 第二轮补档执行记录（同日续跑，2026-07-25）
+
+### 8.1 根因定位与修复
+
+第一轮遗留的 62 个缺口中，很大一部分并非“链接失效”，而是本机下载客户端的两个可修复问题：
+
+1. **Windows Schannel 吊销检查失败**：本网络无法访问 CRL/OCSP 服务，导致 `curl.exe`（Schannel）与部分政府 CDN（cdc.gov / nrc.gov / epa.gov / osp.od.nih.gov）握手时被判为“TLS EOF / handshake failed”。加入 `--ssl-no-revoke` 后握手正常，证书链仍按常规校验。
+2. **请求头过于简单**：第一轮只发送 `Accept: application/pdf`，部分 WAF 直接判为非浏览器请求返回 403。改为完整浏览器头集合（HTML 优先的 `Accept` + `Sec-Fetch-*` + `Upgrade-Insecure-Requests`）后，多数政府/机构 CDN 放行。
+
+上述两项已固化进 `scripts/download_missing_pdf_backups.py` 的 `curl` 命令，可复现。
+
+### 8.2 结果
+
+| 指标 | 第一轮后 | 第二轮新增 | 第二轮后 |
+|---|---:|---:|---:|
+| 有本地 PDF 原件的 PDF 来源 | 89 | +22 | 111 |
+| 缺本地 PDF 原件的 PDF 来源 | 62 | -22 | 40 |
+| 本地 PDF 文件总数 | 58 | +22 | 80 |
+| 本地 PDF 文件总大小(bytes) | 181,183,149 | +39,131,060 | 220,314,209 |
+| 有本地原件或官方镜像证据的 URL | 151 | +22 | 173 |
+| 被本地证据覆盖的知识片段 | 1608 | +40 | 1648 |
+
+第二轮新增的 22 个原件主要来自 CDC/NIOSH（多份 HHE 报告与 wp-solutions/docs 系列）、EPA（`hw-char.pdf`、`cont05.pdf`、`iwaste handbk4.pdf`）、CDC reach/stacks、ACS 网络研讨会讲义等。全部经 `%PDF-` 文件头校验并可被 `pypdf` 正常打开（当前 80 个文件累计 5200+ 页，读取错误 0）。
+
+`artifacts/pdf_source_backups_20260725/online_verified_unbacked_pdf_sources_20260725.csv` 已同步更新：原表中 EPA Hazardous Waste Characteristics 与 CDC/NIOSH School Chemistry Laboratory Safety Guide 两项已在本轮成功保存为本地原件，从“在线可验证但未保存”清单中移除。
+
+### 8.3 剩余 40 个缺口的确认原因
+
+均经本机 `curl.exe`（`--ssl-no-revoke` + 完整浏览器头 + Referer + HTTP/1.1）、PowerShell（.NET TLS）与自动化浏览器三类客户端复核，属于服务端/边缘策略拦截或内容迁移，**非链接失效，未伪造为本地原件**：
+
+| 站点 | 缺口数 | 复核结论 |
+|---|---:|---|
+| www.osha.gov | 24 | CloudFront 边缘直接 403（`X-Cache: Error from cloudfront`）；浏览器直连报 `ERR_CONNECTION_CLOSED`。含最高影响的 OSHA3404（29 片段）。 |
+| www.nrc.gov | 10 | ADAMS 边缘返回 403 HTML 拦截页（F5/BIG-IP 风格）。 |
+| documents/tools.thermofisher.com | 2 | S3/CDN 返回 403（`AccessDenied` XML / HTML）。 |
+| osp.od.nih.gov | 1 | WordPress/边缘防护 403。 |
+| ehs.berkeley.edu | 2 | 旧 `.pdf` 路径现由官方改为 HTML 文章页（返回 `text/html`，标题为对应 EHS 网页），已无 PDF 原件可存；如需留存应按 HTML 镜像归档而非 PDF。 |
+| www.umb.edu.pl | 1 | 第三方高校转载的厂商手册，现返回 307 字节 HTML（失效），且本身非权威来源，不作正式 PDF 证据补充。 |
+
+补充说明：作为最后手段尝试过 Internet Archive（`web.archive.org` / `archive.org`）快照回源，但本网络对 archive.org 443 端口连接超时，无法作为本轮替代来源。上述缺口的处理建议见第 7 节（换网络环境、校园网/VPN 或官方站内搜索人工下载）。

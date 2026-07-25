@@ -1,6 +1,4 @@
-﻿source_url,row_count,verification_tool,verification_status,pages,local_download_status,notes
-https://www.osha.gov/sites/default/files/publications/OSHA3404LABORATORY-SAFETY-GUIDANCE.pdf,29,web.open,online_pdf_verified,52,failed_403_or_connection_closed,web.open returned application/pdf and parsed PDF text; local curl/Node/Chrome failed.
-https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf,5,web.open,online_pdf_verified,132,failed_403,web.open returned application/pdf and parsed PDF text; local curl/Node fetch failed with 403.
-https://www.epa.gov/sites/default/files/2016-01/documents/hw-char.pdf,6,web.open,online_pdf_verified,30,failed_tls_eof,web.open returned application/pdf and parsed PDF text; local curl failed TLS handshake/EOF.
-https://www.cdc.gov/niosh/docs/2007-107/pdfs/2007-107.pdf,4,web.open,online_pdf_verified,86,failed_tls_eof,web.open returned application/pdf and parsed PDF text; local curl failed TLS handshake/EOF.
-https://www.osha.gov/sites/default/files/publications/OSHA3088.pdf,5,web.open,online_pdf_verified,30,failed_403,web.open returned application/pdf and parsed PDF text; local curl failed 403.
+source_url,row_count,verification_tool,verification_status,pages,local_download_status,notes
+https://www.osha.gov/sites/default/files/publications/OSHA3404LABORATORY-SAFETY-GUIDANCE.pdf,29,web.open,online_pdf_verified,52,confirmed_blocked_cloudfront_403,"2026-07-25 二轮复核：本机 curl.exe（含 --ssl-no-revoke + 完整浏览器头 + Referer + HTTP/1.1）、PowerShell .NET 与自动化浏览器均无法取回原件；CloudFront 边缘直接返回 403（X-Cache: Error from cloudfront），非链接失效。archive.org 快照本网络亦无法连通。"
+https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf,5,web.open,online_pdf_verified,132,confirmed_blocked_403,"2026-07-25 二轮复核：本机多客户端下载均返回 403（WordPress/边缘防护 HTML 拦截页），非链接失效；archive.org 快照本网络亦无法连通。"
+https://www.osha.gov/sites/default/files/publications/OSHA3088.pdf,5,web.open,online_pdf_verified,30,confirmed_blocked_cloudfront_403,"2026-07-25 二轮复核：同 OSHA3404，CloudFront 边缘 403，本机任何客户端无法直连取回原件，非链接失效。"
