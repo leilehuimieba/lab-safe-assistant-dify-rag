@@ -1,11 +1,11 @@
 ﻿url,row_count,traceability_status,http_status,content_type,is_pdf_source,backup_kind,has_local_pdf,local_paths
-http://ccc.chem.pitt.edu/wipf/papers&presentations/safety-manual.pdf,1,open,200,application/pdf,yes,none,no,
+http://ccc.chem.pitt.edu/wipf/papers&presentations/safety-manual.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\031_ccc.chem.pitt.edu_54d69831fe_safety-manual.pdf
 http://www.moe.gov.cn/s78/A16/tongzhi/201905/t20190529_383641.html,1,open,200,text/html,no,none,no,
 http://www.moe.gov.cn/srcsite/A16/s3336/201905/t20190531_383962.html,5,open,200,text/html,no,none,no,
 http://www.nxmu.edu.cn/lnjbzdsys/info/1094/1283.htm,1,open,200,text/html,no,none,no,
-https://adrona.lv/wp-content/uploads/2023/08/TGA-4000-Specifiactions_English.pdf,1,open,200,application/pdf,yes,none,no,
+https://adrona.lv/wp-content/uploads/2023/08/TGA-4000-Specifiactions_English.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\032_adrona.lv_290b901468_TGA-4000-Specifiactions_English.pdf
 https://archive.epa.gov/epawaste/hazard/tsd/td/web/html/combustion.html,1,open,200,text/html,no,none,no,
-https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0016959_GAHyPerformanceAPTSKit_UG.pdf,1,open,200,application/pdf,yes,none,no,
+https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0016959_GAHyPerformanceAPTSKit_UG.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\033_assets.thermofisher.com_f762746cf1_MAN0016959_GAHyPerformanceAPTSKit_UG.pdf
 https://blink.ucsd.edu/safety/research-lab/chemical/hoods/,6,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\UCSD-FUME-HOODS_hoods.html
 https://blink.ucsd.edu/safety/research-lab/hazardous-waste/disposal-guidance/extremely.html,14,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\UCSD-EXTREME-WASTE_extremely.html.html
 https://ccce.csu.edu.cn/info/1591/7436.htm,1,open,200,text/html,no,none,no,
@@ -13,23 +13,23 @@ https://cem.com/how-safe-is-the-instrument/microwave-digestion,1,open,200,text/h
 https://cem.com/why-can-t-i-use-a-home-microwave-for-acid-digestion-or-extraction,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://chem.fjnu.edu.cn/86/7f/c17280a362111/page.htm,1,open,200,text/html,no,none,no,
 https://chemistry.stanford.edu/resources/environmental-health-lab-safety/general-resources,4,open,200,text/html; charset=UTF-8,no,none,no,
-https://chemistry.unt.edu/system/files/tga_2_user_manual.pdf,4,open,200,application/pdf,yes,none,no,
+https://chemistry.unt.edu/system/files/tga_2_user_manual.pdf,4,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\retry_003_chemistry.unt.edu_0457e87f5b_tga_2_user_manual.pdf
 https://chemlab.jhun.edu.cn/4b/ea/c4541a84970/pagem.htm,1,open,200,text/html,no,none,no,
 https://coactionspecialty.safetynow.com/chemical-compatibility-storage-guidelines-quick-tips/,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
-https://community.agilent.com/cfs-filesystemfile/__key/communityserver-discussions-components-files/23/G7446_2D00_35102B-Agilent-magnetic-Resonance-systems.pdf,7,open,200,application/pdf,yes,none,no,
+https://community.agilent.com/cfs-filesystemfile/__key/communityserver-discussions-components-files/23/G7446_2D00_35102B-Agilent-magnetic-Resonance-systems.pdf,7,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\004_community.agilent.com_85b1f6e3da_G7446_2D00_35102B-Agilent-magnetic-Resonance-systems.pdf
 https://community.agilent.com/knowledge/icp-ms-portal/kmp/icp-ms-articles/kp1584.assembling-the-icp-ms-spray-chamber,1,open,200,text/html,no,none,no,
 https://community.agilent.com/technical/consumables/w/wiki/3840/stay-safe-a-win-win-for-solvent-storage,1,open,200,text/html,no,none,no,
 https://dehs.umn.edu/biological-safety-cabinets,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
-https://documents.thermofisher.com/TFS-Assets/CAD/Application-Notes/apex-te-mct-an64724-en.pdf,1,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/CMD/brochures/sn-43363-icp-oes-aas-benefits-sn43363-en.pdf,3,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-1R120706-0002-GC-MS-Q-Exactive-Man1R1207060002-EN.pdf,11,open,200,application/pdf,yes,none,no,
+https://documents.thermofisher.com/TFS-Assets/CAD/Application-Notes/apex-te-mct-an64724-en.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\034_documents.thermofisher.com_81500d1616_apex-te-mct-an64724-en.pdf
+https://documents.thermofisher.com/TFS-Assets/CMD/brochures/sn-43363-icp-oes-aas-benefits-sn43363-en.pdf,3,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\014_documents.thermofisher.com_9cd916ab6e_sn-43363-icp-oes-aas-benefits-sn43363-en.pdf
+https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-1R120706-0002-GC-MS-Q-Exactive-Man1R1207060002-EN.pdf,11,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\retry_001_documents.thermofisher.com_5dbcf8b027_Man-1R120706-0002-GC-MS-Q-Exactive-Man1R1207060002-EN.pdf
 https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-4820-3601-LC-Vanquish-UHPLC-Man48203601-EN.pdf,10,blocked_or_forbidden,403,application/xml,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/CMD/manuals/ii-1r120591-0001-isq-ec-ms-req-ii1r1205910001-en.pdf,3,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/LED/manuals/50155784-c-Thermo%20Scientific%20Sorvall%20ST%2016R-en.pdf,1,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/LPD/Application-Notes/bsc-a2-b2-differences-appnote.pdf,1,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/MSD/Product-Information/Summit-UG.pdf,5,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/MSD/Technical-Notes/FL53370-gas-phase-ftir-smoke-toxicity-measurements.pdf,1,open,200,application/pdf,yes,none,no,
-https://documents.thermofisher.com/TFS-Assets/MSD/manuals/summit-lite-site-and-safety-en.pdf,4,open,200,application/pdf,yes,none,no,
+https://documents.thermofisher.com/TFS-Assets/CMD/manuals/ii-1r120591-0001-isq-ec-ms-req-ii1r1205910001-en.pdf,3,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\015_documents.thermofisher.com_01f08b18e8_ii-1r120591-0001-isq-ec-ms-req-ii1r1205910001-en.pdf
+https://documents.thermofisher.com/TFS-Assets/LED/manuals/50155784-c-Thermo%20Scientific%20Sorvall%20ST%2016R-en.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\035_documents.thermofisher.com_714ccaa72b_50155784-c-Thermo_Scientific_Sorvall_ST_16R-en.pdf
+https://documents.thermofisher.com/TFS-Assets/LPD/Application-Notes/bsc-a2-b2-differences-appnote.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\036_documents.thermofisher.com_be4be0cbb2_bsc-a2-b2-differences-appnote.pdf
+https://documents.thermofisher.com/TFS-Assets/MSD/Product-Information/Summit-UG.pdf,5,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\009_documents.thermofisher.com_3ad2bc480a_Summit-UG.pdf
+https://documents.thermofisher.com/TFS-Assets/MSD/Technical-Notes/FL53370-gas-phase-ftir-smoke-toxicity-measurements.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\037_documents.thermofisher.com_7491821c25_FL53370-gas-phase-ftir-smoke-toxicity-measurements.pdf
+https://documents.thermofisher.com/TFS-Assets/MSD/manuals/summit-lite-site-and-safety-en.pdf,4,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\011_documents.thermofisher.com_1a6f1ab4aa_summit-lite-site-and-safety-en.pdf
 https://drs.illinois.edu/Page/SafetyLibrary/PerchloricAcid,1,open,200,text/html; charset=utf-8,no,none,no,
 https://drs.illinois.edu/Page/SafetyLibrary/hydrofluoricacid,1,open,200,text/html; charset=utf-8,no,none,no,
 https://eetc.qlu.edu.cn/2012/1207/c1403a25377/page.htm,1,open,200,text/html,no,none,no,
@@ -131,9 +131,9 @@ https://ehs.stanford.edu/reference/information-hydrofluoric-acid,1,open,200,text
 https://ehs.stanford.edu/reference/working-air-sensitive-or-highly-reactive-compounds,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://ehs.stanford.edu/topic/chemical-safety/chemical-waste-disposal,4,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\STANFORD-CHEM-WASTE_chemical-waste-disposal.html
 https://ehs.stanford.edu/topic/radiation-safety/laser-safety,1,open,200,text/html; charset=UTF-8,no,none,no,
-https://ehs.stanford.edu/wp-content/uploads/Storage-Group-Poster.pdf,6,open,200,application/pdf,yes,none,no,
-https://ehs.stanford.edu/wp-content/uploads/lab-chemical-safety-plan.pdf,11,open,200,application/pdf,yes,none,no,
-https://ehs.stonybrook.edu/_pdfs/EHS_Policy_4.5_Laboratory_Chemical_Fume_Hood_Safety_Program.pdf,1,open,200,application/pdf,yes,none,no,
+https://ehs.stanford.edu/wp-content/uploads/Storage-Group-Poster.pdf,6,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\006_ehs.stanford.edu_12afb031b6_Storage-Group-Poster.pdf
+https://ehs.stanford.edu/wp-content/uploads/lab-chemical-safety-plan.pdf,11,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\002_ehs.stanford.edu_3ee5976b86_lab-chemical-safety-plan.pdf
+https://ehs.stonybrook.edu/_pdfs/EHS_Policy_4.5_Laboratory_Chemical_Fume_Hood_Safety_Program.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\039_ehs.stonybrook.edu_92d2ec072f_EHS_Policy_4.5_Laboratory_Chemical_Fume_Hood_Safety_Program.pdf
 https://ehs.stonybrook.edu/programs/laboratory-safety/chemical-safety/compressed-gas-and-cryogenics,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://ehs.utexas.edu/environment-waste/waste-management/chemical-waste,23,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\UTEXAS-CHEM-WASTE_chemical-waste.html
 https://ehs.utexas.edu/working-safely/equipment-safety/cryogens,1,open,200,text/html; charset=UTF-8,no,none,no,
@@ -141,7 +141,7 @@ https://ehs.utexas.edu/working-safely/equipment-safety/fume-hoods,7,open,200,tex
 https://ehs.yale.edu/art-safety,9,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-ART-SAFETY_art-safety.html
 https://ehs.yale.edu/shop-tool-safety,7,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-SHOP-GUIDE_shop-tool-safety.html
 https://ehs.yale.edu/sites/default/files/files/biosafety-cabinet-poster.pdf,1,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-BSC-POSTER_biosafety-cabinet-poster.pdf.pdf
-https://ehs.yale.edu/sites/default/files/files/biosafety-manual.pdf,1,open,200,text/html; charset=UTF-8,yes,none,no,
+https://ehs.yale.edu/sites/default/files/files/biosafety-manual.pdf,1,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\repl_001_ehs.yale.edu_68ba2299cb_biosafety-manual.pdf
 https://ehs.yale.edu/sites/default/files/files/chemicals-ehs-approval.pdf,8,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-CHEM-APPROVAL_chemicals-ehs-approval.pdf.pdf
 https://ehs.yale.edu/sites/default/files/files/fume-hood-repair-notice.pdf,3,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-FUME-HOOD-NOTICE_fume-hood-repair-notice.pdf.pdf
 https://ehs.yale.edu/sites/default/files/files/gene-drive-modified-organisms.pdf,8,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-GENE-DRIVE_gene-drive-modified-organisms.pdf.pdf
@@ -152,16 +152,16 @@ https://ehs.yale.edu/sites/default/files/files/student-shop-rules.pdf,3,open,200
 https://ehs.yale.edu/sites/default/files/files/waste-in-place.pdf,2,open,200,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\YALE-WASTE-PLACE_waste-in-place.pdf.pdf
 https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjNjYmIzYzAxNmY0MTZhMjI1MDIxMzg,1,open,200,text/html; charset=utf-8,no,none,no,
 https://gradschool.cornell.edu/policies/safety-training/,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
-https://greenlabs.caltech.edu/documents/29173/LC-125_Lab-Guidelines-and-Standards_RevC_US.pdf,1,open,200,application/pdf,yes,none,no,
+https://greenlabs.caltech.edu/documents/29173/LC-125_Lab-Guidelines-and-Standards_RevC_US.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\041_greenlabs.caltech.edu_6b590d71fc_LC-125_Lab-Guidelines-and-Standards_RevC_US.pdf
 https://huihua.hebtu.edu.cn/s/zhuanti/page/8.html,1,open,200,text/html; charset=UTF-8,no,none,no,
-https://icp-ms.help.agilent.com/en/Learning/PDF/G3666-90006_Precautions.pdf,7,open,200,application/pdf,yes,none,no,
-https://icp-ms.help.agilent.com/en/Learning/PDF/G8400-90016_Precautions.pdf,9,open,200,application/pdf,yes,none,no,
+https://icp-ms.help.agilent.com/en/Learning/PDF/G3666-90006_Precautions.pdf,7,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\005_icp-ms.help.agilent.com_093ff014b6_G3666-90006_Precautions.pdf
+https://icp-ms.help.agilent.com/en/Learning/PDF/G8400-90016_Precautions.pdf,9,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\003_icp-ms.help.agilent.com_da120930cf_G8400-90016_Precautions.pdf
 https://ieeexplore.ieee.org/document/4016442,1,open,202,text/html; charset=UTF-8,no,none,no,
 https://ir.bruker.com/press-releases/press-release-details/2024/Bruker-Advances-Magnet-Technology-for-Broader-Adoption-of-NMR-in-Academic-and-Biopharma-Research-and-Process-Analytical-Technologies/default.aspx,1,blocked_or_forbidden,429,text/html; charset=UTF-8,no,none,no,
 https://iwaste.epa.gov/rpts/handbk4.pdf,2,open,200,application/pdf,yes,none,no,
 https://knowledge1.thermofisher.com/Trace_Elemental_Analysis/Inductively_Coupled_Plasma_-_Optical_Emission_Spectroscopy_ICP-OES/iCAP_Operator_Manuals/BRE0004150_-_iCAP_7000_Series_Operating_Manual_Rev_C,5,open,200,text/html; charset=utf-8,no,none,no,
 https://lab.env.tsinghua.edu.cn/info/1567/2792.htm,2,open,200,text/html,no,none,no,
-https://lcc.sjtu.edu.cn/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/sysgl/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E4%B8%AD%E8%8B%B1%E5%9B%BD%E9%99%85%E4%BD%8E%E7%A2%B3%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E4%B8%8E%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83.pdf,1,open,200,application/pdf,yes,none,no,
+https://lcc.sjtu.edu.cn/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/sysgl/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E4%B8%AD%E8%8B%B1%E5%9B%BD%E9%99%85%E4%BD%8E%E7%A2%B3%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E4%B8%8E%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\042_lcc.sjtu.edu.cn_8b99dd9cd8_pdf.pdf
 https://life.sjtu.edu.cn/En/Data/View/6074,1,open,200,text/html; charset=utf-8,no,none,no,
 https://life.sjtu.edu.cn/En/Data/View/6077,6,open,200,text/html; charset=utf-8,no,none,no,
 https://linxue.njfu.edu.cn/aqgz/sysaq/20210929/i230277.html,1,open,200,text/html,no,none,no,
@@ -170,9 +170,9 @@ https://manualmachine.com/perkinelmer/tga4000/2520538-user-manual/,4,blocked_or_
 https://med.stanford.edu/invitrobsl3/training.html,4,open,200,text/html;charset=utf-8,no,none,no,
 https://micromeritics.com/resources/liquid-nitrogen-level-when-using-isothermal-jackets/,2,open,200,text/html; charset=UTF-8,no,none,no,
 https://nap.nationalacademies.org/catalog/12654/prudent-practices-in-the-laboratory,110,open,200,text/html; charset=UTF-8,no,none,no,
-https://nationalmaglab.org/media/gocoa0b5/sp-13-chemical-safety-procedure.pdf,1,open,200,application/pdf,yes,none,no,
-https://nmr.chem.ucsb.edu/docs/Bruker_NMR_Manuals/user_manual_topspin_ts40.pdf,1,open,200,application/pdf,yes,none,no,
-https://nmr.nd.edu/assets/432368/bruker_nmr_training_g.1.pdf,1,open,200,application/pdf,yes,none,no,
+https://nationalmaglab.org/media/gocoa0b5/sp-13-chemical-safety-procedure.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\043_nationalmaglab.org_005478fdf4_sp-13-chemical-safety-procedure.pdf
+https://nmr.chem.ucsb.edu/docs/Bruker_NMR_Manuals/user_manual_topspin_ts40.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\sslfix_014_nmr.chem.ucsb.edu_ca6c6b71e3_user_manual_topspin_ts40.pdf
+https://nmr.nd.edu/assets/432368/bruker_nmr_training_g.1.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\045_nmr.nd.edu_298a5e0871_bruker_nmr_training_g.1.pdf
 https://oalm.swjtu.edu.cn/info/1201/21381.htm,4,open,200,text/html,no,none,no,
 https://openstd.samr.gov.cn/,13,open,200,text/html,no,none,no,
 https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=0E0C42CADDB0D3E8DA27FECB80CCDE02,3,blocked_or_forbidden,403,text/html,no,none,no,
@@ -213,41 +213,41 @@ https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00511,2,blocked_or_forbidden,403,
 https://radiology.ucsf.edu/patient-care/patient-safety/mri-safety-guidelines/access-restriction,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
 https://reach.cdc.gov/sites/default/files/2025-07/Autoclave-Text-Version-UPDATED.pdf,2,open,200,application/pdf,yes,none,no,
 https://reach.cdc.gov/sites/default/files/job-aids-resources/Crisis%20Response%20Toolkit.pdf,4,open,200,application/pdf,yes,none,no,
-https://reagent.bjmu.edu.cn/file/20230414134400495_%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C%E5%8D%B0%E5%88%B7%E7%89%8820210610.pdf,1,open,200,application/pdf,yes,none,no,
+https://reagent.bjmu.edu.cn/file/20230414134400495_%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C%E5%8D%B0%E5%88%B7%E7%89%8820210610.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\046_reagent.bjmu.edu.cn_f653362bef_20230414134400495__20210610.pdf
 https://research.harvard.edu/research-policies-compliance/lab-safety/,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://sbc.cug.edu.cn/info/1234/3228.htm,2,open,200,text/html,no,none,no,
 https://sbc.sysu.edu.cn/article/570,16,open,200,text/html,no,none,no,
 https://sbc.sysu.edu.cn/article/670,11,open,200,text/html,no,none,no,
-https://sciex.com/content/dam/SCIEX/pdf/customer-docs/user-guide/safety-practices-guide-en.pdf,2,open,200,application/pdf,yes,none,no,
+https://sciex.com/content/dam/SCIEX/pdf/customer-docs/user-guide/safety-practices-guide-en.pdf,2,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\024_sciex.com_33d2d94ccf_safety-practices-guide-en.pdf
 https://sdss-samplepreparation.stanford.edu/training-and-safety,3,open,200,text/html; charset=UTF-8,no,none,no,
-https://smse.seu.edu.cn/_upload/article/2f/f2/c82ef33b4b0fa7e37d28e6e784be/e1702a0e-d3c7-4843-9d57-8a4c24093f9d.pdf,3,open,200,application/pdf,yes,none,no,
+https://smse.seu.edu.cn/_upload/article/2f/f2/c82ef33b4b0fa7e37d28e6e784be/e1702a0e-d3c7-4843-9d57-8a4c24093f9d.pdf,3,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\017_smse.seu.edu.cn_eebd584c1f_e1702a0e-d3c7-4843-9d57-8a4c24093f9d.pdf
 https://spectrum.ieee.org/electrostatic-discharge,1,open,200,text/html; charset=utf-8,no,none,no,
 https://stacks.cdc.gov/view/cdc/214551/cdc_214551_DS1.pdf,1,open,200,application/pdf,yes,none,no,
 https://sysglc.ntu.edu.cn/2024/0326/c8767a230277/page.htm,2,open,200,text/html,no,none,no,
 https://sysglzx.jxycu.edu.cn/2024/0619/c4101a129320/page.htm,1,open,200,text/html;charset=UTF-8,no,none,no,
 https://tools.thermofisher.com/content/sfs/manuals/iCAP%206000%20Spectrometers%20Pre-Installation%20Manual%20v4%202.pdf,1,blocked_or_forbidden,403,text/html,yes,none,no,
-https://tuttnauer.com/sites/default/files/2021-10/Manual-Autoclaves-Cleaning_Weekly.pdf,1,open,200,application/pdf,yes,none,no,
+https://tuttnauer.com/sites/default/files/2021-10/Manual-Autoclaves-Cleaning_Weekly.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\048_tuttnauer.com_6017cb28d4_Manual-Autoclaves-Cleaning_Weekly.pdf
 https://tuttnauer.com/us/support/faq-office-products,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://webstore.ansi.org/standards/aiha/ansiz9.5,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
 https://webstore.ansi.org/standards/lia/ansiz13612014,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,mirror,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\kb_source_archive_20260723\LIA-ANSI-Z136.1.html | D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\kb_source_archive_20260723\LIA-ANSI-Z136.1.md
 https://webstore.iec.ch/publication/3587,1,open,200,text/html; charset=UTF-8,no,none,no,
-https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1578_web-57265295.pdf,6,open,200,application/pdf,yes,none,no,
-https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/academic-safety-culture-report.pdf,1,open,200,application/pdf,yes,none,no,
+https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1578_web-57265295.pdf,6,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\007_www-pub.iaea.org_e0b1124559_Pub1578_web-57265295.pdf
+https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/academic-safety-culture-report.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\sslfix_016_www.acs.org_7885fdc906_academic-safety-culture-report.pdf
 https://www.acs.org/content/dam/acsorg/acs-webinars/2018/slides/2018-10-11-lab-safety-culture-slides.pdf,1,open,200,text/html,yes,none,no,
-https://www.agilent.com/cs/library/brochures/Getting_your_HPLC_Back_up_and_running_flyer.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/eseminars/public/gc-detector-design-troubleshooting-flame-ionization-fid-theory-basics-gas-flows-july212020.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/primers/public/Best_Practice_LC_Operations.pdf,2,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/sitepreparationchecklists/7800_7900_ICP-MS_Site_Preparation_Checklist_Rev.B.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/sitepreparationchecklists/Agilent%208890%20GC%20Site%20Preparation%20Checklist.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/5971-6636_Atomic_Safety_Info_EN.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/7890A%20GC%20User%20Manual%20Collection.pdf,2,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/7890B_Safety.pdf,3,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/9000_Operation.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/G1364E-User.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/G3430-90052%207890B_Maintaining%20Guide.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/user-guide-coverting-ei-gcms-instruments-5994-2312en-agilent.pdf,1,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/user-manual-gcms-hydrogen-safety-q7003-90053-en-agilent.pdf,2,network_error,,,yes,none,no,
-https://www.agilent.com/cs/library/usermanuals/public/usermanual-gc-operation-8890-g3540-90014-en-agilent.pdf,1,network_error,,,yes,none,no,
+https://www.agilent.com/cs/library/brochures/Getting_your_HPLC_Back_up_and_running_flyer.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\005_www.agilent.com_2e85fcbdda_Getting_your_HPLC_Back_up_and_running_flyer.pdf
+https://www.agilent.com/cs/library/eseminars/public/gc-detector-design-troubleshooting-flame-ionization-fid-theory-basics-gas-flows-july212020.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\006_www.agilent.com_84a914f168_gc-detector-design-troubleshooting-flame-ionization-fid-theory-basics-gas-flows-july212020.pdf
+https://www.agilent.com/cs/library/primers/public/Best_Practice_LC_Operations.pdf,2,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\002_www.agilent.com_e78975e008_Best_Practice_LC_Operations.pdf
+https://www.agilent.com/cs/library/sitepreparationchecklists/7800_7900_ICP-MS_Site_Preparation_Checklist_Rev.B.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\007_www.agilent.com_595a0c88ab_7800_7900_ICP-MS_Site_Preparation_Checklist_Rev.B.pdf
+https://www.agilent.com/cs/library/sitepreparationchecklists/Agilent%208890%20GC%20Site%20Preparation%20Checklist.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\008_www.agilent.com_63de034a65_Agilent_8890_GC_Site_Preparation_Checklist.pdf
+https://www.agilent.com/cs/library/usermanuals/public/5971-6636_Atomic_Safety_Info_EN.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\009_www.agilent.com_b61a8b42ed_5971-6636_Atomic_Safety_Info_EN.pdf
+https://www.agilent.com/cs/library/usermanuals/public/7890A%20GC%20User%20Manual%20Collection.pdf,2,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\003_www.agilent.com_f579a36ba4_7890A_GC_User_Manual_Collection.pdf
+https://www.agilent.com/cs/library/usermanuals/public/7890B_Safety.pdf,3,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\001_www.agilent.com_cf10926332_7890B_Safety.pdf
+https://www.agilent.com/cs/library/usermanuals/public/9000_Operation.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\010_www.agilent.com_72f2f1302b_9000_Operation.pdf
+https://www.agilent.com/cs/library/usermanuals/public/G1364E-User.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\011_www.agilent.com_1558986509_G1364E-User.pdf
+https://www.agilent.com/cs/library/usermanuals/public/G3430-90052%207890B_Maintaining%20Guide.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\012_www.agilent.com_3fabcce5d1_G3430-90052_7890B_Maintaining_Guide.pdf
+https://www.agilent.com/cs/library/usermanuals/public/user-guide-coverting-ei-gcms-instruments-5994-2312en-agilent.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\013_www.agilent.com_6cd4ed6324_user-guide-coverting-ei-gcms-instruments-5994-2312en-agilent.pdf
+https://www.agilent.com/cs/library/usermanuals/public/user-manual-gcms-hydrogen-safety-q7003-90053-en-agilent.pdf,2,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\repl_003_www.agilent.com_6d748cab68_user-manual-gcms-hydrogen-safety-q7003-90053-en-agilent.pdf
+https://www.agilent.com/cs/library/usermanuals/public/usermanual-gc-operation-8890-g3540-90014-en-agilent.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\014_www.agilent.com_f1ec1c8e28_usermanual-gc-operation-8890-g3540-90014-en-agilent.pdf
 https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/aas-resource-hub,1,network_error,,,no,none,no,
 https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/atomic-absorption-background-correction-lamps/deuterium-lamps,1,network_error,,,no,none,no,
 https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/atomic-absorption-hollow-cathode-lamps,1,network_error,,,no,none,no,
@@ -260,12 +260,12 @@ https://www.agilent.com/en/product/liquid-chromatography/hplc-systems,1,network_
 https://www.agilent.com/en/product/liquid-chromatography/hplc-systems/preparative-hplc-systems/1290-infinity-ii-preparative-lc-msd-system,1,network_error,,,no,none,no,
 https://www.agilent.com/en/product/liquid-chromatography/mass-spectrometry-lc-ms,1,network_error,,,no,none,no,
 https://www.agilent.com/en/product/liquid-chromatography/mass-spectrometry-lc-ms/infinitylab-lc-msd-series,1,network_error,,,no,none,no,
-https://www.agilent.com/library/usermanuals/Public/G9214-90000_RapidFire360_User_RevD.pdf,1,network_error,,,yes,none,no,
+https://www.agilent.com/library/usermanuals/Public/G9214-90000_RapidFire360_User_RevD.pdf,1,network_error,,,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\015_www.agilent.com_9ab71fafa6_G9214-90000_RapidFire360_User_RevD.pdf
 https://www.atcc.org/resources/culture-guides,1,open,200,text/html; charset=utf-8,no,none,no,
 https://www.atsdr.cdc.gov/emergency-response/resources/emergency-responders.html,1,open,200,text/html,no,none,no,
-https://www.bc.edu/content/dam/bc1/schools/mcas/Chemistry/pdf/research/nmr/NMR_Safety_Plan.pdf,3,open,200,application/pdf,yes,none,no,
+https://www.bc.edu/content/dam/bc1/schools/mcas/Chemistry/pdf/research/nmr/NMR_Safety_Plan.pdf,3,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\018_www.bc.edu_2e36f7aeb9_NMR_Safety_Plan.pdf
 https://www.beckman.com/landing/centrifuges/optima-x,1,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
-https://www.birmingham.ac.uk/documents/college-eps/chemical/science-city/brochure-br010en-03-a-invia-confocal-raman-microscope-1.pdf,1,open,200,application/pdf,yes,none,no,
+https://www.birmingham.ac.uk/documents/college-eps/chemical/science-city/brochure-br010en-03-a-invia-confocal-raman-microscope-1.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\051_www.birmingham.ac.uk_68514fa131_brochure-br010en-03-a-invia-confocal-raman-microscope-1.pdf
 https://www.bruker.com/en/landingpages/bbio/fourier-80-academic-research.html,1,open,200,text/html;charset=utf-8,no,none,no,
 https://www.bruker.com/en/news-and-events/news/2021/bruker-connects-1000th-nmr-magnet-to-labscape-remote-monitoring.html,2,open,200,text/html;charset=utf-8,no,none,no,
 https://www.bruker.com/en/news-and-events/news/2023/bruker-announces-new-d6-phaser-benchtop-x-ray-diffraction-platform-for-materials-analysis-and-advanced-research.html,1,open,200,text/html;charset=utf-8,no,none,no,
@@ -423,7 +423,7 @@ https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t2
 https://www.csb.gov/csb-releases-investigation-into-2010-texas-tech-laboratory-accident-case-study-identifies-systemic-deficiencies-in-university-safety-management-practices/,3,open,200,text/html; charset=utf-8,no,none,no,
 https://www.csb.gov/csb-releases-new-video-on-laboratory-safety-at-academic-institutions/,1,open,200,text/html; charset=utf-8,no,none,no,
 https://www.csb.gov/statement-from-csb-chairperson-rafael-moure-eraso-on-high-school-laboratory-fire-in-new-york-city-/,1,open,200,text/html; charset=utf-8,no,none,no,
-https://www.csi.cuny.edu/sites/default/files/pdf/administration/finance/ehs/CSI_Chemical_Hygiene_Plan.pdf,1,open,200,application/pdf,yes,none,no,
+https://www.csi.cuny.edu/sites/default/files/pdf/administration/finance/ehs/CSI_Chemical_Hygiene_Plan.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\064_www.csi.cuny.edu_a0f7b3baf1_CSI_Chemical_Hygiene_Plan.pdf
 https://www.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202404/t20240422_2600021.shtml,1,network_error,200,text/html,no,none,no,
 https://www.ehs.ufl.edu/departments/research-safety-services/chemical-safety/cryogens/,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://www.ehs.washington.edu/biological/biohazardous-waste,9,open,200,text/html; charset=UTF-8,no,original,no,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\web_ingest_public_20260429\raw\UW-BIO-WASTE_biohazardous-waste.html
@@ -481,7 +481,7 @@ https://www.mdpi.com/2076-3298/12/4/113,2,blocked_or_forbidden,403,text/html,no,
 https://www.mee.gov.cn/,2,open,200,text/html,no,none,no,
 https://www.mee.gov.cn/ywgz/gtfwyhxpgl/wfhgql/,5,open,200,text/html,no,none,no,
 https://www.merck.com/products/safety-data-sheets/,19,open,200,text/html; charset=UTF-8,no,none,no,
-https://www.metrohm.com/content/dam/metrohm/shared/documents/manuals/89/89308001EN.pdf,2,blocked_or_forbidden,403,text/html; charset=UTF-8,yes,none,no,
+https://www.metrohm.com/content/dam/metrohm/shared/documents/manuals/89/89308001EN.pdf,2,blocked_or_forbidden,403,text/html; charset=UTF-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\008_www.metrohm.com_acae1cee54_89308001EN.pdf
 https://www.metrohm.com/en/products/ion-chromatography/usp-monographs-using-ion-chromatography.html,4,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
 https://www.micromeritics.com/autochem/,4,open,200,text/html; charset=UTF-8,no,none,no,
 https://www.muhn.edu.cn/kletme/info/1164/1522.htm,1,open,200,text/html,no,none,no,
@@ -680,7 +680,7 @@ https://www.perkinelmer.com/category/burner-systems,1,open,200,text/html; charse
 https://www.perkinelmer.com/library/bro-pinaacle-900-series-aa-spectrometers.html,2,open,200,text/html; charset=UTF-8,no,none,no,
 https://www.perkinelmer.com/library/tch-universal-cell-technology-for-the-next-generation-of-analysis.html,1,open,200,text/html; charset=UTF-8,no,none,no,
 https://www.perkinelmer.com/product/pinaacle-500-flame-atomic-absorption-spectrometer-pinaacle500,1,open,200,text/html; charset=utf-8,no,none,no,
-https://www.renishaw.com/resourcecentre/download/declaration-of-conformity-invia-raman-spectrometer--130961,1,open,200,application/pdf,yes,none,no,
+https://www.renishaw.com/resourcecentre/download/declaration-of-conformity-invia-raman-spectrometer--130961,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\070_www.renishaw.com_034894fa56_declaration-of-conformity-invia-raman-spectrometer--130961.pdf
 https://www.safety.admin.cam.ac.uk/subjects/radiation/non-ionising-radiation/electromagnetic-fields,2,blocked_or_forbidden,403,text/html; charset=UTF-8,no,none,no,
 https://www.selectagents.gov/,1,open,200,text/html,no,none,no,
 https://www.shimadzu.com.sg/an/products/elemental-analysis/atomic-absorption-spectroscopy/aa-7000/index.html,2,open,200,text/html,no,none,no,
@@ -688,9 +688,9 @@ https://www.shimadzu.com/an/gc/safety_function.html,4,open,200,text/html,no,none
 https://www.shimadzu.com/an/products/liquid-chromatography/hplcuhplc/index.html,1,open,200,text/html,no,none,no,
 https://www.shimadzu.com/an/service-support/technical-support/handling-precautions/gas-chromatography/index.html,1,open,200,text/html,no,none,no,
 https://www.shimadzu.com/an/service-support/technical-support/technical-information/gas-chromatograph-mass-spectrometry/change/index.html,2,open,200,text/html,no,none,no,
-https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/16695/c122-e064.pdf,1,open,200,application/pdf,yes,none,no,
-https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/others/16942/bgaz-4000-2007.pdf,2,open,200,application/pdf,yes,none,no,
-https://www.slu.edu/research/faculty-resources/-pdf/chemical_hygiene_plan.pdf,1,open,200,application/pdf,yes,none,no,
+https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/16695/c122-e064.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\071_www.shimadzu.com_08f8d1fc92_c122-e064.pdf
+https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/others/16942/bgaz-4000-2007.pdf,2,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\030_www.shimadzu.com_372fbf1c9f_bgaz-4000-2007.pdf
+https://www.slu.edu/research/faculty-resources/-pdf/chemical_hygiene_plan.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\072_www.slu.edu_03ba95a15f_chemical_hygiene_plan.pdf
 https://www.tainstruments.com/applications-notes/battery-separator-film-development-impact-of-coating/,1,blocked_or_forbidden,403,text/html,no,none,no,
 https://www.tainstruments.com/applications-notes/safety-evaluation-of-lithium-ion-battery-cathode-and-anode-materials-using-differential-scanning-calorimetry/,2,blocked_or_forbidden,403,text/html,no,none,no,
 https://www.tainstruments.com/applications-notes/thermal-degradation-and-evolved-gas-analysis-of-lithium-ion-battery-cathode-materials-at-different-states-of-charge-ta495/,1,blocked_or_forbidden,403,text/html,no,none,no,
@@ -701,12 +701,12 @@ https://www.tainstruments.com/precision-testing-for-energetic-materials-and-prop
 https://www.tainstruments.com/tga-550/,1,blocked_or_forbidden,403,text/html,no,none,no,
 https://www.thermofisher.com/us/en/home/life-science/lab-equipment/biological-safety-cabinets/features.html,1,open,200,text/html;charset=utf-8,no,none,no,
 https://www.umb.edu.pl/photo/ftplib/Wydzialy/wnl/FTiA/ZnO/User%20manual%20Zetasizer.pdf,1,open,200,text/html; charset=utf-8,yes,none,no,
-https://www.uoguelph.ca/hr/system/files/Laboratory%20Safety%20Manual.pdf,1,open,200,text/html; charset=utf-8,yes,none,no,
-https://www.uwindsor.ca/chemical-control-centre/sites/uwindsor.ca.chemical-control-centre/files/lsm_2025.pdf,1,open,200,application/pdf,yes,none,no,
+https://www.uoguelph.ca/hr/system/files/Laboratory%20Safety%20Manual.pdf,1,open,200,text/html; charset=utf-8,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\repl_002_www.uoguelph.ca_cf56ee6cc1_Laboratory_Safety_Manual.pdf
+https://www.uwindsor.ca/chemical-control-centre/sites/uwindsor.ca.chemical-control-centre/files/lsm_2025.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\075_www.uwindsor.ca_edb6badd53_lsm_2025.pdf
 https://www.waters.com/nextgen/us/en/products/chromatography/chromatography-pumps-components-and-Accessories/purification-solvent-management.html,2,blocked_or_forbidden,403,text/html,no,none,no,
 https://www.waters.com/nextgen/us/en/products/chromatography/chromatography-systems/acquity-uplc-i-class-plus-system.html,1,blocked_or_forbidden,403,text/html,no,none,no,
-https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_magnet_safety_0.pdf,1,open,200,application/pdf,yes,none,no,
-https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_refill_manual_0.pdf,1,open,200,application/pdf,yes,none,no,
+https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_magnet_safety_0.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\sslfix_034_www.weizmann.ac.il_8a34284a26_bruker_magnet_safety_0.pdf
+https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_refill_manual_0.pdf,1,open,200,application/pdf,yes,original,yes,D:\newwork\Security\lab-safe-assistant-dify-rag\artifacts\pdf_source_backups_20260725\files\sslfix_035_www.weizmann.ac.il_3d6d102a1b_bruker_refill_manual_0.pdf
 https://www.who.int/publications/i/item/9789240011311,7,open,200,text/html; charset=utf-8,no,none,no,
 https://www.who.int/publications/i/item/9789240011410,1,open,200,text/html; charset=utf-8,no,none,no,
 https://www.who.int/publications/i/item/9789240011458,1,open,200,text/html; charset=utf-8,no,none,no,

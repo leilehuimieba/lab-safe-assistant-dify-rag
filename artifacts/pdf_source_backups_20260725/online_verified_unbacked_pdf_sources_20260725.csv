@@ -1,0 +1,6 @@
+﻿source_url,row_count,verification_tool,verification_status,pages,local_download_status,notes
+https://www.osha.gov/sites/default/files/publications/OSHA3404LABORATORY-SAFETY-GUIDANCE.pdf,29,web.open,online_pdf_verified,52,failed_403_or_connection_closed,web.open returned application/pdf and parsed PDF text; local curl/Node/Chrome failed.
+https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf,5,web.open,online_pdf_verified,132,failed_403,web.open returned application/pdf and parsed PDF text; local curl/Node fetch failed with 403.
+https://www.epa.gov/sites/default/files/2016-01/documents/hw-char.pdf,6,web.open,online_pdf_verified,30,failed_tls_eof,web.open returned application/pdf and parsed PDF text; local curl failed TLS handshake/EOF.
+https://www.cdc.gov/niosh/docs/2007-107/pdfs/2007-107.pdf,4,web.open,online_pdf_verified,86,failed_tls_eof,web.open returned application/pdf and parsed PDF text; local curl failed TLS handshake/EOF.
+https://www.osha.gov/sites/default/files/publications/OSHA3088.pdf,5,web.open,online_pdf_verified,30,failed_403,web.open returned application/pdf and parsed PDF text; local curl failed 403.

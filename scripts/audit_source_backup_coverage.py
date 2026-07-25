@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 from collections import Counter
 from datetime import datetime, timezone
@@ -35,6 +36,7 @@ def build_backup_index(
     public_items: Iterable[dict[str, object]],
     raw_dir: Path,
     archive_rows: Iterable[dict[str, str]],
+    pdf_backup_rows: Iterable[dict[str, str]] = (),
 ) -> dict[str, dict[str, object]]:
     """Build per-original-URL evidence records.
 
@@ -86,6 +88,28 @@ def build_backup_index(
             "paths": [str(path) for path in paths],
         }
 
+    for row in pdf_backup_rows:
+        if (row.get("status") or "").strip() != "downloaded":
+            continue
+        original_url = (row.get("source_url") or "").strip()
+        path = resolve_local_path(row.get("local_path") or "")
+        if not original_url or not path or not path.is_file() or path.suffix.lower() != ".pdf":
+            continue
+        existing = index.get(original_url)
+        if existing:
+            existing_paths = list(existing["paths"])
+            if str(path) not in existing_paths:
+                existing_paths.append(str(path))
+            existing["paths"] = existing_paths
+            existing["backup_kind"] = "original"
+            existing["has_local_pdf"] = True
+        else:
+            index[original_url] = {
+                "backup_kind": "original",
+                "has_local_pdf": True,
+                "paths": [str(path)],
+            }
+
     return index
 
 
@@ -93,6 +117,47 @@ def is_pdf_source(row: dict[str, str]) -> bool:
     url = (row.get("url") or "").lower().split("?", 1)[0]
     content_type = (row.get("content_type") or "").lower()
     return url.endswith(".pdf") or "application/pdf" in content_type
+
+
+def add_pdf_backup_files_by_url_hash(
+    backup_index: dict[str, dict[str, object]],
+    live_rows: Iterable[dict[str, str]],
+    pdf_backup_dir: Path,
+) -> None:
+    """Index PDF files downloaded by ``download_missing_pdf_backups.py``.
+
+    That downloader embeds the first 10 hex chars of SHA1(source_url) in the
+    filename. Scanning the directory makes coverage robust even if a later retry
+    manifest contains only failures.
+    """
+    if not pdf_backup_dir.is_dir():
+        return
+    files = [path for path in pdf_backup_dir.glob("*.pdf") if path.is_file()]
+    if not files:
+        return
+    for row in live_rows:
+        url = (row.get("url") or "").strip()
+        if not url or not is_pdf_source(row):
+            continue
+        digest = hashlib.sha1(url.encode("utf-8")).hexdigest()[:10]
+        matches = sorted(path for path in files if f"_{digest}_" in path.name)
+        if not matches:
+            continue
+        existing = backup_index.get(url)
+        if existing:
+            existing_paths = list(existing["paths"])
+            for path in matches:
+                if str(path) not in existing_paths:
+                    existing_paths.append(str(path))
+            existing["paths"] = existing_paths
+            existing["backup_kind"] = "original"
+            existing["has_local_pdf"] = True
+        else:
+            backup_index[url] = {
+                "backup_kind": "original",
+                "has_local_pdf": True,
+                "paths": [str(path) for path in matches],
+            }
 
 
 def summarize_coverage(
@@ -241,6 +306,16 @@ def main() -> int:
         default=REPO_ROOT / "artifacts/kb_source_archive_20260723/kb_source_archive_manifest_20260723.csv",
     )
     parser.add_argument(
+        "--pdf-backup-manifest",
+        type=Path,
+        default=REPO_ROOT / "artifacts/pdf_source_backups_20260725/pdf_backup_manifest_20260725.csv",
+    )
+    parser.add_argument(
+        "--pdf-backup-dir",
+        type=Path,
+        default=REPO_ROOT / "artifacts/pdf_source_backups_20260725/files",
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
         default=REPO_ROOT / "artifacts/source_backup_coverage_20260725",
@@ -256,7 +331,9 @@ def main() -> int:
     live_rows = read_csv(args.live_audit)
     public_items = json.loads(args.public_report.read_text(encoding="utf-8"))["items"]
     archive_rows = read_csv(args.archive_manifest)
-    backup_index = build_backup_index(public_items, args.raw_dir, archive_rows)
+    pdf_backup_rows = read_csv(args.pdf_backup_manifest) if args.pdf_backup_manifest.exists() else []
+    backup_index = build_backup_index(public_items, args.raw_dir, archive_rows, pdf_backup_rows)
+    add_pdf_backup_files_by_url_hash(backup_index, live_rows, args.pdf_backup_dir)
     summary = write_outputs(
         kb_rows,
         live_rows,
