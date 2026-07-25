@@ -140,3 +140,47 @@
 | www.umb.edu.pl | 1 | 第三方高校转载的厂商手册，现返回 307 字节 HTML（失效），且本身非权威来源，不作正式 PDF 证据补充。 |
 
 补充说明：作为最后手段尝试过 Internet Archive（`web.archive.org` / `archive.org`）快照回源，但本网络对 archive.org 443 端口连接超时，无法作为本轮替代来源。上述缺口的处理建议见第 7 节（换网络环境、校园网/VPN 或官方站内搜索人工下载）。
+
+## 9. 第三步：替代源核查与跨客户端验证
+
+在第二轮完成 89→111 后，针对剩余 40 个缺口继续“查根因、换客户端、找同机构/官方替代源”，结论如下（均为可复核的实测）。
+
+### 9.1 换下载客户端
+
+| 方式 | 结果 |
+|---|---|
+| 系统自带 curl 8.21（`C:\Windows\System32\curl.exe`，与 MSYS2 curl 不同构建） | OSHA3404 仍 CloudFront 403；证明 403 与本机 curl 的 TLS/JA3 指纹无关，是 CloudFront AWS WAF 的 `Request blocked` 规则。 |
+| 该系统 curl 访问 `www.govinfo.gov`（GPO 权威库） | 200，可达（MSYS2 curl 对 govinfo 会段错误，故统一改用系统 curl 处理此类站点）。 |
+
+### 9.2 同机构/官方替代端点核查
+
+| 目标 | 尝试的替代源 | 结果 |
+|---|---|---|
+| ThermoFisher Vanquish/iCAP 手册 | `documents.thermofisher.com` → `assets.thermofisher.com` 同路径换主机 | 仍 403（S3 `AccessDenied`），厂商侧对该资产做了访问控制。 |
+| NRC ML 系列文档 | `adamswebsearch2.nrc.gov`（ADAMS 公共检索，可达 301）、`adams-api.nrc.gov`（可达） | 按 AccessionNumber 检索最终 302 回跳到被封的 `www.nrc.gov/docs/ML.../ML*.pdf`；ADAMS 直接内容下载需 `vsId` 二次查询，无稳定可复现的公开直链。 |
+| OSHA3404 / NIH_Guidelines | govinfo（GPO）检索 | govinfo 未收录该 OSHA 出版物与该 NIH 合订本 PDF；两者均为官方域**单一来源**。 |
+| OSHA3404 / NIH_Guidelines | 高校/第三方转载（wright.edu、wisconsin.edu、kennesaw.edu、ucsd 等） | 存在，但均为**非权威转载**，按本项目口径不计入正式本地证据，未采用。 |
+
+### 9.3 用独立云端抓取器交叉验证“是否死链”
+
+用与本机完全不同的第三方服务器端抓取器（US 出口）对官方 URL 复验：
+
+| 官方 URL | 云端抓取结果 |
+|---|---|
+| OSHA3404（osha.gov） | 403 |
+| NIH_Guidelines（osp.od.nih.gov） | 403 |
+| NRC ML20147A696（nrc.gov） | 403 |
+| Berkeley compressed-gas（ehs.berkeley.edu） | **200，但确认为 HTML 网页，页面内无任何 `.pdf` 链接**；EH&S 已将该小册子改为网页内容，需向 EH&S 索取原件。 |
+
+结论修正：OSHA/NIH/NRC 的 403 **对所有自动化客户端普遍生效**（本机两种 curl、本机自动化浏览器、独立云端抓取器均 403），并非仅本机网络问题；因此“换个网络”不一定能拿到，真正可行的是**交互式人工浏览器会话**（可过 JS/挑战）或官方文件调阅申请。Berkeley 两条已确认为**网页化、无 PDF 原件**，不应再当作“待补 PDF”，而应按 HTML 证据另行归档或标注为网页来源。
+
+### 9.4 本步结论（未改变覆盖数）
+
+本步**没有新增可保存的权威本地 PDF 原件**，覆盖数维持 111/151；但把剩余 40 个缺口的性质核查得更清楚，且**来源可追踪性完整**：
+
+- 每个缺口都保留了官方 `source_url`、`row_count`、HTTP 状态与逐条封锁/迁移原因；
+- OSHA(24)/NIH(1)/NRC(10)/Thermo(2) = 37 条属**官方域单一来源 + WAF 对自动化普遍拦截**，需人工浏览器或官方调阅；
+- Berkeley(2) 属**官方网页化、已无 PDF 原件**；
+- umb.edu.pl(1) 属**第三方失效转载、非权威**，不补。
+
+即：追踪链（provenance）完整、来源真实且可核验，缺的只是本环境下的“字节级本地副本”，且原因已定位到具体的 WAF/迁移机制，而非链接失效。
