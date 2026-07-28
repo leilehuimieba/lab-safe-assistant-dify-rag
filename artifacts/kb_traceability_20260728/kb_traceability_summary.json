@@ -1,0 +1,3287 @@
+{
+  "row_count": 3009,
+  "missing_source_title_count": 0,
+  "missing_source_org_count": 0,
+  "missing_source_url_count": 0,
+  "invalid_source_url_count": 0,
+  "missing_risk_level_count": 0,
+  "invalid_risk_level_count": 0,
+  "missing_subcategory_count": 0,
+  "missing_references_count": 0,
+  "references_placeholder_count": 0,
+  "references_without_source_title_count": 0,
+  "references_without_source_org_count": 0,
+  "references_without_source_url_count": 0,
+  "unique_source_url_count": 716,
+  "rows_by_domain": {
+    "ehs.cornell.edu": 493,
+    "ors.od.nih.gov": 474,
+    "www.osha.gov": 426,
+    "www.cdc.gov": 361,
+    "www.ncbi.nlm.nih.gov": 245,
+    "ehs.yale.edu": 131,
+    "nap.nationalacademies.org": 110,
+    "www.epa.gov": 53,
+    "ehs.berkeley.edu": 45,
+    "ehs.stanford.edu": 43,
+    "documents.thermofisher.com": 40,
+    "www.nrc.gov": 39,
+    "www.ehs.washington.edu": 37,
+    "www.agilent.com": 32,
+    "ehs.utexas.edu": 31,
+    "openstd.samr.gov.cn": 29,
+    "sbc.sysu.edu.cn": 27,
+    "blink.ucsd.edu": 20,
+    "www.merck.com": 19,
+    "icp-ms.help.agilent.com": 16,
+    "www.bruker.com": 16,
+    "www.tainstruments.com": 13,
+    "www.nfpa.org": 13,
+    "ehs.ncsu.edu": 12,
+    "www.shimadzu.com": 11,
+    "ehs.mit.edu": 10,
+    "www.who.int": 9,
+    "community.agilent.com": 9,
+    "www.law.cornell.edu": 9,
+    "www.mee.gov.cn": 7,
+    "life.sjtu.edu.cn": 7,
+    "osp.od.nih.gov": 7,
+    "www.perkinelmer.com": 7,
+    "www.cernet.edu.cn": 6,
+    "www.metrohm.com": 6,
+    "www.moe.gov.cn": 6,
+    "www-pub.iaea.org": 6,
+    "reach.cdc.gov": 6,
+    "www.gov.cn": 5,
+    "www.csb.gov": 5,
+    "policies.unc.edu": 5,
+    "knowledge1.thermofisher.com": 5,
+    "www.labmanager.com": 5,
+    "www.hse.gov.uk": 4,
+    "chemistry.unt.edu": 4,
+    "www.micromeritics.com": 4,
+    "www.malvernpanalytical.com": 4,
+    "chemistry.stanford.edu": 4,
+    "med.stanford.edu": 4,
+    "oalm.swjtu.edu.cn": 4,
+    "manualmachine.com": 4,
+    "www.ccohs.ca": 3,
+    "www.iaea.org": 3,
+    "sdss-samplepreparation.stanford.edu": 3,
+    "pubs.acs.org": 3,
+    "makesafetyeasy.com": 3,
+    "www.waters.com": 3,
+    "www.bc.edu": 3,
+    "www.manualslib.com": 3,
+    "smse.seu.edu.cn": 3,
+    "www.iisermohali.ac.in": 3,
+    "sbc.cug.edu.cn": 2,
+    "sysglc.ntu.edu.cn": 2,
+    "ehs.stonybrook.edu": 2,
+    "lab.env.tsinghua.edu.cn": 2,
+    "www.acs.org": 2,
+    "www.labconco.com": 2,
+    "cem.com": 2,
+    "wwwn.cdc.gov": 2,
+    "drs.illinois.edu": 2,
+    "www.shimadzu.com.sg": 2,
+    "www.safety.admin.cam.ac.uk": 2,
+    "www.weizmann.ac.il": 2,
+    "www.mdpi.com": 2,
+    "sciex.com": 2,
+    "micromeritics.com": 2,
+    "tuttnauer.com": 2,
+    "iwaste.epa.gov": 2,
+    "webstore.ansi.org": 2,
+    "physics.zju.edu.cn": 1,
+    "flk.npc.gov.cn": 1,
+    "linxue.njfu.edu.cn": 1,
+    "eetc.qlu.edu.cn": 1,
+    "huihua.hebtu.edu.cn": 1,
+    "reagent.bjmu.edu.cn": 1,
+    "lcc.sjtu.edu.cn": 1,
+    "www.nxmu.edu.cn": 1,
+    "www.edu.cn": 1,
+    "www.ehs.ufl.edu": 1,
+    "www.muhn.edu.cn": 1,
+    "www.wuhan.gov.cn": 1,
+    "sysglzx.jxycu.edu.cn": 1,
+    "chem.fjnu.edu.cn": 1,
+    "xxgk.hznu.edu.cn": 1,
+    "www.hbmzu.edu.cn": 1,
+    "ccce.csu.edu.cn": 1,
+    "chemlab.jhun.edu.cn": 1,
+    "dehs.umn.edu": 1,
+    "ehs.princeton.edu": 1,
+    "www.atcc.org": 1,
+    "spectrum.ieee.org": 1,
+    "ieeexplore.ieee.org": 1,
+    "gradschool.cornell.edu": 1,
+    "greenlabs.caltech.edu": 1,
+    "webstore.iec.ch": 1,
+    "www.thermofisher.com": 1,
+    "www.ika.com": 1,
+    "www.atsdr.cdc.gov": 1,
+    "stacks.cdc.gov": 1,
+    "coactionspecialty.safetynow.com": 1,
+    "nationalmaglab.org": 1,
+    "www.uoguelph.ca": 1,
+    "assets.thermofisher.com": 1,
+    "tools.thermofisher.com": 1,
+    "www.lifesci.dundee.ac.uk": 1,
+    "nmr.nd.edu": 1,
+    "ir.bruker.com": 1,
+    "radiology.ucsf.edu": 1,
+    "ccc.chem.pitt.edu": 1,
+    "nmr.chem.ucsb.edu": 1,
+    "xray.chem.wisc.edu": 1,
+    "xray.tamu.edu": 1,
+    "adrona.lv": 1,
+    "www.birmingham.ac.uk": 1,
+    "www.renishaw.com": 1,
+    "www.uwindsor.ca": 1,
+    "www.umb.edu.pl": 1,
+    "www.beckman.com": 1,
+    "www.eppendorf.com": 1,
+    "research.harvard.edu": 1,
+    "www.slu.edu": 1,
+    "www.csi.cuny.edu": 1,
+    "archive.epa.gov": 1,
+    "www.selectagents.gov": 1
+  },
+  "status_counts": {
+    "draft": 1871,
+    "external_draft": 1100,
+    "reviewed": 38
+  },
+  "source_org_counts": {
+    "NIH Office of Research Services": 450,
+    "Cornell University EHS": 315,
+    "OSHA": 194,
+    "CDC/NIH": 167,
+    "National Academies Press / NCBI Bookshelf": 134,
+    "Yale Environmental Health & Safety": 131,
+    "National Academies Press": 110,
+    "Cornell University Environment, Health and Safety": 105,
+    "U.S. Occupational Safety and Health Administration (OSHA)": 72,
+    "National Academy of Sciences / NCBI": 69,
+    "Centers for Disease Control and Prevention (CDC) / NIOSH": 69,
+    "Occupational Safety and Health Administration (OSHA)": 63,
+    "CDC/NIOSH": 63,
+    "Agilent Technologies": 57,
+    "Thermo Fisher Scientific": 48,
+    "U.S. Occupational Safety and Health Administration": 41,
+    "National Research Council / NIH / NCBI": 38,
+    "Occupational Safety and Health Administration": 37,
+    "University of Washington Environmental Health & Safety": 35,
+    "U.S. Environmental Protection Agency": 31,
+    "UT Austin Environmental Health & Safety": 30,
+    "U.S. Nuclear Regulatory Commission (NRC)": 28,
+    "中山大学设备与实验室管理处": 26,
+    "Cornell University EHS / National Research Council": 26,
+    "Cornell EHS": 24,
+    "Centers for Disease Control and Prevention / NIOSH": 23,
+    "UC San Diego Blink": 20,
+    "NIH ORS": 19,
+    "应急管理部化学品登记中心": 18,
+    "CDC": 17,
+    "CDC (Centers for Disease Control and Prevention)": 17,
+    "Stanford University EH&S": 17,
+    "UC Berkeley Office of Environment, Health & Safety": 16,
+    "Stanford Environmental Health & Safety": 14,
+    "OSHA (Occupational Safety and Health Administration)": 14,
+    "EPA": 13,
+    "Shimadzu Corporation": 13,
+    "TA Instruments": 13,
+    "NC State Environmental Health and Safety": 12,
+    "University of California, Berkeley Environment, Health & Safety": 12,
+    "UC Berkeley EH&S": 11,
+    "U.S. Nuclear Regulatory Commission": 11,
+    "Bruker Corporation": 10,
+    "国家标准全文公开系统": 10,
+    "US EPA": 10,
+    "Bruker AXS": 10,
+    "Stanford University Environmental Health & Safety": 10,
+    "MIT Environment, Health & Safety": 9,
+    "NFPA": 9,
+    "教育部": 7,
+    "PerkinElmer Inc.": 7,
+    "Centers for Disease Control and Prevention": 7,
+    "生态环境部": 6,
+    "国家市场监督管理总局/国家标准委": 6,
+    "OSHA / Laser Institute of America (LIA)": 6,
+    "WHO": 6,
+    "IAEA": 6,
+    "中国教育和科研计算机网": 5,
+    "国家市场监督管理总局": 5,
+    "Malvern Panalytical": 5,
+    "中华人民共和国教育部": 5,
+    "U.S. Chemical Safety and Hazard Investigation Board": 5,
+    "NIH": 5,
+    "Lab Manager": 5,
+    "PerkinElmer": 5,
+    "上海交通大学生命科学技术学院": 4,
+    "HSE UK": 4,
+    "Cornell University Environmental Health and Safety": 4,
+    "METTLER TOLEDO": 4,
+    "Metrohm AG": 4,
+    "Micromeritics Instrument Corporation": 4,
+    "Stanford University": 4,
+    "Stanford Medicine BSL 3/2 Service Center": 4,
+    "American Chemical Society": 4,
+    "UC Berkeley EHS": 4,
+    "OSHA / Cornell University EHS": 4,
+    "上海交通大学/高校通用": 3,
+    "CCOHS": 3,
+    "Centers for Disease Control and Prevention (CDC)": 3,
+    "Stanford University Department of Chemistry": 3,
+    "国家标准化管理委员会(SAC)": 3,
+    "Waters Corporation": 3,
+    "Boston College NMR Center": 3,
+    "Bruker BioSpin": 3,
+    "IISER Mohali": 3,
+    "国务院/应急管理部": 2,
+    "中国地质大学（武汉）实验室与设备管理处": 2,
+    "高校通用/教育部": 2,
+    "University of Washington EH&S": 2,
+    "Cornell EHS / National Academies Press": 2,
+    "Cornell EHS / NIH": 2,
+    "Cornell EHS / OSHA": 2,
+    "National Fire Protection Association (NFPA)": 2,
+    "Institute of Electrical and Electronics Engineers (IEEE)": 2,
+    "清华大学": 2,
+    "Labconco Corporation": 2,
+    "CEM Corporation": 2,
+    "OSHA/UNC EHS": 2,
+    "University of Illinois DRS": 2,
+    "UNC EHS": 2,
+    "OSHA/NFPA": 2,
+    "University of Cambridge Safety Office": 2,
+    "SCIEX": 2,
+    "Metrohm": 2,
+    "Micromeritics": 2,
+    "Tuttnauer": 2,
+    "Cornell University EHS / UC Berkeley EH&S": 2,
+    "Cornell University EHS / OSHA": 2,
+    "International Atomic Energy Agency": 2,
+    "应急管理部": 1,
+    "教育部/公安部": 1,
+    "南京林业大学林草水保学院": 1,
+    "齐鲁工业大学电子电气与控制学部": 1,
+    "河北师范大学汇华学院": 1,
+    "教育部/北京大学医学部": 1,
+    "教育部/高校通用": 1,
+    "宁夏医科大学/高校通用": 1,
+    "MIT EHS": 1,
+    "Stony Brook University EHS": 1,
+    "University of Texas at Austin EHS": 1,
+    "University of Florida EHS": 1,
+    "World Health Organization": 1,
+    "NIOSH/CDC": 1,
+    "急救与创伤研究教育部重点实验室": 1,
+    "武汉市人民政府/武汉市公安局": 1,
+    "宜春学院实验室管理中心": 1,
+    "福建师范大学化学与材料学院": 1,
+    "杭州师范大学信息公开网": 1,
+    "湖北民族大学生物基础课实验教学示范中心": 1,
+    "中南大学化学化工学院": 1,
+    "江汉大学化学实验教学中心": 1,
+    "University of Minnesota DEHS": 1,
+    "IARC / 应急管理部化学品登记中心": 1,
+    "应急管理部化学品登记中心 / NIH": 1,
+    "NIH / 国家市场监督管理总局": 1,
+    "NIH / NFPA": 1,
+    "教育部 / National Academies Press": 1,
+    "NIH / OSHA": 1,
+    "国家市场监督管理总局 / OSHA": 1,
+    "国家市场监督管理总局 / 国务院": 1,
+    "生态环境部 / NIH": 1,
+    "住建部": 1,
+    "国务院 / 应急管理部": 1,
+    "国务院": 1,
+    "Princeton Environmental Health and Safety": 1,
+    "Cornell EHS / ANSI": 1,
+    "NIH / NIOSH": 1,
+    "国家标准委 / Cornell EHS": 1,
+    "National Academies Press / OSHA": 1,
+    "生态环境部 / CDC": 1,
+    "Cornell EHS / IAEA": 1,
+    "Cornell EHS / 生态环境部": 1,
+    "国家标准委 / WHO": 1,
+    "WHO / 国家标准委": 1,
+    "WHO / ATCC": 1,
+    "NIH / CBD": 1,
+    "CDC / OSHA": 1,
+    "Cornell EHS / IAEA / 国家标准委": 1,
+    "Cornell EHS / 国家标准委": 1,
+    "Cornell EHS / ACGIH": 1,
+    "国务院 / OSHA": 1,
+    "国家标准委 / NFPA": 1,
+    "国家标准委; 市场监管总局": 1,
+    "住建部 / ANSI": 1,
+    "ANSI / Cornell EHS": 1,
+    "Cornell EHS / DOT": 1,
+    "U.S. Environmental Protection Agency (EPA)": 1,
+    "International Atomic Energy Agency (IAEA)": 1,
+    "U.S. Food and Drug Administration (FDA) / OSHA": 1,
+    "Legal Information Institute / e-CFR": 1,
+    "OSHA / AORN Alliance": 1,
+    "Centers for Disease Control and Prevention (CDC) / NIH": 1,
+    "Cornell University Graduate School": 1,
+    "中华人民共和国教育部科技司": 1,
+    "Cornell University": 1,
+    "ANSI/ASSP": 1,
+    "Stony Brook University Environmental Health and Safety": 1,
+    "U.S. Occupational Safety and Health Administration / UC Berkeley": 1,
+    "American Chemical Society (Journal of Chemical Health & Safety)": 1,
+    "IEC": 1,
+    "IKA Works GmbH & Co. KG": 1,
+    "UNC EHS/OSHA": 1,
+    "OSHA/NFPA参考": 1,
+    "Cornell Law School (29 CFR Reference)": 1,
+    "National MagLab (based on OSHA 1910.106 & NFPA)": 1,
+    "Stanford University EH&S / University of Guelph EHS": 1,
+    "University of Guelph EHS": 1,
+    "NFPA / OSHA": 1,
+    "Stanford University EH&S / EPA": 1,
+    "Dundee University / Bruker BioSpin": 1,
+    "Bruker BioSpin / Weizmann Institute": 1,
+    "University of Notre Dame / Bruker": 1,
+    "MDPI Journal / ACGIH": 1,
+    "UCSF Radiology": 1,
+    "University of Pittsburgh EHS": 1,
+    "Bruker BioSpin / UCSB": 1,
+    "Bruker / Spectrospin": 1,
+    "MDPI Journal": 1,
+    "University of Wisconsin-Madison Chemistry": 1,
+    "Texas A&M University X-ray Lab": 1,
+    "Renishaw brochure mirror hosted by University of Birmingham": 1,
+    "Renishaw": 1,
+    "University of Windsor": 1,
+    "Beckman Coulter": 1,
+    "Eppendorf": 1,
+    "Harvard University Office of the Vice Provost for Research": 1,
+    "Saint Louis University EHS": 1,
+    "City University of New York": 1,
+    "OSHA / ANSI": 1,
+    "OSHA / NIOSH": 1,
+    "U.S. Environmental Protection Agency Archive": 1,
+    "American National Standards Institute": 1,
+    "Centers for Disease Control and Prevention / National Institutes of Health": 1,
+    "National Institutes of Health": 1,
+    "Centers for Disease Control and Prevention / USDA APHIS": 1,
+    "National Fire Protection Association": 1,
+    "ANSI/AIHA": 1
+  },
+  "rows_by_source_url_items": [
+    {
+      "source_url": "http://ccc.chem.pitt.edu/wipf/papers&presentations/safety-manual.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "http://www.moe.gov.cn/s78/A16/tongzhi/201905/t20190529_383641.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "http://www.moe.gov.cn/srcsite/A16/s3336/201905/t20190531_383962.html",
+      "row_count": 5
+    },
+    {
+      "source_url": "http://www.nxmu.edu.cn/lnjbzdsys/info/1094/1283.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://adrona.lv/wp-content/uploads/2023/08/TGA-4000-Specifiactions_English.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://archive.epa.gov/epawaste/hazard/tsd/td/web/html/combustion.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0016959_GAHyPerformanceAPTSKit_UG.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://blink.ucsd.edu/safety/research-lab/chemical/hoods/",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://blink.ucsd.edu/safety/research-lab/hazardous-waste/disposal-guidance/extremely.html",
+      "row_count": 14
+    },
+    {
+      "source_url": "https://ccce.csu.edu.cn/info/1591/7436.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://cem.com/how-safe-is-the-instrument/microwave-digestion",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://cem.com/why-can-t-i-use-a-home-microwave-for-acid-digestion-or-extraction",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://chem.fjnu.edu.cn/86/7f/c17280a362111/page.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://chemistry.stanford.edu/resources/environmental-health-lab-safety/general-resources",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://chemistry.unt.edu/system/files/tga_2_user_manual.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://chemlab.jhun.edu.cn/4b/ea/c4541a84970/pagem.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://coactionspecialty.safetynow.com/chemical-compatibility-storage-guidelines-quick-tips/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://community.agilent.com/cfs-filesystemfile/__key/communityserver-discussions-components-files/23/G7446_2D00_35102B-Agilent-magnetic-Resonance-systems.pdf",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://community.agilent.com/knowledge/icp-ms-portal/kmp/icp-ms-articles/kp1584.assembling-the-icp-ms-spray-chamber",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://community.agilent.com/technical/consumables/w/wiki/3840/stay-safe-a-win-win-for-solvent-storage",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://dehs.umn.edu/biological-safety-cabinets",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/CAD/Application-Notes/apex-te-mct-an64724-en.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/CMD/brochures/sn-43363-icp-oes-aas-benefits-sn43363-en.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-1R120706-0002-GC-MS-Q-Exactive-Man1R1207060002-EN.pdf",
+      "row_count": 11
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-4820-3601-LC-Vanquish-UHPLC-Man48203601-EN.pdf",
+      "row_count": 10
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/CMD/manuals/ii-1r120591-0001-isq-ec-ms-req-ii1r1205910001-en.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/LED/manuals/50155784-c-Thermo%20Scientific%20Sorvall%20ST%2016R-en.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/LPD/Application-Notes/bsc-a2-b2-differences-appnote.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/MSD/Product-Information/Summit-UG.pdf",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/MSD/Technical-Notes/FL53370-gas-phase-ftir-smoke-toxicity-measurements.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://documents.thermofisher.com/TFS-Assets/MSD/manuals/summit-lite-site-and-safety-en.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://drs.illinois.edu/Page/SafetyLibrary/PerchloricAcid",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://drs.illinois.edu/Page/SafetyLibrary/hydrofluoricacid",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://eetc.qlu.edu.cn/2012/1207/c1403a25377/page.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/chemical-hygiene-plan/controlling-exposures",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/chemical-hygiene-plan/training-requirements",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/ehs-111-compressed-gas-safety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/how-do-i-set-new-lab-0",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/laboratory-safety-manual",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/laser-safety-manual",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/news/corrosive-waste-spill",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/news/radiation-safety-awareness-training-update",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/publications/biological-safety-program-manual",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/publications/drain-disposal-restrictions-chemicals-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/radiation-safety-manual/6-procedures-work-radioactive-materials",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/511-peroxide-forming-chemicals",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/56-compressed-gases",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/safe-storage-hazardous-chemicals/57-cryogens",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/safety-subjects/chemical-safety/chemical-hygiene-plan",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/safety-subjects/chemical-safety/chemical-inventory",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/sites/default/files/publications/compressed-gas-proper-use-booklet.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/sites/default/files/publications/tcp-gas-program.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.berkeley.edu/workplace-safety/identifying-hazards-and-applying-controls",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1050",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1060",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1083",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1097",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1261",
+      "row_count": 117
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1325",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1370",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1375",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1397",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1399",
+      "row_count": 11
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1410",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/1446",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/2139",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/book/export/html/237",
+      "row_count": 163
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/manuals/hazardous-waste-manual",
+      "row_count": 12
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/animal-biosafety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/autoclaves",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/centrifuges",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/responding-biological-spills",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/chemical-hygiene-plan",
+      "row_count": 15
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/chemical-inventory",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual",
+      "row_count": 48
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-f-glove-selection-guidance",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-i-hazards-functional-groups",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-j-peroxide-forming-chemicals",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-k-incompatible-chemicals",
+      "row_count": 10
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-10-hazardous-chemical-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-15-laser-hazards",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-16-physical-hazards",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-16-physical-hazards/1610",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-16-physical-hazards/1612-glass",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-16-physical-hazards/164",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-16-physical-hazards/166-heat-and",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-2-engineering-controls",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-4-administrative-controls/415",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-4-administrative-controls/47",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-5-emergency-preparation/53-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-5-emergency-preparation/54-1",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-5-emergency-preparation/54-2",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-5-emergency-preparation/54-4",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-5-emergency-preparation/55-1",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-7-safe-chemical-use",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-7-safe-chemical-use/711-chemical",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-7-safe-chemical-use/73-safety-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-7-safe-chemical-use/74-routes-3",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-7-safe-chemical-use/79-0",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-8-chemical-hazards",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/chapter-9-particularly-hazardous-3",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/chemical-safety/safety-data-sheets-chemwatch",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/general-laboratory-safety/hazard-assessment-and-signage-program-hasp/hasp-faqs",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/general-laboratory-safety/lab-safety-certificate-program",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/general-laboratory-safety/laboratory-operations-continuity",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/general-laboratory-safety/laboratory-safety-training-matrix",
+      "row_count": 19
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/radiation-safety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/radiation-safety/laser-safety",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/radiation-safety/radioactive-materials",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/research-safety/radiation-safety/x-ray-equipment",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.cornell.edu/shipping-and-transportation/hazardous-materials-shipping-dot/cryogen-tips",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.mit.edu/chemical-safety-program/chemical-hygiene/",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://ehs.mit.edu/chemical-safety-program/compressed-gas-cylinder-safety/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.mit.edu/chemical-safety/",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.ncsu.edu/home-page-info/environmental-affairs/chemical-waste/",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ehs.ncsu.edu/laboratory-safety/laboratory-security-and-safety-guidelines/",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.ncsu.edu/laboratory-safety/secondary-safety-contact/chemical-hazards-ssc/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.ncsu.edu/laboratory/fume-hoods/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.princeton.edu/laboratory-research/chemical-waste-management",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/forms-tools/chemical-incompatibility-guide",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/forms-tools/laboratory-chemical-safety-toolkit",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/manual/biosafety-manual/autoclaves",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/manual/biosafety-manual/waste",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/manual/laboratory-standard-design-guidelines/biological-safety-cabinets-and-other-containment",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/manual/laboratory-standard-design-guidelines/fume-hood-location",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/reference/autoclave-safety",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/reference/centrifuge-safety",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/reference/information-hydrofluoric-acid",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/reference/working-air-sensitive-or-highly-reactive-compounds",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/topic/chemical-safety/chemical-waste-disposal",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/topic/radiation-safety/laser-safety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/wp-content/uploads/Storage-Group-Poster.pdf",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://ehs.stanford.edu/wp-content/uploads/lab-chemical-safety-plan.pdf",
+      "row_count": 11
+    },
+    {
+      "source_url": "https://ehs.stonybrook.edu/_pdfs/EHS_Policy_4.5_Laboratory_Chemical_Fume_Hood_Safety_Program.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.stonybrook.edu/programs/laboratory-safety/chemical-safety/compressed-gas-and-cryogenics",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.utexas.edu/environment-waste/waste-management/chemical-waste",
+      "row_count": 23
+    },
+    {
+      "source_url": "https://ehs.utexas.edu/working-safely/equipment-safety/cryogens",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.utexas.edu/working-safely/equipment-safety/fume-hoods",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ehs.yale.edu/art-safety",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://ehs.yale.edu/shop-tool-safety",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/biosafety-cabinet-poster.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/biosafety-manual.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/chemicals-ehs-approval.pdf",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/fume-hood-repair-notice.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/gene-drive-modified-organisms.pdf",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/laboratory-chemical-hygiene-plan.pdf",
+      "row_count": 75
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/laser-sop.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/ppe-procedure-labs.pdf",
+      "row_count": 10
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/student-shop-rules.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://ehs.yale.edu/sites/default/files/files/waste-in-place.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjNjYmIzYzAxNmY0MTZhMjI1MDIxMzg",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://gradschool.cornell.edu/policies/safety-training/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://greenlabs.caltech.edu/documents/29173/LC-125_Lab-Guidelines-and-Standards_RevC_US.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://huihua.hebtu.edu.cn/s/zhuanti/page/8.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://icp-ms.help.agilent.com/en/Learning/PDF/G3666-90006_Precautions.pdf",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://icp-ms.help.agilent.com/en/Learning/PDF/G8400-90016_Precautions.pdf",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://ieeexplore.ieee.org/document/4016442",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://ir.bruker.com/press-releases/press-release-details/2024/Bruker-Advances-Magnet-Technology-for-Broader-Adoption-of-NMR-in-Academic-and-Biopharma-Research-and-Process-Analytical-Technologies/default.aspx",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://iwaste.epa.gov/rpts/handbk4.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://knowledge1.thermofisher.com/Trace_Elemental_Analysis/Inductively_Coupled_Plasma_-_Optical_Emission_Spectroscopy_ICP-OES/iCAP_Operator_Manuals/BRE0004150_-_iCAP_7000_Series_Operating_Manual_Rev_C",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://lab.env.tsinghua.edu.cn/info/1567/2792.htm",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://lcc.sjtu.edu.cn/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/sysgl/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E4%B8%AD%E8%8B%B1%E5%9B%BD%E9%99%85%E4%BD%8E%E7%A2%B3%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E4%B8%8E%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://life.sjtu.edu.cn/En/Data/View/6074",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://life.sjtu.edu.cn/En/Data/View/6077",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://linxue.njfu.edu.cn/aqgz/sysaq/20210929/i230277.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://makesafetyeasy.com/blog/chemical-storage-safety-guide",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://manualmachine.com/perkinelmer/tga4000/2520538-user-manual/",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://med.stanford.edu/invitrobsl3/training.html",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://micromeritics.com/resources/liquid-nitrogen-level-when-using-isothermal-jackets/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://nap.nationalacademies.org/catalog/12654/prudent-practices-in-the-laboratory",
+      "row_count": 110
+    },
+    {
+      "source_url": "https://nationalmaglab.org/media/gocoa0b5/sp-13-chemical-safety-procedure.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://nmr.chem.ucsb.edu/docs/Bruker_NMR_Manuals/user_manual_topspin_ts40.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://nmr.nd.edu/assets/432368/bruker_nmr_training_g.1.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://oalm.swjtu.edu.cn/info/1201/21381.htm",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/",
+      "row_count": 13
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=0E0C42CADDB0D3E8DA27FECB80CCDE02",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=9C6A99E26AE0CA7E47B4BC9E8DF01F84",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=AEC2B0CFFC2BF1B8C7CF1888B77E2FE4",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=6C80C3CF343258529DA8841981A036D1",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=8BFEEBBE490CBAC79543F0DAD96F2E2E",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=EB3B94B543F6E4CD18C044DE6AB64CEC",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/biosafety-in-microbiological-and-biomedical-laboratories.PDF",
+      "row_count": 67
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-hygiene-plan.pdf",
+      "row_count": 78
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-safety-guide.pdf",
+      "row_count": 70
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/chemical-segregation-and-storage.pdf",
+      "row_count": 16
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/compressed-gas-and-cryogen-safety-guidelines-document.pdf",
+      "row_count": 25
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/cryogen-fact-sheet.pdf",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/exempt-toxin-program-requirements.pdf",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/exposure-control-plan.pdf",
+      "row_count": 50
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/fact-sheet-on-chemical-storage-cabinets.pdf",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/fact-sheet-on-compatible-chemical-storage.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/how-to-safely-clean-cfh-web.pdf",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/inactivation-method-review-process.pdf",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/lab-specific-sop-template.pdf",
+      "row_count": 13
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/laboratory-coat-selection-guidance.pdf",
+      "row_count": 14
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/laser-safety-program.pdf",
+      "row_count": 34
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/managing-peroxide-formers-in-the-lab.pdf",
+      "row_count": 12
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/managing-pyrophoric-and-water-reactive-chemicals-in-the-laboratories.pdf",
+      "row_count": 18
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/nih-dichloromethane-health-and-safety-plan.pdf",
+      "row_count": 18
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/occupational-exposure-limits-for-chemicals.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/particularly-hazardous-substances-phs.pdf",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://ors.od.nih.gov/sr/dohs/Documents/working-safely-with-dichloromethane.pdf",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://osp.od.nih.gov/biotechnology/nih-guidelines/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://physics.zju.edu.cn/2024/0326/c77289a2894887/page.psp",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131963",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=132022",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=132032",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://pubs.acs.org/doi/10.1016/j.jchas.2018.05.002",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00511",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://radiology.ucsf.edu/patient-care/patient-safety/mri-safety-guidelines/access-restriction",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://reach.cdc.gov/sites/default/files/2025-07/Autoclave-Text-Version-UPDATED.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://reach.cdc.gov/sites/default/files/job-aids-resources/Crisis%20Response%20Toolkit.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://reagent.bjmu.edu.cn/file/20230414134400495_%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C%E5%8D%B0%E5%88%B7%E7%89%8820210610.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://research.harvard.edu/research-policies-compliance/lab-safety/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://sbc.cug.edu.cn/info/1234/3228.htm",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://sbc.sysu.edu.cn/article/570",
+      "row_count": 16
+    },
+    {
+      "source_url": "https://sbc.sysu.edu.cn/article/670",
+      "row_count": 11
+    },
+    {
+      "source_url": "https://sciex.com/content/dam/SCIEX/pdf/customer-docs/user-guide/safety-practices-guide-en.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://sdss-samplepreparation.stanford.edu/training-and-safety",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://smse.seu.edu.cn/_upload/article/2f/f2/c82ef33b4b0fa7e37d28e6e784be/e1702a0e-d3c7-4843-9d57-8a4c24093f9d.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://spectrum.ieee.org/electrostatic-discharge",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://stacks.cdc.gov/view/cdc/214551/cdc_214551_DS1.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://sysglc.ntu.edu.cn/2024/0326/c8767a230277/page.htm",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://sysglzx.jxycu.edu.cn/2024/0619/c4101a129320/page.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://tools.thermofisher.com/content/sfs/manuals/iCAP%206000%20Spectrometers%20Pre-Installation%20Manual%20v4%202.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://tuttnauer.com/sites/default/files/2021-10/Manual-Autoclaves-Cleaning_Weekly.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://tuttnauer.com/us/support/faq-office-products",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://webstore.ansi.org/standards/aiha/ansiz9.5",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://webstore.ansi.org/standards/lia/ansiz13612014",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://webstore.iec.ch/publication/3587",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1578_web-57265295.pdf",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/academic-safety-culture-report.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.acs.org/content/dam/acsorg/acs-webinars/2018/slides/2018-10-11-lab-safety-culture-slides.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/brochures/Getting_your_HPLC_Back_up_and_running_flyer.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/eseminars/public/gc-detector-design-troubleshooting-flame-ionization-fid-theory-basics-gas-flows-july212020.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/primers/public/Best_Practice_LC_Operations.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/sitepreparationchecklists/7800_7900_ICP-MS_Site_Preparation_Checklist_Rev.B.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/sitepreparationchecklists/Agilent%208890%20GC%20Site%20Preparation%20Checklist.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/5971-6636_Atomic_Safety_Info_EN.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/7890A%20GC%20User%20Manual%20Collection.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/7890B_Safety.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/9000_Operation.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/G1364E-User.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/G3430-90052%207890B_Maintaining%20Guide.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/user-guide-coverting-ei-gcms-instruments-5994-2312en-agilent.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/user-manual-gcms-hydrogen-safety-q7003-90053-en-agilent.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.agilent.com/cs/library/usermanuals/public/usermanual-gc-operation-8890-g3540-90014-en-agilent.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/aas-resource-hub",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/atomic-absorption-background-correction-lamps/deuterium-lamps",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/atomic-spectroscopy/atomic-absorption/atomic-absorption-hollow-cathode-lamps",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/atomic-spectroscopy/inductively-coupled-plasma-mass-spectrometry-icp-ms/icp-ms-instrument-accessory-supplies/tools-manuals-for-icp-ms",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/atomic-spectroscopy/inductively-coupled-plasma-mass-spectrometry-icp-ms/icp-ms-instruments/7800-icp-ms",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/hplc-detectors",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/hplc-supplies-accessories",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/hplc-supplies-accessories/solvent-management-for-hplc/stay-safe-caps-accessories-for-hplc",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/hplc-systems",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/hplc-systems/preparative-hplc-systems/1290-infinity-ii-preparative-lc-msd-system",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/mass-spectrometry-lc-ms",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/en/product/liquid-chromatography/mass-spectrometry-lc-ms/infinitylab-lc-msd-series",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.agilent.com/library/usermanuals/Public/G9214-90000_RapidFire360_User_RevD.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.atcc.org/resources/culture-guides",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.atsdr.cdc.gov/emergency-response/resources/emergency-responders.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bc.edu/content/dam/bc1/schools/mcas/Chemistry/pdf/research/nmr/NMR_Safety_Plan.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.beckman.com/landing/centrifuges/optima-x",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.birmingham.ac.uk/documents/college-eps/chemical/science-city/brochure-br010en-03-a-invia-confocal-raman-microscope-1.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/landingpages/bbio/fourier-80-academic-research.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/news-and-events/news/2021/bruker-connects-1000th-nmr-magnet-to-labscape-remote-monitoring.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.bruker.com/en/news-and-events/news/2023/bruker-announces-new-d6-phaser-benchtop-x-ray-diffraction-platform-for-materials-analysis-and-advanced-research.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/news-and-events/newsletter/2021/first-newsletter-february-2021.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/single-crystal-x-ray-diffractometers/d8-venture.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/single-crystal-x-ray-diffractometers/sc-xrd-components/isx-stage.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/x-ray-diffractometers/d8-advance-family.html",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/x-ray-diffractometers/d8-advance-family/d8-advance.html",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/x-ray-diffractometers/d8-discover-family.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/x-ray-diffractometers/d8-endeavor.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ccohs.ca/topics/hazards/chemical",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ccohs.ca/topics/hazards/chemical/effects",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ccohs.ca/topics/hazards/chemical/whmis",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/bird-flu/php/severe-potential/guidelines-for-laboratory-biosafety.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/chemical-threats-and-toxins-laboratory/about/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/chemical-threats-and-toxins-laboratory/php/story/chemical-terrorism-preparation.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/eis/field-epi-manual/chapters/Epi-lab-Collaboration.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/laboratory-systems/php/about/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/BMBL.html",
+      "row_count": 27
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/bmbl.html",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/bmbl/",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/bmbl/index.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/labs/pdf/SF__19_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf",
+      "row_count": 139
+    },
+    {
+      "source_url": "https://www.cdc.gov/mmWR/preview/mmwrhtml/00001222.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001761.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00016258.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00026209.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/su6101a1.htm",
+      "row_count": 14
+    },
+    {
+      "source_url": "https://www.cdc.gov/monkeypox/php/laboratories/biosafety.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/bulletin/2015/tank-gauging.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/bulletin/2016/noise.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/bulletin/2026/contaminated-ff-gear.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/chemicals/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docket/archive/docket295.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docket/archive/pdfs/NIOSH-159/0159-020109-Sheet404.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2007-107/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2007-107/pdfs/2007-107.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2009-147/pdfs/2009-147-revised.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2011-199/pdfs/2011-199.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2011-200/pdfs/2011-200.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2012-123/pdfs/2012-123.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2013-145/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2014-102/pdfs/2014-102.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2021-112/default.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2023-139/pdfs/2023-139revised092023.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/2025-107/pdfs/2025-107.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/87-104/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/hazardcontrol/hc24.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/hazardcontrol/hc26.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/mining/works/coversheet2222.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/docs/wp-solutions/2025-100/pdfs/2025-100.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/engcontrols/ecd/detail28.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/about.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750006.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750007.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750012.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750013.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750021.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750024.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750025.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750027.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750030.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750031.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750035.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/exposure-banding/about/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/1993-0802-2338.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/1999-0313-2802.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/74-7-270.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/83-63-1364.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/107131.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/630080.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/67561.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/71432.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/7439976.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/7664417.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/7782505.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/7783064.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/79016.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/79061.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/8030306.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/cyanides.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/idlh/intridl4.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/nano/about/index.html",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/firstaid.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/nengapdxa.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/nengapdxc.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0004.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0008.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0012.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0028.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0030.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0038.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0049.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0087.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0103.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0105.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0107.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0141.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0174.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0223.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0237.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0261.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0262.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0267.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0277.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0312.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0322.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0333.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0335.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0336.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0359.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0388.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0394.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0397.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0414.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0466.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0493.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0501.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0503.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0539.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0544.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0554.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0560.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0589.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0602.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0609.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0619.html",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0626.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0629.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0658.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/npg/npgd0667.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/pel88/1310-73.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/skin-exposure/about/index.html",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/bbp/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/fentanyl/risk.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/hydrogen-peroxide/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/nanotech/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/organsolv/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.cdc.gov/niosh/topics/sulfuric-acid/default.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/about/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/biological-risk-assessment/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/biorisk-management/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/biosafety-town-hall/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/echo-biosafety-2023/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/safe-labs/php/echo-biosafety/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/sharpssafety/resources.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cdc.gov/training/quicklearns/biosafety/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202302/t20230221_2301697.shtml",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://www.csb.gov/csb-releases-investigation-into-2010-texas-tech-laboratory-accident-case-study-identifies-systemic-deficiencies-in-university-safety-management-practices/",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.csb.gov/csb-releases-new-video-on-laboratory-safety-at-academic-institutions/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.csb.gov/statement-from-csb-chairperson-rafael-moure-eraso-on-high-school-laboratory-fire-in-new-york-city-/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.csi.cuny.edu/sites/default/files/pdf/administration/finance/ehs/CSI_Chemical_Hygiene_Plan.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.edu.cn/ke_yan_yu_fa_zhan/gai_kuang/xin_wen_gong_gao/202404/t20240422_2600021.shtml",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ehs.ufl.edu/departments/research-safety-services/chemical-safety/cryogens/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/biological/biohazardous-waste",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/biological/biohazardous-waste/autoclave-safety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/biological/biological-safety-cabinets",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/chemical/chemical-safety",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/chemical/chemical-waste",
+      "row_count": 13
+    },
+    {
+      "source_url": "https://www.ehs.washington.edu/research-lab/fume-hoods-use-inspection-and-maintenance",
+      "row_count": 8
+    },
+    {
+      "source_url": "https://www.epa.gov/archive/epapages/newsroom_archive/newsreleases/98e2d95df6ec8dae85257505006cd37a.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.epa.gov/assessing-and-managing-chemicals-under-tsca",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/e-manifest/state-only-hazardous-waste-subject-resource-conservation-and-recovery-act-manifests",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/defining-hazardous-waste-listed-characteristic-and-mixed-radiological-wastes",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/frequent-questions-about-hazardous-waste-identification",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/frequent-questions-about-universal-waste",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/hazardous-waste-transportation",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/solar-panel-frequent-questions",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hw/universal-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/fact-sheet-how-get-started-managing-hazardous-waste-laboratory-waste-under-alternative",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/frequent-questions-about-hazardous-waste-generation",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/frequent-questions-about-implementing-hazardous-waste-generator-improvements-final",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/hazardous-waste-generator-regulatory-summary",
+      "row_count": 11
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/hazardous-waste-manifest-system",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/information-importers-and-receiving-facilities-resource-conservation-and-recovery-act",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/regulations-hazardous-waste-generated-academic-laboratories",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.epa.gov/hwgenerators/steps-complying-regulations-hazardous-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/mercury/what-do-if-you-spill-more-mercury-amount-thermometer",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.epa.gov/pcbs",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/radiation/frequent-questions-radioactive-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/reviewing-new-chemicals-under-toxic-substances-control-act-tsca/control-nanoscale-materials-under",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.epa.gov/sites/default/files/2015-07/documents/cont05.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.epa.gov/sites/default/files/2016-01/documents/hw-char.pdf",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://www.eppendorf.com/ae-en/lab-academy/life-science/cell-biology/how-to-clean-a-centrifuge-maintenance-tips/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.gov.cn/gongbao/content/2011/content_1825120.htm",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.hbmzu.edu.cn/sfzx/info/1017/1119.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.hse.gov.uk/biosafety/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.hse.gov.uk/biosafety/blood-borne-viruses/index.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.hse.gov.uk/biosafety/gmo/index.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.hse.gov.uk/coshh/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.iaea.org/publications/8930/radiation-protection-and-safety-of-radiation-sources-international-basic-safety-standards",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.iaea.org/topics/radioactive-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.iaea.org/topics/workers/radiation-safety-technical-services",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.iisermohali.ac.in/research/x-ray-facility",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.labconco.com/articles/safe-freeze-drying-truths",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.labconco.com/download/installation-qualification-operation-qualific-39/39zKO2Vi6OXqU62QCAYuQp",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.labmanager.com/invisible-dangers-a-comprehensive-guide-to-mass-spectrometry-lab-safety-34929",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.law.cornell.edu/cfr/text/21/1020.40",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.law.cornell.edu/cfr/text/29/1910.106",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://www.law.cornell.edu/cfr/text/29/1910.1200",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.law.cornell.edu/regulations/california/Cal-Code-Regs-Tit-8-div-1-ch-4-subch-7-grp-16-art-109-app-A",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.lifesci.dundee.ac.uk/services/healthandsafety/other-topics/nmr/nmr_home.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.malvernpanalytical.com/en/products/product-range/zetasizer-range",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.manualslib.com/manual/2416571/Bruker-Nmr-Avance-Neo-Systems.html",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.mdpi.com/2076-3298/12/4/113",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.mee.gov.cn/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.mee.gov.cn/ywgz/gtfwyhxpgl/wfhgql/",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.merck.com/products/safety-data-sheets/",
+      "row_count": 19
+    },
+    {
+      "source_url": "https://www.metrohm.com/content/dam/metrohm/shared/documents/manuals/89/89308001EN.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.metrohm.com/en/products/ion-chromatography/usp-monographs-using-ion-chromatography.html",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.micromeritics.com/autochem/",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.muhn.edu.cn/kletme/info/1164/1522.htm",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55868/",
+      "row_count": 12
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55872/",
+      "row_count": 42
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55873/",
+      "row_count": 47
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55878/",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55882/",
+      "row_count": 24
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55884/",
+      "row_count": 107
+    },
+    {
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK55885/",
+      "row_count": 6
+    },
+    {
+      "source_url": "https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=45",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nfpa.org/news-blogs-and-articles/blogs/2025/03/14/signs-and-symbols-in-nfpa-704-and-nfpa-170",
+      "row_count": 10
+    },
+    {
+      "source_url": "https://www.nfpa.org/product/nfpa-70e-course-electrical-hazard-analysis/p0070eoleh",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.nrc.gov/about-nrc/emerg-preparedness/about-emerg-preparedness/ppe.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/about-nrc/radiation/protects-you/protection-principles.html",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.nrc.gov/about-nrc/regulatory/licensing.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML0133/ML013330106.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML0809/ML080910098.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML0822/ML082280814.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML0827/ML082750235.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML1204/ML12044A227.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML1306/ML13064A088.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML1609/ML16090A100.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML2014/ML20147A696.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ML2517/ML25175A081.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.nrc.gov/docs/ml1019/ML101900087.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.nrc.gov/materials/miau/research-medical.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/materials/toolboxes/llrw-waste",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/materials/transportation.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part030/full-text.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part061/full-text.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/tritium-radiation-fs",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.nrc.gov/waste/low-level-waste.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/1-bromopropane",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/SLTC/sulfuricacid/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/arsenic",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/asbestos",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/benzene",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/beryllium/faqs",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-executive-order",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-hazards",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-hazards/controlling-exposure",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-hazards/resources",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-reactivity",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-reactivity/control-prevention",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemical-reactivity/hazards",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/116",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/168",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/192",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/196",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/252",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/33",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/386",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/420",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/443",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/446",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/chemicaldata/528",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/coal-tar-pitch-volatiles/solutions",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/consultation",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/diacetyl",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/enforcement/directives/cpl-02-02-045",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/enforcement/directives/cpl-03-00-021",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/ethylene-oxide",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/ammonia-refrigeration",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/ammonia-refrigeration/emergency-response",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/ammonia-refrigeration/general-safety",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/ammonia-refrigeration/receiving-storage",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/construction/electrical-incidents",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/construction/electrical-incidents/ground-fault-circuit-interrupters",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/construction/electrical-incidents/power-tools",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/hospitals/surgical-suite/laser-hazards",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/lockout-tagout",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/machine-guarding/introduction/general-requirements",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/etools/shipyard-equipment/lasers",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/formaldehyde",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/green-jobs/biofuels/chemical",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/green-jobs/solar/electrical",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/hazcom/appendix-c",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.osha.gov/hazcom/faq",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/hazcom/ghd053107",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/hexavalent-chromium",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/hydrogen-sulfide",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/isocyanates",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laboratories",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laser-hazards/hazards",
+      "row_count": 23
+    },
+    {
+      "source_url": "https://www.osha.gov/laser-hazards/standards",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/1992-08-10",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/1996-11-04",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/1997-01-10",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/2006-09-12-0",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/2022-06-28",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/2022-08-30",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/federalregister/2023-07-13",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/interlinking/standards/1910.1200",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/interlinking/standards/1910.1200/standard_interpretations",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.39",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1000",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.101",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1048",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.106",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1450",
+      "row_count": 133
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1450AppA",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.151",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.157",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.269_2",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.301",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.304",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.305",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.331",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.332",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1915/1915.172",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1915/1915.507",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1987-06-03",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1993-04-20-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1993-08-11",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1994-03-16",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1995-01-18-0",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/1999-07-09",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2001-03-23-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2003-12-10",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2007-02-27",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2009-06-01",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-12",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-08-27",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-11-30",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-12-20-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2014-05-12",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2015-08-05",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2015-09-03-0",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2017-03-23-2",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2017-05-05",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2020-10-28",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2021-03-30",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/laws-regs/standardinterpretations/2021-04-23",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/machine-guarding/standards",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/memos/2014-02-10/fertilizer-industry",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/metalworking-fluids/manual",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/ords/imis/accidentsearch.accident_detail?id=201060068",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/ords/imis/accidentsearch.accident_detail?id=202541223",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/otm/section-6-health-care-facilities/chapter-1",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/poultry-processing/hazards-solutions",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/process-safety-management",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/publications/3136-08R-2003-English",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/publications/bytopic/battery-manufacturing",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/publications/hib19890523",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/publications/hib19931119",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/publications/hib19960703",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/safer-chemicals",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/shms/chapter-8",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/2019-03/fireprotection.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/Job_Hazard_Analysis_Worksheet.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/activities_jha_training.pptx",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/enforcement/directives/CPL_02-01-065.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/enforcement/directives/PUB_8-1_5.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/FORMALDEHYDE-FACTSHEET.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3071.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3088.pdf",
+      "row_count": 5
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3151.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3172.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3404LABORATORY-SAFETY-GUIDANCE.pdf",
+      "row_count": 29
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3678.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3780.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3908.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3909.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3912.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3918.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA4480.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAFACTSHEET-LABORATORY-SAFETY-CHEMICAL-HYGIENE-PLAN.pdf",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAFACTSHEET-LABORATORY-SAFETY-OSHA-LAB-STANDARD.pdf",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAfactsheet-laboratory-safety-chemical-hygiene-plan.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAfactsheet-metrics-in-psm.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAquickfacts-lab-safety-chemical-fume-hoods.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/OSHAquickfacts-lab-safety-labeling-chemical-transfer.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/sites/default/files/publications/highly-hazardous-chemicals-factsheet.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/toluene/occupational-exposure-limits",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.osha.gov/training/library/personal-protective-equipment/assessment",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.osha.gov/workers/employer-responsibilities",
+      "row_count": 9
+    },
+    {
+      "source_url": "https://www.osha.gov/young-workers/employer-responsibilities",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/Nexion-5000-Other-resources",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/category/atomic-absorption-spectroscopy-aas/aas-software",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/category/burner-systems",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/library/bro-pinaacle-900-series-aa-spectrometers.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/library/tch-universal-cell-technology-for-the-next-generation-of-analysis.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.perkinelmer.com/product/pinaacle-500-flame-atomic-absorption-spectrometer-pinaacle500",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.renishaw.com/resourcecentre/download/declaration-of-conformity-invia-raman-spectrometer--130961",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.safety.admin.cam.ac.uk/subjects/radiation/non-ionising-radiation/electromagnetic-fields",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.selectagents.gov/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.shimadzu.com.sg/an/products/elemental-analysis/atomic-absorption-spectroscopy/aa-7000/index.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/gc/safety_function.html",
+      "row_count": 4
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/products/liquid-chromatography/hplcuhplc/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/service-support/technical-support/handling-precautions/gas-chromatography/index.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/service-support/technical-support/technical-information/gas-chromatograph-mass-spectrometry/change/index.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/16695/c122-e064.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/others/16942/bgaz-4000-2007.pdf",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.slu.edu/research/faculty-resources/-pdf/chemical_hygiene_plan.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.tainstruments.com/applications-notes/battery-separator-film-development-impact-of-coating/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.tainstruments.com/applications-notes/safety-evaluation-of-lithium-ion-battery-cathode-and-anode-materials-using-differential-scanning-calorimetry/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.tainstruments.com/applications-notes/thermal-degradation-and-evolved-gas-analysis-of-lithium-ion-battery-cathode-materials-at-different-states-of-charge-ta495/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.tainstruments.com/applications-notes/thermogravimetry-of-air-sensitive-materials/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.tainstruments.com/applications/pharmaceuticals/",
+      "row_count": 3
+    },
+    {
+      "source_url": "https://www.tainstruments.com/how-to-enhance-battery-safety-by-evaluating-materials-thermal-stability-blog/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.tainstruments.com/precision-testing-for-energetic-materials-and-propellants-how-ta-instruments-powers-safety-stability-and-performance-blog/",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.tainstruments.com/tga-550/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.thermofisher.com/us/en/home/life-science/lab-equipment/biological-safety-cabinets/features.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.umb.edu.pl/photo/ftplib/Wydzialy/wnl/FTiA/ZnO/User%20manual%20Zetasizer.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.uoguelph.ca/hr/system/files/Laboratory%20Safety%20Manual.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.uwindsor.ca/chemical-control-centre/sites/uwindsor.ca.chemical-control-centre/files/lsm_2025.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.waters.com/nextgen/us/en/products/chromatography/chromatography-pumps-components-and-Accessories/purification-solvent-management.html",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://www.waters.com/nextgen/us/en/products/chromatography/chromatography-systems/acquity-uplc-i-class-plus-system.html",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_magnet_safety_0.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.weizmann.ac.il/ChemicalResearchSupport/sites/ChemicalResearchSupport/files/bruker_refill_manual_0.pdf",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.who.int/publications/i/item/9789240011311",
+      "row_count": 7
+    },
+    {
+      "source_url": "https://www.who.int/publications/i/item/9789240011410",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.who.int/publications/i/item/9789240011458",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://www.wuhan.gov.cn/gwfbpt/sbm/sgaj_79493/202403/t20240313_2372418.shtml",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=1138&toxid=243",
+      "row_count": 2
+    },
+    {
+      "source_url": "https://xray.chem.wisc.edu/bruker-d8-advance/",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://xray.tamu.edu/administration.php",
+      "row_count": 1
+    },
+    {
+      "source_url": "https://xxgk.hznu.edu.cn/c/2024-06-03/2969471.shtml",
+      "row_count": 1
+    }
+  ],
+  "generated_at": "2026-07-28T08:02:48.161024+00:00",
+  "kb_path": "D:\\newwork\\Security\\lab-safe-assistant-dify-rag\\knowledge_base_curated.csv",
+  "headers": [
+    "id",
+    "title",
+    "category",
+    "subcategory",
+    "lab_type",
+    "risk_level",
+    "hazard_types",
+    "scenario",
+    "question",
+    "answer",
+    "steps",
+    "ppe",
+    "forbidden",
+    "disposal",
+    "first_aid",
+    "emergency",
+    "legal_notes",
+    "references",
+    "source_type",
+    "source_title",
+    "source_org",
+    "source_version",
+    "source_date",
+    "source_url",
+    "last_updated",
+    "reviewer",
+    "status",
+    "tags",
+    "language"
+  ],
+  "url_status_counts": {
+    "open": 343,
+    "blocked_or_forbidden": 318,
+    "network_error": 52,
+    "bad_http_status": 3
+  },
+  "url_affected_row_counts": {
+    "bad_http_status": 5,
+    "network_error": 254,
+    "blocked_or_forbidden": 709,
+    "open": 2041
+  }
+}

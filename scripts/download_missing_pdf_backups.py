@@ -37,6 +37,12 @@ USER_AGENTS = [
 ]
 
 
+def repo_relative(path: Path, repo_root: Path = REPO_ROOT) -> Path:
+    """Return a repository-relative path for absolute or caller-relative paths."""
+    absolute = path if path.is_absolute() else Path.cwd() / path
+    return absolute.resolve().relative_to(repo_root.resolve())
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -187,6 +193,7 @@ def download_once(url: str, out_path: Path, max_seconds: int, max_bytes: int) ->
     tmp_path.unlink(missing_ok=True)
     ps_script = (
         "& { param($Url, $OutFile, $TimeoutSeconds) "
+        "$ErrorActionPreference='Stop'; "
         "$ProgressPreference='SilentlyContinue'; "
         "[Net.ServicePointManager]::SecurityProtocol = "
         "[Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; "
@@ -271,9 +278,12 @@ def main() -> int:
     rows = read_csv(args.coverage)
     statuses = {item.strip() for item in args.statuses.split(",") if item.strip()}
     targets = iter_targets(rows, args.limit, statuses or None)
-    files_dir = args.output_dir / "files"
+    output_dir = args.output_dir.resolve()
+    date_match = re.search(r"(\d{8})$", output_dir.name)
+    run_label = date_match.group(1) if date_match else datetime.now().strftime("%Y%m%d")
+    files_dir = output_dir / "files"
     files_dir.mkdir(parents=True, exist_ok=True)
-    manifest_path = args.output_dir / "pdf_backup_manifest_20260725.csv"
+    manifest_path = output_dir / f"pdf_backup_manifest_{run_label}.csv"
 
     manifest_rows: list[dict[str, str]] = []
     max_bytes = args.max_mb * 1024 * 1024
@@ -323,7 +333,7 @@ def main() -> int:
             "http_status": meta.get("http_status", ""),
             "content_type": meta.get("content_type", ""),
             "status": status,
-            "local_path": str(local_path.relative_to(REPO_ROOT)) if status == "downloaded" else "",
+            "local_path": str(repo_relative(local_path)) if status == "downloaded" else "",
             "sha256": sha256,
             "size_bytes": size,
             "retrieved_at": datetime.now(timezone.utc).isoformat(),
@@ -356,10 +366,10 @@ def main() -> int:
         "targets": len(targets),
         "downloaded": sum(1 for row in manifest_rows if row["status"] == "downloaded"),
         "failed": sum(1 for row in manifest_rows if row["status"] != "downloaded"),
-        "manifest": str(manifest_path.relative_to(REPO_ROOT)),
-        "files_dir": str(files_dir.relative_to(REPO_ROOT)),
+        "manifest": str(repo_relative(manifest_path)),
+        "files_dir": str(repo_relative(files_dir)),
     }
-    (args.output_dir / "pdf_backup_summary_20260725.json").write_text(
+    (output_dir / f"pdf_backup_summary_{run_label}.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )

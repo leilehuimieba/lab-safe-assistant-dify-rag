@@ -1,0 +1,11 @@
+﻿question,success,http_status,header_ms,first_event_ms,first_answer_ms,total_ms,event_count,finish_event,error
+浓硫酸稀释的正确操作步骤是什么？,True,200,3310.4,5372.2,7129.0,10564.2,282,workflow_finished,
+使用硝酸时需要注意哪些安全事项？,True,200,117.4,2590.7,4480.8,8542.1,399,workflow_finished,
+配制氢氧化钠溶液时需要注意什么？,True,200,32.0,1211.2,4729.8,7775.5,286,workflow_finished,
+使用乙醚时需要注意哪些安全事项？,True,200,22.2,1191.4,2329.2,6149.6,367,workflow_finished,
+实验室化学品应该如何分类储存？,True,200,22.4,1649.5,2763.6,6430.3,310,workflow_finished,
+使用丙酮时需要注意哪些安全事项？,True,200,18.6,1131.3,1966.0,6453.8,421,workflow_finished,
+过氧化氢能和有机溶剂混合吗？为什么？,True,200,34.8,1752.5,2559.4,5190.1,232,workflow_finished,
+使用甲醛溶液时需要注意哪些安全事项？,True,200,19.5,1158.8,1922.9,5283.1,331,workflow_finished,
+使用二氯甲烷做萃取时需要注意什么？,True,200,19.8,1325.7,2172.1,7458.6,379,workflow_finished,
+防火安全柜的使用要求有哪些？,True,200,18.6,1354.5,2177.9,5389.2,317,workflow_finished,

@@ -1,0 +1,41 @@
+﻿source_url,row_count,traceability_status,attempted_url,final_url,http_status,content_type,status,local_path,sha256,size_bytes,retrieved_at,notes
+https://www.osha.gov/sites/default/files/publications/OSHA3404LABORATORY-SAFETY-GUIDANCE.pdf,29,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:17:28.140829+00:00,powershell succeeded but output file is missing
+https://documents.thermofisher.com/TFS-Assets/CMD/manuals/Man-4820-3601-LC-Vanquish-UHPLC-Man48203601-EN.pdf,10,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:17:50.888485+00:00,powershell succeeded but output file is missing
+https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf,5,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:18:02.764265+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3088.pdf,5,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:18:13.447879+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3678.pdf,4,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:18:24.550573+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAFACTSHEET-LABORATORY-SAFETY-CHEMICAL-HYGIENE-PLAN.pdf,4,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:18:33.525392+00:00,powershell succeeded but output file is missing
+https://ehs.berkeley.edu/sites/default/files/publications/compressed-gas-proper-use-booklet.pdf,3,open,,,,,failed,,,,2026-07-28T08:18:56.664691+00:00,powershell response was not a PDF
+https://www.nrc.gov/docs/ML2014/ML20147A696.pdf,3,open,,,,,failed,,,,2026-07-28T08:19:08.902949+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAFACTSHEET-LABORATORY-SAFETY-OSHA-LAB-STANDARD.pdf,3,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:19:26.564155+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML0133/ML013330106.pdf,2,open,,,,,failed,,,,2026-07-28T08:19:58.926062+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML0809/ML080910098.pdf,2,open,,,,,failed,,,,2026-07-28T08:20:11.049439+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML2517/ML25175A081.pdf,2,open,,,,,failed,,,,2026-07-28T08:20:26.079224+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ml1019/ML101900087.pdf,2,open,,,,,failed,,,,2026-07-28T08:20:39.223165+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/FORMALDEHYDE-FACTSHEET.pdf,2,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:20:51.480905+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3071.pdf,2,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:21:01.122339+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3151.pdf,2,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:21:11.632346+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA4480.pdf,2,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:21:20.596352+00:00,powershell succeeded but output file is missing
+https://ehs.berkeley.edu/sites/default/files/publications/tcp-gas-program.pdf,1,open,,,,,failed,,,,2026-07-28T08:21:42.518077+00:00,powershell response was not a PDF
+https://tools.thermofisher.com/content/sfs/manuals/iCAP%206000%20Spectrometers%20Pre-Installation%20Manual%20v4%202.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:21:57.525749+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML0822/ML082280814.pdf,1,open,,,,,failed,,,,2026-07-28T08:22:09.943859+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML0827/ML082750235.pdf,1,open,,,,,failed,,,,2026-07-28T08:22:21.437127+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML1204/ML12044A227.pdf,1,open,,,,,failed,,,,2026-07-28T08:22:31.059528+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML1306/ML13064A088.pdf,1,open,,,,,failed,,,,2026-07-28T08:22:45.102683+00:00,powershell succeeded but output file is missing
+https://www.nrc.gov/docs/ML1609/ML16090A100.pdf,1,open,,,,,failed,,,,2026-07-28T08:22:55.869024+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/2019-03/fireprotection.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:23:07.232249+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/Job_Hazard_Analysis_Worksheet.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:23:36.438032+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/enforcement/directives/CPL_02-01-065.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:23:48.047304+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/enforcement/directives/PUB_8-1_5.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:23:59.486817+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3172.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:24:08.233645+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3780.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:24:20.609282+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3908.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:24:34.660227+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3909.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:24:44.256567+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3912.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:24:53.726486+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHA3918.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:05.441881+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAfactsheet-laboratory-safety-chemical-hygiene-plan.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:16.340928+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAfactsheet-metrics-in-psm.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:29.726559+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAquickfacts-lab-safety-chemical-fume-hoods.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:38.897888+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/OSHAquickfacts-lab-safety-labeling-chemical-transfer.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:48.204734+00:00,powershell succeeded but output file is missing
+https://www.osha.gov/sites/default/files/publications/highly-hazardous-chemicals-factsheet.pdf,1,blocked_or_forbidden,,,,,failed,,,,2026-07-28T08:25:58.916767+00:00,powershell succeeded but output file is missing
+https://www.umb.edu.pl/photo/ftplib/Wydzialy/wnl/FTiA/ZnO/User%20manual%20Zetasizer.pdf,1,open,,,,,failed,,,,2026-07-28T08:26:31.533028+00:00,powershell response was not a PDF

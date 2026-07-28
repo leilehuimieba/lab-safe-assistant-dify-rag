@@ -4,6 +4,8 @@
 
 # 远程主监测环境连接配置（含服务器 IP / SSH key 路径，不入库）
 scripts/.remote_runtime.local.json
+# 远程 Dify 实例专用故障切换脚本（含实例/租户标识，仅本地运维）
+scripts/labsafe_failover_watchdog.py
 
 # Dify 账户/凭证备份（含管理员邮箱 + 口令哈希 + salt，绝不入库）
 artifacts/dify_account_backup/
@@ -92,6 +94,10 @@ high_risk_removal_report.md
 removal_candidates.csv
 
 # 结题材料渲染/校对过程产物（本地临时，不进正式仓库）
+docs/conclusion_private/
+docs/conclusion_2026/*结题报告*.docx
+docs/conclusion_2026/*结题报告*.pdf
+docs/conclusion_2026/rendered_submission*/
 docs/conclusion_2026/official_sources/
 docs/conclusion_2026/official_working/
 docs/conclusion_2026/rendered_final_word*/

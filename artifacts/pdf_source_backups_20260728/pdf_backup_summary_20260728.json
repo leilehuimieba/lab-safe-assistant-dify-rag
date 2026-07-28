@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-07-28T08:28:05.131076+00:00",
+  "targets": 40,
+  "downloaded": 0,
+  "failed": 40,
+  "manifest": "artifacts/pdf_source_backups_20260728/pdf_backup_manifest_20260728.csv",
+  "files_dir": "artifacts/pdf_source_backups_20260728/files",
+  "note": "Downloader completed all targets; CLI summary step previously hit a relative-path bug, now covered by test and fixed."
+}

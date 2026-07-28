@@ -1,6 +1,6 @@
 # 项目交接文档 —— 基于 Dify 的实验室安全小助手
 
-> **交接日期**：2026-05-28  
+> **更新日期**：2026-07-28  
 > **交接人**：当前维护者  
 > **接收人**：后续开发/维护团队  
 > **仓库地址**：https://github.com/leilehuimieba/lab-safe-assistant-dify-rag
@@ -13,7 +13,7 @@
 |------|------|
 | **项目名称** | 基于 Dify 搭建 RAG 增强的大语言模型实验室安全小助手系统 |
 | **项目定位** | 五邑大学大创课题标准版（课题申报项目一），聚焦 RAG 问答与知识库管理 |
-| **当前完成度** | 可演示原型：约 85%–90%；申报书全部指标：约 60% |
+| **当前完成度** | 核心原型已可部署、演示与回归；专家签字、财务、线下签章和完整三个月试运行仍待闭环 |
 | **核心交付物** | FastAPI 演示应用、3009 条知识库、Dify 工作流集成、安全规则引擎 |
 
 ---
@@ -33,7 +33,9 @@ origin/master                   # 与本地 master 同步（截至 2026-05-28）
 origin/codex/proposal-alignment-round2-20260522
 ```
 
-**最新提交**：`a440c6d chore: ignore runtime artifacts`
+**当前基线**：以 `origin/master` 为准；2026-07-28 已完成远程部署、高风险线上回归、运行快照回收和 Dify SSE 性能取证。
+
+> 隐私边界：结题报告送审稿、签字页、财务明细和个人联系方式仅存放在本地 `docs/conclusion_private/`（已忽略），不得提交到 GitHub。
 
 ---
 
@@ -43,7 +45,7 @@ origin/codex/proposal-alignment-round2-20260522
 |------|------|
 | 后端框架 | FastAPI 0.115.6 + Uvicorn 0.34.0 |
 | 前端 | React SPA（构建产物托管于 `web_demo/frontend/dist/`） |
-| 大模型编排 | Dify（本地 Docker 部署，默认端口 8080/8081） |
+| 大模型编排 | Dify 1.13.0 Docker；远程上游 8080，本地默认 API 8081 |
 | 知识库 | 本地 CSV + Dify Dataset 双轨 |
 | 数据格式 | CSV、YAML、JSONL |
 | 脚本语言 | Python 3.11+、PowerShell |
@@ -323,3 +325,4 @@ python scripts/quality_gate.py
 ---
 
 > **交接完成确认**：代码已推送到 GitHub，工作树干净，交接文档已归档。接收方可直接克隆仓库并按“快速启动”章节运行。
+
