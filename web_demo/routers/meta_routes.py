@@ -102,6 +102,15 @@ def health() -> dict[str, object]:
 
 
 @router.get(
+    "/api/auth/check",
+    dependencies=[Depends(verify_password)],
+)
+def auth_check() -> dict[str, bool]:
+    """Validate the demo password without exposing application data."""
+    return {"ok": True}
+
+
+@router.get(
     "/api/meta",
     response_model=DemoMetaResponse,
     dependencies=[Depends(verify_password)],

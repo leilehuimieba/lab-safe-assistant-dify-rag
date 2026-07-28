@@ -26,8 +26,9 @@ export default function LoginPage() {
     setChecking(true);
     setError('');
     try {
-      // 验证密码：调用 /health 接口带密码头
-      const r = await fetch('/health', {
+      // 必须调用受服务端密码保护的专用接口；/health 是公开监测接口，
+      // 不能用于验证登录密码。
+      const r = await fetch('/api/auth/check', {
         headers: { 'x-password': pw },
       });
       if (r.ok) {

@@ -5,7 +5,9 @@ import unittest
 from unittest.mock import Mock, patch
 
 from fastapi import HTTPException
+from fastapi.testclient import TestClient
 
+from web_demo.app import app
 from web_demo.services.auth_service import verify_password
 
 
@@ -36,6 +38,22 @@ class DemoAuthenticationTests(unittest.TestCase):
     @patch.dict(os.environ, {"DEMO_PASSWORD": "correct-password"}, clear=False)
     def test_correct_password_is_accepted(self) -> None:
         verify_password(_request("correct-password"))
+
+    @patch.dict(os.environ, {"DEMO_PASSWORD": "correct-password"}, clear=False)
+    def test_auth_check_endpoint_rejects_missing_password(self) -> None:
+        response = TestClient(app).get("/api/auth/check")
+
+        self.assertEqual(401, response.status_code)
+
+    @patch.dict(os.environ, {"DEMO_PASSWORD": "correct-password"}, clear=False)
+    def test_auth_check_endpoint_accepts_correct_password(self) -> None:
+        response = TestClient(app).get(
+            "/api/auth/check",
+            headers={"x-password": "correct-password"},
+        )
+
+        self.assertEqual(200, response.status_code)
+        self.assertEqual({"ok": True}, response.json())
 
 
 if __name__ == "__main__":

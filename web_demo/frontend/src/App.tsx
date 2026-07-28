@@ -8,7 +8,10 @@ import LoginPage from './pages/LoginPage';
 const KBVisualization = lazy(() => import('./pages/KBVisualization'));
 
 function ProtectedRoute({ children }: { children: ReactNode }) {
-  const { isLoggedIn } = useAuth();
+  const { isLoggedIn, isChecking } = useAuth();
+  if (isChecking) {
+    return <div className="page-fallback">正在验证登录状态...</div>;
+  }
   if (!isLoggedIn) {
     return <Navigate to="/login" replace />;
   }
