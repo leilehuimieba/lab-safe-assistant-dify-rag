@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-28T09:53:07.884536+00:00",
+  "target_count": 25,
+  "content_verified_count": 15,
+  "unresolved_count": 10,
+  "pdf_evidence_count": 8,
+  "html_evidence_count": 7,
+  "manifest": "artifacts\\source_recheck_20260728\\secondary_evidence\\network_error_secondary_evidence_25.csv",
+  "scope_note": "Archive replay is independent historical content evidence and does not replace the current live network_error status.",
+  "archive_local_content_count": 15,
+  "official_index_evidence_count": 10,
+  "secondary_evidence_total": 25,
+  "remaining_without_secondary_evidence": 0,
+  "official_index_manifest": "artifacts/source_recheck_20260728/secondary_evidence/network_error_official_index_evidence_10.csv"
+}

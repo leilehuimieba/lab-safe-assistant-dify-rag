@@ -1,4 +1,8 @@
-from scripts.measure_dify_sse_performance import percentile, summarize_samples
+from scripts.measure_dify_sse_performance import (
+    evaluate_first_event_target,
+    percentile,
+    summarize_samples,
+)
 
 
 def test_percentile_uses_linear_interpolation():
@@ -37,3 +41,33 @@ def test_summarize_samples_separates_successes_and_failures():
     assert summary["failure_count"] == 1
     assert summary["first_event_p50_ms"] == 300.0
     assert summary["total_p95_ms"] == 1950.0
+
+
+def test_first_event_target_requires_all_samples_and_p95_within_limit():
+    passing = evaluate_first_event_target(
+        {
+            "sample_count": 20,
+            "success_count": 20,
+            "failure_count": 0,
+            "first_event_p95_ms": 1429.2,
+        },
+        target_ms=3000.0,
+    )
+    assert passing == {
+        "target_ms": 3000.0,
+        "measured_p95_ms": 1429.2,
+        "all_samples_succeeded": True,
+        "passed": True,
+    }
+
+    failing = evaluate_first_event_target(
+        {
+            "sample_count": 20,
+            "success_count": 19,
+            "failure_count": 1,
+            "first_event_p95_ms": 2500.0,
+        },
+        target_ms=3000.0,
+    )
+    assert failing["passed"] is False
+    assert failing["all_samples_succeeded"] is False

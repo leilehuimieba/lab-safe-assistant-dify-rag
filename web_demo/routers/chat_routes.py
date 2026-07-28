@@ -66,6 +66,16 @@ _FEEDBACK_MAX_QUESTION = 2000
 _FEEDBACK_MAX_COMMENT = 2000
 
 
+def _dify_sse_chunk_size() -> int:
+    """Small bounded chunks reduce proxy-side delay before the first SSE event."""
+    raw = os.getenv("DIFY_SSE_PROXY_CHUNK_SIZE", "1").strip()
+    try:
+        configured = int(raw)
+    except ValueError:
+        configured = 1
+    return max(1, min(4096, configured))
+
+
 def _extract_kb_ids(citations: list[Any]) -> list[str]:
     ids = []
     for c in citations:
@@ -428,12 +438,20 @@ async def dify_chat_messages_proxy(request: Request) -> Response:
     if "text/event-stream" in content_type:
         def _iter_sse():
             try:
-                for chunk in upstream.iter_content(chunk_size=1024):
+                for chunk in upstream.iter_content(chunk_size=_dify_sse_chunk_size()):
                     if chunk:
                         yield chunk
             finally:
                 upstream.close()
-        return StreamingResponse(_iter_sse(), status_code=upstream.status_code, media_type="text/event-stream")
+        return StreamingResponse(
+            _iter_sse(),
+            status_code=upstream.status_code,
+            media_type="text/event-stream",
+            headers={
+                "Cache-Control": "no-cache, no-transform",
+                "X-Accel-Buffering": "no",
+            },
+        )
 
     body = upstream.content
     status_code = upstream.status_code

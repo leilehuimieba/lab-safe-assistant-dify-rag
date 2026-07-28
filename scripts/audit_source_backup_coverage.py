@@ -95,17 +95,19 @@ def build_backup_index(
         path = resolve_local_path(row.get("local_path") or "")
         if not original_url or not path or not path.is_file() or path.suffix.lower() != ".pdf":
             continue
+        manifest_kind = (row.get("backup_kind") or "original").strip() or "original"
         existing = index.get(original_url)
         if existing:
             existing_paths = list(existing["paths"])
             if str(path) not in existing_paths:
                 existing_paths.append(str(path))
             existing["paths"] = existing_paths
-            existing["backup_kind"] = "original"
+            if existing.get("backup_kind") != "original":
+                existing["backup_kind"] = manifest_kind
             existing["has_local_pdf"] = True
         else:
             index[original_url] = {
-                "backup_kind": "original",
+                "backup_kind": manifest_kind,
                 "has_local_pdf": True,
                 "paths": [str(path)],
             }
@@ -150,7 +152,12 @@ def add_pdf_backup_files_by_url_hash(
                 if str(path) not in existing_paths:
                     existing_paths.append(str(path))
             existing["paths"] = existing_paths
-            existing["backup_kind"] = "original"
+            # Legacy directory scans represent direct downloads.  If the
+            # manifest already identified this file as an archive replay, keep
+            # that more precise provenance instead of silently upgrading it.
+            existing_kind = str(existing.get("backup_kind") or "")
+            if "archive" not in existing_kind and "mirror" not in existing_kind:
+                existing["backup_kind"] = "original"
             existing["has_local_pdf"] = True
         else:
             backup_index[url] = {
@@ -245,6 +252,7 @@ def write_outputs(
         writer.writerows(detail_rows)
 
     generated_at = datetime.now(timezone.utc).isoformat()
+    audit_date = datetime.now(timezone.utc).astimezone().date().isoformat()
     payload = {"generated_at": generated_at, **summary}
     (output_dir / "source_backup_coverage_summary.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
@@ -256,22 +264,22 @@ def write_outputs(
         if row["is_pdf_source"] == "yes" and row["has_local_pdf"] == "no"
     ]
     lines = [
-        "# 知识库来源链接与本地备份覆盖审计（2026-07-25）",
+        f"# 知识库来源链接与本地备份覆盖审计（{audit_date}）",
         "",
         f"- 生成时间（UTC）：`{generated_at}`",
         f"- 知识片段：**{summary['kb_rows']}** 条；唯一来源链接：**{summary['unique_source_urls']}** 个",
         f"- 本次实测可打开：**{summary['open_urls']}** 个；被站点/反爬拦截：**{summary['blocked_or_forbidden_urls']}** 个；网络错误：**{summary['network_error_urls']}** 个",
         f"- 有本地原件或归档证据：**{summary['urls_with_local_evidence']}** 个链接，覆盖 **{summary['rows_with_local_evidence']}** 条知识片段",
-        f"- PDF 来源：**{summary['pdf_source_urls']}** 个；有本地 PDF 原件：**{summary['pdf_urls_with_local_pdf']}** 个；缺本地 PDF：**{summary['pdf_urls_missing_local_pdf']}** 个",
+        f"- PDF 来源：**{summary['pdf_source_urls']}** 个；有本地 PDF 证据副本：**{summary['pdf_urls_with_local_pdf']}** 个；缺本地 PDF 证据：**{summary['pdf_urls_missing_local_pdf']}** 个",
         "",
         "## 结论口径",
         "",
         "1. `blocked_or_forbidden` 只表示自动化访问被站点策略拦截，不能直接判定链接失效；需要浏览器抽样或更换官方镜像复核。",
         "2. `network_error` 是当前网络下未完成验证的来源，不能算作已通过。",
-        "3. `archive_mirror` 表示保存了官方镜像/等效证据，不等同于原始 URL 的逐字节备份。",
-        "4. 当前不能宣称“所有来源都有本地备份”；PDF 原件覆盖率仍需继续提升。",
+        "3. `archive_replay`、官方规范化地址和机构镜像均保留在清单的 `backup_kind`/`attempted_url` 中；这些副本不能冒充原始 URL 的实时直连下载。",
+        "4. 只有 `backup_kind=original` 才能称为原始 URL 直连原件；其余只能称为归档/镜像证据副本。",
         "",
-        "## PDF 原件缺口（按影响片段数排序）",
+        "## PDF 证据缺口（按影响片段数排序）",
         "",
         "| 影响片段 | 实测状态 | 来源链接 |",
         "|---:|---|---|",
@@ -308,12 +316,16 @@ def main() -> int:
     parser.add_argument(
         "--pdf-backup-manifest",
         type=Path,
-        default=REPO_ROOT / "artifacts/pdf_source_backups_20260725/pdf_backup_manifest_20260725.csv",
+        nargs="+",
+        default=[
+            REPO_ROOT / "artifacts/pdf_source_backups_20260725/pdf_backup_manifest_20260725.csv"
+        ],
     )
     parser.add_argument(
         "--pdf-backup-dir",
         type=Path,
-        default=REPO_ROOT / "artifacts/pdf_source_backups_20260725/files",
+        nargs="+",
+        default=[REPO_ROOT / "artifacts/pdf_source_backups_20260725/files"],
     )
     parser.add_argument(
         "--output-dir",
@@ -331,9 +343,15 @@ def main() -> int:
     live_rows = read_csv(args.live_audit)
     public_items = json.loads(args.public_report.read_text(encoding="utf-8"))["items"]
     archive_rows = read_csv(args.archive_manifest)
-    pdf_backup_rows = read_csv(args.pdf_backup_manifest) if args.pdf_backup_manifest.exists() else []
+    pdf_backup_rows = [
+        row
+        for manifest_path in args.pdf_backup_manifest
+        if manifest_path.exists()
+        for row in read_csv(manifest_path)
+    ]
     backup_index = build_backup_index(public_items, args.raw_dir, archive_rows, pdf_backup_rows)
-    add_pdf_backup_files_by_url_hash(backup_index, live_rows, args.pdf_backup_dir)
+    for pdf_backup_dir in args.pdf_backup_dir:
+        add_pdf_backup_files_by_url_hash(backup_index, live_rows, pdf_backup_dir)
     summary = write_outputs(
         kb_rows,
         live_rows,

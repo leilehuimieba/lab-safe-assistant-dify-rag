@@ -91,6 +91,17 @@ def candidate_urls(url: str) -> list[str]:
     return deduped
 
 
+def wayback_replay_url(url: str) -> str:
+    """Return Wayback's raw replay URL for an archived response body.
+
+    ``id_`` asks Wayback to replay the captured body without injecting archive
+    UI into HTML responses.  PDF acceptance still requires the ``%PDF`` magic
+    check, and the manifest labels this path as ``archive_replay`` rather than a
+    fresh direct download.
+    """
+    return f"https://web.archive.org/web/2id_/{url}"
+
+
 def looks_like_pdf(data: bytes) -> bool:
     prefix = data[:2048].lstrip(b"\xef\xbb\xbf\r\n\t ")
     return prefix.startswith(b"%PDF-")
@@ -273,6 +284,11 @@ def main() -> int:
     parser.add_argument("--max-seconds", type=int, default=45)
     parser.add_argument("--max-mb", type=int, default=80)
     parser.add_argument("--sleep", type=float, default=0.2)
+    parser.add_argument(
+        "--wayback-only",
+        action="store_true",
+        help="Retry each source only through a raw Wayback replay; label it archive_replay.",
+    )
     args = parser.parse_args()
 
     rows = read_csv(args.coverage)
@@ -293,6 +309,7 @@ def main() -> int:
         local_path = files_dir / local_name
         print(f"[{idx}/{len(targets)}] {source_url}", flush=True)
         status = "failed"
+        backup_kind = ""
         notes = ""
         meta = {
             "http_status": "",
@@ -308,9 +325,15 @@ def main() -> int:
             sha256 = hashlib.sha256(data).hexdigest()
             size = str(len(data))
             status = "downloaded"
+            backup_kind = "archive_replay" if args.wayback_only else "original"
             notes = "existing_validated_pdf_magic"
         else:
-            for candidate in candidate_urls(source_url):
+            download_candidates = (
+                [(wayback_replay_url(source_url), "archive_replay")]
+                if args.wayback_only
+                else [(candidate, "original") for candidate in candidate_urls(source_url)]
+            )
+            for candidate, candidate_kind in download_candidates:
                 try:
                     meta = download_once(candidate, local_path, max_seconds=args.max_seconds, max_bytes=max_bytes)
                     used_url = candidate
@@ -318,7 +341,12 @@ def main() -> int:
                     sha256 = hashlib.sha256(data).hexdigest()
                     size = str(len(data))
                     status = "downloaded"
-                    notes = "validated_pdf_magic"
+                    backup_kind = candidate_kind
+                    notes = (
+                        "validated_pdf_magic_from_raw_wayback_replay"
+                        if candidate_kind == "archive_replay"
+                        else "validated_pdf_magic"
+                    )
                     break
                 except Exception as exc:  # noqa: BLE001 - manifest must capture all failures.
                     notes = str(exc)[:300]
@@ -333,6 +361,7 @@ def main() -> int:
             "http_status": meta.get("http_status", ""),
             "content_type": meta.get("content_type", ""),
             "status": status,
+            "backup_kind": backup_kind,
             "local_path": str(repo_relative(local_path)) if status == "downloaded" else "",
             "sha256": sha256,
             "size_bytes": size,
@@ -351,6 +380,7 @@ def main() -> int:
             "http_status",
             "content_type",
             "status",
+            "backup_kind",
             "local_path",
             "sha256",
             "size_bytes",
@@ -365,6 +395,14 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "targets": len(targets),
         "downloaded": sum(1 for row in manifest_rows if row["status"] == "downloaded"),
+        "direct_original": sum(
+            1 for row in manifest_rows
+            if row["status"] == "downloaded" and row["backup_kind"] == "original"
+        ),
+        "archive_replay": sum(
+            1 for row in manifest_rows
+            if row["status"] == "downloaded" and row["backup_kind"] == "archive_replay"
+        ),
         "failed": sum(1 for row in manifest_rows if row["status"] != "downloaded"),
         "manifest": str(repo_relative(manifest_path)),
         "files_dir": str(repo_relative(files_dir)),

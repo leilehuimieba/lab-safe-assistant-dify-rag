@@ -90,3 +90,28 @@ def test_add_pdf_backup_files_by_url_hash_indexes_downloaded_pdfs(tmp_path: Path
     assert backup_index[source_url]["backup_kind"] == "original"
     assert backup_index[source_url]["has_local_pdf"] is True
     assert str(pdf_path) in backup_index[source_url]["paths"]
+
+
+def test_archive_replay_pdf_is_evidence_but_not_direct_original(tmp_path: Path):
+    from scripts.audit_source_backup_coverage import build_backup_index
+
+    pdf_path = tmp_path / "osha_snapshot.pdf"
+    pdf_path.write_bytes(b"%PDF-1.7\nsnapshot")
+    url = "https://www.osha.gov/example.pdf"
+
+    index = build_backup_index(
+        [],
+        tmp_path,
+        [],
+        [
+            {
+                "source_url": url,
+                "status": "downloaded",
+                "backup_kind": "archive_replay",
+                "local_path": str(pdf_path),
+            }
+        ],
+    )
+
+    assert index[url]["backup_kind"] == "archive_replay"
+    assert index[url]["has_local_pdf"] is True

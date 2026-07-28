@@ -62,6 +62,39 @@ def summarize_samples(samples: list[dict]) -> dict[str, int | float | None]:
     return summary
 
 
+def evaluate_first_event_target(
+    summary: dict[str, int | float | None],
+    *,
+    target_ms: float,
+) -> dict[str, float | bool | None]:
+    """Evaluate the acceptance target without hiding failed requests.
+
+    A P95 computed only from successful samples is not sufficient on its own:
+    every measured request must also succeed, otherwise a fast subset could make
+    an unhealthy run look compliant.
+    """
+    measured = summary.get("first_event_p95_ms")
+    sample_count = int(summary.get("sample_count") or 0)
+    success_count = int(summary.get("success_count") or 0)
+    failure_count = int(summary.get("failure_count") or 0)
+    all_samples_succeeded = (
+        sample_count > 0
+        and success_count == sample_count
+        and failure_count == 0
+    )
+    passed = bool(
+        all_samples_succeeded
+        and measured is not None
+        and float(measured) <= float(target_ms)
+    )
+    return {
+        "target_ms": float(target_ms),
+        "measured_p95_ms": None if measured is None else float(measured),
+        "all_samples_succeeded": all_samples_succeeded,
+        "passed": passed,
+    }
+
+
 def read_questions(path: Path, limit: int) -> list[str]:
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
@@ -178,6 +211,8 @@ def write_outputs(
     output_csv: Path,
     report_md: Path,
     base_url: str,
+    warmup_count: int = 0,
+    first_event_target_ms: float | None = None,
 ) -> dict:
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     report_md.parent.mkdir(parents=True, exist_ok=True)
@@ -199,6 +234,15 @@ def write_outputs(
         writer.writerows(samples)
 
     summary = summarize_samples(samples)
+    target_result = (
+        evaluate_first_event_target(summary, target_ms=first_event_target_ms)
+        if first_event_target_ms is not None
+        else None
+    )
+    if target_result:
+        summary["warmup_count"] = warmup_count
+        summary["first_event_target_ms"] = target_result["target_ms"]
+        summary["first_event_target_passed"] = target_result["passed"]
     generated_at = datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
     lines = [
         "# Dify SSE 性能实测",
@@ -214,6 +258,7 @@ def write_outputs(
         f"- 样本：{summary['sample_count']}",
         f"- 成功：{summary['success_count']}",
         f"- 失败：{summary['failure_count']}",
+        f"- 预热请求（不计入样本）：{warmup_count}",
         "",
         "| 指标 | 平均 | P50 | P95 | 最大 |",
         "|---|---:|---:|---:|---:|",
@@ -232,6 +277,24 @@ def write_outputs(
         ]
         rendered = ["—" if value is None else f"{value:.1f} ms" for value in values]
         lines.append(f"| {label} | {' | '.join(rendered)} |")
+    if target_result:
+        result_text = "通过" if target_result["passed"] else "未通过"
+        measured_text = (
+            "—"
+            if target_result["measured_p95_ms"] is None
+            else f"{target_result['measured_p95_ms']:.1f} ms"
+        )
+        lines.extend(
+            [
+                "",
+                "## 验收判定",
+                "",
+                f"- 首个 SSE 事件 P95 目标：≤ {target_result['target_ms']:.1f} ms",
+                f"- 实测：{measured_text}",
+                f"- 全部正式样本成功：{'是' if target_result['all_samples_succeeded'] else '否'}",
+                f"- 判定：**{result_text}**",
+            ]
+        )
     lines.extend(
         [
             "",
@@ -254,6 +317,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--api-key-env", default="DIFY_APP_API_KEY")
     parser.add_argument("--questions-csv", required=True, type=Path)
     parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument(
+        "--warmup",
+        type=int,
+        default=1,
+        help="Warm-up requests excluded from the formal sample set (default: 1).",
+    )
+    parser.add_argument(
+        "--max-first-event-p95-ms",
+        type=float,
+        default=3000.0,
+        help="Fail the run unless all samples succeed and first-event P95 is within this limit.",
+    )
     parser.add_argument("--timeout", type=float, default=120)
     parser.add_argument("--user-prefix", default="labsafe-sse-perf")
     parser.add_argument("--output-csv", required=True, type=Path)
@@ -269,6 +344,24 @@ def main() -> int:
     questions = read_questions(args.questions_csv, args.limit)
     if not questions:
         raise SystemExit("No questions found")
+    warmup_count = max(0, args.warmup)
+    for index in range(warmup_count):
+        print(f"[warmup {index + 1}/{warmup_count}] {questions[0][:60]}", flush=True)
+        warmup_sample = measure_one(
+            base_url=args.base_url,
+            api_key=api_key,
+            question=questions[0],
+            timeout=args.timeout,
+            user_prefix=f"{args.user_prefix}-warmup",
+        )
+        print(
+            "  "
+            f"success={warmup_sample['success']} "
+            f"first_event_ms={warmup_sample['first_event_ms']} "
+            f"error={warmup_sample['error']}",
+            flush=True,
+        )
+
     samples = []
     for index, question in enumerate(questions, 1):
         print(f"[{index}/{len(questions)}] {question[:60]}", flush=True)
@@ -291,9 +384,11 @@ def main() -> int:
         output_csv=args.output_csv,
         report_md=args.report_md,
         base_url=args.base_url,
+        warmup_count=warmup_count,
+        first_event_target_ms=args.max_first_event_p95_ms,
     )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
-    return 0 if summary["failure_count"] == 0 else 1
+    return 0 if summary.get("first_event_target_passed") else 1
 
 
 if __name__ == "__main__":

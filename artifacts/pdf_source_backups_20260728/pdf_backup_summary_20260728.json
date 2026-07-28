@@ -1,9 +1,12 @@
 {
-  "generated_at": "2026-07-28T08:28:05.131076+00:00",
-  "targets": 40,
-  "downloaded": 0,
-  "failed": 40,
-  "manifest": "artifacts/pdf_source_backups_20260728/pdf_backup_manifest_20260728.csv",
-  "files_dir": "artifacts/pdf_source_backups_20260728/files",
-  "note": "Downloader completed all targets; CLI summary step previously hit a relative-path bug, now covered by test and fixed."
+  "generated_at": "2026-07-28T10:11:44.978238+00:00",
+  "target_count": 40,
+  "downloaded_count": 39,
+  "failed_count": 1,
+  "archive_replay_count": 38,
+  "institutional_mirror_count": 1,
+  "remaining_source_urls": [
+    "https://www.nrc.gov/docs/ML2014/ML20147A696.pdf"
+  ],
+  "provenance_note": "archive replay and institutional mirror copies are retained as local evidence and are not represented as fresh direct-origin downloads"
 }

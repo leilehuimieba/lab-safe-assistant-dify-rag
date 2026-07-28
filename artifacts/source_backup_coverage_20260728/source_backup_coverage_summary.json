@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-28T10:12:53.115986+00:00",
+  "kb_rows": 3009,
+  "unique_source_urls": 716,
+  "open_urls": 343,
+  "blocked_or_forbidden_urls": 318,
+  "network_error_urls": 52,
+  "not_audited_urls": 0,
+  "urls_with_local_evidence": 212,
+  "urls_with_original_download": 149,
+  "urls_with_archive_mirror": 63,
+  "rows_with_local_evidence": 1750,
+  "pdf_source_urls": 151,
+  "pdf_urls_with_local_pdf": 150,
+  "pdf_urls_missing_local_pdf": 1
+}
