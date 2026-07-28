@@ -76,6 +76,18 @@ def _dify_sse_chunk_size() -> int:
     return max(1, min(4096, configured))
 
 
+def _dify_sse_response_headers() -> dict[str, str]:
+    """Prevent reverse proxies and GZipMiddleware from buffering SSE output."""
+    return {
+        "Cache-Control": "no-cache, no-transform",
+        "X-Accel-Buffering": "no",
+        # Starlette's GZipMiddleware buffers streaming bodies when clients send
+        # Accept-Encoding: gzip.  An explicit identity encoding makes it pass
+        # SSE bytes through immediately instead.
+        "Content-Encoding": "identity",
+    }
+
+
 def _extract_kb_ids(citations: list[Any]) -> list[str]:
     ids = []
     for c in citations:
@@ -447,10 +459,7 @@ async def dify_chat_messages_proxy(request: Request) -> Response:
             _iter_sse(),
             status_code=upstream.status_code,
             media_type="text/event-stream",
-            headers={
-                "Cache-Control": "no-cache, no-transform",
-                "X-Accel-Buffering": "no",
-            },
+            headers=_dify_sse_response_headers(),
         )
 
     body = upstream.content
