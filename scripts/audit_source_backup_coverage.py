@@ -194,13 +194,24 @@ def summarize_coverage(
         if bool(backup_index.get(url, {}).get("has_local_pdf"))
     }
 
-    return {
+    # Every audited status must survive into the summary. Enumerating only a few
+    # known keys silently dropped ``bad_http_status`` before, so the published
+    # breakdown did not add up to ``unique_source_urls``.
+    named_statuses = ("open", "blocked_or_forbidden", "network_error", "bad_http_status", "not_audited")
+    other_status_urls = sum(
+        count for status, count in status_counts.items() if status not in named_statuses
+    )
+
+    summary = {
         "kb_rows": len(kb_rows),
         "unique_source_urls": len(source_urls),
         "open_urls": status_counts["open"],
         "blocked_or_forbidden_urls": status_counts["blocked_or_forbidden"],
         "network_error_urls": status_counts["network_error"],
+        "bad_http_status_urls": status_counts["bad_http_status"],
         "not_audited_urls": status_counts["not_audited"],
+        "other_status_urls": other_status_urls,
+        "status_counts": dict(sorted(status_counts.items())),
         "urls_with_local_evidence": len(evidence_urls),
         "urls_with_original_download": len(original_urls),
         "urls_with_archive_mirror": len(mirror_urls),
@@ -212,6 +223,20 @@ def summarize_coverage(
         "pdf_urls_with_local_pdf": len(pdf_backup_urls),
         "pdf_urls_missing_local_pdf": len(pdf_urls - pdf_backup_urls),
     }
+
+    breakdown = sum(summary[key] for key in (
+        "open_urls",
+        "blocked_or_forbidden_urls",
+        "network_error_urls",
+        "bad_http_status_urls",
+        "not_audited_urls",
+        "other_status_urls",
+    ))
+    if breakdown != summary["unique_source_urls"]:
+        raise ValueError(
+            f"status breakdown {breakdown} != unique_source_urls {summary['unique_source_urls']}"
+        )
+    return summary
 
 
 def write_outputs(
@@ -268,7 +293,7 @@ def write_outputs(
         "",
         f"- 生成时间（UTC）：`{generated_at}`",
         f"- 知识片段：**{summary['kb_rows']}** 条；唯一来源链接：**{summary['unique_source_urls']}** 个",
-        f"- 本次实测可打开：**{summary['open_urls']}** 个；被站点/反爬拦截：**{summary['blocked_or_forbidden_urls']}** 个；网络错误：**{summary['network_error_urls']}** 个",
+        f"- 本次实测可打开：**{summary['open_urls']}** 个；被站点/反爬拦截：**{summary['blocked_or_forbidden_urls']}** 个；网络错误：**{summary['network_error_urls']}** 个；异常 HTTP 状态：**{summary['bad_http_status_urls']}** 个；未审计：**{summary['not_audited_urls']}** 个；其他状态：**{summary['other_status_urls']}** 个（六项之和等于唯一来源链接总数）",
         f"- 有本地原件或归档证据：**{summary['urls_with_local_evidence']}** 个链接，覆盖 **{summary['rows_with_local_evidence']}** 条知识片段",
         f"- PDF 来源：**{summary['pdf_source_urls']}** 个；有本地 PDF 证据副本：**{summary['pdf_urls_with_local_pdf']}** 个；缺本地 PDF 证据：**{summary['pdf_urls_missing_local_pdf']}** 个",
         "",

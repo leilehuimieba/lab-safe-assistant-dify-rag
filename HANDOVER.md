@@ -1,9 +1,82 @@
 # 项目交接文档 —— 基于 Dify 的实验室安全小助手
 
-> **更新日期**：2026-07-28  
+> **更新日期**：2026-07-31  
 > **交接人**：当前维护者  
 > **接收人**：后续开发/维护团队  
 > **仓库地址**：https://github.com/leilehuimieba/lab-safe-assistant-dify-rag
+
+---
+
+## 〇、2026-07-31 Claude 接手前必读
+
+### 0.1 当前工作区状态
+
+- 工作目录：`D:\newwork\Security\lab-safe-assistant-dify-rag`。
+- 公开仓库：<https://github.com/leilehuimieba/lab-safe-assistant-dify-rag>。
+- 当前本地有未提交变更：`README.md`、`HANDOVER.md`、`knowledge_base_curated.csv`，以及 20260731 的来源覆盖产物。接手后先运行：
+
+```powershell
+git status --short
+```
+
+- 私有结项材料在 `docs/conclusion_private/`，该目录已被 `.gitignore` 忽略，不进入 GitHub。
+- 旧 `项目结题报告（简版）-龙华秋-送审底稿_20260728.docx` 可能正被 WPS 打开；新的当前版为 `项目结题报告（简版）-龙华秋-送审底稿_20260731.docx` 与同名 PDF。
+
+### 0.2 2026-07-31 已完成的关键收口
+
+1. **NRC 失效来源替换**
+   - 原 URL：`https://www.nrc.gov/docs/ML2014/ML20147A696.pdf`。
+   - 当前 KB 中已不再出现该 URL，校验结果：`old_url_rows=0`、`old_any_rows=0`。
+   - 受影响条目：`KB-RECO-0090`、`KB-RECO-0099`、`KB-RECO-0189`。
+   - 替代来源：
+     - `https://www.ecfr.gov/current/title-10/chapter-I/part-20`
+     - `https://www.federalregister.gov/documents/2014/09/12/2014-21757/applications-of-bioassay-for-radioiodine`
+     - `https://www.govinfo.gov/content/pkg/FR-2014-09-12/pdf/2014-21757.pdf`（仅作为引用地址；本机命令行 TLS 下载失败，未声明本地 PDF 原件成功）
+   - 处理原则：不是找到了 `ML20147A696` 原件，而是移除当前 KB 对旧失效 PDF 直链的依赖，不以相似 NRC 文档冒充原件。
+
+2. **当前来源覆盖报告更新**
+   - 新报告：`docs/eval/source_backup_coverage_20260731.md`。
+   - 当前口径：3009 条 KB；717 个唯一来源 URL；344 个可打开；318 个 blocked；52 个 network_error；3 个异常 HTTP 状态。
+   - PDF 来源：150 个；本地 PDF 证据副本：150 个；缺口：0 个。
+   - 历史 20260725/20260728 的 NRC 失败记录保留，不倒改历史。
+
+3. **覆盖审计状态分项漏计修复**
+   - `scripts/audit_source_backup_coverage.py` 的 `summarize_coverage()` 原先只输出 open/blocked/network_error/not_audited 四个状态，`bad_http_status` 被静默丢弃，导致公开报告分项之和为 714、与 717 不符（20260728 那版同样是 713≠716）。
+   - 已补 `bad_http_status_urls`、`other_status_urls`、完整 `status_counts`，并加入“分项之和必须等于唯一来源链接总数”的运行时校验；新增 2 个回归测试。
+   - `docs/eval/source_backup_coverage_20260731.md` 与同批 summary JSON 已按同一口径回填，未重跑管线，`generated_at` 取证时间戳保持不变。
+   - 3 个异常状态均为 csb.gov 的 5xx 网关错误且非 PDF 来源，PDF 150/150 口径不受影响。
+   - 20260725/20260728 历史报告按“不倒改历史”原则保持原样。
+
+4. **私有结项报告更新**
+   - 新 DOCX：`docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731.docx`。
+   - 新 PDF：`docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731.pdf`。
+   - 已同步更新 NRC 替换、717 URL、344 open、150/150 PDF 当前口径。
+   - 字体格式沿用官方附件2：标题 22 磅方正小标宋简体，正文 16 磅仿宋，上下左右 2.8 cm 页边距。
+
+### 0.3 已验证命令
+
+```powershell
+py -3.14 scripts/quality_gate.py
+# Quality gate passed.
+
+py -3.14 -m pytest -q
+# 86 passed, 2 skipped, 6 subtests passed
+```
+
+### 0.4 仍不能夸大的口径
+
+- 不说“找到了 NRC `ML20147A696` 原件”；只能说“旧直链不可达，当前 KB 已替换为更通用官方来源”。
+- 不说“完整回答 P95<3s”；只能说“Dify SSE 首事件 P95=2.136s，完整流 P95=6.506s”。
+- 不说“7×24 三个月已完成”；完整周期最早 2026-10-01 才能形成。
+- 不说“独立专家已签字”；目前只有 AI 模拟预审和自动回归，真实专家签名/单位意见仍待负责人闭环。
+- 不把 `docs/conclusion_private/`、财务、签字页、个人联系方式、远程连接配置提交到 GitHub。
+
+### 0.5 建议 Claude 下一步继续做
+
+1. 复核 `knowledge_base_curated.csv` 里 `KB-RECO-0090`、`KB-RECO-0099`、`KB-RECO-0189` 的新答案是否与 eCFR/Federal Register 证据完全匹配，避免旧 NRC 申请件细数值残留。
+2. 检查 `README.md`、`HANDOVER.md`、`docs/eval/source_backup_coverage_20260731.md`、私有结项报告 20260731 版口径是否一致。
+3. 若要提交公开变更，只提交公开文件；私有结项报告不提交。提交前再跑 `quality_gate.py` 和 `pytest`。
+4. 若继续完善结项材料，优先补真实财务、真实专家复核签字、单位意见，而不是扩写技术内容。
 
 ---
 
@@ -33,7 +106,7 @@ origin/master                   # 与本地 master 同步（截至 2026-05-28）
 origin/codex/proposal-alignment-round2-20260522
 ```
 
-**当前基线**：以 `origin/master` 为准；2026-07-28 已完成远程部署、高风险线上回归、运行快照回收和 Dify SSE 性能取证。
+**当前基线**：`origin/master` 已包含 2026-07-28 的远程部署、高风险线上回归、运行快照回收、Dify SSE 性能取证与 SSE gzip 缓冲修复；2026-07-31 本地又完成 NRC `ML20147A696` 失效旧来源替换、当前覆盖报告更新和私有结项报告 20260731 版生成，尚未提交/推送。
 
 > 隐私边界：结题报告送审稿、签字页、财务明细和个人联系方式仅存放在本地 `docs/conclusion_private/`（已忽略），不得提交到 GitHub。
 

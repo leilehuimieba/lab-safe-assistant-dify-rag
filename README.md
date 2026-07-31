@@ -1,21 +1,29 @@
 # 基于 Dify 的实验室安全小助手（项目一）
 
-本仓库是从 `D:\newwork\lab-safe-assistant-workspace\lab-safe-assistant-github` 抽离出的**第一个项目**，只保留“基于 Dify 搭建 RAG 增强的大语言模型实验室安全小助手系统”所需的最小代码与材料。
+本仓库位于 `D:\newwork\Security\lab-safe-assistant-dify-rag`，是从 `D:\newwork\lab-safe-assistant-workspace\lab-safe-assistant-github` 抽离出的**第一个项目**，只保留“基于 Dify 搭建 RAG 增强的大语言模型实验室安全小助手系统”所需的最小代码与材料。
 
-## 0. 2026-07-28 当前快照
+## 0. 2026-07-31 当前快照
 
 - GitHub 仓库：<https://github.com/leilehuimieba/lab-safe-assistant-dify-rag>
 - 当前建议文档入口：`docs/README.md`
 - 主知识库：**3009 条结构化知识片段、29 列统一字段、400+ 权威来源**；不得表述为 3009 份独立文档。
 - 远程演示服务：FastAPI `8088`；Dify Docker 1.13.0 上游 `8080`。代码默认的本地 Dify API 端口仍为 `8081`。
-- 2026-07-28 已部署 7 月 25 日后的高风险修复，并对泄漏人员不适、爆炸伤人、触电三类应急输入完成线上回归。
+- 2026-07-28 已部署 7 月 25 日后的高风险修复，并对泄漏人员不适、爆炸伤人、触电三类应急输入完成线上回归；2026-07-31 已完成 NRC `ML20147A696` 失效旧直链替换收口。
 - 登录页使用受服务端保护的 `/api/auth/check` 校验密码；恢复浏览器会话时也会重新向服务端验证。公开的 `/health` 仅供监测，不能作为登录验证接口。问答、检索、元信息、统计等数据接口均要求正确的 `x-password`。
 - Dify SSE 经 2 次预热后完成 50 题正式实测：50/50 成功，首事件平均 **1.246 s**、P95 **2.136 s**、最大 **2.487 s**，已达到“首事件 P95 ≤3s”验收口径；完整流 P95 仍为 **6.506 s**，不得把首事件指标表述成“完整回答 <3s”。原始 CSV 与报告见 `artifacts/performance/dify_sse_20260728_50.csv`、`docs/eval/dify_sse_performance_20260728.md`。
-- 本轮待补的 40 个 PDF 来源已恢复 **39** 个本地证据副本（38 个归档回放/官方规范化地址、1 个机构镜像）；NRC `ML20147A696` 当前直连 403、ADAMS 检索接口无可下载记录且 Wayback 无捕获，作为唯一未闭环项保留，不以替代文件冒充原件。
+- 本轮 PDF 来源已完成当前口径收口：原 40 个缺口已恢复 **39** 个本地证据副本；NRC `ML20147A696` 旧直链在当前网络下不可达且无可复现原件，因此不再作为当前 KB 的 `source_url`，涉及的 3 条放射安全知识（`KB-RECO-0090`、`KB-RECO-0099`、`KB-RECO-0189`）已改由 eCFR 10 CFR Part 20 与 Federal Register/govinfo 关于 RG 8.20 的公开权威来源支撑；当前覆盖报告为 `docs/eval/source_backup_coverage_20260731.md`，PDF 来源为 **150/150** 均有本地 PDF 证据副本，不以相似文件冒充旧 NRC 原件。
 - 25 个历史网络错误已全部形成分层二次证据：15 个保存了可校验的 Wayback 内容副本，另 10 个保留官方域名索引或现行官方替代页；这些证据不改变原始直连 `network_error` 状态。
 - `7×24` 监测自 2026-07-01 起按真实日期累积；完整三个月证据最早在 2026-10-01 形成，不倒填。
 - 结题报告、签字页、财务明细和含个人联系方式的送审稿只保存在本地忽略目录 `docs/conclusion_private/`，不进入 GitHub。
 - 当前仍需负责人/学院闭环：独立专家签字复核、真实财务数据、线下签章，以及三个月完整试运行周期。
+
+## 0.1 Claude/后续维护接手提示
+
+- 当前公开主数据已更新，但本轮变更尚未提交/推送；接手前先运行 `git status --short` 了解未提交范围。
+- 不要把 `docs/conclusion_private/` 内的结项报告、财务、签字和个人联系方式材料提交到 GitHub；该目录已被 `.gitignore` 忽略。
+- 当前结项报告最新私有版本为 `docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731.docx` 和同名 PDF；旧 `20260728` 版本可能仍被 WPS 打开。
+- 若继续改知识库字段，必须保持 `libs/kb_schema.py` 的 `KB_HEADERS` 一致，并运行 `python scripts/quality_gate.py`。
+- 若继续改问答/安全规则，优先运行 `py -3.14 -m pytest -q`，并重点保护 Dify SSE 首事件 P95≤3s、登录强校验、SSRF 白名单、SSE 上游连接关闭等已修复边界。
 
 ## 1. 项目边界
 
@@ -77,7 +85,7 @@ lab-safe-assistant-dify-rag/
 ## 3. 快速运行
 
 ```powershell
-cd D:\newwork\lab-safe-assistant-dify-rag
+cd D:\newwork\Security\lab-safe-assistant-dify-rag
 pip install -r requirements.txt
 powershell -ExecutionPolicy Bypass -File scripts/start_dify_rag_local.ps1
 ```
@@ -151,7 +159,7 @@ python scripts/release/import_csv_to_dify_dataset.py --help
 
 本项目：
 
-`D:\newwork\lab-safe-assistant-dify-rag`
+`D:\newwork\Security\lab-safe-assistant-dify-rag`
 
 只作为“标准课题版 / 基于 Dify 的 RAG 实验室安全问答系统”。
 

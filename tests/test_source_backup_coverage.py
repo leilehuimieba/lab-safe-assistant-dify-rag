@@ -66,6 +66,63 @@ def test_summarize_coverage_counts_unique_urls_rows_and_pdf_backups():
     assert summary["network_error_urls"] == 1
 
 
+def test_summarize_coverage_status_breakdown_adds_up_to_unique_urls():
+    """Every audited status must appear in the summary.
+
+    ``bad_http_status`` used to be dropped, so the published breakdown summed to
+    714 against 717 unique URLs.
+    """
+    from scripts.audit_source_backup_coverage import summarize_coverage
+
+    statuses = ["open", "blocked_or_forbidden", "network_error", "bad_http_status", "weird_new_status"]
+    kb_rows = [{"source_url": f"https://example.edu/{name}"} for name in statuses]
+    kb_rows.append({"source_url": "https://example.edu/never-audited"})
+    live_rows = [
+        {"url": f"https://example.edu/{name}", "traceability_status": name, "content_type": "text/html"}
+        for name in statuses
+    ]
+
+    summary = summarize_coverage(kb_rows, live_rows, {})
+
+    assert summary["unique_source_urls"] == 6
+    assert summary["bad_http_status_urls"] == 1
+    assert summary["not_audited_urls"] == 1
+    assert summary["other_status_urls"] == 1
+    assert summary["status_counts"]["weird_new_status"] == 1
+    breakdown = sum(summary[key] for key in (
+        "open_urls",
+        "blocked_or_forbidden_urls",
+        "network_error_urls",
+        "bad_http_status_urls",
+        "not_audited_urls",
+        "other_status_urls",
+    ))
+    assert breakdown == summary["unique_source_urls"]
+
+
+def test_published_20260731_summary_breakdown_matches_detail_csv():
+    """The shipped 2026-07-31 artifacts must stay internally consistent."""
+    import csv
+    import json
+    from collections import Counter
+
+    repo_root = Path(__file__).resolve().parents[1]
+    detail_path = repo_root / "artifacts/source_backup_coverage_20260731/source_backup_coverage.csv"
+    summary_path = repo_root / "artifacts/source_backup_coverage_20260731/source_backup_coverage_summary.json"
+    if not detail_path.is_file() or not summary_path.is_file():
+        import pytest
+
+        pytest.skip("2026-07-31 coverage artifacts not present")
+
+    with detail_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        detail_rows = list(csv.DictReader(handle))
+    summary = json.loads(summary_path.read_text(encoding="utf-8"))
+
+    assert len(detail_rows) == summary["unique_source_urls"]
+    assert Counter(row["traceability_status"] for row in detail_rows) == summary["status_counts"]
+    assert sum(summary["status_counts"].values()) == summary["unique_source_urls"]
+
+
 def test_add_pdf_backup_files_by_url_hash_indexes_downloaded_pdfs(tmp_path: Path):
     from scripts.audit_source_backup_coverage import add_pdf_backup_files_by_url_hash
 

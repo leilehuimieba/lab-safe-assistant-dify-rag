@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-31T05:37:08.323494+00:00",
+  "kb_rows": 3009,
+  "unique_source_urls": 717,
+  "status_counts": {
+    "open": 344,
+    "network_error": 52,
+    "blocked_or_forbidden": 318,
+    "bad_http_status": 3
+  },
+  "note": "20260731 current audit rows reuse 20260728 live audit where URLs are unchanged; eCFR and Federal Register replacement URLs were web-verified open on 2026-07-31. Local command-line TLS could not download federal/govinfo PDF, so no local PDF original is claimed for the replacement notice."
+}

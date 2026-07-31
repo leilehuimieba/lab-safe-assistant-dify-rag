@@ -36,6 +36,8 @@ artifacts/eval_50/
 artifacts/kb_changelog/
 artifacts/user_feedback/
 artifacts/low_confidence_followups/
+# 知识库改动前的整档备份：内容与 git 历史中的同版 CSV 一致，提交属重复存储
+artifacts/kb_backups/
 
 # 数据导入临时目录
 data_sources/incoming/
