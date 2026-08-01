@@ -22,7 +22,7 @@ from ..services import (
     append_low_confidence_followup_notice, looks_truncated, append_truncation_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
-    select_fast_path_citations, build_fast_path_answer,
+    select_fast_path_citations, build_fast_path_answer, use_local_complete_response,
 )
 from ..services.auth_service import verify_password
 from ..services.kb_usage_service import record_kb_usage
@@ -262,6 +262,60 @@ def chat(payload: ChatRequest) -> ChatResponse:
             low_confidence=False,
             low_confidence_reason="",
             followup_logged=False,
+            elapsed_ms=elapsed_ms,
+            session_id=session.session_id,
+            citations=citations,
+            timings={"total_ms": elapsed_ms, **timings},
+        )
+
+    # ``/api/chat`` is the user-facing complete-response endpoint.  Waiting for
+    # a remote LLM to finish streaming makes its P95 equal to the model's token
+    # generation duration (previously about 6.5 s), even though a complete,
+    # cited safety answer is already available in the curated local KB.  Finish
+    # on the local path by default; an operator may explicitly set
+    # LABSAFE_RESPONSE_MODE=dify when a generative answer is preferred over the
+    # complete-response latency SLO.
+    if use_local_complete_response():
+        if citations:
+            answer = build_fast_path_answer(question, citations)
+            model = "local-kb-complete"
+        else:
+            answer = build_fallback_lab_answer(
+                question=question,
+                citations=citations,
+                rule=rule,
+                low_confidence_reason=low_reason or "no_kb_match",
+            )
+            model = "local-kb-conservative"
+        decision = "local_complete_low_confidence" if low_confidence else "local_complete_answer"
+        if low_confidence:
+            followup_logged = append_low_confidence_followup(
+                question=question,
+                mode=mode,
+                decision=decision,
+                risk_level=str((rule or {}).get("severity") or ""),
+                matched_rule_id=str((rule or {}).get("id") or ""),
+                matched_rule_action=rule_action,
+                low_confidence_reason=low_reason,
+                citations=citations,
+            )
+            if followup_logged:
+                answer = append_low_confidence_followup_notice(answer)
+        elapsed_ms = round((time.perf_counter() - t0) * 1000)
+        _record_metrics(total_ms=elapsed_ms, **timings)
+        add_history(session.session_id, question, answer)
+        record_kb_usage(_extract_kb_ids(citations))
+        return ChatResponse(
+            answer=answer,
+            mode=mode,
+            model=model,
+            decision=decision,
+            risk_level=str((rule or {}).get("severity") or ""),
+            matched_rule_id=str((rule or {}).get("id") or ""),
+            matched_rule_action=rule_action,
+            low_confidence=low_confidence,
+            low_confidence_reason=low_reason,
+            followup_logged=followup_logged,
             elapsed_ms=elapsed_ms,
             session_id=session.session_id,
             citations=citations,
