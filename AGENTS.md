@@ -92,7 +92,7 @@ eval_set_v2_50.csv, requirements.txt, AUDIT_GUIDE.md, DATA_COLLECTION_SPEC.md, D
 
 ### 5.3 验收指标
 - “99% 准确率”必须分层举证：项目自评 100%（L1/L2/L3）+ 专家评审 ≥95%（L4）。不承诺整体 3009 条准确率 99%。
-- “<3s 响应”指 **Dify SSE 首字节 <3s**。本地 fast_path 完整回答 <300ms，Dify 完整回答 P95 <10s。
+- 性能口径必须分链路：默认 `LABSAFE_RESPONSE_MODE=local_complete` 的 `/api/chat` 完整 HTTP 回答可按“完整回答 P95<3s”统计；2026-08-01 的 50 题部署服务实测为 P95=178.8ms。**Dify SSE 首字节 <3s**与 **Dify 完整流** 是另一组指标（2026-07-28：首事件 P95=2.136s、完整流 P95=6.506s），不得混用或写成“Dify 完整回答<3s”。
 - “7×24 三个月”从 **2026-07-01** 起算，用 `record_runtime_snapshot.py` 累积真实运行数据，不倒填。
 
 ### 5.4 评审追问防御

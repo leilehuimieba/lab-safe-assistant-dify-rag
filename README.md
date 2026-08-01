@@ -2,15 +2,16 @@
 
 本仓库位于 `D:\newwork\Security\lab-safe-assistant-dify-rag`，是从 `D:\newwork\lab-safe-assistant-workspace\lab-safe-assistant-github` 抽离出的**第一个项目**，只保留“基于 Dify 搭建 RAG 增强的大语言模型实验室安全小助手系统”所需的最小代码与材料。
 
-## 0. 2026-07-31 当前快照
+## 0. 2026-08-01 当前快照
 
 - GitHub 仓库：<https://github.com/leilehuimieba/lab-safe-assistant-dify-rag>
 - 当前建议文档入口：`docs/README.md`
-- 主知识库：**3009 条结构化知识片段、29 列统一字段、400+ 权威来源**；不得表述为 3009 份独立文档。
+- 主知识库：**3009 条结构化知识片段、29 列统一字段、717 个唯一来源 URL、1276 个唯一来源标题**；对外统一表述为“3000+ 结构化知识片段，来自 400+ 权威来源”，不得表述为 3009 份独立文档。
 - 远程演示服务：FastAPI `8088`；Dify Docker 1.13.0 上游 `8080`。代码默认的本地 Dify API 端口仍为 `8081`。
 - 2026-07-28 已部署 7 月 25 日后的高风险修复，并对泄漏人员不适、爆炸伤人、触电三类应急输入完成线上回归；2026-07-31 已完成 NRC `ML20147A696` 失效旧直链替换收口。
 - 登录页使用受服务端保护的 `/api/auth/check` 校验密码；恢复浏览器会话时也会重新向服务端验证。公开的 `/health` 仅供监测，不能作为登录验证接口。问答、检索、元信息、统计等数据接口均要求正确的 `x-password`。
-- Dify SSE 经 2 次预热后完成 50 题正式实测：50/50 成功，首事件平均 **1.246 s**、P95 **2.136 s**、最大 **2.487 s**，已达到“首事件 P95 ≤3s”验收口径；完整流 P95 仍为 **6.506 s**，不得把首事件指标表述成“完整回答 <3s”。原始 CSV 与报告见 `artifacts/performance/dify_sse_20260728_50.csv`、`docs/eval/dify_sse_performance_20260728.md`。
+- Dify SSE 经 2 次预热后完成 50 题正式实测：50/50 成功，首事件平均 **1.246 s**、P95 **2.136 s**、最大 **2.487 s**；**Dify 完整流** P95 仍为 **6.506 s**，两项不得混用。原始 CSV 与报告见 `artifacts/performance/dify_sse_20260728_50.csv`、`docs/eval/dify_sse_performance_20260728.md`。
+- 为实现用户侧**完整回答** P95 <3s，`/api/chat` 默认切换为 `LABSAFE_RESPONSE_MODE=local_complete`：基于本地结构化 KB、既有快速通道或终端安全规则返回完整最终 JSON，不等待 Dify token 流结束。2026-08-01 部署服务实测（2 次预热后 50 题）：HTTP 200 和完整最终回答均为 **50/50**，完整 HTTP 回答 P95 **178.8 ms**、最大 **185.6 ms**。证据与可复测脚本：`artifacts/performance/app_complete_response_20260801_50.csv`、`artifacts/performance/app_complete_response_20260801_50.md`、`scripts/measure_complete_response_performance.py`。此结果**不等于 Dify 完整流 <3s**。
 - 本轮 PDF 来源已完成当前口径收口：原 40 个缺口已恢复 **39** 个本地证据副本；NRC `ML20147A696` 旧直链在当前网络下不可达且无可复现原件，因此不再作为当前 KB 的 `source_url`，涉及的 3 条放射安全知识（`KB-RECO-0090`、`KB-RECO-0099`、`KB-RECO-0189`）已改由 eCFR 10 CFR Part 20 与 Federal Register/govinfo 关于 RG 8.20 的公开权威来源支撑；当前覆盖报告为 `docs/eval/source_backup_coverage_20260731.md`，PDF 来源为 **150/150** 均有本地 PDF 证据副本，不以相似文件冒充旧 NRC 原件。
 - 25 个历史网络错误已全部形成分层二次证据：15 个保存了可校验的 Wayback 内容副本，另 10 个保留官方域名索引或现行官方替代页；这些证据不改变原始直连 `network_error` 状态。
 - `7×24` 监测自 2026-07-01 起按真实日期累积；完整三个月证据最早在 2026-10-01 形成，不倒填。
@@ -19,11 +20,11 @@
 
 ## 0.1 Claude/后续维护接手提示
 
-- 当前公开主数据已更新，但本轮变更尚未提交/推送；接手前先运行 `git status --short` 了解未提交范围。
+- 不依赖文档中的静态 Git 状态判断是否存在待提交内容；每次接手先运行 `git status --short`、`git branch --show-current` 和 `git log -1 --oneline`。2026-07-31 NRC 来源审计基线提交为 `cb6b592`，位于 `chore/source-audit-20260731` 分支，是否已继续提交或推送以实时命令结果为准。
 - 不要把 `docs/conclusion_private/` 内的结项报告、财务、签字和个人联系方式材料提交到 GitHub；该目录已被 `.gitignore` 忽略。
-- 当前结项报告最新私有版本为 `docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731.docx` 和同名 PDF；旧 `20260728` 版本可能仍被 WPS 打开。
+- 当前结项报告最新私有版本为 `docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731_v2.docx` 和同名 PDF；旧 `20260728` 版本可能仍被 WPS 打开，不要强制覆盖。
 - 若继续改知识库字段，必须保持 `libs/kb_schema.py` 的 `KB_HEADERS` 一致，并运行 `python scripts/quality_gate.py`。
-- 若继续改问答/安全规则，优先运行 `py -3.14 -m pytest -q`，并重点保护 Dify SSE 首事件 P95≤3s、登录强校验、SSRF 白名单、SSE 上游连接关闭等已修复边界。
+- 若继续改问答/安全规则，优先运行 `py -3.14 -m pytest -q`，并重点保护默认完整回答 P95<3s、Dify SSE 首事件 P95≤3s、登录强校验、SSRF 白名单、SSE 上游连接关闭等已修复边界。
 
 ## 1. 项目边界
 
@@ -62,6 +63,7 @@ lab-safe-assistant-dify-rag/
 │  │  └─ meta_routes.py          # /、/health、/api/meta
 │  ├─ services/
 │  │  ├─ upstream_service.py      # Dify SSE 调用与输出清洗
+│  │  ├─ response_mode_service.py # 默认完整回答 / 显式 Dify 模式选择
 │  │  ├─ kb_service.py            # 本地知识库检索与规则匹配
 │  │  ├─ answer_service.py        # 规则回答、结构化兜底、低置信队列
 │  │  ├─ llm_output_service.py
@@ -223,7 +225,7 @@ Dify Dataset 已正式导入：已创建 `实验室安全知识库` Dataset，Da
 | 20 题正式评测 | 20/20 成功，20/20 有引用 |
 | 高风险安全规则 | rule-engine 已生效 |
 | 99% 准确率 | 需要专家人工评分后才能严谨宣称，当前不伪造 |
-| 响应 <3 秒 | Dify SSE 首事件 P95=2.136 秒（50/50 成功）已达标；完整流 P95=6.506 秒，不混用口径 |
+| 响应 <3 秒 | 默认 `/api/chat` 完整 HTTP 回答 P95=178.8 ms（50/50 成功）；Dify SSE 首事件 P95=2.136 秒，Dify 完整流 P95=6.506 秒，三项分别留证、不混用 |
 | 7×24 与 3 个月试运行 | 已建立监测方案，需从真实日期开始积累运行记录 |
 
 新增外部采集证据文件：
