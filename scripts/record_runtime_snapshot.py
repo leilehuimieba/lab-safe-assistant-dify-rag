@@ -34,7 +34,7 @@ def load_demo_password() -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Record one runtime snapshot")
-    parser.add_argument("--base-url", default="http://127.0.0.1:8091", help="Demo base URL")
+    parser.add_argument("--base-url", default="http://127.0.0.1:8088", help="Demo base URL")
     parser.add_argument(
         "--runtime-file",
         default=str(REPO_ROOT / "artifacts" / "local-dify-rag" / "runtime.json"),
