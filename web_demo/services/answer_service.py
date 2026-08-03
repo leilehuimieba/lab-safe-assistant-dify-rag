@@ -20,6 +20,7 @@ from typing import Any
 from ..models import Citation
 from ..repositories import (
     DEFAULT_LOW_CONFIDENCE_TOP_SCORE,
+    DEFAULT_OOS_TOP_SCORE_THRESHOLD,
     RISK_LABEL,
     QUEUE_HEADERS,
     LOW_CONFIDENCE_QUEUE_FILE,
@@ -36,6 +37,36 @@ def assess_low_confidence(citations: list[Citation]) -> tuple[bool, str]:
     threshold = float(os.getenv("LOW_CONFIDENCE_TOP_SCORE", str(DEFAULT_LOW_CONFIDENCE_TOP_SCORE)))
     if citations[0].score < threshold:
         return True, f"top_score_below_threshold:{citations[0].score}<{threshold}"
+    return False, ""
+
+def assess_out_of_scope(
+    rule: dict[str, Any] | None,
+    citations: list[Citation],
+) -> tuple[bool, str]:
+    """Out-of-scope guard for the local-complete response path.
+
+    Returns (is_oos, reason). The previous version of this check (83a0514)
+    used `low_confidence and rule is None`, where low_confidence means
+    top_score < 3.5. That threshold is too loose: the BM25 retriever on
+    the curated KB can still match score 7.1 for unrelated questions
+    like "怎么做番茄炒蛋" (which matched a NMR quench entry). Forcing
+    a four-section fast-path answer onto top_score 7-8 is the same
+    fabrication problem 83a0514 was supposed to prevent, just on a
+    narrower band.
+
+    This function uses a stricter OOS threshold (default 8.0) so only
+    clearly irrelevant questions are politely declined. The signal is:
+    - rule is None (no safety rule matched)
+    - AND (no citations OR top1.score < OOS_TOP_SCORE_THRESHOLD)
+    """
+    if rule is not None:
+        return False, ""
+    if not citations:
+        return True, "no_citations"
+    threshold = float(os.getenv("OOS_TOP_SCORE_THRESHOLD", str(DEFAULT_OOS_TOP_SCORE_THRESHOLD)))
+    top_score = citations[0].score
+    if top_score < threshold:
+        return True, f"top_score_below_oos_threshold:{top_score}<{threshold}"
     return False, ""
 
 

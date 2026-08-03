@@ -1,5 +1,6 @@
 from .answer_service import (
     assess_low_confidence,
+    assess_out_of_scope,
     append_low_confidence_followup,
     append_low_confidence_followup_notice,
     build_fallback_lab_answer,
@@ -17,7 +18,7 @@ from .session_service import get_or_create, set_conversation_id, add_history
 from .upstream_service import call_dify_lab, resolve_dify_api_base, build_dify_proxy_auth, sanitize_llm_output
 
 __all__ = [
-    "assess_low_confidence", "append_low_confidence_followup", "append_low_confidence_followup_notice",
+    "assess_low_confidence", "assess_out_of_scope", "append_low_confidence_followup", "append_low_confidence_followup_notice",
     "looks_truncated", "append_truncation_notice",
     "build_fallback_lab_answer", "build_rule_answer", "retrieve_citations", "match_rule", "_build_out_of_scope_answer",
     "should_use_fast_path", "build_fast_path_answer", "select_fast_path_citations", "should_enforce_terminal_rule", "should_force_more_info", "get_demo_meta", "get_or_create", "set_conversation_id",

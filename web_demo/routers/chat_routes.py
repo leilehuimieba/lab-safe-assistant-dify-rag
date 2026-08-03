@@ -18,7 +18,7 @@ from ..models import ChatRequest, ChatResponse, FeedbackRequest, StatsResponse
 from ..repositories import DEFAULT_TOP_K, DIFY_DEFAULT_TIMEOUT, REPO_ROOT
 from ..services import (
     retrieve_citations, match_rule, should_enforce_terminal_rule, should_force_more_info,
-    build_rule_answer, assess_low_confidence, append_low_confidence_followup,
+    build_rule_answer, assess_low_confidence, assess_out_of_scope, append_low_confidence_followup,
     append_low_confidence_followup_notice, looks_truncated, append_truncation_notice, call_dify_lab,
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
@@ -277,16 +277,20 @@ def chat(payload: ChatRequest) -> ChatResponse:
     # LABSAFE_RESPONSE_MODE=dify when a generative answer is preferred over the
     # complete-response latency SLO.
     if use_local_complete_response():
-        # Out-of-scope short-circuit: low confidence AND no rule hit.
-        # The KB retriever always returns a top-K list even for greetings,
-        # weather questions, cooking, etc., so the previous branch relied on
-        # `not citations` to detect OOS, which never fired. 83a0514 added the
-        # same guard inside build_fallback_lab_answer, but the
-        # `if citations:` branch below calls build_fast_path_answer and
-        # bypasses that path. Detect OOS here from the same low_confidence
-        # signal that already drives the followup log, and short-circuit to
-        # the polite decline template.
-        if low_confidence and rule is None:
+        # Out-of-scope short-circuit: a dedicated assess_out_of_scope
+        # check (top_score < OOS_TOP_SCORE_THRESHOLD, default 8.0, OR
+        # no citations) is stricter than the existing low_confidence
+        # threshold (3.5). The 3.5 threshold is too loose: BM25 on the
+        # curated KB can still surface top1.score=7.1 for unrelated
+        # questions (e.g. "怎么做番茄炒蛋" matched a NMR quench entry),
+        # which then triggers a four-section fast-path answer that
+        # has nothing to do with the question. The OOS threshold of
+        # 8.0 cleanly separates "related to lab safety" (>= 8.0) from
+        # "unrelated" (< 8.0) at the corpus's natural gap, and keeps
+        # the polite-decline template on the same path as 83a0514's
+        # build_fallback_lab_answer OOS guard.
+        is_oos, oos_reason = assess_out_of_scope(rule, citations)
+        if is_oos:
             decision = "out_of_scope_local"
             answer = _build_out_of_scope_answer(question)
             model = "local-kb-conservative"
@@ -295,10 +299,9 @@ def chat(payload: ChatRequest) -> ChatResponse:
             model = "local-kb-complete"
             decision = "local_complete_low_confidence" if low_confidence else "local_complete_answer"
         else:
-            # No rule matched AND no KB citations AND high confidence
-            # (rare; usually low_confidence would be True here and the
-            # branch above would have caught it). Fall back to the
-            # structured conservative answer for safety.
+            # No OOS AND no citations: high confidence with zero
+            # citations is rare (assess_out_of_scope would have caught
+            # the no-citations case). Conservative fallback.
             decision = "out_of_scope_local" if rule is None else "local_complete_low_confidence"
             answer = build_fallback_lab_answer(
                 question=question,
