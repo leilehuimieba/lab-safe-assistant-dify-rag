@@ -279,7 +279,16 @@ def chat(payload: ChatRequest) -> ChatResponse:
         if citations:
             answer = build_fast_path_answer(question, citations)
             model = "local-kb-complete"
+            decision = "local_complete_low_confidence" if low_confidence else "local_complete_answer"
         else:
+            # No rule matched AND no KB citations => out-of-scope.
+            # build_fallback_lab_answer now returns the OOS template; we tag
+            # the decision explicitly so logs and metrics can distinguish
+            # "made up a safety answer" from "polite decline".
+            if rule is None:
+                decision = "out_of_scope_local"
+            else:
+                decision = "local_complete_low_confidence"
             answer = build_fallback_lab_answer(
                 question=question,
                 citations=citations,
@@ -287,7 +296,6 @@ def chat(payload: ChatRequest) -> ChatResponse:
                 low_confidence_reason=low_reason or "no_kb_match",
             )
             model = "local-kb-conservative"
-        decision = "local_complete_low_confidence" if low_confidence else "local_complete_answer"
         if low_confidence:
             followup_logged = append_low_confidence_followup(
                 question=question,
@@ -386,7 +394,13 @@ def chat(payload: ChatRequest) -> ChatResponse:
         # 记录失败耗时（time-to-failure）——此前异常路径不给 upstream_ms 赋值，
         # 结果 upstream_ms 停在 0，误导性地看起来像“上游从未被调用”。
         timings["upstream_ms"] = round((time.perf_counter() - t_upstream) * 1000)
-        decision = "structured_fallback"
+        # Out-of-scope gets a dedicated decision tag so analytics and
+        # operator dashboards can filter "questions we should not have
+        # answered" vs "Dify broke" cleanly.
+        if rule is None and not citations:
+            decision = "out_of_scope_fallback"
+        else:
+            decision = "structured_fallback"
         detail = str(getattr(exc, "detail", "") or "")
         fallback_reason = _classify_dify_failure(detail)
         logger.warning(

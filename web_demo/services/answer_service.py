@@ -134,6 +134,41 @@ def format_citation_lines(citations: list[Citation], limit: int = 3) -> str:
     return "\n".join(f"- {item.kb_id}: {item.source_title or item.title or '-'}" for item in citations[:limit])
 
 
+def _build_refuse_fallback_answer(rule: dict[str, Any]) -> str:
+    """Return a refusal template honoring the matched rule's response.
+
+    Used as a safety net by build_fallback_lab_answer when a refuse-class
+    rule (self-harm, prompt injection, etc.) somehow reaches the fallback
+    path. The chat route normally intercepts these earlier, but we keep
+    this so a future refactor cannot accidentally soften the refusal.
+    """
+    response = str(rule.get("response") or "该问题不在本助手服务范围内,无法提供帮助。").strip()
+    return (
+        "结论:\n"
+        f"{response}\n"
+    )
+
+
+def _build_out_of_scope_answer(question: str) -> str:
+    """Return a polite out-of-scope template for unrelated questions.
+
+    Triggered when no safety rule matched and the local KB returned no
+    citations: a clear signal that the question is outside the lab safety
+    service. The original question is NOT echoed in the body to avoid
+    surface area for prompt injection or accidental amplification.
+    """
+    return (
+        "结论:\n"
+        "这个问题不在实验室安全助手的服务范围内,不会按安全场景作答。\n\n"
+        "我可以帮你处理以下问题:\n"
+        "1. 化学品安全:储存、使用、泄漏、废液、混合禁忌\n"
+        "2. 应急处置:火灾、触电、中毒、切割、辐射、液氮冻伤等\n"
+        "3. 个人防护与实验室日常规范:PPE、通风柜、准入、培训\n"
+        "4. 实验设备:通风柜、离心机、HPLC、液氮、马弗炉、气瓶等\n\n"
+        "如需其他领域(天气、娱乐、编程、日常咨询等)的帮助,请使用对应场景的工具或资源。"
+    )
+
+
 def _build_emergency_rule_answer(rule_id: str, response: str, citations: list[Citation]) -> str:
     # rule.response 只填入"结论"段；立即处理/禁止事项/应急升级为本函数硬编码模板。
     # 覆盖 R-008、R-011~R-022 及特殊金属火灾 R-026；其他规则走末尾通用兜底。
@@ -514,6 +549,22 @@ def build_fallback_lab_answer(
     rule: dict[str, Any] | None = None,
     low_confidence_reason: str = "",
 ) -> str:
+    # Short-circuit 1: refuse-class rule (e.g. R-006 self-harm, R-007 prompt
+    # injection) must never be silently overridden by a generic safety
+    # template, even when called from the fallback path. The chat route
+    # normally intercepts these via should_enforce_terminal_rule, but if a
+    # refactor ever routes them here, honor the refusal explicitly.
+    if rule is not None and str(rule.get("action") or "").strip() == "refuse":
+        return _build_refuse_fallback_answer(rule)
+
+    # Short-circuit 2: out-of-scope. If neither a rule matched nor any KB
+    # citation surfaced, the question is unrelated to laboratory safety.
+    # Returning a generic "按 SOP 处理" answer would look nonsensical to the
+    # user (e.g. "1+1=?" getting a four-section safety reply). Politely
+    # decline and describe the actual service scope instead.
+    if rule is None and not citations:
+        return _build_out_of_scope_answer(question)
+
     highest_risk = max(
         [int(float(item.risk_level)) for item in citations if str(item.risk_level).replace(".", "", 1).isdigit()] or [3]
     )
