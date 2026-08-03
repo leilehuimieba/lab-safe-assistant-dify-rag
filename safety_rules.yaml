@@ -100,7 +100,7 @@ rules:
   - id: R-008
     category: electrical_shock
     match_type: keywords
-    patterns: ["触电", "高压", "裸线", "电源短路"]
+    patterns: ["触电", "高压", "裸线", "电源短路", "电起火", "电气事故", "电击伤", "触电事故", "电弧"]
     action: redirect_emergency
     severity: high
     response: "若触电/电气事故：优先断电与隔离，按应急预案处理并联系实验室管理人员。"
@@ -127,7 +127,7 @@ rules:
   - id: R-011
     category: chemical_splash_skin
     match_type: keywords
-    patterns: ["溅到皮肤", "化学品溅到皮肤", "皮肤被腐蚀", "化学灼伤", "酸碱灼伤", "溅到手上", "浓酸溅到手上", "酸溅到手上", "手上被酸溅到"]
+    patterns: ["皮肤接触", "化学灼伤", "酸碱灼伤", "化学品溅到皮肤", "皮肤被腐蚀", "皮肤被酸", "皮肤被碱", "皮肤被硝酸", "皮肤被硫酸", "皮肤被盐酸", "皮肤被氢氟酸", "溅到皮肤", "溅到手上", "浓酸溅到手上", "酸溅到手上", "酸溅到手", "碱溅到手", "手上被酸溅到", "手上被碱溅到", "手被硝酸", "手被硫酸", "手被盐酸", "手被氢氟酸", "手被酸", "手被碱", "手被化学品", "氢氟酸", "HF"]
     action: redirect_emergency
     severity: high
     response: "若化学品溅到皮肤：立即用大量清水持续冲洗，尽快脱去被污染的衣物/手套，并联系实验室管理人员或就医。"
@@ -135,7 +135,7 @@ rules:
   - id: R-012
     category: chemical_splash_eye
     match_type: keywords
-    patterns: ["溅到眼睛", "眼睛被腐蚀", "化学品进眼", "眼部灼伤", "洗眼器"]
+    patterns: ["溅到眼睛", "眼睛溅入", "眼睛被溅入", "眼溅入", "溅入眼", "眼被溅", "眼被溅入", "眼睛被溅", "眼睛被溅到", "眼睛被酸溅到", "眼睛被碱溅到", "眼睛被酸溅入", "眼睛被碱溅入", "眼睛被酸溅", "眼睛被碱溅", "被溅到眼", "眼睛被腐蚀", "化学品进眼", "化学品入眼", "碱入眼", "酸入眼", "眼部灼伤", "洗眼器"]
     action: redirect_emergency
     severity: high
     response: "若化学品溅入眼睛：立即用洗眼器或大量清水持续冲洗，同时联系实验室管理人员并尽快就医。"
@@ -151,7 +151,7 @@ rules:
   - id: R-026
     category: reactive_metal_fire
     match_type: keywords
-    patterns: ["金属钠着火", "钠着火", "钾着火", "活泼金属着火", "金属火灾"]
+    patterns: ["金属钠", "金属钾", "钠金属", "钾金属", "活泼金属", "金属火灾", "钠燃烧", "钾燃烧", "钠烧", "钾烧"]
     action: redirect_emergency
     severity: critical
     response: "金属钠、钾等活泼金属着火属于特殊金属火灾：立即停止操作、隔离现场，优先使用适用的D类灭火剂或干燥砂土覆盖窒息；无法控制时立即撤离并报警。"
@@ -175,7 +175,7 @@ rules:
   - id: R-015
     category: chemical_spill
     match_type: keywords
-    patterns: ["洒漏", "打翻", "化学品泄漏", "溶液洒在地上", "溅洒", "洒在", "洒出", "泼洒", "溢出"]
+    patterns: ["洒漏", "打翻", "化学品泄漏", "化学泄漏", "溶液洒在地上", "溅洒", "洒在", "洒出", "泼洒", "溢出", "洒了", "倒出", "翻倒", "泄漏", "温度计", "温度计碎", "容器碎", "碎了", "瓶碎"]
     action: redirect_emergency
     severity: high
     response: "若发生化学品泄漏：隔离现场、避免接触和吸入，在安全前提下通风并使用泄漏应急物资处理，立即报告实验室管理人员。"
@@ -183,7 +183,7 @@ rules:
   - id: R-016
     category: ingestion
     match_type: keywords
-    patterns: ["误食", "误饮", "误喝", "吞咽", "喝到", "摄入", "中毒"]
+    patterns: ["误食", "误饮", "误喝", "吞咽", "吞了", "咽了", "喝到", "摄入", "中毒", "化学品进嘴", "化学品入口"]
     action: redirect_emergency
     severity: critical
     response: "若误食/误饮化学品：立即停止实验，漱口并尽快就医或联系急救，同时告知具体化学品名称与浓度。"
@@ -199,7 +199,7 @@ rules:
   - id: R-018
     category: burn
     match_type: keywords
-    patterns: ["烫伤", "烧伤", "灼伤", "热烫", "皮肤起泡"]
+    patterns: ["烫伤", "烧伤", "灼伤", "热烫", "烫起泡", "热起泡"]
     action: redirect_emergency
     severity: medium
     response: "若发生烫伤/灼伤：立即停止实验，用清水冷却并保护伤处，必要时就医。"
@@ -231,7 +231,7 @@ rules:
   - id: R-022
     category: cryogenic_injury
     match_type: keywords
-    patterns: ["液氮冻伤", "低温冻伤", "被液氮烫", "液氮溅到", "冻伤"]
+    patterns: ["液氮冻伤", "低温冻伤", "被液氮烫", "液氮溅到", "冻伤", "皮肤起泡"]
     action: redirect_emergency
     severity: high
     response: "低温冻伤处置：移除未粘连的受污染衣物，用不超过 40°C 的温水缓慢复温，禁止摩擦或揉搓并尽快就医。若在密闭空间发生大量液氮泄漏，立即撤离到安全通风区域。"
