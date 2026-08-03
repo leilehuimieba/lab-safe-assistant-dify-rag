@@ -46,7 +46,19 @@ async def lifespan(app: FastAPI):
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("application/javascript", ".mjs")
 
-app = FastAPI(title="Lab Safety Assistant - Dify RAG Project", lifespan=lifespan)
+import os  # 仅用于 ENABLE_API_DOCS 开关
+
+# 关闭 Swagger UI / ReDoc / openapi.json 公网暴露
+# 默认关闭；本地调试时可设 ENABLE_API_DOCS=1 临时打开
+_enable_api_docs = os.getenv("ENABLE_API_DOCS", "0").lower() in ("1", "true", "yes")
+
+app = FastAPI(
+    title="Lab Safety Assistant - Dify RAG Project",
+    lifespan=lifespan,
+    docs_url="/docs" if _enable_api_docs else None,
+    redoc_url="/redoc" if _enable_api_docs else None,
+    openapi_url="/openapi.json" if _enable_api_docs else None,
+)
 app.add_middleware(GZipMiddleware, minimum_size=1024)
 
 # 托管前端 React SPA 构建产物
