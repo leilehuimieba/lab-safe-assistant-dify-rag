@@ -1,5 +1,5 @@
 param(
-    [string]$BaseUrl = "http://127.0.0.1:8091",
+    [string]$BaseUrl = "http://127.0.0.1:8088",
     [string]$OutputDir = "",
     [string]$ReportLabel = "",
     [switch]$SkipDifyRecover,

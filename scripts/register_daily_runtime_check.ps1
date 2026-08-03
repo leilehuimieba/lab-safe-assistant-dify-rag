@@ -1,7 +1,7 @@
 param(
     [string]$TaskName = "LabSafeAssistant-DailyRuntimeCheck",
     [string]$RunTime = "08:30",
-    [string]$BaseUrl = "http://127.0.0.1:8091",
+    [string]$BaseUrl = "http://127.0.0.1:8088",
     [string]$PythonExe = "",
     [string]$ReportLabel = "latest",
     [int]$IntervalHours = 0

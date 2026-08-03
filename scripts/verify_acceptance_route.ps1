@@ -1,5 +1,5 @@
 param(
-    [string]$BaseUrl = "http://127.0.0.1:8091",
+    [string]$BaseUrl = "http://127.0.0.1:8088",
     [string]$EnvFile = "",
     [string]$DemoEnvFile = "",
     [string]$ProbeQuestion = "Please explain the difference between a laboratory SOP and SDS in one sentence.",
