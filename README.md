@@ -20,7 +20,7 @@
 
 ## 0.1 Claude/后续维护接手提示
 
-- 不依赖文档中的静态 Git 状态判断是否存在待提交内容；每次接手先运行 `git status --short`、`git branch --show-current` 和 `git log -1 --oneline`。2026-07-31 NRC 来源审计基线提交为 `cb6b592`，位于 `chore/source-audit-20260731` 分支，是否已继续提交或推送以实时命令结果为准。
+- 不依赖文档中的静态 Git 状态判断是否存在待提交内容；每次接手先运行 `git status --short`、`git branch --show-current` 和 `git log -1 --oneline`。2026-07-31 NRC 来源审计基线提交为 `cb6b592`，位于 `master` 分支，是否已继续提交或推送以实时命令结果为准。
 - 不要把 `docs/conclusion_private/` 内的结项报告、财务、签字和个人联系方式材料提交到 GitHub；该目录已被 `.gitignore` 忽略。
 - 当前结项报告最新私有版本为 `docs/conclusion_private/项目结题报告（简版）-龙华秋-送审底稿_20260731_v2.docx` 和同名 PDF；旧 `20260728` 版本可能仍被 WPS 打开，不要强制覆盖。
 - 若继续改知识库字段，必须保持 `libs/kb_schema.py` 的 `KB_HEADERS` 一致，并运行 `python scripts/quality_gate.py`。

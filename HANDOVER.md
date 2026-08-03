@@ -114,7 +114,7 @@ origin/master                   # 与本地 master 同步（截至 2026-05-28）
 origin/codex/proposal-alignment-round2-20260522
 ```
 
-**当前基线**：`origin/master` 包含 2026-07-28 的远程部署、高风险线上回归、运行快照回收、Dify SSE 性能取证与 SSE gzip 缓冲修复；NRC `ML20147A696` 来源替换与覆盖审计基线提交为 `cb6b592`，位于 `chore/source-audit-20260731`。后续是否存在未提交、未推送或未合并变更，必须以实时 Git 命令结果为准。
+**当前基线**：`origin/master` 包含 2026-07-28 的远程部署、高风险线上回归、运行快照回收、Dify SSE 性能取证与 SSE gzip 缓冲修复；NRC `ML20147A696` 来源替换与覆盖审计基线提交为 `cb6b592`，位于 `master`。后续是否存在未提交、未推送或未合并变更，必须以实时 Git 命令结果为准。
 
 > 隐私边界：结题报告送审稿、签字页、财务明细和个人联系方式仅存放在本地 `docs/conclusion_private/`（已忽略），不得提交到 GitHub。
 
