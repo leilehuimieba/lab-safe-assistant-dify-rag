@@ -23,6 +23,7 @@ from ..services import (
     build_fallback_lab_answer, resolve_dify_api_base, build_dify_proxy_auth,
     get_or_create, set_conversation_id, add_history, get_cached_answer, set_cached_answer,
     select_fast_path_citations, build_fast_path_answer, use_local_complete_response,
+    _build_out_of_scope_answer,
 )
 from ..services.auth_service import verify_password
 from ..services.kb_usage_service import record_kb_usage
@@ -276,19 +277,29 @@ def chat(payload: ChatRequest) -> ChatResponse:
     # LABSAFE_RESPONSE_MODE=dify when a generative answer is preferred over the
     # complete-response latency SLO.
     if use_local_complete_response():
-        if citations:
+        # Out-of-scope short-circuit: low confidence AND no rule hit.
+        # The KB retriever always returns a top-K list even for greetings,
+        # weather questions, cooking, etc., so the previous branch relied on
+        # `not citations` to detect OOS, which never fired. 83a0514 added the
+        # same guard inside build_fallback_lab_answer, but the
+        # `if citations:` branch below calls build_fast_path_answer and
+        # bypasses that path. Detect OOS here from the same low_confidence
+        # signal that already drives the followup log, and short-circuit to
+        # the polite decline template.
+        if low_confidence and rule is None:
+            decision = "out_of_scope_local"
+            answer = _build_out_of_scope_answer(question)
+            model = "local-kb-conservative"
+        elif citations:
             answer = build_fast_path_answer(question, citations)
             model = "local-kb-complete"
             decision = "local_complete_low_confidence" if low_confidence else "local_complete_answer"
         else:
-            # No rule matched AND no KB citations => out-of-scope.
-            # build_fallback_lab_answer now returns the OOS template; we tag
-            # the decision explicitly so logs and metrics can distinguish
-            # "made up a safety answer" from "polite decline".
-            if rule is None:
-                decision = "out_of_scope_local"
-            else:
-                decision = "local_complete_low_confidence"
+            # No rule matched AND no KB citations AND high confidence
+            # (rare; usually low_confidence would be True here and the
+            # branch above would have caught it). Fall back to the
+            # structured conservative answer for safety.
+            decision = "out_of_scope_local" if rule is None else "local_complete_low_confidence"
             answer = build_fallback_lab_answer(
                 question=question,
                 citations=citations,
