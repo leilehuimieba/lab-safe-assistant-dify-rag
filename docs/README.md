@@ -57,7 +57,7 @@ powershell -ExecutionPolicy Bypass -File scripts/verify_acceptance_route.ps1
 ## 2. 当前口径摘要
 
 - **工程主体**：已完成本地问答演示、知识检索、安全规则、高风险拦截、Dify 代理、评测和申报材料主体。
-- **数据规模**：`knowledge_base_curated.csv` 当前为 **3009** 行，本地结构化知识规模已达到立项书“3000+”门槛。
+- **数据规模**：`knowledge_base_curated.csv` 当前为 **3009** 行，达到立项书 3000+ 知识库门槛。
 - **平台侧证明**：Dify `8081` 已恢复；已新建正式 Dataset `实验室安全知识库-3009正式版` 并成功导入 **3009** 条；两个 Dify App 已切换到该数据集；旧 `398` 主集和 `3164` chunk 集保留为历史资产。
 - **运行态复核**：本地 Demo `8091` 健康检查通过，`/api/meta` 已显示 `knowledge_base_imported=3009`；普通问答回到 `dify-workflow`，高风险问题仍由规则链 `rule-engine` 兜底。
 - **效果指标**：50 题人工评分中，有效回答率（≥2分）`100%`，完全正确率（3分）`82%`；申报书对齐 30 题回归第二轮终态达到 `30/30` 成功，平均耗时 `90ms`、中位 `87ms`、最大 `160ms`。
