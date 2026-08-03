@@ -4,9 +4,9 @@ updated_at: 2026-07-01
 # 说明：
 # - 每条 rule.response 会被代码填入"结论"段；rich 结构化模板（立即处理/禁止事项/应急升级）
 #   由 web_demo/services/answer_service.py::_build_emergency_rule_answer 硬编码提供，
-#   目前覆盖 R-011~R-020（应急类）。修改 rule.response 只影响结论段。
+#   目前覆盖 R-008, R-011~R-022, R-026, R-027, R-028, R-029（应急类与重点专项）。修改 rule.response 只影响结论段。
 # - enforcement: always 表示该规则命中即拒绝，不再要求用户输入包含违规意图关键词；
-#   为空则退化为"关键词+意图双匹配"。此字段由 kb_service.rule_terminal_action_ok 读取。
+#   为空则退化为"关键词+意图双匹配"。此字段由 kb_service.should_enforce_terminal_rule 读取。
 
 global_policy:
   default_action: safe_answer

@@ -43,8 +43,8 @@
 ### 2.5 安全规则引擎
 
 - `safety_rules.yaml` 中的 `rule.response` 只影响**结论段**。
-- `R-011~R-020`（应急类）的“立即处理/禁止事项/应急升级”结构在 `answer_service.py::_build_emergency_rule_answer` 中硬编码。修改 yaml 不会自动改变这三段，需要同步修改代码或 yaml 的 `response`（结论段）。
-- 新增应急规则时，如果 rule_id 不在 `R-011~R-020` 范围内，会走通用兜底模板，不是硬编码的详细模板。
+- 应急类与重点专项的"立即处理/禁止事项/应急升级"结构在 `answer_service.py::_build_emergency_rule_answer` 与 `build_rule_answer` 头部特判中硬编码，覆盖 `R-008, R-011~R-022, R-026, R-027, R-028, R-029` 共 17 条（其中 R-027/R-028/R-029 为 `direct_safe_answer` 但有专用模板）。修改 yaml 不会自动改变这三段，需要同步修改代码或 yaml 的 `response`（结论段）。
+- 新增应急规则时，如果 rule_id 不在上述 17 条范围内，会走通用兜底模板，不是硬编码的详细模板。
 
 ---
 
