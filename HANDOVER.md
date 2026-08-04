@@ -322,7 +322,7 @@ python scripts/release/import_csv_to_dify_dataset.py `
 | 冒烟测试 | — | 通过 | `docs/eval/dify_rag_smoke_test_20260428.md` |
 | 正式评测 | 20 | 20/20 HTTP 成功，20/20 有引用 | `docs/eval/eval_20_20260428.md` |
 | 扩展评测 | 50 | 人工评分 | `docs/eval/eval_50_human_scored.md` |
-| 用户试用 | — | 有记录 | `docs/eval/user_trial_report.md` |
+| 用户试用 | — | **未开展**：`user_trial_report.md` 是空白模板，日期、周期、结论均为待填字段 | 模板 `docs/eval/user_trial_report.md`；试用协议 `docs/ops/用户试用说明.md` |
 
 ### 8.2 运行评测
 
