@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-03",
+  "targets": 31,
+  "downloaded": 31,
+  "direct_original": 31,
+  "archive_replay": 0,
+  "failed": 0,
+  "row_count_covered": 727,
+  "pdf_pages_total": 1424,
+  "passes": [
+    {
+      "pass": 1,
+      "downloaded": 18,
+      "note": "Invoke-WebRequest: 9 Yale legacy URLs returned HTML, 4 NIH timed out"
+    },
+    {
+      "pass": 2,
+      "downloaded": 13,
+      "note": "curl: Yale legacy /sites/default/files/files/*.pdf 301-redirect to a Drupal 10 /resource/<slug> landing page whose Download link is /resource/download/<id>; NIH BMBL6 completed via HTTP range resume after a truncated first body"
+    }
+  ],
+  "manifest": "artifacts\\pdf_source_backups_20260803\\pdf_backup_manifest_20260803_final.csv",
+  "files_dir": "artifacts\\pdf_source_backups_20260803\\files"
+}

@@ -1,5 +1,7 @@
 # 剩余 40 个 PDF 原件补档重试（2026-07-28）
 
+> **本文只记录当日早些时候的直连重试轮，结论已被同日后续轮次取代。** 当天稍后的 Wayback 重放/机构镜像轮实际取回 39/40，仅 NRC `ML20147A696` 未取回，覆盖口径随之由 111/151 变为 150/151（见 `artifacts/pdf_source_backups_20260728/pdf_backup_summary_20260728.json` 与 `docs/eval/source_backup_coverage_20260728.md`）。单独引用本文的"新增 0、仍缺 40"会得出过时结论。
+
 - 输入：2026-07-25 覆盖审计中仍缺本地原件的 40 个 PDF 来源。
 - 执行：逐 URL 尝试 HTTPS/HTTP、小范围 URL 编码变体、两种 User-Agent 和 PowerShell 回退；所有成功候选必须通过 `%PDF-` 文件头校验后才能收录。
 - 结果：尝试 40，新增有效 PDF 0，失败 40。
