@@ -341,5 +341,115 @@ class CryogenicOverpressureTests(unittest.TestCase):
         self.assertNotEqual("R-031", (rule or {}).get("id"))
 
 
+class CasualtyFallbackTests(unittest.TestCase):
+    """R-032 + has_casualty_report：任何"已经有人受伤"的问句都不得被婉拒。
+
+    2026-08-04 的对抗扫描（scripts/scan_casualty_refusals.py）在 66 条伤亡
+    问句里发现 17 条被判"不在服务范围内"。这些断言把当时的漏洞钉住。
+    """
+
+    # 扫描里落到 [1] 被判超出服务范围的代表性问句，以及几条既没有专项规则
+    # 也没有检索命中的"空格子"。
+    #
+    # 这里只收"伤害状态写在字面上"的问句。像"同事碰到裸线弹开了"这种要靠常识
+    # 推断才知道有人受伤的说法，本层不承诺接住：它仍命中 R-008 并走上游生成，
+    # 不会被婉拒，但不是终止规则。刻意不为这类说法继续堆关键词。
+    CASUALTY_QUESTIONS = [
+        "同学倒在地上没反应",
+        "同事昏迷不醒",
+        "有人口吐白沫",
+        "同学手指被切断了",
+        "手被离心机夹住了",
+        "同学的手套被搅拌桨卷进去了",
+        "同学从梯子上摔下来了",
+        "有人被货架砸到",
+        "钢瓶倒了砸到人的脚",
+        "被实验动物咬伤了",
+        "伤口一直止不住血",
+        "玻璃碎片扎进手里拔不出来",
+        "手被液氮管路粘住了",
+    ]
+
+    def test_rule_patterns_match_casualty_marker_list_exactly(self) -> None:
+        """R-032 的 patterns 与 CASUALTY_INTENT_MARKERS 必须逐字一致。
+
+        两处分别驱动"规则命中"和"不得判超范围"，任何一边漏改都会造成
+        某类伤亡问句只被半边逻辑接住，而这种漂移不会有任何报错。
+        """
+        from web_demo.repositories import CASUALTY_INTENT_MARKERS, get_rules_config
+
+        rules = get_rules_config().get("rules") or []
+        r032 = next((r for r in rules if r.get("id") == "R-032"), None)
+        self.assertIsNotNone(r032, "safety_rules.yaml 缺少 R-032 兜底规则")
+        self.assertEqual(list(CASUALTY_INTENT_MARKERS), list(r032["patterns"]))
+
+    def test_every_casualty_question_matches_a_terminal_emergency_rule(self) -> None:
+        from web_demo.services.kb_service import should_enforce_terminal_rule
+
+        for question in self.CASUALTY_QUESTIONS:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                self.assertIsNotNone(rule, "没有任何安全规则接住这条伤亡问句")
+                self.assertEqual("redirect_emergency", rule["action"])
+                self.assertTrue(should_enforce_terminal_rule(question, rule))
+
+    def test_no_casualty_question_is_declined_as_out_of_scope(self) -> None:
+        from web_demo.services.answer_service import assess_out_of_scope
+        from web_demo.services.kb_service import retrieve_citations
+
+        for question in self.CASUALTY_QUESTIONS:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                is_oos, reason = assess_out_of_scope(rule, retrieve_citations(question), question)
+                self.assertFalse(is_oos, reason)
+
+    def test_casualty_veto_holds_even_without_a_rule_or_citation(self) -> None:
+        """一票否决不依赖规则表：即使 rule/citations 全空也不得判超范围。"""
+        from web_demo.services.answer_service import assess_out_of_scope
+
+        is_oos, reason = assess_out_of_scope(None, [], "同事昏迷不醒")
+        self.assertFalse(is_oos)
+        self.assertEqual("casualty_report_never_out_of_scope", reason)
+
+    def test_upstream_failure_fallback_never_declines_a_casualty_report(self) -> None:
+        """上游挂掉时的最后一道输出同样受一票否决保护。"""
+        from web_demo.services.answer_service import build_fallback_lab_answer
+
+        answer = build_fallback_lab_answer(question="同事昏迷不醒", citations=[], rule=None)
+        self.assertNotIn("不在实验室安全助手的服务范围", answer)
+        self.assertIn("心肺复苏", answer)
+
+    def test_specific_rules_still_outrank_the_casualty_fallback(self) -> None:
+        """R-032 severity 取 low，任何意图对齐的专项规则都应压过它。"""
+        for question, expected in [
+            ("同学触电倒地了怎么办", "R-008"),
+            ("手被加热板烫伤起泡怎么办", "R-018"),
+            ("同学倒在地上没反应", "R-030"),
+            ("实验室起火有人昏倒", "R-013"),
+            ("液氮罐压力异常升高", "R-031"),
+        ]:
+            with self.subTest(question=question):
+                self.assertEqual(expected, (match_rule(question) or {}).get("id"))
+
+    def test_hazard_knowledge_questions_are_not_treated_as_incidents(self) -> None:
+        """裸的危害名词不进 CASUALTY_INTENT_MARKERS，知识提问不应被当成事故。"""
+        from web_demo.repositories import has_casualty_report
+
+        for question in [
+            "烫伤应该怎么预防",
+            "实验室常见的化学灼伤类型有哪些",
+            "电击急救与心肺复苏(CPR)程序应如何安全操作？",
+        ]:
+            with self.subTest(question=question):
+                self.assertFalse(has_casualty_report(question))
+
+    def test_casualty_fallback_template_asks_for_the_missing_details(self) -> None:
+        answer = build_rule_answer(match_rule("手被离心机夹住了"), [])
+
+        self.assertIn("先确认现场安全", answer)
+        self.assertIn("请补充伤害类型", answer)
+        self.assertIn("禁止在未确认现场安全时冲入救人", answer)
+
+
 if __name__ == "__main__":
     unittest.main()

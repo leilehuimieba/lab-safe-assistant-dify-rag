@@ -18,6 +18,7 @@ from ..repositories import (
     TERMINAL_ACTIONS,
     REFUSE_INTENT_MARKERS,
     EMERGENCY_INTENT_MARKERS,
+    has_casualty_report,
     normalize_search_text,
     extract_tokens,
     get_kb_entries,
@@ -215,7 +216,9 @@ def retrieve_citations(question: str, top_k: int = DEFAULT_TOP_K) -> list[Citati
 
 def match_rule(question: str) -> dict[str, Any] | None:
     q = normalize_search_text(question)
-    has_emergency_intent = any(marker in q for marker in EMERGENCY_INTENT_MARKERS)
+    has_emergency_intent = any(
+        marker in q for marker in EMERGENCY_INTENT_MARKERS
+    ) or has_casualty_report(question)
     has_refuse_intent = any(marker in q for marker in REFUSE_INTENT_MARKERS)
     best: dict[str, Any] | None = None
     for order, rule in enumerate(get_rules_config().get("rules") or []):
@@ -309,7 +312,7 @@ def should_enforce_terminal_rule(question: str, rule: dict[str, Any] | None) -> 
         # 本身就是事故陈述、却不含"怎么办"的输入。
         if str(rule.get("enforcement") or "").strip().lower() == "always":
             return True
-        return any(marker in q for marker in EMERGENCY_INTENT_MARKERS)
+        return any(marker in q for marker in EMERGENCY_INTENT_MARKERS) or has_casualty_report(question)
 
     return False
 

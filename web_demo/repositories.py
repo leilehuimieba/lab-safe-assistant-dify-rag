@@ -62,6 +62,50 @@ REFUSE_INTENT_MARKERS = [
 EMERGENCY_INTENT_MARKERS = [
     "怎么办", "怎么处理", "如何处理", "第一步", "应急", "事故", "紧急", "受伤", "泄漏", "起火", "着火", "冒烟", "暴露",
 ]
+# 人员伤害信号：句子本身就在报告"有人已经受伤/失去反应"，而不是在询问某类
+# 危害。EMERGENCY_INTENT_MARKERS 全部是疑问式或危害名词，陈述句报事故
+# （"同事昏迷不醒"、"有人被货架砸到"）一个都不含，于是被判成非应急意图，
+# 进而落到"这个问题不在服务范围内"的婉拒模板——2026-08-04 的对抗扫描里
+# 66 条伤亡问句有 17 条如此。本表只收"已发生的人身伤害/失能状态"，不收
+# 裸的危害名词（"烫伤"、"中毒"），否则"烫伤怎么预防"这类知识提问会被按
+# 事故作答。改动本表后必须重跑 scripts/scan_casualty_refusals.py 和全量
+# match_rule 对比。
+#
+# 【同步要求】safety_rules.yaml 的 R-032 兜底规则 patterns 必须与本表逐字
+# 一致，由 tests/test_emergency_rules.py 断言，避免两处漂移。
+CASUALTY_INTENT_MARKERS = [
+    # 意识/呼吸/心跳
+    "昏迷", "晕倒", "昏倒", "不省人事", "失去意识", "意识不清", "意识丧失",
+    "叫不醒", "喊不醒", "没回应", "没有回应", "没反应", "没有反应", "无反应",
+    "瘫倒", "倒地不起", "没有呼吸", "呼吸停止", "心跳停", "抽搐", "口吐白沫",
+    "脸色发紫", "喘不上气", "眼前发黑", "休克",
+    # 出血与锐器外伤
+    "出血", "流血", "止不住血", "割到", "划破", "划开", "扎到", "扎进", "扎了",
+    "刺伤", "咬伤", "拔不出来", "断指", "被切断",
+    # 坠落/挤压/机械
+    "摔下来", "摔下去", "摔倒", "跌倒", "砸到", "被砸", "撞到头", "夹伤",
+    "夹住", "卷进", "卷入", "卷住", "压伤", "挤伤", "被打到",
+    # 电、热、低温
+    "电到", "烫到", "粘住",
+    # 人体接触式喷溅（限定在身体部位上，"溅到台面/地上"属泄漏而非人身伤害）
+    "溅到脸", "溅到手", "溅到眼", "溅到皮肤", "溅到身上",
+    # 送医信号
+    "送医", "救护车", "有人受伤", "人受伤",
+]
+
+
+def has_casualty_report(question: str) -> bool:
+    """True when the question reports a person already hurt or unresponsive.
+
+    Lives here rather than in a service because both the rule layer
+    (``kb_service.match_rule`` / ``should_enforce_terminal_rule``) and the
+    scope guard (``answer_service.assess_out_of_scope``) need the same answer,
+    and neither service imports the other.
+    """
+    q = normalize_search_text(question)
+    return any(marker in q for marker in CASUALTY_INTENT_MARKERS)
+
+
 RISK_LABEL = {1: "Low", 2: "Medium-Low", 3: "Medium", 4: "High", 5: "Critical"}
 
 QUEUE_HEADERS = [

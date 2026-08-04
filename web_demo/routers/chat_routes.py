@@ -289,7 +289,11 @@ def chat(payload: ChatRequest) -> ChatResponse:
         # "unrelated" (< 8.0) at the corpus's natural gap, and keeps
         # the polite-decline template on the same path as 83a0514's
         # build_fallback_lab_answer OOS guard.
-        is_oos, oos_reason = assess_out_of_scope(rule, citations)
+        #
+        # question 必须传入：assess_out_of_scope 用它做人员伤亡一票否决
+        # （has_casualty_report），漏传会让"同事昏迷不醒"这类问句重新落回
+        # 婉拒模板，而单测未必覆盖到真实路由路径。
+        is_oos, oos_reason = assess_out_of_scope(rule, citations, question)
         if is_oos:
             decision = "out_of_scope_local"
             answer = _build_out_of_scope_answer(question)

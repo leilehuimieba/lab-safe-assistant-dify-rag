@@ -22,9 +22,11 @@ from ..repositories import (
     DEFAULT_LOW_CONFIDENCE_TOP_SCORE,
     DEFAULT_OOS_TOP_SCORE_THRESHOLD,
     RISK_LABEL,
+    get_rules_config,
     QUEUE_HEADERS,
     LOW_CONFIDENCE_QUEUE_FILE,
     normalize_search_text,
+    has_casualty_report,
     safe_read_csv_rows,
     write_csv_row,
     _QUEUE_LOCK,
@@ -42,6 +44,7 @@ def assess_low_confidence(citations: list[Citation]) -> tuple[bool, str]:
 def assess_out_of_scope(
     rule: dict[str, Any] | None,
     citations: list[Citation],
+    question: str = "",
 ) -> tuple[bool, str]:
     """Out-of-scope guard for the local-complete response path.
 
@@ -57,10 +60,21 @@ def assess_out_of_scope(
     This function uses a stricter OOS threshold (default 8.0) so only
     clearly irrelevant questions are politely declined. The signal is:
     - rule is None (no safety rule matched)
+    - AND the question reports no human casualty
     - AND (no citations OR top1.score < OOS_TOP_SCORE_THRESHOLD)
+
+    The casualty veto is asymmetric on purpose. Mis-refusing "怎么做番茄炒蛋"
+    costs nothing; mis-refusing "同事昏迷不醒" is the worst output this system
+    can produce, and a single BM25 threshold cannot tell them apart — "有人口吐
+    白沫" scores 2.3 because the curated KB has no entry phrased that way, not
+    because it is off-topic. So a reported casualty can never be declined for
+    scope, regardless of retrieval score; the worst case is an on-topic answer
+    to a question that only looked like an incident.
     """
     if rule is not None:
         return False, ""
+    if question and has_casualty_report(question):
+        return False, "casualty_report_never_out_of_scope"
     if not citations:
         return True, "no_citations"
     threshold = float(os.getenv("OOS_TOP_SCORE_THRESHOLD", str(DEFAULT_OOS_TOP_SCORE_THRESHOLD)))
@@ -200,9 +214,29 @@ def _build_out_of_scope_answer(question: str) -> str:
     )
 
 
+CASUALTY_FALLBACK_RESPONSE = (
+    "已经有人受伤时，先保证施救者自身安全，再呼救、拨打急救并按伤情类型处置。"
+)
+
+
+def _build_casualty_fallback_answer(citations: list[Citation]) -> str:
+    """R-032 的模板，供"连规则都没匹配上"的兜底路径复用。
+
+    结论段优先取 safety_rules.yaml 里 R-032 的 response，避免同一句话写两遍
+    以后各改各的；YAML 读不到时退回本文件的常量。
+    """
+    response = CASUALTY_FALLBACK_RESPONSE
+    for rule in get_rules_config().get("rules") or []:
+        if isinstance(rule, dict) and str(rule.get("id") or "").strip() == "R-032":
+            response = str(rule.get("response") or "").strip() or response
+            break
+    return _build_emergency_rule_answer("R-032", response, citations)
+
+
 def _build_emergency_rule_answer(rule_id: str, response: str, citations: list[Citation]) -> str:
     # rule.response 只填入"结论"段；立即处理/禁止事项/应急升级为本函数硬编码模板。
-    # 覆盖 R-008、R-011~R-022、特殊金属火灾 R-026、人员失去反应 R-030 和低温容器超压 R-031；其他规则走末尾通用兜底。
+    # 覆盖 R-008、R-011~R-022、特殊金属火灾 R-026、人员失去反应 R-030、低温容器超压 R-031
+    # 和人员伤害兜底 R-032；其他规则走末尾通用兜底。
     if rule_id == "R-008":
         return (
             "结论:\n"
@@ -498,6 +532,31 @@ def _build_emergency_rule_answer(rule_id: str, response: str, citations: list[Ci
             "参考依据:\n"
             f"{format_citation_lines(citations)}"
         )
+    if rule_id == "R-032":
+        # 兜底模板：走到这里说明没有任何专项规则接住这条伤亡报告，问句里的
+        # 伤情细节我们并不知道，所以只给"任何伤害都适用"的通用急救骨架，
+        # 并明确要求补充信息，不臆造具体伤情的处置动作。
+        return (
+            "结论:\n"
+            f"{response}\n\n"
+            "立即处理:\n"
+            "1. 先确认现场安全再靠近：排除带电、缺氧、火源、高温和化学品泄漏；无法确认时在门外呼救，不要独自进入。\n"
+            "2. 大声呼救并指定具体的人拨打急救电话，同时通知实验室负责人和 EHS。\n"
+            "3. 判断伤者是否有反应和正常呼吸：无反应且无正常呼吸时由受训人员立即实施心肺复苏并取用 AED。\n"
+            "4. 有明显出血时用干净敷料直接加压止血；疑似骨折、头颈部受伤时保持原位不要搬动。\n"
+            "5. 化学品或高温接触部位用大量清水持续冲洗，并保留化学品名称、浓度和 SDS 交给医护人员。\n"
+            "6. 保护现场、记录发生经过和时间，按本单位事故报告流程上报。\n\n"
+            "禁止事项:\n"
+            "- 禁止在未确认现场安全时冲入救人，避免自己成为第二名伤者。\n"
+            "- 禁止让伤者独自留在现场或自行离开去就医。\n"
+            "- 禁止给意识不清者喂水、喂药或催吐。\n"
+            "- 禁止因为伤者看起来还好就跳过就医评估和事故上报。\n\n"
+            "应急升级:\n"
+            "- 出现意识丧失、呼吸困难、大出血、大面积烧伤或多人同时受伤时，立即拨打急救并启动应急预案。\n"
+            "- 请补充伤害类型（触电／灼伤／割伤／中毒／坠落等）、涉及的化学品或设备和伤者当前状态，以便给出对应的专项处置。\n\n"
+            "参考依据:\n"
+            f"{format_citation_lines(citations)}"
+        )
     return (
         "结论:\n"
         f"{response}\n\n"
@@ -635,7 +694,14 @@ def build_fallback_lab_answer(
     # Returning a generic "按 SOP 处理" answer would look nonsensical to the
     # user (e.g. "1+1=?" getting a four-section safety reply). Politely
     # decline and describe the actual service scope instead.
+    #
+    # 与 assess_out_of_scope 同样的人员伤亡一票否决：R-032 兜底规则理应让
+    # 伤亡问句永远带着 rule 进来，但这里是上游挂掉时的最后一道输出，不能
+    # 依赖"规则表关键词够全"。宁可给一份通用急救骨架，也不能对"同事昏迷
+    # 不醒"回一句"不在服务范围内"。
     if rule is None and not citations:
+        if has_casualty_report(question):
+            return _build_casualty_fallback_answer(citations)
         return _build_out_of_scope_answer(question)
 
     highest_risk = max(
