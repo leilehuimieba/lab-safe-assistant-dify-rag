@@ -224,23 +224,53 @@ def match_rule(question: str) -> dict[str, Any] | None:
         severity = str(rule.get("severity") or "low").lower()
         action = str(rule.get("action") or "safe_answer")
         enforcement = str(rule.get("enforcement") or "")
-        # 同一严重度下，优先选择与用户当前意图一致的规则。否则像“乙醚泄漏后
-        # 头晕怎么办”会因为 R-002 在 YAML 中排得更早而落到“禁止明火加热”，
-        # 压过真正需要的泄漏/吸入应急规则。
+        # 同一严重度下，优先选择与用户当前意图一致的规则。
+        # 1) action 跟用户当前意图对齐时给正分（3/2/1），让它们胜过同 severity
+        #    的“沉默候选”。
+        # 2) action 跟用户当前意图不对齐时给负分（-1），让
+        #    ``direct_safe_answer`` / ``ask_for_more_info`` 等更贴合的规则
+        #    能压过它。例如：query 是“钠金属应该如何安全储存？”没有
+        #    ``EMERGENCY_INTENT_MARKERS``，R-026（redirect_emergency, critical）
+        #    不该压过 R-027（direct_safe_answer, high）这条专门的 storage
+        #    规则；再如 R-002（refuse）只在用户有“可以吗/能不能”等 refuse
+        #    意图或 enforcement=always 时才该压过其它候选。
+        # 否则像“乙醚泄漏后头晕怎么办”会因为 R-002 在 YAML 中排得更早而
+        # 落到“禁止明火加热”，压过真正需要的泄漏/吸入应急规则。
         intent_priority = 0
-        if action == "redirect_emergency" and has_emergency_intent:
-            intent_priority = 3
-        elif action == "refuse" and (has_refuse_intent or enforcement.strip().lower() == "always"):
-            intent_priority = 2
+        if action == "redirect_emergency":
+            intent_priority = 3 if has_emergency_intent else -1
+        elif action == "refuse":
+            if has_refuse_intent or enforcement.strip().lower() == "always":
+                intent_priority = 2
+            else:
+                intent_priority = -1
         elif action in {"ask_for_more_info", "direct_safe_answer"}:
             intent_priority = 1
+        # intent_alignment 作为排序元组的第一维：当 action 跟用户当前意图
+        # 不对齐（如 redirect_emergency 没有 emergency marker、refuse 没有
+        # refuse marker 且 enforcement 不是 always）时降到 0；否则 1。这一
+        # 维的优先级高于 severity，专门防止“高 severity 但 action 错配”的
+        # 规则压过“低 severity 但 action 贴切”的规则，例如 R-026（critical,
+        # redirect_emergency）在 storage query 里压过 R-027（high,
+        # direct_safe_answer）。
+        intent_alignment = 1
+        if action == "redirect_emergency" and not has_emergency_intent:
+            intent_alignment = 0
+        elif action == "refuse" and not (has_refuse_intent or enforcement.strip().lower() == "always"):
+            intent_alignment = 0
         candidate = {
             "id": str(rule.get("id") or ""),
             "action": action,
             "severity": severity,
             "response": str(rule.get("response") or ""),
             "enforcement": enforcement,
-            "score": (SEVERITY_SCORE.get(severity, 1), intent_priority, len(hits), -order),
+            "score": (
+                intent_alignment,
+                SEVERITY_SCORE.get(severity, 1),
+                intent_priority,
+                len(hits),
+                -order,
+            ),
         }
         if best is None or candidate["score"] > best["score"]:
             best = candidate
@@ -286,3 +316,4 @@ def should_force_more_info(question: str, rule: dict[str, Any] | None = None) ->
         return True
 
     return False
+
