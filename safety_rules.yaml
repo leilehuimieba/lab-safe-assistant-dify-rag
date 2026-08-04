@@ -4,9 +4,11 @@ updated_at: 2026-07-01
 # 说明：
 # - 每条 rule.response 会被代码填入"结论"段；rich 结构化模板（立即处理/禁止事项/应急升级）
 #   由 web_demo/services/answer_service.py::_build_emergency_rule_answer 硬编码提供，
-#   目前覆盖 R-008, R-011~R-022, R-026, R-027, R-028, R-029（应急类与重点专项）。修改 rule.response 只影响结论段。
-# - enforcement: always 表示该规则命中即拒绝，不再要求用户输入包含违规意图关键词；
-#   为空则退化为"关键词+意图双匹配"。此字段由 kb_service.should_enforce_terminal_rule 读取。
+#   目前覆盖 R-008, R-011~R-022, R-026, R-027, R-028, R-029, R-030, R-031（应急类与重点专项）。修改 rule.response 只影响结论段。
+# - enforcement: always 表示该规则命中即触发，不再要求用户输入包含意图关键词；
+#   为空则退化为"关键词+意图双匹配"。对 refuse 类是"命中即拒绝"，对
+#   redirect_emergency 类是"命中即按应急处置"（用于 patterns 本身即事故陈述的规则）。
+#   此字段由 kb_service.match_rule 与 should_enforce_terminal_rule 共同读取。
 
 global_policy:
   default_action: safe_answer
@@ -253,3 +255,33 @@ rules:
     enforcement: always
     severity: high
     response: "有压力时严禁强制开门！灭菌结束后须慢速放汽，等压力归零、温度降至安全值后，人站在两侧才能缓慢开盖。"
+
+  # R-030/R-031 使用 enforcement: always。它们的 patterns 本身就是事故陈述
+  # （"昏迷"、"液氮罐压力异常"），用户不写"怎么办"也是在报事故，不应因缺少
+  # 意图关键词而被判成非应急输入。
+  - id: R-030
+    category: unresponsive_person
+    match_type: keywords
+    # 只收"人失去反应/意识"的表述：
+    # - 不收单独的"倒地"——"同学触电倒地"应继续由 R-008 处置（先断电再接触），
+    #   避免抢走触电专项的首要指令；
+    # - 不收"心肺复苏"这类操作名——"CPR 程序应如何操作"是培训问题而非事故报告，
+    #   真实事故的问句本身就含"没有呼吸/没反应"；
+    # - 不收"无意识"——它在中文里也作副词用（"无意识地碰到"），改用
+    #   "失去意识/意识不清/意识丧失"覆盖同一状态。
+    patterns: ["昏迷", "晕倒", "昏倒", "不省人事", "失去意识", "意识不清", "意识丧失", "叫不醒", "喊不醒", "倒地不起", "倒在地上没反应", "人没反应", "没有呼吸", "呼吸停止", "心跳停止", "没有心跳", "抽搐"]
+    action: redirect_emergency
+    enforcement: always
+    severity: critical
+    response: "有人失去反应或意识属于最高优先级医疗应急：先确认现场无带电、缺氧、火源或化学品泄漏等致命危险，再呼救、拨打急救并检查反应与呼吸；无反应且无正常呼吸时由受训人员立即实施心肺复苏并使用 AED。"
+
+  - id: R-031
+    category: cryogenic_overpressure
+    match_type: keywords
+    # 限定在低温容器上，不使用泛化的"压力异常"——灭菌锅、微波消解等压力
+    # 场景各有专项规则和处置方式。
+    patterns: ["液氮罐压力", "液氮压力", "液氮超压", "液氮罐超压", "杜瓦瓶压力", "杜瓦瓶超压", "杜瓦瓶安全阀", "液氮罐安全阀", "低温储罐压力", "液氮罐泄压", "液氮罐鼓包", "液氮罐变形", "液氮罐冒白雾", "安全阀起跳", "安全阀持续排放"]
+    action: redirect_emergency
+    enforcement: always
+    severity: high
+    response: "低温容器压力异常升高或安全阀持续起跳，说明内压正在失控：立即停止取用和转注、人员撤离到远离罐体和泄放方向的位置，通知设备管理人员与EHS，由受训人员按厂家程序处置；同时按低温液体大量汽化的缺氧风险开门通风撤离。"

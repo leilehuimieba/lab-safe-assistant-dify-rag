@@ -214,5 +214,132 @@ class IntentAlignmentTests(unittest.TestCase):
         self.assertEqual("always", rule.get("enforcement"))
 
 
+class UnresponsivePersonTests(unittest.TestCase):
+    """R-030：人员失去反应/意识。
+
+    在加入 R-030 之前，"同学倒在地上没反应"匹配不到任何规则，检索 top1 只有
+    7.1 分（低于 8.0 的 OOS 阈值），最终走到"这个问题不在服务范围内"的婉拒
+    模板——这是本系统能给出的最坏回答。这组用例钉住：这类输入必须命中应急
+    规则、必须触发终止动作、且不得再被判为超出服务范围。
+    """
+
+    UNRESPONSIVE_QUESTIONS = [
+        "同学倒在地上没反应",
+        "同事昏迷不醒",
+        "有人晕倒了怎么办",
+        "同学突然摔倒不省人事",
+        "有人失去意识",
+        "他没有呼吸了",
+    ]
+
+    def test_unresponsive_person_always_reaches_the_medical_emergency_rule(self) -> None:
+        for question in self.UNRESPONSIVE_QUESTIONS:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                self.assertIsNotNone(rule)
+                self.assertEqual("R-030", rule["id"])
+                self.assertEqual("redirect_emergency", rule["action"])
+                self.assertEqual("critical", rule["severity"])
+
+    def test_unresponsive_person_is_terminal_without_an_interrogative_marker(self) -> None:
+        """陈述句报事故（无"怎么办"）也必须按应急终止处置。
+
+        `should_enforce_terminal_rule` 原本要求问句里另有
+        `EMERGENCY_INTENT_MARKERS`；R-030 用 ``enforcement: always`` 豁免，
+        因为它的 patterns 本身就是事故陈述。
+        """
+        from web_demo.services.kb_service import should_enforce_terminal_rule
+
+        for question in ["同学倒在地上没反应", "同事昏迷不醒"]:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                self.assertTrue(should_enforce_terminal_rule(question, rule))
+
+    def test_unresponsive_person_is_never_answered_as_out_of_scope(self) -> None:
+        from web_demo.services.answer_service import assess_out_of_scope
+        from web_demo.services.kb_service import retrieve_citations
+
+        for question in self.UNRESPONSIVE_QUESTIONS:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                is_oos, reason = assess_out_of_scope(rule, retrieve_citations(question))
+                self.assertFalse(is_oos, reason)
+
+    def test_unresponsive_template_puts_scene_safety_before_rescue(self) -> None:
+        answer = build_rule_answer(match_rule("同学倒在地上没反应"), [])
+
+        self.assertIn("心肺复苏", answer)
+        self.assertIn("AED", answer)
+        self.assertIn("禁止在未确认现场安全时贸然冲入救人", answer)
+        self.assertIn("禁止给意识不清者喂水", answer)
+        self.assertIn("多人同时昏倒", answer)
+
+    def test_electric_shock_keeps_its_own_rule_when_no_unresponsiveness_is_reported(self) -> None:
+        """"触电倒地"不含失去反应的描述，必须留在 R-008（先断电再接触）。"""
+        rule = match_rule("同学触电倒地了怎么办")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-008", rule["id"])
+
+    def test_fire_with_a_collapsed_person_stays_on_the_fire_rule(self) -> None:
+        """起火现场的首要指令仍是灭火/撤离，不被医疗应急抢走。"""
+        rule = match_rule("实验室起火有人昏倒")
+
+        self.assertIsNotNone(rule)
+        self.assertEqual("R-013", rule["id"])
+
+    def test_cpr_training_question_is_not_treated_as_an_incident(self) -> None:
+        """"心肺复苏程序如何操作"是培训问题，不应命中事故规则。"""
+        rule = match_rule("电击急救与心肺复苏(CPR)程序应如何安全操作？")
+
+        self.assertNotEqual("R-030", (rule or {}).get("id"))
+
+
+class CryogenicOverpressureTests(unittest.TestCase):
+    """R-031：低温容器压力异常/安全阀持续起跳。"""
+
+    def test_cryogenic_vessel_overpressure_reaches_the_emergency_rule(self) -> None:
+        for question in [
+            "液氮罐压力异常升高",
+            "杜瓦瓶安全阀一直冒白雾",
+            "液氮罐压力表读数异常",
+            "液氮杜瓦瓶超压怎么办",
+        ]:
+            with self.subTest(question=question):
+                rule = match_rule(question)
+                self.assertIsNotNone(rule)
+                self.assertEqual("R-031", rule["id"])
+                self.assertEqual("redirect_emergency", rule["action"])
+
+    def test_cryogenic_overpressure_is_terminal_without_an_interrogative_marker(self) -> None:
+        from web_demo.services.kb_service import should_enforce_terminal_rule
+
+        question = "液氮罐压力异常升高"
+        self.assertTrue(should_enforce_terminal_rule(question, match_rule(question)))
+
+    def test_cryogenic_overpressure_is_never_answered_as_out_of_scope(self) -> None:
+        from web_demo.services.answer_service import assess_out_of_scope
+        from web_demo.services.kb_service import retrieve_citations
+
+        question = "液氮罐压力异常升高"
+        rule = match_rule(question)
+        is_oos, reason = assess_out_of_scope(rule, retrieve_citations(question))
+        self.assertFalse(is_oos, reason)
+
+    def test_cryogenic_template_forbids_blocking_the_relief_valve(self) -> None:
+        answer = build_rule_answer(match_rule("液氮罐压力异常升高"), [])
+
+        self.assertIn("禁止堵塞", answer)
+        self.assertIn("爆破片", answer)
+        self.assertIn("缺氧", answer)
+        self.assertIn("禁止敲击", answer)
+
+    def test_autoclave_pressure_does_not_fall_through_to_the_cryogenic_rule(self) -> None:
+        """R-031 只限低温容器；灭菌锅等压力场景有各自的专项规则。"""
+        rule = match_rule("灭菌锅压力异常升高")
+
+        self.assertNotEqual("R-031", (rule or {}).get("id"))
+
+
 if __name__ == "__main__":
     unittest.main()

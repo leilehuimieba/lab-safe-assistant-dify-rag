@@ -81,6 +81,37 @@ class FastPathRelevanceTests(unittest.TestCase):
         self.assertNotIn("针刺", top_text)
         self.assertNotIn("血液", top_text)
 
+    def test_cryogenic_pressure_question_does_not_cite_gas_chromatography_sources(self) -> None:
+        """低温容器超压不得引用"同样含压力/气瓶"的无关仪器条目。
+
+        没有 cryogenic_liquid anchor 组时，"液氮罐压力异常升高"的 top1 是
+        GC-MS 氢气载气条目，DSC 高压坩埚和 ICP-MS 钢瓶紧随其后——回答正文是
+        低温处置，"参考依据"却指向色谱和量热仪，属于错误归因。
+        """
+        retrieved = retrieve_citations("液氮罐压力异常升高", top_k=4)
+
+        self.assertTrue(retrieved)
+        # 只断言前 3 条：format_citation_lines 默认也只展示 3 条“参考依据”。
+        for item in retrieved[:3]:
+            with self.subTest(kb_id=item.kb_id):
+                text = f"{item.title} {item.source_title}"
+                self.assertTrue(
+                    any(term in text for term in ["液氮", "液氦", "杜瓦", "低温", "Cryogen", "cryogen"]),
+                    f"non-cryogenic citation: {item.kb_id} / {item.title}",
+                )
+        all_text = " ".join(f"{item.title} {item.source_title}" for item in retrieved)
+        for unrelated in ["GC-MS", "ICP-MS", "载气", "坩埚"]:
+            self.assertNotIn(unrelated, all_text)
+
+    def test_cryogenic_anchor_does_not_break_frostbite_retrieval(self) -> None:
+        retrieved = retrieve_citations("液氮溅到手上造成冻伤怎么办", top_k=4)
+
+        self.assertTrue(retrieved)
+        self.assertTrue(
+            any(term in retrieved[0].title for term in ["液氮", "低温", "杜瓦"]),
+            retrieved[0].title,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

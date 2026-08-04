@@ -60,6 +60,10 @@ _QUERY_ANCHOR_GROUPS = [
     ("diethyl_ether", ["乙醚", "diethyl ether"]),
     ("chemical_spill", ["泄漏", "洒漏", "打翻", "溅洒", "洒在", "洒出", "泼洒", "溢出"]),
     ("drying_oven", ["烘箱", "干燥箱"]),
+    # 低温液体：不加这一组时，"液氮罐压力异常升高"的 BM25 top1 会落到
+    # GC-MS 氢气载气/ICP-MS 钢瓶/DSC 高压坩埚这类同样含"压力/气瓶"的条目，
+    # 把无关来源当成"参考依据"列出来。
+    ("cryogenic_liquid", ["液氮", "液氦", "杜瓦", "低温液体", "深冷", "cryogen"]),
 ]
 _INCIDENT_ANCHOR_NAMES = {"chemical_spill"}
 
@@ -236,11 +240,16 @@ def match_rule(question: str) -> dict[str, Any] | None:
         #    意图或 enforcement=always 时才该压过其它候选。
         # 否则像“乙醚泄漏后头晕怎么办”会因为 R-002 在 YAML 中排得更早而
         # 落到“禁止明火加热”，压过真正需要的泄漏/吸入应急规则。
+        # ``enforcement: always`` 表示"命中即触发，不再要求问句里另有意图关键词"。
+        # 对 redirect_emergency 而言，这适用于 patterns 本身就是事故描述的规则
+        # （如 R-030"昏迷/不省人事"、R-031"液氮罐超压"）：用户写"同事昏迷不醒"
+        # 就已经是在报事故了，不该因为句子里没有"怎么办"就被判成非应急。
+        always_enforced = enforcement.strip().lower() == "always"
         intent_priority = 0
         if action == "redirect_emergency":
-            intent_priority = 3 if has_emergency_intent else -1
+            intent_priority = 3 if (has_emergency_intent or always_enforced) else -1
         elif action == "refuse":
-            if has_refuse_intent or enforcement.strip().lower() == "always":
+            if has_refuse_intent or always_enforced:
                 intent_priority = 2
             else:
                 intent_priority = -1
@@ -254,9 +263,9 @@ def match_rule(question: str) -> dict[str, Any] | None:
         # redirect_emergency）在 storage query 里压过 R-027（high,
         # direct_safe_answer）。
         intent_alignment = 1
-        if action == "redirect_emergency" and not has_emergency_intent:
+        if action == "redirect_emergency" and not (has_emergency_intent or always_enforced):
             intent_alignment = 0
-        elif action == "refuse" and not (has_refuse_intent or enforcement.strip().lower() == "always"):
+        elif action == "refuse" and not (has_refuse_intent or always_enforced):
             intent_alignment = 0
         candidate = {
             "id": str(rule.get("id") or ""),
@@ -295,6 +304,11 @@ def should_enforce_terminal_rule(question: str, rule: dict[str, Any] | None) -> 
         return any(marker in q for marker in REFUSE_INTENT_MARKERS)
 
     if action == "redirect_emergency":
+        # 与 match_rule 一致：enforcement=always 的应急规则命中即触发，不再
+        # 要求问句里另有 EMERGENCY_INTENT_MARKERS。用于"同事昏迷不醒"这类
+        # 本身就是事故陈述、却不含"怎么办"的输入。
+        if str(rule.get("enforcement") or "").strip().lower() == "always":
+            return True
         return any(marker in q for marker in EMERGENCY_INTENT_MARKERS)
 
     return False

@@ -43,8 +43,9 @@
 ### 2.5 安全规则引擎
 
 - `safety_rules.yaml` 中的 `rule.response` 只影响**结论段**。
-- 应急类与重点专项的"立即处理/禁止事项/应急升级"结构在 `answer_service.py::_build_emergency_rule_answer` 与 `build_rule_answer` 头部特判中硬编码，覆盖 `R-008, R-011~R-022, R-026, R-027, R-028, R-029` 共 17 条（其中 R-027/R-028/R-029 为 `direct_safe_answer` 但有专用模板）。修改 yaml 不会自动改变这三段，需要同步修改代码或 yaml 的 `response`（结论段）。
-- 新增应急规则时，如果 rule_id 不在上述 17 条范围内，会走通用兜底模板，不是硬编码的详细模板。
+- 应急类与重点专项的"立即处理/禁止事项/应急升级"结构在 `answer_service.py::_build_emergency_rule_answer` 与 `build_rule_answer` 头部特判中硬编码，覆盖 `R-008, R-011~R-022, R-026, R-027, R-028, R-029, R-030, R-031` 共 19 条（其中 R-027/R-028/R-029 为 `direct_safe_answer` 但有专用模板）。修改 yaml 不会自动改变这三段，需要同步修改代码或 yaml 的 `response`（结论段）。
+- 新增应急规则时，如果 rule_id 不在上述 19 条范围内，会走通用兜底模板，不是硬编码的详细模板。
+- `enforcement: always` 对两类 action 都生效：`refuse` 是"命中即拒绝"，`redirect_emergency` 是"命中即按应急处置"。后者只用于 patterns 本身就是事故陈述的规则（R-030 人员失去反应、R-031 低温容器超压）——这类输入常写成陈述句（"同事昏迷不醒"），句中没有 `EMERGENCY_INTENT_MARKERS`，若不豁免会被判成非应急、进而落到超出服务范围的婉拒模板。给普通应急规则加 `always` 会让它在任何提到该关键词的知识性问题上也按事故作答，不要这么做。
 
 ---
 
