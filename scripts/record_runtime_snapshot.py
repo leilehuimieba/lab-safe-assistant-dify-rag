@@ -17,6 +17,17 @@ import requests
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+# 本机回环地址永远不应该走 HTTP 代理。工作站上常驻的代理客户端（如 mihomo）在
+# 打开系统代理且 ProxyOverride 未包含回环时，会把 127.0.0.1 的请求也接管过去并
+# 返回 502，使快照记录成"服务异常"，掩盖真实状态。
+LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1", "0.0.0.0"})
+
+
+def is_loopback_url(url: str) -> bool:
+    """判断 URL 是否指向本机回环地址。"""
+    host = (urlparse(url).hostname or "").strip().lower().strip("[]")
+    return host in LOOPBACK_HOSTS
+
 
 def load_demo_password() -> str:
     configured = os.getenv("DEMO_PASSWORD", "").strip()
@@ -62,8 +73,12 @@ def fetch_json(
     demo_password: str = "",
 ) -> tuple[int, dict[str, Any], str]:
     resp = None
+    session = requests.Session()
+    if is_loopback_url(url):
+        # 忽略环境变量与系统代理设置，直连本机服务。
+        session.trust_env = False
     try:
-        resp = requests.get(
+        resp = session.get(
             url,
             headers={"x-password": demo_password} if demo_password else {},
             timeout=(8, timeout),
@@ -80,6 +95,7 @@ def fetch_json(
     finally:
         if resp is not None:
             resp.close()
+        session.close()
 
 
 def append_csv(path: Path, row: dict[str, Any], headers: list[str]) -> None:
